@@ -1,0 +1,5711 @@
+{
+  "/.vitepress/": [],
+  "/核心规则/": [
+    {
+      "text": "概览",
+      "link": "/核心规则"
+    },
+    {
+      "text": "奥法背景",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/奥法背景"
+        },
+        {
+          "text": "灵能",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奥法背景/灵能"
+            }
+          ]
+        },
+        {
+          "text": "魔法",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奥法背景/魔法"
+            }
+          ]
+        },
+        {
+          "text": "奇迹",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奥法背景/奇迹"
+            }
+          ]
+        },
+        {
+          "text": "奇异科学",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奥法背景/奇异科学"
+            }
+          ]
+        },
+        {
+          "text": "异禀",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奥法背景/异禀"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "奥法装置",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/奥法装置"
+        }
+      ]
+    },
+    {
+      "text": "不羁角色与龙套们",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/不羁角色与龙套们"
+        }
+      ]
+    },
+    {
+      "text": "单兵武器",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/单兵武器"
+        },
+        {
+          "text": "黑火药武器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/单兵武器/黑火药武器"
+            }
+          ]
+        },
+        {
+          "text": "近战武器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/单兵武器/近战武器"
+            }
+          ]
+        },
+        {
+          "text": "远程武器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/单兵武器/远程武器"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "负赘",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/负赘"
+        },
+        {
+          "text": "傲慢",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/傲慢"
+            }
+          ]
+        },
+        {
+          "text": "笨拙",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/笨拙"
+            }
+          ]
+        },
+        {
+          "text": "不谙水性",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/不谙水性"
+            }
+          ]
+        },
+        {
+          "text": "不幸",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/不幸"
+            }
+          ]
+        },
+        {
+          "text": "耻辱",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/耻辱"
+            }
+          ]
+        },
+        {
+          "text": "丑陋",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/丑陋"
+            }
+          ]
+        },
+        {
+          "text": "大嘴巴",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/大嘴巴"
+            }
+          ]
+        },
+        {
+          "text": "胆怯",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/胆怯"
+            }
+          ]
+        },
+        {
+          "text": "独臂",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/独臂"
+            }
+          ]
+        },
+        {
+          "text": "独眼",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/独眼"
+            }
+          ]
+        },
+        {
+          "text": "多疑",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/多疑"
+            }
+          ]
+        },
+        {
+          "text": "肥胖",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/肥胖"
+            }
+          ]
+        },
+        {
+          "text": "复仇",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/复仇"
+            }
+          ]
+        },
+        {
+          "text": "怪癖",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/怪癖"
+            }
+          ]
+        },
+        {
+          "text": "好奇",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/好奇"
+            }
+          ]
+        },
+        {
+          "text": "和平主义",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/和平主义"
+            }
+          ]
+        },
+        {
+          "text": "怀疑论者",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/怀疑论者"
+            }
+          ]
+        },
+        {
+          "text": "缓慢",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/缓慢"
+            }
+          ]
+        },
+        {
+          "text": "嫉妒",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/嫉妒"
+            }
+          ]
+        },
+        {
+          "text": "刻薄",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/刻薄"
+            }
+          ]
+        },
+        {
+          "text": "恐惧症",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/恐惧症"
+            }
+          ]
+        },
+        {
+          "text": "立志",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/立志"
+            }
+          ]
+        },
+        {
+          "text": "脸皮薄",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/脸皮薄"
+            }
+          ]
+        },
+        {
+          "text": "陋习",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/陋习"
+            }
+          ]
+        },
+        {
+          "text": "秘密",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/秘密"
+            }
+          ]
+        },
+        {
+          "text": "默言",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/默言"
+            }
+          ]
+        },
+        {
+          "text": "目盲",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/目盲"
+            }
+          ]
+        },
+        {
+          "text": "年老",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/年老"
+            }
+          ]
+        },
+        {
+          "text": "年幼",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/年幼"
+            }
+          ]
+        },
+        {
+          "text": "贫穷",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/贫穷"
+            }
+          ]
+        },
+        {
+          "text": "求死",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/求死"
+            }
+          ]
+        },
+        {
+          "text": "荣耀信条",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/荣耀信条"
+            }
+          ]
+        },
+        {
+          "text": "慎重",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/慎重"
+            }
+          ]
+        },
+        {
+          "text": "嗜血",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/嗜血"
+            }
+          ]
+        },
+        {
+          "text": "誓言",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/誓言"
+            }
+          ]
+        },
+        {
+          "text": "夙敌",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/夙敌"
+            }
+          ]
+        },
+        {
+          "text": "贪婪",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/贪婪"
+            }
+          ]
+        },
+        {
+          "text": "体虚",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/体虚"
+            }
+          ]
+        },
+        {
+          "text": "听力不济",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/听力不济"
+            }
+          ]
+        },
+        {
+          "text": "通缉",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/通缉"
+            }
+          ]
+        },
+        {
+          "text": "顽固",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/顽固"
+            }
+          ]
+        },
+        {
+          "text": "妄想",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/妄想"
+            }
+          ]
+        },
+        {
+          "text": "温文尔雅",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/温文尔雅"
+            }
+          ]
+        },
+        {
+          "text": "文盲",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/文盲"
+            }
+          ]
+        },
+        {
+          "text": "无情",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/无情"
+            }
+          ]
+        },
+        {
+          "text": "详述",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/详述"
+            }
+          ]
+        },
+        {
+          "text": "小个子",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/小个子"
+            }
+          ]
+        },
+        {
+          "text": "眼力不济",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/眼力不济"
+            }
+          ]
+        },
+        {
+          "text": "一窍不通",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/一窍不通"
+            }
+          ]
+        },
+        {
+          "text": "一无所知",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/一无所知"
+            }
+          ]
+        },
+        {
+          "text": "义务",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/义务"
+            }
+          ]
+        },
+        {
+          "text": "异客",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/异客"
+            }
+          ]
+        },
+        {
+          "text": "意气用事",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/意气用事"
+            }
+          ]
+        },
+        {
+          "text": "英雄本色",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/英雄本色"
+            }
+          ]
+        },
+        {
+          "text": "犹豫不决",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/犹豫不决"
+            }
+          ]
+        },
+        {
+          "text": "忠诚",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/忠诚"
+            }
+          ]
+        },
+        {
+          "text": "拙舌",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/拙舌"
+            }
+          ]
+        },
+        {
+          "text": "自负",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/负赘/自负"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "护甲",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/护甲"
+        },
+        {
+          "text": "盾牌",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/护甲/盾牌"
+            }
+          ]
+        },
+        {
+          "text": "未来护甲",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/护甲/未来护甲"
+            }
+          ]
+        },
+        {
+          "text": "现代护甲",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/护甲/现代护甲"
+            }
+          ]
+        },
+        {
+          "text": "中世纪及古代护甲",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/护甲/中世纪及古代护甲"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "技能",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "表演",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/表演"
+            }
+          ]
+        },
+        {
+          "text": "察觉",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/察觉"
+            }
+          ]
+        },
+        {
+          "text": "嘲弄",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/嘲弄"
+            }
+          ]
+        },
+        {
+          "text": "电子学",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/电子学"
+            }
+          ]
+        },
+        {
+          "text": "调查",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/调查"
+            }
+          ]
+        },
+        {
+          "text": "赌博",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/赌博"
+            }
+          ]
+        },
+        {
+          "text": "格斗",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/格斗"
+            }
+          ]
+        },
+        {
+          "text": "骇客",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/骇客"
+            }
+          ]
+        },
+        {
+          "text": "航空",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/航空"
+            }
+          ]
+        },
+        {
+          "text": "集中",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/集中"
+            }
+          ]
+        },
+        {
+          "text": "驾船",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/驾船"
+            }
+          ]
+        },
+        {
+          "text": "驾驶",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/驾驶"
+            }
+          ]
+        },
+        {
+          "text": "交涉",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/交涉"
+            }
+          ]
+        },
+        {
+          "text": "科学",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/科学"
+            }
+          ]
+        },
+        {
+          "text": "灵能",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/灵能"
+            }
+          ]
+        },
+        {
+          "text": "奇异科学",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/奇异科学"
+            }
+          ]
+        },
+        {
+          "text": "骑乘",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/骑乘"
+            }
+          ]
+        },
+        {
+          "text": "潜行",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/潜行"
+            }
+          ]
+        },
+        {
+          "text": "人文",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/人文"
+            }
+          ]
+        },
+        {
+          "text": "射击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/射击"
+            }
+          ]
+        },
+        {
+          "text": "神秘学",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/神秘学"
+            }
+          ]
+        },
+        {
+          "text": "生存",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/生存"
+            }
+          ]
+        },
+        {
+          "text": "施法",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/施法"
+            }
+          ]
+        },
+        {
+          "text": "通用知识",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/通用知识"
+            }
+          ]
+        },
+        {
+          "text": "威吓",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/威吓"
+            }
+          ]
+        },
+        {
+          "text": "未受训尝试",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/未受训尝试"
+            }
+          ]
+        },
+        {
+          "text": "信仰",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/信仰"
+            }
+          ]
+        },
+        {
+          "text": "修理",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/修理"
+            }
+          ]
+        },
+        {
+          "text": "语言",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/语言"
+            }
+          ]
+        },
+        {
+          "text": "运动",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/运动"
+            }
+          ]
+        },
+        {
+          "text": "贼活",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/贼活"
+            }
+          ]
+        },
+        {
+          "text": "治疗",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/治疗"
+            }
+          ]
+        },
+        {
+          "text": "作战",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/技能/作战"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "角色",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/角色"
+        },
+        {
+          "text": "大白鲨",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/大白鲨"
+            }
+          ]
+        },
+        {
+          "text": "短吻鳄",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "鳄鱼",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/角色/短吻鳄/鳄鱼"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "哥布林",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/哥布林"
+            }
+          ]
+        },
+        {
+          "text": "公牛",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/公牛"
+            }
+          ]
+        },
+        {
+          "text": "狗",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "狼",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/角色/狗/狼"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "鬼魂",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/鬼魂"
+            }
+          ]
+        },
+        {
+          "text": "机兵",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/机兵"
+            }
+          ]
+        },
+        {
+          "text": "集群",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/集群"
+            }
+          ]
+        },
+        {
+          "text": "巨魔",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/巨魔"
+            }
+          ]
+        },
+        {
+          "text": "巨蠕虫",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/巨蠕虫"
+            }
+          ]
+        },
+        {
+          "text": "巨蜘蛛",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/巨蜘蛛"
+            }
+          ]
+        },
+        {
+          "text": "骷髅",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/骷髅"
+            }
+          ]
+        },
+        {
+          "text": "狼人",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/狼人"
+            }
+          ]
+        },
+        {
+          "text": "龙",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/龙"
+            }
+          ]
+        },
+        {
+          "text": "龙兽",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/龙兽"
+            }
+          ]
+        },
+        {
+          "text": "骡",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/骡"
+            }
+          ]
+        },
+        {
+          "text": "马",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/马"
+            }
+          ]
+        },
+        {
+          "text": "猛禽",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/猛禽"
+            }
+          ]
+        },
+        {
+          "text": "牛头人",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/牛头人"
+            }
+          ]
+        },
+        {
+          "text": "鲨鱼",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/鲨鱼"
+            }
+          ]
+        },
+        {
+          "text": "上古吸血鬼",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/上古吸血鬼"
+            }
+          ]
+        },
+        {
+          "text": "蛇类",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/蛇类"
+            }
+          ]
+        },
+        {
+          "text": "狮子",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/狮子"
+            }
+          ]
+        },
+        {
+          "text": "食人魔",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/食人魔"
+            }
+          ]
+        },
+        {
+          "text": "士兵",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/士兵"
+            }
+          ]
+        },
+        {
+          "text": "兽人",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/兽人"
+            }
+          ]
+        },
+        {
+          "text": "兽人酋长",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/兽人酋长"
+            }
+          ]
+        },
+        {
+          "text": "巫妖",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/巫妖"
+            }
+          ]
+        },
+        {
+          "text": "吸血鬼",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/吸血鬼"
+            }
+          ]
+        },
+        {
+          "text": "详述",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/详述"
+            }
+          ]
+        },
+        {
+          "text": "小猫",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/小猫"
+            }
+          ]
+        },
+        {
+          "text": "行尸",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/行尸"
+            }
+          ]
+        },
+        {
+          "text": "凶暴狼",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/凶暴狼"
+            }
+          ]
+        },
+        {
+          "text": "熊",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/熊"
+            }
+          ]
+        },
+        {
+          "text": "元素",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/元素"
+            }
+          ]
+        },
+        {
+          "text": "战马",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/角色/战马"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "介绍",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/介绍"
+        }
+      ]
+    },
+    {
+      "text": "进行游戏",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/进行游戏"
+        }
+      ]
+    },
+    {
+      "text": "冒险工具箱",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "财富",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/冒险工具箱/财富"
+            }
+          ]
+        },
+        {
+          "text": "打点关系",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/冒险工具箱/打点关系"
+            }
+          ]
+        },
+        {
+          "text": "大规模作战",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/冒险工具箱/大规模作战"
+            }
+          ]
+        },
+        {
+          "text": "剧情任务",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/冒险工具箱/剧情任务"
+            }
+          ]
+        },
+        {
+          "text": "恐惧",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/冒险工具箱/恐惧"
+            }
+          ]
+        },
+        {
+          "text": "快速遭遇",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/冒险工具箱/快速遭遇"
+            }
+          ]
+        },
+        {
+          "text": "旅行",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/冒险工具箱/旅行"
+            }
+          ]
+        },
+        {
+          "text": "盟友",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/冒险工具箱/盟友"
+            }
+          ]
+        },
+        {
+          "text": "幕间",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/冒险工具箱/幕间"
+            }
+          ]
+        },
+        {
+          "text": "设定规则",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/冒险工具箱/设定规则"
+            }
+          ]
+        },
+        {
+          "text": "社交冲突",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/冒险工具箱/社交冲突"
+            }
+          ]
+        },
+        {
+          "text": "危难",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/冒险工具箱/危难"
+            }
+          ]
+        },
+        {
+          "text": "追逐与载具",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/冒险工具箱/追逐与载具"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "普通装备",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/普通装备"
+        }
+      ]
+    },
+    {
+      "text": "奇术",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/奇术"
+        },
+        {
+          "text": "暗视",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/暗视"
+            }
+          ]
+        },
+        {
+          "text": "奥法防护",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/奥法防护"
+            }
+          ]
+        },
+        {
+          "text": "爆发",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/爆发"
+            }
+          ]
+        },
+        {
+          "text": "爆裂",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/爆裂"
+            }
+          ]
+        },
+        {
+          "text": "沉眠",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/沉眠"
+            }
+          ]
+        },
+        {
+          "text": "抽取奇术点",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/抽取奇术点"
+            }
+          ]
+        },
+        {
+          "text": "传送",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/传送"
+            }
+          ]
+        },
+        {
+          "text": "读物",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/读物"
+            }
+          ]
+        },
+        {
+          "text": "读心",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/读心"
+            }
+          ]
+        },
+        {
+          "text": "遁地",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/遁地"
+            }
+          ]
+        },
+        {
+          "text": "发声",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "沉默",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/奇术/发声/沉默"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "防护",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/防护"
+            }
+          ]
+        },
+        {
+          "text": "放大",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "缩小",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/奇术/放大/缩小"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "放逐",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/放逐"
+            }
+          ]
+        },
+        {
+          "text": "飞行",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/飞行"
+            }
+          ]
+        },
+        {
+          "text": "复生",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/复生"
+            }
+          ]
+        },
+        {
+          "text": "共感",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/共感"
+            }
+          ]
+        },
+        {
+          "text": "光亮",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "黑暗",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/奇术/光亮/黑暗"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "化形",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/化形"
+            }
+          ]
+        },
+        {
+          "text": "环境防护",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/环境防护"
+            }
+          ]
+        },
+        {
+          "text": "缓和",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/缓和"
+            }
+          ]
+        },
+        {
+          "text": "幻象",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/幻象"
+            }
+          ]
+        },
+        {
+          "text": "劫动",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/劫动"
+            }
+          ]
+        },
+        {
+          "text": "纠缠",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/纠缠"
+            }
+          ]
+        },
+        {
+          "text": "恐惧",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/恐惧"
+            }
+          ]
+        },
+        {
+          "text": "傀儡",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/傀儡"
+            }
+          ]
+        },
+        {
+          "text": "困惑",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/困惑"
+            }
+          ]
+        },
+        {
+          "text": "目盲",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/目盲"
+            }
+          ]
+        },
+        {
+          "text": "念动",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/念动"
+            }
+          ]
+        },
+        {
+          "text": "偏斜",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/偏斜"
+            }
+          ]
+        },
+        {
+          "text": "屏障",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/屏障"
+            }
+          ]
+        },
+        {
+          "text": "破袪",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/破袪"
+            }
+          ]
+        },
+        {
+          "text": "强化",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "削弱特性",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/奇术/强化/削弱特性"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "矢弹",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/矢弹"
+            }
+          ]
+        },
+        {
+          "text": "天赐勇武",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/天赐勇武"
+            }
+          ]
+        },
+        {
+          "text": "通晓语言",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/通晓语言"
+            }
+          ]
+        },
+        {
+          "text": "痛击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/痛击"
+            }
+          ]
+        },
+        {
+          "text": "无形",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/无形"
+            }
+          ]
+        },
+        {
+          "text": "心灵链接",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/心灵链接"
+            }
+          ]
+        },
+        {
+          "text": "心智抹除",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/心智抹除"
+            }
+          ]
+        },
+        {
+          "text": "行尸",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/行尸"
+            }
+          ]
+        },
+        {
+          "text": "野兽同盟",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/野兽同盟"
+            }
+          ]
+        },
+        {
+          "text": "易容",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/易容"
+            }
+          ]
+        },
+        {
+          "text": "隐形",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/隐形"
+            }
+          ]
+        },
+        {
+          "text": "预言",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/预言"
+            }
+          ]
+        },
+        {
+          "text": "元素操纵",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/元素操纵"
+            }
+          ]
+        },
+        {
+          "text": "远视",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/远视"
+            }
+          ]
+        },
+        {
+          "text": "召唤盟友",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/召唤盟友"
+            }
+          ]
+        },
+        {
+          "text": "侦测",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "隐藏奥法",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/奇术/侦测/隐藏奥法"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "震慑",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/震慑"
+            }
+          ]
+        },
+        {
+          "text": "治疗",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/治疗"
+            }
+          ]
+        },
+        {
+          "text": "致盲",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/致盲"
+            }
+          ]
+        },
+        {
+          "text": "致伤领域",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/致伤领域"
+            }
+          ]
+        },
+        {
+          "text": "滞缓",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "加速",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/奇术/滞缓/加速"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "走壁",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术/走壁"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "奇术调整",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/奇术调整"
+        },
+        {
+          "text": "持续伤害_(+2)",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术调整/持续伤害_(+2)"
+            }
+          ]
+        },
+        {
+          "text": "穿甲_(+1 至 +3)",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术调整/穿甲_(+1 至 +3)"
+            }
+          ]
+        },
+        {
+          "text": "发光或覆影_(+1)",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术调整/发光或覆影_(+1)"
+            }
+          ]
+        },
+        {
+          "text": "妨碍或加快_(+1)",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术调整/妨碍或加快_(+1)"
+            }
+          ]
+        },
+        {
+          "text": "疲乏_(+2)",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术调整/疲乏_(+2)"
+            }
+          ]
+        },
+        {
+          "text": "选别_(+1)",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术调整/选别_(+1)"
+            }
+          ]
+        },
+        {
+          "text": "增距_(+1 或 +2)",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术调整/增距_(+1 或 +2)"
+            }
+          ]
+        },
+        {
+          "text": "重武器_(+2)",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/奇术调整/重武器_(+2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "奇术列表",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/奇术列表"
+        }
+      ]
+    },
+    {
+      "text": "奇术详述",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/奇术详述"
+        }
+      ]
+    },
+    {
+      "text": "启动",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/启动"
+        }
+      ]
+    },
+    {
+      "text": "情景规则",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/情景规则"
+        },
+        {
+          "text": "不羁攻击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/不羁攻击"
+            }
+          ]
+        },
+        {
+          "text": "不稳平台",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/不稳平台"
+            }
+          ]
+        },
+        {
+          "text": "撤出近战",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/撤出近战"
+            }
+          ]
+        },
+        {
+          "text": "处决",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/处决"
+            }
+          ]
+        },
+        {
+          "text": "待机",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/待机"
+            }
+          ]
+        },
+        {
+          "text": "定点打击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/定点打击"
+            }
+          ]
+        },
+        {
+          "text": "多重动作",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/多重动作"
+            }
+          ]
+        },
+        {
+          "text": "范围效果攻击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/范围效果攻击"
+            }
+          ]
+        },
+        {
+          "text": "防御",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/防御"
+            }
+          ]
+        },
+        {
+          "text": "非致命伤害",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/非致命伤害"
+            }
+          ]
+        },
+        {
+          "text": "分神与脆弱",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/分神与脆弱"
+            }
+          ]
+        },
+        {
+          "text": "副手攻击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/副手攻击"
+            }
+          ]
+        },
+        {
+          "text": "后坐力",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/后坐力"
+            }
+          ]
+        },
+        {
+          "text": "回避",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/回避"
+            }
+          ]
+        },
+        {
+          "text": "火力压制",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/火力压制"
+            }
+          ]
+        },
+        {
+          "text": "缴械",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/缴械"
+            }
+          ]
+        },
+        {
+          "text": "接触攻击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/接触攻击"
+            }
+          ]
+        },
+        {
+          "text": "近战中的远程武器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/近战中的远程武器"
+            }
+          ]
+        },
+        {
+          "text": "考验",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/考验"
+            }
+          ]
+        },
+        {
+          "text": "临时武器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/临时武器"
+            }
+          ]
+        },
+        {
+          "text": "冒进攻击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/冒进攻击"
+            }
+          ]
+        },
+        {
+          "text": "瞄准",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/瞄准"
+            }
+          ]
+        },
+        {
+          "text": "疲乏",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/疲乏"
+            }
+          ]
+        },
+        {
+          "text": "破坏物体",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/破坏物体"
+            }
+          ]
+        },
+        {
+          "text": "奇袭",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/奇袭"
+            }
+          ]
+        },
+        {
+          "text": "骑乘战斗",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/骑乘战斗"
+            }
+          ]
+        },
+        {
+          "text": "擒抱",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/擒抱"
+            }
+          ]
+        },
+        {
+          "text": "射向近战",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/射向近战"
+            }
+          ]
+        },
+        {
+          "text": "手无寸铁",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/手无寸铁"
+            }
+          ]
+        },
+        {
+          "text": "束缚与纠缠",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/束缚与纠缠"
+            }
+          ]
+        },
+        {
+          "text": "双武器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/双武器"
+            }
+          ]
+        },
+        {
+          "text": "速度",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/速度"
+            }
+          ]
+        },
+        {
+          "text": "体型与尺寸",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/体型与尺寸"
+            }
+          ]
+        },
+        {
+          "text": "天生武器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/天生武器"
+            }
+          ]
+        },
+        {
+          "text": "突袭",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/突袭"
+            }
+          ]
+        },
+        {
+          "text": "推撞",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/推撞"
+            }
+          ]
+        },
+        {
+          "text": "围攻",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/围攻"
+            }
+          ]
+        },
+        {
+          "text": "卧地",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/卧地"
+            }
+          ]
+        },
+        {
+          "text": "无辜旁人",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/无辜旁人"
+            }
+          ]
+        },
+        {
+          "text": "霰弹枪",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/霰弹枪"
+            }
+          ]
+        },
+        {
+          "text": "掩蔽与障碍",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/掩蔽与障碍"
+            }
+          ]
+        },
+        {
+          "text": "预备武器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/预备武器"
+            }
+          ]
+        },
+        {
+          "text": "援助",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/援助"
+            }
+          ]
+        },
+        {
+          "text": "载具",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/载具"
+            }
+          ]
+        },
+        {
+          "text": "照明",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/照明"
+            }
+          ]
+        },
+        {
+          "text": "震慑",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/震慑"
+            }
+          ]
+        },
+        {
+          "text": "装填",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/装填"
+            }
+          ]
+        },
+        {
+          "text": "自由攻击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/情景规则/自由攻击"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "设定规则",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "创新战斗",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/创新战斗"
+            }
+          ]
+        },
+        {
+          "text": "动态反冲",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/动态反冲"
+            }
+          ]
+        },
+        {
+          "text": "多语言",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/多语言"
+            }
+          ]
+        },
+        {
+          "text": "更多技能点",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/更多技能点"
+            }
+          ]
+        },
+        {
+          "text": "狗屎运",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/狗屎运"
+            }
+          ]
+        },
+        {
+          "text": "技能专精",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/技能专精"
+            }
+          ]
+        },
+        {
+          "text": "艰难抉择",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/艰难抉择"
+            }
+          ]
+        },
+        {
+          "text": "快速恢复",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/快速恢复"
+            }
+          ]
+        },
+        {
+          "text": "狂热者",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/狂热者"
+            }
+          ]
+        },
+        {
+          "text": "爽快冒险",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/爽快冒险"
+            }
+          ]
+        },
+        {
+          "text": "损伤阈值",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/损伤阈值"
+            }
+          ]
+        },
+        {
+          "text": "无甲勇士",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/无甲勇士"
+            }
+          ]
+        },
+        {
+          "text": "无奇术点",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/无奇术点"
+            }
+          ]
+        },
+        {
+          "text": "写实伤害",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/写实伤害"
+            }
+          ]
+        },
+        {
+          "text": "信念",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/信念"
+            }
+          ]
+        },
+        {
+          "text": "英雄不灭",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/英雄不灭"
+            }
+          ]
+        },
+        {
+          "text": "英雄初诞",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/设定规则/英雄初诞"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "升级",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/升级"
+        }
+      ]
+    },
+    {
+      "text": "生物列表",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/生物列表"
+        }
+      ]
+    },
+    {
+      "text": "生物图鉴",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/生物图鉴"
+        }
+      ]
+    },
+    {
+      "text": "特殊能力",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "不死族_Undead",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/不死族_Undead"
+            }
+          ]
+        },
+        {
+          "text": "触手_Tentacles",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/触手_Tentacles"
+            }
+          ]
+        },
+        {
+          "text": "毒素_Poison",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/毒素_Poison"
+            }
+          ]
+        },
+        {
+          "text": "遁地_Burrow",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/遁地_Burrow"
+            }
+          ]
+        },
+        {
+          "text": "飞行_Flight",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/飞行_Flight"
+            }
+          ]
+        },
+        {
+          "text": "感染_Infection",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/感染_Infection"
+            }
+          ]
+        },
+        {
+          "text": "构装体_Construct",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/构装体_Construct"
+            }
+          ]
+        },
+        {
+          "text": "红外感应_Infravision",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/红外感应_Infravision"
+            }
+          ]
+        },
+        {
+          "text": "护甲_Armor",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/护甲_Armor"
+            }
+          ]
+        },
+        {
+          "text": "环境抗性_Environmental_Resistance",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/环境抗性_Environmental_Resistance"
+            }
+          ]
+        },
+        {
+          "text": "环境弱点_Environmental_Weakness",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/环境弱点_Environmental_Weakness"
+            }
+          ]
+        },
+        {
+          "text": "角撞_Horns",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/角撞_Horns"
+            }
+          ]
+        },
+        {
+          "text": "巨型_Gargantuan",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/巨型_Gargantuan"
+            }
+          ]
+        },
+        {
+          "text": "恐惧_Fear",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/恐惧_Fear"
+            }
+          ]
+        },
+        {
+          "text": "灵态_Ethereal",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/灵态_Ethereal"
+            }
+          ]
+        },
+        {
+          "text": "麻痹_Paralysis",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/麻痹_Paralysis"
+            }
+          ]
+        },
+        {
+          "text": "免疫_Immunity",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/免疫_Immunity"
+            }
+          ]
+        },
+        {
+          "text": "拍打_Swat",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/拍打_Swat"
+            }
+          ]
+        },
+        {
+          "text": "强韧",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "非常强韧_Resilient",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Very_Resilient",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "概览",
+                      "link": "/核心规则/特殊能力/强韧/非常强韧_Resilient/Very_Resilient"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "弱点_Weakness",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/弱点_Weakness"
+            }
+          ]
+        },
+        {
+          "text": "噬咬_Bite",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/噬咬_Bite"
+            }
+          ]
+        },
+        {
+          "text": "水栖_Aquatic",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/水栖_Aquatic"
+            }
+          ]
+        },
+        {
+          "text": "体型_Size",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/体型_Size"
+            }
+          ]
+        },
+        {
+          "text": "吐息武器_Breath_Weapons",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/吐息武器_Breath_Weapons"
+            }
+          ]
+        },
+        {
+          "text": "顽强_Hardy",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/顽强_Hardy"
+            }
+          ]
+        },
+        {
+          "text": "微光视觉_Low_Light_Vision",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/微光视觉_Low_Light_Vision"
+            }
+          ]
+        },
+        {
+          "text": "无敌_Invulnerability",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/无敌_Invulnerability"
+            }
+          ]
+        },
+        {
+          "text": "无畏_Fearless",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/无畏_Fearless"
+            }
+          ]
+        },
+        {
+          "text": "元素_Element",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/元素_Element"
+            }
+          ]
+        },
+        {
+          "text": "再生_Regeneration",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/再生_Regeneration"
+            }
+          ]
+        },
+        {
+          "text": "爪抓_Claws",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/爪抓_Claws"
+            }
+          ]
+        },
+        {
+          "text": "震慑_Stun",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/震慑_Stun"
+            }
+          ]
+        },
+        {
+          "text": "走壁_Wall_Walker",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊能力/走壁_Wall_Walker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "特殊武器",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/特殊武器"
+        },
+        {
+          "text": "导弹",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊武器/导弹"
+            }
+          ]
+        },
+        {
+          "text": "地雷",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊武器/地雷"
+            }
+          ]
+        },
+        {
+          "text": "火箭发射器与鱼雷",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊武器/火箭发射器与鱼雷"
+            }
+          ]
+        },
+        {
+          "text": "加农炮",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊武器/加农炮"
+            }
+          ]
+        },
+        {
+          "text": "喷火器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊武器/喷火器"
+            }
+          ]
+        },
+        {
+          "text": "手雷",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊武器/手雷"
+            }
+          ]
+        },
+        {
+          "text": "投石机",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊武器/投石机"
+            }
+          ]
+        },
+        {
+          "text": "载具武器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特殊武器/载具武器"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "特效",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/特效"
+        }
+      ]
+    },
+    {
+      "text": "特性",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/特性"
+        },
+        {
+          "text": "技能列表",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特性/技能列表"
+            }
+          ]
+        },
+        {
+          "text": "详述",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/特性/详述"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "特性投骰",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/特性投骰"
+        }
+      ]
+    },
+    {
+      "text": "体型表",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/体型表"
+        }
+      ]
+    },
+    {
+      "text": "危难",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "触电",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/触电"
+            }
+          ]
+        },
+        {
+          "text": "毒素",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/毒素"
+            }
+          ]
+        },
+        {
+          "text": "辐射",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/辐射"
+            }
+          ]
+        },
+        {
+          "text": "干渴",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/干渴"
+            }
+          ]
+        },
+        {
+          "text": "寒冷",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/寒冷"
+            }
+          ]
+        },
+        {
+          "text": "火焰",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/火焰"
+            }
+          ]
+        },
+        {
+          "text": "饥饿",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/饥饿"
+            }
+          ]
+        },
+        {
+          "text": "疾病",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/疾病"
+            }
+          ]
+        },
+        {
+          "text": "溺水",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/溺水"
+            }
+          ]
+        },
+        {
+          "text": "攀爬",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/攀爬"
+            }
+          ]
+        },
+        {
+          "text": "睡眠",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/睡眠"
+            }
+          ]
+        },
+        {
+          "text": "炎热",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/炎热"
+            }
+          ]
+        },
+        {
+          "text": "肿痛与擦伤",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/肿痛与擦伤"
+            }
+          ]
+        },
+        {
+          "text": "坠落",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/危难/坠落"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "未受训尝试",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/未受训尝试"
+        }
+      ]
+    },
+    {
+      "text": "现代火器",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/现代火器"
+        },
+        {
+          "text": "步枪",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/现代火器/步枪"
+            }
+          ]
+        },
+        {
+          "text": "冲锋枪",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/现代火器/冲锋枪"
+            }
+          ]
+        },
+        {
+          "text": "机枪",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/现代火器/机枪"
+            }
+          ]
+        },
+        {
+          "text": "激光",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/现代火器/激光"
+            }
+          ]
+        },
+        {
+          "text": "手枪",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/现代火器/手枪"
+            }
+          ]
+        },
+        {
+          "text": "霰弹枪",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/现代火器/霰弹枪"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "载具",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/载具"
+        },
+        {
+          "text": "船舶",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/载具/船舶"
+            }
+          ]
+        },
+        {
+          "text": "地面载具",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/载具/地面载具"
+            }
+          ]
+        },
+        {
+          "text": "飞行器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/载具/飞行器"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "载具详述",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/载具详述"
+        }
+      ]
+    },
+    {
+      "text": "战斗",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/战斗"
+        },
+        {
+          "text": "攻击_Attacks",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/战斗/攻击_Attacks"
+            }
+          ]
+        },
+        {
+          "text": "化解投骰_Soak_Rolls",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/战斗/化解投骰_Soak_Rolls"
+            }
+          ]
+        },
+        {
+          "text": "伤害_Damage",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/战斗/伤害_Damage"
+            }
+          ]
+        },
+        {
+          "text": "伤害效果_Damage_Effect",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/战斗/伤害效果_Damage_Effect"
+            }
+          ]
+        },
+        {
+          "text": "行动_Actions",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/战斗/行动_Actions"
+            }
+          ]
+        },
+        {
+          "text": "行动卡_Action_Cards",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/战斗/行动卡_Action_Cards"
+            }
+          ]
+        },
+        {
+          "text": "移动_Movement",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/战斗/移动_Movement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "治疗",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/治疗"
+        }
+      ]
+    },
+    {
+      "text": "主持游戏",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/主持游戏"
+        }
+      ]
+    },
+    {
+      "text": "助力点",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/助力点"
+        }
+      ]
+    },
+    {
+      "text": "专长",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/专长"
+        },
+        {
+          "text": "奥法背景",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/奥法背景"
+            }
+          ]
+        },
+        {
+          "text": "奥法抗性",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/奥法抗性"
+            }
+          ]
+        },
+        {
+          "text": "比钢还强",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/比钢还强"
+            }
+          ]
+        },
+        {
+          "text": "比铁还硬",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/比铁还硬"
+            }
+          ]
+        },
+        {
+          "text": "搏击师",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/搏击师"
+            }
+          ]
+        },
+        {
+          "text": "搏击手",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/搏击手"
+            }
+          ]
+        },
+        {
+          "text": "沉稳冷静",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/沉稳冷静"
+            }
+          ]
+        },
+        {
+          "text": "刺客",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/刺客"
+            }
+          ]
+        },
+        {
+          "text": "大师水准",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/大师水准"
+            }
+          ]
+        },
+        {
+          "text": "导能",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/导能"
+            }
+          ]
+        },
+        {
+          "text": "盗贼",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/盗贼"
+            }
+          ]
+        },
+        {
+          "text": "调查员",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/调查员"
+            }
+          ]
+        },
+        {
+          "text": "额外效能",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/额外效能"
+            }
+          ]
+        },
+        {
+          "text": "法师",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/法师"
+            }
+          ]
+        },
+        {
+          "text": "反驳",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/反驳"
+            }
+          ]
+        },
+        {
+          "text": "反击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/反击"
+            }
+          ]
+        },
+        {
+          "text": "飞毛腿",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/飞毛腿"
+            }
+          ]
+        },
+        {
+          "text": "俯拾皆兵",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/俯拾皆兵"
+            }
+          ]
+        },
+        {
+          "text": "富裕",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/富裕"
+            }
+          ]
+        },
+        {
+          "text": "钢铁神经",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/钢铁神经"
+            }
+          ]
+        },
+        {
+          "text": "钢铁意志",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/钢铁意志"
+            }
+          ]
+        },
+        {
+          "text": "高等幸运",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/高等幸运"
+            }
+          ]
+        },
+        {
+          "text": "共同联结",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/共同联结"
+            }
+          ]
+        },
+        {
+          "text": "毫不留情",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/毫不留情"
+            }
+          ]
+        },
+        {
+          "text": "好胜心",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/好胜心"
+            }
+          ]
+        },
+        {
+          "text": "横扫",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/横扫"
+            }
+          ]
+        },
+        {
+          "text": "获得奇术点",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/获得奇术点"
+            }
+          ]
+        },
+        {
+          "text": "激励",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/激励"
+            }
+          ]
+        },
+        {
+          "text": "激怒",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/激怒"
+            }
+          ]
+        },
+        {
+          "text": "激情四射",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/激情四射"
+            }
+          ]
+        },
+        {
+          "text": "加把劲",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/加把劲"
+            }
+          ]
+        },
+        {
+          "text": "坚强意志",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/坚强意志"
+            }
+          ]
+        },
+        {
+          "text": "健壮",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/健壮"
+            }
+          ]
+        },
+        {
+          "text": "精通奥法抗性",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/精通奥法抗性"
+            }
+          ]
+        },
+        {
+          "text": "精通沉稳冷静",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/精通沉稳冷静"
+            }
+          ]
+        },
+        {
+          "text": "精通反击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/精通反击"
+            }
+          ]
+        },
+        {
+          "text": "精通钢铁神经",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/精通钢铁神经"
+            }
+          ]
+        },
+        {
+          "text": "精通横扫",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/精通横扫"
+            }
+          ]
+        },
+        {
+          "text": "精通快速充能",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/精通快速充能"
+            }
+          ]
+        },
+        {
+          "text": "精通连击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/精通连击"
+            }
+          ]
+        },
+        {
+          "text": "精通闪避",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/精通闪避"
+            }
+          ]
+        },
+        {
+          "text": "精通速射",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/精通速射"
+            }
+          ]
+        },
+        {
+          "text": "精通脱身",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/精通脱身"
+            }
+          ]
+        },
+        {
+          "text": "精通先发制人",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/精通先发制人"
+            }
+          ]
+        },
+        {
+          "text": "精通招架",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/精通招架"
+            }
+          ]
+        },
+        {
+          "text": "精通招牌武器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/精通招牌武器"
+            }
+          ]
+        },
+        {
+          "text": "警觉",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/警觉"
+            }
+          ]
+        },
+        {
+          "text": "九死一生",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/九死一生"
+            }
+          ]
+        },
+        {
+          "text": "酒壮人胆",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/酒壮人胆"
+            }
+          ]
+        },
+        {
+          "text": "巨物杀手",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/巨物杀手"
+            }
+          ]
+        },
+        {
+          "text": "聚精会神",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/聚精会神"
+            }
+          ]
+        },
+        {
+          "text": "可靠",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/可靠"
+            }
+          ]
+        },
+        {
+          "text": "控心师",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/控心师"
+            }
+          ]
+        },
+        {
+          "text": "快速充能",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/快速充能"
+            }
+          ]
+        },
+        {
+          "text": "快速痊愈",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/快速痊愈"
+            }
+          ]
+        },
+        {
+          "text": "狂化",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/狂化"
+            }
+          ]
+        },
+        {
+          "text": "连击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/连击"
+            }
+          ]
+        },
+        {
+          "text": "蛮勇",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/蛮勇"
+            }
+          ]
+        },
+        {
+          "text": "魅力非凡",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/魅力非凡"
+            }
+          ]
+        },
+        {
+          "text": "魅力惊人",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/魅力惊人"
+            }
+          ]
+        },
+        {
+          "text": "名声大噪",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/名声大噪"
+            }
+          ]
+        },
+        {
+          "text": "谋定后动",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/谋定后动"
+            }
+          ]
+        },
+        {
+          "text": "能量涌动",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/能量涌动"
+            }
+          ]
+        },
+        {
+          "text": "破烂王",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/破烂王"
+            }
+          ]
+        },
+        {
+          "text": "奇械匠",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/奇械匠"
+            }
+          ]
+        },
+        {
+          "text": "气",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/气"
+            }
+          ]
+        },
+        {
+          "text": "强力一击",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/强力一击"
+            }
+          ]
+        },
+        {
+          "text": "巧手先生",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/巧手先生"
+            }
+          ]
+        },
+        {
+          "text": "亲和力",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/亲和力"
+            }
+          ]
+        },
+        {
+          "text": "热忱",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/热忱"
+            }
+          ]
+        },
+        {
+          "text": "热情洋溢",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/热情洋溢"
+            }
+          ]
+        },
+        {
+          "text": "人脉",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/人脉"
+            }
+          ]
+        },
+        {
+          "text": "煽风点火",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/煽风点火"
+            }
+          ]
+        },
+        {
+          "text": "闪避",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/闪避"
+            }
+          ]
+        },
+        {
+          "text": "上流人士",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/上流人士"
+            }
+          ]
+        },
+        {
+          "text": "神器师",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/神器师"
+            }
+          ]
+        },
+        {
+          "text": "神射手",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/神射手"
+            }
+          ]
+        },
+        {
+          "text": "神圣",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "邪恶战士",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/专长/神圣/邪恶战士"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "士兵",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/士兵"
+            }
+          ]
+        },
+        {
+          "text": "市井门道",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/市井门道"
+            }
+          ]
+        },
+        {
+          "text": "手稳",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/手稳"
+            }
+          ]
+        },
+        {
+          "text": "守林人",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/守林人"
+            }
+          ]
+        },
+        {
+          "text": "双发快射",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/双发快射"
+            }
+          ]
+        },
+        {
+          "text": "双枪小子",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/双枪小子"
+            }
+          ]
+        },
+        {
+          "text": "双巧手",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/双巧手"
+            }
+          ]
+        },
+        {
+          "text": "死里逃生",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/死里逃生"
+            }
+          ]
+        },
+        {
+          "text": "死守不退",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/死守不退"
+            }
+          ]
+        },
+        {
+          "text": "死亡一射",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/死亡一射"
+            }
+          ]
+        },
+        {
+          "text": "速射",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/速射"
+            }
+          ]
+        },
+        {
+          "text": "随从",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/随从"
+            }
+          ]
+        },
+        {
+          "text": "特技员",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/特技员"
+            }
+          ]
+        },
+        {
+          "text": "天生领袖",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/天生领袖"
+            }
+          ]
+        },
+        {
+          "text": "头铁",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/头铁"
+            }
+          ]
+        },
+        {
+          "text": "推波助澜",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/推波助澜"
+            }
+          ]
+        },
+        {
+          "text": "推波助浪",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/推波助浪"
+            }
+          ]
+        },
+        {
+          "text": "脱身",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/脱身"
+            }
+          ]
+        },
+        {
+          "text": "万事通",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/万事通"
+            }
+          ]
+        },
+        {
+          "text": "王牌机师",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/王牌机师"
+            }
+          ]
+        },
+        {
+          "text": "危险感知",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/危险感知"
+            }
+          ]
+        },
+        {
+          "text": "武斗家",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/武斗家"
+            }
+          ]
+        },
+        {
+          "text": "武器大师",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/武器大师"
+            }
+          ]
+        },
+        {
+          "text": "武器宗师",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/武器宗师"
+            }
+          ]
+        },
+        {
+          "text": "武术家",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/武术家"
+            }
+          ]
+        },
+        {
+          "text": "先发制人",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/先发制人"
+            }
+          ]
+        },
+        {
+          "text": "详述",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/详述"
+            },
+            {
+              "text": "背景专长_Background_Edges",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/专长/详述/背景专长_Background_Edges"
+                }
+              ]
+            },
+            {
+              "text": "传奇专长_Legendary_Edges",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/专长/详述/传奇专长_Legendary_Edges"
+                }
+              ]
+            },
+            {
+              "text": "领导力专长_Leadership_Edges",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/专长/详述/领导力专长_Leadership_Edges"
+                }
+              ]
+            },
+            {
+              "text": "奇术专长_Power_Edges",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/专长/详述/奇术专长_Power_Edges"
+                }
+              ]
+            },
+            {
+              "text": "奇异专长_Weird_Edges",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/专长/详述/奇异专长_Weird_Edges"
+                }
+              ]
+            },
+            {
+              "text": "社交专长_Social_Edges",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/专长/详述/社交专长_Social_Edges"
+                }
+              ]
+            },
+            {
+              "text": "术业专长_Professional_Edges",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/专长/详述/术业专长_Professional_Edges"
+                }
+              ]
+            },
+            {
+              "text": "战斗专长_Combat_Edges",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "概览",
+                  "link": "/核心规则/专长/详述/战斗专长_Combat_Edges"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "小有名气",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/小有名气"
+            }
+          ]
+        },
+        {
+          "text": "新奇术",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/新奇术"
+            }
+          ]
+        },
+        {
+          "text": "幸运",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/幸运"
+            }
+          ]
+        },
+        {
+          "text": "凶神恶煞",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/凶神恶煞"
+            }
+          ]
+        },
+        {
+          "text": "修理先生",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/修理先生"
+            }
+          ]
+        },
+        {
+          "text": "羞辱",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/羞辱"
+            }
+          ]
+        },
+        {
+          "text": "虚招",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/虚招"
+            }
+          ]
+        },
+        {
+          "text": "学者",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/学者"
+            }
+          ]
+        },
+        {
+          "text": "迅捷",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/迅捷"
+            }
+          ]
+        },
+        {
+          "text": "野兽大师",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/野兽大师"
+            }
+          ]
+        },
+        {
+          "text": "野兽联结",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/野兽联结"
+            }
+          ]
+        },
+        {
+          "text": "殷富",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/殷富"
+            }
+          ]
+        },
+        {
+          "text": "饮魂汲魄",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/饮魂汲魄"
+            }
+          ]
+        },
+        {
+          "text": "勇敢",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/勇敢"
+            }
+          ]
+        },
+        {
+          "text": "勇士",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/勇士"
+            }
+          ]
+        },
+        {
+          "text": "语言学家",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/语言学家"
+            }
+          ]
+        },
+        {
+          "text": "战斗反应",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/战斗反应"
+            }
+          ]
+        },
+        {
+          "text": "战斗特技",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/战斗特技"
+            }
+          ]
+        },
+        {
+          "text": "战术大师",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/战术大师"
+            }
+          ]
+        },
+        {
+          "text": "战术家",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/战术家"
+            }
+          ]
+        },
+        {
+          "text": "招架",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/招架"
+            }
+          ]
+        },
+        {
+          "text": "招牌武器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/招牌武器"
+            }
+          ]
+        },
+        {
+          "text": "指挥",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/指挥"
+            }
+          ]
+        },
+        {
+          "text": "指挥风度",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/指挥风度"
+            }
+          ]
+        },
+        {
+          "text": "治疗师",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/治疗师"
+            }
+          ]
+        },
+        {
+          "text": "助手",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/助手"
+            }
+          ]
+        },
+        {
+          "text": "专家水准",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/专家水准"
+            }
+          ]
+        },
+        {
+          "text": "专业水准",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/专业水准"
+            }
+          ]
+        },
+        {
+          "text": "自由跑者",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/自由跑者"
+            }
+          ]
+        },
+        {
+          "text": "左右连环",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/专长/左右连环"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "装备",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/装备"
+        }
+      ]
+    },
+    {
+      "text": "装备附注",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "触及_REACH",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/触及_REACH"
+            }
+          ]
+        },
+        {
+          "text": "穿甲_ARMOR PIERCING, AP",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/穿甲_ARMOR PIERCING, AP"
+            }
+          ]
+        },
+        {
+          "text": "猝射",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/猝射"
+            }
+          ]
+        },
+        {
+          "text": "高爆_(HE)",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/高爆_(HE)"
+            }
+          ]
+        },
+        {
+          "text": "格挡",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/格挡"
+            }
+          ]
+        },
+        {
+          "text": "护甲值_ARMOR",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/护甲值_ARMOR"
+            }
+          ]
+        },
+        {
+          "text": "口径",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/口径"
+            }
+          ]
+        },
+        {
+          "text": "三连发_THREE-ROUND BURST",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/三连发_THREE-ROUND BURST"
+            }
+          ]
+        },
+        {
+          "text": "伤害_DAMAGE",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/伤害_DAMAGE"
+            }
+          ]
+        },
+        {
+          "text": "射程",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/射程"
+            }
+          ]
+        },
+        {
+          "text": "射速",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/射速"
+            }
+          ]
+        },
+        {
+          "text": "双手",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/双手"
+            }
+          ]
+        },
+        {
+          "text": "重武器_(HW)",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/重武器_(HW)"
+            }
+          ]
+        },
+        {
+          "text": "装填",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/装填"
+            }
+          ]
+        },
+        {
+          "text": "最低力量",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/装备附注/最低力量"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "状态速查",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/状态速查"
+        }
+      ]
+    },
+    {
+      "text": "族裔",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "概览",
+          "link": "/核心规则/族裔"
+        },
+        {
+          "text": "矮人",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/族裔/矮人"
+            }
+          ]
+        },
+        {
+          "text": "半精灵",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/族裔/半精灵"
+            }
+          ]
+        },
+        {
+          "text": "半身人",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/族裔/半身人"
+            }
+          ]
+        },
+        {
+          "text": "创造族裔",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/族裔/创造族裔"
+            }
+          ]
+        },
+        {
+          "text": "仿生人",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/族裔/仿生人"
+            }
+          ]
+        },
+        {
+          "text": "鲛人",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/族裔/鲛人"
+            }
+          ]
+        },
+        {
+          "text": "精灵",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/族裔/精灵"
+            }
+          ]
+        },
+        {
+          "text": "猫族",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/族裔/猫族"
+            }
+          ]
+        },
+        {
+          "text": "人类",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/族裔/人类"
+            }
+          ]
+        },
+        {
+          "text": "圣卫",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/族裔/圣卫"
+            }
+          ]
+        },
+        {
+          "text": "天民",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/族裔/天民"
+            }
+          ]
+        },
+        {
+          "text": "蜥蜴人",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/族裔/蜥蜴人"
+            }
+          ]
+        },
+        {
+          "text": "翼民",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "概览",
+              "link": "/核心规则/族裔/翼民"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
