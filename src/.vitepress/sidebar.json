@@ -1,695 +1,721 @@
 {
-  "/核心规则/角色/": [
+  "/核心规则/": [
     {
-      "text": "负赘",
-      "collapsed": true,
-      "link": "/核心规则/负赘/"
-    },
-    {
-      "text": "特性",
-      "collapsed": true,
+      "text": "第一章：角色",
+      "collapsed": false,
       "items": [
         {
-          "text": "技能列表",
+          "text": "负赘",
           "collapsed": true,
-          "link": "/核心规则/特性/技能列表/"
+          "link": "/核心规则/负赘/"
         },
         {
-          "text": "详述",
+          "text": "特性",
           "collapsed": true,
-          "link": "/核心规则/特性/详述/"
+          "items": [
+            {
+              "text": "技能列表",
+              "collapsed": true,
+              "link": "/核心规则/特性/技能列表/"
+            },
+            {
+              "text": "详述",
+              "collapsed": true,
+              "link": "/核心规则/特性/详述/"
+            }
+          ]
+        },
+        {
+          "text": "专长",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "神圣",
+              "collapsed": true,
+              "link": "/核心规则/专长/神圣/"
+            },
+            {
+              "text": "背景专长_Background_Edges",
+              "link": "/核心规则/专长/背景专长_Background_Edges"
+            },
+            {
+              "text": "传奇专长_Legendary_Edges",
+              "link": "/核心规则/专长/传奇专长_Legendary_Edges"
+            },
+            {
+              "text": "领导力专长_Leadership_Edges",
+              "link": "/核心规则/专长/领导力专长_Leadership_Edges"
+            },
+            {
+              "text": "其他专长",
+              "link": "/核心规则/专长/其他专长"
+            },
+            {
+              "text": "奇术专长_Power_Edges",
+              "link": "/核心规则/专长/奇术专长_Power_Edges"
+            },
+            {
+              "text": "奇异专长_Weird_Edges",
+              "link": "/核心规则/专长/奇异专长_Weird_Edges"
+            },
+            {
+              "text": "社交专长_Social_Edges",
+              "link": "/核心规则/专长/社交专长_Social_Edges"
+            },
+            {
+              "text": "术业专长_Professional_Edges",
+              "link": "/核心规则/专长/术业专长_Professional_Edges"
+            },
+            {
+              "text": "战斗专长_Combat_Edges",
+              "link": "/核心规则/专长/战斗专长_Combat_Edges"
+            }
+          ]
+        },
+        {
+          "text": "升级",
+          "collapsed": true,
+          "link": "/核心规则/升级/"
         }
       ]
     },
     {
-      "text": "专长",
-      "collapsed": true,
+      "text": "第二章：装备",
+      "collapsed": false,
       "items": [
         {
-          "text": "神圣",
-          "collapsed": true,
-          "link": "/核心规则/专长/神圣/"
-        },
-        {
-          "text": "背景专长_Background_Edges",
-          "link": "/核心规则/专长/背景专长_Background_Edges"
-        },
-        {
-          "text": "传奇专长_Legendary_Edges",
-          "link": "/核心规则/专长/传奇专长_Legendary_Edges"
-        },
-        {
-          "text": "领导力专长_Leadership_Edges",
-          "link": "/核心规则/专长/领导力专长_Leadership_Edges"
-        },
-        {
-          "text": "其他专长",
-          "link": "/核心规则/专长/其他专长"
-        },
-        {
-          "text": "奇术专长_Power_Edges",
-          "link": "/核心规则/专长/奇术专长_Power_Edges"
-        },
-        {
-          "text": "奇异专长_Weird_Edges",
-          "link": "/核心规则/专长/奇异专长_Weird_Edges"
-        },
-        {
-          "text": "社交专长_Social_Edges",
-          "link": "/核心规则/专长/社交专长_Social_Edges"
-        },
-        {
-          "text": "术业专长_Professional_Edges",
-          "link": "/核心规则/专长/术业专长_Professional_Edges"
-        },
-        {
-          "text": "战斗专长_Combat_Edges",
-          "link": "/核心规则/专长/战斗专长_Combat_Edges"
-        }
-      ]
-    },
-    {
-      "text": "升级",
-      "collapsed": true,
-      "link": "/核心规则/升级/"
-    }
-  ],
-  "/核心规则/装备/": [
-    {
-      "text": "普通装备",
-      "collapsed": true,
-      "link": "/核心规则/普通装备/"
-    },
-    {
-      "text": "护甲",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "盾牌",
-          "collapsed": true,
-          "link": "/核心规则/护甲/盾牌/"
-        },
-        {
-          "text": "未来护甲",
-          "collapsed": true,
-          "link": "/核心规则/护甲/未来护甲/"
-        },
-        {
-          "text": "现代护甲",
-          "collapsed": true,
-          "link": "/核心规则/护甲/现代护甲/"
-        },
-        {
-          "text": "中世纪及古代护甲",
-          "collapsed": true,
-          "link": "/核心规则/护甲/中世纪及古代护甲/"
-        }
-      ]
-    },
-    {
-      "text": "单兵武器",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "黑火药武器",
-          "collapsed": true,
-          "link": "/核心规则/单兵武器/黑火药武器/"
-        },
-        {
-          "text": "近战武器",
-          "collapsed": true,
-          "link": "/核心规则/单兵武器/近战武器/"
-        },
-        {
-          "text": "远程武器",
-          "collapsed": true,
-          "link": "/核心规则/单兵武器/远程武器/"
-        }
-      ]
-    },
-    {
-      "text": "现代火器",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "步枪",
-          "collapsed": true,
-          "link": "/核心规则/现代火器/步枪/"
-        },
-        {
-          "text": "冲锋枪",
-          "collapsed": true,
-          "link": "/核心规则/现代火器/冲锋枪/"
-        },
-        {
-          "text": "机枪",
-          "collapsed": true,
-          "link": "/核心规则/现代火器/机枪/"
-        },
-        {
-          "text": "激光(未来)",
-          "collapsed": true,
-          "link": "/核心规则/现代火器/激光/"
-        },
-        {
-          "text": "手枪",
-          "collapsed": true,
-          "link": "/核心规则/现代火器/手枪/"
-        },
-        {
-          "text": "霰弹枪",
-          "collapsed": true,
-          "link": "/核心规则/现代火器/霰弹枪/"
-        }
-      ]
-    },
-    {
-      "text": "特殊武器",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "导弹",
-          "collapsed": true,
-          "link": "/核心规则/特殊武器/导弹/"
-        },
-        {
-          "text": "地雷",
-          "collapsed": true,
-          "link": "/核心规则/特殊武器/地雷/"
-        },
-        {
-          "text": "火箭发射器与鱼雷",
-          "collapsed": true,
-          "link": "/核心规则/特殊武器/火箭发射器与鱼雷/"
-        },
-        {
-          "text": "加农炮",
-          "collapsed": true,
-          "link": "/核心规则/特殊武器/加农炮/"
-        },
-        {
-          "text": "喷火器",
-          "collapsed": true,
-          "link": "/核心规则/特殊武器/喷火器/"
-        },
-        {
-          "text": "手雷",
-          "collapsed": true,
-          "link": "/核心规则/特殊武器/手雷/"
-        },
-        {
-          "text": "投石机",
-          "collapsed": true,
-          "link": "/核心规则/特殊武器/投石机/"
-        },
-        {
-          "text": "载具武器",
-          "collapsed": true,
-          "link": "/核心规则/特殊武器/载具武器/"
-        }
-      ]
-    },
-    {
-      "text": "载具",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "船舶",
-          "collapsed": true,
-          "link": "/核心规则/载具/船舶/"
-        },
-        {
-          "text": "地面载具",
-          "collapsed": true,
-          "link": "/核心规则/载具/地面载具/"
-        },
-        {
-          "text": "飞行器",
-          "collapsed": true,
-          "link": "/核心规则/载具/飞行器/"
-        }
-      ]
-    }
-  ],
-  "/核心规则/规则/": [
-    {
-      "text": "不羁角色与龙套们",
-      "collapsed": true,
-      "link": "/核心规则/不羁角色与龙套们/"
-    },
-    {
-      "text": "特性投骰",
-      "collapsed": true,
-      "link": "/核心规则/特性投骰/"
-    },
-    {
-      "text": "助力点",
-      "collapsed": true,
-      "link": "/核心规则/助力点/"
-    },
-    {
-      "text": "战斗",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "攻击",
-          "collapsed": true,
-          "link": "/核心规则/战斗/攻击_Attacks/"
-        },
-        {
-          "text": "化解投骰",
-          "collapsed": true,
-          "link": "/核心规则/战斗/化解投骰_Soak_Rolls/"
-        },
-        {
-          "text": "伤害",
-          "collapsed": true,
-          "link": "/核心规则/战斗/伤害_Damage/"
-        },
-        {
-          "text": "伤害效果",
-          "collapsed": true,
-          "link": "/核心规则/战斗/伤害效果_Damage_Effect/"
-        },
-        {
-          "text": "行动",
-          "collapsed": true,
-          "link": "/核心规则/战斗/行动_Actions/"
-        },
-        {
-          "text": "行动卡",
-          "collapsed": true,
-          "link": "/核心规则/战斗/行动卡_Action_Cards/"
-        },
-        {
-          "text": "移动",
-          "collapsed": true,
-          "link": "/核心规则/战斗/移动_Movement/"
-        }
-      ]
-    },
-    {
-      "text": "治疗",
-      "collapsed": true,
-      "link": "/核心规则/治疗/"
-    },
-    {
-      "text": "情景规则",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "不羁攻击",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/不羁攻击/"
-        },
-        {
-          "text": "不稳平台",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/不稳平台/"
-        },
-        {
-          "text": "撤出近战",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/撤出近战/"
-        },
-        {
-          "text": "处决",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/处决/"
-        },
-        {
-          "text": "待机",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/待机/"
-        },
-        {
-          "text": "定点打击",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/定点打击/"
-        },
-        {
-          "text": "多重动作",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/多重动作/"
-        },
-        {
-          "text": "范围效果攻击",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/范围效果攻击/"
-        },
-        {
-          "text": "防御",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/防御/"
-        },
-        {
-          "text": "非致命伤害",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/非致命伤害/"
-        },
-        {
-          "text": "分神与脆弱",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/分神与脆弱/"
-        },
-        {
-          "text": "副手攻击",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/副手攻击/"
-        },
-        {
-          "text": "后坐力",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/后坐力/"
-        },
-        {
-          "text": "回避",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/回避/"
-        },
-        {
-          "text": "火力压制",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/火力压制/"
-        },
-        {
-          "text": "缴械",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/缴械/"
-        },
-        {
-          "text": "接触攻击",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/接触攻击/"
-        },
-        {
-          "text": "近战中的远程武器",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/近战中的远程武器/"
-        },
-        {
-          "text": "考验",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/考验/"
-        },
-        {
-          "text": "临时武器",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/临时武器/"
-        },
-        {
-          "text": "冒进攻击",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/冒进攻击/"
-        },
-        {
-          "text": "瞄准",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/瞄准/"
-        },
-        {
-          "text": "疲乏",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/疲乏/"
-        },
-        {
-          "text": "破坏物体",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/破坏物体/"
-        },
-        {
-          "text": "奇袭",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/奇袭/"
-        },
-        {
-          "text": "骑乘战斗",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/骑乘战斗/"
-        },
-        {
-          "text": "擒抱",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/擒抱/"
-        },
-        {
-          "text": "射向近战",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/射向近战/"
-        },
-        {
-          "text": "手无寸铁",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/手无寸铁/"
-        },
-        {
-          "text": "束缚与纠缠",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/束缚与纠缠/"
-        },
-        {
-          "text": "双武器",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/双武器/"
-        },
-        {
-          "text": "速度",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/速度/"
-        },
-        {
-          "text": "体型与尺寸",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/体型与尺寸/"
-        },
-        {
-          "text": "天生武器",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/天生武器/"
-        },
-        {
-          "text": "突袭",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/突袭/"
-        },
-        {
-          "text": "推撞",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/推撞/"
-        },
-        {
-          "text": "围攻",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/围攻/"
-        },
-        {
-          "text": "卧地",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/卧地/"
-        },
-        {
-          "text": "无辜旁人",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/无辜旁人/"
-        },
-        {
-          "text": "霰弹枪",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/霰弹枪/"
-        },
-        {
-          "text": "掩蔽与障碍",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/掩蔽与障碍/"
-        },
-        {
-          "text": "预备武器",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/预备武器/"
-        },
-        {
-          "text": "援助",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/援助/"
+          "text": "普通装备",
+          "collapsed": true,
+          "link": "/核心规则/普通装备/"
+        },
+        {
+          "text": "护甲",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "盾牌",
+              "collapsed": true,
+              "link": "/核心规则/护甲/盾牌/"
+            },
+            {
+              "text": "未来护甲",
+              "collapsed": true,
+              "link": "/核心规则/护甲/未来护甲/"
+            },
+            {
+              "text": "现代护甲",
+              "collapsed": true,
+              "link": "/核心规则/护甲/现代护甲/"
+            },
+            {
+              "text": "中世纪及古代护甲",
+              "collapsed": true,
+              "link": "/核心规则/护甲/中世纪及古代护甲/"
+            }
+          ]
+        },
+        {
+          "text": "单兵武器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "黑火药武器",
+              "collapsed": true,
+              "link": "/核心规则/单兵武器/黑火药武器/"
+            },
+            {
+              "text": "近战武器",
+              "collapsed": true,
+              "link": "/核心规则/单兵武器/近战武器/"
+            },
+            {
+              "text": "远程武器",
+              "collapsed": true,
+              "link": "/核心规则/单兵武器/远程武器/"
+            }
+          ]
+        },
+        {
+          "text": "现代火器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "步枪",
+              "collapsed": true,
+              "link": "/核心规则/现代火器/步枪/"
+            },
+            {
+              "text": "冲锋枪",
+              "collapsed": true,
+              "link": "/核心规则/现代火器/冲锋枪/"
+            },
+            {
+              "text": "机枪",
+              "collapsed": true,
+              "link": "/核心规则/现代火器/机枪/"
+            },
+            {
+              "text": "激光(未来)",
+              "collapsed": true,
+              "link": "/核心规则/现代火器/激光/"
+            },
+            {
+              "text": "手枪",
+              "collapsed": true,
+              "link": "/核心规则/现代火器/手枪/"
+            },
+            {
+              "text": "霰弹枪",
+              "collapsed": true,
+              "link": "/核心规则/现代火器/霰弹枪/"
+            }
+          ]
+        },
+        {
+          "text": "特殊武器",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "导弹",
+              "collapsed": true,
+              "link": "/核心规则/特殊武器/导弹/"
+            },
+            {
+              "text": "地雷",
+              "collapsed": true,
+              "link": "/核心规则/特殊武器/地雷/"
+            },
+            {
+              "text": "火箭发射器与鱼雷",
+              "collapsed": true,
+              "link": "/核心规则/特殊武器/火箭发射器与鱼雷/"
+            },
+            {
+              "text": "加农炮",
+              "collapsed": true,
+              "link": "/核心规则/特殊武器/加农炮/"
+            },
+            {
+              "text": "喷火器",
+              "collapsed": true,
+              "link": "/核心规则/特殊武器/喷火器/"
+            },
+            {
+              "text": "手雷",
+              "collapsed": true,
+              "link": "/核心规则/特殊武器/手雷/"
+            },
+            {
+              "text": "投石机",
+              "collapsed": true,
+              "link": "/核心规则/特殊武器/投石机/"
+            },
+            {
+              "text": "载具武器",
+              "collapsed": true,
+              "link": "/核心规则/特殊武器/载具武器/"
+            }
+          ]
         },
         {
           "text": "载具",
           "collapsed": true,
-          "link": "/核心规则/情景规则/载具/"
-        },
-        {
-          "text": "照明",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/照明/"
-        },
-        {
-          "text": "震慑",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/震慑/"
-        },
-        {
-          "text": "装填",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/装填/"
-        },
-        {
-          "text": "自由攻击",
-          "collapsed": true,
-          "link": "/核心规则/情景规则/自由攻击/"
+          "items": [
+            {
+              "text": "船舶",
+              "collapsed": true,
+              "link": "/核心规则/载具/船舶/"
+            },
+            {
+              "text": "地面载具",
+              "collapsed": true,
+              "link": "/核心规则/载具/地面载具/"
+            },
+            {
+              "text": "飞行器",
+              "collapsed": true,
+              "link": "/核心规则/载具/飞行器/"
+            }
+          ]
         }
       ]
     },
     {
-      "text": "体型表",
-      "collapsed": true,
-      "link": "/核心规则/体型表/"
-    }
-  ],
-  "/核心规则/冒险工具箱/": [
-    {
-      "text": "盟友",
-      "collapsed": true,
-      "link": "/核心规则/冒险工具箱/盟友/"
-    },
-    {
-      "text": "追逐与载具",
-      "collapsed": true,
-      "link": "/核心规则/冒险工具箱/追逐与载具/"
-    },
-    {
-      "text": "剧情任务",
-      "collapsed": true,
-      "link": "/核心规则/冒险工具箱/剧情任务/"
-    },
-    {
-      "text": "恐惧",
-      "collapsed": true,
-      "link": "/核心规则/冒险工具箱/恐惧/"
-    },
-    {
-      "text": "危难",
-      "collapsed": true,
-      "link": "/核心规则/冒险工具箱/危难/"
-    },
-    {
-      "text": "幕间",
-      "collapsed": true,
-      "link": "/核心规则/冒险工具箱/幕间/"
-    },
-    {
-      "text": "大规模作战",
-      "collapsed": true,
-      "link": "/核心规则/冒险工具箱/大规模作战/"
-    },
-    {
-      "text": "打点关系",
-      "collapsed": true,
-      "link": "/核心规则/冒险工具箱/打点关系/"
-    },
-    {
-      "text": "快速遭遇",
-      "collapsed": true,
-      "link": "/核心规则/冒险工具箱/快速遭遇/"
-    },
-    {
-      "text": "设定规则",
-      "collapsed": true,
-      "link": "/核心规则/冒险工具箱/设定规则/"
-    },
-    {
-      "text": "社交冲突",
-      "collapsed": true,
-      "link": "/核心规则/冒险工具箱/社交冲突/"
-    },
-    {
-      "text": "旅行",
-      "collapsed": true,
-      "link": "/核心规则/冒险工具箱/旅行/"
-    },
-    {
-      "text": "财富",
-      "collapsed": true,
-      "link": "/核心规则/冒险工具箱/财富/"
-    }
-  ],
-  "/核心规则/奇术/": [
-    {
-      "text": "特效",
-      "collapsed": true,
-      "link": "/核心规则/特效/"
-    },
-    {
-      "text": "启动",
-      "collapsed": true,
-      "link": "/核心规则/启动/"
-    },
-    {
-      "text": "奇术调整",
-      "collapsed": true,
+      "text": "第三章：规则",
+      "collapsed": false,
       "items": [
         {
-          "text": "持续伤害",
+          "text": "不羁角色与龙套们",
           "collapsed": true,
-          "link": "/核心规则/奇术调整/持续伤害_(+2)/"
+          "link": "/核心规则/不羁角色与龙套们/"
         },
         {
-          "text": "穿甲",
+          "text": "特性投骰",
           "collapsed": true,
-          "link": "/核心规则/奇术调整/穿甲_(+1 至 +3)/"
+          "link": "/核心规则/特性投骰/"
         },
         {
-          "text": "发光或覆影",
+          "text": "助力点",
           "collapsed": true,
-          "link": "/核心规则/奇术调整/发光或覆影_(+1)/"
+          "link": "/核心规则/助力点/"
         },
         {
-          "text": "妨碍或加快",
+          "text": "战斗",
           "collapsed": true,
-          "link": "/核心规则/奇术调整/妨碍或加快_(+1)/"
+          "items": [
+            {
+              "text": "攻击",
+              "collapsed": true,
+              "link": "/核心规则/战斗/攻击_Attacks/"
+            },
+            {
+              "text": "化解投骰",
+              "collapsed": true,
+              "link": "/核心规则/战斗/化解投骰_Soak_Rolls/"
+            },
+            {
+              "text": "伤害",
+              "collapsed": true,
+              "link": "/核心规则/战斗/伤害_Damage/"
+            },
+            {
+              "text": "伤害效果",
+              "collapsed": true,
+              "link": "/核心规则/战斗/伤害效果_Damage_Effect/"
+            },
+            {
+              "text": "行动",
+              "collapsed": true,
+              "link": "/核心规则/战斗/行动_Actions/"
+            },
+            {
+              "text": "行动卡",
+              "collapsed": true,
+              "link": "/核心规则/战斗/行动卡_Action_Cards/"
+            },
+            {
+              "text": "移动",
+              "collapsed": true,
+              "link": "/核心规则/战斗/移动_Movement/"
+            }
+          ]
         },
         {
-          "text": "疲乏",
+          "text": "治疗",
           "collapsed": true,
-          "link": "/核心规则/奇术调整/疲乏_(+2)/"
+          "link": "/核心规则/治疗/"
         },
         {
-          "text": "选别",
+          "text": "情景规则",
           "collapsed": true,
-          "link": "/核心规则/奇术调整/选别_(+1)/"
+          "items": [
+            {
+              "text": "不羁攻击",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/不羁攻击/"
+            },
+            {
+              "text": "不稳平台",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/不稳平台/"
+            },
+            {
+              "text": "撤出近战",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/撤出近战/"
+            },
+            {
+              "text": "处决",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/处决/"
+            },
+            {
+              "text": "待机",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/待机/"
+            },
+            {
+              "text": "定点打击",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/定点打击/"
+            },
+            {
+              "text": "多重动作",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/多重动作/"
+            },
+            {
+              "text": "范围效果攻击",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/范围效果攻击/"
+            },
+            {
+              "text": "防御",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/防御/"
+            },
+            {
+              "text": "非致命伤害",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/非致命伤害/"
+            },
+            {
+              "text": "分神与脆弱",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/分神与脆弱/"
+            },
+            {
+              "text": "副手攻击",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/副手攻击/"
+            },
+            {
+              "text": "后坐力",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/后坐力/"
+            },
+            {
+              "text": "回避",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/回避/"
+            },
+            {
+              "text": "火力压制",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/火力压制/"
+            },
+            {
+              "text": "缴械",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/缴械/"
+            },
+            {
+              "text": "接触攻击",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/接触攻击/"
+            },
+            {
+              "text": "近战中的远程武器",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/近战中的远程武器/"
+            },
+            {
+              "text": "考验",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/考验/"
+            },
+            {
+              "text": "临时武器",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/临时武器/"
+            },
+            {
+              "text": "冒进攻击",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/冒进攻击/"
+            },
+            {
+              "text": "瞄准",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/瞄准/"
+            },
+            {
+              "text": "疲乏",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/疲乏/"
+            },
+            {
+              "text": "破坏物体",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/破坏物体/"
+            },
+            {
+              "text": "奇袭",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/奇袭/"
+            },
+            {
+              "text": "骑乘战斗",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/骑乘战斗/"
+            },
+            {
+              "text": "擒抱",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/擒抱/"
+            },
+            {
+              "text": "射向近战",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/射向近战/"
+            },
+            {
+              "text": "手无寸铁",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/手无寸铁/"
+            },
+            {
+              "text": "束缚与纠缠",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/束缚与纠缠/"
+            },
+            {
+              "text": "双武器",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/双武器/"
+            },
+            {
+              "text": "速度",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/速度/"
+            },
+            {
+              "text": "体型与尺寸",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/体型与尺寸/"
+            },
+            {
+              "text": "天生武器",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/天生武器/"
+            },
+            {
+              "text": "突袭",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/突袭/"
+            },
+            {
+              "text": "推撞",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/推撞/"
+            },
+            {
+              "text": "围攻",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/围攻/"
+            },
+            {
+              "text": "卧地",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/卧地/"
+            },
+            {
+              "text": "无辜旁人",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/无辜旁人/"
+            },
+            {
+              "text": "霰弹枪",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/霰弹枪/"
+            },
+            {
+              "text": "掩蔽与障碍",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/掩蔽与障碍/"
+            },
+            {
+              "text": "预备武器",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/预备武器/"
+            },
+            {
+              "text": "援助",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/援助/"
+            },
+            {
+              "text": "载具",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/载具/"
+            },
+            {
+              "text": "照明",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/照明/"
+            },
+            {
+              "text": "震慑",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/震慑/"
+            },
+            {
+              "text": "装填",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/装填/"
+            },
+            {
+              "text": "自由攻击",
+              "collapsed": true,
+              "link": "/核心规则/情景规则/自由攻击/"
+            }
+          ]
         },
         {
-          "text": "增距",
+          "text": "体型表",
           "collapsed": true,
-          "link": "/核心规则/奇术调整/增距_(+1 或 +2)/"
-        },
-        {
-          "text": "重武器",
-          "collapsed": true,
-          "link": "/核心规则/奇术调整/重武器_(+2)/"
+          "link": "/核心规则/体型表/"
         }
       ]
     },
     {
-      "text": "奥法装置",
-      "collapsed": true,
-      "link": "/核心规则/奥法装置/"
+      "text": "第四章：冒险工具箱",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "盟友",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/盟友/"
+        },
+        {
+          "text": "追逐与载具",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/追逐与载具/"
+        },
+        {
+          "text": "剧情任务",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/剧情任务/"
+        },
+        {
+          "text": "恐惧",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/恐惧/"
+        },
+        {
+          "text": "危难",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/危难/"
+        },
+        {
+          "text": "幕间",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/幕间/"
+        },
+        {
+          "text": "大规模作战",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/大规模作战/"
+        },
+        {
+          "text": "打点关系",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/打点关系/"
+        },
+        {
+          "text": "快速遭遇",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/快速遭遇/"
+        },
+        {
+          "text": "设定规则",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/设定规则/"
+        },
+        {
+          "text": "社交冲突",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/社交冲突/"
+        },
+        {
+          "text": "旅行",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/旅行/"
+        },
+        {
+          "text": "财富",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/财富/"
+        }
+      ]
     },
     {
-      "text": "奇术列表",
-      "collapsed": true,
-      "link": "/核心规则/奇术列表/"
-    }
-  ],
-  "/核心规则/主持游戏/": [
-    {
-      "text": "进行游戏",
-      "collapsed": true,
-      "link": "/核心规则/进行游戏/"
+      "text": "第五章：奇术",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "特效",
+          "collapsed": true,
+          "link": "/核心规则/特效/"
+        },
+        {
+          "text": "启动",
+          "collapsed": true,
+          "link": "/核心规则/启动/"
+        },
+        {
+          "text": "奇术调整",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "持续伤害",
+              "collapsed": true,
+              "link": "/核心规则/奇术调整/持续伤害_(+2)/"
+            },
+            {
+              "text": "穿甲",
+              "collapsed": true,
+              "link": "/核心规则/奇术调整/穿甲_(+1 至 +3)/"
+            },
+            {
+              "text": "发光或覆影",
+              "collapsed": true,
+              "link": "/核心规则/奇术调整/发光或覆影_(+1)/"
+            },
+            {
+              "text": "妨碍或加快",
+              "collapsed": true,
+              "link": "/核心规则/奇术调整/妨碍或加快_(+1)/"
+            },
+            {
+              "text": "疲乏",
+              "collapsed": true,
+              "link": "/核心规则/奇术调整/疲乏_(+2)/"
+            },
+            {
+              "text": "选别",
+              "collapsed": true,
+              "link": "/核心规则/奇术调整/选别_(+1)/"
+            },
+            {
+              "text": "增距",
+              "collapsed": true,
+              "link": "/核心规则/奇术调整/增距_(+1 或 +2)/"
+            },
+            {
+              "text": "重武器",
+              "collapsed": true,
+              "link": "/核心规则/奇术调整/重武器_(+2)/"
+            }
+          ]
+        },
+        {
+          "text": "奥法装置",
+          "collapsed": true,
+          "link": "/核心规则/奥法装置/"
+        },
+        {
+          "text": "奇术列表",
+          "collapsed": true,
+          "link": "/核心规则/奇术列表/"
+        }
+      ]
     },
     {
-      "text": "状态速查",
-      "collapsed": true,
-      "link": "/核心规则/状态速查/"
+      "text": "第六章：主持游戏",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "进行游戏",
+          "collapsed": true,
+          "link": "/核心规则/进行游戏/"
+        },
+        {
+          "text": "状态速查",
+          "collapsed": true,
+          "link": "/核心规则/状态速查/"
+        }
+      ]
     }
   ]
 }

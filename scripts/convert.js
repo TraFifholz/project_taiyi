@@ -173,7 +173,15 @@ console.log(`Skipped ${skippedCount} entries (bestiary, etc.)`);
 
 for (const entry of normalEntries) {
   const outPath = getOutputPath(entry.title);
-  const converted = convertText(entry.text, entry.title);
+  let converted = convertText(entry.text, entry.title);
+
+  // Custom override: 角色 overview — humans default, extra edge
+  if (entry.title === '核心规则/角色') {
+    converted = converted.replace(
+      '- 选择角色的&#123;&#123;GeneralAction&#125;&#125;族裔，并应用所有其赋予的好处或特殊能力。',
+      '- 默认情况下，所有玩家角色均为**人类**。人类在角色创建时额外获得一个**新手专长**。若GM允许，也可选择其他族裔，应用其赋予的好处或特殊能力。'
+    );
+  }
 
   // Count mylist placeholders for report
   const mylists = converted.match(/<!-- TODO: mylist/g);
@@ -459,10 +467,10 @@ const chapters = [
 
 function generateSidebar() {
   const srcdir = './src';
-  const sidebar = {};
+  const sidebarItems = [];
 
   for (const ch of chapters) {
-    const items = [];
+    const chItems = [];
     for (const entry of ch.entries) {
       const pageDir = path.join(srcdir, entry.title);
       const urlBase = `/${entry.title}`;
@@ -476,13 +484,17 @@ function generateSidebar() {
         item.link = `${urlBase}/`;
       }
 
-      items.push(item);
+      chItems.push(item);
     }
 
-    sidebar[ch.key] = items;
+    sidebarItems.push({
+      text: ch.group,
+      collapsed: false,
+      items: chItems
+    });
   }
 
-  return sidebar;
+  return { '/核心规则/': sidebarItems };
 }
 
 const sidebar = generateSidebar();
