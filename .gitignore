@@ -1,5 +1,5 @@
 node_modules/
 src/.vitepress/dist/
 src/.vitepress/cache/
-src/私设/设定/
-src/私设/角色卡/
+discussion/
+character_sheet/
