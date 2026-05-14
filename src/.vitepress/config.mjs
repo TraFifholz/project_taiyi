@@ -8,7 +8,7 @@ const sidebar = JSON.parse(readFileSync(resolve(__dirname, 'sidebar.json'), 'utf
 
 export default defineConfig({
   title: '太一 · 狂野世界规则书',
-  description: 'Savage Worlds Adventure Edition 核心规则与私设资源',
+  description: 'Savage Worlds Adventure Edition 核心规则',
   lang: 'zh-CN',
   cleanUrls: true,
   ignoreDeadLinks: true,
@@ -19,7 +19,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '核心规则', link: '/核心规则/' },
-      { text: '私设资源', link: '/私设/' },
+
     ],
 
     sidebar,
