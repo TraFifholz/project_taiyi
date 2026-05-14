@@ -30,11 +30,6 @@
           "collapsed": true,
           "items": [
             {
-              "text": "神圣",
-              "collapsed": true,
-              "link": "/核心规则/专长/神圣/"
-            },
-            {
               "text": "背景专长_Background_Edges",
               "link": "/核心规则/专长/背景专长_Background_Edges"
             },
@@ -748,11 +743,6 @@
           "text": "专长",
           "collapsed": true,
           "items": [
-            {
-              "text": "神圣",
-              "collapsed": true,
-              "link": "/核心规则/专长/神圣/"
-            },
             {
               "text": "背景专长_Background_Edges",
               "link": "/核心规则/专长/背景专长_Background_Edges"
