@@ -468,15 +468,13 @@ function generateSidebar() {
       const urlBase = `/${entry.title}`;
       const children = buildChildItems(pageDir, urlBase);
 
-      const item = {
-        text: entry.text,
-        collapsed: true,
-      };
+      const item = { text: entry.text, collapsed: true };
 
       if (children.length > 0) {
         item.items = children;
+      } else {
+        item.link = `${urlBase}/`;
       }
-      item.link = `${urlBase}/`;
 
       items.push(item);
     }
