@@ -52,14 +52,37 @@ function queryEntries(conditions) {
   return results;
 }
 
+function relativeLink(fromTitle, toTitle) {
+  const fromParts = fromTitle.split('/');
+  const toParts = toTitle.split('/');
+  let i = 0;
+  while (i < fromParts.length && i < toParts.length && fromParts[i] === toParts[i]) {
+    i++;
+  }
+  const upLevels = fromParts.length - i;
+  const downParts = toParts.slice(i);
+  let rel = upLevels === 0 ? './' : '../'.repeat(upLevels);
+  if (downParts.length > 0) {
+    rel += downParts.join('/') + '/';
+  }
+  return rel;
+}
+
 // Generate markdown list for matching entries
-function generateList(results) {
+function generateList(results, sourceTitle) {
   if (results.length === 0) return '_暂无条目_';
   return results.map(e => {
     const name = e['中文名'] || e.title.split('/').pop();
-    const title = e.title;
-    return `- [${name}](/${title}/)`;
+    const rel = relativeLink(sourceTitle, e.title);
+    return `- [${name}](${rel})`;
   }).join('\n');
+}
+
+// Extract page title from file path: src/核心规则/奥法背景/index.md → 核心规则/奥法背景
+function getTitleFromFile(filePath) {
+  const rel = path.relative(srcDir, filePath).replace(/\\/g, '/');
+  // Remove /index.md suffix
+  return rel.replace(/\/index\.md$/, '');
 }
 
 // Walk all markdown files
@@ -94,7 +117,8 @@ for (const file of files) {
     const filterStr = match[1];
     const conditions = parseFilter(filterStr);
     const entries = queryEntries(conditions);
-    const list = generateList(entries);
+    const sourceTitle = getTitleFromFile(file);
+    const list = generateList(entries, sourceTitle);
 
     // Replace first occurrence only (there should be one per file)
     content = content.replace(match[0], list);

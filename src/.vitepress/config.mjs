@@ -13,6 +13,8 @@ export default defineConfig({
   cleanUrls: true,
   ignoreDeadLinks: true,
 
+  base: '/project_taiyi/',
+
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },

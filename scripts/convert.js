@@ -40,7 +40,24 @@ for (const dir of dirs) {
 }
 console.log(`Created ${dirs.size} directories`);
 
-function convertText(text) {
+// Compute relative link from one page to another
+function relativeLink(fromTitle, toTitle) {
+  const fromParts = fromTitle.split('/');
+  const toParts = toTitle.split('/');
+  let i = 0;
+  while (i < fromParts.length && i < toParts.length && fromParts[i] === toParts[i]) {
+    i++;
+  }
+  const upLevels = fromParts.length - i;
+  const downParts = toParts.slice(i);
+  let rel = upLevels === 0 ? './' : '../'.repeat(upLevels);
+  if (downParts.length > 0) {
+    rel += downParts.join('/') + '/';
+  }
+  return rel;
+}
+
+function convertText(text, sourceTitle) {
   let result = text;
 
   // 1. Remove all <div ...> and </div> tags
@@ -69,13 +86,17 @@ function convertText(text) {
   // 4. Bold/italic: ''text'' → **text**
   result = result.replace(/''(.+?)''/g, '**$1**');
 
-  // 5. Wiki links: [[display|path]] → [display](/path/) (all entries are categories at path/index.md)
-  result = result.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '[$1](/$2/)');
+  // 5. Wiki links: [[display|path]] → [display](relative/path/)
+  result = result.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, (match, display, target) => {
+    const rel = relativeLink(sourceTitle, target);
+    return `[${display}](${rel})`;
+  });
 
-  // 6. Wiki links: [[path]] → [path](/path/) (simple, no pipe)
+  // 6. Wiki links: [[path]] → [path](relative/path/) (simple, no pipe)
   result = result.replace(/\[\[([^\]]+)\]\]/g, (match, inner) => {
-    if (inner.includes('|')) return match; // already handled
-    return `[${inner}](/${inner}/)`;
+    if (inner.includes('|')) return match;
+    const rel = relativeLink(sourceTitle, inner);
+    return `[${inner}](${rel})`;
   });
 
   // 7. <<mylist "filter">> → TODO placeholder
@@ -113,7 +134,7 @@ const mylistLocations = [];
 
 for (const entry of data) {
   const outPath = getOutputPath(entry.title);
-  const converted = convertText(entry.text);
+  const converted = convertText(entry.text, entry.title);
 
   // Count mylist placeholders for report
   const mylists = converted.match(/<!-- TODO: mylist/g);
