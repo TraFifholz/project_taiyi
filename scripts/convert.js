@@ -494,7 +494,7 @@ function generateSidebar() {
     });
   }
 
-  return { '/核心规则/': sidebarItems };
+  return { '/': sidebarItems, '/核心规则/': sidebarItems };
 }
 
 const sidebar = generateSidebar();

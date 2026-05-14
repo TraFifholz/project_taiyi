@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 龙散战记 · 玩家手册
 ---
 
