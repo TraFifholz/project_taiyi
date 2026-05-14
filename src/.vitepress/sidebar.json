@@ -1,5 +1,2952 @@
 {
-  "/.vitepress/": [],
+  "/.vitepress/": [
+    {
+      "text": "dist",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "核心规则",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "奥法背景",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "灵能",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "魔法",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "奇迹",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "奇异科学",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "异禀",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "奥法装置",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "不羁角色与龙套们",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "单兵武器",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "黑火药武器",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "近战武器",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "远程武器",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "负赘",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "傲慢",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "笨拙",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "不谙水性",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "不幸",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "耻辱",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "丑陋",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "大嘴巴",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "胆怯",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "独臂",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "独眼",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "多疑",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "肥胖",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "复仇",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "怪癖",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "好奇",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "和平主义",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "怀疑论者",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "缓慢",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "嫉妒",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "刻薄",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "恐惧症",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "立志",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "脸皮薄",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "陋习",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "秘密",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "默言",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "目盲",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "年老",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "年幼",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "贫穷",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "求死",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "荣耀信条",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "慎重",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "嗜血",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "誓言",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "夙敌",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "贪婪",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "体虚",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "听力不济",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "通缉",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "顽固",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "妄想",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "温文尔雅",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "文盲",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "无情",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "详述",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "小个子",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "眼力不济",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "一窍不通",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "一无所知",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "义务",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "异客",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "意气用事",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "英雄本色",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "犹豫不决",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "忠诚",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "拙舌",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "自负",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "护甲",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "盾牌",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "未来护甲",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "现代护甲",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "中世纪及古代护甲",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "技能",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "表演",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "察觉",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "嘲弄",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "电子学",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "调查",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "赌博",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "格斗",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "骇客",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "航空",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "集中",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "驾船",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "驾驶",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "交涉",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "科学",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "灵能",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "奇异科学",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "骑乘",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "潜行",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "人文",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "射击",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "神秘学",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "生存",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "施法",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "通用知识",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "威吓",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "未受训尝试",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "信仰",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "修理",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "语言",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "运动",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "贼活",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "治疗",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "作战",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "角色",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "大白鲨",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "短吻鳄",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "鳄鱼",
+                      "collapsed": true,
+                      "items": []
+                    }
+                  ]
+                },
+                {
+                  "text": "哥布林",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "公牛",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "狗",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "狼",
+                      "collapsed": true,
+                      "items": []
+                    }
+                  ]
+                },
+                {
+                  "text": "鬼魂",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "机兵",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "集群",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "巨魔",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "巨蠕虫",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "巨蜘蛛",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "骷髅",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "狼人",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "龙",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "龙兽",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "骡",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "马",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "猛禽",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "牛头人",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "鲨鱼",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "上古吸血鬼",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "蛇类",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "狮子",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "食人魔",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "士兵",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "兽人",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "兽人酋长",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "巫妖",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "吸血鬼",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "详述",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "小猫",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "行尸",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "凶暴狼",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "熊",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "元素",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "战马",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "介绍",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "进行游戏",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "冒险工具箱",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "财富",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "打点关系",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "大规模作战",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "剧情任务",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "恐惧",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "快速遭遇",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "旅行",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "盟友",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "幕间",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "设定规则",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "社交冲突",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "危难",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "追逐与载具",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "普通装备",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "奇术",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "暗视",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "奥法防护",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "爆发",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "爆裂",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "沉眠",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "抽取奇术点",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "传送",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "读物",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "读心",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "遁地",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "发声",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "沉默",
+                      "collapsed": true,
+                      "items": []
+                    }
+                  ]
+                },
+                {
+                  "text": "防护",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "放大",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "缩小",
+                      "collapsed": true,
+                      "items": []
+                    }
+                  ]
+                },
+                {
+                  "text": "放逐",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "飞行",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "复生",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "共感",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "光亮",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "黑暗",
+                      "collapsed": true,
+                      "items": []
+                    }
+                  ]
+                },
+                {
+                  "text": "化形",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "环境防护",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "缓和",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "幻象",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "劫动",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "纠缠",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "恐惧",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "傀儡",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "困惑",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "目盲",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "念动",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "偏斜",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "屏障",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "破袪",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "强化",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "削弱特性",
+                      "collapsed": true,
+                      "items": []
+                    }
+                  ]
+                },
+                {
+                  "text": "矢弹",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "天赐勇武",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "通晓语言",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "痛击",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "无形",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "心灵链接",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "心智抹除",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "行尸",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "野兽同盟",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "易容",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "隐形",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "预言",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "元素操纵",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "远视",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "召唤盟友",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "侦测",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "隐藏奥法",
+                      "collapsed": true,
+                      "items": []
+                    }
+                  ]
+                },
+                {
+                  "text": "震慑",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "治疗",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "致盲",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "致伤领域",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "滞缓",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "加速",
+                      "collapsed": true,
+                      "items": []
+                    }
+                  ]
+                },
+                {
+                  "text": "走壁",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "奇术调整",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "持续伤害_(+2)",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "穿甲_(+1 至 +3)",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "发光或覆影_(+1)",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "妨碍或加快_(+1)",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "疲乏_(+2)",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "选别_(+1)",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "增距_(+1 或 +2)",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "重武器_(+2)",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "奇术列表",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "奇术详述",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "启动",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "情景规则",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "不羁攻击",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "不稳平台",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "撤出近战",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "处决",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "待机",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "定点打击",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "多重动作",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "范围效果攻击",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "防御",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "非致命伤害",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "分神与脆弱",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "副手攻击",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "后坐力",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "回避",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "火力压制",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "缴械",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "接触攻击",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "近战中的远程武器",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "考验",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "临时武器",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "冒进攻击",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "瞄准",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "疲乏",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "破坏物体",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "奇袭",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "骑乘战斗",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "擒抱",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "射向近战",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "手无寸铁",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "束缚与纠缠",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "双武器",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "速度",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "体型与尺寸",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "天生武器",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "突袭",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "推撞",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "围攻",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "卧地",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "无辜旁人",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "霰弹枪",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "掩蔽与障碍",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "预备武器",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "援助",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "载具",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "照明",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "震慑",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "装填",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "自由攻击",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "设定规则",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "创新战斗",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "动态反冲",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "多语言",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "更多技能点",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "狗屎运",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "技能专精",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "艰难抉择",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "快速恢复",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "狂热者",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "爽快冒险",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "损伤阈值",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "无甲勇士",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "无奇术点",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "写实伤害",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "信念",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "英雄不灭",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "英雄初诞",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "升级",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "生物列表",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "生物图鉴",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "特殊能力",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "不死族_Undead",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "触手_Tentacles",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "毒素_Poison",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "遁地_Burrow",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "飞行_Flight",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "感染_Infection",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "构装体_Construct",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "红外感应_Infravision",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "护甲_Armor",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "环境抗性_Environmental_Resistance",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "环境弱点_Environmental_Weakness",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "角撞_Horns",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "巨型_Gargantuan",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "恐惧_Fear",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "灵态_Ethereal",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "麻痹_Paralysis",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "免疫_Immunity",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "拍打_Swat",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "强韧",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "非常强韧_Resilient",
+                      "collapsed": true,
+                      "items": [
+                        {
+                          "text": "Very_Resilient",
+                          "collapsed": true,
+                          "items": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "弱点_Weakness",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "噬咬_Bite",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "水栖_Aquatic",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "体型_Size",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "吐息武器_Breath_Weapons",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "顽强_Hardy",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "微光视觉_Low_Light_Vision",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "无敌_Invulnerability",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "无畏_Fearless",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "元素_Element",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "再生_Regeneration",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "爪抓_Claws",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "震慑_Stun",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "走壁_Wall_Walker",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "特殊武器",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "导弹",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "地雷",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "火箭发射器与鱼雷",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "加农炮",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "喷火器",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "手雷",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "投石机",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "载具武器",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "特效",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "特性",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "技能列表",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "详述",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "特性投骰",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "体型表",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "危难",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "触电",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "毒素",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "辐射",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "干渴",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "寒冷",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "火焰",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "饥饿",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "疾病",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "溺水",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "攀爬",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "睡眠",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "炎热",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "肿痛与擦伤",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "坠落",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "未受训尝试",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "现代火器",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "步枪",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "冲锋枪",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "机枪",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "激光",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "手枪",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "霰弹枪",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "载具",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "船舶",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "地面载具",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "飞行器",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "载具详述",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "战斗",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "攻击_Attacks",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "化解投骰_Soak_Rolls",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "伤害_Damage",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "伤害效果_Damage_Effect",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "行动_Actions",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "行动卡_Action_Cards",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "移动_Movement",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "治疗",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "主持游戏",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "助力点",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "专长",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "奥法背景",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "奥法抗性",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "比钢还强",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "比铁还硬",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "搏击师",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "搏击手",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "沉稳冷静",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "刺客",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "大师水准",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "导能",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "盗贼",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "调查员",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "额外效能",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "法师",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "反驳",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "反击",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "飞毛腿",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "俯拾皆兵",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "富裕",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "钢铁神经",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "钢铁意志",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "高等幸运",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "共同联结",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "毫不留情",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "好胜心",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "横扫",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "获得奇术点",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "激励",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "激怒",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "激情四射",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "加把劲",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "坚强意志",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "健壮",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精通奥法抗性",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精通沉稳冷静",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精通反击",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精通钢铁神经",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精通横扫",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精通快速充能",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精通连击",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精通闪避",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精通速射",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精通脱身",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精通先发制人",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精通招架",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精通招牌武器",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "警觉",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "九死一生",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "酒壮人胆",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "巨物杀手",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "聚精会神",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "可靠",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "控心师",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "快速充能",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "快速痊愈",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "狂化",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "连击",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "蛮勇",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "魅力非凡",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "魅力惊人",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "名声大噪",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "谋定后动",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "能量涌动",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "破烂王",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "奇械匠",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "气",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "强力一击",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "巧手先生",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "亲和力",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "热忱",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "热情洋溢",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "人脉",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "煽风点火",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "闪避",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "上流人士",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "神器师",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "神射手",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "神圣",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "邪恶战士",
+                      "collapsed": true,
+                      "items": []
+                    }
+                  ]
+                },
+                {
+                  "text": "士兵",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "市井门道",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "手稳",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "守林人",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "双发快射",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "双枪小子",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "双巧手",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "死里逃生",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "死守不退",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "死亡一射",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "速射",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "随从",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "特技员",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "天生领袖",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "头铁",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "推波助澜",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "推波助浪",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "脱身",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "万事通",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "王牌机师",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "危险感知",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "武斗家",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "武器大师",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "武器宗师",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "武术家",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "先发制人",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "详述",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "背景专长_Background_Edges",
+                      "collapsed": true,
+                      "items": []
+                    },
+                    {
+                      "text": "传奇专长_Legendary_Edges",
+                      "collapsed": true,
+                      "items": []
+                    },
+                    {
+                      "text": "领导力专长_Leadership_Edges",
+                      "collapsed": true,
+                      "items": []
+                    },
+                    {
+                      "text": "奇术专长_Power_Edges",
+                      "collapsed": true,
+                      "items": []
+                    },
+                    {
+                      "text": "奇异专长_Weird_Edges",
+                      "collapsed": true,
+                      "items": []
+                    },
+                    {
+                      "text": "社交专长_Social_Edges",
+                      "collapsed": true,
+                      "items": []
+                    },
+                    {
+                      "text": "术业专长_Professional_Edges",
+                      "collapsed": true,
+                      "items": []
+                    },
+                    {
+                      "text": "战斗专长_Combat_Edges",
+                      "collapsed": true,
+                      "items": []
+                    }
+                  ]
+                },
+                {
+                  "text": "小有名气",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "新奇术",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "幸运",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "凶神恶煞",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "修理先生",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "羞辱",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "虚招",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "学者",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "迅捷",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "野兽大师",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "野兽联结",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "殷富",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "饮魂汲魄",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "勇敢",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "勇士",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "语言学家",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "战斗反应",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "战斗特技",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "战术大师",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "战术家",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "招架",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "招牌武器",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "指挥",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "指挥风度",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "治疗师",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "助手",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "专家水准",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "专业水准",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "自由跑者",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "左右连环",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "装备",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "装备附注",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "触及_REACH",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "穿甲_ARMOR PIERCING, AP",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "猝射",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "高爆_(HE)",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "格挡",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "护甲值_ARMOR",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "口径",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "三连发_THREE-ROUND BURST",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "伤害_DAMAGE",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "射程",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "射速",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "双手",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "重武器_(HW)",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "装填",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "最低力量",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "text": "状态速查",
+              "collapsed": true,
+              "items": []
+            },
+            {
+              "text": "族裔",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "矮人",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "半精灵",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "半身人",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "创造族裔",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "仿生人",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "鲛人",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "精灵",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "猫族",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "人类",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "圣卫",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "天民",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "蜥蜴人",
+                  "collapsed": true,
+                  "items": []
+                },
+                {
+                  "text": "翼民",
+                  "collapsed": true,
+                  "items": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "私设",
+          "collapsed": true,
+          "items": []
+        },
+        {
+          "text": "assets",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "chunks",
+              "collapsed": true,
+              "items": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "/核心规则/": [
     {
       "text": "概览",

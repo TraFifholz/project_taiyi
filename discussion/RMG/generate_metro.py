@@ -1,42 +1,48 @@
 #!/usr/bin/env python3
-"""Generate RMG-compatible JSON for Longsan City metro network."""
+"""Generate RMG-compatible JSON for Longsan City metro network.
+Uses Guangzhou Metro (gzmtr) style with open:true/false support.
+"""
 
 import json
 import uuid
 
-# --- Line colors ---
-LINES = {
-    "L1": {"color": "#E3002B", "text": "#fff", "name": "1号线 · 南北纵贯线"},
-    "L2": {"color": "#82BF24", "text": "#000", "name": "2号线 · 东西跨江线"},
-    "L3": {"color": "#FCD600", "text": "#000", "name": "3号线 · 环城北线"},
-    "L4": {"color": "#461D84", "text": "#fff", "name": "4号线 · 机场文化轴"},
-    "L5": {"color": "#C4984F", "text": "#000", "name": "5号线 · 南岸跨江线"},
-    "L6": {"color": "#008B9A", "text": "#fff", "name": "6号线 · 北郊线"},
-    "L7": {"color": "#ED6F00", "text": "#000", "name": "7号线 · 港区环线"},
-    "L8": {"color": "#E472C6", "text": "#000", "name": "8号线 · 北岭纵贯线"},
-}
-
 CITY = "longsan"
 
+LINES = {
+    "L1": {"color": "#E3002B", "text": "#fff", "num": "1"},
+    "L2": {"color": "#82BF24", "text": "#000", "num": "2"},
+    "L3": {"color": "#FCD600", "text": "#000", "num": "3"},
+    "L4": {"color": "#461D84", "text": "#fff", "num": "4"},
+    "L5": {"color": "#C4984F", "text": "#000", "num": "5"},
+    "L6": {"color": "#008B9A", "text": "#fff", "num": "6"},
+    "L7": {"color": "#ED6F00", "text": "#000", "num": "7"},
+    "L8": {"color": "#E472C6", "text": "#000", "num": "8"},
+}
+
 def line_color(line_id):
-    """Return RMG color array for a line."""
     l = LINES[line_id]
     return [CITY, line_id.lower(), l["color"], l["text"]]
 
+def transfer_entry(line_id):
+    """Return a transfer array entry for gzmtr-int-2024."""
+    l = LINES[line_id]
+    return [CITY, line_id.lower(), l["color"], l["text"], "", ""]
 
-# --- Station definitions ---
-# Each station: (key_suffix, x, y, chinese_name, english_name, lines_served, is_abandoned)
-# is_abandoned means the station exists but is closed
+
+# =====================================================================
+# Station definitions
+# =====================================================================
+# stn(id, x, y, cn_name, en_name, lines, open_status)
 
 STATIONS = {}
 
-def stn(sid, x, y, cn, en, lines, abandoned=False):
+def stn(sid, x, y, cn, en, lines, open_status=True):
     STATIONS[sid] = {
         "id": sid, "x": x, "y": y, "cn": cn, "en": en,
-        "lines": lines, "abandoned": abandoned,
+        "lines": lines, "open": open_status,
     }
 
-# ===== L1: 南北纵贯线 (east bank main spine) =====
+# ===== L1: 南北纵贯线 =====
 stn("lieshi",       200, -160, "烈士陵园", "Martyrs' Cemetery", ["L1","L6","L8"])
 stn("longxiang",    190,  -90, "龙翔天街", "Longxiang Paradise Walk", ["L1","L8"])
 stn("changle",      165,  -25, "长乐街", "Changle St.", ["L1"])
@@ -45,91 +51,91 @@ stn("suiming",      145,   40, "燧明园", "Suiming Park", ["L1","L3","L4","L6"
 stn("shenzhong",    145,  110, "深中中心", "Shenzhong Center", ["L1","L2"])
 stn("chujiang",      80,  200, "楚江广场", "Chujiang Square", ["L1","L2","L4"])
 stn("wenhoumiao",   100,  300, "文侯庙", "Temple of Lord Wen", ["L1"])
-stn("guchengzx",    165,  380, "故城中心", "Gucheng Center", ["L1"], abandoned=True)
+stn("guchengzx",    165,  380, "故城中心", "Gucheng Center", ["L1"], False)
 stn("nanmen",       120,  420, "南门早市", "South Gate Market", ["L1","L5"])
 stn("kaibu",        145,  510, "开埠广场", "Kaibu Square", ["L1","L5"])
 stn("wangjin",      145,  590, "望津港", "Wangjin Port", ["L1","L7"])
 
-# ===== L2: 东西跨江线 (west-east, crosses river) =====
-stn("yunluxi",     -470,  200, "云麓西", "Yunlu West", ["L2"])
-stn("shanlu",      -310,  190, "山麓路口", "Shanlu Intersection", ["L2"])
-stn("longsandx",   -170,  180, "龙散大学", "Longsan University", ["L2"])
-stn("chujiangxj",   -45,  180, "楚江西岸", "Chujiang West Bank", ["L2"])
-# 楚江广场 already defined (L1)
+# ===== L2: 东西跨江线 =====
+stn("yunludong",   -490,  330, "云麓东", "Yunlu East", ["L2"])
+stn("shanlu",      -327,  200, "山麓路口", "Shanlu Intersection", ["L2"])
+stn("longsandx",   -185,  254, "龙散大学", "Longsan University", ["L2"])
+stn("chujiangxj",    0,   170, "楚江西岸", "Chujiang West Bank", ["L2"])
+# 楚江广场 (L1/L2/L4 int)
 stn("zhongli",      235,   90, "重黎广场", "Zhongli Square", ["L2"])
-stn("ronglujie",   320,  145, "熔炉街", "Furnace St.", ["L2"])
-stn("tiejiadong",  385,  175, "铁枷东", "Tiejia East", ["L2","L8"], abandoned=True)  # L2 side abandoned
+stn("gangyang",    320,  145, "钢阳街", "Gangyang St.", ["L2"])
+stn("chugang",     453,  164, "楚钢集团", "Chu Steel Group", ["L2","L8"], False)
 
-# ===== L3: 环城北线 (northern loop) =====
-stn("shuyuanlu",  -130,   10, "书院路", "Shuyuan Rd.", ["L3","L6"])
+# ===== L3: 环城北线 =====
+stn("shuyuanlu",  -185,   15, "书院路", "Shuyuan Rd.", ["L3","L6"])
 stn("caijingdx",    35,   10, "财经大学", "University of Finance & Law", ["L3"])
-# 燧明园 already (L1)
+# 燧明园 (L1/L3/L4/L6)
 stn("yunlilu",     215,  -65, "云鲤路", "Yunli Rd.", ["L3","L6","L8"])
-stn("yingshi",     290, -105, "影视基地", "Film Studio Base", ["L3"])
-# 工运广场 already (L1)
-stn("tiejia_db",   360,   20, "铁枷东北", "Tiejia Northeast", ["L3"], abandoned=True)
-stn("gongyeyj",    425,   60, "工业遗迹", "Industrial Relics", ["L3"])
+stn("yingshi",     290, -105, "影视基地", "Film Studio Base", ["L3","L8"])
+# 工运广场 (L1/L3)
+stn("tieshan_db",  360,   20, "铁山东北", "Tieshan Northeast", ["L3"], False)
+stn("tieshandadao",425,   60, "铁山大道", "Tieshan Avenue", ["L3"])
 
-# ===== L4: 机场文化轴 (airport-culture) =====
+# ===== L4: 机场文化轴 =====
 stn("jichang",    -210, -210, "龙散机场", "Longsan Airport", ["L4"])
 stn("jichangxc",   -90, -170, "机场新城", "Airport New Town", ["L4"])
 stn("aoti",         35,  -85, "奥体中心", "Olympic Sports Center", ["L4","L6"])
-# 燧明园 already (L1)
-# 楚江广场 already (L1)
+# 燧明园
+# 楚江广场
 stn("chufeng",      45,  275, "楚风传媒", "Chufeng Media", ["L4"])
 stn("yinzi",        25,  320, "引资银行", "Yinzi Bank", ["L4"])
 stn("jiangwan",     55,  375, "江湾", "Jiangwan", ["L4","L5"])
 
-# ===== L5: 南岸跨江线 (south cross-river) =====
+# ===== L5: 南岸跨江线 =====
 stn("yaowan",     -110,  710, "窑湾", "Yaowan", ["L5"])
 stn("yaowanbei",   -85,  640, "窑湾北", "Yaowan North", ["L5"])
 stn("jiangsheng", -105,  545, "江声路", "Jiangsheng Rd.", ["L5"])
 stn("qilou",        15,  465, "骑楼街", "Qilou St.", ["L5"])
-# 南门早市 already (L1)
-# 江湾 already (L4)
-# 开埠广场 already (L1)
+# 南门早市
+# 江湾
+# 开埠广场
 stn("chuanzheng", 215,  585, "船政学堂", "Shipbuilding Academy", ["L5","L7"])
 stn("jizhuang",   265,  635, "集装箱港", "Container Port", ["L5"])
 
-# ===== L6: 北郊线 (northern suburbs) =====
+# ===== L6: 北郊线 =====
 stn("chumu",      -410,  -35, "楚墓博物馆", "Chu Tomb Museum", ["L6"])
 stn("zhiwuyuan",  -290,  -25, "植物园", "Botanical Garden", ["L6"])
-# 书院路 already (L3)
-stn("xingzhong",   -65,   55, "醒钟广场", "Bell of Awakening Sq.", ["L6"])
-stn("sz_xibei",     25,   35, "深中西北", "Shenzhong Northwest", ["L6"], abandoned=True)
-# 奥体中心 already (L4)
-# 燧明园 already (L1)
-# 云鲤路 already (L3)
-# 烈士陵园 already (L1)
+# 书院路
+stn("xingzhong",   -85,   68, "醒钟广场", "Bell of Awakening Sq.", ["L6"])
+stn("sz_xibei",     25,   35, "深中西北", "Shenzhong Northwest", ["L6"], False)
+# 奥体中心
+# 燧明园
+# 云鲤路
+# 烈士陵园
 
-# ===== L7: 港区环线 (port loop, 望津区 internal) =====
-# 望津港 already (L1)
+# ===== L7: 港区环线 =====
+# 望津港
 stn("longmendiao",  80,  625, "龙门吊路", "Gantry Crane Rd.", ["L7"])
 stn("madong",       30,  575, "码东", "Dock East", ["L7"])
 stn("jz_zhongxin", 195,  545, "集装箱中心", "Container Center", ["L7"])
 stn("gangwu",      270,  565, "港务新村", "Port Workers' Village", ["L7"])
-# 船政学堂 already (L5)
-stn("haiguan",     160,  515, "海关旧址", "Old Customs House", ["L7"], abandoned=True)
+# 船政学堂
+stn("haiguan",     160,  515, "海关旧址", "Old Customs House", ["L7"], False)
 stn("matounan",     95,  585, "码头南", "Dock South", ["L7"])
 
-# ===== L8: 北岭纵贯线 (北岭区 north-south) =====
-stn("ys_jidi",     310, -190, "影视基地北", "Film Studio North", ["L8"])
-# 烈士陵园 already (L1)
-# 云鲤路 already (L3)
-# 龙翔天街 already (L1)
+# ===== L8: 北岭纵贯线 =====
+# 影视基地 (shared with L3) — replaces 影视基地北
+# 烈士陵园
+# 云鲤路
+# 龙翔天街
 stn("changlejn",   155,   15, "长乐街南", "Changle St. South", ["L8"])
-# 铁枷东 already (L2)
-stn("tiejia_dn",   440,  245, "铁枷东南", "Tiejia Southeast", ["L8"], abandoned=True)
+# 楚钢集团 (shared with L2, open=false)
+stn("tieshan",     547,  222, "铁山", "Tieshan", ["L8"], False)
 
 
-# --- Line route sequences (ordered station IDs) ---
+# Line route sequences
 ROUTES = {
     "L1": ["lieshi", "longxiang", "changle", "gongyun", "suiming", "shenzhong",
            "chujiang", "wenhoumiao", "guchengzx", "nanmen", "kaibu", "wangjin"],
-    "L2": ["yunluxi", "shanlu", "longsandx", "chujiangxj", "chujiang", "shenzhong",
-           "zhongli", "ronglujie", "tiejiadong"],
+    "L2": ["yunludong", "shanlu", "longsandx", "chujiangxj", "chujiang", "shenzhong",
+           "zhongli", "gangyang", "chugang"],
     "L3": ["shuyuanlu", "caijingdx", "suiming", "yunlilu", "yingshi", "gongyun",
-           "tiejia_db", "gongyeyj"],
+           "tieshan_db", "tieshandadao"],
     "L4": ["jichang", "jichangxc", "aoti", "suiming", "chujiang", "chufeng",
            "yinzi", "jiangwan"],
     "L5": ["yaowan", "yaowanbei", "jiangsheng", "qilou", "nanmen", "jiangwan",
@@ -138,26 +144,19 @@ ROUTES = {
            "suiming", "yunlilu", "lieshi"],
     "L7": ["wangjin", "longmendiao", "madong", "jz_zhongxin", "gangwu",
            "chuanzheng", "haiguan", "matounan"],
-    "L8": ["ys_jidi", "lieshi", "yunlilu", "longxiang", "changlejn", "tiejiadong",
-           "tiejia_dn"],
+    "L8": ["yingshi", "lieshi", "yunlilu", "longxiang", "changlejn", "chugang",
+           "tieshan"],
 }
 
-
-def make_key(prefix, sid):
-    return f"stn_{prefix}_{sid}"
 
 def generate():
     prefix = uuid.uuid4().hex[:8]
     nodes = []
     edges = []
 
-    # --- River (楚江) ---
+    # --- 楚江 (River) ---
     river_points = [
-        (55, -250),   # top (north)
-        (40, 100),
-        (25, 350),
-        (50, 500),
-        (60, 750),    # bottom (south)
+        (55, -250), (40, 100), (25, 350), (50, 500), (60, 750),
     ]
     river_keys = []
     for i, (rx, ry) in enumerate(river_points):
@@ -165,11 +164,8 @@ def generate():
         river_keys.append(rk)
         nodes.append({
             "key": rk,
-            "attributes": {
-                "visible": True, "zIndex": 5,
-                "x": rx, "y": ry,
-                "type": "virtual", "virtual": {}
-            }
+            "attributes": {"visible": True, "zIndex": 5, "x": rx, "y": ry,
+                           "type": "virtual", "virtual": {}}
         })
 
     for i in range(len(river_keys) - 1):
@@ -180,24 +176,20 @@ def generate():
                 "visible": True, "zIndex": -10,
                 "type": "diagonal",
                 "diagonal": {"startFrom": "from", "offsetFrom": 0, "offsetTo": 0, "roundCornerFactor": 10},
-                "style": "river",
-                "reconcileId": "",
-                "river": {"color": ["longsan", "river", "#B9E3F9", "#fff"], "width": 22}
+                "style": "river", "reconcileId": "",
+                "river": {"color": [CITY, "river", "#B9E3F9", "#fff"], "width": 22}
             }
         })
 
-    # --- River label ---
+    # River label
     nodes.append({
         "key": f"misc_node_river_label_{prefix}",
         "attributes": {
-            "visible": True, "zIndex": 5,
-            "x": 85, "y": 180,
-            "type": "text",
+            "visible": True, "zIndex": 5, "x": 85, "y": 180, "type": "text",
             "text": {
                 "content": "楚 江", "fontSize": 18, "lineHeight": 16,
-                "textAnchor": "middle", "dominantBaseline": "middle",
-                "language": "zh",
-                "color": ["longsan", "river", "#4A90B8", "#fff"],
+                "textAnchor": "middle", "dominantBaseline": "middle", "language": "zh",
+                "color": [CITY, "river", "#4A90B8", "#fff"],
                 "rotate": 90, "italic": "normal", "bold": "bold", "outline": 0
             }
         }
@@ -205,158 +197,135 @@ def generate():
 
     # --- District labels ---
     district_labels = [
-        (200, -115, "北岭区"),
-        (145, 70, "深中新区"),
-        (80, 240, "楚岸区"),
-        (100, 340, "故城区"),
-        (380, 130, "铁枷区"),
-        (180, 560, "望津区"),
-        (-170, 130, "文星区"),
-        (-470, 240, "云麓镇"),
-        (-110, 680, "窑湾村"),
+        (200, -115, "北岭区"), (145, 70, "深中新区"), (80, 240, "楚岸区"),
+        (100, 340, "故城区"), (380, 130, "铁山区"), (180, 560, "望津区"),
+        (-170, 130, "文星区"), (-470, 240, "云麓镇"), (-110, 680, "窑湾村"),
     ]
     for di, (dx, dy, dname) in enumerate(district_labels):
         nodes.append({
             "key": f"misc_node_district_{prefix}_{di}",
             "attributes": {
-                "visible": True, "zIndex": 5,
-                "x": dx, "y": dy,
-                "type": "text",
+                "visible": True, "zIndex": 5, "x": dx, "y": dy, "type": "text",
                 "text": {
                     "content": dname, "fontSize": 11, "lineHeight": 14,
-                    "textAnchor": "middle", "dominantBaseline": "middle",
-                    "language": "zh",
-                    "color": ["longsan", "district", "#888888", "#fff"],
+                    "textAnchor": "middle", "dominantBaseline": "middle", "language": "zh",
+                    "color": [CITY, "district", "#888888", "#fff"],
                     "rotate": 0, "italic": "normal", "bold": "normal", "outline": 0
                 }
             }
         })
 
+    # --- Compute station codes per line ---
+    # For each line, number all stations sequentially; codes displayed only on gzmtr-basic
+    station_codes = {}  # (line_id, sid) -> "XX"
+    for line_id, route in ROUTES.items():
+        for i, sid in enumerate(route):
+            station_codes[(line_id, sid)] = f"{i+1:02d}"
+
     # --- Stations ---
-    station_node_keys = {}  # sid -> node_key
+    station_node_keys = {}
     for sid, s in STATIONS.items():
-        nk = make_key(prefix, sid)
+        nk = f"stn_{prefix}_{sid}"
         station_node_keys[sid] = nk
-
         is_interchange = len(s["lines"]) >= 2
-        cn = s["cn"]
-        en = s["en"]
-
-        if s["abandoned"]:
-            # Abandoned station: show with X marker style
-            cn_display = f"{cn} (废)"
-            en_display = f"{en} (Closed)"
-        else:
-            cn_display = cn
-            en_display = en
 
         if is_interchange:
+            # gzmtr-int-2024
+            transfer_lines = s["lines"]
+            transfer_data = [[transfer_entry(lid) for lid in transfer_lines]]
             node = {
                 "key": nk,
                 "attributes": {
                     "visible": True, "zIndex": 5,
                     "x": s["x"], "y": s["y"],
-                    "type": "shmetro-int",
-                    "shmetro-int": {
-                        "names": [cn_display, en_display],
+                    "type": "gzmtr-int-2024",
+                    "gzmtr-int-2024": {
+                        "names": [s["cn"], s["en"]],
                         "nameOffsetX": "middle", "nameOffsetY": "bottom",
-                        "rotate": 0, "height": 10, "width": 18
+                        "transfer": transfer_data,
+                        "open": s["open"],
+                        "secondaryNames": ["", ""],
+                        "columns": len(transfer_lines),
+                        "topHeavy": False,
+                        "anchorAt": -1,
+                        "osiPosition": "none"
                     }
                 }
             }
         else:
-            # Use the color of the first (only) line
-            lc = line_color(s["lines"][0])
-            # Determine rotation based on line direction
+            # gzmtr-basic
+            primary_line = s["lines"][0]
+            lc = line_color(primary_line)
+            code = station_codes.get((primary_line, sid), "01")
             node = {
                 "key": nk,
                 "attributes": {
                     "visible": True, "zIndex": 5,
                     "x": s["x"], "y": s["y"],
-                    "type": "shmetro-basic-2020",
-                    "shmetro-basic-2020": {
-                        "names": [cn_display, en_display],
-                        "rotate": 0,
-                        "color": lc
+                    "type": "gzmtr-basic",
+                    "gzmtr-basic": {
+                        "names": [s["cn"], s["en"]],
+                        "color": lc,
+                        "lineCode": LINES[primary_line]["num"],
+                        "stationCode": code,
+                        "open": s["open"],
+                        "secondaryNames": ["", ""],
+                        "tram": False
                     }
                 }
             }
-
         nodes.append(node)
 
-    # --- Edges for each line ---
-    for line_id, station_ids in ROUTES.items():
+    # --- Edges ---
+    for line_id, route in ROUTES.items():
         lc = line_color(line_id)
-        for i in range(len(station_ids) - 1):
-            s_from = station_ids[i]
-            s_to = station_ids[i + 1]
-            nk_from = station_node_keys[s_from]
-            nk_to = station_node_keys[s_to]
-
-            # Calculate if this segment is roughly horizontal or vertical
-            s1 = STATIONS[s_from]
-            s2 = STATIONS[s_to]
-            dx = s2["x"] - s1["x"]
-            dy = s2["y"] - s1["y"]
-
-            edge = {
+        for i in range(len(route) - 1):
+            s_from = route[i]
+            s_to = route[i + 1]
+            edges.append({
                 "key": f"line_{prefix}_{line_id}_{i}",
-                "source": nk_from, "target": nk_to,
+                "source": station_node_keys[s_from],
+                "target": station_node_keys[s_to],
                 "attributes": {
                     "visible": True, "zIndex": -5,
                     "type": "diagonal",
-                    "diagonal": {
-                        "startFrom": "from",
-                        "offsetFrom": 0, "offsetTo": 0,
-                        "roundCornerFactor": 10
-                    },
-                    "style": "single-color",
-                    "reconcileId": "",
+                    "diagonal": {"startFrom": "from", "offsetFrom": 0, "offsetTo": 0, "roundCornerFactor": 10},
+                    "style": "single-color", "reconcileId": "",
                     "single-color": {"color": lc}
                 }
-            }
-            edges.append(edge)
+            })
 
     # --- Line number badges ---
     badge_positions = {
-        "L1": (270, -170),   # near 烈士陵园
-        "L2": (-490, 170),   # near 云麓西
-        "L3": (450, 30),     # near 工业遗迹
-        "L4": (-230, -230),  # near 机场
-        "L5": (-130, 730),   # near 窑湾
-        "L6": (-430, -55),   # near 楚墓博物馆
-        "L7": (290, 595),    # near 港务新村
-        "L8": (460, 210),    # near 铁枷东南
+        "L1": (270, -170), "L2": (-510, 350), "L3": (450, 30),
+        "L4": (-230, -230), "L5": (-130, 730), "L6": (-430, -55),
+        "L7": (290, 595), "L8": (570, 240),
     }
     for line_id, (bx, by) in badge_positions.items():
-        num = int(line_id[1:])
-        lc = line_color(line_id)
         nodes.append({
             "key": f"misc_node_badge_{prefix}_{line_id}",
             "attributes": {
-                "visible": True, "zIndex": 5,
-                "x": bx, "y": by,
+                "visible": True, "zIndex": 5, "x": bx, "y": by,
                 "type": "shmetro-num-line-badge",
                 "shmetro-num-line-badge": {
-                    "num": num, "color": lc
+                    "num": int(line_id[1:]), "color": line_color(line_id)
                 }
             }
         })
 
     # --- Airport icon ---
-    airport_stn = STATIONS["jichang"]
+    ap = STATIONS["jichang"]
     nodes.append({
         "key": f"misc_node_airport_{prefix}",
         "attributes": {
             "visible": True, "zIndex": 5,
-            "x": airport_stn["x"] - 25, "y": airport_stn["y"] - 15,
-            "type": "facilities",
-            "facilities": {"type": "airport"}
+            "x": ap["x"] - 25, "y": ap["y"] - 15,
+            "type": "facilities", "facilities": {"type": "airport"}
         }
     })
 
     # --- Build output ---
-    output = {
+    return {
         "svgViewBoxZoom": 100,
         "svgViewBoxMin": {"x": -600, "y": -300},
         "images": [],
@@ -369,13 +338,24 @@ def generate():
         "version": 74
     }
 
-    return output
-
 
 if __name__ == "__main__":
     data = generate()
     out_path = "d:/Project Taiyi/discussion/RMG/longsan_metro.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+    total_edges = sum(len(v)-1 for v in ROUTES.values()) + 4  # +4 river segments
     print(f"Generated {out_path}")
-    print(f"Stations: {len(STATIONS)}, Edges: {sum(len(v)-1 for v in ROUTES.values())}")
+    print(f"Stations: {len(STATIONS)}, Edges: {total_edges}")
+    # Print station code assignments
+    for line_id, route in ROUTES.items():
+        names = []
+        for sid in route:
+            s = STATIONS[sid]
+            marker = ""
+            if not s["open"]:
+                marker = " [闭]"
+            if len(s["lines"]) >= 2:
+                marker += f" (换乘:{','.join(s['lines'])})"
+            names.append(f"{s['cn']}{marker}")
+        print(f"  {line_id}: {' → '.join(names)}")
