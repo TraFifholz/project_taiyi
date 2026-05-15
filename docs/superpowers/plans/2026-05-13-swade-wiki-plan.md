@@ -1,34 +1,34 @@
 # SWADE Wiki Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+>  **For agentic workers:**  REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Convert 560 TiddlyWiki Text entries to Markdown, set up VitePress, configure GitHub Pages CI deployment.
+ **Goal:**  Convert 560 TiddlyWiki Text entries to Markdown, set up VitePress, configure GitHub Pages CI deployment.
 
-**Architecture:** One-shot Node.js script converts JSON to Markdown files preserving hierarchy. VitePress serves the static site with auto-generated sidebar. GitHub Actions deploys on push to main.
+ **Architecture:**  One-shot Node.js script converts JSON to Markdown files preserving hierarchy. VitePress serves the static site with auto-generated sidebar. GitHub Actions deploys on push to main.
 
-**Tech Stack:** VitePress (static site), Node.js (conversion script), GitHub Actions (CI/CD)
+ **Tech Stack:**  VitePress (static site), Node.js (conversion script), GitHub Actions (CI/CD)
 
 ---
 
 ### Task 1: Initialize Project
 
-**Files:**
+ **Files:** 
 - Create: `package.json`
 - Create: `.gitignore`
 - Modify: (new repo — `git init`)
 
-- [ ] **Step 1: Create package.json**
+- [ ]  **Step 1: Create package.json** 
 
 ```bash
 cd "d:/Project Taiyi"
 npm init -y
 ```
 
-- [ ] **Step 2: Install VitePress**
+- [ ]  **Step 2: Install VitePress** 
 
 Run: `npm install -D vitepress`
 
-- [ ] **Step 3: Create .gitignore**
+- [ ]  **Step 3: Create .gitignore** 
 
 ```
 node_modules/
@@ -36,7 +36,7 @@ node_modules/
 .vitepress/cache/
 ```
 
-- [ ] **Step 4: Verify**
+- [ ]  **Step 4: Verify** 
 
 Run: `npx vitepress --version`
 
@@ -44,10 +44,10 @@ Run: `npx vitepress --version`
 
 ### Task 2: Write Conversion Script
 
-**Files:**
+ **Files:** 
 - Create: `scripts/convert.js`
 
-- [ ] **Step 1: Create script skeleton that reads JSON and logs stats**
+- [ ]  **Step 1: Create script skeleton that reads JSON and logs stats** 
 
 ```javascript
 // scripts/convert.js
@@ -76,7 +76,7 @@ console.log(`Leaf pages: ${data.filter(e => !isCategory(e.title)).length}`);
 Run: `node scripts/convert.js`
 Expected: prints stats.
 
-- [ ] **Step 2: Add path resolution and directory creation**
+- [ ]  **Step 2: Add path resolution and directory creation** 
 
 ```javascript
 const outputDir = './src';
@@ -100,7 +100,7 @@ for (const dir of dirs) {
 console.log(`Created ${dirs.size} directories`);
 ```
 
-- [ ] **Step 3: Add text conversion function**
+- [ ]  **Step 3: Add text conversion function** 
 
 ```javascript
 function convertText(text) {
@@ -123,8 +123,8 @@ function convertText(text) {
   result = result.replace(/^!!! /gm, '## ');
   result = result.replace(/^!! /gm, '### ');
 
-  // 4. Bold/italic: ''text'' → **text**
-  result = result.replace(/''(.+?)''/g, '**$1**');
+  // 4. Bold/italic: ''text'' →  **text** 
+  result = result.replace(/''(.+?)''/g, ' **$1** ');
 
   // 5. Wiki links: [[display|path]] → [display](./path.md)
   result = result.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '[$1](./$2.md)');
@@ -150,7 +150,7 @@ function convertText(text) {
 }
 ```
 
-- [ ] **Step 4: Add file writing with frontmatter**
+- [ ]  **Step 4: Add file writing with frontmatter** 
 
 ```javascript
 let mylistCount = 0;
@@ -186,7 +186,7 @@ if (mylistLocations.length > 0) {
 }
 ```
 
-- [ ] **Step 5: Generate index.md for orphan directories**
+- [ ]  **Step 5: Generate index.md for orphan directories** 
 
 Directories that have no corresponding entry still need an index.md to list child pages.
 
@@ -238,11 +238,11 @@ for (const dirRel of dirsNeedingIndex) {
 console.log(`Generated ${dirsNeedingIndex.length} auto-index pages`);
 ```
 
-- [ ] **Step 6: Run full conversion**
+- [ ]  **Step 6: Run full conversion** 
 
 Run: `node scripts/convert.js`
 
-- [ ] **Step 7: Verify output — spot check a few files**
+- [ ]  **Step 7: Verify output — spot check a few files** 
 
 Run: `ls -R src/ | head -60`
 
@@ -250,10 +250,10 @@ Run: `ls -R src/ | head -60`
 
 ### Task 3: Create Homepage
 
-**Files:**
+ **Files:** 
 - Create: `src/index.md`
 
-- [ ] **Step 1: Write homepage**
+- [ ]  **Step 1: Write homepage** 
 
 ```markdown
 ---
@@ -281,7 +281,7 @@ features:
 ---
 ```
 
-- [ ] **Step 2: Create 私设 placeholder**
+- [ ]  **Step 2: Create 私设 placeholder** 
 
 ```bash
 mkdir -p src/私设
@@ -293,16 +293,16 @@ mkdir -p src/私设
 _内容建设中..._
 ```
 
-- [ ] **Step 3: Commit**
+- [ ]  **Step 3: Commit** 
 
 ---
 
 ### Task 4: Configure VitePress
 
-**Files:**
+ **Files:** 
 - Create: `.vitepress/config.js`
 
-- [ ] **Step 1: Generate sidebar config in convert script**
+- [ ]  **Step 1: Generate sidebar config in convert script** 
 
 Add to `scripts/convert.js` a function that generates the sidebar config JSON.
 
@@ -362,7 +362,7 @@ fs.writeFileSync('./.vitepress/sidebar.json', JSON.stringify(sidebar, null, 2), 
 console.log('Sidebar config generated');
 ```
 
-- [ ] **Step 2: Create .vitepress/config.js**
+- [ ]  **Step 2: Create .vitepress/config.js** 
 
 ```javascript
 import { defineConfig } from 'vitepress'
@@ -401,7 +401,7 @@ export default defineConfig({
 })
 ```
 
-- [ ] **Step 3: Add npm scripts to package.json**
+- [ ]  **Step 3: Add npm scripts to package.json** 
 
 ```json
 {
@@ -413,11 +413,11 @@ export default defineConfig({
 }
 ```
 
-- [ ] **Step 4: Re-run convert to generate fresh sidebar**
+- [ ]  **Step 4: Re-run convert to generate fresh sidebar** 
 
 Run: `node scripts/convert.js`
 
-- [ ] **Step 5: Test dev server**
+- [ ]  **Step 5: Test dev server** 
 
 Run: `npm run dev`
 Expected: VitePress dev server starts, browse to localhost.
@@ -426,10 +426,10 @@ Expected: VitePress dev server starts, browse to localhost.
 
 ### Task 5: Set Up GitHub Actions Deployment
 
-**Files:**
+ **Files:** 
 - Create: `.github/workflows/deploy.yml`
 
-- [ ] **Step 1: Create deploy workflow**
+- [ ]  **Step 1: Create deploy workflow** 
 
 ```yaml
 name: Deploy to GitHub Pages
@@ -464,7 +464,7 @@ jobs:
       - uses: actions/deploy-pages@v4
 ```
 
-- [ ] **Step 2: Verify workflow file syntax**
+- [ ]  **Step 2: Verify workflow file syntax** 
 
 Run: `cat .github/workflows/deploy.yml`
 
@@ -472,10 +472,10 @@ Run: `cat .github/workflows/deploy.yml`
 
 ### Task 6: Initialize Git and Validate
 
-**Files:**
+ **Files:** 
 - Create: (git init)
 
-- [ ] **Step 1: Initialize git repo**
+- [ ]  **Step 1: Initialize git repo** 
 
 ```bash
 cd "d:/Project Taiyi"
@@ -484,23 +484,23 @@ git add -A
 git status
 ```
 
-- [ ] **Step 2: Review what will be committed**
+- [ ]  **Step 2: Review what will be committed** 
 
 Check that `node_modules/`, `.vitepress/dist/`, `.vitepress/cache/` are excluded by .gitignore.
 
-- [ ] **Step 3: Commit**
+- [ ]  **Step 3: Commit** 
 
 ```bash
 git add package.json package-lock.json .gitignore src/ .vitepress/ scripts/ .github/
 git commit -m "feat: initialize SWADE wiki with VitePress and conversion script"
 ```
 
-- [ ] **Step 4: Build and verify static output**
+- [ ]  **Step 4: Build and verify static output** 
 
 Run: `npm run build`
 Expected: build succeeds, files in `src/.vitepress/dist/`
 
-- [ ] **Step 5: Check for conversion issues**
+- [ ]  **Step 5: Check for conversion issues** 
 
 Scan for broken links, empty pages, unclosed HTML.
 

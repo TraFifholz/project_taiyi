@@ -13,10 +13,10 @@
 
 ## Tech Stack
 
-- **VitePress** — static site generator, Markdown-based, built-in sidebar/nav/search/dark mode
-- **Node.js convert script** — one-shot JSON to Markdown
-- **GitHub Actions** — CI build and deploy to GitHub Pages
-- **Markdown** — ongoing content maintenance format
+-  **VitePress**  — static site generator, Markdown-based, built-in sidebar/nav/search/dark mode
+-  **Node.js convert script**  — one-shot JSON to Markdown
+-  **GitHub Actions**  — CI build and deploy to GitHub Pages
+-  **Markdown**  — ongoing content maintenance format
 
 ## Directory Structure
 
@@ -52,7 +52,7 @@ d:\Project Taiyi\
 | `<div class="statblock">` + `</div>` | Removed (content kept) |
 | `!!! Title` | `## Title` |
 | `!! Title` | `### Title` |
-| `''text''` | `**text**` |
+| `''text''` | ` **text** ` |
 | `* list item` | `- list item` |
 | `[[display\|path]]` | `[display](./path.md)` |
 | `[[path]]` | `[path](./path.md)` |

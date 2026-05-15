@@ -1,0 +1,1857 @@
+371 broken link(s):
+
+  核心规则\不羁角色与龙套们.md:21
+    text: 无力化
+    url:  ../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\不羁角色与龙套们.md:21
+    text: 损伤
+    url:  ../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\不羁角色与龙套们.md:22
+    text: 特性投骰
+    url:  ../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\不羁角色与龙套们.md:22
+    text: 特性
+    url:  ../特性/
+    tried: D:\Project Taiyi\src\特性
+
+  核心规则\不羁角色与龙套们.md:22
+    text: 不羁骰
+    url:  ../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\体型表.md:22
+    text: 半身人
+    url:  ../族裔/半身人/
+    tried: D:\Project Taiyi\src\族裔\半身人
+
+  核心规则\助力点.md:17
+    text: 负赘
+    url:  ../负赘/
+    tried: D:\Project Taiyi\src\负赘
+
+  核心规则\助力点.md:27
+    text: 不羁角色
+    url:  ../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\助力点.md:33
+    text: 不羁角色
+    url:  ../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\助力点.md:41
+    text: 特性
+    url:  ../特性/
+    tried: D:\Project Taiyi\src\特性
+
+  核心规则\助力点.md:41
+    text: 大失败
+    url:  ../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\助力点.md:42
+    text: 动摇
+    url:  ../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\助力点.md:43
+    text: 损伤
+    url:  ../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\助力点.md:43
+    text: 动摇
+    url:  ../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\助力点.md:43
+    text: 化解投骰
+    url:  ../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\助力点.md:44
+    text: 行动卡
+    url:  ../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\助力点.md:44
+    text: 核心规则/负赘/犹豫不决
+    url:  ../负赘/犹豫不决/
+    tried: D:\Project Taiyi\src\负赘\犹豫不决
+
+  核心规则\助力点.md:44
+    text: 专长
+    url:  ../专长/
+    tried: D:\Project Taiyi\src\专长
+
+  核心规则\助力点.md:44
+    text: 负赘
+    url:  ../负赘/
+    tried: D:\Project Taiyi\src\负赘
+
+  核心规则\助力点.md:45
+    text: 伤害
+    url:  ../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\助力点.md:45
+    text: 优良
+    url:  ../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\助力点.md:46
+    text: 核心规则/奥法背景
+    url:  ../奥法背景/
+    tried: D:\Project Taiyi\src\奥法背景
+
+  核心规则\启动.md:7
+    text: 奇术点
+    url:  ../临时/奥法背景/
+    tried: D:\Project Taiyi\src\临时\奥法背景
+
+  核心规则\启动.md:19
+    text: 束缚
+    url:  ../情景规则/束缚与纠缠/
+    tried: D:\Project Taiyi\src\情景规则\束缚与纠缠
+
+  核心规则\启动.md:37
+    text: 行动
+    url:  ../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\启动.md:39
+    text: 多重行动
+    url:  ../情景规则/多重行动/
+    tried: D:\Project Taiyi\src\情景规则\多重行动
+
+  核心规则\启动.md:41
+    text: 偏斜
+    url:  ../奇术/偏斜/
+    tried: D:\Project Taiyi\src\奇术\偏斜
+
+  核心规则\启动.md:43
+    text: 放逐
+    url:  ../奇术/放逐/
+    tried: D:\Project Taiyi\src\奇术\放逐
+
+  核心规则\启动.md:51
+    text: 大失败
+    url:  ../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\普通装备.md:85
+    text: 口径
+    url:  ../装备附注/口径/
+    tried: D:\Project Taiyi\src\装备附注\口径
+
+  核心规则\普通装备.md:86
+    text: 口径
+    url:  ../装备附注/口径/
+    tried: D:\Project Taiyi\src\装备附注\口径
+
+  核心规则\普通装备.md:87
+    text: 口径
+    url:  ../装备附注/口径/
+    tried: D:\Project Taiyi\src\装备附注\口径
+
+  核心规则\普通装备.md:93
+    text: 霰弹枪
+    url:  ../情景规则/霰弹枪/
+    tried: D:\Project Taiyi\src\情景规则\霰弹枪
+
+  核心规则\普通装备.md:132
+    text: -2
+    url:  见《狂野世界》毒素效果
+    tried: D:\Project Taiyi\src\核心规则\见《狂野世界》毒素效果
+
+  核心规则\治疗.md:7
+    text: 治疗
+    url:  ../技能/治疗/
+    tried: D:\Project Taiyi\src\技能\治疗
+
+  核心规则\治疗.md:19
+    text: 治疗
+    url:  ../技能/治疗/
+    tried: D:\Project Taiyi\src\技能\治疗
+
+  核心规则\治疗.md:21
+    text: 损伤
+    url:  ../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\治疗.md:25
+    text: 治疗
+    url:  ../技能/治疗/
+    tried: D:\Project Taiyi\src\技能\治疗
+
+  核心规则\治疗.md:25
+    text: 失血
+    url:  ../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\治疗.md:25
+    text: 行动
+    url:  ../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\治疗.md:33
+    text: 大失败
+    url:  ../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\特性投骰.md:17
+    text: 龙套
+    url:  ../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\特性投骰.md:53
+    text: 不羁角色
+    url:  ../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\特性投骰.md:55
+    text: 反冲
+    url:  ../启动/
+    tried: D:\Project Taiyi\src\启动
+
+  核心规则\特性投骰.md:57
+    text: 助力点
+    url:  ../助力点/
+    tried: D:\Project Taiyi\src\助力点
+
+  核心规则\特性投骰.md:73
+    text: 专长
+    url:  ../专长/
+    tried: D:\Project Taiyi\src\专长
+
+  核心规则\特性投骰.md:79
+    text: 专长
+    url:  ../专长/
+    tried: D:\Project Taiyi\src\专长
+
+  核心规则\装备附注.md:25
+    text: 伤害
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\战斗
+
+  核心规则\装备附注.md:29
+    text: 格挡
+    url:  ../../角色/
+    tried: D:\Project Taiyi\角色
+
+  核心规则\装备附注.md:43
+    text: 移速
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\战斗
+
+  核心规则\装备附注.md:43
+    text: 灵巧
+    url:  ../../特性/
+    tried: D:\Project Taiyi\特性
+
+  核心规则\装备附注.md:44
+    text: 力量
+    url:  ../../特性/
+    tried: D:\Project Taiyi\特性
+
+  核心规则\装备附注.md:44
+    text: 触及
+    url:  ../../临时/触及/
+    tried: D:\Project Taiyi\临时\触及
+
+  核心规则\装备附注.md:44
+    text: 格挡
+    url:  ../格挡/
+    tried: D:\Project Taiyi\src\格挡
+
+  核心规则\装备附注.md:45
+    text: 力量
+    url:  ../../特性/
+    tried: D:\Project Taiyi\特性
+
+  核心规则\装备附注.md:61
+    text: 核心规则/情景规则/装填
+    url:  ../../情景规则/装填/
+    tried: D:\Project Taiyi\情景规则\装填
+
+  核心规则\装备附注.md:71
+    text: 重护甲
+    url:  ../../载具/
+    tried: D:\Project Taiyi\载具
+
+  核心规则\负赘.md:52
+    text: 危难
+    url:  ../../冒险工具箱/危难/
+    tried: D:\Project Taiyi\冒险工具箱\危难
+
+  核心规则\负赘.md:70
+    text: 特性投骰
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\特性投骰
+
+  核心规则\负赘.md:131
+    text: 移动
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\战斗
+
+  核心规则\负赘.md:133
+    text: 溺水
+    url:  ../../危难/溺水/
+    tried: D:\Project Taiyi\危难\溺水
+
+  核心规则\负赘.md:151
+    text: 减值
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\特性投骰
+
+  核心规则\负赘.md:278
+    text: 技能
+    url:  ../../特性/
+    tried: D:\Project Taiyi\特性
+
+  核心规则\负赘.md:328
+    text: 疲乏
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\情景规则\疲乏
+
+  核心规则\负赘.md:338
+    text: 投骰
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\特性投骰
+
+  核心规则\负赘.md:340
+    text: 创伤
+    url:  ../../冒险工具箱/危难/
+    tried: D:\Project Taiyi\冒险工具箱\危难
+
+  核心规则\负赘.md:388
+    text: 次要
+    url:  ../../临时/角色/
+    tried: D:\Project Taiyi\临时\角色
+
+  核心规则\负赘.md:390
+    text: 主要
+    url:  ../../临时/角色/
+    tried: D:\Project Taiyi\临时\角色
+
+  核心规则\负赘.md:434
+    text: 减值
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\特性投骰
+
+  核心规则\负赘.md:452
+    text: 体型
+    url:  ../../情景规则/体型与尺寸/
+    tried: D:\Project Taiyi\情景规则\体型与尺寸
+
+  核心规则\负赘.md:500
+    text: 交涉
+    url:  ../../技能/交涉/
+    tried: D:\Project Taiyi\技能\交涉
+
+  核心规则\负赘.md:594
+    text: 次要
+    url:  ../../临时/角色/
+    tried: D:\Project Taiyi\临时\角色
+
+  核心规则\负赘.md:596
+    text: 主要
+    url:  ../../临时/角色/
+    tried: D:\Project Taiyi\临时\角色
+
+  核心规则\负赘.md:604
+    text: 擒抱
+    url:  ../../情景规则/擒抱/
+    tried: D:\Project Taiyi\情景规则\擒抱
+
+  核心规则\负赘.md:608
+    text: 次要
+    url:  ../../临时/角色/
+    tried: D:\Project Taiyi\临时\角色
+
+  核心规则\负赘.md:614
+    text: 移速
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\战斗
+
+  核心规则\负赘.md:614
+    text: 运动
+    url:  ../../技能/运动/
+    tried: D:\Project Taiyi\技能\运动
+
+  核心规则\负赘.md:615
+    text: 移速
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\战斗
+
+  核心规则\负赘.md:615
+    text: 运动
+    url:  ../../技能/运动/
+    tried: D:\Project Taiyi\技能\运动
+
+  核心规则\负赘.md:616
+    text: 移速
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\战斗
+
+  核心规则\负赘.md:623
+    text: 坚韧
+    url:  ../../临时/角色/
+    tried: D:\Project Taiyi\临时\角色
+
+  核心规则\负赘.md:653
+    text: 主要
+    url:  ../../临时/角色/
+    tried: D:\Project Taiyi\临时\角色
+
+  核心规则\负赘.md:671
+    text: 主要
+    url:  ../../临时/角色/
+    tried: D:\Project Taiyi\临时\角色
+
+  核心规则\负赘.md:679
+    text: 减值
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\特性投骰
+
+  核心规则\负赘.md:751
+    text: 威吓
+    url:  ../../技能/威吓/
+    tried: D:\Project Taiyi\技能\威吓
+
+  核心规则\负赘.md:761
+    text: 专长
+    url:  ../../专长/
+    tried: D:\Project Taiyi\专长
+
+  核心规则\负赘.md:765
+    text: 主要
+    url:  ../../临时/角色/
+    tried: D:\Project Taiyi\临时\角色
+
+  核心规则\进行游戏.md:46
+    text: 位阶
+    url:  ../升级/
+    tried: D:\Project Taiyi\src\升级
+
+  核心规则\进行游戏.md:47
+    text: 龙套
+    url:  ../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\进行游戏.md:47
+    text: 专长
+    url:  ../专长/
+    tried: D:\Project Taiyi\src\专长
+
+  核心规则\进行游戏.md:137
+    text: 盟友
+    url:  ../冒险工具箱/盟友/
+    tried: D:\Project Taiyi\src\冒险工具箱\盟友
+
+  核心规则\专长\传奇专长_Legendary_Edges.md:12
+    text: 专业水准
+    url:  ../专业水准/
+    tried: D:\Project Taiyi\src\核心规则\专业水准
+
+  核心规则\专长\传奇专长_Legendary_Edges.md:38
+    text: 专家水准
+    url:  ../专家水准/
+    tried: D:\Project Taiyi\src\核心规则\专家水准
+
+  核心规则\专长\奇异专长_Weird_Edges.md:16
+    text: 格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\专长\战斗专长_Combat_Edges.md:108
+    text: 速射
+    url:  ../速射/
+    tried: D:\Project Taiyi\src\核心规则\速射
+
+  核心规则\专长\战斗专长_Combat_Edges.md:112
+    text: 射击
+    url:  ../../技能/射击/
+    tried: D:\Project Taiyi\src\技能\射击
+
+  核心规则\专长\战斗专长_Combat_Edges.md:120
+    text: 格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\专长\战斗专长_Combat_Edges.md:142
+    text: 格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\专长\战斗专长_Combat_Edges.md:238
+    text: 格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\专长\战斗专长_Combat_Edges.md:248
+    text: 格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\专长\战斗专长_Combat_Edges.md:294
+    text: 连击
+    url:  ../连击/
+    tried: D:\Project Taiyi\src\核心规则\连击
+
+  核心规则\专长\战斗专长_Combat_Edges.md:303
+    text: 射击
+    url:  ../../技能/射击/
+    tried: D:\Project Taiyi\src\技能\射击
+
+  核心规则\专长\战斗专长_Combat_Edges.md:381
+    text: 格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\专长\战斗专长_Combat_Edges.md:431
+    text: 格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\专长\战斗专长_Combat_Edges.md:435
+    text: 连击
+    url:  ../连击/
+    tried: D:\Project Taiyi\src\核心规则\连击
+
+  核心规则\专长\战斗专长_Combat_Edges.md:457
+    text: 双枪小子
+    url:  ../双枪小子/
+    tried: D:\Project Taiyi\src\核心规则\双枪小子
+
+  核心规则\专长\术业专长_Professional_Edges.md:161
+    text: 贼活
+    url:  ../../技能/贼活/
+    tried: D:\Project Taiyi\src\技能\贼活
+
+  核心规则\专长\社交专长_Social_Edges.md:126
+    text: 推波助浪
+    url:  ../推波助浪/
+    tried: D:\Project Taiyi\src\核心规则\推波助浪
+
+  核心规则\专长\背景专长_Background_Edges.md:67
+    text: 交涉
+    url:  ../../技能/交涉/
+    tried: D:\Project Taiyi\src\技能\交涉
+
+  核心规则\专长\背景专长_Background_Edges.md:81
+    text: 威吓
+    url:  ../../技能/威吓/
+    tried: D:\Project Taiyi\src\技能\威吓
+
+  核心规则\专长\背景专长_Background_Edges.md:83
+    text: 格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\专长\背景专长_Background_Edges.md:171
+    text: 表演
+    url:  ../../技能/表演/
+    tried: D:\Project Taiyi\src\技能\表演
+
+  核心规则\冒险工具箱\剧情任务.md:26
+    text: 航空
+    url:  ../../技能/航空/
+    tried: D:\Project Taiyi\src\技能\航空
+
+  核心规则\冒险工具箱\剧情任务.md:73
+    text: 援助
+    url:  ../../情景规则/援助/
+    tried: D:\Project Taiyi\src\情景规则\援助
+
+  核心规则\冒险工具箱\大规模作战.md:98
+    text: 弹药
+    url:  ../../临时/弹药表/
+    tried: D:\Project Taiyi\src\临时\弹药表
+
+  核心规则\冒险工具箱\幕间.md:13
+    text: 助力点
+    url:  ../../助力点/
+    tried: D:\Project Taiyi\src\助力点
+
+  核心规则\冒险工具箱\幕间.md:27
+    text: 助力点
+    url:  ../../助力点/
+    tried: D:\Project Taiyi\src\助力点
+
+  核心规则\冒险工具箱\快速遭遇.md:25
+    text: 通用知识
+    url:  ../../技能/通用知识/
+    tried: D:\Project Taiyi\src\技能\通用知识
+
+  核心规则\冒险工具箱\快速遭遇.md:25
+    text: 驾驶
+    url:  ../../技能/驾驶/
+    tried: D:\Project Taiyi\src\技能\驾驶
+
+  核心规则\冒险工具箱\快速遭遇.md:25
+    text: 修理
+    url:  ../../技能/修理/
+    tried: D:\Project Taiyi\src\技能\修理
+
+  核心规则\冒险工具箱\快速遭遇.md:25
+    text: 射击
+    url:  ../../技能/射击/
+    tried: D:\Project Taiyi\src\技能\射击
+
+  核心规则\冒险工具箱\快速遭遇.md:26
+    text: 格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\冒险工具箱\快速遭遇.md:26
+    text: 射击
+    url:  ../../技能/射击/
+    tried: D:\Project Taiyi\src\技能\射击
+
+  核心规则\冒险工具箱\快速遭遇.md:26
+    text: 奥法技能
+    url:  ../../临时/奥法背景/
+    tried: D:\Project Taiyi\src\临时\奥法背景
+
+  核心规则\冒险工具箱\快速遭遇.md:27
+    text: 运动
+    url:  ../../技能/运动/
+    tried: D:\Project Taiyi\src\技能\运动
+
+  核心规则\冒险工具箱\快速遭遇.md:27
+    text: 交涉
+    url:  ../../技能/交涉/
+    tried: D:\Project Taiyi\src\技能\交涉
+
+  核心规则\冒险工具箱\快速遭遇.md:27
+    text: 修理
+    url:  ../../技能/修理/
+    tried: D:\Project Taiyi\src\技能\修理
+
+  核心规则\冒险工具箱\快速遭遇.md:28
+    text: 骇客
+    url:  ../../技能/骇客/
+    tried: D:\Project Taiyi\src\技能\骇客
+
+  核心规则\冒险工具箱\快速遭遇.md:28
+    text: 察觉
+    url:  ../../技能/察觉/
+    tried: D:\Project Taiyi\src\技能\察觉
+
+  核心规则\冒险工具箱\快速遭遇.md:28
+    text: 潜行
+    url:  ../../技能/潜行/
+    tried: D:\Project Taiyi\src\技能\潜行
+
+  核心规则\冒险工具箱\快速遭遇.md:28
+    text: 贼活
+    url:  ../../技能/贼活/
+    tried: D:\Project Taiyi\src\技能\贼活
+
+  核心规则\冒险工具箱\快速遭遇.md:29
+    text: 作战
+    url:  ../../技能/作战/
+    tried: D:\Project Taiyi\src\技能\作战
+
+  核心规则\冒险工具箱\快速遭遇.md:29
+    text: 驾船
+    url:  ../../技能/驾船/
+    tried: D:\Project Taiyi\src\技能\驾船
+
+  核心规则\冒险工具箱\快速遭遇.md:29
+    text: 格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\冒险工具箱\快速遭遇.md:29
+    text: 交涉
+    url:  ../../技能/交涉/
+    tried: D:\Project Taiyi\src\技能\交涉
+
+  核心规则\冒险工具箱\快速遭遇.md:29
+    text: 航空
+    url:  ../../技能/航空/
+    tried: D:\Project Taiyi\src\技能\航空
+
+  核心规则\冒险工具箱\快速遭遇.md:29
+    text: 射击
+    url:  ../../技能/射击/
+    tried: D:\Project Taiyi\src\技能\射击
+
+  核心规则\冒险工具箱\快速遭遇.md:30
+    text: 通用知识
+    url:  ../../技能/通用知识/
+    tried: D:\Project Taiyi\src\技能\通用知识
+
+  核心规则\冒险工具箱\快速遭遇.md:30
+    text: 察觉
+    url:  ../../技能/察觉/
+    tried: D:\Project Taiyi\src\技能\察觉
+
+  核心规则\冒险工具箱\快速遭遇.md:30
+    text: 生存
+    url:  ../../技能/生存/
+    tried: D:\Project Taiyi\src\技能\生存
+
+  核心规则\冒险工具箱\快速遭遇.md:68
+    text: 肿痛与擦伤
+    url:  ../../危难/肿痛与擦伤/
+    tried: D:\Project Taiyi\src\危难\肿痛与擦伤
+
+  核心规则\冒险工具箱\快速遭遇.md:88
+    text: 大规模作战
+    url:  ../大规模作战/
+    tried: D:\Project Taiyi\src\核心规则\大规模作战
+
+  核心规则\冒险工具箱\快速遭遇.md:96
+    text: 援助
+    url:  ../../情景规则/援助/
+    tried: D:\Project Taiyi\src\情景规则\援助
+
+  核心规则\冒险工具箱\恐惧.md:21
+    text: 心魂投骰
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\冒险工具箱\恐惧.md:25
+    text: 动摇
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\冒险工具箱\恐惧.md:25
+    text: 疲乏
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\src\情景规则\疲乏
+
+  核心规则\冒险工具箱\恐惧.md:25
+    text: 大失败
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\冒险工具箱\恐惧.md:26
+    text: 龙套
+    url:  ../../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\冒险工具箱\恐惧.md:46
+    text: 动摇
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\冒险工具箱\恐惧.md:49
+    text: 动摇
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\冒险工具箱\恐惧.md:50
+    text: 负赘
+    url:  ../../负赘/
+    tried: D:\Project Taiyi\src\负赘
+
+  核心规则\冒险工具箱\恐惧.md:51
+    text: 负赘
+    url:  ../../负赘/
+    tried: D:\Project Taiyi\src\负赘
+
+  核心规则\冒险工具箱\恐惧.md:52
+    text: 无力化
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\冒险工具箱\打点关系.md:39
+    text: 肿痛与擦伤
+    url:  ../../危难/肿痛与擦伤/
+    tried: D:\Project Taiyi\src\危难\肿痛与擦伤
+
+  核心规则\冒险工具箱\盟友.md:46
+    text: 升级
+    url:  ../../升级/
+    tried: D:\Project Taiyi\src\升级
+
+  核心规则\冒险工具箱\盟友.md:60
+    text: 骑乘
+    url:  ../../技能/骑乘/
+    tried: D:\Project Taiyi\src\技能\骑乘
+
+  核心规则\冒险工具箱\设定规则.md:13
+    text: 助力点
+    url:  ../../助力点/
+    tried: D:\Project Taiyi\src\助力点
+
+  核心规则\冒险工具箱\财富.md:17
+    text: 援助
+    url:  ../../情景规则/援助/
+    tried: D:\Project Taiyi\src\情景规则\援助
+
+  核心规则\冒险工具箱\财富.md:43
+    text: 打点关系
+    url:  ../打点关系/
+    tried: D:\Project Taiyi\src\核心规则\打点关系
+
+  核心规则\冒险工具箱\追逐与载具.md:17
+    text: 航空
+    url:  ../../技能/航空/
+    tried: D:\Project Taiyi\src\技能\航空
+
+  核心规则\冒险工具箱\追逐与载具.md:18
+    text: 运动
+    url:  ../../技能/运动/
+    tried: D:\Project Taiyi\src\技能\运动
+
+  核心规则\冒险工具箱\追逐与载具.md:19
+    text: 骑乘
+    url:  ../../技能/骑乘/
+    tried: D:\Project Taiyi\src\技能\骑乘
+
+  核心规则\冒险工具箱\追逐与载具.md:20
+    text: 驾驶
+    url:  ../../技能/驾驶/
+    tried: D:\Project Taiyi\src\技能\驾驶
+
+  核心规则\冒险工具箱\追逐与载具.md:21
+    text: 驾船
+    url:  ../../技能/驾船/
+    tried: D:\Project Taiyi\src\技能\驾船
+
+  核心规则\冒险工具箱\追逐与载具.md:25
+    text: 骑乘
+    url:  ../../情景规则/骑乘战斗/
+    tried: D:\Project Taiyi\src\情景规则\骑乘战斗
+
+  核心规则\冒险工具箱\追逐与载具.md:25
+    text: 疲乏
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\src\情景规则\疲乏
+
+  核心规则\冒险工具箱\追逐与载具.md:25
+    text: 骑乘
+    url:  ../../技能/骑乘/
+    tried: D:\Project Taiyi\src\技能\骑乘
+
+  核心规则\冒险工具箱\追逐与载具.md:27
+    text: 疲乏
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\src\情景规则\疲乏
+
+  核心规则\冒险工具箱\追逐与载具.md:51
+    text: 脆弱
+    url:  ../../情景规则/分神与脆弱/
+    tried: D:\Project Taiyi\src\情景规则\分神与脆弱
+
+  核心规则\冒险工具箱\追逐与载具.md:97
+    text: 大失败
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\冒险工具箱\追逐与载具.md:101
+    text: 不稳平台
+    url:  ../../情景规则/不稳平台/
+    tried: D:\Project Taiyi\src\情景规则\不稳平台
+
+  核心规则\冒险工具箱\追逐与载具.md:101
+    text: 奔跑
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\冒险工具箱\追逐与载具.md:106
+    text: 速度
+    url:  ../../情景规则/速度/
+    tried: D:\Project Taiyi\src\情景规则\速度
+
+  核心规则\冒险工具箱\追逐与载具.md:130
+    text: 大失败
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\冒险工具箱\追逐与载具.md:133
+    text: 大失败
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\冒险工具箱\追逐与载具.md:141
+    text: 负赘
+    url:  ../../负赘/
+    tried: D:\Project Taiyi\src\负赘
+
+  核心规则\冒险工具箱\追逐与载具.md:143
+    text: 围攻
+    url:  ../../情景规则/围攻/
+    tried: D:\Project Taiyi\src\情景规则\围攻
+
+  核心规则\冒险工具箱\追逐与载具.md:143
+    text: 撤出近战
+    url:  ../../情景规则/撤出近战/
+    tried: D:\Project Taiyi\src\情景规则\撤出近战
+
+  核心规则\冒险工具箱\追逐与载具.md:143
+    text: 无辜旁人
+    url:  ../../情景规则/无辜旁人/
+    tried: D:\Project Taiyi\src\情景规则\无辜旁人
+
+  核心规则\冒险工具箱\追逐与载具.md:147
+    text: 射程
+    url:  ../../装备附注/射程/
+    tried: D:\Project Taiyi\src\装备附注\射程
+
+  核心规则\冒险工具箱\追逐与载具.md:147
+    text: 掩蔽
+    url:  ../../情景规则/掩蔽与障碍/
+    tried: D:\Project Taiyi\src\情景规则\掩蔽与障碍
+
+  核心规则\冒险工具箱\追逐与载具.md:151
+    text: 动摇
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\冒险工具箱\追逐与载具.md:151
+    text: 震慑
+    url:  ../../情景规则/震慑/
+    tried: D:\Project Taiyi\src\情景规则\震慑
+
+  核心规则\冒险工具箱\追逐与载具.md:151
+    text: 损伤
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\冒险工具箱\追逐与载具.md:196
+    text: 气囊与安全带
+    url:  ../../载具/
+    tried: D:\Project Taiyi\src\载具
+
+  核心规则\冒险工具箱\追逐与载具.md:199
+    text: 坠落伤害
+    url:  ../../危难/坠落/
+    tried: D:\Project Taiyi\src\危难\坠落
+
+  核心规则\危难\干渴.md:9
+    text: 力竭
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\src\情景规则\疲乏
+
+  核心规则\危难\干渴.md:11
+    text: 生存
+    url:  ../../技能/生存/
+    tried: D:\Project Taiyi\src\技能\生存
+
+  核心规则\危难\干渴.md:15
+    text: 无力化
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\src\情景规则\疲乏
+
+  核心规则\危难\攀爬.md:7
+    text: 移动
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\危难\攀爬.md:15
+    text: 肿痛与擦伤
+    url:  ../肿痛与擦伤/
+    tried: D:\Project Taiyi\src\核心规则\肿痛与擦伤
+
+  核心规则\危难\攀爬.md:17
+    text: 坠落
+    url:  ../坠落/
+    tried: D:\Project Taiyi\src\核心规则\坠落
+
+  核心规则\危难\毒素.md:11
+    text: 大失败
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\危难\毒素.md:12
+    text: 震慑
+    url:  ../../情景规则/震慑/
+    tried: D:\Project Taiyi\src\情景规则\震慑
+
+  核心规则\危难\毒素.md:12
+    text: 损伤
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\危难\毒素.md:13
+    text: 疲乏
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\src\情景规则\疲乏
+
+  核心规则\危难\毒素.md:13
+    text: 力竭
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\src\情景规则\疲乏
+
+  核心规则\危难\疾病.md:9
+    text: 投骰
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\危难\疾病.md:17
+    text: 疲乏
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\src\情景规则\疲乏
+
+  核心规则\危难\肿痛与擦伤.md:9
+    text: 疲乏
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\src\情景规则\疲乏
+
+  核心规则\危难\触电.md:7
+    text: 震慑
+    url:  ../../情景规则/震慑/
+    tried: D:\Project Taiyi\src\情景规则\震慑
+
+  核心规则\危难\辐射.md:7
+    text: 疲乏
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\src\情景规则\疲乏
+
+  核心规则\危难\饥饿.md:11
+    text: 生存
+    url:  ../../技能/生存/
+    tried: D:\Project Taiyi\src\技能\生存
+
+  核心规则\情景规则\不稳平台.md:7
+    text: 投掷
+    url:  ../../技能/运动/
+    tried: D:\Project Taiyi\src\技能\运动
+
+  核心规则\情景规则\临时武器.md:9
+    text: 最低力量
+    url:  ../../装备附注/最低力量/
+    tried: D:\Project Taiyi\src\装备附注\最低力量
+
+  核心规则\情景规则\体型与尺寸.md:27
+    text: 定点打击
+    url:  ../定点打击/
+    tried: D:\Project Taiyi\src\核心规则\定点打击
+
+  核心规则\情景规则\体型与尺寸.md:33
+    text: 定点打击
+    url:  ../定点打击/
+    tried: D:\Project Taiyi\src\核心规则\定点打击
+
+  核心规则\情景规则\分神与脆弱.md:7
+    text: 考验
+    url:  ../考验/
+    tried: D:\Project Taiyi\src\核心规则\考验
+
+  核心规则\情景规则\分神与脆弱.md:11
+    text: 特性投骰
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\情景规则\分神与脆弱.md:12
+    text: 行动
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\分神与脆弱.md:12
+    text: 奇袭
+    url:  ../奇袭/
+    tried: D:\Project Taiyi\src\核心规则\奇袭
+
+  核心规则\情景规则\副手攻击.md:9
+    text: 格挡
+    url:  ../../装备附注/格挡/
+    tried: D:\Project Taiyi\src\装备附注\格挡
+
+  核心规则\情景规则\卧地.md:9
+    text: 格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\情景规则\卧地.md:11
+    text: 移动
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\多重动作.md:9
+    text: 不羁角色
+    url:  ../../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\情景规则\多重动作.md:13
+    text: 移动
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\多重动作.md:15
+    text: 自由行动
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\天生武器.md:11
+    text: 擒抱
+    url:  ../擒抱/
+    tried: D:\Project Taiyi\src\核心规则\擒抱
+
+  核心规则\情景规则\天生武器.md:12
+    text: 运动
+    url:  ../../技能/运动/
+    tried: D:\Project Taiyi\src\技能\运动
+
+  核心规则\情景规则\天生武器.md:13
+    text: 奔跑
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\天生武器.md:13
+    text: 格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\情景规则\天生武器.md:13
+    text: 伤害
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\奇袭.md:9
+    text: 伤害
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\定点打击.md:9
+    text: 缴械
+    url:  ../缴械/
+    tried: D:\Project Taiyi\src\核心规则\缴械
+
+  核心规则\情景规则\定点打击.md:15
+    text: 移速
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\定点打击.md:15
+    text: 损伤
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\定点打击.md:16
+    text: 着甲
+    url:  ../../装备附注/护甲值_ARMOR/
+    tried: D:\Project Taiyi\src\装备附注\护甲值_ARMOR
+
+  核心规则\情景规则\射向近战.md:9
+    text: 无辜旁人
+    url:  ../无辜旁人/
+    tried: D:\Project Taiyi\src\核心规则\无辜旁人
+
+  核心规则\情景规则\手无寸铁.md:7
+    text: 奇袭
+    url:  ../奇袭/
+    tried: D:\Project Taiyi\src\核心规则\奇袭
+
+  核心规则\情景规则\推撞.md:7
+    text: 险境
+    url:  ../../冒险工具箱/危难/
+    tried: D:\Project Taiyi\src\冒险工具箱\危难
+
+  核心规则\情景规则\推撞.md:9
+    text: 力量
+    url:  ../../特性/
+    tried: D:\Project Taiyi\src\特性
+
+  核心规则\情景规则\推撞.md:17
+    text: 力量
+    url:  ../../特性/
+    tried: D:\Project Taiyi\src\特性
+
+  核心规则\情景规则\推撞.md:19
+    text: 运动
+    url:  ../../技能/运动/
+    tried: D:\Project Taiyi\src\技能\运动
+
+  核心规则\情景规则\掩蔽与障碍.md:7
+    text: 近战或远程攻击
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\掩蔽与障碍.md:14
+    text: 卧地
+    url:  ../卧地/
+    tried: D:\Project Taiyi\src\核心规则\卧地
+
+  核心规则\情景规则\援助.md:21
+    text: 考验
+    url:  ../考验/
+    tried: D:\Project Taiyi\src\核心规则\考验
+
+  核心规则\情景规则\援助.md:25
+    text: 考验
+    url:  ../考验/
+    tried: D:\Project Taiyi\src\核心规则\考验
+
+  核心规则\情景规则\援助.md:25
+    text: 动摇
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\撤出近战.md:7
+    text: 震慑
+    url:  ../震慑/
+    tried: D:\Project Taiyi\src\核心规则\震慑
+
+  核心规则\情景规则\撤出近战.md:9
+    text: 自由攻击
+    url:  ../自由攻击/
+    tried: D:\Project Taiyi\src\核心规则\自由攻击
+
+  核心规则\情景规则\擒抱.md:9
+    text: 束缚与纠缠
+    url:  ../束缚与纠缠/
+    tried: D:\Project Taiyi\src\核心规则\束缚与纠缠
+
+  核心规则\情景规则\无辜旁人.md:7
+    text: 射击
+    url:  ../../技能/射击/
+    tried: D:\Project Taiyi\src\技能\射击
+
+  核心规则\情景规则\无辜旁人.md:11
+    text: 不羁角色
+    url:  ../../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\情景规则\无辜旁人.md:15
+    text: 射速
+    url:  ../../装备附注/射速/
+    tried: D:\Project Taiyi\src\装备附注\射速
+
+  核心规则\情景规则\无辜旁人.md:15
+    text: 霰弹枪
+    url:  ../霰弹枪/
+    tried: D:\Project Taiyi\src\核心规则\霰弹枪
+
+  核心规则\情景规则\束缚与纠缠.md:7
+    text: 擒抱
+    url:  ../擒抱/
+    tried: D:\Project Taiyi\src\核心规则\擒抱
+
+  核心规则\情景规则\束缚与纠缠.md:9
+    text: 脆弱
+    url:  ../分神与脆弱/
+    tried: D:\Project Taiyi\src\核心规则\分神与脆弱
+
+  核心规则\情景规则\束缚与纠缠.md:10
+    text: 分神与脆弱
+    url:  ../分神与脆弱/
+    tried: D:\Project Taiyi\src\核心规则\分神与脆弱
+
+  核心规则\情景规则\火力压制.md:11
+    text: 射速
+    url:  ../../装备附注/射速/
+    tried: D:\Project Taiyi\src\装备附注\射速
+
+  核心规则\情景规则\火力压制.md:15
+    text: 后坐力
+    url:  ../后坐力/
+    tried: D:\Project Taiyi\src\核心规则\后坐力
+
+  核心规则\情景规则\火力压制.md:19
+    text: 偏斜
+    url:  ../../奇术/偏斜/
+    tried: D:\Project Taiyi\src\奇术\偏斜
+
+  核心规则\情景规则\照明.md:7
+    text: 奇术
+    url:  ../../临时/奇术/
+    tried: D:\Project Taiyi\src\临时\奇术
+
+  核心规则\情景规则\疲乏.md:9
+    text: 特性投骰
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\情景规则\疲乏.md:25
+    text: 危难
+    url:  ../../冒险工具箱/危难/
+    tried: D:\Project Taiyi\src\冒险工具箱\危难
+
+  核心规则\情景规则\瞄准.md:13
+    text: 保持稳定
+    url:  ../../冒险工具箱/追逐与载具/
+    tried: D:\Project Taiyi\src\冒险工具箱\追逐与载具
+
+  核心规则\情景规则\破坏物体.md:29
+    text: 掩蔽与障碍
+    url:  ../掩蔽与障碍/
+    tried: D:\Project Taiyi\src\核心规则\掩蔽与障碍
+
+  核心规则\情景规则\考验.md:7
+    text: 援助
+    url:  ../援助/
+    tried: D:\Project Taiyi\src\核心规则\援助
+
+  核心规则\情景规则\考验.md:15
+    text: 格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\情景规则\自由攻击.md:7
+    text: 撤出近战
+    url:  ../撤出近战/
+    tried: D:\Project Taiyi\src\核心规则\撤出近战
+
+  核心规则\情景规则\范围效果攻击.md:9
+    text: 速度
+    url:  ../速度/
+    tried: D:\Project Taiyi\src\核心规则\速度
+
+  核心规则\情景规则\载具.md:7
+    text: 飞行器
+    url:  ../../载具/飞行器/
+    tried: D:\Project Taiyi\src\载具\飞行器
+
+  核心规则\情景规则\载具.md:11
+    text: 追逐与载具
+    url:  ../../冒险工具箱/追逐与载具/
+    tried: D:\Project Taiyi\src\冒险工具箱\追逐与载具
+
+  核心规则\情景规则\近战中的远程武器.md:9
+    text: 奇术
+    url:  ../../临时/奇术/
+    tried: D:\Project Taiyi\src\临时\奇术
+
+  核心规则\情景规则\近战中的远程武器.md:9
+    text: 格挡
+    url:  ../../临时/角色/
+    tried: D:\Project Taiyi\src\临时\角色
+
+  核心规则\情景规则\近战中的远程武器.md:10
+    text: 脆弱
+    url:  ../分神与脆弱/
+    tried: D:\Project Taiyi\src\核心规则\分神与脆弱
+
+  核心规则\情景规则\速度.md:19
+    text: 移速
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\震慑.md:9
+    text: 震慑
+    url:  ../../奇术/震慑/
+    tried: D:\Project Taiyi\src\奇术\震慑
+
+  核心规则\情景规则\震慑.md:13
+    text: 分神
+    url:  ../分神与脆弱/
+    tried: D:\Project Taiyi\src\核心规则\分神与脆弱
+
+  核心规则\情景规则\震慑.md:14
+    text: 脆弱
+    url:  ../分神与脆弱/
+    tried: D:\Project Taiyi\src\核心规则\分神与脆弱
+
+  核心规则\情景规则\震慑.md:15
+    text: 卧地
+    url:  ../卧地/
+    tried: D:\Project Taiyi\src\核心规则\卧地
+
+  核心规则\情景规则\震慑.md:16
+    text: 移动
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\震慑.md:16
+    text: 行动
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\震慑.md:17
+    text: 围攻
+    url:  ../围攻/
+    tried: D:\Project Taiyi\src\核心规则\围攻
+
+  核心规则\情景规则\骑乘战斗.md:15
+    text: 远程攻击
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\骑乘战斗.md:19
+    text: 受伤
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\情景规则\骑乘战斗.md:21
+    text: 动摇
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\战斗\伤害_Damage.md:17
+    text: 搏击手
+    url:  ../../临时/专长/搏击手/
+    tried: D:\Project Taiyi\src\临时\专长\搏击手
+
+  核心规则\战斗\伤害_Damage.md:17
+    text: 武术家
+    url:  ../../临时/专长/武术家/
+    tried: D:\Project Taiyi\src\临时\专长\武术家
+
+  核心规则\战斗\伤害_Damage.md:19
+    text: 专长
+    url:  ../../专长/
+    tried: D:\Project Taiyi\src\专长
+
+  核心规则\战斗\伤害_Damage.md:25
+    text: 范围效果
+    url:  ../../情景规则/范围效果攻击/
+    tried: D:\Project Taiyi\src\情景规则\范围效果攻击
+
+  核心规则\战斗\伤害效果_Damage_Effect.md:35
+    text: 负赘
+    url:  ../../负赘/
+    tried: D:\Project Taiyi\src\负赘
+
+  核心规则\战斗\伤害效果_Damage_Effect.md:37
+    text: 活力
+    url:  ../../特性/
+    tried: D:\Project Taiyi\src\特性
+
+  核心规则\战斗\伤害效果_Damage_Effect.md:53
+    text: 治疗
+    url:  ../../奇术/治疗/
+    tried: D:\Project Taiyi\src\奇术\治疗
+
+  核心规则\战斗\伤害效果_Damage_Effect.md:63
+    text: 缓慢
+    url:  ../../临时/负赘/缓慢/
+    tried: D:\Project Taiyi\src\临时\负赘\缓慢
+
+  核心规则\战斗\伤害效果_Damage_Effect.md:64
+    text: 丑陋
+    url:  ../../临时/负赘/丑陋/
+    tried: D:\Project Taiyi\src\临时\负赘\丑陋
+
+  核心规则\战斗\伤害效果_Damage_Effect.md:64
+    text: 独眼
+    url:  ../../临时/负赘/独眼/
+    tried: D:\Project Taiyi\src\临时\负赘\独眼
+
+  核心规则\战斗\伤害效果_Damage_Effect.md:64
+    text: 目盲
+    url:  ../../临时/负赘/目盲/
+    tried: D:\Project Taiyi\src\临时\负赘\目盲
+
+  核心规则\战斗\伤害效果_Damage_Effect.md:67
+    text: 疲乏
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\src\情景规则\疲乏
+
+  核心规则\战斗\攻击_Attacks.md:19
+    text: 射程
+    url:  ../../装备附注/射程/
+    tried: D:\Project Taiyi\src\装备附注\射程
+
+  核心规则\战斗\攻击_Attacks.md:42
+    text: 不羁角色
+    url:  ../../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\战斗\移动_Movement.md:9
+    text: 移速
+    url:  ../../临时/角色/
+    tried: D:\Project Taiyi\src\临时\角色
+
+  核心规则\战斗\移动_Movement.md:23
+    text: 溺水
+    url:  ../../危难/溺水/
+    tried: D:\Project Taiyi\src\危难\溺水
+
+  核心规则\战斗\移动_Movement.md:29
+    text: 运动
+    url:  ../../技能/运动/
+    tried: D:\Project Taiyi\src\技能\运动
+
+  核心规则\战斗\行动_Actions.md:13
+    text: /r 1d6
+    url:  ../../..//r 1d6/
+    tried: D:\Project Taiyi\r 1d6
+
+  核心规则\战斗\行动_Actions.md:21
+    text: 震慑
+    url:  ../../情景规则/震慑/
+    tried: D:\Project Taiyi\src\情景规则\震慑
+
+  核心规则\战斗\行动卡_Action_Cards.md:15
+    text: 不羁角色
+    url:  ../../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\战斗\行动卡_Action_Cards.md:15
+    text: 专长
+    url:  ../../专长/
+    tried: D:\Project Taiyi\src\专长
+
+  核心规则\战斗\行动卡_Action_Cards.md:17
+    text: 龙套
+    url:  ../../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\战斗\行动卡_Action_Cards.md:29
+    text: 特性
+    url:  ../../特性/
+    tried: D:\Project Taiyi\src\特性
+
+  核心规则\技能\交涉.md:9
+    text: 负赘
+    url:  ../../负赘/
+    tried: D:\Project Taiyi\src\负赘
+
+  核心规则\技能\信仰.md:7
+    text: 奥法背景(奇迹)
+    url:  ../../奥法背景/奇迹/
+    tried: D:\Project Taiyi\src\奥法背景\奇迹
+
+  核心规则\技能\嘲弄.md:9
+    text: 考验
+    url:  ../../情景规则/考验/
+    tried: D:\Project Taiyi\src\情景规则\考验
+
+  核心规则\技能\嘲弄.md:13
+    text: 大失败
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\技能\威吓.md:9
+    text: 对抗投骰
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\技能\潜行.md:11
+    text: 黑暗
+    url:  ../../情景规则/照明/
+    tried: D:\Project Taiyi\src\情景规则\照明
+
+  核心规则\技能\生存.md:11
+    text: 饥饿
+    url:  ../../危难/饥饿/
+    tried: D:\Project Taiyi\src\危难\饥饿
+
+  核心规则\技能\电子学.md:11
+    text: 修理
+    url:  ../修理/
+    tried: D:\Project Taiyi\src\核心规则\修理
+
+  核心规则\技能\贼活.md:11
+    text: 对抗
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\技能\运动.md:7
+    text: 灵巧
+    url:  ../../特性/
+    tried: D:\Project Taiyi\src\特性
+
+  核心规则\技能\集中.md:7
+    text: 奥法背景(异禀)
+    url:  ../../临时/奥法背景 (异禀
+    tried: D:\Project Taiyi\src\临时\奥法背景 (异禀
+
+  核心规则\技能\驾驶.md:9
+    text: 骑乘
+    url:  ../骑乘/
+    tried: D:\Project Taiyi\src\核心规则\骑乘
+
+  核心规则\特性\详述.md:26
+    text: 核心规则/升级
+    url:  ../../升级/
+    tried: D:\Project Taiyi\src\升级
+
+  核心规则\特性\详述.md:27
+    text: 核心规则/专长
+    url:  ../../专长/
+    tried: D:\Project Taiyi\src\专长
+
+  核心规则\特性\详述.md:32
+    text: 核心规则/角色
+    url:  ../../角色/
+    tried: D:\Project Taiyi\src\角色
+
+  核心规则\特性\详述.md:32
+    text: 核心规则/升级
+    url:  ../../升级/
+    tried: D:\Project Taiyi\src\升级
+
+  核心规则\特性\详述.md:34
+    text: 通用知识
+    url:  ../../技能/通用知识/
+    tried: D:\Project Taiyi\src\技能\通用知识
+
+  核心规则\特性\详述.md:34
+    text: 交涉
+    url:  ../../技能/交涉/
+    tried: D:\Project Taiyi\src\技能\交涉
+
+  核心规则\特性\详述.md:34
+    text: 察觉
+    url:  ../../技能/察觉/
+    tried: D:\Project Taiyi\src\技能\察觉
+
+  核心规则\特性\详述.md:34
+    text: 运动
+    url:  ../../技能/运动/
+    tried: D:\Project Taiyi\src\技能\运动
+
+  核心规则\特性\详述.md:34
+    text: 潜行
+    url:  ../../技能/潜行/
+    tried: D:\Project Taiyi\src\技能\潜行
+
+  核心规则\特性\详述.md:36
+    text: 未受训尝试
+    url:  ../../未受训尝试/
+    tried: D:\Project Taiyi\src\未受训尝试
+
+  核心规则\特殊武器\喷火器.md:7
+    text: 回避
+    url:  ../../情景规则/回避/
+    tried: D:\Project Taiyi\src\情景规则\回避
+
+  核心规则\特殊武器\喷火器.md:9
+    text: 着火
+    url:  ../../危难/火焰/
+    tried: D:\Project Taiyi\src\危难\火焰
+
+  核心规则\特殊武器\喷火器.md:11
+    text: 载具武器表核心规则/特殊武器/载具武器
+    url:  ../../../载具武器表核心规则/特殊武器/载具武器/
+    tried: D:\Project Taiyi\载具武器表核心规则\特殊武器\载具武器
+
+  核心规则\特殊武器\地雷.md:14
+    text: 重武器
+    url:  ../../装备附注/重武器_(HW
+    tried: D:\Project Taiyi\src\装备附注\重武器_(HW
+
+  核心规则\特殊武器\地雷.md:16
+    text: 穿甲
+    url:  ../../装备附注/穿甲_ARMOR PIERCING, AP/
+    tried: D:\Project Taiyi\src\装备附注\穿甲_ARMOR PIERCING, AP
+
+  核心规则\特殊武器\地雷.md:16
+    text: 护甲核心规则/装备附注/护甲值_ARMOR
+    url:  ../../../护甲核心规则/装备附注/护甲值_ARMOR/
+    tried: D:\Project Taiyi\护甲核心规则\装备附注\护甲值_ARMOR
+
+  核心规则\特殊武器\手雷.md:7
+    text: 中型爆发盖板
+    url:  ../../情景规则/范围效果攻击/
+    tried: D:\Project Taiyi\src\情景规则\范围效果攻击
+
+  核心规则\特殊武器\手雷.md:9
+    text: 核心规则/装备附注/重武器_(HW)
+    url:  ../../装备附注/重武器_(HW
+    tried: D:\Project Taiyi\src\装备附注\重武器_(HW
+
+  核心规则\特殊武器\手雷.md:11
+    text: 范围效果攻击
+    url:  ../../情景规则/范围效果攻击/
+    tried: D:\Project Taiyi\src\情景规则\范围效果攻击
+
+  核心规则\特殊武器\手雷.md:13
+    text: 回避核心规则/情景规则/回避
+    url:  ../../../回避核心规则/情景规则/回避/
+    tried: D:\Project Taiyi\回避核心规则\情景规则\回避
+
+  核心规则\特殊武器\手雷.md:34
+    text: 规避
+    url:  ../../情景规则/回避/
+    tried: D:\Project Taiyi\src\情景规则\回避
+
+  核心规则\特殊武器\火箭发射器与鱼雷.md:16
+    text: 猝射
+    url:  ../../装备附注/猝射/
+    tried: D:\Project Taiyi\src\装备附注\猝射
+
+  核心规则\特殊武器\火箭发射器与鱼雷.md:18
+    text: 猝射
+    url:  ../../装备附注/猝射/
+    tried: D:\Project Taiyi\src\装备附注\猝射
+
+  核心规则\特殊武器\载具武器.md:9
+    text: 射速
+    url:  ../../装备附注/射速/
+    tried: D:\Project Taiyi\src\装备附注\射速
+
+  核心规则\现代火器\手枪.md:12
+    text: 察觉
+    url:  ../../技能/察觉/
+    tried: D:\Project Taiyi\src\技能\察觉
+
+  核心规则\现代火器\机枪.md:11
+    text: 射速
+    url:  ../../装备附注/射速/
+    tried: D:\Project Taiyi\src\装备附注\射速
+
+  核心规则\现代火器\机枪.md:13
+    text: 装填核心规则/装备附注/装填
+    url:  ../../../装填核心规则/装备附注/装填/
+    tried: D:\Project Taiyi\装填核心规则\装备附注\装填
+
+  核心规则\现代火器\机枪.md:21
+    text: 重武器
+    url:  ../../装备附注/重武器_(HW
+    tried: D:\Project Taiyi\src\装备附注\重武器_(HW
+
+  核心规则\现代火器\步枪.md:17
+    text: 猝射
+    url:  ../../装备附注/猝射/
+    tried: D:\Project Taiyi\src\装备附注\猝射
+
+  核心规则\现代火器\步枪.md:19
+    text: 猝射
+    url:  ../../装备附注/猝射/
+    tried: D:\Project Taiyi\src\装备附注\猝射
+
+  核心规则\现代火器\步枪.md:25
+    text: 三连发
+    url:  ../../装备附注/三连发_THREE-ROUND BURST/
+    tried: D:\Project Taiyi\src\装备附注\三连发_THREE-ROUND BURST
+
+  核心规则\现代火器\步枪.md:27
+    text: 三连发
+    url:  ../../装备附注/三连发_THREE-ROUND BURST/
+    tried: D:\Project Taiyi\src\装备附注\三连发_THREE-ROUND BURST
+
+  核心规则\现代火器\霰弹枪.md:7
+    text: 霰弹枪核心规则/情景规则/霰弹枪
+    url:  ../../../霰弹枪核心规则/情景规则/霰弹枪/
+    tried: D:\Project Taiyi\霰弹枪核心规则\情景规则\霰弹枪
+
+  核心规则\角色\index.md:38
+    text: 活力
+    url:  ../临时/角色/
+    tried: D:\Project Taiyi\src\核心规则\临时\角色
+
+  核心规则\角色\index.md:38
+    text: 护甲
+    url:  ../装备附注/护甲值_ARMOR/
+    tried: D:\Project Taiyi\src\核心规则\装备附注\护甲值_ARMOR
+
+  核心规则\设定规则\信念.md:11
+    text: 助力点
+    url:  ../../助力点/
+    tried: D:\Project Taiyi\src\助力点
+
+  核心规则\设定规则\信念.md:21
+    text: 负赘
+    url:  ../../负赘/
+    tried: D:\Project Taiyi\src\负赘
+
+  核心规则\设定规则\写实伤害.md:9
+    text: 不羁角色
+    url:  ../../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\设定规则\动态反冲.md:7
+    text: 大失败
+    url:  ../../特性投骰/
+    tried: D:\Project Taiyi\src\特性投骰
+
+  核心规则\设定规则\动态反冲.md:9
+    text: 疲乏
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\src\情景规则\疲乏
+
+  核心规则\设定规则\快速恢复.md:7
+    text: 不羁角色
+    url:  ../../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\设定规则\快速恢复.md:9
+    text: 肿痛与擦伤
+    url:  ../../危难/肿痛与擦伤/
+    tried: D:\Project Taiyi\src\危难\肿痛与擦伤
+
+  核心规则\设定规则\快速恢复.md:11
+    text: 疲乏
+    url:  ../../情景规则/疲乏/
+    tried: D:\Project Taiyi\src\情景规则\疲乏
+
+  核心规则\设定规则\技能专精.md:15
+    text: 核心规则/技能/驾船
+    url:  ../../技能/驾船/
+    tried: D:\Project Taiyi\src\技能\驾船
+
+  核心规则\设定规则\技能专精.md:16
+    text: 核心规则/技能/驾驶
+    url:  ../../技能/驾驶/
+    tried: D:\Project Taiyi\src\技能\驾驶
+
+  核心规则\设定规则\技能专精.md:17
+    text: 核心规则/技能/格斗
+    url:  ../../技能/格斗/
+    tried: D:\Project Taiyi\src\技能\格斗
+
+  核心规则\设定规则\技能专精.md:18
+    text: 核心规则/技能/航空
+    url:  ../../技能/航空/
+    tried: D:\Project Taiyi\src\技能\航空
+
+  核心规则\设定规则\技能专精.md:19
+    text: 核心规则/技能/骑乘
+    url:  ../../技能/骑乘/
+    tried: D:\Project Taiyi\src\技能\骑乘
+
+  核心规则\设定规则\技能专精.md:20
+    text: 核心规则/技能/科学
+    url:  ../../技能/科学/
+    tried: D:\Project Taiyi\src\技能\科学
+
+  核心规则\设定规则\技能专精.md:21
+    text: 核心规则/技能/射击
+    url:  ../../技能/射击/
+    tried: D:\Project Taiyi\src\技能\射击
+
+  核心规则\设定规则\技能专精.md:22
+    text: 核心规则/技能/生存
+    url:  ../../技能/生存/
+    tried: D:\Project Taiyi\src\技能\生存
+
+  核心规则\设定规则\无甲勇士.md:9
+    text: 不羁角色
+    url:  ../../不羁角色与龙套们/
+    tried: D:\Project Taiyi\src\不羁角色与龙套们
+
+  核心规则\设定规则\无甲勇士.md:11
+    text: 护甲
+    url:  ../../装备附注/护甲值_ARMOR/
+    tried: D:\Project Taiyi\src\装备附注\护甲值_ARMOR
+
+  核心规则\载具\index.md:12
+    text: 护甲
+    url:  ../装备附注/护甲值_ARMOR/
+    tried: D:\Project Taiyi\src\核心规则\装备附注\护甲值_ARMOR
+
+  核心规则\载具\地面载具.md:11
+    text: 奔跑骰
+    url:  ../../战斗/
+    tried: D:\Project Taiyi\src\战斗
+
+  核心规则\载具\地面载具.md:29
+    text: 体型
+    url:  ../../情景规则/体型与尺寸/
+    tried: D:\Project Taiyi\src\情景规则\体型与尺寸
+
+  核心规则\载具\地面载具.md:29
+    text: 坚韧
+    url:  ../../临时/角色/
+    tried: D:\Project Taiyi\src\临时\角色
+
+  核心规则\载具\地面载具.md:38
+    text: 履带核心规则/载具
+    url:  ../../../履带核心规则/载具/
+    tried: D:\Project Taiyi\履带核心规则\载具
+
+  核心规则\载具\地面载具.md:51
+    text: 转塔同轴核心规则/载具
+    url:  ../../../转塔同轴核心规则/载具/
+    tried: D:\Project Taiyi\转塔同轴核心规则\载具
+
+  核心规则\载具\飞行器.md:7
+    text: 联装武器核心规则/载具
+    url:  ../../../联装武器核心规则/载具/
+    tried: D:\Project Taiyi\联装武器核心规则\载具
+
