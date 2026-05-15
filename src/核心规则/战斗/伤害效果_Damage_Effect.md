@@ -2,8 +2,6 @@
 title: "伤害效果"
 title_en: "Damage Effect"
 original: "核心规则/战斗/伤害效果_Damage_Effect"
----
-
 ## 伤害效果 Damage Effect
 
 伤害造成的结果有三种：动摇、损伤和无力化。

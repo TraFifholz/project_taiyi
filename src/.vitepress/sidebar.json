@@ -30,39 +30,31 @@
           "collapsed": true,
           "items": [
             {
-              "text": "背景专长_Background_Edges",
+              "text": "背景专长",
               "link": "/核心规则/专长/背景专长_Background_Edges"
             },
             {
-              "text": "传奇专长_Legendary_Edges",
+              "text": "传奇专长",
               "link": "/核心规则/专长/传奇专长_Legendary_Edges"
             },
             {
-              "text": "领导力专长_Leadership_Edges",
+              "text": "领导力专长",
               "link": "/核心规则/专长/领导力专长_Leadership_Edges"
             },
             {
-              "text": "其他专长",
-              "link": "/核心规则/专长/其他专长"
-            },
-            {
-              "text": "奇术专长_Power_Edges",
-              "link": "/核心规则/专长/奇术专长_Power_Edges"
-            },
-            {
-              "text": "奇异专长_Weird_Edges",
+              "text": "奇异专长",
               "link": "/核心规则/专长/奇异专长_Weird_Edges"
             },
             {
-              "text": "社交专长_Social_Edges",
+              "text": "社交专长",
               "link": "/核心规则/专长/社交专长_Social_Edges"
             },
             {
-              "text": "术业专长_Professional_Edges",
+              "text": "术业专长",
               "link": "/核心规则/专长/术业专长_Professional_Edges"
             },
             {
-              "text": "战斗专长_Combat_Edges",
+              "text": "战斗专长",
               "link": "/核心规则/专长/战斗专长_Combat_Edges"
             }
           ]
@@ -103,6 +95,11 @@
               "link": "/核心规则/护甲/现代护甲/"
             }
           ]
+        },
+        {
+          "text": "殖装",
+          "collapsed": true,
+          "link": "/核心规则/殖装"
         },
         {
           "text": "单兵武器",
@@ -660,39 +657,31 @@
           "collapsed": true,
           "items": [
             {
-              "text": "背景专长_Background_Edges",
+              "text": "背景专长",
               "link": "/核心规则/专长/背景专长_Background_Edges"
             },
             {
-              "text": "传奇专长_Legendary_Edges",
+              "text": "传奇专长",
               "link": "/核心规则/专长/传奇专长_Legendary_Edges"
             },
             {
-              "text": "领导力专长_Leadership_Edges",
+              "text": "领导力专长",
               "link": "/核心规则/专长/领导力专长_Leadership_Edges"
             },
             {
-              "text": "其他专长",
-              "link": "/核心规则/专长/其他专长"
-            },
-            {
-              "text": "奇术专长_Power_Edges",
-              "link": "/核心规则/专长/奇术专长_Power_Edges"
-            },
-            {
-              "text": "奇异专长_Weird_Edges",
+              "text": "奇异专长",
               "link": "/核心规则/专长/奇异专长_Weird_Edges"
             },
             {
-              "text": "社交专长_Social_Edges",
+              "text": "社交专长",
               "link": "/核心规则/专长/社交专长_Social_Edges"
             },
             {
-              "text": "术业专长_Professional_Edges",
+              "text": "术业专长",
               "link": "/核心规则/专长/术业专长_Professional_Edges"
             },
             {
-              "text": "战斗专长_Combat_Edges",
+              "text": "战斗专长",
               "link": "/核心规则/专长/战斗专长_Combat_Edges"
             }
           ]
@@ -733,6 +722,11 @@
               "link": "/核心规则/护甲/现代护甲/"
             }
           ]
+        },
+        {
+          "text": "殖装",
+          "collapsed": true,
+          "link": "/核心规则/殖装"
         },
         {
           "text": "单兵武器",
