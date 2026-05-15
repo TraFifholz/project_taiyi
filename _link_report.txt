@@ -1,4 +1,4 @@
-111 broken link(s):
+50 broken link(s):
 
   核心规则\体型表.md:22
     text: 半身人
@@ -10,95 +10,10 @@
     url:  ../负赘/犹豫不决/
     tried: D:\Project Taiyi\src\负赘\犹豫不决
 
-  核心规则\助力点.md:46
-    text: 核心规则/奥法背景
-    url:  ../奥法背景/
-    tried: D:\Project Taiyi\src\奥法背景
-
-  核心规则\启动.md:7
-    text: 奇术点
-    url:  ../临时/奥法背景/
-    tried: D:\Project Taiyi\src\临时\奥法背景
-
-  核心规则\启动.md:39
-    text: 多重行动
-    url:  ../情景规则/多重行动/
-    tried: D:\Project Taiyi\src\情景规则\多重行动
-
-  核心规则\启动.md:41
-    text: 偏斜
-    url:  ../奇术/偏斜/
-    tried: D:\Project Taiyi\src\奇术\偏斜
-
-  核心规则\启动.md:43
-    text: 放逐
-    url:  ../奇术/放逐/
-    tried: D:\Project Taiyi\src\奇术\放逐
-
-  核心规则\普通装备.md:85
-    text: 口径
-    url:  ../装备附注/口径/
-    tried: D:\Project Taiyi\src\装备附注\口径
-
-  核心规则\普通装备.md:86
-    text: 口径
-    url:  ../装备附注/口径/
-    tried: D:\Project Taiyi\src\装备附注\口径
-
-  核心规则\普通装备.md:87
-    text: 口径
-    url:  ../装备附注/口径/
-    tried: D:\Project Taiyi\src\装备附注\口径
-
-  核心规则\普通装备.md:132
-    text: -2
-    url:  见《狂野世界》毒素效果
-    tried: D:\Project Taiyi\src\核心规则\见《狂野世界》毒素效果
-
-  核心规则\负赘.md:316
-    text: 次要
-    url:  ../../临时/角色/
-    tried: D:\Project Taiyi\临时\角色
-
-  核心规则\负赘.md:318
-    text: 主要
-    url:  ../../临时/角色/
-    tried: D:\Project Taiyi\临时\角色
-
-  核心规则\负赘.md:478
-    text: 次要
-    url:  ../../临时/角色/
-    tried: D:\Project Taiyi\临时\角色
-
-  核心规则\负赘.md:480
-    text: 主要
-    url:  ../../临时/角色/
-    tried: D:\Project Taiyi\临时\角色
-
-  核心规则\负赘.md:490
-    text: 次要
-    url:  ../../临时/角色/
-    tried: D:\Project Taiyi\临时\角色
-
-  核心规则\负赘.md:505
-    text: 坚韧
-    url:  ../../临时/角色/
-    tried: D:\Project Taiyi\临时\角色
-
-  核心规则\负赘.md:529
-    text: 主要
-    url:  ../../临时/角色/
-    tried: D:\Project Taiyi\临时\角色
-
-  核心规则\负赘.md:543
-    text: 主要
-    url:  ../../临时/角色/
-    tried: D:\Project Taiyi\临时\角色
-
-  核心规则\负赘.md:619
-    text: 主要
-    url:  ../../临时/角色/
-    tried: D:\Project Taiyi\临时\角色
+  核心规则\特性投骰.md:55
+    text: 反冲
+    url:  启动/
+    tried: D:\Project Taiyi\src\核心规则\启动
 
   核心规则\专长\传奇专长_Legendary_Edges.md:12
     text: 专业水准
@@ -135,16 +50,6 @@
     url:  ../推波助浪/
     tried: D:\Project Taiyi\src\核心规则\推波助浪
 
-  核心规则\冒险工具箱\大规模作战.md:98
-    text: 弹药
-    url:  ../../临时/弹药表/
-    tried: D:\Project Taiyi\src\临时\弹药表
-
-  核心规则\冒险工具箱\快速遭遇.md:26
-    text: 奥法技能
-    url:  ../../临时/奥法背景/
-    tried: D:\Project Taiyi\src\临时\奥法背景
-
   核心规则\冒险工具箱\快速遭遇.md:88
     text: 大规模作战
     url:  ../大规模作战/
@@ -155,11 +60,6 @@
     url:  ../打点关系/
     tried: D:\Project Taiyi\src\核心规则\打点关系
 
-  核心规则\冒险工具箱\追逐与载具.md:147
-    text: 射程
-    url:  ../../装备附注/射程/
-    tried: D:\Project Taiyi\src\装备附注\射程
-
   核心规则\危难\攀爬.md:15
     text: 肿痛与擦伤
     url:  ../肿痛与擦伤/
@@ -169,11 +69,6 @@
     text: 坠落
     url:  ../坠落/
     tried: D:\Project Taiyi\src\核心规则\坠落
-
-  核心规则\情景规则\临时武器.md:9
-    text: 最低力量
-    url:  ../../装备附注/最低力量/
-    tried: D:\Project Taiyi\src\装备附注\最低力量
 
   核心规则\情景规则\体型与尺寸.md:27
     text: 定点打击
@@ -195,11 +90,6 @@
     url:  ../奇袭/
     tried: D:\Project Taiyi\src\核心规则\奇袭
 
-  核心规则\情景规则\副手攻击.md:9
-    text: 格挡
-    url:  ../../装备附注/格挡/
-    tried: D:\Project Taiyi\src\装备附注\格挡
-
   核心规则\情景规则\天生武器.md:11
     text: 擒抱
     url:  ../擒抱/
@@ -209,11 +99,6 @@
     text: 缴械
     url:  ../缴械/
     tried: D:\Project Taiyi\src\核心规则\缴械
-
-  核心规则\情景规则\定点打击.md:16
-    text: 着甲
-    url:  ../../装备附注/护甲值_ARMOR/
-    tried: D:\Project Taiyi\src\装备附注\护甲值_ARMOR
 
   核心规则\情景规则\射向近战.md:9
     text: 无辜旁人
@@ -256,11 +141,6 @@
     tried: D:\Project Taiyi\src\核心规则\束缚与纠缠
 
   核心规则\情景规则\无辜旁人.md:15
-    text: 射速
-    url:  ../../装备附注/射速/
-    tried: D:\Project Taiyi\src\装备附注\射速
-
-  核心规则\情景规则\无辜旁人.md:15
     text: 霰弹枪
     url:  ../霰弹枪/
     tried: D:\Project Taiyi\src\核心规则\霰弹枪
@@ -280,25 +160,10 @@
     url:  ../分神与脆弱/
     tried: D:\Project Taiyi\src\核心规则\分神与脆弱
 
-  核心规则\情景规则\火力压制.md:11
-    text: 射速
-    url:  ../../装备附注/射速/
-    tried: D:\Project Taiyi\src\装备附注\射速
-
   核心规则\情景规则\火力压制.md:15
     text: 后坐力
     url:  ../后坐力/
     tried: D:\Project Taiyi\src\核心规则\后坐力
-
-  核心规则\情景规则\火力压制.md:19
-    text: 偏斜
-    url:  ../../奇术/偏斜/
-    tried: D:\Project Taiyi\src\奇术\偏斜
-
-  核心规则\情景规则\照明.md:7
-    text: 奇术
-    url:  ../../临时/奇术/
-    tried: D:\Project Taiyi\src\临时\奇术
 
   核心规则\情景规则\破坏物体.md:29
     text: 掩蔽与障碍
@@ -320,25 +185,10 @@
     url:  ../速度/
     tried: D:\Project Taiyi\src\核心规则\速度
 
-  核心规则\情景规则\近战中的远程武器.md:9
-    text: 奇术
-    url:  ../../临时/奇术/
-    tried: D:\Project Taiyi\src\临时\奇术
-
-  核心规则\情景规则\近战中的远程武器.md:9
-    text: 格挡
-    url:  ../../临时/角色/
-    tried: D:\Project Taiyi\src\临时\角色
-
   核心规则\情景规则\近战中的远程武器.md:10
     text: 脆弱
     url:  ../分神与脆弱/
     tried: D:\Project Taiyi\src\核心规则\分神与脆弱
-
-  核心规则\情景规则\震慑.md:9
-    text: 震慑
-    url:  ../../奇术/震慑/
-    tried: D:\Project Taiyi\src\奇术\震慑
 
   核心规则\情景规则\震慑.md:13
     text: 分神
@@ -360,70 +210,10 @@
     url:  ../围攻/
     tried: D:\Project Taiyi\src\核心规则\围攻
 
-  核心规则\战斗\伤害_Damage.md:15
-    text: 搏击手
-    url:  ../../临时/专长/搏击手/
-    tried: D:\Project Taiyi\src\临时\专长\搏击手
-
-  核心规则\战斗\伤害_Damage.md:15
-    text: 武术家
-    url:  ../../临时/专长/武术家/
-    tried: D:\Project Taiyi\src\临时\专长\武术家
-
-  核心规则\战斗\伤害效果_Damage_Effect.md:51
-    text: 治疗
-    url:  ../../奇术/治疗/
-    tried: D:\Project Taiyi\src\奇术\治疗
-
-  核心规则\战斗\伤害效果_Damage_Effect.md:61
-    text: 缓慢
-    url:  ../../临时/负赘/缓慢/
-    tried: D:\Project Taiyi\src\临时\负赘\缓慢
-
-  核心规则\战斗\伤害效果_Damage_Effect.md:62
-    text: 丑陋
-    url:  ../../临时/负赘/丑陋/
-    tried: D:\Project Taiyi\src\临时\负赘\丑陋
-
-  核心规则\战斗\伤害效果_Damage_Effect.md:62
-    text: 独眼
-    url:  ../../临时/负赘/独眼/
-    tried: D:\Project Taiyi\src\临时\负赘\独眼
-
-  核心规则\战斗\伤害效果_Damage_Effect.md:62
-    text: 目盲
-    url:  ../../临时/负赘/目盲/
-    tried: D:\Project Taiyi\src\临时\负赘\目盲
-
-  核心规则\战斗\攻击_Attacks.md:17
-    text: 射程
-    url:  ../../装备附注/射程/
-    tried: D:\Project Taiyi\src\装备附注\射程
-
-  核心规则\战斗\移动_Movement.md:7
-    text: 移速
-    url:  ../../临时/角色/
-    tried: D:\Project Taiyi\src\临时\角色
-
-  核心规则\战斗\行动_Actions.md:11
-    text: /r 1d6
-    url:  ../../..//r 1d6/
-    tried: D:\Project Taiyi\r 1d6
-
-  核心规则\技能\信仰.md:7
-    text: 奥法背景(奇迹)
-    url:  ../../奥法背景/奇迹/
-    tried: D:\Project Taiyi\src\奥法背景\奇迹
-
   核心规则\技能\电子学.md:11
     text: 修理
     url:  ../修理/
     tried: D:\Project Taiyi\src\核心规则\修理
-
-  核心规则\技能\集中.md:7
-    text: 奥法背景(异禀)
-    url:  ../../临时/奥法背景 (异禀
-    tried: D:\Project Taiyi\src\临时\奥法背景 (异禀
 
   核心规则\技能\驾驶.md:9
     text: 骑乘
@@ -432,126 +222,31 @@
 
   核心规则\特殊武器\喷火器.md:11
     text: 载具武器表核心规则/特殊武器/载具武器
-    url:  ../../../载具武器表核心规则/特殊武器/载具武器/
-    tried: D:\Project Taiyi\载具武器表核心规则\特殊武器\载具武器
-
-  核心规则\特殊武器\地雷.md:14
-    text: 重武器
-    url:  ../../装备附注/重武器_(HW
-    tried: D:\Project Taiyi\src\装备附注\重武器_(HW
-
-  核心规则\特殊武器\地雷.md:16
-    text: 穿甲
-    url:  ../../装备附注/穿甲_ARMOR PIERCING, AP/
-    tried: D:\Project Taiyi\src\装备附注\穿甲_ARMOR PIERCING, AP
-
-  核心规则\特殊武器\地雷.md:16
-    text: 护甲核心规则/装备附注/护甲值_ARMOR
-    url:  ../../../护甲核心规则/装备附注/护甲值_ARMOR/
-    tried: D:\Project Taiyi\护甲核心规则\装备附注\护甲值_ARMOR
-
-  核心规则\特殊武器\手雷.md:9
-    text: 核心规则/装备附注/重武器_(HW)
-    url:  ../../装备附注/重武器_(HW
-    tried: D:\Project Taiyi\src\装备附注\重武器_(HW
+    url:  ../../特殊武器/载具武器/
+    tried: D:\Project Taiyi\src\特殊武器\载具武器
 
   核心规则\特殊武器\手雷.md:13
     text: 回避核心规则/情景规则/回避
-    url:  ../../../回避核心规则/情景规则/回避/
-    tried: D:\Project Taiyi\回避核心规则\情景规则\回避
-
-  核心规则\特殊武器\火箭发射器与鱼雷.md:16
-    text: 猝射
-    url:  ../../装备附注/猝射/
-    tried: D:\Project Taiyi\src\装备附注\猝射
-
-  核心规则\特殊武器\火箭发射器与鱼雷.md:18
-    text: 猝射
-    url:  ../../装备附注/猝射/
-    tried: D:\Project Taiyi\src\装备附注\猝射
-
-  核心规则\特殊武器\载具武器.md:9
-    text: 射速
-    url:  ../../装备附注/射速/
-    tried: D:\Project Taiyi\src\装备附注\射速
-
-  核心规则\现代火器\机枪.md:11
-    text: 射速
-    url:  ../../装备附注/射速/
-    tried: D:\Project Taiyi\src\装备附注\射速
-
-  核心规则\现代火器\机枪.md:13
-    text: 装填核心规则/装备附注/装填
-    url:  ../../../装填核心规则/装备附注/装填/
-    tried: D:\Project Taiyi\装填核心规则\装备附注\装填
-
-  核心规则\现代火器\机枪.md:21
-    text: 重武器
-    url:  ../../装备附注/重武器_(HW
-    tried: D:\Project Taiyi\src\装备附注\重武器_(HW
-
-  核心规则\现代火器\步枪.md:17
-    text: 猝射
-    url:  ../../装备附注/猝射/
-    tried: D:\Project Taiyi\src\装备附注\猝射
-
-  核心规则\现代火器\步枪.md:19
-    text: 猝射
-    url:  ../../装备附注/猝射/
-    tried: D:\Project Taiyi\src\装备附注\猝射
-
-  核心规则\现代火器\步枪.md:25
-    text: 三连发
-    url:  ../../装备附注/三连发_THREE-ROUND BURST/
-    tried: D:\Project Taiyi\src\装备附注\三连发_THREE-ROUND BURST
-
-  核心规则\现代火器\步枪.md:27
-    text: 三连发
-    url:  ../../装备附注/三连发_THREE-ROUND BURST/
-    tried: D:\Project Taiyi\src\装备附注\三连发_THREE-ROUND BURST
+    url:  ../../情景规则/回避/
+    tried: D:\Project Taiyi\src\情景规则\回避
 
   核心规则\现代火器\霰弹枪.md:7
     text: 霰弹枪核心规则/情景规则/霰弹枪
-    url:  ../../../霰弹枪核心规则/情景规则/霰弹枪/
-    tried: D:\Project Taiyi\霰弹枪核心规则\情景规则\霰弹枪
-
-  核心规则\角色\index.md:38
-    text: 活力
-    url:  ../临时/角色/
-    tried: D:\Project Taiyi\src\核心规则\临时\角色
-
-  核心规则\角色\index.md:38
-    text: 护甲
-    url:  ../装备附注/护甲值_ARMOR/
-    tried: D:\Project Taiyi\src\核心规则\装备附注\护甲值_ARMOR
-
-  核心规则\设定规则\无甲勇士.md:11
-    text: 护甲
-    url:  ../../装备附注/护甲值_ARMOR/
-    tried: D:\Project Taiyi\src\装备附注\护甲值_ARMOR
-
-  核心规则\载具\index.md:12
-    text: 护甲
-    url:  ../装备附注/护甲值_ARMOR/
-    tried: D:\Project Taiyi\src\核心规则\装备附注\护甲值_ARMOR
-
-  核心规则\载具\地面载具.md:29
-    text: 坚韧
-    url:  ../../临时/角色/
-    tried: D:\Project Taiyi\src\临时\角色
+    url:  ../../情景规则/霰弹枪/
+    tried: D:\Project Taiyi\src\情景规则\霰弹枪
 
   核心规则\载具\地面载具.md:38
     text: 履带核心规则/载具
-    url:  ../../../履带核心规则/载具/
-    tried: D:\Project Taiyi\履带核心规则\载具
+    url:  ../../载具/
+    tried: D:\Project Taiyi\src\载具
 
   核心规则\载具\地面载具.md:51
     text: 转塔同轴核心规则/载具
-    url:  ../../../转塔同轴核心规则/载具/
-    tried: D:\Project Taiyi\转塔同轴核心规则\载具
+    url:  ../../载具/
+    tried: D:\Project Taiyi\src\载具
 
   核心规则\载具\飞行器.md:7
     text: 联装武器核心规则/载具
-    url:  ../../../联装武器核心规则/载具/
-    tried: D:\Project Taiyi\联装武器核心规则\载具
+    url:  ../../载具/
+    tried: D:\Project Taiyi\src\载具
 
