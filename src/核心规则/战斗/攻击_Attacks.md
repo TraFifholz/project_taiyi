@@ -2,6 +2,7 @@
 title: "攻击"
 title_en: "Attacks"
 original: "核心规则/战斗/攻击_Attacks"
+---
 ## 攻击 Attacks
 
 快速激烈的战斗基本内容见下文所述，更多额外选项和情形收录在  **情景规则**  当中。

@@ -2,6 +2,7 @@
 title: "移动"
 title_en: "Movement"
 original: "核心规则/战斗/移动_Movement"
+---
 ## 移动 Movement
 
 角色每回合可在桌面移动最多等同于移速的英寸数。

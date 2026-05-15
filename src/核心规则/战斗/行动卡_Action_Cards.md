@@ -2,6 +2,7 @@
 title: "行动卡"
 title_en: "Action Cards"
 original: "核心规则/战斗/行动卡_Action_Cards"
+---
 ## 行动卡（先攻） Action Cards (Initiative)
 
 《狂野世界》中的行动快速而激烈。为了帮助游戏主持人在知晓轮到谁行动的同时保持一点游戏随机性。所有人的先攻都会通过一套含有两张鬼牌的扑克牌来决定，这称为“行动卡”。
