@@ -14,14 +14,14 @@
           "collapsed": true,
           "items": [
             {
-              "text": "技能列表",
-              "collapsed": true,
-              "link": "/核心规则/特性/技能列表/"
-            },
-            {
-              "text": "详述",
+              "text": "概述",
               "collapsed": true,
               "link": "/核心规则/特性/详述/"
+            },
+            {
+              "text": "技能详述",
+              "collapsed": true,
+              "link": "/核心规则/特性/技能列表/"
             }
           ]
         },
@@ -641,14 +641,14 @@
           "collapsed": true,
           "items": [
             {
-              "text": "技能列表",
-              "collapsed": true,
-              "link": "/核心规则/特性/技能列表/"
-            },
-            {
-              "text": "详述",
+              "text": "概述",
               "collapsed": true,
               "link": "/核心规则/特性/详述/"
+            },
+            {
+              "text": "技能详述",
+              "collapsed": true,
+              "link": "/核心规则/特性/技能列表/"
             }
           ]
         },
