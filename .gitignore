@@ -3,3 +3,4 @@ src/.vitepress/dist/
 src/.vitepress/cache/
 discussion/
 character_sheet/
+temp/
