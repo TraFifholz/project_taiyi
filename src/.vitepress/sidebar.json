@@ -75,134 +75,22 @@
       "text": "第二章：装备",
       "collapsed": false,
       "items": [
+        { "text": "装备附注", "link": "/核心规则/装备附注" },
         {
-          "text": "普通装备",
-          "collapsed": true,
-          "link": "/核心规则/普通装备/"
-        },
-        {
-          "text": "装备附注",
-          "collapsed": true,
-          "link": "/核心规则/装备附注"
-        },
-        {
-          "text": "护甲",
+          "text": "商人",
           "collapsed": true,
           "items": [
-            {
-              "text": "盾牌",
-              "collapsed": true,
-              "link": "/核心规则/护甲/盾牌/"
-            },
-            {
-              "text": "现代护甲",
-              "collapsed": true,
-              "link": "/核心规则/护甲/现代护甲/"
-            }
-          ]
-        },
-        {
-          "text": "殖装",
-          "collapsed": true,
-          "link": "/核心规则/殖装"
-        },
-        {
-          "text": "单兵武器",
-          "collapsed": true,
-          "items": [
-            {
-              "text": "黑火药武器",
-              "collapsed": true,
-              "link": "/核心规则/单兵武器/黑火药武器/"
-            }
-          ]
-        },
-        {
-          "text": "现代火器",
-          "collapsed": true,
-          "items": [
-            {
-              "text": "步枪",
-              "collapsed": true,
-              "link": "/核心规则/现代火器/步枪/"
-            },
-            {
-              "text": "冲锋枪",
-              "collapsed": true,
-              "link": "/核心规则/现代火器/冲锋枪/"
-            },
-            {
-              "text": "机枪",
-              "collapsed": true,
-              "link": "/核心规则/现代火器/机枪/"
-            },
-            {
-              "text": "手枪",
-              "collapsed": true,
-              "link": "/核心规则/现代火器/手枪/"
-            },
-            {
-              "text": "霰弹枪",
-              "collapsed": true,
-              "link": "/核心规则/现代火器/霰弹枪/"
-            }
-          ]
-        },
-        {
-          "text": "特殊武器",
-          "collapsed": true,
-          "items": [
-            {
-              "text": "导弹",
-              "collapsed": true,
-              "link": "/核心规则/特殊武器/导弹/"
-            },
-            {
-              "text": "地雷",
-              "collapsed": true,
-              "link": "/核心规则/特殊武器/地雷/"
-            },
-            {
-              "text": "火箭发射器与鱼雷",
-              "collapsed": true,
-              "link": "/核心规则/特殊武器/火箭发射器与鱼雷/"
-            },
-            {
-              "text": "喷火器",
-              "collapsed": true,
-              "link": "/核心规则/特殊武器/喷火器/"
-            },
-            {
-              "text": "手雷",
-              "collapsed": true,
-              "link": "/核心规则/特殊武器/手雷/"
-            },
-            {
-              "text": "载具武器",
-              "collapsed": true,
-              "link": "/核心规则/特殊武器/载具武器/"
-            }
-          ]
-        },
-        {
-          "text": "载具",
-          "collapsed": true,
-          "items": [
-            {
-              "text": "船舶",
-              "collapsed": true,
-              "link": "/核心规则/载具/船舶/"
-            },
-            {
-              "text": "地面载具",
-              "collapsed": true,
-              "link": "/核心规则/载具/地面载具/"
-            },
-            {
-              "text": "飞行器",
-              "collapsed": true,
-              "link": "/核心规则/载具/飞行器/"
-            }
+            { "text": "沃可佳 — 大型连锁超市", "link": "/核心规则/商店/沃可佳" },
+            { "text": "芙龙兴盛 — 连锁便利店", "link": "/核心规则/商店/芙龙兴盛" },
+            { "text": "玄盾国际后勤部", "link": "/核心规则/商店/玄盾国际后勤部" },
+            { "text": "赛博诊所", "link": "/核心规则/商店/赛博诊所" },
+            { "text": "威格广场", "link": "/核心规则/商店/威格广场" },
+            { "text": "燧明科技集团", "link": "/核心规则/商店/燧明科技集团" },
+            { "text": "重黎工业集团", "link": "/核心规则/商店/重黎工业集团" },
+            { "text": "SHADOW", "link": "/核心规则/商店/SHADOW" },
+            { "text": "白桦树", "link": "/核心规则/商店/白桦树" },
+            { "text": "黑市技术掮客", "link": "/核心规则/商店/黑市技术掮客" },
+            { "text": "拾荒站", "link": "/核心规则/商店/拾荒站" }
           ]
         }
       ]
@@ -707,134 +595,22 @@
       "text": "第二章：装备",
       "collapsed": false,
       "items": [
+        { "text": "装备附注", "link": "/核心规则/装备附注" },
         {
-          "text": "普通装备",
-          "collapsed": true,
-          "link": "/核心规则/普通装备/"
-        },
-        {
-          "text": "装备附注",
-          "collapsed": true,
-          "link": "/核心规则/装备附注"
-        },
-        {
-          "text": "护甲",
+          "text": "商人",
           "collapsed": true,
           "items": [
-            {
-              "text": "盾牌",
-              "collapsed": true,
-              "link": "/核心规则/护甲/盾牌/"
-            },
-            {
-              "text": "现代护甲",
-              "collapsed": true,
-              "link": "/核心规则/护甲/现代护甲/"
-            }
-          ]
-        },
-        {
-          "text": "殖装",
-          "collapsed": true,
-          "link": "/核心规则/殖装"
-        },
-        {
-          "text": "单兵武器",
-          "collapsed": true,
-          "items": [
-            {
-              "text": "黑火药武器",
-              "collapsed": true,
-              "link": "/核心规则/单兵武器/黑火药武器/"
-            }
-          ]
-        },
-        {
-          "text": "现代火器",
-          "collapsed": true,
-          "items": [
-            {
-              "text": "步枪",
-              "collapsed": true,
-              "link": "/核心规则/现代火器/步枪/"
-            },
-            {
-              "text": "冲锋枪",
-              "collapsed": true,
-              "link": "/核心规则/现代火器/冲锋枪/"
-            },
-            {
-              "text": "机枪",
-              "collapsed": true,
-              "link": "/核心规则/现代火器/机枪/"
-            },
-            {
-              "text": "手枪",
-              "collapsed": true,
-              "link": "/核心规则/现代火器/手枪/"
-            },
-            {
-              "text": "霰弹枪",
-              "collapsed": true,
-              "link": "/核心规则/现代火器/霰弹枪/"
-            }
-          ]
-        },
-        {
-          "text": "特殊武器",
-          "collapsed": true,
-          "items": [
-            {
-              "text": "导弹",
-              "collapsed": true,
-              "link": "/核心规则/特殊武器/导弹/"
-            },
-            {
-              "text": "地雷",
-              "collapsed": true,
-              "link": "/核心规则/特殊武器/地雷/"
-            },
-            {
-              "text": "火箭发射器与鱼雷",
-              "collapsed": true,
-              "link": "/核心规则/特殊武器/火箭发射器与鱼雷/"
-            },
-            {
-              "text": "喷火器",
-              "collapsed": true,
-              "link": "/核心规则/特殊武器/喷火器/"
-            },
-            {
-              "text": "手雷",
-              "collapsed": true,
-              "link": "/核心规则/特殊武器/手雷/"
-            },
-            {
-              "text": "载具武器",
-              "collapsed": true,
-              "link": "/核心规则/特殊武器/载具武器/"
-            }
-          ]
-        },
-        {
-          "text": "载具",
-          "collapsed": true,
-          "items": [
-            {
-              "text": "船舶",
-              "collapsed": true,
-              "link": "/核心规则/载具/船舶/"
-            },
-            {
-              "text": "地面载具",
-              "collapsed": true,
-              "link": "/核心规则/载具/地面载具/"
-            },
-            {
-              "text": "飞行器",
-              "collapsed": true,
-              "link": "/核心规则/载具/飞行器/"
-            }
+            { "text": "沃可佳 — 大型连锁超市", "link": "/核心规则/商店/沃可佳" },
+            { "text": "芙龙兴盛 — 连锁便利店", "link": "/核心规则/商店/芙龙兴盛" },
+            { "text": "玄盾国际后勤部", "link": "/核心规则/商店/玄盾国际后勤部" },
+            { "text": "赛博诊所", "link": "/核心规则/商店/赛博诊所" },
+            { "text": "威格广场", "link": "/核心规则/商店/威格广场" },
+            { "text": "燧明科技集团", "link": "/核心规则/商店/燧明科技集团" },
+            { "text": "重黎工业集团", "link": "/核心规则/商店/重黎工业集团" },
+            { "text": "SHADOW", "link": "/核心规则/商店/SHADOW" },
+            { "text": "白桦树", "link": "/核心规则/商店/白桦树" },
+            { "text": "黑市技术掮客", "link": "/核心规则/商店/黑市技术掮客" },
+            { "text": "拾荒站", "link": "/核心规则/商店/拾荒站" }
           ]
         }
       ]
