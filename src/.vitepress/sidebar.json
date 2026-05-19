@@ -5,6 +5,11 @@
       "collapsed": false,
       "items": [
         {
+          "text": "角色创建",
+          "collapsed": true,
+          "link": "/核心规则/角色/"
+        },
+        {
           "text": "负赘",
           "collapsed": true,
           "link": "/核心规则/负赘/"
@@ -631,6 +636,11 @@
       "text": "第一章：角色",
       "collapsed": false,
       "items": [
+        {
+          "text": "角色创建",
+          "collapsed": true,
+          "link": "/核心规则/角色/"
+        },
         {
           "text": "负赘",
           "collapsed": true,
