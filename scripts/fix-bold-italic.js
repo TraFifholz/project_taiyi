@@ -1,84 +1,57 @@
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
 
-const files = execSync('find src -name "*.md" -type f', { encoding: 'utf8' })
-  .trim().split('\n').filter(Boolean);
+const srcDir = path.join(__dirname, '..', 'src');
 
-files.forEach(file => {
-  let content = fs.readFileSync(file, 'utf8');
-  let changed = false;
-
-  // 1. Fix double-opening bold: "** ** text**" → "**text**"
-  content = content.replace(/\*\* \*\*(.+?)\*\*/g, (m, inner) => {
-    changed = true;
-    return '**' + inner.trim() + '**';
+function walk(dir) {
+  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) return walk(fullPath);
+    if (entry.isFile() && entry.name.endsWith('.md')) return [fullPath];
+    return [];
   });
+}
 
-  // 2. Fix "** //text//**" → "**text**" (bold wrapping italic)
-  content = content.replace(/\*\* \/\/(.+?)\/\/\*\*/g, (m, inner) => {
-    changed = true;
-    return '**' + inner.trim() + '**';
-  });
+function fixFormatting(content) {
+  let text = content;
 
-  // 3. Fix CJK char touching opening ** → add space
-  content = content.replace(/([一-鿿　-〿＀-￯])\*\*/g, (m, c) => {
-    changed = true;
-    return c + ' **';
-  });
+  // MediaWiki-style italic markup was imported as //text//, which Markdown
+  // renders literally. Convert the common cases before touching bold labels.
+  text = text.replace(/\*\*\s*\/\/(.+?)\/\/\s*\*\*/g, '***$1***');
+  text = text.replace(/\/\/([^/\n]+?)\/\//g, '*$1*');
 
-  // 4. Fix closing ** touching CJK char → add space
-  content = content.replace(/\*\*([一-鿿　-〿＀-￯])/g, (m, c) => {
-    changed = true;
-    return '** ' + c;
-  });
+  // Keep label punctuation inside bold markers, and make sure the closing
+  // marker is followed by whitespace so Markdown can terminate the span.
+  text = text.replace(/\*\*([^*\n]+?)\*\*([：:])\s*/g, '**$1$2**  ');
+  text = text.replace(/\*\*([^*\n]+?[：:])\*\*(?=\S)/g, '**$1**  ');
 
-  // 5. Fix closing ** touching number → add space
-  content = content.replace(/\*\*(\d)/g, (m, d) => {
-    changed = true;
-    return '** ' + d;
-  });
+  // Normalize spacing around emphasized spans. This is intentionally modest:
+  // it removes excessive imported spaces without trying to reflow prose.
+  text = text.replace(/ {2,}(\*\*)/g, ' $1');
+  text = text.replace(/(\*\*) {3,}/g, '$1  ');
+  text = text.replace(/\|\s*(\*\*)/g, '| $1');
+  text = text.replace(/(\*\*)\s*\|/g, '$1 |');
 
-  // 6. Fix number touching opening ** → add space
-  content = content.replace(/(\d)\*\*/g, (m, d) => {
-    changed = true;
-    return d + ' **';
-  });
+  return text;
+}
 
-  // 7. Fix :** text (colon touching opening **) → : **text
-  content = content.replace(/([：:])\*\*/g, (m, c) => {
-    changed = true;
-    return c + ' **';
-  });
+let changedCount = 0;
 
-  // 8. Fix closing ** touching CJK punctuation like 、。）》 etc
-  content = content.replace(/\*\*([、。）》\]」』）])/g, (m, p) => {
-    changed = true;
-    return '** ' + p;
-  });
+for (const file of walk(srcDir)) {
+  const original = fs.readFileSync(file, 'utf8');
+  const fixed = fixFormatting(original);
 
-  // 9. Fix CJK punctuation touching opening **
-  content = content.replace(/([（《\[「『])\*\*/g, (m, p) => {
-    changed = true;
-    return p + ' **';
-  });
-
-  // 10. Fix |** (table cell start touching bold)
-  content = content.replace(/\|\*\*/g, (m) => {
-    changed = true;
-    return '| **';
-  });
-
-  // 11. Fix **| (bold touching table cell end)
-  content = content.replace(/\*\*\|/g, (m) => {
-    changed = true;
-    return '** |';
-  });
-
-  if (changed) {
-    fs.writeFileSync(file, content, 'utf8');
-    console.log('Fixed: ' + file);
+  if (fixed !== original) {
+    try {
+      fs.writeFileSync(file, fixed, 'utf8');
+      changedCount += 1;
+      console.log(`Fixed: ${path.relative(process.cwd(), file)}`);
+    } catch (error) {
+      console.warn(
+        `Skipped: ${path.relative(process.cwd(), file)} (${error.code || error.message})`,
+      );
+    }
   }
-});
+}
 
-console.log('\nDone.');
+console.log(`\nDone. Updated ${changedCount} file(s).`);
