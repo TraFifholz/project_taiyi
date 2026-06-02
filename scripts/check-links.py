@@ -7,6 +7,9 @@ import sys
 from pathlib import Path
 
 SRC = Path(__file__).resolve().parent.parent / "src"
+# Archived conversion output is kept for reference and is not part of the
+# maintained VitePress rulebook, so do not count its stale links as failures.
+IGNORED_DIRS = {"_archived"}
 
 
 def resolve_link(src_dir: Path, url: str) -> Path | None:
@@ -49,7 +52,10 @@ def resolve_link(src_dir: Path, url: str) -> Path | None:
 
 def check() -> list[dict]:
     broken = []
-    md_files = list(SRC.rglob("*.md"))
+    md_files = [
+        path for path in SRC.rglob("*.md")
+        if not any(part in IGNORED_DIRS for part in path.relative_to(SRC).parts)
+    ]
 
     for filepath in md_files:
         content = filepath.read_text(encoding="utf-8")
