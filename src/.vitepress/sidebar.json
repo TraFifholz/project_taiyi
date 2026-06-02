@@ -151,11 +151,6 @@
           "link": "/核心规则/规则/助力点"
         },
         {
-          "text": "骇客攻防",
-          "collapsed": true,
-          "link": "/核心规则/规则/骇客攻防"
-        },
-        {
           "text": "战斗",
           "collapsed": true,
           "items": [
@@ -518,6 +513,11 @@
           "text": "快速遭遇",
           "collapsed": true,
           "link": "/核心规则/冒险工具箱/快速遭遇/"
+        },
+        {
+          "text": "骇客攻防",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/骇客攻防"
         },
         {
           "text": "信念",
@@ -853,11 +853,6 @@
           "link": "/核心规则/规则/助力点"
         },
         {
-          "text": "骇客攻防",
-          "collapsed": true,
-          "link": "/核心规则/规则/骇客攻防"
-        },
-        {
           "text": "战斗",
           "collapsed": true,
           "items": [
@@ -1220,6 +1215,11 @@
           "text": "快速遭遇",
           "collapsed": true,
           "link": "/核心规则/冒险工具箱/快速遭遇/"
+        },
+        {
+          "text": "骇客攻防",
+          "collapsed": true,
+          "link": "/核心规则/冒险工具箱/骇客攻防"
         },
         {
           "text": "信念",
