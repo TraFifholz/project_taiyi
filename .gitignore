@@ -12,5 +12,8 @@ FVTT_MAINTENANCE.md
 .claude/
 scripts/fvtt/
 WORKSPACE.md
+assets/
+!/assets/
 /assets/*
 !/assets/npc/
+!/assets/npc/**/assets/
