@@ -1,0 +1,173 @@
+{
+  "worldId": "taiyi",
+  "changes": [
+    {
+      "id": "LS-NPC-088",
+      "actorId": "gadGwYGyXgzgEfpp",
+      "action": "updated",
+      "fields": [
+        "img",
+        "prototypeToken.texture.src",
+        "flags.world.taiyiNpc",
+        "_id"
+      ]
+    },
+    {
+      "id": "LS-NPC-089",
+      "actorId": "gBq6GwDgNfcln8lB",
+      "action": "created"
+    },
+    {
+      "id": "LS-NPC-N3",
+      "actorId": "zltELu4L5KcmScNG",
+      "action": "created"
+    }
+  ],
+  "relationChanges": [
+    {
+      "id": "taiyi-rel-4eff4d38c71335ec",
+      "ownerId": "LS-NPC-088",
+      "targetId": "LS-NPC-089",
+      "actorId": "gadGwYGyXgzgEfpp",
+      "relationshipId": "rel_SVqoDTZH1CklSzBj",
+      "action": "created"
+    },
+    {
+      "id": "taiyi-rel-4eff4d38c71335ec",
+      "ownerId": "LS-NPC-089",
+      "targetId": "LS-NPC-088",
+      "actorId": "gBq6GwDgNfcln8lB",
+      "relationshipId": "rel_dYwbnpz6m5QYEmYH",
+      "action": "created"
+    },
+    {
+      "id": "taiyi-rel-21b0da96fd81f653",
+      "ownerId": "LS-NPC-088",
+      "targetId": "LS-NPC-090",
+      "actorId": "gadGwYGyXgzgEfpp",
+      "relationshipId": "rel_PvFIyloHVn87hlz8",
+      "action": "created"
+    },
+    {
+      "id": "taiyi-rel-21b0da96fd81f653",
+      "ownerId": "LS-NPC-090",
+      "targetId": "LS-NPC-088",
+      "actorId": "a1z7lVrqv6W7wDFI",
+      "relationshipId": "rel_PRL3qjqxFQBB6cU2",
+      "action": "created"
+    },
+    {
+      "id": "taiyi-rel-224cb868a0a92e9e",
+      "ownerId": "LS-NPC-089",
+      "targetId": "LS-NPC-090",
+      "actorId": "gBq6GwDgNfcln8lB",
+      "relationshipId": "rel_3Jwc1cRLcSUAIiHv",
+      "action": "created"
+    },
+    {
+      "id": "taiyi-rel-224cb868a0a92e9e",
+      "ownerId": "LS-NPC-090",
+      "targetId": "LS-NPC-089",
+      "actorId": "a1z7lVrqv6W7wDFI",
+      "relationshipId": "rel_DXyK75n2k4s6hTY9",
+      "action": "created"
+    },
+    {
+      "id": "taiyi-rel-b42f52f034a10266",
+      "ownerId": "LS-NPC-088",
+      "targetId": "LS-NPC-100",
+      "action": "deferred-missing-actor"
+    },
+    {
+      "id": "taiyi-rel-b42f52f034a10266",
+      "ownerId": "LS-NPC-100",
+      "targetId": "LS-NPC-088",
+      "action": "deferred-missing-actor"
+    },
+    {
+      "id": "taiyi-rel-409a2076c769399e",
+      "ownerId": "LS-PC-lihao",
+      "targetId": "LS-NPC-N3",
+      "actorId": "dVY3kCrHc0WYyKEa",
+      "relationshipId": "rel_DNMhAeIh6nCl5o1c",
+      "action": "created"
+    },
+    {
+      "id": "taiyi-rel-409a2076c769399e",
+      "ownerId": "LS-NPC-N3",
+      "targetId": "LS-PC-lihao",
+      "actorId": "zltELu4L5KcmScNG",
+      "relationshipId": "rel_0ddqEzvofdJNqMfb",
+      "action": "created"
+    },
+    {
+      "id": "taiyi-rel-5ba61e11e3dfc8ea",
+      "ownerId": "LS-PC-lihao",
+      "targetId": "LS-NPC-088",
+      "actorId": "dVY3kCrHc0WYyKEa",
+      "relationshipId": "rel_riLslW7zOH5yQ8tw",
+      "action": "created"
+    },
+    {
+      "id": "taiyi-rel-5ba61e11e3dfc8ea",
+      "ownerId": "LS-NPC-088",
+      "targetId": "LS-PC-lihao",
+      "actorId": "gadGwYGyXgzgEfpp",
+      "relationshipId": "rel_6CqsFNgsvVVioyFS",
+      "action": "created"
+    }
+  ],
+  "protectedFailures": [],
+  "matches": [
+    {
+      "id": "LS-NPC-088",
+      "actorId": "gadGwYGyXgzgEfpp",
+      "name": "沈漫"
+    },
+    {
+      "id": "LS-NPC-090",
+      "actorId": "a1z7lVrqv6W7wDFI",
+      "name": "朱瑶光"
+    },
+    {
+      "id": "LS-PC-lihao",
+      "actorId": "dVY3kCrHc0WYyKEa",
+      "name": "李好"
+    },
+    {
+      "id": "LS-PC-yuko",
+      "actorId": "zmeMlq5pVbbqr1rA",
+      "name": "黑崎欲子"
+    },
+    {
+      "id": "LS-PC-tangsuo",
+      "actorId": "ELxrslbsSHQg0cmK",
+      "name": "唐索"
+    },
+    {
+      "id": "LS-PC-lei",
+      "actorId": "j3f9G2P4vDSmmxZw",
+      "name": "雷武龙"
+    },
+    {
+      "id": "LS-PC-kevlar",
+      "actorId": "vhpt4XZxZn59dWX5",
+      "name": "凯芙拉·威尔森"
+    },
+    {
+      "id": "LS-PC-arkan",
+      "actorId": "nJxWvLzZvBNXObjk",
+      "name": "阿尔坎·希耶尔"
+    },
+    {
+      "id": "LS-NPC-089",
+      "actorId": "gBq6GwDgNfcln8lB",
+      "name": "沈仲秋"
+    },
+    {
+      "id": "LS-NPC-N3",
+      "actorId": "zltELu4L5KcmScNG",
+      "name": "棍木女"
+    }
+  ]
+}

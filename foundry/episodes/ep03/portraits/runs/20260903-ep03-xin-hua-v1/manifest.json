@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260903-ep03-xin-hua-v1",
+  "characterId": "EP03-XIN-HUA",
+  "characterName": "辛桦",
+  "designStatus": "provisional",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "assets/candidates/EP03-XIN-HUA-辛桦-avatar.webp",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=c0d5e5c4bbcfddeee73710aa861cdd9a5b24f02c9df2bd24a4848e99f81ec43a",
+      "成年人形象、短棕发、深绿夹克、灰高领与头盔区分明确；手指、耳机、衣装正常，无文字或能力特效。原图头顶贴近边界，头像加透明留边。"
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentPixels": 497632
+  },
+  "candidatePathBase": "portraits/",
+  "userApproved": false
+}

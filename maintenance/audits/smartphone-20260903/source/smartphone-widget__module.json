@@ -1,0 +1,98 @@
+{
+  "id": "smartphone-widget",
+  "title": "Smartphone Widget",
+  "description": "Adds a smartphone-like widget interface for messaging and contacts",
+  "version": "2.3.4",
+  "protected": true,
+  "authors": [
+    {
+      "name": "rlavkvmflzk",
+      "discord": "sarangi"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "documentTypes": {
+    "RegionBehavior": {
+      "batteryCharge": {},
+      "signalBlock": {}
+    }
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "glitchsmith-lib",
+        "type": "module",
+        "compatibility": {
+          "minimum": "0.10.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/lib/SmartphoneSocket.js",
+    "scripts/core/SmartphoneTime.js",
+    "scripts/core/WidgetManager.js",
+    "scripts/apps/BaseApp.js",
+    "scripts/apps/PhoneSettingsDialog.js",
+    "scripts/apps/CurrencyManagerDialog.js",
+    "scripts/apps/SmartphoneSettings.js",
+    "scripts/apps/TimeSettingsDialog.js",
+    "scripts/apps/HomeApp.js",
+    "scripts/apps/MessagesApp.js",
+    "scripts/apps/ContactsApp.js",
+    "scripts/apps/PhoneApp.js",
+    "scripts/apps/SettingsApp.js",
+    "scripts/apps/CalculatorApp.js",
+    "scripts/apps/NotesApp.js",
+    "scripts/apps/SocialApp.js",
+    "scripts/apps/MinefinderApp.js",
+    "scripts/apps/CheckersApp.js",
+    "scripts/apps/BankingApp.js",
+    "scripts/apps/GachaApp.js",
+    "scripts/apps/DiceApp.js",
+    "scripts/apps/CalendarApp.js",
+    "scripts/smartphone-widget.js",
+    "scripts/apps/AppStoreApp.js"
+  ],
+  "styles": [
+    "styles/NotesApp.css",
+    "styles/SocialApp.css",
+    "styles/smartphone-widget.css",
+    "styles/CheckersApp.css",
+    "styles/BankingApp.css",
+    "styles/GachaApp.css",
+    "styles/Flame.css",
+    "styles/DiceApp.css",
+    "styles/CalendarApp.css",
+    "styles/TimeSettings.css",
+    "styles/PhoneApp.css",
+    "styles/AppStoreApp.css",
+    "styles/CalculatorApp.css",
+    "styles/SettingsApp.css",
+    "styles/MessagesApp.css",
+    "styles/ContactsApp.css",
+    "styles/GalleryApp.css",
+    "styles/widgets.css",
+    "styles/WeatherApp.css",
+    "styles/LockScreen.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    },
+    {
+      "lang": "ko",
+      "name": "Korean",
+      "path": "languages/ko.json"
+    }
+  ],
+  "url": "https://github.com/rlavkvmflzk/smartphone-widget",
+  "manifest": "https://r2.foundryvtt.com/packages-public/smartphone-widget/module.json",
+  "socket": true
+}

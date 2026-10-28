@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "rebuilds": 2,
+  "advances": 5,
+  "rank": [
+    [
+      "马铁鹰",
+      "行家"
+    ],
+    [
+      "夏满弓",
+      "行家"
+    ]
+  ],
+  "untouchedActors": 131,
+  "retainedItemIds": 48,
+  "retainedEffectIds": 12,
+  "deletedActors": 0,
+  "deletedItems": 0,
+  "deletedEffects": 0,
+  "identityAndPortraitsPreserved": true,
+  "runtimeStatePreserved": true,
+  "sceneTokensUnchanged": true,
+  "journalsUnchanged": true,
+  "rollTests": 24,
+  "weaponTests": 5,
+  "attackBonusVerified": true,
+  "noticeBonusVerified": true,
+  "superSkillCount": 0,
+  "superEdgeCount": 0
+}

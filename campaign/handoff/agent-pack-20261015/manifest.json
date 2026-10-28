@@ -1,0 +1,944 @@
+{
+  "snapshot_date": "2026-10-15",
+  "last_session": "S14",
+  "latest_transcript_date": "2026-10-09",
+  "audience": "GM agents, full spoilers",
+  "sources": [
+    {
+      "source_path": "AGENTS.md",
+      "package_path": "sources/AGENTS.md",
+      "bytes": 4004,
+      "sha256": "b43842604fdbd9b4e29eac8fac0d2ec2baa14c57dee2e15bb12e5a2dd58924cf"
+    },
+    {
+      "source_path": "campaign/decisions/README.md",
+      "package_path": "sources/campaign/decisions/README.md",
+      "bytes": 267,
+      "sha256": "31b3a19423acc0ff83f91a6799c1d606f0768c49e0c979c35dc8a3eead048185"
+    },
+    {
+      "source_path": "campaign/decisions/二十话重整-设计定案.md",
+      "package_path": "sources/campaign/decisions/二十话重整-设计定案.md",
+      "bytes": 18036,
+      "sha256": "42c1a01f2f0e13cf9b079262c456038fbbab7ecff02fe5a49e02a29d4edabfa6"
+    },
+    {
+      "source_path": "campaign/episodes/20-episode-outline.md",
+      "package_path": "sources/campaign/episodes/20-episode-outline.md",
+      "bytes": 31623,
+      "sha256": "17146ea2ea1da3485e601053b77d305ce81e5e4af3e379f956cf5cd360f4a59c"
+    },
+    {
+      "source_path": "campaign/episodes/campaign-outline-notes.md",
+      "package_path": "sources/campaign/episodes/campaign-outline-notes.md",
+      "bytes": 6836,
+      "sha256": "3c7ce502de702c4f80393e7b6a1051243af85667ef2ce2b585b2022e49413c5f"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-01/01-事务所开张.md",
+      "package_path": "sources/campaign/episodes/chapter-01/01-事务所开张.md",
+      "bytes": 2348,
+      "sha256": "44def3e3df96a49be5408d95e9fbec1a206343a9fe53061c7083018031c2cfdd"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-01/02-地铁幽灵.md",
+      "package_path": "sources/campaign/episodes/chapter-01/02-地铁幽灵.md",
+      "bytes": 2092,
+      "sha256": "2fd775c2a1315f5e33d9babeaf7f904f54038a1864f2eac26bb1d52a64fb02d0"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-01/03-追风大劫案.md",
+      "package_path": "sources/campaign/episodes/chapter-01/03-追风大劫案.md",
+      "bytes": 3953,
+      "sha256": "f7bfda09fa1c801d8de5164fd5f18496ddc0715f83231a61621ff3509f28a115"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-01/04-特派员.md",
+      "package_path": "sources/campaign/episodes/chapter-01/04-特派员.md",
+      "bytes": 6687,
+      "sha256": "ca0e8c54445d10c335d333f0e3c2570e8878a2e4724b36204d2ff105ae6089ed"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-02/05-帮派奥运会.md",
+      "package_path": "sources/campaign/episodes/chapter-02/05-帮派奥运会.md",
+      "bytes": 2352,
+      "sha256": "f82ccf3b2cacac33e23728d643a824be689a85dd6a954bfd03e3385a11850266"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-02/06-楚风真人秀.md",
+      "package_path": "sources/campaign/episodes/chapter-02/06-楚风真人秀.md",
+      "bytes": 2565,
+      "sha256": "93c3e07ab4c7a6bf25fecbdc35404cac8e0696d947fa524b9f52dd9be9a2d46d"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-02/07-旧城寻宝.md",
+      "package_path": "sources/campaign/episodes/chapter-02/07-旧城寻宝.md",
+      "bytes": 2694,
+      "sha256": "d93f40608fa8dbe70761776927cfdb8b671694dc2b8a4a18d3606137569bc78b"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-02/08-引资银行劫案.md",
+      "package_path": "sources/campaign/episodes/chapter-02/08-引资银行劫案.md",
+      "bytes": 3352,
+      "sha256": "5e2bdb6b775d412a30298ae76e53c726e40c693652622a75a3d8371632395d49"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-03/09-云麓镇考古.md",
+      "package_path": "sources/campaign/episodes/chapter-03/09-云麓镇考古.md",
+      "bytes": 2419,
+      "sha256": "82448526bec683932b9bca6d89baceb168ca1d2e1fb2b274b3c091db43ba374a"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-03/10-霜月会黑研究所.md",
+      "package_path": "sources/campaign/episodes/chapter-03/10-霜月会黑研究所.md",
+      "bytes": 2842,
+      "sha256": "b3fb834f165151e3e85243f2fce4f876d290bcc49a5b236f2666b2e8a92b88ec"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-03/11-陵寝杯地下拳王.md",
+      "package_path": "sources/campaign/episodes/chapter-03/11-陵寝杯地下拳王.md",
+      "bytes": 2302,
+      "sha256": "5b59338b89262aca72e968f2c6e7d0186995b92c504c526fbb77c21d2d7ba831"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-03/12-重黎大暴走.md",
+      "package_path": "sources/campaign/episodes/chapter-03/12-重黎大暴走.md",
+      "bytes": 2731,
+      "sha256": "f7d063ab2eceadb68d0187ee864440e014e3eb5ec1b70126d403aa7ba61194a5"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-04/13-九域封神.md",
+      "package_path": "sources/campaign/episodes/chapter-04/13-九域封神.md",
+      "bytes": 2686,
+      "sha256": "14905e7a789b9936909f4774f3f858dce9696a15af13248652edba5bed61c24d"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-04/14-启示录方舟.md",
+      "package_path": "sources/campaign/episodes/chapter-04/14-启示录方舟.md",
+      "bytes": 3083,
+      "sha256": "b78e81205d895ba122265bba649cdfa08e7bdaed1486d63f7b2ff4bec86845c1"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-04/15-卜府策士游戏.md",
+      "package_path": "sources/campaign/episodes/chapter-04/15-卜府策士游戏.md",
+      "bytes": 2440,
+      "sha256": "cb4c6d539def9e2326bd10d9728903c297a0a2f707e2de53b3942f16ee343d94"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-04/16-神机.md",
+      "package_path": "sources/campaign/episodes/chapter-04/16-神机.md",
+      "bytes": 2659,
+      "sha256": "8f9b966e7c0558d933d07f4b337d9cec9240f9d5ad7d2d3fb19e6a8d21ef3b62"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-05/17-楚钢遗址再临.md",
+      "package_path": "sources/campaign/episodes/chapter-05/17-楚钢遗址再临.md",
+      "bytes": 2394,
+      "sha256": "b316aef3686fc1a06e8ac9773a89a4ff8101a45f6a29748a1f84dfe7150d1f6f"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-05/18-龙散大反攻.md",
+      "package_path": "sources/campaign/episodes/chapter-05/18-龙散大反攻.md",
+      "bytes": 5356,
+      "sha256": "ff12c5b1912a7b6d66d20aa0ec0cb0dadbf7fc9ffd4f14d4715fbbdd3e3ba103"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-05/19-云梦潜入.md",
+      "package_path": "sources/campaign/episodes/chapter-05/19-云梦潜入.md",
+      "bytes": 3186,
+      "sha256": "200aa56c0530c753b02a1f2c206b461182999e81ea9f54d7f7dc552cc628c5e0"
+    },
+    {
+      "source_path": "campaign/episodes/chapter-05/20-三重结局.md",
+      "package_path": "sources/campaign/episodes/chapter-05/20-三重结局.md",
+      "bytes": 3251,
+      "sha256": "bcd67d946a30bf560777aa39f082561d3b64d8ec349c9f112cc6b1e64109dad5"
+    },
+    {
+      "source_path": "campaign/episodes/dark-lines.md",
+      "package_path": "sources/campaign/episodes/dark-lines.md",
+      "bytes": 6621,
+      "sha256": "4e20246f817c9b6524bd4e1f90e4d1c2d67dfcc85922c9177b4ba8842761d3ae"
+    },
+    {
+      "source_path": "campaign/episodes/README.md",
+      "package_path": "sources/campaign/episodes/README.md",
+      "bytes": 1819,
+      "sha256": "d8d796bf7b90fdf148bc62cfae937de3959903f0d6a25691c6243ad6df605e1a"
+    },
+    {
+      "source_path": "campaign/episodes/第一季-删不掉的路与第二季归城布局.md",
+      "package_path": "sources/campaign/episodes/第一季-删不掉的路与第二季归城布局.md",
+      "bytes": 24196,
+      "sha256": "dd38795cc7f3364f84fea29cbc7a1296c2eb917ed098988bc5cd0868a0e557e7"
+    },
+    {
+      "source_path": "campaign/guides/module-writing-lessons.md",
+      "package_path": "sources/campaign/guides/module-writing-lessons.md",
+      "bytes": 4611,
+      "sha256": "76a08584cf5a0a47ec0239d8814ca35de9369643439f9d2d66c054ec942830aa"
+    },
+    {
+      "source_path": "campaign/guides/README.md",
+      "package_path": "sources/campaign/guides/README.md",
+      "bytes": 349,
+      "sha256": "56c5f7397292dd55f337c691f5ee496b1219a5c78575f2bd7dd93829b9251f4d"
+    },
+    {
+      "source_path": "campaign/guides/写作规范.md",
+      "package_path": "sources/campaign/guides/写作规范.md",
+      "bytes": 2081,
+      "sha256": "587feba24139d3aa21e7d56f8631862b88d9a3be27a9eb18d6ed6f693e7ff0a8"
+    },
+    {
+      "source_path": "campaign/guides/场景梗概样板.md",
+      "package_path": "sources/campaign/guides/场景梗概样板.md",
+      "bytes": 1059,
+      "sha256": "cbe2325e0f0e0dbd615f4fa864523103d7015ccb84ded2744406f1b0303c3657"
+    },
+    {
+      "source_path": "campaign/guides/开团助手指引.md",
+      "package_path": "sources/campaign/guides/开团助手指引.md",
+      "bytes": 6066,
+      "sha256": "fbe66a3f00a9a20463567ab8d98a5c93ffe8c083375953dad7b06ed6a9b6a308"
+    },
+    {
+      "source_path": "campaign/guides/模组写作规范.md",
+      "package_path": "sources/campaign/guides/模组写作规范.md",
+      "bytes": 5287,
+      "sha256": "2fb3eb2833d1fb682065f0319dd555c0e18ef18532eb24e1a8aaab6e92c98bc0"
+    },
+    {
+      "source_path": "campaign/npcs/index.md",
+      "package_path": "sources/campaign/npcs/index.md",
+      "bytes": 11222,
+      "sha256": "d261ea9a643abf4a1339b2f12f0fecd0fb11e4c8e3c44317455b954d54315acf"
+    },
+    {
+      "source_path": "campaign/npcs/NPC工作总控.md",
+      "package_path": "sources/campaign/npcs/NPC工作总控.md",
+      "bytes": 2663,
+      "sha256": "e09c9da9dbe4da24313104cf5695ba7a28645fab59b6fb8653a279009e24093d"
+    },
+    {
+      "source_path": "campaign/npcs/reference/NPC最终意见版.md",
+      "package_path": "sources/campaign/npcs/reference/NPC最终意见版.md",
+      "bytes": 25343,
+      "sha256": "388fc6acf76ee9adcd1242a853530dcdcc32c3cb66286b6be23c9c32cc430f5b"
+    },
+    {
+      "source_path": "campaign/npcs/reference/NPC立绘设定终稿.md",
+      "package_path": "sources/campaign/npcs/reference/NPC立绘设定终稿.md",
+      "bytes": 41957,
+      "sha256": "fb9715f645eac59456064440eeeda19a8408c539501a750923a3583c377fdf21"
+    },
+    {
+      "source_path": "campaign/npcs/reference/README.md",
+      "package_path": "sources/campaign/npcs/reference/README.md",
+      "bytes": 494,
+      "sha256": "4fc75bbf42e6f1269442a7577323ed7cf5424996f6f1716ec19915ecad401bf6"
+    },
+    {
+      "source_path": "campaign/npcs/reference/企业节点.md",
+      "package_path": "sources/campaign/npcs/reference/企业节点.md",
+      "bytes": 12815,
+      "sha256": "5e9af3e641fbb2529e72cd7e7d65d7f1e3c0c40ffdbcf405d8065c3722a1ff83"
+    },
+    {
+      "source_path": "campaign/npcs/reference/关键NPC.md",
+      "package_path": "sources/campaign/npcs/reference/关键NPC.md",
+      "bytes": 1367,
+      "sha256": "41b87f75cc35eabea8882d00cd41f83c740491543478806565e4715b3762e935"
+    },
+    {
+      "source_path": "campaign/npcs/reference/帮派黑道.md",
+      "package_path": "sources/campaign/npcs/reference/帮派黑道.md",
+      "bytes": 12030,
+      "sha256": "903198fdfbc123b31b88e595c4fc97a87f6a51804b27d23eefe6c7a39ad7b7b1"
+    },
+    {
+      "source_path": "campaign/npcs/reference/引资银行龙散分行.md",
+      "package_path": "sources/campaign/npcs/reference/引资银行龙散分行.md",
+      "bytes": 2208,
+      "sha256": "9891d009d938d7d0b2a5bfb14381c219ca14587bb50afbd04d742868dd209d69"
+    },
+    {
+      "source_path": "campaign/npcs/reference/日常接点.md",
+      "package_path": "sources/campaign/npcs/reference/日常接点.md",
+      "bytes": 6680,
+      "sha256": "29cf348071325ea516ffd8a7dbf35f3adb3412c914d7e400f7ae0ab52221d9bf"
+    },
+    {
+      "source_path": "campaign/npcs/reference/核心NPC.md",
+      "package_path": "sources/campaign/npcs/reference/核心NPC.md",
+      "bytes": 2405,
+      "sha256": "042c234abfaf1389af4f615b2c997bdbf26badfab7fa7b91d10508ef0c38d30d"
+    },
+    {
+      "source_path": "campaign/npcs/reference/背景NPC.md",
+      "package_path": "sources/campaign/npcs/reference/背景NPC.md",
+      "bytes": 4436,
+      "sha256": "88b7f5b8f36eeb51dc040ea195df9752760842a8d597c74e3a626de63905691a"
+    },
+    {
+      "source_path": "campaign/npcs/roster/NPC出场安排.md",
+      "package_path": "sources/campaign/npcs/roster/NPC出场安排.md",
+      "bytes": 33106,
+      "sha256": "028428b35faca18af6b6e38072789f456c372e7f37ec6e554f76ce96d9319803"
+    },
+    {
+      "source_path": "campaign/npcs/roster/README.md",
+      "package_path": "sources/campaign/npcs/roster/README.md",
+      "bytes": 165,
+      "sha256": "a350f7f6cfc3edbe9aad6fffce19bea372ff75a8ccdb8e3631970bb6bce690ec"
+    },
+    {
+      "source_path": "campaign/npcs/roster/全城NPC名单.md",
+      "package_path": "sources/campaign/npcs/roster/全城NPC名单.md",
+      "bytes": 9061,
+      "sha256": "187bbda42c98775063e0b5397dbbf7a668695edf200a18731460ed7f99fe52f2"
+    },
+    {
+      "source_path": "campaign/npcs/stories/README.md",
+      "package_path": "sources/campaign/npcs/stories/README.md",
+      "bytes": 737,
+      "sha256": "f23523af6a7b076c909ec3b5101aec0e8ebb59accbccd4668eebee997441fe1f"
+    },
+    {
+      "source_path": "campaign/npcs/stories/交管7号.md",
+      "package_path": "sources/campaign/npcs/stories/交管7号.md",
+      "bytes": 3159,
+      "sha256": "31ca67660abbf6152bbe0e8a804a371d81d50485fd7527b67346a1bb9ed23490"
+    },
+    {
+      "source_path": "campaign/npcs/stories/何凌.md",
+      "package_path": "sources/campaign/npcs/stories/何凌.md",
+      "bytes": 4466,
+      "sha256": "b7c0cca89b9a01b3a5533827bbcc6bf7be6ab92193fdb856f27652acffbc2869"
+    },
+    {
+      "source_path": "campaign/npcs/stories/刑天.md",
+      "package_path": "sources/campaign/npcs/stories/刑天.md",
+      "bytes": 2397,
+      "sha256": "432d6b60e915a9fb01f38975cdc4e8f5d7f9bf923e6b02ea14184767b949d6a8"
+    },
+    {
+      "source_path": "campaign/npcs/stories/同舟.md",
+      "package_path": "sources/campaign/npcs/stories/同舟.md",
+      "bytes": 2444,
+      "sha256": "0dab246a67bc5d7d1e3e882379c5ea9884309e42e4dce2303095baa227a67f21"
+    },
+    {
+      "source_path": "campaign/npcs/stories/大楚.md",
+      "package_path": "sources/campaign/npcs/stories/大楚.md",
+      "bytes": 2245,
+      "sha256": "c591a864fa4d4ff37105832ffdc2fae0338aa4f03ec4877bf854251ac498f65f"
+    },
+    {
+      "source_path": "campaign/npcs/stories/方泰安.md",
+      "package_path": "sources/campaign/npcs/stories/方泰安.md",
+      "bytes": 4853,
+      "sha256": "1e5d2f4a5ca1504856b2cc97fd049290360c02aed059ab6eee1e7ca7148ded96"
+    },
+    {
+      "source_path": "campaign/npcs/stories/朱瑶光.md",
+      "package_path": "sources/campaign/npcs/stories/朱瑶光.md",
+      "bytes": 5398,
+      "sha256": "fda0c7528583aa89deb16e1e114ed3d0267da03b9d5383fc1d199037af5648d4"
+    },
+    {
+      "source_path": "campaign/npcs/stories/朱蘅.md",
+      "package_path": "sources/campaign/npcs/stories/朱蘅.md",
+      "bytes": 6213,
+      "sha256": "ea5928931017d128fa1b6b42a0496297a8e35336978df2624fa68674cfcce174"
+    },
+    {
+      "source_path": "campaign/npcs/stories/梁文川.md",
+      "package_path": "sources/campaign/npcs/stories/梁文川.md",
+      "bytes": 4083,
+      "sha256": "16edbb59e70df441fec298fdf28f2d3ddfb7cc41f2c9a4c531f286c6525f8afd"
+    },
+    {
+      "source_path": "campaign/npcs/stories/沈仲秋.md",
+      "package_path": "sources/campaign/npcs/stories/沈仲秋.md",
+      "bytes": 1794,
+      "sha256": "d9ac0d95b478d962be6e1c3574916ad0e066da3e7b5bb1cd5830ea2e8dff62c2"
+    },
+    {
+      "source_path": "campaign/npcs/stories/沈漫.md",
+      "package_path": "sources/campaign/npcs/stories/沈漫.md",
+      "bytes": 5990,
+      "sha256": "4c71e48afba1b24f193642d9ca2dc0f638573df1d1267ca11ce2f29aaaece3f1"
+    },
+    {
+      "source_path": "campaign/npcs/stories/玄圭.md",
+      "package_path": "sources/campaign/npcs/stories/玄圭.md",
+      "bytes": 2061,
+      "sha256": "41137f58de950c19f1d89b6e20af96f6a542a56f57dc92eaaa8cc31d4f449aa5"
+    },
+    {
+      "source_path": "campaign/npcs/stories/白念秋.md",
+      "package_path": "sources/campaign/npcs/stories/白念秋.md",
+      "bytes": 2901,
+      "sha256": "479e3c66fa9323be94eeb49fffc179fc2c5e495df1ef1b00cdc6112438f64207"
+    },
+    {
+      "source_path": "campaign/npcs/stories/白鸢.md",
+      "package_path": "sources/campaign/npcs/stories/白鸢.md",
+      "bytes": 2158,
+      "sha256": "c939c2bcefa9e194215b9c8dea3c79d07e51c7ab3c9db9237c8fa8bc68b5e777"
+    },
+    {
+      "source_path": "campaign/npcs/stories/红皇后.md",
+      "package_path": "sources/campaign/npcs/stories/红皇后.md",
+      "bytes": 2517,
+      "sha256": "4d02ba73ec9482ed0a1224f1a03345df98bc0b95f348d08c0b3354b7427736e8"
+    },
+    {
+      "source_path": "campaign/npcs/stories/纪崇吾.md",
+      "package_path": "sources/campaign/npcs/stories/纪崇吾.md",
+      "bytes": 3034,
+      "sha256": "17d0c7755dc388df8dfbd1c0759fad7031ce67f6f2e52e81e9da5a372428b24d"
+    },
+    {
+      "source_path": "campaign/npcs/stories/苏晦.md",
+      "package_path": "sources/campaign/npcs/stories/苏晦.md",
+      "bytes": 2284,
+      "sha256": "6dc7a5964754699d1e17ff8c2c806fb0fec1011fcea0a032d3bc15498347ac0c"
+    },
+    {
+      "source_path": "campaign/npcs/stories/萧烬.md",
+      "package_path": "sources/campaign/npcs/stories/萧烬.md",
+      "bytes": 2770,
+      "sha256": "fd33a04d09065f389fb856f2b19a14432d311fc1040ad8756dd4add30ff5b704"
+    },
+    {
+      "source_path": "campaign/npcs/stories/言璞.md",
+      "package_path": "sources/campaign/npcs/stories/言璞.md",
+      "bytes": 2328,
+      "sha256": "8596697a142d452df9d6d7f597d57b05152d4602214b619eb54fe8be79828858"
+    },
+    {
+      "source_path": "campaign/npcs/stories/许承钧.md",
+      "package_path": "sources/campaign/npcs/stories/许承钧.md",
+      "bytes": 5539,
+      "sha256": "7eb1e06dfa13e66d254e6d83ea0bb915549e3aca6d90bc07ef8cc737714f1b45"
+    },
+    {
+      "source_path": "campaign/npcs/stories/郑启明.md",
+      "package_path": "sources/campaign/npcs/stories/郑启明.md",
+      "bytes": 2974,
+      "sha256": "fe88b4530074e26bde0a4f3a3508186a8ef3d2591c32e9011dd0d671a3b6dc6b"
+    },
+    {
+      "source_path": "campaign/npcs/stories/闻笙.md",
+      "package_path": "sources/campaign/npcs/stories/闻笙.md",
+      "bytes": 2042,
+      "sha256": "d2735dea832321b839d91f7b88b9336711e7b85c444d6435bf852d66a9f0561f"
+    },
+    {
+      "source_path": "campaign/npcs/stories/陈培安.md",
+      "package_path": "sources/campaign/npcs/stories/陈培安.md",
+      "bytes": 2341,
+      "sha256": "58c8bb5dfe51b7d71418b5e829c587953966d608db66cd933302b326a5592350"
+    },
+    {
+      "source_path": "campaign/npcs/stories/陈志远.md",
+      "package_path": "sources/campaign/npcs/stories/陈志远.md",
+      "bytes": 2263,
+      "sha256": "f4e407ddf072dc4975cc5a2d09b6cab5fadfac2ee5a8c6f5b7a03d3564cfbb9c"
+    },
+    {
+      "source_path": "campaign/npcs/stories/韩铸.md",
+      "package_path": "sources/campaign/npcs/stories/韩铸.md",
+      "bytes": 2925,
+      "sha256": "75803b5a767d69ad9c99091d07811cbe7e7ce1b73c71e01f94e938ad006b765a"
+    },
+    {
+      "source_path": "campaign/npcs/重要NPC故事.md",
+      "package_path": "sources/campaign/npcs/重要NPC故事.md",
+      "bytes": 4107,
+      "sha256": "d2935556d735f198e72a17a7362cabc52950b28f720aa81de9c6ce6d089db2b4"
+    },
+    {
+      "source_path": "campaign/prep/modules/ep03-追风大劫案-module.md",
+      "package_path": "sources/campaign/prep/modules/ep03-追风大劫案-module.md",
+      "bytes": 99389,
+      "sha256": "6d69129739d346dde76160cc7c7e54a561ba4389c9143caa574b147c49f55f30"
+    },
+    {
+      "source_path": "campaign/prep/README.md",
+      "package_path": "sources/campaign/prep/README.md",
+      "bytes": 5404,
+      "sha256": "4ff44086c67afc4d645ff21b0ee8e635149097763298b92437489d7959ec3487"
+    },
+    {
+      "source_path": "campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+      "package_path": "sources/campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+      "bytes": 21051,
+      "sha256": "0f09d76ef228127d26c075aedd5b98d81603f4bbcaa7aecf200b20d06dd66bce"
+    },
+    {
+      "source_path": "campaign/prep/sessions/ep04-paladin-summary.md",
+      "package_path": "sources/campaign/prep/sessions/ep04-paladin-summary.md",
+      "bytes": 4364,
+      "sha256": "be67d17901e9162308e47e96d8a313511eb91299bb4fdd848718b134d7fcdc37"
+    },
+    {
+      "source_path": "campaign/prep/sessions/ep04-summary-restart.md",
+      "package_path": "sources/campaign/prep/sessions/ep04-summary-restart.md",
+      "bytes": 11388,
+      "sha256": "20ce5f93cba659bf682bd8375eedd37cd227f42795f5ded24591ca3a4964e8ba"
+    },
+    {
+      "source_path": "campaign/prep/sessions/ep04-summary-review.md",
+      "package_path": "sources/campaign/prep/sessions/ep04-summary-review.md",
+      "bytes": 6171,
+      "sha256": "3291f9f33c38c839e44077c77036377de19ba8a20545075f21412f25983608ce"
+    },
+    {
+      "source_path": "campaign/prep/sessions/ep04-义胜盟-新故事.md",
+      "package_path": "sources/campaign/prep/sessions/ep04-义胜盟-新故事.md",
+      "bytes": 2498,
+      "sha256": "e85a3a36e96b8b6c2e64e088046fd8cacefc054cb9b388d6d98086a011897efd"
+    },
+    {
+      "source_path": "campaign/prep/sessions/ep04-义胜盟-铜锅旧稿.md",
+      "package_path": "sources/campaign/prep/sessions/ep04-义胜盟-铜锅旧稿.md",
+      "bytes": 8913,
+      "sha256": "c08c51902948ab26950ef94eb0c6d0111d8e9e3dcc18a976a5a8284a5c781ea5"
+    },
+    {
+      "source_path": "campaign/prep/sessions/ep04-场景梗概.md",
+      "package_path": "sources/campaign/prep/sessions/ep04-场景梗概.md",
+      "bytes": 20577,
+      "sha256": "ab3458987d0180dc57505f4b900def5f56b0aa4e5a8aa4997c4204d39a2d8549"
+    },
+    {
+      "source_path": "campaign/prep/sessions/ep04-已出场NPC反应表.md",
+      "package_path": "sources/campaign/prep/sessions/ep04-已出场NPC反应表.md",
+      "bytes": 16262,
+      "sha256": "627356c8a62b31d16e890e57b73914cd73e42e0c641fb4487f6360829f1d36d2"
+    },
+    {
+      "source_path": "campaign/prep/sessions/ep04-新设计.md",
+      "package_path": "sources/campaign/prep/sessions/ep04-新设计.md",
+      "bytes": 10918,
+      "sha256": "4ef0dd801027f8229362b1545d8d683198efe91c411b6ca91bf90255dea7bce8"
+    },
+    {
+      "source_path": "campaign/prep/sessions/ep04-暴力重构-事件卡.md",
+      "package_path": "sources/campaign/prep/sessions/ep04-暴力重构-事件卡.md",
+      "bytes": 6745,
+      "sha256": "7364265e8e5b6e3b9fcd594f1ebeb07aa7588cfaf421f5af31435b2de3589873"
+    },
+    {
+      "source_path": "campaign/prep/sessions/ep04-最终框架复审.md",
+      "package_path": "sources/campaign/prep/sessions/ep04-最终框架复审.md",
+      "bytes": 2387,
+      "sha256": "d186142bcdb0224a2b55c23c0c5b296d4fd802ab533771d1a31a3615490d5ee2"
+    },
+    {
+      "source_path": "campaign/prep/sessions/ep04-梁文川过渡.md",
+      "package_path": "sources/campaign/prep/sessions/ep04-梁文川过渡.md",
+      "bytes": 3747,
+      "sha256": "aa0ae706d4116dbab69f8db9d98f1cf4a9e57617df7bb43fa36f783011e87c1d"
+    },
+    {
+      "source_path": "campaign/prep/sessions/ep04-融合骨架.md",
+      "package_path": "sources/campaign/prep/sessions/ep04-融合骨架.md",
+      "bytes": 5804,
+      "sha256": "2d1e1cbc58cf923a433711d47d7951f4fafc054bec63f79452c7a7a8befd007f"
+    },
+    {
+      "source_path": "campaign/README.md",
+      "package_path": "sources/campaign/README.md",
+      "bytes": 1445,
+      "sha256": "f2e5e518a5b3e120d4d9bbbf92ba53747af64b54217305b4afbcc18827bb1104"
+    },
+    {
+      "source_path": "campaign/world/01-源起与核心代号.md",
+      "package_path": "sources/campaign/world/01-源起与核心代号.md",
+      "bytes": 1149,
+      "sha256": "466f29ed865e364ceac5498ff55428ec1b94d13cec0e12295bf2b40bd2a014b5"
+    },
+    {
+      "source_path": "campaign/world/02-故事基调与世界观.md",
+      "package_path": "sources/campaign/world/02-故事基调与世界观.md",
+      "bytes": 1894,
+      "sha256": "b5e10b325cbc02c9f41fdc0c375b734c652aa5c92a10c5361642bf8616355368"
+    },
+    {
+      "source_path": "campaign/world/03-势力与权力格局.md",
+      "package_path": "sources/campaign/world/03-势力与权力格局.md",
+      "bytes": 2011,
+      "sha256": "808571cb3633506f2ecdde23537c19795b16702e7e0ff84f3ea196487fdf9f81"
+    },
+    {
+      "source_path": "campaign/world/04-能力体系与觉醒者.md",
+      "package_path": "sources/campaign/world/04-能力体系与觉醒者.md",
+      "bytes": 1541,
+      "sha256": "ad4dc05f9a9db778d5a111a1519aae79b6e58970b666b8eeb8000909fef50046"
+    },
+    {
+      "source_path": "campaign/world/05-神话模因与信息场.md",
+      "package_path": "sources/campaign/world/05-神话模因与信息场.md",
+      "bytes": 2062,
+      "sha256": "77aa49d2a30651ea1e42cd40a48508b3da35ad85e246bf681714943aab6a0f0f"
+    },
+    {
+      "source_path": "campaign/world/06-核心谜团.md",
+      "package_path": "sources/campaign/world/06-核心谜团.md",
+      "bytes": 1781,
+      "sha256": "bb736cb8c4bfb82ff06d21a8e43f9cb0dc9d7cc5b87d8998467857960c9a0cd4"
+    },
+    {
+      "source_path": "campaign/world/07-威胁体系与怪物分类.md",
+      "package_path": "sources/campaign/world/07-威胁体系与怪物分类.md",
+      "bytes": 7484,
+      "sha256": "f9fa1ad3e5ca0d1c57bb6e67d64013c70ce296fe9b786a3515708ad2814365bf"
+    },
+    {
+      "source_path": "campaign/world/08-表面社会与公民分层.md",
+      "package_path": "sources/campaign/world/08-表面社会与公民分层.md",
+      "bytes": 2076,
+      "sha256": "6004d9d0cc56d1ba84b96d8d10ca6383694ea22e9586ceaa4aa7907e6fe3d20e"
+    },
+    {
+      "source_path": "campaign/world/09-城市空间与动态分区.md",
+      "package_path": "sources/campaign/world/09-城市空间与动态分区.md",
+      "bytes": 3519,
+      "sha256": "61b85e2e1568a709fab476adf5bc9d35e5a14274efd85668fbafe84fd22b26cb"
+    },
+    {
+      "source_path": "campaign/world/10-地下世界与探索层级.md",
+      "package_path": "sources/campaign/world/10-地下世界与探索层级.md",
+      "bytes": 6156,
+      "sha256": "2de96ff52b5fe3d05f7c30cd700d9952ddf596318120052d0cfef681ea51ff01"
+    },
+    {
+      "source_path": "campaign/world/11-玩家角色与主线驱动.md",
+      "package_path": "sources/campaign/world/11-玩家角色与主线驱动.md",
+      "bytes": 2997,
+      "sha256": "e2e648eac38a473fb0f1887a9f530b69162c7b3b940972c91e47d3d8b141057f"
+    },
+    {
+      "source_path": "campaign/world/12-据点经营与成长系统.md",
+      "package_path": "sources/campaign/world/12-据点经营与成长系统.md",
+      "bytes": 3920,
+      "sha256": "6a56d33f589e95faa7ed9fb1cf279bfcbc0f203fd65226f426609e6672f8aee2"
+    },
+    {
+      "source_path": "campaign/world/13-框架总览.md",
+      "package_path": "sources/campaign/world/13-框架总览.md",
+      "bytes": 8423,
+      "sha256": "8f22a1e09faa007dfeb4089efe0a2bff5e8ef953021e3c2e4ca103201f8dfb3e"
+    },
+    {
+      "source_path": "campaign/world/14-企业名录与商业生态.md",
+      "package_path": "sources/campaign/world/14-企业名录与商业生态.md",
+      "bytes": 68453,
+      "sha256": "7c99a28562d7298b814899d41ee6cade76e0f9d6c59241642af9f19698b53470"
+    },
+    {
+      "source_path": "campaign/world/15-城区与交通网络.md",
+      "package_path": "sources/campaign/world/15-城区与交通网络.md",
+      "bytes": 43431,
+      "sha256": "f857bda308a893f598be4cd78390621f844f807780b5670fda824a811c07121c"
+    },
+    {
+      "source_path": "campaign/world/16-大背景-诸夏与龙散.md",
+      "package_path": "sources/campaign/world/16-大背景-诸夏与龙散.md",
+      "bytes": 11264,
+      "sha256": "e73b7ba199a8d0b0599de24fa6e5bc7f2b5f55c096452636de4be4f5316b44dd"
+    },
+    {
+      "source_path": "campaign/world/17-ETC绩效评估体系.md",
+      "package_path": "sources/campaign/world/17-ETC绩效评估体系.md",
+      "bytes": 5212,
+      "sha256": "5b30e17b483a5b46dffc0216b1a939a91bbf3f638cfaedbe8cae371c26b572e0"
+    },
+    {
+      "source_path": "campaign/world/18-棍木会.md",
+      "package_path": "sources/campaign/world/18-棍木会.md",
+      "bytes": 12116,
+      "sha256": "98a96d7eebf8b333854d877c1b9553ea417301b58db71b784dc32d60e25e2e8c"
+    },
+    {
+      "source_path": "campaign/world/19-引资银行龙散分行大楼.md",
+      "package_path": "sources/campaign/world/19-引资银行龙散分行大楼.md",
+      "bytes": 13029,
+      "sha256": "09561a4e76477fada999146715c3a7f93fe4dfd8ab3bc4c0c6ca0ca8492a8816"
+    },
+    {
+      "source_path": "campaign/world/20-地下空间形态与示意图设定稿.md",
+      "package_path": "sources/campaign/world/20-地下空间形态与示意图设定稿.md",
+      "bytes": 14350,
+      "sha256": "df0a4539300d8eb0899ea653836ef82745d3e86a7a31f507763d8100a9ec94d2"
+    },
+    {
+      "source_path": "campaign/world/README.md",
+      "package_path": "sources/campaign/world/README.md",
+      "bytes": 1605,
+      "sha256": "d0ff29bb845b09d9e6034070d3be6e65971034076e689b8c80cd3fad56d599d4"
+    },
+    {
+      "source_path": "records/20260521200231-mega的个人会议室-逐字稿文本-1.txt",
+      "package_path": "sources/records/20260521200231-mega的个人会议室-逐字稿文本-1.txt",
+      "bytes": 121509,
+      "sha256": "5bdf587bdfce3df90d60a8db69a9bf2c2dd8b2d4375d53e33b52a312324f52f6"
+    },
+    {
+      "source_path": "records/20260522202008-mega的个人会议室-逐字稿文本-1.txt",
+      "package_path": "sources/records/20260522202008-mega的个人会议室-逐字稿文本-1.txt",
+      "bytes": 314806,
+      "sha256": "123fa63e20ef5873f0c567db1168175f161c4cf8d50b218a79ed4153505bc47d"
+    },
+    {
+      "source_path": "records/20260604194551-mega的快速会议-逐字稿文本-1.txt",
+      "package_path": "sources/records/20260604194551-mega的快速会议-逐字稿文本-1.txt",
+      "bytes": 270835,
+      "sha256": "2a857da988c873dd4b82c69d8494a93dda380a0d18c68d1d996eb5bf1d63f27e"
+    },
+    {
+      "source_path": "records/20260611201144-1的快速会议-转写智能优化版-1.txt",
+      "package_path": "sources/records/20260611201144-1的快速会议-转写智能优化版-1.txt",
+      "bytes": 259863,
+      "sha256": "71d42f6f736962555cfee77f1ce3659753d6c8f5f2d8aab25b499cc4c569a8c3"
+    },
+    {
+      "source_path": "records/20260617200726-mega的快速会议-逐字稿文本-1.txt",
+      "package_path": "sources/records/20260617200726-mega的快速会议-逐字稿文本-1.txt",
+      "bytes": 246349,
+      "sha256": "a04b85481097a9157fa40dd9a7baec1e35d16cd9e343184badc47f74c170b4c0"
+    },
+    {
+      "source_path": "records/20260625200002-mega的个人会议室-逐字稿文本-1.txt",
+      "package_path": "sources/records/20260625200002-mega的个人会议室-逐字稿文本-1.txt",
+      "bytes": 136104,
+      "sha256": "4cbf5328a77942f4dca450f649859c163429ab49738eaa132df908f047774388"
+    },
+    {
+      "source_path": "records/20260703203201-mega的个人会议室-逐字稿文本-1.txt",
+      "package_path": "sources/records/20260703203201-mega的个人会议室-逐字稿文本-1.txt",
+      "bytes": 162053,
+      "sha256": "1b2fc161dc1f6273cc088943042f7faafcfaf599127018279000368950763458"
+    },
+    {
+      "source_path": "records/20260717195706-mega的快速会议-逐字稿文本-1.txt",
+      "package_path": "sources/records/20260717195706-mega的快速会议-逐字稿文本-1.txt",
+      "bytes": 159227,
+      "sha256": "1eab1d32699411792024eecc01503aaa117bb522745b4db204bf569fe80bcfd1"
+    },
+    {
+      "source_path": "records/20260724200528-mega的个人会议室-逐字稿文本-1.txt",
+      "package_path": "sources/records/20260724200528-mega的个人会议室-逐字稿文本-1.txt",
+      "bytes": 267200,
+      "sha256": "ec515c6751aa520316fa8b23eddaebe08e92609829d32051aca302c3d6598011"
+    },
+    {
+      "source_path": "records/20260807195439-mega的快速会议-逐字稿文本-1.txt",
+      "package_path": "sources/records/20260807195439-mega的快速会议-逐字稿文本-1.txt",
+      "bytes": 319265,
+      "sha256": "03218be0550076cffd069da4fcb9d03dd86246c1547a8bfde1ffe797782b3f9f"
+    },
+    {
+      "source_path": "records/20260828202457-mega的个人会议室-逐字稿文本-1.txt",
+      "package_path": "sources/records/20260828202457-mega的个人会议室-逐字稿文本-1.txt",
+      "bytes": 173552,
+      "sha256": "58d0906d485291f06349ffcf9551c4f22fb0a0046a082ea3fa29adb81628fa8b"
+    },
+    {
+      "source_path": "records/20260904200200-mega的快速会议-逐字稿文本-1.txt",
+      "package_path": "sources/records/20260904200200-mega的快速会议-逐字稿文本-1.txt",
+      "bytes": 285441,
+      "sha256": "8b6f2611132dea7124681c72d58bb18c6bbe2df98b43523ab06d6388211618b8"
+    },
+    {
+      "source_path": "records/20260911201131-mega的个人会议室-逐字稿文本-1.md",
+      "package_path": "sources/records/20260911201131-mega的个人会议室-逐字稿文本-1.md",
+      "bytes": 263303,
+      "sha256": "1fe746c8377a135703a624fce4e9d54d7f3d6c8ba4f5e58b883dcb56a82f679f"
+    },
+    {
+      "source_path": "records/20261009194453-mega的个人会议室-逐字稿文本-1.md",
+      "package_path": "sources/records/20261009194453-mega的个人会议室-逐字稿文本-1.md",
+      "bytes": 309237,
+      "sha256": "110d879df624e571740db50628902bb3f65f13cff008c3b6030a2de19ddd8d95"
+    },
+    {
+      "source_path": "records/memory/campaign-state.md",
+      "package_path": "sources/records/memory/campaign-state.md",
+      "bytes": 49014,
+      "sha256": "b2dc2806bfa6b56c9ce4a2a9a98eeaf8f339e616a9ce00f1b42800d18a2ce320"
+    },
+    {
+      "source_path": "records/memory/entities.md",
+      "package_path": "sources/records/memory/entities.md",
+      "bytes": 34285,
+      "sha256": "b2ed7c3e63b8aaddb8cbe2a5908a53040c051f1059ca6929b23a0ac8beac312b"
+    },
+    {
+      "source_path": "records/memory/player-character-portraits.md",
+      "package_path": "sources/records/memory/player-character-portraits.md",
+      "bytes": 14063,
+      "sha256": "5dfc3eb89743767413a3d0d056cfb5655d74ce9b605de1f9d987db192bf3e25b"
+    },
+    {
+      "source_path": "records/memory/README.md",
+      "package_path": "sources/records/memory/README.md",
+      "bytes": 3245,
+      "sha256": "5a3af37d1319eb5406e376fe4406e03c02f7c1aa8c00915e108526b82270b005"
+    },
+    {
+      "source_path": "records/memory/rules-and-rewards.md",
+      "package_path": "sources/records/memory/rules-and-rewards.md",
+      "bytes": 23391,
+      "sha256": "4df1d041f7671d88d03dba843b02fa99074890ddd61c05a3df57161524735995"
+    },
+    {
+      "source_path": "records/memory/session-01.md",
+      "package_path": "sources/records/memory/session-01.md",
+      "bytes": 3319,
+      "sha256": "ce606e8ccb9ebceb39004cb91e4bbcd6edd4011d266e3ed30ca3cf64ef424e1b"
+    },
+    {
+      "source_path": "records/memory/session-02.md",
+      "package_path": "sources/records/memory/session-02.md",
+      "bytes": 4980,
+      "sha256": "9c767cf99d3a7c681f82f1455b517b951a3ff0ad352bd33f14047d20a711a307"
+    },
+    {
+      "source_path": "records/memory/session-03.md",
+      "package_path": "sources/records/memory/session-03.md",
+      "bytes": 11903,
+      "sha256": "9dadf52be3d0f3b1565eb6495a878de83754ce25f98434f9eb585d25c2d1ad67"
+    },
+    {
+      "source_path": "records/memory/session-04.md",
+      "package_path": "sources/records/memory/session-04.md",
+      "bytes": 8183,
+      "sha256": "44e76377a99c2084617c006eac12b3025e9a0af9284c1bdfab8f7fb26bedae13"
+    },
+    {
+      "source_path": "records/memory/session-05.md",
+      "package_path": "sources/records/memory/session-05.md",
+      "bytes": 13817,
+      "sha256": "b64ec433c785b1a6102a707b89a1b9b2ac3e8e50e460bc6691b95e209330b21e"
+    },
+    {
+      "source_path": "records/memory/session-06.md",
+      "package_path": "sources/records/memory/session-06.md",
+      "bytes": 16835,
+      "sha256": "daeddd7139672eb0d30c4ea4b948dbf7bf5608e8427702e6059e95b10250a59f"
+    },
+    {
+      "source_path": "records/memory/session-07.md",
+      "package_path": "sources/records/memory/session-07.md",
+      "bytes": 15144,
+      "sha256": "631bfa73b0bdb9366a3fac20212a49ff36225654a1da14e191bf59cfd5197a2d"
+    },
+    {
+      "source_path": "records/memory/session-08.md",
+      "package_path": "sources/records/memory/session-08.md",
+      "bytes": 21567,
+      "sha256": "76b95d5b0e231452c1f8a03973660891e79af14550cab0ba57b3e9b4e0abd8d6"
+    },
+    {
+      "source_path": "records/memory/session-09.md",
+      "package_path": "sources/records/memory/session-09.md",
+      "bytes": 2852,
+      "sha256": "9fe0336105ae94406b8fff0c639e7c6ad6b1e0796f01ecddf4679128d5739e81"
+    },
+    {
+      "source_path": "records/memory/session-10.md",
+      "package_path": "sources/records/memory/session-10.md",
+      "bytes": 4433,
+      "sha256": "ee1e67553c3e5bc92fcdf89b92d50cf33a8867be2b45bf0be869a6541a352b81"
+    },
+    {
+      "source_path": "records/memory/session-11.md",
+      "package_path": "sources/records/memory/session-11.md",
+      "bytes": 12872,
+      "sha256": "01797f7735deed9c2736e1eac23d0f1977ea40d9e2c14a4da740890cd77bf6d6"
+    },
+    {
+      "source_path": "records/memory/session-12.md",
+      "package_path": "sources/records/memory/session-12.md",
+      "bytes": 11798,
+      "sha256": "0b267a400380b3b8c43153bf8193feb7a32b86f0dd6407eebfb36856fa0d9cd2"
+    },
+    {
+      "source_path": "records/memory/session-13.md",
+      "package_path": "sources/records/memory/session-13.md",
+      "bytes": 15832,
+      "sha256": "926b381ab007c6e1a6a505fefd38e92ff6ee663aa7c04f865e6b63960cb002a8"
+    },
+    {
+      "source_path": "records/memory/session-14.md",
+      "package_path": "sources/records/memory/session-14.md",
+      "bytes": 19849,
+      "sha256": "120abf0c7e231b3b1f4f8db32790c2465a6c67c1e806c6631b94abfb38a3f821"
+    },
+    {
+      "source_path": "records/memory/templates/session-template.md",
+      "package_path": "sources/records/memory/templates/session-template.md",
+      "bytes": 711,
+      "sha256": "9af273cb1421e750454d5414c131712d60844ce0b4cf57c98bf30bee59eb0e4b"
+    },
+    {
+      "source_path": "records/README.md",
+      "package_path": "sources/records/README.md",
+      "bytes": 5057,
+      "sha256": "75c57ff2ed37ff61bd16aed13341fbac55962af4cb18b28d06a8507d7a40f8bd"
+    },
+    {
+      "source_path": "RUNBOOK.md",
+      "package_path": "sources/RUNBOOK.md",
+      "bytes": 3334,
+      "sha256": "17ee5a5c5136c2284e6cdb20dc5a32dc78d375db74439d61269119df323fd000"
+    },
+    {
+      "source_path": "src/核心规则/龙散市/index.md",
+      "package_path": "sources/src/核心规则/龙散市/index.md",
+      "bytes": 1822,
+      "sha256": "30c4cb1631447c994d9624ab7a34f738c0c89bfb5f0e30fd930061f37eeada4f"
+    },
+    {
+      "source_path": "src/核心规则/龙散市/NPC.md",
+      "package_path": "sources/src/核心规则/龙散市/NPC.md",
+      "bytes": 4981,
+      "sha256": "6f97dee5bb1f871ebcfff991137a9f835bb7af3c53ea1b52ec48bac09fc859f9"
+    },
+    {
+      "source_path": "src/核心规则/龙散市/城区与地点.md",
+      "package_path": "sources/src/核心规则/龙散市/城区与地点.md",
+      "bytes": 4133,
+      "sha256": "0357d8e8d8ef53af9090c44d3e1d82292e061b65372f11207fc385eb35611925"
+    },
+    {
+      "source_path": "src/核心规则/龙散市/日常与制度.md",
+      "package_path": "sources/src/核心规则/龙散市/日常与制度.md",
+      "bytes": 4375,
+      "sha256": "df72e65eb5a3e9deaaee788b4c331041dd0301c79ef9240936a759de6a8421bf"
+    },
+    {
+      "source_path": "src/核心规则/龙散市/玩家角色.md",
+      "package_path": "sources/src/核心规则/龙散市/玩家角色.md",
+      "bytes": 2494,
+      "sha256": "3a9476cf32a30fa9103cfc244cd906c55365254273f95f3f2b6d5aae2f9fc97d"
+    },
+    {
+      "source_path": "src/核心规则/龙散市/组织.md",
+      "package_path": "sources/src/核心规则/龙散市/组织.md",
+      "bytes": 2123,
+      "sha256": "308911202530026a9b972bd2a78170caf08fa47626a263050471df8c72477eb7"
+    },
+    {
+      "source_path": "WORKSPACE.md",
+      "package_path": "sources/WORKSPACE.md",
+      "bytes": 2930,
+      "sha256": "fffce491abd99004121f5ebc4a583e033e6dcc7c0ccbb39ff1da7c641ce08c2b"
+    }
+  ]
+}

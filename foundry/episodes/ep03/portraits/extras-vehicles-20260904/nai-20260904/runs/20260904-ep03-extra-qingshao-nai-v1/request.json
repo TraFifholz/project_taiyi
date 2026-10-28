@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260904-ep03-extra-qingshao-nai-v1",
+    "characterId": "EP03-EXTRA-QINGSHAO",
+    "characterName": "青梢队成员",
+    "actorId": "edf233155b4144b1",
+    "designStatus": "provisional",
+    "designAssumptions": [
+      "成年中国女性，短棕发、棕眼，机警结实。",
+      "深绿骑行夹克、灰色高领内搭、黑工装裤、半指手套、安全绳与摩托头盔。"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-09-04T00:23:00.517Z",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 520242908,
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, watermark, signature, character name, english text, chinese text, logo, emblem, badge, text focus, hologram, heads-up display, glowing, aura, light particles, child, school uniform, weapon, gun, cleavage, midriff",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "highres, 1girl, solo, mature female, short hair, brown hair, brown eyes, swept bangs, hair behind ear, green jacket, bomber jacket, high collar, grey shirt, long sleeves, zipper, pocket, black pants, cargo pants, belt, utility belt, pouch, fingerless gloves, black gloves, earpiece, boots, holding, helmet, motorcycle helmet, harness, hand on own hip, smirk, closed mouth, looking at viewer, standing, cowboy shot, transparent background, shadow, flat color. An adult Chinese street crew member wears practical dark forest-green riding gear with a plain climbing safety tether. She holds a simple motorcycle helmet and has no gang logo, weapon, readable text, or supernatural effect.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, watermark, signature, character name, english text, chinese text, logo, emblem, badge, text focus, hologram, heads-up display, glowing, aura, light particles, child, school uniform, weapon, gun, cleavage, midriff",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "ring_name": "旧城外围恢复环路",
+  "original_land_clipped_components": 2,
+  "dry_endpoints_km": [
+    [
+      41.84465199143201,
+      24.340239982273236
+    ],
+    [
+      41.98486968627151,
+      24.10278987082866
+    ]
+  ],
+  "straight_gap_m": 275.759963321627,
+  "same_original_offset_arc_m": 280.0669081999356,
+  "arc_endpoint_fit_m": [
+    0.0,
+    6.685777624832613e-12
+  ],
+  "arc_water_m": 120.06690819994589,
+  "road22m_halfwidth_clearance_m": 177.78000148474467,
+  "road22m_halfwidth_rail_clearance_m": 843.3488798914207,
+  "roof_corridor_hits": [],
+  "lot_corridor_hits": [
+    {
+      "id": "P8810",
+      "lot_id": null,
+      "name": null,
+      "type": null,
+      "kind": null,
+      "intersection_m2": 227.5011676369111
+    }
+  ],
+  "site_corridor_hits": [],
+  "proposal": "Restore the shortest missing arc of the original 380m offset corridor, with an explicit road-over-water conceptual bridge, rather than leave a primary river-bank stump or change the inherited living frontage. No engineering span/radius certification.",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        41.84465199143201,
+        24.340239982273236
+      ],
+      [
+        41.86072991817059,
+        24.3264415123869
+      ],
+      [
+        41.885480120271474,
+        24.30080091891735
+      ],
+      [
+        41.90771949597378,
+        24.272954506116477
+      ],
+      [
+        41.927252447729266,
+        24.24314718598831
+      ],
+      [
+        41.943907181260755,
+        24.211641116914237
+      ],
+      [
+        41.95753721651012,
+        24.178713397943643
+      ],
+      [
+        41.984869686271516,
+        24.10278987082866
+      ]
+    ]
+  },
+  "full_ring_km": 33.227467183890354,
+  "full_ring_water_m": 120.06690819994589,
+  "full_missing_after_current_ring_m": 280.0669079999324,
+  "full_ring_actual_existing_difference_m": 0.0,
+  "ring_properties": {
+    "name": "旧城外围恢复环路",
+    "kind": "primary",
+    "real_width_km": 0.034,
+    "role": "disaster-bypass",
+    "status": "restored",
+    "generated": false,
+    "design": true,
+    "basis": "v8 map scenario"
+  },
+  "water_end_distances_m": [
+    18.123450418642975,
+    18.16393849230966
+  ],
+  "owned_path_hits_halfwidth_0.015": [
+    {
+      "path_index": 143247,
+      "type": "service-road",
+      "lot_id": "P8812",
+      "owner": null,
+      "width_km": 0.006,
+      "intersection_area_m2": 19.546958556508166
+    }
+  ],
+  "owned_path_hits_halfwidth_0.022": [
+    {
+      "path_index": 143243,
+      "type": "service-road",
+      "lot_id": "P8810",
+      "owner": null,
+      "width_km": 0.006,
+      "intersection_area_m2": 46.779968240749994
+    },
+    {
+      "path_index": 143244,
+      "type": "service-road",
+      "lot_id": "P8810",
+      "owner": null,
+      "width_km": 0.006,
+      "intersection_area_m2": 14.653356730947824
+    },
+    {
+      "path_index": 143247,
+      "type": "service-road",
+      "lot_id": "P8812",
+      "owner": null,
+      "width_km": 0.006,
+      "intersection_area_m2": 113.3059743569219
+    }
+  ],
+  "owned_path_hits_halfwidth_0.026": [
+    {
+      "path_index": 143243,
+      "type": "service-road",
+      "lot_id": "P8810",
+      "owner": null,
+      "width_km": 0.006,
+      "intersection_area_m2": 143.2238265756439
+    },
+    {
+      "path_index": 143244,
+      "type": "service-road",
+      "lot_id": "P8810",
+      "owner": null,
+      "width_km": 0.006,
+      "intersection_area_m2": 40.10725975260085
+    },
+    {
+      "path_index": 143247,
+      "type": "service-road",
+      "lot_id": "P8812",
+      "owner": null,
+      "width_km": 0.006,
+      "intersection_area_m2": 145.72934747018053
+    }
+  ],
+  "affected_path_records": [
+    {
+      "type": "service-road",
+      "name": "组团公共路入口",
+      "width_km": 0.006,
+      "lot_id": "P8810",
+      "role": "compound-entry",
+      "path_index": 143243,
+      "centerline": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            41.95619673634927,
+            24.11771096781426
+          ],
+          [
+            41.96093013219243,
+            24.097251374372753
+          ]
+        ]
+      },
+      "near_end_gap_m": 24.57187808242425
+    },
+    {
+      "type": "service-road",
+      "name": "组团内部通道",
+      "width_km": 0.006,
+      "lot_id": "P8810",
+      "role": "compound-circulation",
+      "path_index": 143244,
+      "centerline": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            41.95619673634927,
+            24.11771096781426
+          ],
+          [
+            41.86567478823663,
+            24.11771096781426
+          ]
+        ]
+      },
+      "near_end_gap_m": 32.323013357318544
+    },
+    {
+      "type": "service-road",
+      "name": "组团公共路入口",
+      "width_km": 0.006,
+      "lot_id": "P8812",
+      "role": "compound-entry",
+      "path_index": 143247,
+      "centerline": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            41.81644859811394,
+            24.32754693007508
+          ],
+          [
+            41.83261333430072,
+            24.35040959186263
+          ]
+        ]
+      },
+      "near_end_gap_m": 15.70088580371672
+    }
+  ],
+  "delta_checks": {
+    "0.017": {
+      "new_footprint_m2": 8615.659488462203,
+      "paths": [
+        {
+          "path_index": 143243,
+          "lot_id": "P8810",
+          "role": "compound-entry",
+          "delta_surface_area_m2": 0.0,
+          "delta_centerline_m": 0.0,
+          "path_length_m": 20.999999999996565
+        },
+        {
+          "path_index": 143244,
+          "lot_id": "P8810",
+          "role": "compound-circulation",
+          "delta_surface_area_m2": 0.0,
+          "delta_centerline_m": 0.0,
+          "path_length_m": 90.52194811263803
+        },
+        {
+          "path_index": 143247,
+          "lot_id": "P8812",
+          "role": "compound-entry",
+          "delta_surface_area_m2": 0.0,
+          "delta_centerline_m": 0.0,
+          "path_length_m": 27.999999999997286
+        }
+      ],
+      "lots": [
+        {
+          "id": "P8810",
+          "area_m2": 65.17617691224966
+        }
+      ]
+    },
+    "0.02": {
+      "new_footprint_m2": 9947.845337911369,
+      "paths": [
+        {
+          "path_index": 143243,
+          "lot_id": "P8810",
+          "role": "compound-entry",
+          "delta_surface_area_m2": 6.7796378881585975,
+          "delta_centerline_m": 0.0,
+          "path_length_m": 20.999999999996565
+        },
+        {
+          "path_index": 143244,
+          "lot_id": "P8810",
+          "role": "compound-circulation",
+          "delta_surface_area_m2": 3.430072591427761,
+          "delta_centerline_m": 0.0,
+          "path_length_m": 90.52194811263803
+        },
+        {
+          "path_index": 143247,
+          "lot_id": "P8812",
+          "role": "compound-entry",
+          "delta_surface_area_m2": 0.0,
+          "delta_centerline_m": 0.0,
+          "path_length_m": 27.999999999997286
+        }
+      ],
+      "lots": [
+        {
+          "id": "P8810",
+          "area_m2": 159.53148320157368
+        }
+      ]
+    },
+    "0.028": {
+      "new_footprint_m2": 13224.278118627391,
+      "paths": [
+        {
+          "path_index": 143243,
+          "lot_id": "P8810",
+          "role": "compound-entry",
+          "delta_surface_area_m2": 63.37959356384221,
+          "delta_centerline_m": 7.6320164891453794,
+          "path_length_m": 20.999999999996565
+        },
+        {
+          "path_index": 143244,
+          "lot_id": "P8810",
+          "role": "compound-circulation",
+          "delta_surface_area_m2": 52.86117679797431,
+          "delta_centerline_m": 6.457784765089514,
+          "path_length_m": 90.52194811263803
+        },
+        {
+          "path_index": 143247,
+          "lot_id": "P8812",
+          "role": "compound-entry",
+          "delta_surface_area_m2": 0.0,
+          "delta_centerline_m": 0.0,
+          "path_length_m": 27.999999999997286
+        }
+      ],
+      "lots": [
+        {
+          "id": "P8810",
+          "area_m2": 437.8594597488092
+        }
+      ]
+    }
+  },
+  "new_arc_actual_block_impacts": [
+    {
+      "id": "F7972",
+      "district": "tieshan",
+      "density": 0.5731659381422198,
+      "block_area_m2": 7726.84107368061,
+      "new_span_in_block_interior_m": 0.0,
+      "new_reservation_in_block_m2": 92.59769409820055,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.004158741553084,
+              24.049209161713172
+            ],
+            [
+              41.78864722406,
+              24.057393143390126
+            ],
+            [
+              41.96574486616182,
+              24.12114829454678
+            ],
+            [
+              41.98056398274919,
+              24.096705883006518
+            ],
+            [
+              41.99655509623124,
+              24.07033039871829
+            ],
+            [
+              42.004158741553084,
+              24.049209161713172
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "F9969",
+      "district": "tieshan",
+      "density": 0.46166011261159345,
+      "block_area_m2": 462968.2256055573,
+      "new_span_in_block_interior_m": 0.0,
+      "new_reservation_in_block_m2": 1036.5190804255362,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.03206933826225,
+              25.502667009335322
+            ],
+            [
+              40.38877128441505,
+              25.274774099293253
+            ],
+            [
+              41.80458792529884,
+              24.370224578728614
+            ],
+            [
+              41.830367300424754,
+              24.351997619775076
+            ],
+            [
+              41.83592205338287,
+              24.34186139331756
+            ],
+            [
+              41.8552746825062,
+              24.306546576510762
+            ],
+            [
+              41.85533225291817,
+              24.30644211368606
+            ],
+            [
+              41.87543907877197,
+              24.270162824029764
+            ],
+            [
+              41.87592284639775,
+              24.26932833571834
+            ],
+            [
+              41.897347253319786,
+              24.233962212407576
+            ],
+            [
+              41.91815143567714,
+              24.199648130057312
+            ],
+            [
+              41.938955618034484,
+              24.165334047707052
+            ],
+            [
+              41.95975980039183,
+              24.131019965356785
+            ],
+            [
+              41.96574486616182,
+              24.12114829454678
+            ],
+            [
+              41.78864722406,
+              24.057393143390126
+            ],
+            [
+              41.76935973413637,
+              24.110969504289095
+            ],
+            [
+              41.76290340164984,
+              24.126566844854114
+            ],
+            [
+              41.75501431734544,
+              24.141490772310252
+            ],
+            [
+              41.745761866513895,
+              24.15561002921307
+            ],
+            [
+              41.73522742539175,
+              24.16880043527664
+            ],
+            [
+              41.72350364544923,
+              24.18094597955169
+            ],
+            [
+              41.71069363851122,
+              24.191939840753566
+            ],
+            [
+              41.6969100698784,
+              24.201685326766185
+            ],
+            [
+              39.924391482841806,
+              25.334127757372894
+            ],
+            [
+              40.03206933826225,
+              25.502667009335322
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "canonical_increment_lots_hits": [
+    {
+      "index": 7866,
+      "id": "P8810",
+      "lot_id": null,
+      "role": null,
+      "type": null,
+      "area_m2": 437.8594597488092
+    }
+  ],
+  "canonical_increment_roofs_hits": [],
+  "canonical_increment_paths_hits": [
+    {
+      "index": 143244,
+      "id": null,
+      "lot_id": "P8810",
+      "role": "compound-circulation",
+      "type": "service-road",
+      "area_m2": 52.86117679797431
+    },
+    {
+      "index": 143243,
+      "id": null,
+      "lot_id": "P8810",
+      "role": "compound-entry",
+      "type": "service-road",
+      "area_m2": 63.37959356384221
+    }
+  ]
+}

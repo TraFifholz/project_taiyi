@@ -1,0 +1,481 @@
+{
+  "status": "FAIL",
+  "mode": "current-structure",
+  "markdown_files": 490,
+  "local_links": 2384,
+  "summaries": 12,
+  "moved_files_present": null,
+  "preserved_assets_and_run_files": null,
+  "protected_transcripts": null,
+  "protected_public_files": null,
+  "errors": [
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/WORKSPACE.md",
+      "broken_link": "assets/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/WORKSPACE.md",
+      "broken_link": "foundry/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/WORKSPACE.md",
+      "broken_link": "maintenance/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/WORKSPACE.md",
+      "broken_link": "campaign/archive/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/WORKSPACE.md",
+      "broken_link": "archive/wiki-design/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/WORKSPACE.md",
+      "broken_link": "src/index.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/WORKSPACE.md",
+      "broken_link": "character_sheet/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/WORKSPACE.md",
+      "broken_link": "assets/inbox/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/WORKSPACE.md",
+      "broken_link": "assets/group-portraits/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/WORKSPACE.md",
+      "broken_link": "maintenance/workspace-20260911/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/README.md",
+      "broken_link": "handoff/agent-pack-20261015/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/README.md",
+      "broken_link": "rules/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/README.md",
+      "broken_link": "archive/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/decisions/README.md",
+      "broken_link": "../archive/reviews-20260903/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/decisions/二十话重整-设计定案.md",
+      "broken_link": "../archive/reviews-20260903/二十话重整-现状核对.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/decisions/二十话重整-设计定案.md",
+      "broken_link": "../archive/reviews-20260903/二十话重整-审阅记录.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/episodes/20-episode-outline.md",
+      "broken_link": "../archive/reviews-20260903/二十话重整-审阅记录.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/guides/场景梗概样板.md",
+      "broken_link": "../prep/agy/ep04-redesign-20261009/copper-user-sample-before-recast-08.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/guides/模组写作规范.md",
+      "broken_link": "../../maintenance/research/module-writing-20261009/daggerheart-feishu/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/guides/模组写作规范.md",
+      "broken_link": "../../maintenance/research/module-writing-20261009/the-hole-in-the-oak-preview.pdf"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/guides/模组写作规范.md",
+      "broken_link": "../../maintenance/research/module-writing-20261009/the-incandescent-grottoes-preview.pdf"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/index.md",
+      "broken_link": "../../assets/npc/production/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/index.md",
+      "broken_link": "../../assets/npc/production/control/portrait-master.json"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/index.md",
+      "broken_link": "../../foundry/npc/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/index.md",
+      "broken_link": "archive/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/NPC工作总控.md",
+      "broken_link": "../../assets/npc/production/control/portrait-master.json"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/NPC工作总控.md",
+      "broken_link": "../archive/reviews-20260903/二十话大纲与NPC故事重整计划.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/NPC工作总控.md",
+      "broken_link": "../archive/reviews-20260903/二十话重整-审阅记录.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/重要NPC故事.md",
+      "broken_link": "../archive/reviews-20260903/二十话大纲与NPC故事重整计划.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/重要NPC故事.md",
+      "broken_link": "../archive/reviews-20260903/二十话重整-审阅记录.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/reference/NPC最终意见版.md",
+      "broken_link": "../../archive/reviews-20260903/二十话大纲与NPC故事重整计划.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/roster/NPC出场安排.md",
+      "broken_link": "../../archive/reviews-20260903/二十话重整-审阅记录.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/stories/朱瑶光.md",
+      "broken_link": "../../archive/reviews-20260903/二十话重整-现状核对.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/stories/朱瑶光.md",
+      "broken_link": "../../archive/reviews-20260903/二十话重整-审阅记录.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/stories/朱蘅.md",
+      "broken_link": "../../archive/reviews-20260903/二十话重整-现状核对.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/stories/朱蘅.md",
+      "broken_link": "../../archive/reviews-20260903/二十话重整-审阅记录.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/stories/沈漫.md",
+      "broken_link": "../../archive/reviews-20260903/二十话重整-现状核对.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/stories/沈漫.md",
+      "broken_link": "../../archive/reviews-20260903/二十话重整-审阅记录.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/stories/许承钧.md",
+      "broken_link": "../../archive/reviews-20260903/二十话重整-现状核对.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/npcs/stories/许承钧.md",
+      "broken_link": "../../archive/reviews-20260903/二十话重整-审阅记录.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "sessions/ep04-events/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "agy/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "sessions/ep04-events/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "agy/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "sessions/session-13-第四话开场安排.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "sessions/s13-现场手册.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "sessions/s13-遭遇与道具.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "playtests/s13-20260911.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "modules/ep03-追风大劫案-白话主持版.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "modules/ep03-欲子双线大纲.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "modules/ep02-地铁幽灵-module.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "modules/ep02-地铁幽灵-scenario.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "sessions/session-04-foundry-prep.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "sessions/session-06-follow-up.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "sessions/session-08-prep.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "sessions/session-09-prep.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "sessions/session-10-prep.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "sessions/session-13-第四话开场安排.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "../../foundry/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "../../assets/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/README.md",
+      "broken_link": "playtests/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/modules/ep03-追风大劫案-module.md",
+      "broken_link": "ep03-追风大劫案-白话主持版.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/modules/ep03-追风大劫案-module.md",
+      "broken_link": "../../../foundry/episodes/ep03/构筑清单.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/modules/ep03-追风大劫案-module.md",
+      "broken_link": "../../../foundry/episodes/ep03/battlemaps/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/modules/ep03-追风大劫案-module.md",
+      "broken_link": "../../../foundry/episodes/ep03/rebuild-ma-xia-l5/重车说明.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/modules/ep03-追风大劫案-module.md",
+      "broken_link": "../../npcs/archive/扩充NPC-企业篇.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/modules/ep03-追风大劫案-module.md",
+      "broken_link": "../../npcs/archive/扩充NPC-帮派与机构篇.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+      "broken_link": "ep04-events/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+      "broken_link": "ep04-events/A-PMC猎杀欲子.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+      "broken_link": "ep04-events/B-管委会围捕李好.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+      "broken_link": "ep04-events/C-义胜盟开战.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+      "broken_link": "ep04-events/D-灾备厅决战.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+      "broken_link": "../agy/20260911-事件卡-AGY完整草案.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-paladin-summary.md",
+      "broken_link": "../agy/20260911-圣骑士蝙蝠侠-AGY原稿.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-义胜盟-新故事.md",
+      "broken_link": "../agy/ep04-redesign-20261009/copper-user-sample-before-recast-08.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-义胜盟-铜锅旧稿.md",
+      "broken_link": "../agy/ep04-redesign-20261009/yisheng-original-pass-05-AGY回复原文.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-义胜盟-铜锅旧稿.md",
+      "broken_link": "../agy/ep04-redesign-20261009/yisheng-original-pass-05-AGY场景原文.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-场景梗概.md",
+      "broken_link": "ep04-events/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-场景梗概.md",
+      "broken_link": "../agy/ep04-redesign-20261009/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-新设计.md",
+      "broken_link": "../agy/ep04-redesign-20261009/创作取舍.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-新设计.md",
+      "broken_link": "../agy/ep04-redesign-20261009/creative-pass-03-AGY场景原文.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-新设计.md",
+      "broken_link": "../agy/ep04-redesign-20261009/yisheng-original-pass-05-input.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-新设计.md",
+      "broken_link": "ep04-events/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-暴力重构-事件卡.md",
+      "broken_link": "../agy/20260911-事件卡-AGY完整草案.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-最终框架复审.md",
+      "broken_link": "../agy/20260911-final-framework-input.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-最终框架复审.md",
+      "broken_link": "../agy/20260911-第四话最终框架-AGY复审.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-最终框架复审.md",
+      "broken_link": "../../../maintenance/agy-20260911/final-framework-run.json"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-梁文川过渡.md",
+      "broken_link": "../agy/20260911-final-framework-input.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-融合骨架.md",
+      "broken_link": "../agy/20260911-final-framework-input.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-融合骨架.md",
+      "broken_link": "../agy/20260911-AGY原稿.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/prep/sessions/ep04-融合骨架.md",
+      "broken_link": "../agy/20260911-liang-input.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/campaign/world/20-地下空间形态与示意图设定稿.md",
+      "broken_link": "../../assets/maps/README.md"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/src/核心规则/龙散市/index.md",
+      "broken_link": "日常与制度"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/src/核心规则/龙散市/index.md",
+      "broken_link": "城区与地点"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/src/核心规则/龙散市/index.md",
+      "broken_link": "玩家角色"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/src/核心规则/龙散市/index.md",
+      "broken_link": "NPC"
+    },
+    {
+      "file": "campaign/handoff/agent-pack-20261015/sources/src/核心规则/龙散市/index.md",
+      "broken_link": "组织"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/codex-expanded-before-polish.md",
+      "broken_link": "ep04-新设计.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/codex-expanded-before-polish.md",
+      "broken_link": "../agy/ep04-redesign-20261009/yisheng-original-pass-05-AGY回复原文.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/codex-expanded-before-polish.md",
+      "broken_link": "../agy/ep04-redesign-20261009/yisheng-original-pass-05-AGY场景原文.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/codex-expanded-before-polish.md",
+      "broken_link": "../../world/14-企业名录与商业生态.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/codex-expanded-before-polish.md",
+      "broken_link": "../../npcs/reference/帮派黑道.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/codex-expanded-before-polish.md",
+      "broken_link": "../../episodes/chapter-02/05-帮派奥运会.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/copper-user-sample-before-recast-08.md",
+      "broken_link": "../../guides/场景梗概样板.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/creative-pass-03-AGY回复原文.md",
+      "broken_link": "file:///C:/Users/Fifholz/.gemini/antigravity-cli/brain/aa1eb51d-b3ca-4de7-aad0-db87a833695b/ep04-scene-draft.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/expand-scenes-08-input.md",
+      "broken_link": "../../guides/场景梗概样板.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/reformat-original-07-input.md",
+      "broken_link": "../../guides/场景梗概样板.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/scenes-before-expand-08.md",
+      "broken_link": "ep04-义胜盟-新故事.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/scenes-before-expand-08.md",
+      "broken_link": "../../../records/memory/session-13.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/scenes-before-expand-08.md",
+      "broken_link": "ep04-events/README.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/scenes-before-expand-08.md",
+      "broken_link": "ep03尾声-ep04-流程与事件卡.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/scenes-before-expand-08.md",
+      "broken_link": "ep04-新设计.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/scenes-before-expand-08.md",
+      "broken_link": "../agy/ep04-redesign-20261009/README.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/yisheng-creative-pass-04-AGY回复原文.md",
+      "broken_link": "file:///C:/Users/Fifholz/.gemini/antigravity-cli/brain/aa1eb51d-b3ca-4de7-aad0-db87a833695b/ep04-yisheng-new.md"
+    },
+    {
+      "file": "campaign/prep/agy/ep04-redesign-20261009/yisheng-original-pass-05-AGY回复原文.md",
+      "broken_link": "file:///C:/Users/Fifholz/.gemini/antigravity-cli/brain/273a721a-b301-4125-b88e-dabae0892251/yisheng_league_story.md"
+    },
+    {
+      "file": "assets/maps/README.md",
+      "broken_link": "longsan-geographic-v7-20261012/龙散市地图-v7.zip"
+    },
+    {
+      "file": "assets/maps/longsan-workpack-20261013/campaign/world/15-城区与交通网络.md",
+      "broken_link": "16-大背景-诸夏与龙散.md"
+    }
+  ]
+}

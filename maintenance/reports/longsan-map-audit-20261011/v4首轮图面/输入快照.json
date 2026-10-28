@@ -1,0 +1,56 @@
+[
+  {
+    "source": "assets\\maps\\longsan-geographic-v4-20261012\\龙散市-全图.png",
+    "snapshot": "龙散市-全图.png",
+    "sha256": "dceb319e55616d33fa1488543a703f5a6c0a38093b8c1f6960ba496420dfc444",
+    "mtime": 1791771957.1077204
+  },
+  {
+    "source": "assets\\maps\\longsan-geographic-v4-20261012\\近景\\楚江上游-新.png",
+    "snapshot": "楚江上游-新.png",
+    "sha256": "a5692e67488e6a3bf49bf8e6b5cc6b8d4ccda9170dfd56446da5dfc6642efcf2",
+    "mtime": 1791771966.2891033
+  },
+  {
+    "source": "assets\\maps\\longsan-geographic-v4-20261012\\近景\\北郊-新.png",
+    "snapshot": "北郊-新.png",
+    "sha256": "ec2792f7a07d56f79afdf3c6efcebdedfeee7eaefe1caba7bd542dc327b5e1a4",
+    "mtime": 1791771967.3372958
+  },
+  {
+    "source": "assets\\maps\\longsan-geographic-v4-20261012\\近景\\东郊-新.png",
+    "snapshot": "东郊-新.png",
+    "sha256": "8b89901c2323ad530a327081f7eb5f0a7304b4440171bdca22a961db83fd2e64",
+    "mtime": 1791771967.6156046
+  },
+  {
+    "source": "assets\\maps\\longsan-geographic-v4-20261012\\近景\\城西边缘-新.png",
+    "snapshot": "城西边缘-新.png",
+    "sha256": "7013ae414c98051d6a031d4dfb92b68c4c56667a3246dfd83a0eadc5ff81f972",
+    "mtime": 1791771968.539348
+  },
+  {
+    "source": "assets\\maps\\longsan-geographic-v4-20261012\\近景\\北岭铁山过渡-新.png",
+    "snapshot": "北岭铁山过渡-新.png",
+    "sha256": "f2583f5ad0c2076fe5e73251584f7388d80fafea3237d0bad2a0ed4875438a88",
+    "mtime": 1791771968.0616088
+  },
+  {
+    "source": "assets\\maps\\longsan-geographic-v4-20261012\\近景\\下游河弯-新.png",
+    "snapshot": "下游河弯-新.png",
+    "sha256": "c5a44a651d5dbc939044c10655c7f473007002bb6dd8755b4cb7eb3512850684",
+    "mtime": 1791771967.0977628
+  },
+  {
+    "source": "assets\\maps\\longsan-geographic-v4-20261012\\地图坐标与线路.json",
+    "snapshot": "地图坐标与线路.json",
+    "sha256": "36738dc28907c274a94f41abb3797ecef3e71bb6675929ea86dc5a2a95e67987",
+    "mtime": 1791771933.4607427
+  },
+  {
+    "source": "assets\\maps\\longsan-geographic-v4-20261012\\地理骨架.geojson",
+    "snapshot": "地理骨架.geojson",
+    "sha256": "5526d3974202d53ca0c211b27893d38edb0cd0e441e290b62ef5ab25ba43bb7e",
+    "mtime": 1791771933.6260316
+  }
+]

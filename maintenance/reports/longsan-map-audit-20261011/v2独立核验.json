@@ -1,0 +1,552 @@
+{
+  "scope": "v2中途候选的独立只读核验；不是冻结输入或最终验收",
+  "svg_station_count": 66,
+  "svg_station_json_mismatches": [],
+  "svg_adjacent_edges": 80,
+  "source_adjacent_edges": 80,
+  "edge_missing_from_svg": [],
+  "edge_added_to_svg": [],
+  "interchanges": 19,
+  "svg_station_membership_json_mismatches": [],
+  "unnamed_planned_svg": 3,
+  "closed_stations": [
+    "故城中心",
+    "楚钢集团",
+    "铁山"
+  ],
+  "svg_station_status_json_mismatches": [],
+  "water_station_names": [],
+  "gray_station_names": [
+    "故城中心"
+  ],
+  "campus_north_gate_distance_m": 35.00000000000014,
+  "technology_south_gate_distance_m": 24.99999999999858,
+  "actual_svg_features": {
+    "龙散大学校界": [
+      {
+        "area_km2": 0.3333359999999743,
+        "side_lengths_m": null
+      }
+    ],
+    "燧明科技园界": [
+      {
+        "area_km2": 0.1999999999999318,
+        "side_lengths_m": null
+      }
+    ],
+    "跑道": [
+      {
+        "area_km2": 0.1440101721499989,
+        "side_lengths_m": [
+          44.998,
+          45.009,
+          3199.993,
+          3200.002
+        ]
+      },
+      {
+        "area_km2": 0.1439943591999997,
+        "side_lengths_m": [
+          44.998,
+          44.999,
+          3199.993,
+          3200.003
+        ]
+      }
+    ],
+    "40ft集装箱": [
+      {
+        "polygons": 7427,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 7427,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 7427,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 7426,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 2896,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 2895,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 2895,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 2895,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      }
+    ],
+    "旧城灰区界": [
+      {
+        "area_km2": 3.5000049264499467,
+        "side_lengths_m": null
+      }
+    ]
+  },
+  "same_geometry_route_overprints": [],
+  "actual_svg_piers": [
+    {
+      "center_km": [
+        27.999999999999996,
+        30.845
+      ],
+      "water_distance_m": 0.0,
+      "water_overlap_m2": 2751.9238586663123,
+      "land_overlap_m2": 768.0761413334449
+    },
+    {
+      "center_km": [
+        30.199999999999996,
+        31.125230000000002
+      ],
+      "water_distance_m": 0.0,
+      "water_overlap_m2": 2749.995492031157,
+      "land_overlap_m2": 770.0045079686003
+    },
+    {
+      "center_km": [
+        33.3,
+        31.21575
+      ],
+      "water_distance_m": 0.0,
+      "water_overlap_m2": 2750.1084700018123,
+      "land_overlap_m2": 769.891529997945
+    },
+    {
+      "center_km": [
+        35.0,
+        31.19231
+      ],
+      "water_distance_m": 0.0,
+      "water_overlap_m2": 2749.967540982624,
+      "land_overlap_m2": 770.0324590159968
+    },
+    {
+      "center_km": [
+        39.199999999999996,
+        30.41024
+      ],
+      "water_distance_m": 0.0,
+      "water_overlap_m2": 2749.9043617795564,
+      "land_overlap_m2": 770.0956382202012
+    }
+  ],
+  "disconnected_water_component_distance": {
+    "文星溪": {
+      "bounds_km": [
+        0.0,
+        0.0,
+        28.65258300217213,
+        29.58365535512395
+      ],
+      "distance_to_main_river_m": 0.0
+    },
+    "东侧汊沟": {
+      "bounds_km": [
+        0.0,
+        0.0,
+        28.65258300217213,
+        29.58365535512395
+      ],
+      "distance_to_main_river_m": 0.0
+    }
+  },
+  "river_cross_sections": [
+    {
+      "y_km": 1,
+      "water_intervals_x_km": [
+        [
+          22.8,
+          24.15
+        ]
+      ],
+      "widths_km": [
+        1.35
+      ]
+    },
+    {
+      "y_km": 3,
+      "water_intervals_x_km": [
+        [
+          23.547,
+          25.009
+        ]
+      ],
+      "widths_km": [
+        1.462
+      ]
+    },
+    {
+      "y_km": 5,
+      "water_intervals_x_km": [
+        [
+          23.54,
+          25.246
+        ]
+      ],
+      "widths_km": [
+        1.706
+      ]
+    },
+    {
+      "y_km": 7,
+      "water_intervals_x_km": [
+        [
+          21.866,
+          23.898
+        ]
+      ],
+      "widths_km": [
+        2.032
+      ]
+    },
+    {
+      "y_km": 9,
+      "water_intervals_x_km": [
+        [
+          20.7,
+          23.486
+        ]
+      ],
+      "widths_km": [
+        2.786
+      ]
+    },
+    {
+      "y_km": 11,
+      "water_intervals_x_km": [
+        [
+          19.107,
+          22.058
+        ],
+        [
+          22.769,
+          24.301
+        ]
+      ],
+      "widths_km": [
+        2.951,
+        1.533
+      ]
+    },
+    {
+      "y_km": 13,
+      "water_intervals_x_km": [
+        [
+          19.055,
+          21.218
+        ],
+        [
+          23.65,
+          24.361
+        ]
+      ],
+      "widths_km": [
+        2.163,
+        0.711
+      ]
+    },
+    {
+      "y_km": 15,
+      "water_intervals_x_km": [
+        [
+          19.059,
+          20.227
+        ],
+        [
+          23.9,
+          24.482
+        ]
+      ],
+      "widths_km": [
+        1.167,
+        0.582
+      ]
+    },
+    {
+      "y_km": 17,
+      "water_intervals_x_km": [
+        [
+          18.969,
+          20.59
+        ],
+        [
+          24.065,
+          24.968
+        ]
+      ],
+      "widths_km": [
+        1.621,
+        0.903
+      ]
+    },
+    {
+      "y_km": 19,
+      "water_intervals_x_km": [
+        [
+          19.34,
+          21.17
+        ],
+        [
+          24.727,
+          25.539
+        ]
+      ],
+      "widths_km": [
+        1.83,
+        0.812
+      ]
+    },
+    {
+      "y_km": 21,
+      "water_intervals_x_km": [
+        [
+          19.729,
+          21.9
+        ],
+        [
+          25.15,
+          25.876
+        ]
+      ],
+      "widths_km": [
+        2.171,
+        0.726
+      ]
+    },
+    {
+      "y_km": 23,
+      "water_intervals_x_km": [
+        [
+          19.928,
+          21.403
+        ],
+        [
+          24.98,
+          25.953
+        ]
+      ],
+      "widths_km": [
+        1.475,
+        0.972
+      ]
+    },
+    {
+      "y_km": 25,
+      "water_intervals_x_km": [
+        [
+          19.805,
+          21.363
+        ],
+        [
+          23.957,
+          25.396
+        ]
+      ],
+      "widths_km": [
+        1.557,
+        1.439
+      ]
+    },
+    {
+      "y_km": 27,
+      "water_intervals_x_km": [
+        [
+          20.455,
+          22.15
+        ],
+        [
+          22.835,
+          24.585
+        ]
+      ],
+      "widths_km": [
+        1.695,
+        1.75
+      ]
+    }
+  ],
+  "both_base_map_g_equal": true,
+  "read_observations": {
+    "龙散市-基础底图.svg": {
+      "bytes": 22039868,
+      "modified_epoch": 1791729639.3334713
+    },
+    "龙散市-底图与地铁.svg": {
+      "bytes": 22102101,
+      "modified_epoch": 1791729639.389729
+    },
+    "地图坐标与线路.json": {
+      "bytes": 127867,
+      "modified_epoch": 1791729639.505609
+    },
+    "地理骨架.geojson": {
+      "bytes": 167472,
+      "modified_epoch": 1791729639.519081
+    }
+  }
+}

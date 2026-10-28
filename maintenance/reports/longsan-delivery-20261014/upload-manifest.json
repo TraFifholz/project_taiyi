@@ -1,0 +1,144 @@
+{
+  "base_url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/",
+  "files": [
+    {
+      "name": "day-base-clean-8k.webp",
+      "bytes": 10372270,
+      "sha256": "8fc1afe11d6c17c0bf9ea0632b04a7264fce934e0f462f4e1eadd6e635c4a964",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/day-base-clean-8k.webp"
+    },
+    {
+      "name": "day-base-clean-preview.webp",
+      "bytes": 1108046,
+      "sha256": "f56ede408fc9056e0620549d0acb8ebd63e87e20057a7ddfe00ebbc1fc7a28ee",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/day-base-clean-preview.webp"
+    },
+    {
+      "name": "day-base-labels-8k.webp",
+      "bytes": 10582548,
+      "sha256": "52b01d2b189a7fcca43feac21f99857f8e842651cce99d3abe1ac7abfa58eed8",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/day-base-labels-8k.webp"
+    },
+    {
+      "name": "day-base-labels-preview.webp",
+      "bytes": 1154930,
+      "sha256": "0c15954bd742a2052bc17c218db81e4c7c0393fd0d7469e0ba7b120387195319",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/day-base-labels-preview.webp"
+    },
+    {
+      "name": "day-metro-clean-8k.webp",
+      "bytes": 10359880,
+      "sha256": "b3b189ae399019893bef1168b66fea088e2bbb0630913150329f151b6379b512",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/day-metro-clean-8k.webp"
+    },
+    {
+      "name": "day-metro-clean-preview.webp",
+      "bytes": 1131076,
+      "sha256": "06cd8201c819101141824ee539ca09d36e140644e65adec9401d064323b7d518",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/day-metro-clean-preview.webp"
+    },
+    {
+      "name": "day-metro-labels-8k.webp",
+      "bytes": 10658382,
+      "sha256": "a8ba0c8a84859f209866cacee2c619648652515c35ffdad4f459375197926a6c",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/day-metro-labels-8k.webp"
+    },
+    {
+      "name": "day-metro-labels-preview.webp",
+      "bytes": 1185110,
+      "sha256": "6d3a3392937f24292132bb5c9ca97a8f80717b8edfc5712e7bc061117ed30f94",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/day-metro-labels-preview.webp"
+    },
+    {
+      "name": "index.html",
+      "bytes": 5195,
+      "sha256": "746ae8553bfddad1bfc43705a7e0f818296f90d35028059bdfc6b359632127f0",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/index.html"
+    },
+    {
+      "name": "longsan-editable-svg.zip",
+      "bytes": 46277722,
+      "sha256": "e2cd98a46b74ef164b9d3100999ef4b31ddf7ad5f7d6b8f67499d3b42ce6a958",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/longsan-editable-svg.zip"
+    },
+    {
+      "name": "longsan-webp-maps.zip",
+      "bytes": 87815535,
+      "sha256": "037ee4f9e1c42319cb6cdd024a003035b4b1e4b14d021e732c2edbbca0abae80",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/longsan-webp-maps.zip"
+    },
+    {
+      "name": "manifest.json",
+      "bytes": 7890,
+      "sha256": "bbf5d64f3396454746011dbd185ab8622f8a08a7bcd4042a2891a6deeec7092e",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/manifest.json"
+    },
+    {
+      "name": "night-base-clean-8k.webp",
+      "bytes": 11445120,
+      "sha256": "5e0fa081e26ed19c69bb825238687c1b7e067903a08f40695a89cc37df341fbf",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/night-base-clean-8k.webp"
+    },
+    {
+      "name": "night-base-clean-preview.webp",
+      "bytes": 1360252,
+      "sha256": "5500dbcb8a614a07d416f863f12d7c9f2fff072e2e9a71ad5e0f11a3546ecd83",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/night-base-clean-preview.webp"
+    },
+    {
+      "name": "night-base-labels-8k.webp",
+      "bytes": 11406488,
+      "sha256": "480fe61a9708e5fba2a0c2ad8bfa75b83bce0c80e1c985e4ea71f5b841629951",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/night-base-labels-8k.webp"
+    },
+    {
+      "name": "night-base-labels-preview.webp",
+      "bytes": 1407412,
+      "sha256": "38e3588f5c125de849d0c6290bba2099314f1732dba96a6f1c2bdd1e66c89a36",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/night-base-labels-preview.webp"
+    },
+    {
+      "name": "night-metro-clean-8k.webp",
+      "bytes": 11354094,
+      "sha256": "13068a7637aed3cf46246e861bc2ad3d63c28001c72b5421b072be1b0830a752",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/night-metro-clean-8k.webp"
+    },
+    {
+      "name": "night-metro-clean-preview.webp",
+      "bytes": 1381370,
+      "sha256": "7d9856a433ae961fb09765a7026ce5dc8618592759a6a360f265bdcdb80b4b4c",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/night-metro-clean-preview.webp"
+    },
+    {
+      "name": "night-metro-labels-8k.webp",
+      "bytes": 11591542,
+      "sha256": "9a06de5148e735fec5de2cdad4c75bfa160100669c7727c3601814d775286f7a",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/night-metro-labels-8k.webp"
+    },
+    {
+      "name": "night-metro-labels-preview.webp",
+      "bytes": 1436784,
+      "sha256": "47716ea07429d560a793b6f5717488aee0c30fe17898755bda10ac586c067c89",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/night-metro-labels-preview.webp"
+    },
+    {
+      "name": "positions.json",
+      "bytes": 34505,
+      "sha256": "40bdfdea1ca1ed8b3227c70e95474caafb07324c2ae36644680a43eb3504202e",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/positions.json"
+    },
+    {
+      "name": "README.txt",
+      "bytes": 423,
+      "sha256": "06a94a6a85625a5a1f2ce7cb9feb719c96483877010fb6c50b03c5006ac3b528",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/README.txt"
+    },
+    {
+      "name": "source-audit.json",
+      "bytes": 967,
+      "sha256": "8771055fe7b08ba985332c7330c7a7e2cd43f11bdd898c56f0f51ca1d82fa39f",
+      "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/source-audit.json"
+    }
+  ],
+  "total_bytes": 232077541
+}

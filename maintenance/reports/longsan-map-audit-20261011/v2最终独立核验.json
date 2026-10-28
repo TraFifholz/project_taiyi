@@ -1,0 +1,880 @@
+{
+  "scope": "v2最终候选的独立只读核验",
+  "svg_station_count": 66,
+  "svg_station_json_mismatches": [],
+  "svg_adjacent_edges": 80,
+  "source_adjacent_edges": 80,
+  "edge_missing_from_svg": [],
+  "edge_added_to_svg": [],
+  "interchanges": 19,
+  "svg_station_membership_json_mismatches": [],
+  "unnamed_planned_svg": 3,
+  "closed_stations": [
+    "故城中心",
+    "楚钢集团",
+    "铁山"
+  ],
+  "svg_station_status_json_mismatches": [],
+  "water_station_names": [],
+  "gray_station_names": [
+    "故城中心"
+  ],
+  "campus_north_gate_distance_m": 35.00000000000014,
+  "technology_south_gate_distance_m": 24.99999999999858,
+  "actual_svg_features": {
+    "龙散大学校界": [
+      {
+        "area_km2": 0.3333359999999743,
+        "side_lengths_m": null
+      }
+    ],
+    "燧明科技园界": [
+      {
+        "area_km2": 0.1999999999999318,
+        "side_lengths_m": null
+      }
+    ],
+    "跑道": [
+      {
+        "area_km2": 0.1440101721499989,
+        "side_lengths_m": [
+          44.998,
+          45.009,
+          3199.993,
+          3200.002
+        ]
+      },
+      {
+        "area_km2": 0.1439943591999997,
+        "side_lengths_m": [
+          44.998,
+          44.999,
+          3199.993,
+          3200.003
+        ]
+      }
+    ],
+    "40ft集装箱": [
+      {
+        "polygons": 7446,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 7446,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 7446,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 7446,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 2866,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 2866,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 2866,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      },
+      {
+        "polygons": 2866,
+        "sample_side_lengths_m": [
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ],
+          [
+            2.44,
+            2.44,
+            12.19,
+            12.19
+          ]
+        ]
+      }
+    ],
+    "旧城灰区界": [
+      {
+        "area_km2": 3.5000049264499467,
+        "side_lengths_m": null
+      }
+    ]
+  },
+  "same_geometry_route_overprints": [],
+  "actual_svg_piers": [
+    {
+      "center_km": [
+        27.999999999999996,
+        30.845
+      ],
+      "water_distance_m": 0.0,
+      "water_overlap_m2": 2759.318104416335,
+      "land_overlap_m2": 760.6818955834227
+    },
+    {
+      "center_km": [
+        30.199999999999996,
+        31.192740000000004
+      ],
+      "water_distance_m": 0.0,
+      "water_overlap_m2": 2749.947994687716,
+      "land_overlap_m2": 770.0520053120416
+    },
+    {
+      "center_km": [
+        33.3,
+        31.21575
+      ],
+      "water_distance_m": 0.0,
+      "water_overlap_m2": 2750.1084700018123,
+      "land_overlap_m2": 769.891529997945
+    },
+    {
+      "center_km": [
+        35.0,
+        31.19231
+      ],
+      "water_distance_m": 0.0,
+      "water_overlap_m2": 2749.967540982624,
+      "land_overlap_m2": 770.0324590159968
+    },
+    {
+      "center_km": [
+        39.199999999999996,
+        30.41024
+      ],
+      "water_distance_m": 0.0,
+      "water_overlap_m2": 2749.9043617795564,
+      "land_overlap_m2": 770.0956382202012
+    }
+  ],
+  "disconnected_water_component_distance": {
+    "文星溪": {
+      "bounds_km": [
+        0.0,
+        0.0,
+        48.0,
+        32.753975
+      ],
+      "distance_to_main_river_m": 0.0
+    },
+    "东侧汊沟": {
+      "bounds_km": [
+        0.0,
+        0.0,
+        48.0,
+        32.753975
+      ],
+      "distance_to_main_river_m": 0.0
+    }
+  },
+  "main_river_geometry_type": "Polygon",
+  "main_river_component_areas_km2": [
+    119.78605347711715
+  ],
+  "main_river_component_contacts": [],
+  "main_river_inner_connectivity": {
+    "negative_buffer_m": 50,
+    "probes_km": {
+      "北段": [
+        21.5,
+        26.8
+      ],
+      "南段": [
+        33.0,
+        31.9
+      ]
+    },
+    "probe_component": {
+      "北段": 0,
+      "南段": 0
+    },
+    "north_south_same_inner_component": true,
+    "old_zero_width_point_inside_buffer": true
+  },
+  "actual_svg_water_inner_connectivity": {
+    "negative_buffer_m": 50,
+    "probes_km": {
+      "北段": [
+        21.5,
+        26.8
+      ],
+      "南段": [
+        33.0,
+        31.9
+      ]
+    },
+    "probe_component": {
+      "北段": 0,
+      "南段": 0
+    },
+    "north_south_same_inner_component": true,
+    "old_zero_width_point_inside_buffer": true
+  },
+  "svg_geojson_water_symdiff_km2": 0.0003627263559518184,
+  "actual_svg_arterial_shape_metrics": [
+    {
+      "name": "云麓公路",
+      "vertices": 128,
+      "length_km": 31.01987242891335,
+      "within_5deg_cardinal_length_share": 0.10096380289746143,
+      "max_adjacent_segment_turn_deg": 3.8406114459328617,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "窑湾旧道",
+      "vertices": 16,
+      "length_km": 3.426735423593234,
+      "within_5deg_cardinal_length_share": 0.0,
+      "max_adjacent_segment_turn_deg": 4.472855827258021,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "书院路",
+      "vertices": 44,
+      "length_km": 33.573877233477404,
+      "within_5deg_cardinal_length_share": 0.24872254459809467,
+      "max_adjacent_segment_turn_deg": 1.7989521242613542,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "文星路",
+      "vertices": 44,
+      "length_km": 11.705005601869315,
+      "within_5deg_cardinal_length_share": 0.2994820514652979,
+      "max_adjacent_segment_turn_deg": 2.745490138783271,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "财经路",
+      "vertices": 58,
+      "length_km": 11.654083717562033,
+      "within_5deg_cardinal_length_share": 0.48769132215512423,
+      "max_adjacent_segment_turn_deg": 3.132093212769606,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "北苑路",
+      "vertices": 58,
+      "length_km": 30.02904231764416,
+      "within_5deg_cardinal_length_share": 0.38623752933621236,
+      "max_adjacent_segment_turn_deg": 3.969323973265283,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "江声路",
+      "vertices": 16,
+      "length_km": 6.304582478874336,
+      "within_5deg_cardinal_length_share": 0.009633604072643548,
+      "max_adjacent_segment_turn_deg": 9.195193107854283,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "码头联络路",
+      "vertices": 30,
+      "length_km": 9.866155589879725,
+      "within_5deg_cardinal_length_share": 0.0,
+      "max_adjacent_segment_turn_deg": 2.620940791571284,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "钢阳街",
+      "vertices": 30,
+      "length_km": 14.931162368398597,
+      "within_5deg_cardinal_length_share": 0.3852620043113319,
+      "max_adjacent_segment_turn_deg": 3.571749400864676,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "山麓路",
+      "vertices": 30,
+      "length_km": 14.166865910748966,
+      "within_5deg_cardinal_length_share": 0.0,
+      "max_adjacent_segment_turn_deg": 2.6419607824299147,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "机场大道",
+      "vertices": 86,
+      "length_km": 34.94835051390841,
+      "within_5deg_cardinal_length_share": 0.2874174200797614,
+      "max_adjacent_segment_turn_deg": 1.3217560321575748,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "北岭大道",
+      "vertices": 72,
+      "length_km": 27.197079836434554,
+      "within_5deg_cardinal_length_share": 0.517709249853589,
+      "max_adjacent_segment_turn_deg": 2.492948709198687,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "楚岸滨江大道",
+      "vertices": 58,
+      "length_km": 24.976061423564488,
+      "within_5deg_cardinal_length_share": 0.00751012139968714,
+      "max_adjacent_segment_turn_deg": 2.9866409842330333,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "学府大道",
+      "vertices": 100,
+      "length_km": 29.973901364589004,
+      "within_5deg_cardinal_length_share": 0.09032933056304934,
+      "max_adjacent_segment_turn_deg": 5.6329751041143545,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "楚江大道",
+      "vertices": 58,
+      "length_km": 38.62036871845446,
+      "within_5deg_cardinal_length_share": 0.7073039159544365,
+      "max_adjacent_segment_turn_deg": 2.0506738146950103,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "工运大道",
+      "vertices": 72,
+      "length_km": 39.840825901658334,
+      "within_5deg_cardinal_length_share": 0.27230132190276335,
+      "max_adjacent_segment_turn_deg": 3.6055746843568777,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "奥体大道",
+      "vertices": 86,
+      "length_km": 23.28017111663726,
+      "within_5deg_cardinal_length_share": 0.28972694297370905,
+      "max_adjacent_segment_turn_deg": 4.15072050454875,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "南门大道",
+      "vertices": 16,
+      "length_km": 32.58778847912035,
+      "within_5deg_cardinal_length_share": 0.48581637670288275,
+      "max_adjacent_segment_turn_deg": 0.775941997334328,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "龙门吊路",
+      "vertices": 44,
+      "length_km": 21.94157425078732,
+      "within_5deg_cardinal_length_share": 0.005648674567364319,
+      "max_adjacent_segment_turn_deg": 5.072091425543474,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "南港大道",
+      "vertices": 2,
+      "length_km": 22.90349318335524,
+      "within_5deg_cardinal_length_share": 1.0,
+      "max_adjacent_segment_turn_deg": 0,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "望津大桥",
+      "vertices": 16,
+      "length_km": 4.58538507680173,
+      "within_5deg_cardinal_length_share": 0.6687025201511325,
+      "max_adjacent_segment_turn_deg": 1.592520846316072,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "铁山大道",
+      "vertices": 72,
+      "length_km": 23.180723937620332,
+      "within_5deg_cardinal_length_share": 0.6582278138595654,
+      "max_adjacent_segment_turn_deg": 2.341294109109243,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "站前大道",
+      "vertices": 72,
+      "length_km": 23.10699488679765,
+      "within_5deg_cardinal_length_share": 0.5772408899788873,
+      "max_adjacent_segment_turn_deg": 2.9547956223398093,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "深中大道",
+      "vertices": 72,
+      "length_km": 15.047866448816748,
+      "within_5deg_cardinal_length_share": 0.48285657150982053,
+      "max_adjacent_segment_turn_deg": 5.237359225177452,
+      "segment_turns_over_30deg": 0
+    },
+    {
+      "name": "环城高速",
+      "vertices": 198,
+      "length_km": 123.429366796211,
+      "within_5deg_cardinal_length_share": 0.2523789410346194,
+      "max_adjacent_segment_turn_deg": 7.712617372704936,
+      "segment_turns_over_30deg": 0
+    }
+  ],
+  "actual_svg_local_streets": {
+    "path_count": 5521,
+    "length_km": 5269.118403302513,
+    "straight_within_1m": 5515,
+    "axis_5deg_length_km": 4769.453382698986,
+    "axis_5deg_length_share": 0.9051710395632118
+  },
+  "actual_svg_road_label_distances": [
+    {
+      "text": "机场大道",
+      "xy_km": [
+        10.2,
+        4.06
+      ],
+      "anchor_distance_to_road_m": 54.74624357715483
+    },
+    {
+      "text": "山麓路",
+      "xy_km": [
+        9.67,
+        17.9
+      ],
+      "anchor_distance_to_road_m": 247.38742918010877
+    },
+    {
+      "text": "南门大道",
+      "xy_km": [
+        14.7,
+        23.27
+      ],
+      "anchor_distance_to_road_m": 103.1812887527131
+    },
+    {
+      "text": "环城高速",
+      "xy_km": [
+        28.5,
+        1.9
+      ],
+      "anchor_distance_to_road_m": 104.7747544545196
+    },
+    {
+      "text": "环城高速",
+      "xy_km": [
+        43.6,
+        21.0
+      ],
+      "anchor_distance_to_road_m": 111.12848589020427
+    },
+    {
+      "text": "龙门吊路",
+      "xy_km": [
+        40.1,
+        28.42
+      ],
+      "anchor_distance_to_road_m": 57.794877616016194
+    },
+    {
+      "text": "南港大道",
+      "xy_km": [
+        33.5,
+        33.55
+      ],
+      "anchor_distance_to_road_m": 7.2041412495030315
+    }
+  ],
+  "actual_svg_building_counts": {
+    "old": 19084,
+    "concession": 6687,
+    "center": 1354,
+    "housing": 19368,
+    "wenxing": 15600,
+    "industry": 2364,
+    "port": 937,
+    "village": 268
+  },
+  "actual_svg_site_building_count": 70,
+  "actual_svg_building_water_errors": [],
+  "actual_svg_site_water_errors": [],
+  "river_cross_sections": [
+    {
+      "y_km": 1,
+      "water_intervals_x_km": [
+        [
+          22.8,
+          24.15
+        ]
+      ],
+      "widths_km": [
+        1.35
+      ]
+    },
+    {
+      "y_km": 3,
+      "water_intervals_x_km": [
+        [
+          23.547,
+          25.009
+        ]
+      ],
+      "widths_km": [
+        1.462
+      ]
+    },
+    {
+      "y_km": 5,
+      "water_intervals_x_km": [
+        [
+          23.54,
+          25.246
+        ]
+      ],
+      "widths_km": [
+        1.706
+      ]
+    },
+    {
+      "y_km": 7,
+      "water_intervals_x_km": [
+        [
+          21.866,
+          23.898
+        ]
+      ],
+      "widths_km": [
+        2.032
+      ]
+    },
+    {
+      "y_km": 9,
+      "water_intervals_x_km": [
+        [
+          20.7,
+          23.486
+        ]
+      ],
+      "widths_km": [
+        2.786
+      ]
+    },
+    {
+      "y_km": 11,
+      "water_intervals_x_km": [
+        [
+          19.107,
+          22.058
+        ],
+        [
+          22.769,
+          24.301
+        ]
+      ],
+      "widths_km": [
+        2.951,
+        1.533
+      ]
+    },
+    {
+      "y_km": 13,
+      "water_intervals_x_km": [
+        [
+          19.055,
+          21.218
+        ],
+        [
+          23.65,
+          24.361
+        ]
+      ],
+      "widths_km": [
+        2.163,
+        0.711
+      ]
+    },
+    {
+      "y_km": 15,
+      "water_intervals_x_km": [
+        [
+          19.059,
+          20.227
+        ],
+        [
+          23.9,
+          24.482
+        ]
+      ],
+      "widths_km": [
+        1.167,
+        0.582
+      ]
+    },
+    {
+      "y_km": 17,
+      "water_intervals_x_km": [
+        [
+          18.969,
+          20.59
+        ],
+        [
+          24.065,
+          24.968
+        ]
+      ],
+      "widths_km": [
+        1.621,
+        0.903
+      ]
+    },
+    {
+      "y_km": 19,
+      "water_intervals_x_km": [
+        [
+          19.34,
+          21.17
+        ],
+        [
+          24.727,
+          25.539
+        ]
+      ],
+      "widths_km": [
+        1.83,
+        0.812
+      ]
+    },
+    {
+      "y_km": 21,
+      "water_intervals_x_km": [
+        [
+          19.729,
+          21.9
+        ],
+        [
+          25.15,
+          25.876
+        ]
+      ],
+      "widths_km": [
+        2.171,
+        0.726
+      ]
+    },
+    {
+      "y_km": 23,
+      "water_intervals_x_km": [
+        [
+          19.928,
+          21.403
+        ],
+        [
+          24.98,
+          25.953
+        ]
+      ],
+      "widths_km": [
+        1.475,
+        0.972
+      ]
+    },
+    {
+      "y_km": 25,
+      "water_intervals_x_km": [
+        [
+          19.812,
+          21.363
+        ],
+        [
+          23.957,
+          25.383
+        ]
+      ],
+      "widths_km": [
+        1.55,
+        1.427
+      ]
+    },
+    {
+      "y_km": 27,
+      "water_intervals_x_km": [
+        [
+          20.33,
+          22.15
+        ],
+        [
+          22.835,
+          24.726
+        ]
+      ],
+      "widths_km": [
+        1.82,
+        1.891
+      ]
+    }
+  ],
+  "both_base_map_g_equal": true,
+  "read_observations": {
+    "龙散市-基础底图.svg": {
+      "bytes": 25964379,
+      "modified_epoch": 1791731903.1857991,
+      "sha256": "351934eeee2c00e3461135bf1879cb1261eb37ac619d239a14406f04dc7a3deb"
+    },
+    "龙散市-底图与地铁.svg": {
+      "bytes": 26026612,
+      "modified_epoch": 1791731903.2562244,
+      "sha256": "9b2baae3639b557495be820c44c3c7c95d855add3b222e8e2d7a0c3967bd9da8"
+    },
+    "地图坐标与线路.json": {
+      "bytes": 128739,
+      "modified_epoch": 1791731903.3830287,
+      "sha256": "f95cf5e2eeb0f1af4e05886dfff7000537dc07212bb9bc3e30a4922d71f814cc"
+    },
+    "地理骨架.geojson": {
+      "bytes": 168736,
+      "modified_epoch": 1791731903.3973796,
+      "sha256": "5e15a0384d8f0cc5474772cd1696522275b3be18b27ee7655a21f203530f8639"
+    }
+  }
+}

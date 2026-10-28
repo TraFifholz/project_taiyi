@@ -1,0 +1,62 @@
+[
+  {
+    "key": "rifle",
+    "alphaBBox": [
+      0,
+      0,
+      803,
+      1216
+    ],
+    "source": "nai/rifle/raw.png",
+    "candidate": "EP04-A-rifle.webp",
+    "visual": "usable; synthetic patches on clothing and vehicle are illustration artifacts, no story affiliation"
+  },
+  {
+    "key": "operator",
+    "alphaBBox": [
+      180,
+      0,
+      650,
+      470
+    ],
+    "source": "nai/operator-v2/raw.png",
+    "candidate": "EP04-A-operator.webp",
+    "visual": "Head and headset crop accepted; full second raw has unwanted rifle and is not the final avatar"
+  },
+  {
+    "key": "thug",
+    "alphaBBox": [
+      0,
+      0,
+      756,
+      1216
+    ],
+    "source": "nai/thug/raw.png",
+    "candidate": "EP04-A-thug.webp",
+    "visual": "usable; synthetic patches on clothing and vehicle are illustration artifacts, no story affiliation"
+  },
+  {
+    "key": "hound",
+    "alphaBBox": [
+      0,
+      0,
+      799,
+      1024
+    ],
+    "source": "nai/hound/raw.png",
+    "candidate": "EP04-A-hound.webp",
+    "visual": "usable; synthetic patches on clothing and vehicle are illustration artifacts, no story affiliation"
+  },
+  {
+    "key": "heavy",
+    "alphaBBox": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "source": "nai/heavy-multi-v2/raw.png",
+    "candidate": "EP04-A-heavy-multi-v2.webp",
+    "visual": "passed: one biped with three visible weapons: melee pincer, belt-fed machine gun, shoulder howitzer; v1 rejected because third weapon missing"
+  }
+]

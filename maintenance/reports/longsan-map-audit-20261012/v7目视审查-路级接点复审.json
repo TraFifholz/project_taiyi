@@ -1,0 +1,170 @@
+{
+  "review_round": "production_primary_junction_revision",
+  "review_date": "2026-10-12",
+  "input_svg_sha256": {
+    "龙散市-基础底图.svg": "33eb579c7c013146038b11de7a101aaf7a1ac594a1a705a8dd48e7c8c0604674",
+    "龙散市-底图与地铁.svg": "d7d2ccdc5842d23df21e5c08d6f52b842e15a4c3454cfbdfa07ce12496c68cb2"
+  },
+  "data_sha256": {
+    "路网.geojson": "eaec7249f8abcbd7c3509f7a74056ddbadf887e9d61f92ba784c0605aa033f4d",
+    "建筑.geojson": "46d5c4398dbff6787b2cd7312ef030c67a93a04b22c65feefab9ed136da5b17d"
+  },
+  "reviewed_images": [
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/龙散市-全图.png",
+      "sha256": "5af403c38cb8e75ed96f1a52a21b4bcbf49c700ad682a15ac4f8af5bd5a75332",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/龙散市-地铁全图.png",
+      "sha256": "26c0e542ff3e56f21a8b7b816f5c89a5eec9e7fd32cf484311de8e9c31722411",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/东站-新.png",
+      "sha256": "e7828e05dfb140ad5270554f1d17b2444ac812457e3fd67b0620d588b72c98dd",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/北向枢纽-新.png",
+      "sha256": "4bdb56e589f61cce1aa4193c303ae36b300499aaf3e5c73226778adee7c2877b",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/北岭-新.png",
+      "sha256": "f7908c6a2e554693fd2857efaf5db41c6ea2a2cb6e00df141b08a20481483bf5",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/南港立交-新.png",
+      "sha256": "a6b8ae97a4871c2f1f4ef3d7a82493999656d3f02da73d445f42336ccf1036a6",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/城市立交-新.png",
+      "sha256": "da2a289b06d80a26ad0f9fd2a24825614c43c0a4dddc9ced4d7c14d141244f06",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/城西边缘-新.png",
+      "sha256": "98930fef9a36f1d39d314ba5925497d563b5fa5ecaf8fca0df0a2b232e2c99ba",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/塌陷全区-新.png",
+      "sha256": "54102fa29b64c9196be259f500ee20e9c38971df346b66f455368fde32ed6687",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/废墟与断线-新.png",
+      "sha256": "e93a3d8ea84fcd699e8abc7336ec100d4fb44ad4601e78e1eb27eea6c5175614",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/故城-新.png",
+      "sha256": "2e89e3874d7461031b84e91545431de5ffe6e4d90e0ec02b7e3109bb718b9e30",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/文星-新.png",
+      "sha256": "ec2173c64fa771d4a0c66dfcad938c6e1cc78717c642a0def2eeec6569d69af0",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/普速绕行-新.png",
+      "sha256": "df5d9972fd146fa2520f3c3dafa245e62cae794ec19a22ab7e8bae6a8db2ea42",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/望津-新.png",
+      "sha256": "d75d3fbfd6d7b3b9ecb160d7f6fe5aa4e557ad057d2f9d2be6609e35259580e9",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/楚岸-新.png",
+      "sha256": "1c4c66395e1c00f8dc880217fe397e56e52e1e9e6cf77c93e6cdd2e6516c5162",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/楚岸街坊-新.png",
+      "sha256": "2356acd24e75c2048a88b203130953f9e33a3daafa3df1fc778f26ac808f12e6",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/深中-新.png",
+      "sha256": "3d4caed912b3d2e5e88af3406305daf4e883f542c253a936768ed4145107b495",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/火车站-新.png",
+      "sha256": "92c19d8a467f3637492e69489c637177c6291f4a1154868ea2ed41c9e523d72e",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/西城学府立交-新.png",
+      "sha256": "d74fede9232e54727cd71a62652256bc24741e3c431061757f1996aa43e7e8e9",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/西管制口-新.png",
+      "sha256": "b82ae56dda4d94d85fa30c853bbf44f44412b1f1679d2d62f77fa2461508cdbb",
+      "reviewed_actual_pixels": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/铁山-新.png",
+      "sha256": "20cbcd9510a19e6a12f2c8721369823772c81160be50055b9bfc7968f71a8d7b",
+      "reviewed_actual_pixels": true
+    }
+  ],
+  "finding_status": {
+    "ART-01": "actual_full_city_revision_confirmed",
+    "ART-02": "actual_full_city_revision_confirmed",
+    "ART-03": "partially_corrected_not_closed"
+  },
+  "remaining_confirmed_symbol_findings": [
+    {
+      "coordinates_km": [
+        14.032880412391322,
+        16.415007153903808
+      ],
+      "road_feature": 284,
+      "road": "片区连续主轴 235",
+      "joined_feature": 283,
+      "joined_road": "规划集散道 234",
+      "types": [
+        "primary",
+        "secondary"
+      ],
+      "centerline_distance_km": 0,
+      "observation": "黄色完整圆帽仍封在白色集散道路的转角；图像读成止路。",
+      "inspection_crop": "temp/longsan-final-art-crops-v7/wenxing235.png",
+      "inspection_crop_sha256": "fe51bdee11b6465322106a74f949d631f81fb62fe1f1767f8f40f29bfb605032"
+    },
+    {
+      "coordinates_km": [
+        13.19238025657169,
+        17.844476701966876
+      ],
+      "road_feature": 289,
+      "road": "规划集散道 240",
+      "joined_feature": 6,
+      "joined_road": "书院路",
+      "types": [
+        "secondary",
+        "secondary"
+      ],
+      "centerline_distance_km": 0,
+      "observation": "白色胶囊端帽仍横封斜向接收道路；数据实际接合。",
+      "inspection_crop": "temp/longsan-final-art-crops-v7/wenxing240.png",
+      "inspection_crop_sha256": "7dc3e0e0cb5323eb92c4e9d6e36fe0f1f767f1f93daaa0e49f73a8f7cb0c8462"
+    }
+  ],
+  "additional_visual_scope": "北岭近景亦出现黄色主轴接白色集散路的完整圆帽，同类样式问题。并未把桥头或私道真末端的圆帽列为假连接。",
+  "status_boundary": {
+    "candidate_available_for_review": true,
+    "art_complete": false,
+    "user_adopted": false,
+    "full_topological_validation": false
+  },
+  "not_final_acceptance": true
+}

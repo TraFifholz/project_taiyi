@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260904-ep03-extra-qingshao-nai-v1",
+  "characterId": "EP03-EXTRA-QINGSHAO",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "17d5e6",
+  "apiSeed": 520242908,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "e2b32409f3c5e8c14335391e815b0c712b3c9d95c1954346d96744548bcf4e6f",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-04T00:23:20.151Z"
+}

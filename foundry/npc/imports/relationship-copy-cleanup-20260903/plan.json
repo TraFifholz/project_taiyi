@@ -1,0 +1,562 @@
+[
+  {
+    "actorId": "cdESIH9b3XCTsX5K",
+    "owner": "S.H.",
+    "relationshipId": "rel_xNKwaqJfoLaKF9xA",
+    "name": "阿尔坎·希耶尔",
+    "targetUuid": "Actor.nJxWvLzZvBNXObjk",
+    "key": "taiyi-rel-479172cbce9af87a:LS-NPC-072",
+    "beforeBio": "S.H. 在工云广场网吧通过 TXT 联系阿尔坎与凯芙拉。\n\n关系数值：未评定。",
+    "bio": "S.H. 曾在工云广场网吧通过 TXT 联系阿尔坎与凯芙拉。"
+  },
+  {
+    "actorId": "cdESIH9b3XCTsX5K",
+    "owner": "S.H.",
+    "relationshipId": "rel_hkQ6bFOlK1yKt5nP",
+    "name": "凯芙拉·威尔森",
+    "targetUuid": "Actor.vhpt4XZxZn59dWX5",
+    "key": "taiyi-rel-1082e6e174da72f6:LS-NPC-072",
+    "beforeBio": "S.H. 在工云广场网吧通过 TXT 联系凯芙拉与阿尔坎。\n\n关系数值：未评定。",
+    "bio": "S.H. 曾在工云广场网吧通过 TXT 联系凯芙拉与阿尔坎。"
+  },
+  {
+    "actorId": "psyMJFu6q5eG3CcD",
+    "owner": "何凌",
+    "relationshipId": "rel_kSoqyDlsxDMVm2ci",
+    "name": "李好",
+    "targetUuid": "Actor.dVY3kCrHc0WYyKEa",
+    "key": "taiyi-rel-8655a517a04a719b:LS-NPC-046",
+    "beforeBio": "李好与何凌曾在江城分行共事；后续有审计与调查联络。\n\n关系数值：未评定。",
+    "bio": "李好与何凌曾在江城分行共事，之后仍因审计与调查保持联系。"
+  },
+  {
+    "actorId": "RJ33Y3n9CnPNI3gx",
+    "owner": "何夜白",
+    "relationshipId": "rel_gzbKALDkofPYXtwV",
+    "name": "阿尔坎·希耶尔",
+    "targetUuid": "Actor.nJxWvLzZvBNXObjk",
+    "key": "taiyi-rel-522a2edb4b3091ac:LS-NPC-061",
+    "beforeBio": "S1 月下诊所是双方交集中的接点；不额外推定手术、师承或秘密归属。\n\n关系数值：未评定。",
+    "bio": "阿尔坎曾在月下诊所与何夜白有过接触。"
+  },
+  {
+    "actorId": "RJ33Y3n9CnPNI3gx",
+    "owner": "何夜白",
+    "relationshipId": "rel_zxIKc2NY6zXUBvDo",
+    "name": "雷武龙",
+    "targetUuid": "Actor.j3f9G2P4vDSmmxZw",
+    "key": "taiyi-rel-bcb101f1081ad140:LS-NPC-061",
+    "beforeBio": "S1 月下诊所是双方交集中的接点；不额外推定手术、师承或秘密归属。\n\n关系数值：未评定。",
+    "bio": "雷武龙曾在月下诊所与何夜白有过接触。"
+  },
+  {
+    "actorId": "RJ33Y3n9CnPNI3gx",
+    "owner": "何夜白",
+    "relationshipId": "rel_2xrdhIYv7rRCXS0n",
+    "name": "唐索",
+    "targetUuid": "Actor.ELxrslbsSHQg0cmK",
+    "key": "taiyi-rel-00d1fa01d50dac2e:LS-NPC-061",
+    "beforeBio": "S1 月下诊所是双方交集中的接点；不额外推定手术、师承或秘密归属。\n\n关系数值：未评定。",
+    "bio": "唐索曾在月下诊所与何夜白有过接触。"
+  },
+  {
+    "actorId": "vhpt4XZxZn59dWX5",
+    "owner": "凯芙拉·威尔森",
+    "relationshipId": "rel_Vv923DmukXG9uhyq",
+    "name": "萨布里娜·费雷拉",
+    "targetUuid": "Actor.eubCIDi10WeO2cx5",
+    "key": "taiyi-rel-bdf4fa111f0a7bde:LS-PC-kevlar",
+    "beforeBio": "凯芙拉与萨布里娜是朋友，S11 协助安装定制义肢与康复算法。\n\n关系数值：未评定。",
+    "bio": "凯芙拉与萨布里娜是朋友，并协助她安装定制义肢与康复算法。"
+  },
+  {
+    "actorId": "vhpt4XZxZn59dWX5",
+    "owner": "凯芙拉·威尔森",
+    "relationshipId": "rel_OtHXOTRTAGnLirvI",
+    "name": "宋远",
+    "targetUuid": "Actor.O7ycDu9ixwbBxy1d",
+    "key": "taiyi-rel-582e3de07a44f6cd:LS-PC-kevlar",
+    "beforeBio": "凯芙拉通过宋远的港口物流线参与码头事务。\n\n关系数值：未评定。",
+    "bio": "凯芙拉通过宋远的港口物流业务参与码头事务。"
+  },
+  {
+    "actorId": "vhpt4XZxZn59dWX5",
+    "owner": "凯芙拉·威尔森",
+    "relationshipId": "rel_UjSN96yQwxk1iqth",
+    "name": "S.H.",
+    "targetUuid": "Actor.cdESIH9b3XCTsX5K",
+    "key": "taiyi-rel-1082e6e174da72f6:LS-PC-kevlar",
+    "beforeBio": "S.H. 在工云广场网吧通过 TXT 联系凯芙拉与阿尔坎。\n\n关系数值：未评定。",
+    "bio": "S.H. 曾在工云广场网吧通过 TXT 联系凯芙拉与阿尔坎。"
+  },
+  {
+    "actorId": "RqRwsNovNTzMLxwh",
+    "owner": "周凛",
+    "relationshipId": "rel_TeO0s3CO3re638EO",
+    "name": "黑崎欲子",
+    "targetUuid": "Actor.zmeMlq5pVbbqr1rA",
+    "key": "taiyi-rel-13def20c629b36c2:LS-NPC-096",
+    "beforeBio": "照片委托经周凛接洽；S3 已取消，不再标为进行中的交易。\n\n关系数值：未评定。",
+    "bio": "周凛曾向欲子接洽照片委托，后来取消了这份委托。"
+  },
+  {
+    "actorId": "RqRwsNovNTzMLxwh",
+    "owner": "周凛",
+    "relationshipId": "rel_MlPeXhW8YtUvTnl7",
+    "name": "唐索",
+    "targetUuid": "Actor.ELxrslbsSHQg0cmK",
+    "key": "taiyi-rel-03297e6097033be6:LS-NPC-096",
+    "beforeBio": "唐索参与周凛的照片委托；S3 已取消。\n\n关系数值：未评定。",
+    "bio": "唐索曾参与周凛的照片委托，后来这份委托被取消。"
+  },
+  {
+    "actorId": "ELxrslbsSHQg0cmK",
+    "owner": "唐索",
+    "relationshipId": "rel_8AogPHzPyb5ky3TN",
+    "name": "周凛",
+    "targetUuid": "Actor.RqRwsNovNTzMLxwh",
+    "key": "taiyi-rel-03297e6097033be6:LS-PC-tangsuo",
+    "beforeBio": "唐索参与周凛的照片委托；S3 已取消。\n\n关系数值：未评定。",
+    "bio": "唐索曾参与周凛的照片委托，后来这份委托被取消。"
+  },
+  {
+    "actorId": "ELxrslbsSHQg0cmK",
+    "owner": "唐索",
+    "relationshipId": "rel_TuZPFD5FGJNPZ1vY",
+    "name": "何夜白",
+    "targetUuid": "Actor.RJ33Y3n9CnPNI3gx",
+    "key": "taiyi-rel-00d1fa01d50dac2e:LS-PC-tangsuo",
+    "beforeBio": "S1 月下诊所是双方交集中的接点；不额外推定手术、师承或秘密归属。\n\n关系数值：未评定。",
+    "bio": "唐索曾在月下诊所与何夜白有过接触。"
+  },
+  {
+    "actorId": "ELxrslbsSHQg0cmK",
+    "owner": "唐索",
+    "relationshipId": "rel_zRKuP9CxeJWsrJ4i",
+    "name": "尼索科托夫",
+    "targetUuid": "Actor.OJWrqdjFqUyOqbBO",
+    "key": "taiyi-rel-supp-nisokotof-tangsuo:LS-PC-tangsuo",
+    "beforeBio": "唐索熟识尼索科托夫，后者经营地下黑市生意。\n\n关系数值：未评定。",
+    "bio": "唐索熟识尼索科托夫，后者经营地下黑市生意。"
+  },
+  {
+    "actorId": "O7ycDu9ixwbBxy1d",
+    "owner": "宋远",
+    "relationshipId": "rel_0O9CdGK2wUMt6Y0u",
+    "name": "凯芙拉·威尔森",
+    "targetUuid": "Actor.vhpt4XZxZn59dWX5",
+    "key": "taiyi-rel-582e3de07a44f6cd:LS-NPC-065",
+    "beforeBio": "凯芙拉通过宋远的港口物流线参与码头事务。\n\n关系数值：未评定。",
+    "bio": "凯芙拉通过宋远的港口物流业务参与码头事务。"
+  },
+  {
+    "actorId": "a1z7lVrqv6W7wDFI",
+    "owner": "朱瑶光",
+    "relationshipId": "rel_PRL3qjqxFQBB6cU2",
+    "name": "沈漫",
+    "targetUuid": "Actor.gadGwYGyXgzgEfpp",
+    "key": "taiyi-rel-21b0da96fd81f653:LS-NPC-090",
+    "beforeBio": "警局登记沈漫为阿瑶的法定监护人。\n\n关系数值：未评定。",
+    "bio": "警局登记沈漫为阿瑶的法定监护人。"
+  },
+  {
+    "actorId": "a1z7lVrqv6W7wDFI",
+    "owner": "朱瑶光",
+    "relationshipId": "rel_DXyK75n2k4s6hTY9",
+    "name": "沈仲秋",
+    "targetUuid": "Actor.gBq6GwDgNfcln8lB",
+    "key": "taiyi-rel-224cb868a0a92e9e:LS-NPC-090",
+    "beforeBio": "S11 沈仲秋照看阿瑶并协助事务所搬迁。\n\n关系数值：未评定。",
+    "bio": "沈仲秋照看阿瑶，并协助事务所搬迁。"
+  },
+  {
+    "actorId": "a1z7lVrqv6W7wDFI",
+    "owner": "朱瑶光",
+    "relationshipId": "rel_fPgGrCod312SbylC",
+    "name": "李好",
+    "targetUuid": "Actor.dVY3kCrHc0WYyKEa",
+    "key": "taiyi-rel-632ec08c50f397a0:LS-NPC-090",
+    "beforeBio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。\n\n关系数值：未评定。",
+    "bio": "码头事件后，阿瑶修补了众人的身体；大家后来在事务所确认了彼此的生命绑定。"
+  },
+  {
+    "actorId": "a1z7lVrqv6W7wDFI",
+    "owner": "朱瑶光",
+    "relationshipId": "rel_4isXvoD9BzvxJNoY",
+    "name": "黑崎欲子",
+    "targetUuid": "Actor.zmeMlq5pVbbqr1rA",
+    "key": "taiyi-rel-a1e47f392adf346d:LS-NPC-090",
+    "beforeBio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。\n\n关系数值：未评定。",
+    "bio": "码头事件后，阿瑶修补了众人的身体；大家后来在事务所确认了彼此的生命绑定。"
+  },
+  {
+    "actorId": "a1z7lVrqv6W7wDFI",
+    "owner": "朱瑶光",
+    "relationshipId": "rel_c2sfybziNB0uPxyM",
+    "name": "唐索",
+    "targetUuid": "Actor.ELxrslbsSHQg0cmK",
+    "key": "taiyi-rel-ed0cb5fbf46742f3:LS-NPC-090",
+    "beforeBio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。\n\n关系数值：未评定。",
+    "bio": "码头事件后，阿瑶修补了众人的身体；大家后来在事务所确认了彼此的生命绑定。"
+  },
+  {
+    "actorId": "a1z7lVrqv6W7wDFI",
+    "owner": "朱瑶光",
+    "relationshipId": "rel_69lWiKbryQvQk3aX",
+    "name": "雷武龙",
+    "targetUuid": "Actor.j3f9G2P4vDSmmxZw",
+    "key": "taiyi-rel-5e56dd793f2e33f8:LS-NPC-090",
+    "beforeBio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。\n\n关系数值：未评定。",
+    "bio": "码头事件后，阿瑶修补了众人的身体；大家后来在事务所确认了彼此的生命绑定。"
+  },
+  {
+    "actorId": "a1z7lVrqv6W7wDFI",
+    "owner": "朱瑶光",
+    "relationshipId": "rel_kuXrBaOKt9VWBjyD",
+    "name": "凯芙拉·威尔森",
+    "targetUuid": "Actor.vhpt4XZxZn59dWX5",
+    "key": "taiyi-rel-714c678d3384501f:LS-NPC-090",
+    "beforeBio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。\n\n关系数值：未评定。",
+    "bio": "码头事件后，阿瑶修补了众人的身体；大家后来在事务所确认了彼此的生命绑定。"
+  },
+  {
+    "actorId": "a1z7lVrqv6W7wDFI",
+    "owner": "朱瑶光",
+    "relationshipId": "rel_veNmrrGhVnOwBEPV",
+    "name": "阿尔坎·希耶尔",
+    "targetUuid": "Actor.nJxWvLzZvBNXObjk",
+    "key": "taiyi-rel-003e53c31f2be4c8:LS-NPC-090",
+    "beforeBio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。\n\n关系数值：未评定。",
+    "bio": "码头事件后，阿瑶修补了众人的身体；大家后来在事务所确认了彼此的生命绑定。"
+  },
+  {
+    "actorId": "dVY3kCrHc0WYyKEa",
+    "owner": "李好",
+    "relationshipId": "rel_DNMhAeIh6nCl5o1c",
+    "name": "棍木女",
+    "targetUuid": "Actor.zltELu4L5KcmScNG",
+    "key": "taiyi-rel-409a2076c769399e:LS-PC-lihao",
+    "beforeBio": "S7 棍木女在面馆外主动接触李好并赠予木签。\n\n关系数值：未评定。",
+    "bio": "棍木女曾在面馆外主动接触李好，并赠予他一枚木签。"
+  },
+  {
+    "actorId": "dVY3kCrHc0WYyKEa",
+    "owner": "李好",
+    "relationshipId": "rel_riLslW7zOH5yQ8tw",
+    "name": "沈漫",
+    "targetUuid": "Actor.gadGwYGyXgzgEfpp",
+    "key": "taiyi-rel-5ba61e11e3dfc8ea:LS-PC-lihao",
+    "beforeBio": "沈漫在高铁上把阿瑶照片交给李好；后续共同参与事务所生活。\n\n关系数值：未评定。",
+    "bio": "沈漫在高铁上把阿瑶的照片交给李好；两人后来一起生活在事务所。"
+  },
+  {
+    "actorId": "dVY3kCrHc0WYyKEa",
+    "owner": "李好",
+    "relationshipId": "rel_ZIlG6L01pHFAozNw",
+    "name": "何凌",
+    "targetUuid": "Actor.psyMJFu6q5eG3CcD",
+    "key": "taiyi-rel-8655a517a04a719b:LS-PC-lihao",
+    "beforeBio": "李好与何凌曾在江城分行共事；后续有审计与调查联络。\n\n关系数值：未评定。",
+    "bio": "李好与何凌曾在江城分行共事，之后仍因审计与调查保持联系。"
+  },
+  {
+    "actorId": "dVY3kCrHc0WYyKEa",
+    "owner": "李好",
+    "relationshipId": "rel_p2qh8B9CqRzQtD2m",
+    "name": "白念秋",
+    "targetUuid": "Actor.vqcEA8al2OfxGc0p",
+    "key": "taiyi-rel-3f6e8d195ad1ead6:LS-PC-lihao",
+    "beforeBio": "李好答应并完成传达白念秋姐姐托付的请求；白念秋已故。\n\n关系数值：未评定。",
+    "bio": "李好已替白念秋的姐姐传达了托付的请求。白念秋已经离世。"
+  },
+  {
+    "actorId": "dVY3kCrHc0WYyKEa",
+    "owner": "李好",
+    "relationshipId": "rel_gCOUFDdiWGdW9EOy",
+    "name": "萨布里娜·费雷拉",
+    "targetUuid": "Actor.eubCIDi10WeO2cx5",
+    "key": "taiyi-rel-f52f9bef9d757e2f:LS-PC-lihao",
+    "beforeBio": "萨布里娜在码头事件中获李好救助，S11 当面向他道谢。\n\n关系数值：未评定。",
+    "bio": "李好在码头事件中救出萨布里娜；她后来当面向他道谢。"
+  },
+  {
+    "actorId": "dVY3kCrHc0WYyKEa",
+    "owner": "李好",
+    "relationshipId": "rel_uSNta1zHvRWnHArg",
+    "name": "阿瑶",
+    "targetUuid": "Actor.a1z7lVrqv6W7wDFI",
+    "key": "taiyi-rel-632ec08c50f397a0:LS-PC-lihao",
+    "beforeBio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。\n\n关系数值：未评定。",
+    "bio": "码头事件后，阿瑶修补了众人的身体；大家后来在事务所确认了彼此的生命绑定。"
+  },
+  {
+    "actorId": "dVY3kCrHc0WYyKEa",
+    "owner": "李好",
+    "relationshipId": "rel_INzNQmiXSPX85VBS",
+    "name": "陈志远",
+    "targetUuid": "Actor.KwehyM2AWAaHV2ME",
+    "key": "taiyi-rel-99e79f7c565edbbb:LS-PC-lihao",
+    "beforeBio": "陈志远是李好在龙散分行的直接上级。\n\n关系数值：未评定。",
+    "bio": "陈志远是李好在龙散分行的直接上级。"
+  },
+  {
+    "actorId": "c9CMnekZUT44LGED",
+    "owner": "梁文川",
+    "relationshipId": "rel_Jp99HYZxJceXb0OP",
+    "name": "黑崎欲子",
+    "targetUuid": "Actor.zmeMlq5pVbbqr1rA",
+    "key": "taiyi-rel-6d4349ab04827442:LS-NPC-101",
+    "beforeBio": "欲子以阿玉自称结识梁文川并交换联系方式；不附加委托或内幕关系。\n\n关系数值：未评定。",
+    "bio": "欲子在夜宵摊以阿玉自称，与梁文川结识并交换了联系方式。"
+  },
+  {
+    "actorId": "zltELu4L5KcmScNG",
+    "owner": "棍木女",
+    "relationshipId": "rel_0ddqEzvofdJNqMfb",
+    "name": "李好",
+    "targetUuid": "Actor.dVY3kCrHc0WYyKEa",
+    "key": "taiyi-rel-409a2076c769399e:LS-NPC-N3",
+    "beforeBio": "S7 棍木女在面馆外主动接触李好并赠予木签。\n\n关系数值：未评定。",
+    "bio": "棍木女曾在面馆外主动接触李好，并赠予他一枚木签。"
+  },
+  {
+    "actorId": "gBq6GwDgNfcln8lB",
+    "owner": "沈仲秋",
+    "relationshipId": "rel_dYwbnpz6m5QYEmYH",
+    "name": "沈漫",
+    "targetUuid": "Actor.gadGwYGyXgzgEfpp",
+    "key": "taiyi-rel-4eff4d38c71335ec:LS-NPC-089",
+    "beforeBio": "沈漫与沈仲秋为堂姐弟。\n\n关系数值：未评定。",
+    "bio": "沈漫与沈仲秋为堂姐弟。"
+  },
+  {
+    "actorId": "gBq6GwDgNfcln8lB",
+    "owner": "沈仲秋",
+    "relationshipId": "rel_3Jwc1cRLcSUAIiHv",
+    "name": "阿瑶",
+    "targetUuid": "Actor.a1z7lVrqv6W7wDFI",
+    "key": "taiyi-rel-224cb868a0a92e9e:LS-NPC-089",
+    "beforeBio": "S11 沈仲秋照看阿瑶并协助事务所搬迁。\n\n关系数值：未评定。",
+    "bio": "沈仲秋照看阿瑶，并协助事务所搬迁。"
+  },
+  {
+    "actorId": "gadGwYGyXgzgEfpp",
+    "owner": "沈漫",
+    "relationshipId": "rel_SVqoDTZH1CklSzBj",
+    "name": "沈仲秋",
+    "targetUuid": "Actor.gBq6GwDgNfcln8lB",
+    "key": "taiyi-rel-4eff4d38c71335ec:LS-NPC-088",
+    "beforeBio": "沈漫与沈仲秋为堂姐弟。\n\n关系数值：未评定。",
+    "bio": "沈漫与沈仲秋为堂姐弟。"
+  },
+  {
+    "actorId": "gadGwYGyXgzgEfpp",
+    "owner": "沈漫",
+    "relationshipId": "rel_PvFIyloHVn87hlz8",
+    "name": "阿瑶",
+    "targetUuid": "Actor.a1z7lVrqv6W7wDFI",
+    "key": "taiyi-rel-21b0da96fd81f653:LS-NPC-088",
+    "beforeBio": "警局登记沈漫为阿瑶的法定监护人。\n\n关系数值：未评定。",
+    "bio": "警局登记沈漫为阿瑶的法定监护人。"
+  },
+  {
+    "actorId": "gadGwYGyXgzgEfpp",
+    "owner": "沈漫",
+    "relationshipId": "rel_6CqsFNgsvVVioyFS",
+    "name": "李好",
+    "targetUuid": "Actor.dVY3kCrHc0WYyKEa",
+    "key": "taiyi-rel-5ba61e11e3dfc8ea:LS-NPC-088",
+    "beforeBio": "沈漫在高铁上把阿瑶照片交给李好；后续共同参与事务所生活。\n\n关系数值：未评定。",
+    "bio": "沈漫在高铁上把阿瑶的照片交给李好；两人后来一起生活在事务所。"
+  },
+  {
+    "actorId": "gadGwYGyXgzgEfpp",
+    "owner": "沈漫",
+    "relationshipId": "rel_SvxiV2db8lu9Pv4B",
+    "name": "陈斌",
+    "targetUuid": "Actor.27bI4x78JIvvQDk4",
+    "key": "taiyi-rel-b42f52f034a10266:LS-NPC-088",
+    "beforeBio": "沈漫与陈斌是中学时代的老同学。\n\n关系数值：未评定。",
+    "bio": "沈漫与陈斌是中学时代的老同学。"
+  },
+  {
+    "actorId": "vqcEA8al2OfxGc0p",
+    "owner": "白念秋",
+    "relationshipId": "rel_4zY9SRLC1tKFPHoF",
+    "name": "李好",
+    "targetUuid": "Actor.dVY3kCrHc0WYyKEa",
+    "key": "taiyi-rel-3f6e8d195ad1ead6:LS-NPC-037",
+    "beforeBio": "李好答应并完成传达白念秋姐姐托付的请求；白念秋已故。\n\n关系数值：未评定。",
+    "bio": "李好已替白念秋的姐姐传达了托付的请求。白念秋已经离世。"
+  },
+  {
+    "actorId": "OJWrqdjFqUyOqbBO",
+    "owner": "白桦树",
+    "relationshipId": "rel_BYntutkwTXqX7CJw",
+    "name": "唐索",
+    "targetUuid": "Actor.ELxrslbsSHQg0cmK",
+    "key": "taiyi-rel-supp-nisokotof-tangsuo:LS-NPC-SUP-NISOKOTOF",
+    "beforeBio": "唐索熟识尼索科托夫，后者经营地下黑市生意。\n\n关系数值：未评定。",
+    "bio": "唐索熟识尼索科托夫，后者经营地下黑市生意。"
+  },
+  {
+    "actorId": "2YEzICTcbBxgNpxY",
+    "owner": "翟明珠",
+    "relationshipId": "rel_MYfEmLXFkunmBXDQ",
+    "name": "阿尔坎·希耶尔",
+    "targetUuid": "Actor.nJxWvLzZvBNXObjk",
+    "key": "taiyi-rel-e05869fbdd0a4756:LS-NPC-006",
+    "beforeBio": "翟明珠委托阿尔坎修复楚钢相关节点。\n\n关系数值：未评定。",
+    "bio": "翟明珠委托阿尔坎修复楚钢相关节点。"
+  },
+  {
+    "actorId": "eubCIDi10WeO2cx5",
+    "owner": "萨布里娜·费雷拉",
+    "relationshipId": "rel_P7YaEvtJja780yxX",
+    "name": "陈斌",
+    "targetUuid": "Actor.27bI4x78JIvvQDk4",
+    "key": "taiyi-rel-0a104e1c03886aed:LS-NPC-095",
+    "beforeBio": "陈斌负责萨布里娜的义肢医疗方案；S11 已进入康复阶段。\n\n关系数值：未评定。",
+    "bio": "陈斌负责萨布里娜的义肢医疗方案，协助她康复。"
+  },
+  {
+    "actorId": "eubCIDi10WeO2cx5",
+    "owner": "萨布里娜·费雷拉",
+    "relationshipId": "rel_9J64oxoZ9GEKyrH0",
+    "name": "李好",
+    "targetUuid": "Actor.dVY3kCrHc0WYyKEa",
+    "key": "taiyi-rel-f52f9bef9d757e2f:LS-NPC-095",
+    "beforeBio": "萨布里娜在码头事件中获李好救助，S11 当面向他道谢。\n\n关系数值：未评定。",
+    "bio": "李好在码头事件中救出萨布里娜；她后来当面向他道谢。"
+  },
+  {
+    "actorId": "eubCIDi10WeO2cx5",
+    "owner": "萨布里娜·费雷拉",
+    "relationshipId": "rel_9jTFjO9sZm8vrzrZ",
+    "name": "凯芙拉·威尔森",
+    "targetUuid": "Actor.vhpt4XZxZn59dWX5",
+    "key": "taiyi-rel-bdf4fa111f0a7bde:LS-NPC-095",
+    "beforeBio": "凯芙拉与萨布里娜是朋友，S11 协助安装定制义肢与康复算法。\n\n关系数值：未评定。",
+    "bio": "凯芙拉与萨布里娜是朋友，并协助她安装定制义肢与康复算法。"
+  },
+  {
+    "actorId": "gTmMOIwGa6flQvNZ",
+    "owner": "赵明芝",
+    "relationshipId": "rel_kzC95vcem0lF1GR7",
+    "name": "黑崎欲子",
+    "targetUuid": "Actor.zmeMlq5pVbbqr1rA",
+    "key": "taiyi-rel-c78208c3281d1081:LS-NPC-033",
+    "beforeBio": "S11 赵明芝代表司机方委托欲子追回冻结款；其余队友当时尚未正式入局。\n\n关系数值：未评定。",
+    "bio": "赵明芝与欲子在北环等单时相识，后来代表司机们委托她追回被冻结的款项。"
+  },
+  {
+    "actorId": "nJxWvLzZvBNXObjk",
+    "owner": "阿尔坎·希耶尔",
+    "relationshipId": "rel_2jf9AD5tYtg9tOsT",
+    "name": "翟明珠",
+    "targetUuid": "Actor.2YEzICTcbBxgNpxY",
+    "key": "taiyi-rel-e05869fbdd0a4756:LS-PC-arkan",
+    "beforeBio": "翟明珠委托阿尔坎修复楚钢相关节点。\n\n关系数值：未评定。",
+    "bio": "翟明珠委托阿尔坎修复楚钢相关节点。"
+  },
+  {
+    "actorId": "nJxWvLzZvBNXObjk",
+    "owner": "阿尔坎·希耶尔",
+    "relationshipId": "rel_QDADgVkfrusOrx1I",
+    "name": "S.H.",
+    "targetUuid": "Actor.cdESIH9b3XCTsX5K",
+    "key": "taiyi-rel-479172cbce9af87a:LS-PC-arkan",
+    "beforeBio": "S.H. 在工云广场网吧通过 TXT 联系阿尔坎与凯芙拉。\n\n关系数值：未评定。",
+    "bio": "S.H. 曾在工云广场网吧通过 TXT 联系阿尔坎与凯芙拉。"
+  },
+  {
+    "actorId": "nJxWvLzZvBNXObjk",
+    "owner": "阿尔坎·希耶尔",
+    "relationshipId": "rel_SuvgO7cP8sEJaTg4",
+    "name": "何夜白",
+    "targetUuid": "Actor.RJ33Y3n9CnPNI3gx",
+    "key": "taiyi-rel-522a2edb4b3091ac:LS-PC-arkan",
+    "beforeBio": "S1 月下诊所是双方交集中的接点；不额外推定手术、师承或秘密归属。\n\n关系数值：未评定。",
+    "bio": "阿尔坎曾在月下诊所与何夜白有过接触。"
+  },
+  {
+    "actorId": "KwehyM2AWAaHV2ME",
+    "owner": "陈志远",
+    "relationshipId": "rel_RHna9YyCsgyc26b5",
+    "name": "李好",
+    "targetUuid": "Actor.dVY3kCrHc0WYyKEa",
+    "key": "taiyi-rel-99e79f7c565edbbb:LS-NPC-044",
+    "beforeBio": "陈志远是李好在龙散分行的直接上级。\n\n关系数值：未评定。",
+    "bio": "陈志远是李好在龙散分行的直接上级。"
+  },
+  {
+    "actorId": "27bI4x78JIvvQDk4",
+    "owner": "陈斌",
+    "relationshipId": "rel_yCZORPhxetEbSjX5",
+    "name": "沈漫",
+    "targetUuid": "Actor.gadGwYGyXgzgEfpp",
+    "key": "taiyi-rel-b42f52f034a10266:LS-NPC-100",
+    "beforeBio": "沈漫与陈斌是中学时代的老同学。\n\n关系数值：未评定。",
+    "bio": "沈漫与陈斌是中学时代的老同学。"
+  },
+  {
+    "actorId": "27bI4x78JIvvQDk4",
+    "owner": "陈斌",
+    "relationshipId": "rel_Id5MHBWHg1nKbxbD",
+    "name": "萨布里娜·费雷拉",
+    "targetUuid": "Actor.eubCIDi10WeO2cx5",
+    "key": "taiyi-rel-0a104e1c03886aed:LS-NPC-100",
+    "beforeBio": "陈斌负责萨布里娜的义肢医疗方案；S11 已进入康复阶段。\n\n关系数值：未评定。",
+    "bio": "陈斌负责萨布里娜的义肢医疗方案，协助她康复。"
+  },
+  {
+    "actorId": "j3f9G2P4vDSmmxZw",
+    "owner": "雷武龙",
+    "relationshipId": "rel_Vho5pzJjVECAtd5j",
+    "name": "阿瑶",
+    "targetUuid": "Actor.a1z7lVrqv6W7wDFI",
+    "key": "taiyi-rel-5e56dd793f2e33f8:LS-PC-lei",
+    "beforeBio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。\n\n关系数值：未评定。",
+    "bio": "码头事件后，阿瑶修补了众人的身体；大家后来在事务所确认了彼此的生命绑定。"
+  },
+  {
+    "actorId": "j3f9G2P4vDSmmxZw",
+    "owner": "雷武龙",
+    "relationshipId": "rel_ZD1f5BnUBO7aFuJ8",
+    "name": "何夜白",
+    "targetUuid": "Actor.RJ33Y3n9CnPNI3gx",
+    "key": "taiyi-rel-bcb101f1081ad140:LS-PC-lei",
+    "beforeBio": "S1 月下诊所是双方交集中的接点；不额外推定手术、师承或秘密归属。\n\n关系数值：未评定。",
+    "bio": "雷武龙曾在月下诊所与何夜白有过接触。"
+  },
+  {
+    "actorId": "zmeMlq5pVbbqr1rA",
+    "owner": "黑崎欲子",
+    "relationshipId": "rel_b9ZmGK57C13qIoob",
+    "name": "周凛",
+    "targetUuid": "Actor.RqRwsNovNTzMLxwh",
+    "key": "taiyi-rel-13def20c629b36c2:LS-PC-yuko",
+    "beforeBio": "照片委托经周凛接洽；S3 已取消，不再标为进行中的交易。\n\n关系数值：未评定。",
+    "bio": "周凛曾向欲子接洽照片委托，后来取消了这份委托。"
+  },
+  {
+    "actorId": "zmeMlq5pVbbqr1rA",
+    "owner": "黑崎欲子",
+    "relationshipId": "rel_bQiGz6gmO4ycTgNv",
+    "name": "赵明芝",
+    "targetUuid": "Actor.gTmMOIwGa6flQvNZ",
+    "key": "taiyi-rel-c78208c3281d1081:LS-PC-yuko",
+    "beforeBio": "S11 赵明芝代表司机方委托欲子追回冻结款；其余队友当时尚未正式入局。\n\n关系数值：未评定。",
+    "bio": "赵明芝与欲子在北环等单时相识，后来代表司机们委托她追回被冻结的款项。"
+  },
+  {
+    "actorId": "zmeMlq5pVbbqr1rA",
+    "owner": "黑崎欲子",
+    "relationshipId": "rel_MQS9HvGfv6mZqEgw",
+    "name": "梁文川",
+    "targetUuid": "Actor.c9CMnekZUT44LGED",
+    "key": "taiyi-rel-6d4349ab04827442:LS-PC-yuko",
+    "beforeBio": "欲子以阿玉自称结识梁文川并交换联系方式；不附加委托或内幕关系。\n\n关系数值：未评定。",
+    "bio": "欲子在夜宵摊以阿玉自称，与梁文川结识并交换了联系方式。"
+  }
+]

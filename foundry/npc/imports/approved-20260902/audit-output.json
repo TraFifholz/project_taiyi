@@ -1,0 +1,666 @@
+{
+  "verifiedAt": "2026-09-02T16:07:17.040Z",
+  "actorCount": 118,
+  "customPortraitsVerified": 93,
+  "requestedPortraitMappingPassed": true,
+  "changes": [
+    {
+      "actor": "LR-07",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "S.H.",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "万祁连",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "九条千寻",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "于正清",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "伊莱恩·莫罗",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "何凌",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "何夜白",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "何问舟",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "党怀沙",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "冯宁汐",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "凌渡",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "凯芙拉·威尔森",
+      "fields": [
+        "flags.stylish-relationship-tracker.relationshipData.relationships.4.listImage",
+        "flags.stylish-relationship-tracker.relationshipData.relationships.4.mapThumbnail",
+        "flags.stylish-relationship-tracker.relationshipData.relationships.4.portrait"
+      ]
+    },
+    {
+      "actor": "卓近火",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "单小鹿",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "卢卡·阿奎拉",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "卫铁生",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "向柳",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "周凛",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "周敏",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "周清梅",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "夏满弓",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "宋光明",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "宋远",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "巫明烛",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "文小篆",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "方泰安",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "方见",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "曲阿七",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "朱恒（身份待核）",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "朱瑶光",
+      "fields": [
+        "flags.ginzzzu-portraits.portraitCustomImage"
+      ]
+    },
+    {
+      "actor": "朱见微",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "杜若",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "杨振邦",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "林彬",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "林鹤",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "柳拂衣",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "梁文川",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "棍木女",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "沈丹青",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "沈仲秋",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "沈折琼",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "沈漫",
+      "fields": [
+        "flags.ginzzzu-portraits.portraitCustomImage"
+      ]
+    },
+    {
+      "actor": "燕尺素",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "玄圭",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "甘棠",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "甘采蓝",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "田进财",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "男偶像",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "白念秋",
+      "fields": [
+        "flags.ginzzzu-portraits.portraitShown",
+        "flags.ginzzzu-portraits.portraitHeightMultiplier",
+        "flags.ginzzzu-portraits.portraitBreathingMultiplier",
+        "flags.ginzzzu-portraits.portraitCustomImage",
+        "flags.ginzzzu-portraits.showStandardEmotions",
+        "flags.ginzzzu-portraits.customEmotions",
+        "flags.tokenizer-2.layerStack.1.transform.scaleX",
+        "flags.tokenizer-2.layerStack.1.transform.scaleY"
+      ]
+    },
+    {
+      "actor": "白鸢",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "白鹤年",
+      "fields": [
+        "flags.ginzzzu-portraits.portraitCustomImage"
+      ]
+    },
+    {
+      "actor": "秦时雨",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "秦有邻",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "程雯",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "童司南",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "红皇后",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "纪小刀",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "纪慎微",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "纪清商",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "罗弈",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "罗鸣谦",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "翟明珠",
+      "fields": [
+        "flags.world.taiyiNpc.approvedRun",
+        "flags.world.taiyiNpc.sourceSha256",
+        "flags.ginzzzu-portraits",
+        "img",
+        "prototypeToken.texture.src"
+      ]
+    },
+    {
+      "actor": "老井（井叔）",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "艾德礼·霍华德",
+      "fields": [
+        "flags.ginzzzu-portraits.portraitCustomImage"
+      ]
+    },
+    {
+      "actor": "苏小晚",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "苏碧城",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "苗可栗",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "苗铁城",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "萨布里娜·费雷拉",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "葛兆康（老葛）",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "薄晚",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "西尔维娅",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "谢翠莲",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "贺梦琪",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "贾红",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "赵明芝",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "邢九重",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "郁垒",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "郜白",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "金舸",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "钟月台",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "铁手（李铁牙）",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "闵三元",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "阿尔坎·希耶尔",
+      "fields": [
+        "flags.stylish-relationship-tracker.relationshipData.relationships.2.listImage",
+        "flags.stylish-relationship-tracker.relationshipData.relationships.2.mapThumbnail",
+        "flags.stylish-relationship-tracker.relationshipData.relationships.2.portrait",
+        "flags.stylish-relationship-tracker.relationshipData.relationships.3.listImage",
+        "flags.stylish-relationship-tracker.relationshipData.relationships.3.mapThumbnail",
+        "flags.stylish-relationship-tracker.relationshipData.relationships.3.portrait"
+      ]
+    },
+    {
+      "actor": "阿岛俊",
+      "fields": [
+        "flags.ginzzzu-portraits.portraitCustomImage"
+      ]
+    },
+    {
+      "actor": "陆文青",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "陈志远",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "陈斌",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "雷小鼓",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "霍云骧",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "顾全有",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "马铁鹰",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "鹿岛绫",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    },
+    {
+      "actor": "黑川",
+      "fields": [
+        "flags.ginzzzu-portraits"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "ownerId": "vhpt4XZxZn59dWX5",
+      "owner": "凯芙拉·威尔森",
+      "relationshipId": "rel_UjSN96yQwxk1iqth",
+      "target": "Actor.cdESIH9b3XCTsX5K",
+      "portrait": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902.webp",
+      "listImage": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp",
+      "mapThumbnail": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp"
+    },
+    {
+      "ownerId": "nJxWvLzZvBNXObjk",
+      "owner": "阿尔坎·希耶尔",
+      "relationshipId": "rel_2jf9AD5tYtg9tOsT",
+      "target": "Actor.2YEzICTcbBxgNpxY",
+      "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-006-20260902-pink-v4.webp",
+      "listImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp",
+      "mapThumbnail": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp"
+    },
+    {
+      "ownerId": "nJxWvLzZvBNXObjk",
+      "owner": "阿尔坎·希耶尔",
+      "relationshipId": "rel_QDADgVkfrusOrx1I",
+      "target": "Actor.cdESIH9b3XCTsX5K",
+      "portrait": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902.webp",
+      "listImage": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp",
+      "mapThumbnail": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp"
+    }
+  ],
+  "whiteAvatarTokenAndRelationsPreserved": true,
+  "partyRanksPreserved": true,
+  "sceneTokensPreserved": true,
+  "failures": [
+    {
+      "actor": "白念秋",
+      "unexpected": [
+        {
+          "path": "flags.ginzzzu-portraits.portraitShown",
+          "before": false,
+          "after": true
+        },
+        {
+          "path": "flags.ginzzzu-portraits.portraitHeightMultiplier",
+          "after": 1
+        },
+        {
+          "path": "flags.ginzzzu-portraits.portraitBreathingMultiplier",
+          "after": 1
+        },
+        {
+          "path": "flags.ginzzzu-portraits.showStandardEmotions",
+          "after": true
+        },
+        {
+          "path": "flags.ginzzzu-portraits.customEmotions",
+          "after": []
+        },
+        {
+          "path": "flags.tokenizer-2.layerStack.1.transform.scaleX",
+          "before": 0.41106,
+          "after": 0.41106000000000004
+        },
+        {
+          "path": "flags.tokenizer-2.layerStack.1.transform.scaleY",
+          "before": 0.41106,
+          "after": 0.41106000000000004
+        }
+      ]
+    }
+  ]
+}

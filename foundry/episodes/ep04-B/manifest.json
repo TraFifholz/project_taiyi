@@ -1,0 +1,6864 @@
+{
+  "folder": {
+    "_id": "b7132602db6b7670",
+    "name": "第四话 B · 管委会围捕李好",
+    "type": "Actor",
+    "color": "#426b85",
+    "flags": {
+      "world": {
+        "taiyiEp04B": {
+          "key": "folder"
+        }
+      }
+    }
+  },
+  "actors": [
+    {
+      "_id": "0da6344f62a6c2d3",
+      "name": "无标识抓捕枪手",
+      "type": "npc",
+      "folder": "b7132602db6b7670",
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "strength": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": false,
+        "wounds": {
+          "value": 0,
+          "max": 0,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 0,
+          "max": 0
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 6,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "无标识抓捕枪手",
+          "biography": {
+            "value": "<p>第四话本场行动模板，未覆盖正式人物档案。</p>"
+          },
+          "notes": "<p>六名枪手之外另有一名持盾队长。三人压制、三人封楼梯；远近武器正常行动，先束缚再押走。撤离时的两名后门射手来自幸存枪手，不能补人。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "f65fe630c36bf63f",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "0a259aab564eaba2",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "4964b48de7b6c0cb",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "66889f2adbc328f1",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "73a2496a17975288",
+          "name": "潜行",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "stealth",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "dafea9133af4f2a1",
+          "name": "护甲",
+          "type": "armor",
+          "img": "systems/swade/assets/icons/armor.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "armor": 2,
+            "equipStatus": 3,
+            "equippable": true,
+            "locations": {
+              "torso": true,
+              "head": false,
+              "arms": false,
+              "legs": false
+            },
+            "quantity": 1
+          }
+        },
+        {
+          "_id": "b2768b6074c01c2d",
+          "name": "电击投射器",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>非致命伤害，结果手动标记；不额外免费震慑。</p>",
+            "favorite": true,
+            "damage": "2d6",
+            "range": "5/10/20",
+            "rangeType": 1,
+            "ap": 0,
+            "rof": 1,
+            "shots": 4,
+            "currentShots": 4,
+            "reloadType": "magazine",
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "templates": {
+              "medium": false,
+              "small": false,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          }
+        },
+        {
+          "_id": "5b82c815b2064840",
+          "name": "手枪",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>正常SWADE攻击与弹药消耗。</p>",
+            "favorite": true,
+            "damage": "2d6",
+            "range": "12/24/48",
+            "rangeType": 1,
+            "ap": 1,
+            "rof": 1,
+            "shots": 12,
+            "currentShots": 12,
+            "reloadType": "magazine",
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "templates": {
+              "medium": false,
+              "small": false,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          }
+        },
+        {
+          "_id": "c263430d6d972a6f",
+          "name": "束缚器",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>须先擒抱并控制住目标，再花动作戴上；不能命中一下就自动带走PC。</p>",
+            "favorite": true,
+            "damage": "",
+            "range": "",
+            "rangeType": 0,
+            "ap": 0,
+            "rof": 1,
+            "shots": 0,
+            "currentShots": 0,
+            "reloadType": "none",
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "格斗",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "templates": {
+              "medium": false,
+              "small": false,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          }
+        },
+        {
+          "_id": "bc80b660b1dacee7",
+          "name": "本场行动与退出条件",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>六名枪手之外另有一名持盾队长。三人压制、三人封楼梯；远近武器正常行动，先束缚再押走。撤离时的两名后门射手来自幸存枪手，不能补人。</p>",
+            "favorite": true
+          }
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "无标识抓捕枪手",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {},
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04B": {
+            "key": "pmc",
+            "version": 1
+          }
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "754f316da9072c08",
+      "name": "重盾抓捕队长",
+      "type": "npc",
+      "folder": "b7132602db6b7670",
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-B-shield.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "strength": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": true,
+        "wounds": {
+          "value": 0,
+          "max": 3,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 2,
+          "max": 2
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 6,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "重盾抓捕队长",
+          "biography": {
+            "value": "<p>第四话本场行动模板，未覆盖正式人物档案。</p>"
+          },
+          "notes": "<p>盾牌仅保护实际面对的方向，侧后方不加盾值；受伤逃跑也不自动被方杀死，若被砸同样正常结算。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "81e845a9f865b1f8",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "42aafd88891010da",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "10cfc2f84a78b8c6",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "1c1bfcac6451be2e",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "e5b84debbc2dec54",
+          "name": "潜行",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "stealth",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "dddf404e80658b64",
+          "name": "交涉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "persuasion",
+            "attribute": "spirit",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "4e5a006b102eb2e1",
+          "name": "护甲",
+          "type": "armor",
+          "img": "systems/swade/assets/icons/armor.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "armor": 2,
+            "equipStatus": 3,
+            "equippable": true,
+            "locations": {
+              "torso": true,
+              "head": false,
+              "arms": false,
+              "legs": false
+            },
+            "quantity": 1
+          }
+        },
+        {
+          "_id": "89743a095b790c30",
+          "name": "手枪",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>正常SWADE攻击与弹药消耗。</p>",
+            "favorite": true,
+            "damage": "2d6",
+            "range": "12/24/48",
+            "rangeType": 1,
+            "ap": 1,
+            "rof": 1,
+            "shots": 12,
+            "currentShots": 12,
+            "reloadType": "magazine",
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "templates": {
+              "medium": false,
+              "small": false,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          }
+        },
+        {
+          "_id": "667c16ca90adbb9b",
+          "name": "电击棍",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>非致命伤害，手动标记。</p>",
+            "favorite": true,
+            "damage": "@str+d4",
+            "range": "",
+            "rangeType": 0,
+            "ap": 0,
+            "rof": 1,
+            "shots": 0,
+            "currentShots": 0,
+            "reloadType": "none",
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "格斗",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "templates": {
+              "medium": false,
+              "small": false,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          }
+        },
+        {
+          "_id": "2909438dbc4740c8",
+          "name": "本场行动与退出条件",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>盾牌仅保护实际面对的方向，侧后方不加盾值；受伤逃跑也不自动被方杀死，若被砸同样正常结算。</p>",
+            "favorite": true
+          }
+        },
+        {
+          "_id": "6ef2a362fa1c9dcc",
+          "name": "重型防暴盾",
+          "type": "shield",
+          "img": "systems/swade/assets/icons/shield.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>仅盾牌朝向：近战格挡+2，远程掩护−4；侧后方不得享受。朝向与侧袭由GM判定。</p>",
+            "parry": 2,
+            "cover": 4,
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1
+          }
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "重盾抓捕队长",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-B-shield.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {},
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04B": {
+            "key": "shield",
+            "version": 1
+          }
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "4eabff7af19862ee",
+      "name": "管委会外围执勤员",
+      "type": "npc",
+      "folder": "b7132602db6b7670",
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-B-official.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "strength": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": false,
+        "wounds": {
+          "value": 0,
+          "max": 0,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 0,
+          "max": 0
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 6,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "管委会外围执勤员",
+          "biography": {
+            "value": "<p>第四话本场行动模板，未覆盖正式人物档案。</p>"
+          },
+          "notes": "<p>不知抓捕内情；两人执勤，非默认敌军。不因一句举报就背叛阵营；看到误伤和私人暴力、获救或衡量风险后停止协助。可伤可救，不强制压死。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "f65fe630c36bf63f",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "0a259aab564eaba2",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "4964b48de7b6c0cb",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "66889f2adbc328f1",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "73a2496a17975288",
+          "name": "潜行",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "stealth",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "f729a4590f7b9cb2",
+          "name": "护甲",
+          "type": "armor",
+          "img": "systems/swade/assets/icons/armor.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "armor": 1,
+            "equipStatus": 3,
+            "equippable": true,
+            "locations": {
+              "torso": true,
+              "head": false,
+              "arms": false,
+              "legs": false
+            },
+            "quantity": 1
+          }
+        },
+        {
+          "_id": "1cfce5c1ef970607",
+          "name": "手枪",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>正常SWADE攻击与弹药消耗。</p>",
+            "favorite": true,
+            "damage": "2d6",
+            "range": "12/24/48",
+            "rangeType": 1,
+            "ap": 1,
+            "rof": 1,
+            "shots": 12,
+            "currentShots": 12,
+            "reloadType": "magazine",
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "templates": {
+              "medium": false,
+              "small": false,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          }
+        },
+        {
+          "_id": "c5f4707682aad11e",
+          "name": "本场行动与退出条件",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>不知抓捕内情；两人执勤，非默认敌军。不因一句举报就背叛阵营；看到误伤和私人暴力、获救或衡量风险后停止协助。可伤可救，不强制压死。</p>",
+            "favorite": true
+          }
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "管委会外围执勤员",
+        "actorLink": false,
+        "disposition": 0,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-B-official.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {},
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04B": {
+            "key": "official",
+            "version": 1
+          }
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "70fab6ef9664fff0",
+      "name": "封路自动机",
+      "type": "npc",
+      "folder": "b7132602db6b7670",
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-B-blocker.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "unShakeBonus": 2
+          },
+          "strength": {
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": false,
+        "wounds": {
+          "value": 0,
+          "max": 1,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 0,
+          "max": 0
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 5,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 1,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "封路自动机",
+          "biography": {
+            "value": "<p>第四话本场行动模板，未覆盖正式人物档案。</p>"
+          },
+          "notes": "<p>每轮选冲撞、网枪、震荡之一；移入楼内需要抓捕队花动作切换强制模式。优先追可见移动最快者；不自动锁定全图。背部散热口瞄准−2，命中忽略3护甲。缴获控制器后电子学成功可改一个目标或停机；贴近维修同理。构装体动摇恢复+2。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "12c0bb9517bb8ea4",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "743073faa411282f",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "3af756854c11061d",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "39bfb3aacf24170c",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "39290c781448ed72",
+          "name": "护甲",
+          "type": "armor",
+          "img": "systems/swade/assets/icons/armor.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "armor": 3,
+            "equipStatus": 3,
+            "equippable": true,
+            "locations": {
+              "torso": true,
+              "head": false,
+              "arms": false,
+              "legs": false
+            },
+            "quantity": 1
+          }
+        },
+        {
+          "_id": "8cf687d1ec8d7402",
+          "name": "高压网枪",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>射击命中使目标纠缠，优良束缚；按SWADE脱困处理，无伤害，不自动把人拖走。</p>",
+            "favorite": true,
+            "damage": "",
+            "range": "6/12/24",
+            "rangeType": 1,
+            "ap": 0,
+            "rof": 1,
+            "shots": 3,
+            "currentShots": 3,
+            "reloadType": "magazine",
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "templates": {
+              "medium": false,
+              "small": false,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          }
+        },
+        {
+          "_id": "dbb9648d21e26787",
+          "name": "震荡波",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>消耗一个动作，半径2英寸内所有生物（含友方）以活力抵抗固定TN4，失败分神、致命失败倒地；不造成伤害。本场暂定，不叠免费震慑。</p>",
+            "favorite": true,
+            "damage": "",
+            "range": "",
+            "rangeType": 1,
+            "ap": 0,
+            "rof": 1,
+            "shots": 0,
+            "currentShots": 0,
+            "reloadType": "none",
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "templates": {
+              "medium": false,
+              "small": false,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          }
+        },
+        {
+          "_id": "dee3e0d85532e3c3",
+          "name": "撞击",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>先明确路线，再移动接触并格斗攻击；旁人不自动受伤。</p>",
+            "favorite": true,
+            "damage": "@str+d6",
+            "range": "",
+            "rangeType": 0,
+            "ap": 0,
+            "rof": 1,
+            "shots": 0,
+            "currentShots": 0,
+            "reloadType": "none",
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "格斗",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "templates": {
+              "medium": false,
+              "small": false,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          }
+        },
+        {
+          "_id": "aa1cc53082f0d0cd",
+          "name": "本场行动与退出条件",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>每轮选冲撞、网枪、震荡之一；移入楼内需要抓捕队花动作切换强制模式。优先追可见移动最快者；不自动锁定全图。背部散热口瞄准−2，命中忽略3护甲。缴获控制器后电子学成功可改一个目标或停机；贴近维修同理。构装体动摇恢复+2。</p>",
+            "favorite": true
+          }
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "封路自动机",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-B-blocker.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 2,
+        "height": 2,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {},
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04B": {
+            "key": "blocker",
+            "version": 1
+          }
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "b3b81823b27161e4",
+      "name": "防弹押送车司机",
+      "type": "npc",
+      "folder": "b7132602db6b7670",
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-operator.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "strength": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": false,
+        "wounds": {
+          "value": 0,
+          "max": 0,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 0,
+          "max": 0
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 6,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "防弹押送车司机",
+          "biography": {
+            "value": "<p>第四话本场行动模板，未覆盖正式人物档案。</p>"
+          },
+          "notes": "<p>只此一名司机，留在车中；驾驶、射击照常算多动作，截停后可以投降，不必击杀。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "f06219531b190bd5",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "6a72edee98d28f6e",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "ccf2105c89020c8c",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "23a883c7393305ab",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "4bb9d731e0066aa6",
+          "name": "驾驶",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "driving",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "90d17f55efeef2d1",
+          "name": "电子学",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "electronics",
+            "attribute": "smarts",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "40ddf3924e42f730",
+          "name": "修理",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "repair",
+            "attribute": "smarts",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "8507c318b66927bd",
+          "name": "护甲",
+          "type": "armor",
+          "img": "systems/swade/assets/icons/armor.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "armor": 2,
+            "equipStatus": 3,
+            "equippable": true,
+            "locations": {
+              "torso": true,
+              "head": false,
+              "arms": false,
+              "legs": false
+            },
+            "quantity": 1
+          }
+        },
+        {
+          "_id": "1f03f3544368849d",
+          "name": "手枪",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>正常SWADE攻击与弹药消耗。</p>",
+            "favorite": true,
+            "damage": "2d6",
+            "range": "12/24/48",
+            "rangeType": 1,
+            "ap": 1,
+            "rof": 1,
+            "shots": 12,
+            "currentShots": 12,
+            "reloadType": "magazine",
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "templates": {
+              "medium": false,
+              "small": false,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          }
+        },
+        {
+          "_id": "04c05acd0c116c60",
+          "name": "本场行动与退出条件",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>只此一名司机，留在车中；驾驶、射击照常算多动作，截停后可以投降，不必击杀。</p>",
+            "favorite": true
+          }
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "防弹押送车司机",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-operator.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {},
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04B": {
+            "key": "driver",
+            "version": 1
+          }
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "6970ba22eb073244",
+      "name": "何凌 · B场行动",
+      "type": "npc",
+      "folder": "b7132602db6b7670",
+      "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-046.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "strength": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": true,
+        "wounds": {
+          "value": 0,
+          "max": 3,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 2,
+          "max": 2
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 6,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "何凌 · B场行动",
+          "biography": {
+            "value": "<p>第四话本场行动模板，未覆盖正式人物档案。</p>"
+          },
+          "notes": "<p>本场临时行动数据。第一次安全间隙就说：方以重建资金购买失踪服务，陈培安被送进异常空间，管委会地下灾备厅是操作地点。不涉及梁。猫变人不治疗、不重置行动；若受伤，跨形态保留伤势。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "3c4c80310ba04f91",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "79be07b532760ed2",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "ba763e5a6c2fec98",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "2f3ea9057114985a",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "ced2a558519a3b00",
+          "name": "潜行",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "stealth",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "d8bfd68790d12031",
+          "name": "交涉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "persuasion",
+            "attribute": "spirit",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "a218003599d39dca",
+          "name": "集中",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "focus",
+            "attribute": "spirit",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "bd1c5d84826eaa3f",
+          "name": "护甲",
+          "type": "armor",
+          "img": "systems/swade/assets/icons/armor.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "armor": 2,
+            "equipStatus": 3,
+            "equippable": true,
+            "locations": {
+              "torso": true,
+              "head": false,
+              "arms": false,
+              "legs": false
+            },
+            "quantity": 1
+          }
+        },
+        {
+          "_id": "93795b3af3e586d1",
+          "name": "本场行动与退出条件",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>本场临时行动数据。第一次安全间隙就说：方以重建资金购买失踪服务，陈培安被送进异常空间，管委会地下灾备厅是操作地点。不涉及梁。猫变人不治疗、不重置行动；若受伤，跨形态保留伤势。</p>",
+            "favorite": true
+          }
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "何凌",
+        "actorLink": false,
+        "disposition": 0,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/LS-NPC-046.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {},
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04B": {
+            "key": "heling",
+            "version": 1
+          }
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "f12d924cee9432a9",
+      "name": "陈志远 · B场疏散",
+      "type": "npc",
+      "folder": "b7132602db6b7670",
+      "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-044.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "strength": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": false,
+        "wounds": {
+          "value": 0,
+          "max": 0,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 0,
+          "max": 0
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 6,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "陈志远 · B场疏散",
+          "biography": {
+            "value": "<p>第四话本场行动模板，未覆盖正式人物档案。</p>"
+          },
+          "notes": "<p>熟悉办公室出口，先带同事躲开枪线；可协助开消防门，不能凭空取消封路权限。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "fd4d5787f2dc989b",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "13a6a4801b1d8c07",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "6288107d2f2eb52b",
+          "name": "交涉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "persuasion",
+            "attribute": "spirit",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "5f68da387031d0d4",
+          "name": "潜行",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "stealth",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "6046da1db07cd9a5",
+          "name": "本场行动与退出条件",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>熟悉办公室出口，先带同事躲开枪线；可协助开消防门，不能凭空取消封路权限。</p>",
+            "favorite": true
+          }
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "陈志远",
+        "actorLink": false,
+        "disposition": 0,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/LS-NPC-044.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {},
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04B": {
+            "key": "chen",
+            "version": 1
+          }
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "cb2e6d3b234b58bb",
+      "name": "方泰安 · B-D连续战斗",
+      "type": "npc",
+      "folder": "b7132602db6b7670",
+      "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-077.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "strength": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": true,
+        "wounds": {
+          "value": 0,
+          "max": 3,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 2,
+          "max": 2
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 6,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "方泰安 · B-D连续战斗",
+          "biography": {
+            "value": "<p>第四话本场行动模板，未覆盖正式人物档案。</p>"
+          },
+          "notes": "<p>同一张战斗卡持续到D，不复制满血。念动每项使用占一个动作；擒抱用集中对运动，命中不是自动提走。搬动常规物件按念动规则；报废车掀抛为本场场景特技：先花动作升起标记危险区，下轮集中攻击，可见目标离开则落空，3d8/AP0/中型模板，不能无预警必中。方受伤就怕死；若被堵住，D就在当前地点接战。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "d622656c4d9c45be",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "ee99422b04766b00",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "0b230f924c6f7676",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "e6f872352f6ee644",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "a36b27a634df0b6b",
+          "name": "集中",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "focus",
+            "attribute": "spirit",
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "c104d7a2f1f914cf",
+          "name": "威吓",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "intimidation",
+            "attribute": "spirit",
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "0239341354951f9f",
+          "name": "护甲",
+          "type": "armor",
+          "img": "systems/swade/assets/icons/armor.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "armor": 2,
+            "equipStatus": 3,
+            "equippable": true,
+            "locations": {
+              "torso": true,
+              "head": false,
+              "arms": false,
+              "legs": false
+            },
+            "quantity": 1
+          }
+        },
+        {
+          "_id": "82aeeceef949f465",
+          "name": "念动投掷",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>场景特技：上一轮公开升起重物与落点，本轮用集中攻击；区域为中型爆炸模板，正常处理闪避/掩体，离开区域即规避。不是无上限隔空攻击。</p>",
+            "favorite": true,
+            "damage": "3d8",
+            "range": "12",
+            "rangeType": 1,
+            "ap": 0,
+            "rof": 1,
+            "shots": 0,
+            "currentShots": 0,
+            "reloadType": "none",
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "集中",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "templates": {
+              "medium": true,
+              "small": false,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          }
+        },
+        {
+          "_id": "33310c49edb5ce3a",
+          "name": "本场行动与退出条件",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>同一张战斗卡持续到D，不复制满血。念动每项使用占一个动作；擒抱用集中对运动，命中不是自动提走。搬动常规物件按念动规则；报废车掀抛为本场场景特技：先花动作升起标记危险区，下轮集中攻击，可见目标离开则落空，3d8/AP0/中型模板，不能无预警必中。方受伤就怕死；若被堵住，D就在当前地点接战。</p>",
+            "favorite": true
+          }
+        },
+        {
+          "_id": "e977ee7f6f4e4732",
+          "name": "念动 · 本场基础",
+          "type": "swade-supers-companion.superPower",
+          "img": "systems/swade/assets/icons/power.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>基于玩家手册念动3点，加三次强力6点，力量d12，射程12英寸；外在技能用集中与原技能较低者，擒抱用集中；每项使用花动作。9点只是已列能力费用，不代表完整人物总预算。掀车另按卡内场景特技裁定。</p>",
+            "level": 1,
+            "build": {
+              "cost": 9,
+              "level": 1,
+              "limit": 9
+            },
+            "range": "12",
+            "favorite": true,
+            "trapping": "念动力",
+            "actions": {
+              "trait": "集中",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            }
+          }
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "方泰安",
+        "actorLink": true,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/LS-NPC-077.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {},
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04B": {
+            "key": "fang",
+            "version": 1
+          }
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "c18720a6766a487e",
+      "name": "随行超级特工 · B-D连续战斗",
+      "type": "npc",
+      "folder": "b7132602db6b7670",
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-B-agent.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "strength": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": true,
+        "wounds": {
+          "value": 0,
+          "max": 3,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 2,
+          "max": 2
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 6,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "随行超级特工 · B-D连续战斗",
+          "biography": {
+            "value": "<p>第四话本场行动模板，未覆盖正式人物档案。</p>"
+          },
+          "notes": "<p>同一特工持续到D，伤势弹药保留。短距位移为本场暂定能力：消耗一个动作，集中成功移动至6英寸内可见空位；携带方需接触并应用多动作或拖拽限制。可以靠预留行动、移动与掩护保护方，不能免费拦掉所有子弹。连续位移第三次起每次再获1疲劳，休息后恢复，至疲惫停用。方已经无可挽回时沿D灭口收口；不提前说出上级。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "701c3f54f259d9b5",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "c63a18c750f0c250",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "d6c9fdf01c990801",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "ad8d63bb680576c4",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "c8e608f16f51fea9",
+          "name": "潜行",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "stealth",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "45e7bab51908914c",
+          "name": "集中",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "swid": "focus",
+            "attribute": "spirit",
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        {
+          "_id": "faad00f383044fee",
+          "name": "护甲",
+          "type": "armor",
+          "img": "systems/swade/assets/icons/armor.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "",
+            "armor": 2,
+            "equipStatus": 3,
+            "equippable": true,
+            "locations": {
+              "torso": true,
+              "head": false,
+              "arms": false,
+              "legs": false
+            },
+            "quantity": 1
+          }
+        },
+        {
+          "_id": "272e9c8539eb0537",
+          "name": "精密手枪",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>正常SWADE攻击与弹药消耗。</p>",
+            "favorite": true,
+            "damage": "2d6+1",
+            "range": "12/24/48",
+            "rangeType": 1,
+            "ap": 2,
+            "rof": 1,
+            "shots": 15,
+            "currentShots": 15,
+            "reloadType": "magazine",
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "templates": {
+              "medium": false,
+              "small": false,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          }
+        },
+        {
+          "_id": "1867f2783d0121db",
+          "name": "近身打击",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>正常SWADE攻击与弹药消耗。</p>",
+            "favorite": true,
+            "damage": "@str+d4",
+            "range": "",
+            "rangeType": 0,
+            "ap": 0,
+            "rof": 1,
+            "shots": 0,
+            "currentShots": 0,
+            "reloadType": "none",
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "格斗",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "templates": {
+              "medium": false,
+              "small": false,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          }
+        },
+        {
+          "_id": "469fea9aaeef92db",
+          "name": "本场行动与退出条件",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "effects": [],
+          "system": {
+            "source": "第四话B · 本场预备构筑",
+            "description": "<p>同一特工持续到D，伤势弹药保留。短距位移为本场暂定能力：消耗一个动作，集中成功移动至6英寸内可见空位；携带方需接触并应用多动作或拖拽限制。可以靠预留行动、移动与掩护保护方，不能免费拦掉所有子弹。连续位移第三次起每次再获1疲劳，休息后恢复，至疲惫停用。方已经无可挽回时沿D灭口收口；不提前说出上级。</p>",
+            "favorite": true
+          }
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "随行超级特工 · B-D连续战斗",
+        "actorLink": true,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-B-agent.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {},
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04B": {
+            "key": "agent",
+            "version": 1
+          }
+        }
+      },
+      "sort": 0
+    },
+    {
+      "_id": "195642ee5ca84487",
+      "name": "防弹押送车",
+      "type": "vehicle",
+      "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-M3.png",
+      "system": {
+        "size": 5,
+        "handling": 0,
+        "topspeed": {
+          "value": 120,
+          "unit": "km/h"
+        },
+        "toughness": {
+          "total": 14,
+          "armor": 4
+        },
+        "wounds": {
+          "value": 0,
+          "max": 4,
+          "ignored": 0
+        },
+        "crew": {
+          "required": {
+            "max": 1
+          },
+          "optional": {
+            "value": 0,
+            "max": 7
+          },
+          "members": []
+        },
+        "driver": {
+          "skill": "driving",
+          "skillAlternative": ""
+        },
+        "description": "<p>押送车，司机一人。后门射手从六名枪手的幸存者选，不增加人数。最多收两名职员，玩家阻止成功就没有人质。截停后可投降夺车。</p>",
+        "classification": "陆地载具",
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          },
+          "smarts": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          },
+          "spirit": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          },
+          "strength": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "encumbranceSteps": 0,
+            "enabled": false
+          },
+          "vigor": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          }
+        },
+        "scale": 0,
+        "cost": 0,
+        "stats": {
+          "parry": {
+            "value": 0,
+            "shield": 0,
+            "modifier": 0
+          }
+        },
+        "energy": {
+          "value": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "status": {
+          "isOutOfControl": false,
+          "isWrecked": false,
+          "isDistracted": false,
+          "isVulnerable": false
+        },
+        "details": {
+          "autoCalcParry": true
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        },
+        "cargo": {
+          "max": 0
+        },
+        "mods": {
+          "max": 0
+        }
+      },
+      "items": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "防弹押送车",
+        "actorLink": false,
+        "width": 2,
+        "height": 3,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-M3.png",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        },
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "displayName": 0,
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "displayBars": 0,
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {},
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04B": {
+            "key": "van",
+            "version": 1
+          }
+        }
+      },
+      "folder": "b7132602db6b7670",
+      "effects": [],
+      "sort": 0
+    },
+    {
+      "_id": "b4997e4d3a843500",
+      "name": "方泰安的防弹轿车",
+      "type": "vehicle",
+      "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-PASSENGER.png",
+      "system": {
+        "size": 4,
+        "handling": 1,
+        "topspeed": {
+          "value": 120,
+          "unit": "km/h"
+        },
+        "toughness": {
+          "total": 14,
+          "armor": 4
+        },
+        "wounds": {
+          "value": 0,
+          "max": 4,
+          "ignored": 0
+        },
+        "crew": {
+          "required": {
+            "max": 1
+          },
+          "optional": {
+            "value": 0,
+            "max": 3
+          },
+          "members": []
+        },
+        "driver": {
+          "skill": "driving",
+          "skillAlternative": ""
+        },
+        "description": "<p>方和特工共同乘车；特工兼任司机，不额外添加驾驶员。撤退把实际伤势带往D。</p>",
+        "classification": "陆地载具",
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          },
+          "smarts": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          },
+          "spirit": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          },
+          "strength": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "encumbranceSteps": 0,
+            "enabled": false
+          },
+          "vigor": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          }
+        },
+        "scale": 0,
+        "cost": 0,
+        "stats": {
+          "parry": {
+            "value": 0,
+            "shield": 0,
+            "modifier": 0
+          }
+        },
+        "energy": {
+          "value": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "status": {
+          "isOutOfControl": false,
+          "isWrecked": false,
+          "isDistracted": false,
+          "isVulnerable": false
+        },
+        "details": {
+          "autoCalcParry": true
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        },
+        "cargo": {
+          "max": 0
+        },
+        "mods": {
+          "max": 0
+        }
+      },
+      "items": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "方泰安的防弹轿车",
+        "actorLink": false,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-PASSENGER.png",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "displayName": 0,
+        "width": 2,
+        "height": 3,
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {},
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04B": {
+            "key": "car",
+            "version": 1
+          }
+        }
+      },
+      "folder": "b7132602db6b7670",
+      "effects": [],
+      "sort": 0
+    }
+  ],
+  "scene": {
+    "_id": "bd2595ba524b2e36",
+    "name": "B · 大堂围捕与后巷截车",
+    "active": false,
+    "navigation": false,
+    "width": 3072,
+    "height": 2048,
+    "padding": 0,
+    "grid": {
+      "type": 0,
+      "size": 50,
+      "distance": 1,
+      "units": "英寸"
+    },
+    "tokenVision": false,
+    "fog": {
+      "mode": 0
+    },
+    "tokens": [
+      {
+        "name": "无标识抓捕枪手 1",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement0",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "b9ca4cc382d940b6",
+        "actorId": "0da6344f62a6c2d3",
+        "x": 1200,
+        "y": 660,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "无标识抓捕枪手 2",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement1",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "84a701ca7327de8d",
+        "actorId": "0da6344f62a6c2d3",
+        "x": 1420,
+        "y": 670,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "无标识抓捕枪手 3",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement2",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "af02637d2c493cb3",
+        "actorId": "0da6344f62a6c2d3",
+        "x": 1640,
+        "y": 670,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "无标识抓捕枪手 4",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement3",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "e6ea70f8aded0571",
+        "actorId": "0da6344f62a6c2d3",
+        "x": 1830,
+        "y": 660,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "无标识抓捕枪手 5",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement4",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "5cf40f268d736210",
+        "actorId": "0da6344f62a6c2d3",
+        "x": 1880,
+        "y": 820,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "无标识抓捕枪手 6",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement5",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "ac6de3c1e5fac6aa",
+        "actorId": "0da6344f62a6c2d3",
+        "x": 2020,
+        "y": 820,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "重盾抓捕队长",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-B-shield.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement6",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "459de46cc675115b",
+        "actorId": "754f316da9072c08",
+        "x": 1860,
+        "y": 700,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "管委会外围执勤员 1",
+        "actorLink": false,
+        "disposition": 0,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-B-official.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement7",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "26a077257e8aa807",
+        "actorId": "4eabff7af19862ee",
+        "x": 1000,
+        "y": 1400,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "管委会外围执勤员 2",
+        "actorLink": false,
+        "disposition": 0,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-B-official.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement8",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "e50792a1c85e6e62",
+        "actorId": "4eabff7af19862ee",
+        "x": 1820,
+        "y": 1400,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "封路自动机 1",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-B-blocker.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 2,
+        "height": 2,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement9",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "114a1bef7c777767",
+        "actorId": "70fab6ef9664fff0",
+        "x": 1040,
+        "y": 1610,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "封路自动机 2",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-B-blocker.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 2,
+        "height": 2,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement10",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "0ae3b3a5fda299e9",
+        "actorId": "70fab6ef9664fff0",
+        "x": 1920,
+        "y": 1610,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "防弹押送车司机",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-operator.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement11",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "1f5585a92941bc3f",
+        "actorId": "b3b81823b27161e4",
+        "x": 2240,
+        "y": 90,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "何凌",
+        "actorLink": false,
+        "disposition": 0,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/LS-NPC-046.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement12",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "f572aabcc3f9746b",
+        "actorId": "6970ba22eb073244",
+        "x": 2140,
+        "y": 600,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "陈志远",
+        "actorLink": false,
+        "disposition": 0,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/LS-NPC-044.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement13",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "d31046691306a63d",
+        "actorId": "f12d924cee9432a9",
+        "x": 910,
+        "y": 810,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "防弹押送车",
+        "actorLink": false,
+        "width": 2,
+        "height": 3,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-M3.png",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        },
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "displayName": 0,
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "displayBars": 0,
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement14",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "c16d13778be2a74f",
+        "actorId": "195642ee5ca84487",
+        "x": 2160,
+        "y": 60,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "方泰安",
+        "actorLink": true,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/LS-NPC-077.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement15",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "df275686b8d093bb",
+        "actorId": "cb2e6d3b234b58bb",
+        "x": 700,
+        "y": 1710,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "随行超级特工 · B-D连续战斗",
+        "actorLink": true,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-B-agent.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement16",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "11b4169d380074cd",
+        "actorId": "c18720a6766a487e",
+        "x": 840,
+        "y": 1710,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      },
+      {
+        "name": "方泰安的防弹轿车",
+        "actorLink": false,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-PASSENGER.png",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "displayName": 0,
+        "width": 2,
+        "height": 3,
+        "depth": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 0,
+        "bar2": {
+          "attribute": null
+        },
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {
+          "world": {
+            "taiyiEp04B": {
+              "key": "placement17",
+              "version": 1
+            }
+          }
+        },
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false,
+        "_id": "09cf38f2f4fa55b1",
+        "actorId": "b4997e4d3a843500",
+        "x": 460,
+        "y": 1640,
+        "hidden": true,
+        "elevation": 0,
+        "level": "defaultLevel0000"
+      }
+    ],
+    "walls": [],
+    "lights": [],
+    "drawings": [],
+    "notes": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "world": {
+        "taiyiEp04B": {
+          "key": "scene",
+          "version": 1
+        }
+      }
+    },
+    "levels": [
+      {
+        "_id": "defaultLevel0000",
+        "name": "大堂与街巷",
+        "elevation": {
+          "bottom": 0,
+          "top": 20
+        },
+        "background": {
+          "color": "#1c1c1c",
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-B-map.webp",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "foreground": {
+          "src": null,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "fog": {
+          "src": null
+        },
+        "textures": {
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "offsetX": 0,
+          "offsetY": 0,
+          "fit": "fill",
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotation": 0
+        },
+        "visibility": {
+          "levels": []
+        },
+        "sort": 0,
+        "flags": {}
+      }
+    ],
+    "initialLevel": "defaultLevel0000",
+    "environment": {
+      "globalLight": {
+        "enabled": true
+      }
+    },
+    "journal": "5f19005e1f5ee546"
+  },
+  "journal": {
+    "_id": "5f19005e1f5ee546",
+    "name": "B · 围捕与黑料 · GM速查",
+    "ownership": {
+      "default": 0
+    },
+    "pages": [
+      {
+        "_id": "77e5449e8379c793",
+        "name": "开场与衔接",
+        "type": "text",
+        "text": {
+          "format": 1,
+          "content": "<h1>B · 管委会围捕李好</h1><p>顺序：正门点名＋楼内七人抓捕 →两台机器强制冲入 →幸存者撤向押送车 →方与特工出现。何凌在第一个安全间隙就交底。</p><p>6枪手＋1队长＋1司机＋2机器；外围只有2名正规执勤员，本场不另刷增援。预置18枚Token均隐藏。陈志远与何凌是友方；被抓人质必须真实控制，不能剧情跳过玩家反抗。</p><p>地图：下方正门街道，中间大堂与电梯厅，右上消防楼梯，经东侧后巷通往上方车库口与押送车。西侧办公走廊可走后门。采用明场、GM手动掩体与开门，不加视野墙；图上实体墙不可直接穿过，火门、卷帘与玻璃可用动作操作或破坏。</p><p>何凌猫形态替代图：worlds/taiyi/assets/npc/avatars/EP04-B-cat.webp；给同一Token更换图即可，变身不增加一只召唤物，伤势和行动保留。猫色仅临时图示。</p><p>机器网枪与震荡是控场动作，不叠加免费冲撞。技术PC一次成功可停一台或换其目标，不能无限群控。方的车辆掀抛必须先警告落点，特工无自动免伤或免费拦截。能力的临时情境裁定写在各卡上，未伪装成完整合法点购构筑。</p><p>若方在此被堵住，直接接D，不刷新人物或伤势；D灭口结局由之后现场行动兑现。若A没发生，梁不在这里出现。已保护好所有职员时不要新增两名人质。</p><p>@UUID[Actor.0da6344f62a6c2d3]{无标识抓捕枪手}</p><p>@UUID[Actor.754f316da9072c08]{重盾抓捕队长}</p><p>@UUID[Actor.4eabff7af19862ee]{管委会外围执勤员}</p><p>@UUID[Actor.70fab6ef9664fff0]{封路自动机}</p><p>@UUID[Actor.b3b81823b27161e4]{防弹押送车司机}</p><p>@UUID[Actor.6970ba22eb073244]{何凌 · B场行动}</p><p>@UUID[Actor.f12d924cee9432a9]{陈志远 · B场疏散}</p><p>@UUID[Actor.cb2e6d3b234b58bb]{方泰安 · B-D连续战斗}</p><p>@UUID[Actor.c18720a6766a487e]{随行超级特工 · B-D连续战斗}</p><p>@UUID[Actor.195642ee5ca84487]{防弹押送车}</p><p>@UUID[Actor.b4997e4d3a843500]{方泰安的防弹轿车}</p>"
+        }
+      }
+    ],
+    "flags": {
+      "world": {
+        "taiyiEp04B": {
+          "key": "journal",
+          "version": 1
+        }
+      }
+    }
+  },
+  "placements": [
+    [
+      "pmc",
+      600,
+      330
+    ],
+    [
+      "pmc",
+      710,
+      335
+    ],
+    [
+      "pmc",
+      820,
+      335
+    ],
+    [
+      "pmc",
+      915,
+      330
+    ],
+    [
+      "pmc",
+      940,
+      410
+    ],
+    [
+      "pmc",
+      1010,
+      410
+    ],
+    [
+      "shield",
+      930,
+      350
+    ],
+    [
+      "official",
+      500,
+      700
+    ],
+    [
+      "official",
+      910,
+      700
+    ],
+    [
+      "blocker",
+      520,
+      805
+    ],
+    [
+      "blocker",
+      960,
+      805
+    ],
+    [
+      "driver",
+      1120,
+      45
+    ],
+    [
+      "heling",
+      1070,
+      300
+    ],
+    [
+      "chen",
+      455,
+      405
+    ],
+    [
+      "van",
+      1080,
+      30
+    ],
+    [
+      "fang",
+      350,
+      855
+    ],
+    [
+      "agent",
+      420,
+      855
+    ],
+    [
+      "car",
+      230,
+      820
+    ]
+  ]
+}

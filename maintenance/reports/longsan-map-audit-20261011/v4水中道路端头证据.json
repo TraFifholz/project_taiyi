@@ -1,0 +1,41 @@
+{
+  "stage": "final pier fix candidate before road endpoint repair",
+  "actual_svg_inputs": {
+    "assets\\maps\\longsan-geographic-v4-20261012\\龙散市-基础底图.svg": {
+      "sha256": "f95dc50c608ffd2cd51c00dd0a3aaef3ec6cf8967194fc855f8df1079bd2a3df",
+      "bytes": 30919881,
+      "mtime": 1791773398.3996325
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "b71a17c0d8ff681fd9601007f406dc5f733b5fb9b12b99bbdc759ba1119d082d",
+      "bytes": 30982114,
+      "mtime": 1791773398.4803505
+    }
+  },
+  "inputs_stable": true,
+  "severity": "P1",
+  "road_endpoints": [
+    {
+      "road": "北郊连接路",
+      "xy_km": [
+        44.0,
+        12.8
+      ],
+      "gap_to_actual_wet_bank_m": 308.6224677445638,
+      "same_coordinate_was_in_v3_water": true,
+      "distance_to_map_frame_m": 4000.0
+    },
+    {
+      "road": "龙门吊路",
+      "xy_km": [
+        47.7,
+        28.6
+      ],
+      "gap_to_actual_wet_bank_m": 299.99999999999716,
+      "same_coordinate_was_in_v3_water": false,
+      "distance_to_map_frame_m": 299.99999999999716
+    }
+  ],
+  "reason": "two public roads terminate inside mapped water; neither terminal is at map boundary",
+  "prior_v3_baseline_water_relation_recorded": true
+}

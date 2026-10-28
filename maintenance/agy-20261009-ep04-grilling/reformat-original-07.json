@@ -1,0 +1,17 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "mode": "plan",
+  "proxy": "http://127.0.0.1:7890",
+  "cwd": "D:\\Project Taiyi",
+  "input": "campaign/prep/agy/ep04-redesign-20261009/reformat-original-07-input.md",
+  "input_sha256": "a31401efd10b8e406be3d3d36d5049f269d2d510b9384443488c08915d2d6640",
+  "started_at": "2026-10-09T19:08:21.812547+08:00",
+  "resumed_conversation": null,
+  "pid": 237164,
+  "exit_code": 0,
+  "ended_at": "2026-10-09T19:09:52.119563+08:00",
+  "conversation_id": "46ccf652-5298-456a-b3f4-c69be6ba3f77",
+  "result_status": "SUCCESS",
+  "response_sha256": "07b4e9603da6070d8cbd9136022a098dbd8d9c15dab23bffda42660adf28ef72",
+  "events": 827
+}

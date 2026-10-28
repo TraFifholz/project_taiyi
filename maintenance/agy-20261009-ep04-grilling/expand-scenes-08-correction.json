@@ -1,0 +1,17 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "mode": "plan",
+  "proxy": "http://127.0.0.1:7890",
+  "cwd": "D:\\Project Taiyi",
+  "input": "campaign/prep/agy/ep04-redesign-20261009/expand-scenes-08-correction-input.md",
+  "input_sha256": "a8bca44bd2c5da0a161e5da90181cc3d479588d02c39fee944043f0f3d1e9704",
+  "started_at": "2026-10-09T19:30:26.430655+08:00",
+  "resumed_conversation": "5660d011-185e-414a-a505-7fecf6f66daa",
+  "pid": 265456,
+  "exit_code": 0,
+  "ended_at": "2026-10-09T19:31:23.208770+08:00",
+  "conversation_id": "5660d011-185e-414a-a505-7fecf6f66daa",
+  "result_status": "SUCCESS",
+  "response_sha256": "bd6117b555dcb54df8f5cdcb721afdbef66d60ed0f740aa43d66ce6149d3473a",
+  "events": 420
+}

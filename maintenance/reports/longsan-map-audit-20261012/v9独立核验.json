@@ -1,0 +1,311 @@
+{
+  "version": "v9-independent-local-bank-and-facility-correction",
+  "reviewer": "collapse_design_audit",
+  "review_status": "independent_technical_geometry_pass_candidate_visual_acceptance_separate",
+  "hard_gates": {
+    "v8_private_20mm_prior_evidence_and_exact_cache_binding_current": true,
+    "retained_owner_inherited_private_graph_valid_after_exact_record_proof": true,
+    "all_new_or_changed_owners_fresh_private_graph_and_facade_check": true,
+    "whole_owner_removal_no_surviving_orphan_layers": true,
+    "actual_public_primitive_graph_connected_at_20mm": true,
+    "water_and_main_island_feature_geometry_and_properties_exact": true,
+    "disaster_geojson_bytes_exact": true,
+    "all_four_rail_feature_geometry_and_non_provenance_properties_exact": true,
+    "rail_file_diff_is_only_explicit_v9_version_basis_text": true,
+    "all_66_station_banks_match_original_diagram_truth": true,
+    "only_six_declared_station_positions_change_and_others_exact": true,
+    "route_station_order_ids_colors_and_interchanges_exact": true,
+    "13_revised_and_67_unaffected_section_records_exact": true,
+    "revised_same_bank_sections_avoid_main_river_and_align_to_stations": true,
+    "exactly_two_declared_revised_cross_main_river_intervals": true,
+    "audit_inputs_stable": true,
+    "complete_two_facility_rectangles_and_original_areas": true,
+    "complete_campus_6_courts_4_dormitories_library_and_three_sports_roofs": true,
+    "each_facility_one_private_component_with_real_public_gate_20mm": true,
+    "all_14_facility_roof_facades_within_8m_private_walk": true,
+    "new_private_physical_path_and_public_road_roof_collision_zero": true,
+    "new_facility_private_paths_do_not_borrow_retained_parcels": true,
+    "actual_sports_pitch_105m_by_68m_unscaled": true,
+    "old_island_facility_objects_removed_and_two_open_parks_present": true,
+    "all_six_actual_off_carriageway_station_forecourts_and_public_walks": true,
+    "two_actual_svg_bases_structurally_identical": true,
+    "actual_metro_svg_all_66_stations_positions_memberships_status_match_json": true,
+    "actual_metro_svg_all_80_interval_geometries_match_json": true,
+    "both_actual_svg_full_facility_roofs_and_private_paths_match_cache": true,
+    "actual_facility_geojson_roofs_paths_match_cache_exact": true,
+    "actual_svg_metadata_v9_and_generator_v9": true,
+    "facility_svg_export_input_hashes_stable": true,
+    "all_395_inherited_major_road_geometry_and_attributes_exact": true,
+    "all_unrelated_local_roads_exact_and_only_two_plot_clips_applied": true,
+    "two_added_public_perimeters_actual_20m_offset_and_20m_width": true,
+    "every_retained_original_block_id_geometry_and_properties_exact": true,
+    "all_actual_blocks_geojson_match_current_cache_geometry": true,
+    "actual_public_road_geojson_geometry_matches_current_cache_exact": true,
+    "root_fresh_verification_source_hashes_current": true,
+    "all_declared_original_sources_and_v8_snapshots_hashes_preserved": true,
+    "root_actual_all_city_roof_geometry_verification_reported_no_errors": true,
+    "browser_91_checks_all_pass_bound_current_svg": true,
+    "actual_rendered_water_disaster_rail_and_recovery_bridge_markers_exact_v8": true,
+    "road_and_provenance_inputs_stable": true,
+    "all_completed_independent_report_inputs_still_current": true,
+    "only_retained_changed_owner_has_block_id_only_delta_and_fresh_checks_pass": true,
+    "all_supporting_reports_exist_and_bound_sha256_current": true,
+    "summary_current_source_svg_geojson_and_cache_inputs_stable": true
+  },
+  "unresolved_hard_errors": [],
+  "inputs": {
+    "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-基础底图.svg": {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-基础底图.svg",
+      "sha256": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+      "bytes": 122360786
+    },
+    "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-底图与地铁.svg": {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-底图与地铁.svg",
+      "sha256": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b",
+      "bytes": 122421990
+    },
+    "assets\\maps\\longsan-geographic-v9-20261012\\地图坐标与线路.json": {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\地图坐标与线路.json",
+      "sha256": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+      "bytes": 398037
+    },
+    "assets\\maps\\longsan-geographic-v9-20261012\\地理骨架.geojson": {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\地理骨架.geojson",
+      "sha256": "7833f84bc54ad6b699e8722f132d94cb1d7fbbb5da5d5fa835284b049c633265",
+      "bytes": 618608
+    },
+    "assets\\maps\\longsan-geographic-v9-20261012\\灾后地理.geojson": {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\灾后地理.geojson",
+      "sha256": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+      "bytes": 17433
+    },
+    "assets\\maps\\longsan-geographic-v9-20261012\\铁路.geojson": {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\铁路.geojson",
+      "sha256": "43e78bd12389d82733d15edd91f3b56596d660c3eca307f2405b9f6c8373f8e0",
+      "bytes": 42615
+    },
+    "assets\\maps\\longsan-geographic-v9-20261012\\路网.geojson": {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\路网.geojson",
+      "sha256": "df98fb6f6b9d5f1c8f01abbf90ef9f1baaa5527419f283f88760233c40139497",
+      "bytes": 4112984
+    },
+    "assets\\maps\\longsan-geographic-v9-20261012\\建筑.geojson": {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\建筑.geojson",
+      "sha256": "9a1c1f1ee3380fda42c8b7e479903582949b528b1bd57d6a81098b3653f43bcd",
+      "bytes": 116326667
+    },
+    "assets\\maps\\longsan-geographic-v9-20261012\\临街地块.geojson": {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\临街地块.geojson",
+      "sha256": "dba0b790692676cc1aa7e885cf0a07dbcfb8e2056984865156a3368534369b19",
+      "bytes": 11491657
+    },
+    "assets\\maps\\longsan-geographic-v9-20261012\\组团通道.geojson": {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\组团通道.geojson",
+      "sha256": "f4aa064961cd33da28dab56084756c6052a23e8cf343bbc597d74889d2d8c373",
+      "bytes": 98976505
+    },
+    "assets\\maps\\longsan-geographic-v9-20261012\\街坊.geojson": {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\街坊.geojson",
+      "sha256": "a6d12d85e6bf8fb838199c271bede6f1a873b39641d60570fb045d6dac3edc27",
+      "bytes": 12682215
+    },
+    "assets\\maps\\longsan-geographic-v9-20261012\\几何校验.json": {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\几何校验.json",
+      "sha256": "875605ec32833977eecf9b2686a07f2dd968c425613c6cabefae3aa28c7a6db0",
+      "bytes": 157586
+    },
+    "assets\\maps\\longsan-geographic-v9-20261012\\浏览器验收.json": {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\浏览器验收.json",
+      "sha256": "e8478a990448cd0c8146a7cacf9a1382b2b4f8f3001876d6c2d4d9fba16fe72f",
+      "bytes": 11034
+    },
+    "temp\\longsan-map-qa-v8\\fabric.pickle": {
+      "path": "temp\\longsan-map-qa-v8\\fabric.pickle",
+      "sha256": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415",
+      "bytes": 54677380
+    },
+    "temp\\longsan-map-qa-v9\\fabric.pickle": {
+      "path": "temp\\longsan-map-qa-v9\\fabric.pickle",
+      "sha256": "8f35bfd1a4f83e9e0e732047858ff5bc49b600543775bc654e53808f3d1fe303",
+      "bytes": 54449398
+    },
+    "temp\\longsan-map-qa-v9\\西岸候选落位.json": {
+      "path": "temp\\longsan-map-qa-v9\\西岸候选落位.json",
+      "sha256": "65a9da2ce0e54cd4a7278bdcdb50ed98ae53cd5f5c64fb7c29a5e28b102c57a5",
+      "bytes": 3368
+    },
+    "scripts\\generate_longsan_geographic_maps_v9.py": {
+      "path": "scripts\\generate_longsan_geographic_maps_v9.py",
+      "sha256": "9743e20b1fcfa663688370aa0bb719f748dac3a7d835d1c1acd04d43541e79c0",
+      "bytes": 47837
+    },
+    "scripts\\longsan_collapse_v9.py": {
+      "path": "scripts\\longsan_collapse_v9.py",
+      "sha256": "c205a6a735eaa75c8e558f3d9b1dc8497528ad65dfd5a9664ccfa3e5613c6115",
+      "bytes": 36758
+    },
+    "scripts\\longsan_west_bank_facilities_v9.py": {
+      "path": "scripts\\longsan_west_bank_facilities_v9.py",
+      "sha256": "7b7dfabdcffef6d2b60f82f0d8beb78da3be522ec338440d853af3a2bde6b118",
+      "bytes": 27517
+    },
+    "scripts\\longsan_planned_fabric.py": {
+      "path": "scripts\\longsan_planned_fabric.py",
+      "sha256": "0fb13d1e278b016d2d2f4521726449b963c27b272eeac4f366a8a245ba19d537",
+      "bytes": 54042
+    },
+    "maintenance\\reports\\longsan-map-audit-20261012\\v9独立核验汇总.py": {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9独立核验汇总.py",
+      "sha256": "cd283abcb2ce22919358353276cfaf11d67d0ae108235c2eedb2efc7cc75bbc1",
+      "bytes": 9418
+    }
+  },
+  "supporting_reports": [
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9局部继承核验.json",
+      "sha256": "6cd7e066a78d1e306d0fab2a48c9b411313ff414f97a9c137839445d9f95a755",
+      "bytes": 3925608
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9设施与绘制独立核验.json",
+      "sha256": "0c681208d9c919aac46adacb331fce09be550ea046343bde2d914a457c375821",
+      "bytes": 8778
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9局部道路与来源核验.json",
+      "sha256": "1307406bef03b07dba6b9574ce9b9a65eacf89ea45309552cd740510dab61c68",
+      "bytes": 5214
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9迁建目视核对.json",
+      "sha256": "cb37c8e1042f937b7e15922cf1df703e0a24fa536b9506a8e63ec6646f76a20f",
+      "bytes": 3254
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9岸别关系审查.json",
+      "sha256": "e1dfdd200482bdf77ad5b6c7be96a30c89950406adc5ab7e86969103ac68e6fe",
+      "bytes": 99438
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8组团独立核验.json",
+      "sha256": "32a156847df84d7bc1a0be65e22de3d9f5d66cf7f30f237cbb2e865781ddb465",
+      "bytes": 421852
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8独立核验.json",
+      "sha256": "f8ad57acefcb3c8dd507c21abd6bc41f7fa5ce31de5eebbdc7945e051658bb61",
+      "bytes": 98923
+    }
+  ],
+  "summary": {
+    "station_positions_changed": 6,
+    "original_diagram_bank_checks": 66,
+    "positions_exact_retained": 60,
+    "changed_metric_intervals": 13,
+    "exact_retained_metric_intervals": 67,
+    "original_route_order_and_19_interchanges_preserved": true,
+    "complete_facility_areas_km2": {
+      "财经政法大学": 0.4,
+      "奥体中心": 0.432
+    },
+    "full_facility_roof_records": {
+      "财经政法大学": 11,
+      "奥体中心": 3
+    },
+    "off_carriageway_station_plazas": 6,
+    "owner_counts": {
+      "prior_owners": 9898,
+      "current_owners": 9841,
+      "exact_inherited_owners": 9840,
+      "fresh_changed_owners": 1,
+      "added_owners": 0,
+      "whole_removed_owners": 57,
+      "public_components_20mm": 1
+    },
+    "public_primitive_graph_20mm_components": 1,
+    "major_roads_exact_retained": 395,
+    "local_roads_exact_retained": 5181,
+    "local_roads_clipped_at_two_new_sites": 15,
+    "new_public_perimeter_streets": 2,
+    "current_blocks": 12218,
+    "retained_original_blocks_exact": 12186,
+    "browser_checks_passed": 91
+  },
+  "changed_owner_attribute_only_evidence": [
+    {
+      "owner": "P2812",
+      "layer_proof": {
+        "lots": {
+          "records_before": 1,
+          "records_after": 1,
+          "exact_except_block_id": true,
+          "old_block_ids": [
+            "F3652"
+          ],
+          "new_block_ids": [
+            "F3652-v9-1"
+          ]
+        },
+        "roofs": {
+          "records_before": 7,
+          "records_after": 7,
+          "exact_except_block_id": true,
+          "old_block_ids": [
+            "F3652"
+          ],
+          "new_block_ids": [
+            "F3652-v9-1"
+          ]
+        },
+        "paths": {
+          "records_before": 43,
+          "records_after": 43,
+          "exact_except_block_id": true,
+          "old_block_ids": [
+            ""
+          ],
+          "new_block_ids": [
+            "F3652-v9-1"
+          ]
+        },
+        "spaces": {
+          "records_before": 0,
+          "records_after": 0,
+          "exact_except_block_id": true,
+          "old_block_ids": [],
+          "new_block_ids": []
+        },
+        "details": {
+          "records_before": 0,
+          "records_after": 0,
+          "exact_except_block_id": true,
+          "old_block_ids": [],
+          "new_block_ids": []
+        }
+      },
+      "actual_fresh_graph_report": {
+        "owner": "P2812",
+        "components": 1,
+        "entry_count": 1,
+        "errors": []
+      }
+    }
+  ],
+  "input_hash_mismatches": [],
+  "inheritance_boundary": {
+    "private_owner_graph": "9840 owners retain all lots/roofs/paths/spaces/details WKB plus all attributes exactly, and each actual entrance independently contacts current public roads within20mm; P2812 has only block_id changes and actual fresh graph/facade checks. 57 full owners were removed.",
+    "geography_and_disaster": "Actual water/island feature geometry+properties exact, disaster GeoJSON byte-identical. Actual selected SVG water/disaster/rail/bridge paths and attributes ordered-exact compared with frozen v8.",
+    "railways": "Rail GeoJSON geometry and every non-basis property exact. Four basis strings record v9 instead of v8, so the file SHA is deliberately different; no rail physical geometry was revised.",
+    "whole_city_roof_checks": "Root reran actual all-city geometric checks, with all eight error arrays empty. Independent new facility physical roof/road/path collisions and ownership checked fresh.",
+    "art": "Six actual local images reviewed here. Complete final art acceptance is checked separately by v9目视审查.json/finalizer; technical gates do not declare art complete or user accepted."
+  },
+  "remaining_setting_conflicts": [
+    "深中新区整区在江中洲的旧文与原图西岸五站冲突，地图采用原图；未改写设定正文。",
+    "燧明园站原图在东岸；燧明科技园与云梦科技园站仍在岛上，保留明确的园区南端服务关系。旧L1站表将东岸站对应岛上园区的关联待设定稿统一。"
+  ],
+  "limits": [
+    "New kilometre station positions, campus plots and pedestrian crossings are map design choices, not existing canonical survey records.",
+    "Building facade approaches are algorithm-selected; engineering-scale rail/tunnel/bridge and station architecture require separate design.",
+    "Roof contour records are not a count of architectural buildings."
+  ]
+}

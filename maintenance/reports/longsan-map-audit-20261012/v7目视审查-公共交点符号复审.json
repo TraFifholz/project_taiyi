@@ -1,0 +1,410 @@
+{
+  "review_round": "general_public_junction_visual_before_nonincident_erase_fix",
+  "review_date": "2026-10-12",
+  "reviewer": "final_art_review independent subagent",
+  "review_status": "requires_nonincident_erase_recheck",
+  "input_svg_sha256": {
+    "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+    "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+  },
+  "reviewed_images": [
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/龙散市-全图.png",
+      "sha256": "c072fcfd4284280d14a1df137cab77842746619bee39607787385543cd8d9de4",
+      "window_km": [
+        0,
+        0,
+        48,
+        36
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/龙散市-地铁全图.png",
+      "sha256": "04de34226066c2f2c516d60884da55a6d892912db3b61a2539da3be352b83caf",
+      "window_km": [
+        0,
+        0,
+        48,
+        36
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/塌陷全区-新.png",
+      "sha256": "1443fb885a036d72c42904c52009453ac03a01af3540e543821af69b8234474a",
+      "window_km": [
+        30.8,
+        20.1,
+        38.8,
+        29.0
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/西管制口-新.png",
+      "sha256": "85bffe2fe8adccc5f8df36d7177e3f4b8043a6430fbfaca5225c065922fc5d07",
+      "window_km": [
+        31.1,
+        23.8,
+        32.8,
+        26.0
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/废墟与断线-新.png",
+      "sha256": "e93a3d8ea84fcd699e8abc7336ec100d4fb44ad4601e78e1eb27eea6c5175614",
+      "window_km": [
+        33.1,
+        22.7,
+        35.0,
+        24.8
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/普速绕行-新.png",
+      "sha256": "4f185d2d497b799f71f3e6706df6d72e689e6c53d2ede74c5a789b2a9cdd5697",
+      "window_km": [
+        31.7,
+        18.2,
+        39.3,
+        30.9
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/故城-新.png",
+      "sha256": "b46c9dda42b4901c2924eea2d6846cbc9318a7fdfd543ab8d21eac4b015cae49",
+      "window_km": [
+        26.6,
+        21.1,
+        30.6,
+        25.1
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/楚岸-新.png",
+      "sha256": "19208d60804a7f761bc9351b8bb5998e1da8822f462bd3a7f68470480d92213c",
+      "window_km": [
+        15.5,
+        14.3,
+        19.5,
+        18.3
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/楚岸街坊-新.png",
+      "sha256": "5cef944f5c3e7fdc34e86ee4c116f8cf7e23dcfa8345e7a05d2e600e327864af",
+      "window_km": [
+        16.7,
+        15.2,
+        18.4,
+        17.0
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/深中-新.png",
+      "sha256": "045c253391e02e711412979cd60493a03a4da0feae76f3288ac3cbb9a98caf9d",
+      "window_km": [
+        20.7,
+        17,
+        24.7,
+        21
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/文星-新.png",
+      "sha256": "711999e978159a1d902d77c0433f3614bc5a467609374fc499b31f26b856dc91",
+      "window_km": [
+        11.7,
+        15.5,
+        15.7,
+        19.5
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/北岭-新.png",
+      "sha256": "4f4b0b6544e71163096f0737de7f8b82beafd3da43515bada9dd99cb00c3fcc0",
+      "window_km": [
+        29.6,
+        7.5,
+        31.9,
+        9.3
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/铁山-新.png",
+      "sha256": "9f907eed00cecf7d7ff9c4a9e24ed339a6940efea2adfe1330daa5bd2a9b8bef",
+      "window_km": [
+        38.7,
+        22,
+        41.7,
+        25
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/望津-新.png",
+      "sha256": "900a94a412cb852fd269f25f59381d2a26ab5f6cdf3d85301cf5c7a886fb132d",
+      "window_km": [
+        36.8,
+        28.7,
+        39,
+        30.4
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/城市立交-新.png",
+      "sha256": "d8ebb448eaf9557a697ed00f1b789b63a6d80331bb001974b432606f6352a913",
+      "window_km": [
+        31.3,
+        11.2,
+        33.3,
+        13
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/西城学府立交-新.png",
+      "sha256": "64cbc066cb89026a7b2a1b7ae1a39f4f7f20041e618857fcf81524143d44f373",
+      "window_km": [
+        12.9,
+        5.8,
+        14.9,
+        7.8
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/南港立交-新.png",
+      "sha256": "f25f7a6afdccd3a39206d8abd82bbcad8bd19f5fae4c42c3f70f9474fd79206c",
+      "window_km": [
+        41.8,
+        32.5,
+        43.6,
+        34.4
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/北向枢纽-新.png",
+      "sha256": "4968efa76d1735cb8420fa37e5e47cafc67b63108158109226c9cdb88c8b0cfe",
+      "window_km": [
+        25,
+        0.7,
+        27.8,
+        2.9
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/火车站-新.png",
+      "sha256": "e0cd0f7cee7b4412263a6cfeaa1956ee0e1fdfa000b9c8cc425248b5c5bed694",
+      "window_km": [
+        31.85,
+        16.25,
+        32.95,
+        17.85
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/东站-新.png",
+      "sha256": "4c579cfc1d07ab982337449fb04647b65ce6ac4ef5fccecd7a656d32fc3a564d",
+      "window_km": [
+        37.95,
+        16.1,
+        39.05,
+        17.95
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/城西边缘-新.png",
+      "sha256": "b6110951f25191ee7fc50301bee071985b931647534854bf8826e0ccddbaf32d",
+      "window_km": [
+        5.3,
+        17,
+        12.8,
+        22
+      ],
+      "reviewed_actual_pixels": true,
+      "binding": {
+        "龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+        "龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7"
+      }
+    }
+  ],
+  "resolved_observed_findings": [
+    "ART-01 首轮四塔方底连续复制已减轻，不再有统一四塔模组。",
+    "ART-02 首轮故城万能四壁闭院已替换为街墙深宅后巷。",
+    "ART-03 原四个实际节点与北岭公共路口在本轮实际PNG中均无封口断路观感。"
+  ],
+  "original_art03_nodes": [
+    {
+      "coordinates_km": [
+        18.93471296924493,
+        15.3478092056494
+      ],
+      "road_feature": 50,
+      "road": "片区连续主轴 1",
+      "joined_feature": 9,
+      "joined_road": "奥体大道",
+      "centerline_distance_km": 9.562630695210967e-10
+    },
+    {
+      "coordinates_km": [
+        22.79708021891023,
+        18.760984511527713
+      ],
+      "road_feature": 321,
+      "road": "片区连续主轴 272",
+      "joined_feature": 5,
+      "joined_road": "楚江大道",
+      "centerline_distance_km": 7.379042355673935e-16
+    },
+    {
+      "coordinates_km": [
+        14.032880412391322,
+        16.415007153903808
+      ],
+      "road_feature": 284,
+      "road": "片区连续主轴 235",
+      "joined_feature": 283,
+      "joined_road": "规划集散道 234",
+      "centerline_distance_km": 0
+    },
+    {
+      "coordinates_km": [
+        13.19238025657169,
+        17.844476701966876
+      ],
+      "road_feature": 289,
+      "road": "规划集散道 240",
+      "joined_feature": 6,
+      "joined_road": "书院路",
+      "centerline_distance_km": 0
+    }
+  ],
+  "unresolved_must_correct": [
+    {
+      "id": "SYMBOL-NONINCIDENT-ERASE",
+      "source": "collapse_design_audit mechanical audit message",
+      "observed_by_this_visual_reviewer": false,
+      "status": "awaiting actual targeted PNG and revised SVG",
+      "reported_nonincident_overlaps_over_0_01_m2": 213,
+      "targeted_coordinates_km": [
+        [
+          39.7,
+          28.7
+        ],
+        [
+          32.3,
+          6.5
+        ]
+      ],
+      "why_not_cleared": "原4节点及21张图的目视改进不证明其他非incident道路未被符号背景擦除，必须待生产修正后复审。"
+    }
+  ],
+  "remaining_art_refinements": [
+    "城西整组小区与农田交替仍有规律。",
+    "全图支路与私道对比偏淡。",
+    "故城后巷/深宅仍有梳状等距节奏。",
+    "深中新城组团和短绿带仍显规格化。"
+  ],
+  "status_boundary": {
+    "candidate_available_for_review": false,
+    "art_complete": false,
+    "user_adopted": false,
+    "not_final_acceptance": true
+  }
+}

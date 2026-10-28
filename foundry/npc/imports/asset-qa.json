@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-09-02T13:13:59.867Z",
+  "count": 93,
+  "uniqueIds": 93,
+  "contactSheets": [
+    "avatar-contact-sheet-1.jpg",
+    "avatar-contact-sheet-2.jpg",
+    "avatar-contact-sheet-3.jpg",
+    "avatar-contact-sheet-4.jpg"
+  ],
+  "visualReview": "All 93 thumbnails inspected across four contact sheets; faces and identifying head features remain visible. Red Queen uses a full-object fit for the approved computer portrait.",
+  "missing": [],
+  "missingSources": [],
+  "fullPortraitPixelsUnchanged": true,
+  "sourceHashesVerified": true
+}

@@ -1,0 +1,757 @@
+{
+  "version": "v5",
+  "scope": "independent actual exported SVG/GeoJSON review; candidate until all required gates and final image review complete",
+  "inputs": {
+    "assets\\maps\\longsan-geographic-v5-20261012\\龙散市-基础底图.svg": {
+      "sha256": "c5afc334658d9c2c24cdd19baa37e40880153471fa444aa6d5b735b369f19cb9",
+      "bytes": 47550416,
+      "mtime": 1791780962.5539901
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "b47690f2deb9cbbfaca25e9f5b1e44a7db78564e6759b200ebf3459c44b5f5a8",
+      "bytes": 47612649,
+      "mtime": 1791780962.8219588
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\地图坐标与线路.json": {
+      "sha256": "41530b526c7df3db4f51bafe3c5834fd0ccdfce0965a9160e51cd22bff61af37",
+      "bytes": 186784,
+      "mtime": 1791780963.5231178
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\路网.geojson": {
+      "sha256": "d985adb8260c7e8ae8b854c46d1a85688391837c1f6b846f04bbf9a9da575ba8",
+      "bytes": 3110706,
+      "mtime": 1791780963.8137095
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\铁路.geojson": {
+      "sha256": "a80c94c989ba2b3198c88fcb67d48eac56c82062fed4bd407dc4ed036e34e416",
+      "bytes": 14610,
+      "mtime": 1791780963.8182297
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\临街地块.geojson": {
+      "sha256": "d3b220c61a690fb9aed73bf5df0b5cf46c0f4b745ea6edac894813efcfc128bb",
+      "bytes": 33205995,
+      "mtime": 1791780969.6421201
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\地理骨架.geojson": {
+      "sha256": "aacc5142aeec4288af55546a63586dfb57828b1e8e91cc0b3a4792ac2f92f42e",
+      "bytes": 262662,
+      "mtime": 1791780969.6866488
+    },
+    "temp\\longsan-map-qa-v5\\fabric.pickle": {
+      "sha256": "091b185228de98b7d6322a23784f228338a6e3a0bb491b28add2280608a2ed73",
+      "bytes": 49843627,
+      "mtime": 1791780915.7026842
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "908fb547a977f3c642964df9f56517fbb067b29a868d6054b1b04861b27bcdb6",
+      "bytes": 30921198,
+      "mtime": 1791774361.177126
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\地图坐标与线路.json": {
+      "sha256": "29bc9549c554d3a4a7d29ee0ec0c4c74fbeab841df5f39238782ee6e949cb6a2",
+      "bytes": 154582,
+      "mtime": 1791774361.5446537
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\地理骨架.geojson": {
+      "sha256": "3c0f9ddcb78bba47c3c3d27414f997bbf26a5ddf35764fbb806a16b5bc609ab1",
+      "bytes": 1187271,
+      "mtime": 1791774361.6214862
+    },
+    "src\\地铁图.svg": {
+      "sha256": "41fa82d6cf408827f663b636ed056f39684d8cbb7c631b39f49878ed3a095cda",
+      "bytes": 132120,
+      "mtime": 1778758356.4046044
+    },
+    "assets\\maps\\RMG\\终稿.json": {
+      "sha256": "f5d2cf43a63b04542940580c0873d0900f38110f1b1f442505d1a395ab1f7ccd",
+      "bytes": 63749,
+      "mtime": 1778751228.1803095
+    },
+    "assets\\maps\\RMP_1778746859180.svg": {
+      "sha256": "d323cf8aaa8a0a9044f776e9bbe2bb1ea38ae3c5efa8e28917389873f49d97b4",
+      "bytes": 132133,
+      "mtime": 1778751215.393673
+    },
+    "assets\\maps\\longsan_terrain_grid.txt": {
+      "sha256": "649de82da5d9438f511ad9b6532cba746f3d9b920f7516969dafae0ab5d531e4",
+      "bytes": 450,
+      "mtime": 1780445954.5475223
+    },
+    "assets\\maps\\longsan_region_grid_review.html": {
+      "sha256": "bc0ea5c952a3cc42de5f17100455cdae519305e3890298b5c755b21cec4e0767",
+      "bytes": 11727,
+      "mtime": 1780444508.6813693
+    },
+    "campaign\\world\\15-城区与交通网络.md": {
+      "sha256": "f857bda308a893f598be4cd78390621f844f807780b5670fda824a811c07121c",
+      "bytes": 43431,
+      "mtime": 1778758510.119573
+    },
+    "campaign\\world\\09-城市空间与动态分区.md": {
+      "sha256": "61b85e2e1568a709fab476adf5bc9d35e5a14274efd85668fbafe84fd22b26cb",
+      "bytes": 3519,
+      "mtime": 1778672697.4330645
+    },
+    "src\\核心规则\\龙散市\\城区与地点.md": {
+      "sha256": "0357d8e8d8ef53af9090c44d3e1d82292e061b65372f11207fc385eb35611925",
+      "bytes": 4133,
+      "mtime": 1780316151.6749353
+    }
+  },
+  "hard_gates": {
+    "extent_48x36_and_shared_base": true,
+    "metro_66_80_19_and_exact_v4_geometry": true,
+    "station_dry_island_and_west_bank": true,
+    "v4_water_and_island_preserved": true,
+    "source_files_unchanged": true,
+    "campus_500mu_park_300mu_institute_15": true,
+    "no_ordinary_building_water_overlap": true,
+    "no_ordinary_building_mutual_overlap": true,
+    "no_ordinary_building_transport_reservation_overlap": true,
+    "main_road_ends_dry_and_locals_clear_water_rail": true,
+    "ordinary_street_network_connected": true,
+    "drawn_rural_network_reaches_public_streets": true,
+    "external_highway_and_national_roads_reach_frame": true,
+    "conventional_and_high_speed_both_through_frame": true,
+    "all_checked_transport_crossings_have_drawn_grade_structure": false,
+    "two_station_platform_track_and_walking_continuity": true,
+    "nine_school_entries_join_streets": false,
+    "five_piers_cross_actual_wet_shore": true,
+    "built_lots_have_real_roof_and_frontage_or_access": true,
+    "in_city_density_gradient_has_independent_sample_evidence": true,
+    "no_old_false_collapse_area": true,
+    "input_files_stable_during_independent_read": true,
+    "final_image_review_matches_current_svg": false
+  },
+  "unresolved_hard_errors": [
+    {
+      "priority": "P1",
+      "type": "motorway_grade_missing",
+      "count": 2,
+      "examples": [
+        {
+          "motorway": "环城高速",
+          "road": "云麓公路",
+          "xy_km": [
+            8.147656359269506,
+            25.22147970869986
+          ]
+        },
+        {
+          "motorway": "环城高速",
+          "road": "云麓公路",
+          "xy_km": [
+            11.806150031656557,
+            30.709224828079286
+          ]
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "actual_ordinary_roofs": 77710,
+    "detail_roofs": 5,
+    "roads": 10882,
+    "major_roads": 334,
+    "local_roads": 10548,
+    "ordinary_components": 1,
+    "external": [
+      {
+        "name": "机场北向国道",
+        "role": "national-road",
+        "touches_frame": true,
+        "ends": [
+          [
+            8.3,
+            3.9
+          ],
+          [
+            8.3,
+            0.0
+          ]
+        ]
+      },
+      {
+        "name": "北岭出城国道",
+        "role": "national-road",
+        "touches_frame": true,
+        "ends": [
+          [
+            32.3,
+            6.5
+          ],
+          [
+            33.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "name": "楚江东向国道",
+        "role": "national-road",
+        "touches_frame": true,
+        "ends": [
+          [
+            43.4,
+            17.4
+          ],
+          [
+            48.0,
+            17.4
+          ]
+        ]
+      },
+      {
+        "name": "南港出城国道",
+        "role": "national-road",
+        "touches_frame": true,
+        "ends": [
+          [
+            35.8,
+            33.75
+          ],
+          [
+            36.3,
+            36.0
+          ]
+        ]
+      },
+      {
+        "name": "西南出城国道",
+        "role": "national-road",
+        "touches_frame": true,
+        "ends": [
+          [
+            24.5,
+            33.7
+          ],
+          [
+            20.0,
+            36.0
+          ]
+        ]
+      },
+      {
+        "name": "西北高速连接线",
+        "role": "regional-motorway",
+        "touches_frame": true,
+        "ends": [
+          [
+            10.01667,
+            2.04439
+          ],
+          [
+            0.0,
+            1.7
+          ]
+        ]
+      },
+      {
+        "name": "北向高速连接线",
+        "role": "regional-motorway",
+        "touches_frame": true,
+        "ends": [
+          [
+            25.999920000000003,
+            1.70102
+          ],
+          [
+            26.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "name": "东向高速连接线",
+        "role": "regional-motorway",
+        "touches_frame": true,
+        "ends": [
+          [
+            42.786390000000004,
+            12.00392
+          ],
+          [
+            48.0,
+            15.0
+          ]
+        ]
+      },
+      {
+        "name": "南向高速连接线",
+        "role": "regional-motorway",
+        "touches_frame": true,
+        "ends": [
+          [
+            31.0002,
+            35.14578
+          ],
+          [
+            31.4,
+            36.0
+          ]
+        ]
+      },
+      {
+        "name": "东南高速连接线",
+        "role": "regional-motorway",
+        "touches_frame": true,
+        "ends": [
+          [
+            42.26808,
+            34.4564
+          ],
+          [
+            48.0,
+            35.4
+          ]
+        ]
+      },
+      {
+        "name": "西南高速连接线",
+        "role": "regional-motorway",
+        "touches_frame": true,
+        "ends": [
+          [
+            12.03248,
+            30.96045
+          ],
+          [
+            0.0,
+            34.5
+          ]
+        ]
+      }
+    ],
+    "regional_railway_frame_ends": [
+      {
+        "name": "龙散普速干线",
+        "system": "conventional",
+        "frame_endpoints": 2
+      },
+      {
+        "name": "龙散高铁干线",
+        "system": "high-speed",
+        "frame_endpoints": 2
+      },
+      {
+        "name": "望津港货运支线",
+        "system": "freight",
+        "frame_endpoints": 0
+      },
+      {
+        "name": "铁山厂区货运联络线",
+        "system": "freight",
+        "frame_endpoints": 0
+      }
+    ],
+    "grade_structures": {
+      "motorway-over-road": 74,
+      "road-over-rail": 73,
+      "freight-over-conventional": 1,
+      "freight-over-high-speed": 1
+    },
+    "source_errors": [],
+    "station_geometry_errors": [],
+    "station_island_errors": [],
+    "west_bank": {
+      "楚风传媒": true,
+      "引资银行": true,
+      "楚江西岸": true
+    },
+    "sites": [
+      {
+        "name": "龙散大学",
+        "target_mu": 500,
+        "actual_ground_mu": 500.0039999999995,
+        "geo_mu": 500.00000000000114,
+        "svg_geo_difference_m2": 2.6666666656183207
+      },
+      {
+        "name": "燧明科技园",
+        "target_mu": 300,
+        "actual_ground_mu": 299.9999999999989,
+        "geo_mu": 299.9999999999989,
+        "svg_geo_difference_m2": 0.0
+      }
+    ],
+    "institute_labs": 15,
+    "station_walks": [
+      {
+        "name": "龙散火车站",
+        "system": "conventional",
+        "platforms": 2,
+        "platform_extents_m": [
+          [
+            7.999999999995566,
+            320.0000000000003
+          ],
+          [
+            7.999999999995566,
+            320.0000000000003
+          ]
+        ],
+        "station_tracks": 4,
+        "platform_track_crossings": 0,
+        "overpass_polygon_components": 1,
+        "hall_reaches_each_platform": [
+          true,
+          true
+        ],
+        "access_line_components": 1,
+        "continuous_drawn_metro_access": true,
+        "overpass_bounds_km": [
+          [
+            32.232,
+            17.037,
+            32.568000000000005,
+            17.055
+          ]
+        ]
+      },
+      {
+        "name": "龙散东站",
+        "system": "high-speed",
+        "platforms": 2,
+        "platform_extents_m": [
+          [
+            8.000000000002672,
+            399.9999999999986
+          ],
+          [
+            8.000000000002672,
+            399.9999999999986
+          ]
+        ],
+        "station_tracks": 4,
+        "platform_track_crossings": 0,
+        "overpass_polygon_components": 1,
+        "hall_reaches_each_platform": [
+          true,
+          true
+        ],
+        "access_line_components": 1,
+        "continuous_drawn_metro_access": true,
+        "overpass_bounds_km": [
+          [
+            38.272,
+            17.037,
+            38.718,
+            17.055
+          ]
+        ]
+      }
+    ],
+    "school_entries": [
+      {
+        "village": "云麓镇",
+        "matched_actual_arrivals": 2,
+        "entry_joins_public_streets": false,
+        "entry_school_gap_m": 3.0000000000001137
+      },
+      {
+        "village": "窑湾村",
+        "matched_actual_arrivals": 2,
+        "entry_joins_public_streets": false,
+        "entry_school_gap_m": 3.0000000000001137
+      },
+      {
+        "village": "莲花村",
+        "matched_actual_arrivals": 2,
+        "entry_joins_public_streets": false,
+        "entry_school_gap_m": 2.9999999999992255
+      },
+      {
+        "village": "北郊集镇",
+        "matched_actual_arrivals": 2,
+        "entry_joins_public_streets": false,
+        "entry_school_gap_m": 3.000000000007219
+      },
+      {
+        "village": "东岭山前村",
+        "matched_actual_arrivals": 2,
+        "entry_joins_public_streets": false,
+        "entry_school_gap_m": 2.9995488658155964
+      },
+      {
+        "village": "窑湾农场",
+        "matched_actual_arrivals": 2,
+        "entry_joins_public_streets": false,
+        "entry_school_gap_m": 2.999999999996561
+      },
+      {
+        "village": "机场社区",
+        "matched_actual_arrivals": 2,
+        "entry_joins_public_streets": false,
+        "entry_school_gap_m": 2.9995494121676476
+      },
+      {
+        "village": "南郊农贸镇",
+        "matched_actual_arrivals": 3,
+        "entry_joins_public_streets": false,
+        "entry_school_gap_m": 3.0000000000036664
+      },
+      {
+        "village": "东郊物流村",
+        "matched_actual_arrivals": 3,
+        "entry_joins_public_streets": true,
+        "entry_school_gap_m": 3.0000000000001137
+      }
+    ],
+    "pier_water_land_m2": [
+      {
+        "center_km": [
+          27.999999999999996,
+          29.945
+        ],
+        "water_m2": 2182.721161871847,
+        "land_m2": 1337.2788381279108
+      },
+      {
+        "center_km": [
+          30.199999999999996,
+          30.99684
+        ],
+        "water_m2": 2750.1948907384535,
+        "land_m2": 769.8051092613039
+      },
+      {
+        "center_km": [
+          33.300000000000004,
+          31.192959999999996
+        ],
+        "water_m2": 2750.111835686482,
+        "land_m2": 769.8881643132754
+      },
+      {
+        "center_km": [
+          35.0,
+          30.895070000000004
+        ],
+        "water_m2": 2749.9767598284493,
+        "land_m2": 770.0232401701714
+      },
+      {
+        "center_km": [
+          39.2,
+          29.78838
+        ],
+        "water_m2": 2749.989385964749,
+        "land_m2": 770.0106140350083
+      }
+    ],
+    "built_lots": 76663,
+    "actual_frontage_distance_m": {
+      "0": 9.981022247758553,
+      "50": 10.00126341490315,
+      "90": 27.001391146413308,
+      "99": 92.78678041860721,
+      "100": 119.97779737562016
+    },
+    "density_samples": [
+      {
+        "name": "北岭住宅",
+        "center_km": [
+          31,
+          9
+        ],
+        "area_km2": 4,
+        "ordinary_centroid_count": 428,
+        "roof_coverage": 0.2156855011749992,
+        "ordinary_street_km_per_km2": 5.456170000000002,
+        "model_storey_weighted_roof_coverage_proxy": 3.292598983124991,
+        "housing_model_mean_storeys": 15.419277108433734,
+        "roof_use_counts": {
+          "residential-building": 415,
+          "factory-hall": 13
+        }
+      },
+      {
+        "name": "文星居住",
+        "center_km": [
+          12.5,
+          20.5
+        ],
+        "area_km2": 4,
+        "ordinary_centroid_count": 426,
+        "roof_coverage": 0.19131847057500018,
+        "ordinary_street_km_per_km2": 8.818475000000005,
+        "model_storey_weighted_roof_coverage_proxy": 1.7602157614500027,
+        "housing_model_mean_storeys": 11.610837438423646,
+        "roof_use_counts": {
+          "residential-building": 203,
+          "academic-building": 223
+        }
+      },
+      {
+        "name": "故城片区",
+        "center_km": [
+          31.7,
+          22.6
+        ],
+        "area_km2": 4,
+        "ordinary_centroid_count": 816,
+        "roof_coverage": 0.29890588820000213,
+        "ordinary_street_km_per_km2": 8.113072343528184,
+        "model_storey_weighted_roof_coverage_proxy": 2.616865834625023,
+        "housing_model_mean_storeys": 15.098265895953757,
+        "roof_use_counts": {
+          "residential-building": 519,
+          "factory-hall": 62,
+          "historic-frontage": 227,
+          "warehouse": 7,
+          "office-tower": 1
+        }
+      },
+      {
+        "name": "铁山工业",
+        "center_km": [
+          35.7,
+          15
+        ],
+        "area_km2": 4,
+        "ordinary_centroid_count": 397,
+        "roof_coverage": 0.29151616597500013,
+        "ordinary_street_km_per_km2": 6.018644502947978,
+        "model_storey_weighted_roof_coverage_proxy": 1.871123894500002,
+        "housing_model_mean_storeys": 14.237410071942445,
+        "roof_use_counts": {
+          "residential-building": 139,
+          "factory-hall": 238,
+          "office-tower": 20
+        }
+      },
+      {
+        "name": "城西外缘",
+        "center_km": [
+          8,
+          24
+        ],
+        "area_km2": 4,
+        "ordinary_centroid_count": 0,
+        "roof_coverage": 0.0,
+        "ordinary_street_km_per_km2": 0.7466153631385377,
+        "model_storey_weighted_roof_coverage_proxy": 0.0,
+        "housing_model_mean_storeys": null,
+        "roof_use_counts": {}
+      },
+      {
+        "name": "云麓镇周边",
+        "center_km": [
+          5.5,
+          21
+        ],
+        "area_km2": 4,
+        "ordinary_centroid_count": 302,
+        "roof_coverage": 0.035684107606758705,
+        "ordinary_street_km_per_km2": 1.4094134227730961,
+        "model_storey_weighted_roof_coverage_proxy": 0.0004487628202758786,
+        "housing_model_mean_storeys": null,
+        "roof_use_counts": {
+          "village": 301,
+          "village-school": 1
+        }
+      },
+      {
+        "name": "西南郊野",
+        "center_km": [
+          8,
+          31
+        ],
+        "area_km2": 4,
+        "ordinary_centroid_count": 0,
+        "roof_coverage": 0.0,
+        "ordinary_street_km_per_km2": 0.0,
+        "model_storey_weighted_roof_coverage_proxy": 0.0,
+        "housing_model_mean_storeys": null,
+        "roof_use_counts": {}
+      },
+      {
+        "name": "西部剖带_内城",
+        "center_km": [
+          12.5,
+          20.5
+        ],
+        "area_km2": 4,
+        "ordinary_centroid_count": 426,
+        "roof_coverage": 0.19131847057500018,
+        "ordinary_street_km_per_km2": 8.818475000000005,
+        "model_storey_weighted_roof_coverage_proxy": 1.7602157614500027,
+        "housing_model_mean_storeys": 11.610837438423646,
+        "roof_use_counts": {
+          "residential-building": 203,
+          "academic-building": 223
+        }
+      },
+      {
+        "name": "西部剖带_中缘",
+        "center_km": [
+          10.5,
+          20.5
+        ],
+        "area_km2": 4,
+        "ordinary_centroid_count": 219,
+        "roof_coverage": 0.13010713482499978,
+        "ordinary_street_km_per_km2": 6.6783831683085095,
+        "model_storey_weighted_roof_coverage_proxy": 0.9305907797374976,
+        "housing_model_mean_storeys": 7.972972972972973,
+        "roof_use_counts": {
+          "academic-building": 108,
+          "residential-building": 111
+        }
+      },
+      {
+        "name": "西部剖带_外缘",
+        "center_km": [
+          8.5,
+          20.5
+        ],
+        "area_km2": 4,
+        "ordinary_centroid_count": 35,
+        "roof_coverage": 0.03675737940000033,
+        "ordinary_street_km_per_km2": 1.9661760282130178,
+        "model_storey_weighted_roof_coverage_proxy": 0.19541958182500163,
+        "housing_model_mean_storeys": 5.481481481481482,
+        "roof_use_counts": {
+          "residential-building": 27,
+          "academic-building": 8
+        }
+      },
+      {
+        "name": "西部剖带_村镇",
+        "center_km": [
+          6.5,
+          20.5
+        ],
+        "area_km2": 4,
+        "ordinary_centroid_count": 131,
+        "roof_coverage": 0.02170439857499983,
+        "ordinary_street_km_per_km2": 1.5077828832357771,
+        "model_storey_weighted_roof_coverage_proxy": 0.01888163572499977,
+        "housing_model_mean_storeys": 3.0,
+        "roof_use_counts": {
+          "residential-building": 1,
+          "village": 129,
+          "village-school": 1
+        }
+      }
+    ],
+    "manual_visual_review": {}
+  },
+  "remaining_limits": [
+    "Concept design; railway curves, platform dimensions and structural clearances not engineering certification.",
+    "Storeys are synthetic design attributes. Coverage proxy assumes constant floor plate; no population inference or legal net FAR.",
+    "Frontage gate uses declared 41m near-street threshold or a drawn access line; every individual door/sidewalk has not been modelled.",
+    "Recorded source district/diagram conflicts remain; no source canon was rewritten."
+  ],
+  "read_method": {
+    "geometry": "M/L/Z SVG polygons/centreline paths, km = SVG units/100; geometry paths are untransformed",
+    "collision_area_tolerance_m2": 1,
+    "street_rounding_tolerance_m": 1,
+    "rail_design_buffer_m": {
+      "high-speed": 50,
+      "conventional": 36,
+      "freight": 21
+    },
+    "density_samples": "fixed 2x2km windows; actual roof union, centreline union and actual SVG storey attributes; includes an intra-city west transect"
+  }
+}

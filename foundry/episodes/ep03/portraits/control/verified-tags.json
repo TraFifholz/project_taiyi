@@ -1,0 +1,1034 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-09-03T15:30:25.092Z",
+  "policy": "New character tags verified through Danbooru MCP; inherited style and NAI preset kept verbatim. Scene-specific candidates do not change formal portrait-master.",
+  "tags": {
+    "jacket": {
+      "source": "mcp_related",
+      "count": 1484831
+    },
+    "bomber_jacket": {
+      "source": "mcp_related",
+      "count": 4190
+    },
+    "highres": {
+      "source": "mcp_related",
+      "count": 8103035
+    },
+    "solo": {
+      "source": "mcp_related",
+      "count": 7029008
+    },
+    "1girl": {
+      "source": "mcp_related",
+      "count": 8369800
+    },
+    "commentary_request": {
+      "source": "mcp_related",
+      "count": 6305983
+    },
+    "long_hair": {
+      "source": "mcp_related",
+      "count": 6176509
+    },
+    "short_hair": {
+      "source": "mcp_related",
+      "count": 3116816
+    },
+    "blonde_hair": {
+      "source": "mcp_related",
+      "count": 2160470
+    },
+    "looking_at_viewer": {
+      "source": "mcp_related",
+      "count": 4888173
+    },
+    "shirt": {
+      "source": "mcp_related",
+      "count": 2923001
+    },
+    "smile": {
+      "source": "mcp_related",
+      "count": 4149659
+    },
+    "commentary": {
+      "source": "mcp_related",
+      "count": 3217183
+    },
+    "gloves": {
+      "source": "mcp_related",
+      "count": 1930805
+    },
+    "brown_hair": {
+      "source": "mcp_related",
+      "count": 2079261
+    },
+    "breasts": {
+      "source": "mcp_related",
+      "count": 4949208
+    },
+    "blue_eyes": {
+      "source": "mcp_related",
+      "count": 2459315
+    },
+    "long_sleeves": {
+      "source": "mcp_related",
+      "count": 2343641
+    },
+    "holding": {
+      "source": "mcp_related",
+      "count": 2190416
+    },
+    "open_mouth": {
+      "source": "mcp_related",
+      "count": 3495104
+    },
+    "male_focus": {
+      "source": "mcp_related",
+      "count": 1123016
+    },
+    "multiple_girls": {
+      "source": "mcp_related",
+      "count": 2102844
+    },
+    "pants": {
+      "source": "mcp_related",
+      "count": 703548
+    },
+    "belt": {
+      "source": "mcp_related",
+      "count": 511291
+    },
+    "simple_background": {
+      "source": "mcp_related",
+      "count": 2842821
+    },
+    "absurdres": {
+      "source": "mcp_related",
+      "count": 2971327
+    },
+    "open_clothes": {
+      "source": "mcp_related",
+      "count": 750656
+    },
+    "1boy": {
+      "source": "mcp_related",
+      "count": 2118519
+    },
+    "open_jacket": {
+      "source": "mcp_related",
+      "count": 378926
+    },
+    "brown_jacket": {
+      "source": "mcp_related",
+      "count": 63422
+    },
+    "blush": {
+      "source": "mcp_related",
+      "count": 4081579
+    },
+    "black_hair": {
+      "source": "mcp_related",
+      "count": 2190033
+    },
+    "multiple_boys": {
+      "source": "mcp_related",
+      "count": 693471
+    },
+    "brown_eyes": {
+      "source": "mcp_related",
+      "count": 1087362
+    },
+    "white_background": {
+      "source": "mcp_related",
+      "count": 2328851
+    },
+    "shorts": {
+      "source": "mcp_related",
+      "count": 657537
+    },
+    "english_commentary": {
+      "source": "mcp_related",
+      "count": 1311530
+    },
+    "bad_id": {
+      "source": "mcp_related",
+      "count": 1448685
+    },
+    "animal_ears": {
+      "source": "mcp_related",
+      "count": 1750696
+    },
+    "white_shirt": {
+      "source": "mcp_related",
+      "count": 1406702
+    },
+    "goggles": {
+      "source": "mcp_related",
+      "count": 87669
+    },
+    "skirt": {
+      "source": "mcp_related",
+      "count": 2170251
+    },
+    "weapon": {
+      "source": "mcp_related",
+      "count": 810417
+    },
+    "necktie": {
+      "source": "mcp_related",
+      "count": 660804
+    },
+    "2girls": {
+      "source": "mcp_related",
+      "count": 1430717
+    },
+    "boots": {
+      "source": "mcp_related",
+      "count": 700017
+    },
+    "thighhighs": {
+      "source": "mcp_related",
+      "count": 1527696
+    },
+    "standing": {
+      "source": "mcp_related",
+      "count": 1326417
+    },
+    "green_jacket": {
+      "source": "mcp_related",
+      "count": 64188
+    },
+    "hat": {
+      "source": "mcp_related",
+      "count": 1692031
+    },
+    "shoes": {
+      "source": "mcp_related",
+      "count": 850127
+    },
+    "navel": {
+      "source": "mcp_related",
+      "count": 1598995
+    },
+    "closed_mouth": {
+      "source": "mcp_related",
+      "count": 1955677
+    },
+    "overwatch": {
+      "source": "mcp_related",
+      "count": 19868
+    },
+    "tracer_(overwatch)": {
+      "source": "mcp_related",
+      "count": 1982
+    },
+    "gun": {
+      "source": "mcp_related",
+      "count": 195597
+    },
+    "bodysuit": {
+      "source": "mcp_related",
+      "count": 182543
+    },
+    "fur_trim": {
+      "source": "mcp_related",
+      "count": 234133
+    },
+    "full_body": {
+      "source": "mcp_related",
+      "count": 1275566
+    },
+    "large_breasts": {
+      "source": "mcp_related",
+      "count": 2247599
+    },
+    "glasses": {
+      "source": "mcp_related",
+      "count": 501695
+    },
+    "tail": {
+      "source": "mcp_related",
+      "count": 1192131
+    },
+    "orange_hair": {
+      "source": "mcp_related",
+      "count": 349552
+    },
+    "spiked_hair": {
+      "source": "mcp_related",
+      "count": 107001
+    },
+    "umamusume": {
+      "source": "mcp_related",
+      "count": 231744
+    },
+    "jewelry": {
+      "source": "mcp_related",
+      "count": 1592829
+    },
+    "midriff": {
+      "source": "mcp_related",
+      "count": 402414
+    },
+    "horse_girl": {
+      "source": "mcp_related",
+      "count": 227667
+    },
+    "mayano_top_gun_(umamusume)": {
+      "source": "mcp_related",
+      "count": 3676
+    },
+    "horse_ears": {
+      "source": "mcp_related",
+      "count": 233429
+    },
+    "2boys": {
+      "source": "mcp_related",
+      "count": 465009
+    },
+    "hair_between_eyes": {
+      "source": "mcp_related",
+      "count": 1776297
+    },
+    "denim": {
+      "source": "mcp_related",
+      "count": 107168
+    },
+    "cowboy_shot": {
+      "source": "mcp_related",
+      "count": 848363
+    },
+    "ponytail": {
+      "source": "mcp_related",
+      "count": 961112
+    },
+    "facial_hair": {
+      "source": "mcp_related",
+      "count": 168284
+    },
+    "mayano_top_gun_(scramble_zone)_(umamusume)": {
+      "source": "mcp_related",
+      "count": 964
+    },
+    "upper_body": {
+      "source": "mcp_related",
+      "count": 1187859
+    },
+    "crop_top": {
+      "source": "mcp_related",
+      "count": 283757
+    },
+    "blue_jacket": {
+      "source": "mcp_related",
+      "count": 157698
+    },
+    "bad_pixiv_id": {
+      "source": "mcp_related",
+      "count": 1104122
+    },
+    "holding_weapon": {
+      "source": "mcp_related",
+      "count": 417349
+    },
+    "sitting": {
+      "source": "mcp_related",
+      "count": 1307602
+    },
+    "harness": {
+      "source": "mcp_related",
+      "count": 25248
+    },
+    "black_gloves": {
+      "source": "mcp_related",
+      "count": 674202
+    },
+    "orange_goggles": {
+      "source": "mcp_related",
+      "count": 927
+    },
+    "closed_eyes": {
+      "source": "mcp_related",
+      "count": 1053880
+    },
+    "photoshop_(medium)": {
+      "source": "mcp_related",
+      "count": 709684
+    },
+    "black_jacket": {
+      "source": "mcp_related",
+      "count": 389803
+    },
+    "teeth": {
+      "source": "mcp_related",
+      "count": 769781
+    },
+    "ribbon": {
+      "source": "mcp_related",
+      "count": 1456270
+    },
+    "bow": {
+      "source": "mcp_related",
+      "count": 1721709
+    },
+    "two_side_up": {
+      "source": "mcp_related",
+      "count": 248112
+    },
+    "leather": {
+      "source": "mcp_related",
+      "count": 21141
+    },
+    "hair_ornament": {
+      "source": "mcp_related",
+      "count": 2059508
+    },
+    "green_eyes": {
+      "source": "mcp_related",
+      "count": 1189930
+    },
+    "pantyhose": {
+      "source": "mcp_related",
+      "count": 734953
+    },
+    "fingerless_gloves": {
+      "source": "mcp_related",
+      "count": 372317
+    },
+    "dog_tags": {
+      "source": "mcp_related",
+      "count": 11873
+    },
+    "tiger_&_bunny": {
+      "source": "mcp_related",
+      "count": 7548
+    },
+    "original": {
+      "source": "mcp_related",
+      "count": 1574167
+    },
+    "school_uniform": {
+      "source": "mcp_related",
+      "count": 1052794
+    },
+    "semi-rimless_eyewear": {
+      "source": "mcp_related",
+      "count": 64520
+    },
+    "red_eyes": {
+      "source": "mcp_related",
+      "count": 1770318
+    },
+    "cleavage": {
+      "source": "mcp_related",
+      "count": 1412590
+    },
+    "twintails": {
+      "source": "mcp_related",
+      "count": 1231570
+    },
+    "dress": {
+      "source": "mcp_related",
+      "count": 1943128
+    },
+    "purple_eyes": {
+      "source": "mcp_related",
+      "count": 1194104
+    },
+    "monochrome": {
+      "source": "mcp_related",
+      "count": 850272
+    },
+    "ahoge": {
+      "source": "mcp_related",
+      "count": 967533
+    },
+    "round_eyewear": {
+      "source": "mcp_related",
+      "count": 77139
+    },
+    "collared_shirt": {
+      "source": "mcp_related",
+      "count": 759122
+    },
+    "braid": {
+      "source": "mcp_related",
+      "count": 923477
+    },
+    "blue_hair": {
+      "source": "mcp_related",
+      "count": 1195862
+    },
+    "purple_hair": {
+      "source": "mcp_related",
+      "count": 911912
+    },
+    "comic": {
+      "source": "mcp_related",
+      "count": 728203
+    },
+    "black-framed_eyewear": {
+      "source": "mcp_related",
+      "count": 56764
+    },
+    "translation_request": {
+      "source": "mcp_related",
+      "count": 847862
+    },
+    "pink_hair": {
+      "source": "mcp_related",
+      "count": 1056343
+    },
+    "multicolored_hair": {
+      "source": "mcp_related",
+      "count": 1180339
+    },
+    "underwear": {
+      "source": "mcp_related",
+      "count": 1013888
+    },
+    "grey_hair": {
+      "source": "mcp_related",
+      "count": 1022521
+    },
+    "greyscale": {
+      "source": "mcp_related",
+      "count": 688551
+    },
+    "very_long_hair": {
+      "source": "mcp_related",
+      "count": 1407697
+    },
+    "medium_breasts": {
+      "source": "mcp_related",
+      "count": 1210605
+    },
+    "yellow_eyes": {
+      "source": "mcp_related",
+      "count": 1017132
+    },
+    "red-framed_eyewear": {
+      "source": "mcp_related",
+      "count": 43987
+    },
+    "nipples": {
+      "source": "mcp_related",
+      "count": 1135582
+    },
+    "white_hair": {
+      "source": "mcp_related",
+      "count": 1038473
+    },
+    "collarbone": {
+      "source": "mcp_related",
+      "count": 1104470
+    },
+    "bare_shoulders": {
+      "source": "mcp_related",
+      "count": 1390493
+    },
+    "under-rim_eyewear": {
+      "source": "mcp_related",
+      "count": 39001
+    },
+    "earrings": {
+      "source": "mcp_related",
+      "count": 851035
+    },
+    "pleated_skirt": {
+      "source": "mcp_related",
+      "count": 707338
+    },
+    ":d": {
+      "source": "mcp_related",
+      "count": 848723
+    },
+    "red_hair": {
+      "source": "mcp_related",
+      "count": 732747
+    },
+    "panties": {
+      "source": "mcp_related",
+      "count": 817987
+    },
+    "short_sleeves": {
+      "source": "mcp_related",
+      "count": 907362
+    },
+    "transparent_background": {
+      "source": "mcp_related",
+      "count": 178221
+    },
+    "official_art": {
+      "source": "mcp_related",
+      "count": 538388
+    },
+    "tachi-e": {
+      "source": "mcp_related",
+      "count": 80569
+    },
+    "variant_set": {
+      "source": "mcp_related",
+      "count": 228973
+    },
+    "large_variant_set": {
+      "source": "mcp_related",
+      "count": 110626
+    },
+    "game_asset": {
+      "source": "mcp_related",
+      "count": 170912
+    },
+    "touhou": {
+      "source": "mcp_related",
+      "count": 1093036
+    },
+    "non-web_source": {
+      "source": "mcp_related",
+      "count": 182352
+    },
+    "third-party_source": {
+      "source": "mcp_related",
+      "count": 102883
+    },
+    "frills": {
+      "source": "mcp_related",
+      "count": 770006
+    },
+    "socks": {
+      "source": "mcp_related",
+      "count": 576686
+    },
+    "self-datamine": {
+      "source": "mcp_related",
+      "count": 49114
+    },
+    "sidelocks": {
+      "source": "mcp_related",
+      "count": 934149
+    },
+    "dairi": {
+      "source": "mcp_related",
+      "count": 18794
+    },
+    "parody": {
+      "source": "mcp_related",
+      "count": 109424
+    },
+    "artist_request": {
+      "source": "mcp_related",
+      "count": 143161
+    },
+    "style_parody": {
+      "source": "mcp_related",
+      "count": 33899
+    },
+    "alphes_(style)": {
+      "source": "mcp_related",
+      "count": 16107
+    },
+    "puffy_sleeves": {
+      "source": "mcp_related",
+      "count": 522218
+    },
+    "hair_ribbon": {
+      "source": "mcp_related",
+      "count": 794014
+    },
+    "hand_up": {
+      "source": "mcp_related",
+      "count": 557675
+    },
+    "chibi": {
+      "source": "mcp_related",
+      "count": 377536
+    },
+    "flower": {
+      "source": "mcp_related",
+      "count": 882340
+    },
+    "wings": {
+      "source": "mcp_related",
+      "count": 624010
+    },
+    "official_alternate_costume": {
+      "source": "mcp_related",
+      "count": 568328
+    },
+    "hair_bow": {
+      "source": "mcp_related",
+      "count": 757980
+    },
+    "mature_male": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 45092
+    },
+    "mature_female": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 49513
+    },
+    "grey_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 65218
+    },
+    "cargo_pants": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2576
+    },
+    "zipper": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 56832
+    },
+    "pocket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 61129
+    },
+    "black_pants": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 253791
+    },
+    "utility_belt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4339
+    },
+    "pouch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 51816
+    },
+    "wristwatch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 28859
+    },
+    "earpiece": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9543
+    },
+    "tablet_pc": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9319
+    },
+    "expressionless": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 180156
+    },
+    "serious": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 39703
+    },
+    "shadow": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 163776
+    },
+    "swept_bangs": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 162067
+    },
+    "hair_behind_ear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 51340
+    },
+    "high_collar": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 64519
+    },
+    "grey_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 106709
+    },
+    "helmet": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 113783
+    },
+    "motorcycle_helmet": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2482
+    },
+    "smirk": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 36558
+    },
+    "messy_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 91563
+    },
+    "rectangular_eyewear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 10871
+    },
+    "bags_under_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 43287
+    },
+    "shoulder_bag": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 49994
+    },
+    "brown_bag": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 13490
+    },
+    "bag": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 328633
+    },
+    "laptop": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11614
+    },
+    "nervous_smile": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11952
+    },
+    "hunched_over": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2031
+    },
+    "indoors": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 549176
+    },
+    "outdoors": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 806278
+    },
+    "grey_background": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 381335
+    },
+    "gradient_background": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 188520
+    },
+    "watermark": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 243997
+    },
+    "signature": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 441016
+    },
+    "character_name": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 306596
+    },
+    "english_text": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 408777
+    },
+    "chinese_text": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 50577
+    },
+    "logo": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 90668
+    },
+    "emblem": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 22714
+    },
+    "badge": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 16203
+    },
+    "text_focus": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 19847
+    },
+    "hologram": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2059
+    },
+    "heads-up_display": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1626
+    },
+    "glowing": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 138273
+    },
+    "aura": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 18881
+    },
+    "light_particles": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 80888
+    },
+    "child": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 78780
+    },
+    "muscular_male": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 139300
+    },
+    "hand_on_own_hip": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 228534
+    },
+    "hands_in_pockets": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 34437
+    },
+    "collar": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 277599
+    },
+    "arm_under_breasts": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 34485
+    },
+    "backlighting": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 45487
+    },
+    "overlighting": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 509
+    },
+    "flat_color": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 13737
+    },
+    "strap": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 16121
+    },
+    "lowres": {
+      "source": "mcp_verified",
+      "category": "meta",
+      "count": 112600
+    },
+    "artistic_error": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9761
+    },
+    "film_grain": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 26626
+    },
+    "scan_artifacts": {
+      "source": "mcp_verified",
+      "category": "meta",
+      "count": 4030
+    },
+    "jpeg_artifacts": {
+      "source": "mcp_verified",
+      "category": "meta",
+      "count": 27336
+    },
+    "chromatic_aberration": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 38589
+    },
+    "dithering": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2289
+    },
+    "halftone": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 20870
+    },
+    "multiple_views": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 269657
+    },
+    "too_many_watermarks": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4619
+    },
+    "negative_space": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1727
+    },
+    "blank_page": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 312
+    },
+    "worst_quality": {
+      "source": "project_locked_preset",
+      "note": "Exact unchanged existing api-profile.json negative preset; not claimed as Danbooru tag."
+    },
+    "bad_quality": {
+      "source": "project_locked_preset",
+      "note": "Exact unchanged existing api-profile.json negative preset; not claimed as Danbooru tag."
+    },
+    "very_displeasing": {
+      "source": "project_locked_preset",
+      "note": "Exact unchanged existing api-profile.json negative preset; not claimed as Danbooru tag."
+    },
+    "screentone": {
+      "source": "project_locked_preset",
+      "note": "Exact unchanged existing api-profile.json negative preset; not claimed as Danbooru tag."
+    }
+  }
+}

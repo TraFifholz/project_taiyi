@@ -1,0 +1,921 @@
+{
+  "candidate_base_sha256": "4ce5567060057df101991a68d84763e03cbd173669fbff09e477782a2c17538d",
+  "input_stable": true,
+  "priority": "P1",
+  "problem": "实际SVG的service-road穿过铁路中心线，未覆盖绘出的跨线处理；其中既有新临街通道，也有继承的设施服务路。货运港内平交若采用，须明确图示与设计解释。",
+  "crossings_by_system": {
+    "conventional": 11,
+    "high-speed": 6,
+    "freight": 30
+  },
+  "crossings": [
+    {
+      "rail": "龙散普速干线",
+      "system": "conventional",
+      "path_type": "service-road",
+      "xy_km": [
+        35.11833535370199,
+        29.675
+      ],
+      "service_path_index": 6398,
+      "road_bounds_km": [
+        33.81305,
+        29.675,
+        35.477,
+        29.675
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 2790.0499999999975
+    },
+    {
+      "rail": "龙散普速干线",
+      "system": "conventional",
+      "path_type": "service-road",
+      "xy_km": [
+        35.15635420055453,
+        29.801
+      ],
+      "service_path_index": 6400,
+      "road_bounds_km": [
+        31.750999999999998,
+        29.801,
+        35.477,
+        29.801
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 727.999999999998
+    },
+    {
+      "rail": "龙散普速干线",
+      "system": "conventional",
+      "path_type": "service-road",
+      "xy_km": [
+        35.194485082205354,
+        29.927
+      ],
+      "service_path_index": 6402,
+      "road_bounds_km": [
+        31.750999999999998,
+        29.927,
+        35.477,
+        29.927
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 727.999999999998
+    },
+    {
+      "rail": "龙散普速干线",
+      "system": "conventional",
+      "path_type": "service-road",
+      "xy_km": [
+        35.232723003500894,
+        30.053
+      ],
+      "service_path_index": 6404,
+      "road_bounds_km": [
+        31.750999999999998,
+        30.053,
+        35.477,
+        30.053
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 727.999999999998
+    },
+    {
+      "rail": "龙散普速干线",
+      "system": "conventional",
+      "path_type": "service-road",
+      "xy_km": [
+        35.27106634778013,
+        30.179000000000002
+      ],
+      "service_path_index": 6406,
+      "road_bounds_km": [
+        31.750999999999998,
+        30.179000000000002,
+        35.477,
+        30.179000000000002
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 727.999999999998
+    },
+    {
+      "rail": "龙散普速干线",
+      "system": "conventional",
+      "path_type": "service-road",
+      "xy_km": [
+        35.30951784416099,
+        30.305
+      ],
+      "service_path_index": 6408,
+      "road_bounds_km": [
+        31.750999999999998,
+        30.305,
+        35.477,
+        30.305
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 727.999999999998
+    },
+    {
+      "rail": "龙散普速干线",
+      "system": "conventional",
+      "path_type": "service-road",
+      "xy_km": [
+        35.348089782565594,
+        30.430999999999997
+      ],
+      "service_path_index": 6410,
+      "road_bounds_km": [
+        31.750999999999998,
+        30.430999999999997,
+        35.477,
+        30.430999999999997
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 727.999999999998
+    },
+    {
+      "rail": "龙散普速干线",
+      "system": "conventional",
+      "path_type": "service-road",
+      "xy_km": [
+        35.38678770329235,
+        30.557
+      ],
+      "service_path_index": 6412,
+      "road_bounds_km": [
+        31.750999999999998,
+        30.557,
+        35.477,
+        30.557
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 727.999999999998
+    },
+    {
+      "rail": "龙散普速干线",
+      "system": "conventional",
+      "path_type": "service-road",
+      "xy_km": [
+        36.132586284595774,
+        33.075
+      ],
+      "service_path_index": 6413,
+      "road_bounds_km": [
+        31.823,
+        33.075,
+        36.477,
+        33.075
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 7.105427357601002e-12
+    },
+    {
+      "rail": "龙散普速干线",
+      "system": "conventional",
+      "path_type": "service-road",
+      "xy_km": [
+        36.16154815208503,
+        33.201
+      ],
+      "service_path_index": 6414,
+      "road_bounds_km": [
+        31.823,
+        33.201,
+        36.477,
+        33.201
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 7.105427357601002e-12
+    },
+    {
+      "rail": "龙散普速干线",
+      "system": "conventional",
+      "path_type": "service-road",
+      "xy_km": [
+        36.18913644482727,
+        33.327
+      ],
+      "service_path_index": 6415,
+      "road_bounds_km": [
+        31.823,
+        33.327,
+        36.477,
+        33.327
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 7.105427357601002e-12
+    },
+    {
+      "rail": "龙散高铁干线",
+      "system": "high-speed",
+      "path_type": "service-road",
+      "xy_km": [
+        38.770899495666995,
+        20.21
+      ],
+      "service_path_index": 6367,
+      "road_bounds_km": [
+        37.93,
+        20.21,
+        38.83345,
+        20.21
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 386.5499999999997
+    },
+    {
+      "rail": "龙散高铁干线",
+      "system": "high-speed",
+      "path_type": "service-road",
+      "xy_km": [
+        38.80560374982212,
+        20.52
+      ],
+      "service_path_index": 6369,
+      "road_bounds_km": [
+        37.93,
+        20.52,
+        38.87937,
+        20.52
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 340.6299999999973
+    },
+    {
+      "rail": "龙散高铁干线",
+      "system": "high-speed",
+      "path_type": "service-road",
+      "xy_km": [
+        38.8471828852459,
+        20.83
+      ],
+      "service_path_index": 6371,
+      "road_bounds_km": [
+        37.93,
+        20.83,
+        38.9253,
+        20.83
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 294.69999999999885
+    },
+    {
+      "rail": "龙散高铁干线",
+      "system": "high-speed",
+      "path_type": "service-road",
+      "xy_km": [
+        38.895685706125946,
+        21.14
+      ],
+      "service_path_index": 6373,
+      "road_bounds_km": [
+        37.93,
+        21.14,
+        38.971219999999995,
+        21.14
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 248.78000000000355
+    },
+    {
+      "rail": "龙散高铁干线",
+      "system": "high-speed",
+      "path_type": "service-road",
+      "xy_km": [
+        38.948571428571434,
+        21.45
+      ],
+      "service_path_index": 6375,
+      "road_bounds_km": [
+        37.93,
+        21.45,
+        39.01715,
+        21.45
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 202.84999999999798
+    },
+    {
+      "rail": "龙散高铁干线",
+      "system": "high-speed",
+      "path_type": "service-road",
+      "xy_km": [
+        38.791,
+        20.396256834975343
+      ],
+      "service_path_index": 6377,
+      "road_bounds_km": [
+        38.791,
+        20.125,
+        38.791,
+        21.725
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 0.0
+    },
+    {
+      "rail": "望津港货运支线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        34.29919329558563,
+        28.45292888322754
+      ],
+      "service_path_index": 2165,
+      "road_bounds_km": [
+        34.279540000000004,
+        28.445189999999997,
+        34.33508,
+        28.46706
+      ],
+      "associated_lot_id": "P45381",
+      "cache_match_hausdorff_m": 0.002741437572681297
+    },
+    {
+      "rail": "望津港货运支线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        34.28837527566452,
+        28.492144081332366
+      ],
+      "service_path_index": 2172,
+      "road_bounds_km": [
+        34.2628,
+        28.46706,
+        34.33508,
+        28.50588
+      ],
+      "associated_lot_id": "P45415",
+      "cache_match_hausdorff_m": 0.005186461877166619
+    },
+    {
+      "rail": "望津港货运支线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        34.35809279997804,
+        28.239418855526722
+      ],
+      "service_path_index": 2176,
+      "road_bounds_km": [
+        34.3216,
+        28.227469999999997,
+        34.37807,
+        28.24596
+      ],
+      "associated_lot_id": "P45449",
+      "cache_match_hausdorff_m": 0.006274834469043138
+    },
+    {
+      "rail": "望津港货运支线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        34.35041051945736,
+        28.267267034279595
+      ],
+      "service_path_index": 2177,
+      "road_bounds_km": [
+        34.3216,
+        28.227469999999997,
+        34.36618,
+        28.289050000000003
+      ],
+      "associated_lot_id": "P45450",
+      "cache_match_hausdorff_m": 0.006274834469043138
+    },
+    {
+      "rail": "望津港货运支线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        34.35420584824696,
+        28.253509010958997
+      ],
+      "service_path_index": 2178,
+      "road_bounds_km": [
+        34.3216,
+        28.227469999999997,
+        34.39871,
+        28.289050000000003
+      ],
+      "associated_lot_id": "P45451",
+      "cache_match_hausdorff_m": 0.006274834469043138
+    },
+    {
+      "rail": "望津港货运支线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        35.21376522033537,
+        25.137568165512246
+      ],
+      "service_path_index": 3126,
+      "road_bounds_km": [
+        35.17479,
+        25.136909999999997,
+        35.23476,
+        25.13879
+      ],
+      "associated_lot_id": "P61094",
+      "cache_match_hausdorff_m": 0.006123577618624708
+    },
+    {
+      "rail": "望津港货运支线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        35.08178469833493,
+        25.85463941775016
+      ],
+      "service_path_index": 3133,
+      "road_bounds_km": [
+        35.04566,
+        25.8426,
+        35.10171,
+        25.86128
+      ],
+      "associated_lot_id": "P61158",
+      "cache_match_hausdorff_m": 0.004884943280334888
+    },
+    {
+      "rail": "望津港货运支线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        35.074037851643176,
+        25.877880572313142
+      ],
+      "service_path_index": 3134,
+      "road_bounds_km": [
+        35.04566,
+        25.8426,
+        35.08969,
+        25.89734
+      ],
+      "associated_lot_id": "P61164",
+      "cache_match_hausdorff_m": 0.004196660004559262
+    },
+    {
+      "rail": "望津港货运支线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        35.026303526420286,
+        26.021087334316814
+      ],
+      "service_path_index": 3135,
+      "road_bounds_km": [
+        34.97589,
+        26.004070000000002,
+        35.05411,
+        26.05194
+      ],
+      "associated_lot_id": "P61165",
+      "cache_match_hausdorff_m": 0.0065286181828747855
+    },
+    {
+      "rail": "望津港货运支线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        34.998516717150494,
+        26.104449966204008
+      ],
+      "service_path_index": 3136,
+      "road_bounds_km": [
+        34.97589,
+        26.05194,
+        35.010999999999996,
+        26.13342
+      ],
+      "associated_lot_id": "P61172",
+      "cache_match_hausdorff_m": 0.0065286181828747855
+    },
+    {
+      "rail": "望津港货运支线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        33.562979999999996,
+        21.43094508648369
+      ],
+      "service_path_index": 3951,
+      "road_bounds_km": [
+        33.562979999999996,
+        21.39286,
+        33.562979999999996,
+        21.4388
+      ],
+      "associated_lot_id": "P76192",
+      "cache_match_hausdorff_m": 0.005961275938741299
+    },
+    {
+      "rail": "望津港货运支线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        33.962069161954595,
+        29.675
+      ],
+      "service_path_index": 6398,
+      "road_bounds_km": [
+        33.81305,
+        29.675,
+        35.477,
+        29.675
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 2790.0499999999975
+    },
+    {
+      "rail": "望津港货运支线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        33.92731043126002,
+        29.801
+      ],
+      "service_path_index": 6400,
+      "road_bounds_km": [
+        31.750999999999998,
+        29.801,
+        35.477,
+        29.801
+      ],
+      "associated_lot_id": null,
+      "cache_match_hausdorff_m": 727.999999999998
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        36.58089307946971,
+        13.773021258982105
+      ],
+      "service_path_index": 1475,
+      "road_bounds_km": [
+        36.56257,
+        13.755090000000001,
+        36.61292,
+        13.78328
+      ],
+      "associated_lot_id": "P34893",
+      "cache_match_hausdorff_m": 0.0031925282920713853
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        36.05605107047602,
+        12.835809470621642
+      ],
+      "service_path_index": 1487,
+      "road_bounds_km": [
+        36.03596,
+        12.79712,
+        36.07586,
+        12.875050000000002
+      ],
+      "associated_lot_id": "P35002",
+      "cache_match_hausdorff_m": 0.004674404844074441
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        36.06798224403648,
+        12.857114999367852
+      ],
+      "service_path_index": 1489,
+      "road_bounds_km": [
+        36.03596,
+        12.84685,
+        36.08631,
+        12.875050000000002
+      ],
+      "associated_lot_id": "P35027",
+      "cache_match_hausdorff_m": 0.0048493297848498955
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        36.23766308265362,
+        13.160114529675628
+      ],
+      "service_path_index": 1490,
+      "road_bounds_km": [
+        36.205639999999995,
+        13.149849999999999,
+        36.255990000000004,
+        13.17805
+      ],
+      "associated_lot_id": "P35033",
+      "cache_match_hausdorff_m": 0.005113605830831591
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        36.7742560298395,
+        14.11831
+      ],
+      "service_path_index": 2454,
+      "road_bounds_km": [
+        36.74494,
+        14.11831,
+        36.79832,
+        14.11831
+      ],
+      "associated_lot_id": "P50485",
+      "cache_match_hausdorff_m": 0.004966074426348384
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        37.073254983619385,
+        14.51585198446534
+      ],
+      "service_path_index": 2455,
+      "road_bounds_km": [
+        37.04495,
+        14.503720000000001,
+        37.091640000000005,
+        14.53453
+      ],
+      "associated_lot_id": "P50500",
+      "cache_match_hausdorff_m": 0.0063683406868601964
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        37.06886539149258,
+        14.512294678845736
+      ],
+      "service_path_index": 2456,
+      "road_bounds_km": [
+        37.04495,
+        14.49112,
+        37.091640000000005,
+        14.53453
+      ],
+      "associated_lot_id": "P50501",
+      "cache_match_hausdorff_m": 0.004497153920120392
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        37.16773494873321,
+        14.583465099430915
+      ],
+      "service_path_index": 2457,
+      "road_bounds_km": [
+        37.12953,
+        14.572529999999999,
+        37.19007,
+        14.602170000000001
+      ],
+      "associated_lot_id": "P50502",
+      "cache_match_hausdorff_m": 0.0018110780486663835
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        37.16511772681647,
+        14.581860188941048
+      ],
+      "service_path_index": 2458,
+      "road_bounds_km": [
+        37.12953,
+        14.56762,
+        37.19007,
+        14.602170000000001
+      ],
+      "associated_lot_id": "P50504",
+      "cache_match_hausdorff_m": 0.004878241418291934
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        37.55755356427129,
+        14.714442393290431
+      ],
+      "service_path_index": 2459,
+      "road_bounds_km": [
+        37.55295,
+        14.693589999999999,
+        37.56004,
+        14.75305
+      ],
+      "associated_lot_id": "P50509",
+      "cache_match_hausdorff_m": 0.0050026253823955615
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        37.81465977894275,
+        14.728584520904874
+      ],
+      "service_path_index": 2462,
+      "road_bounds_km": [
+        37.8131,
+        14.7076,
+        37.8155,
+        14.767539999999999
+      ],
+      "associated_lot_id": "P50533",
+      "cache_match_hausdorff_m": 0.003689262235609925
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        33.5842125713915,
+        12.193278896599287
+      ],
+      "service_path_index": 3880,
+      "road_bounds_km": [
+        33.58318,
+        12.16323,
+        33.58569,
+        12.21428
+      ],
+      "associated_lot_id": "P75431",
+      "cache_match_hausdorff_m": 0.0025538119687823564
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        33.61744451652844,
+        12.193384402258907
+      ],
+      "service_path_index": 3881,
+      "road_bounds_km": [
+        33.61641,
+        12.164860000000001,
+        33.61885,
+        12.21438
+      ],
+      "associated_lot_id": "P75432",
+      "cache_match_hausdorff_m": 0.004521177068001841
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        33.684615645155766,
+        12.193597658937207
+      ],
+      "service_path_index": 3882,
+      "road_bounds_km": [
+        33.68358,
+        12.16816,
+        33.68587,
+        12.2146
+      ],
+      "associated_lot_id": "P75443",
+      "cache_match_hausdorff_m": 0.004831748532540453
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        33.68696277445634,
+        12.193605110665478
+      ],
+      "service_path_index": 3883,
+      "road_bounds_km": [
+        33.68358,
+        12.16827,
+        33.68821,
+        12.262319999999999
+      ],
+      "associated_lot_id": "P75444",
+      "cache_match_hausdorff_m": 0.003599420543018297
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        33.38936265824795,
+        12.19266028193413
+      ],
+      "service_path_index": 3884,
+      "road_bounds_km": [
+        33.38833,
+        12.15367,
+        33.39128,
+        12.213659999999999
+      ],
+      "associated_lot_id": "P75457",
+      "cache_match_hausdorff_m": 0.0017448349560957675
+    },
+    {
+      "rail": "铁山厂区货运联络线",
+      "system": "freight",
+      "path_type": "service-road",
+      "xy_km": [
+        33.278102403075685,
+        12.192307049929104
+      ],
+      "service_path_index": 3885,
+      "road_bounds_km": [
+        33.27707,
+        12.148209999999999,
+        33.28027,
+        12.21331
+      ],
+      "associated_lot_id": "P75460",
+      "cache_match_hausdorff_m": 0.004685275921554494
+    }
+  ],
+  "unique_affected_lots": [
+    "P34893",
+    "P35002",
+    "P35027",
+    "P35033",
+    "P45381",
+    "P45415",
+    "P45449",
+    "P45450",
+    "P45451",
+    "P50485",
+    "P50500",
+    "P50501",
+    "P50502",
+    "P50504",
+    "P50509",
+    "P50533",
+    "P61094",
+    "P61158",
+    "P61164",
+    "P61165",
+    "P61172",
+    "P75431",
+    "P75432",
+    "P75443",
+    "P75444",
+    "P75457",
+    "P75460",
+    "P76192"
+  ],
+  "association_caution": "关联lot_id为辅助最近候选；SVG可能把缓存的多段设施服务路拆成多个path。Hausdorff距离>0.02m不构成可靠地块关联，禁止据其直接删楼。",
+  "exact_matching_lot_ids": [
+    "P34893",
+    "P35002",
+    "P35027",
+    "P35033",
+    "P45381",
+    "P45415",
+    "P45449",
+    "P45450",
+    "P45451",
+    "P50485",
+    "P50500",
+    "P50501",
+    "P50502",
+    "P50504",
+    "P50509",
+    "P50533",
+    "P61094",
+    "P61158",
+    "P61164",
+    "P61165",
+    "P61172",
+    "P75431",
+    "P75432",
+    "P75443",
+    "P75444",
+    "P75457",
+    "P75460",
+    "P76192"
+  ],
+  "unique_drawn_service_path_count": 45
+}

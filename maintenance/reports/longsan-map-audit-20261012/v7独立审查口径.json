@@ -1,0 +1,82 @@
+{
+  "version": "v7",
+  "status": "prepared; wait actual sample/export; no v7 geometry run yet",
+  "baseline_diagnostic": {
+    "path": "maintenance/reports/longsan-map-audit-20261012/v6楚岸组织诊断.json",
+    "sha256": "39e741bfe47492324145d28c4b367354d817647814196f9ef424590b01bc7d53",
+    "window_km": [
+      16.7,
+      15.2,
+      18.4,
+      17.0
+    ]
+  },
+  "frozen_v6_conclusions": {
+    "geographic_disaster_transport": "core/security/rail/metro constraints and grade separation passed actual SVG checks; baseline only",
+    "art_status": "user rejected road/building organization; not accepted",
+    "old_global_gate_count": 35,
+    "new_building_focused_failures": [
+      "80 referenced lots missing after whole-lot disaster filtering",
+      "1 private path reservation intrusion",
+      "14018 roofs without <=41m direct frontage or explicit path ending at actual roof; this is a new building-level criterion, not comparable to v5 lot frontage gate"
+    ]
+  },
+  "required_actual_inputs": [
+    "two final SVGs",
+    "public road GeoJSON",
+    "railway GeoJSON",
+    "water/island geography",
+    "core/security geography",
+    "compound/lot ownership GeoJSON",
+    "compound private paths and per-building doorway or entrance-link metadata",
+    "district/template area declarations",
+    "runtime source SHA256",
+    "same km crop screenshots"
+  ],
+  "ownership_model": {
+    "one_kept_compound": "one explicit stable lot/group id; arbitrary positive number of roofs belongs to it",
+    "path_ownership": "every internal road/walk/access records the same compound owner; paths outside facilities can have explicit civic/site owner",
+    "orphan_policy": "if a compound is removed, all its roofs and private paths are removed together",
+    "legacy_facilities": "known preserved v6 site facilities can use their named site ownership rather than fabricated generated lots",
+    "public_boundary": "private compound internal paths never counted as public streets; public road table and graph explicitly filter access/role"
+  },
+  "hard_geometry_checks": [
+    "48x36km and exact shared base in two SVGs",
+    "v6 water/island/core/security geography and existing rail/metro relationships preserved except documented necessary bridge drawing",
+    "no active public street/rail/metro/normal roof within security belt",
+    "whole compound inventory and every roof/path owner are mutually consistent; no orphan records",
+    "each roof is inside its retained compound, plots exclusive, roofs not overlapping other roofs or traffic/water reserves",
+    "each building entrance walkway ends within 8m of the specified door/entry or explicitly declared nearest-facade proxy; door proxy must be stated as proxy",
+    "every compound internal path component reaches the public-street boundary connection through the actual drawn compound path network",
+    "each building can reach public streets through its own compound network; nearby other compound access cannot satisfy ownership",
+    "private paths do not traverse other compounds, other roofs, security/water/rail/motorway reservations; entry touch at its own door explicitly bounded",
+    "public-street graph connected without crediting private paths, with out-of-city national/motorway routes reaching frame",
+    "major street ends meet same/higher road hierarchy or a named verified exception such as frame/disaster connection/large-site entrance; no random major round cap inside ordinary residential block",
+    "actual railway and motorway intersections have correctly located drawn decks/gates; two stations remain connected",
+    "runtime data and final SVG agree on geometry, ownership and state, with source/image hashes stable through final review"
+  ],
+  "organization_measurements_not_replaced_by_connected": [
+    "per-class full alignment length distribution plus noded inter-junction lengths; do not confuse sampled curve segments with short road features",
+    "number and coordinates of unjustified interior stubs by road class; local cul-de-sacs allowed when named compound/terrain purpose is visible",
+    "road-face area and minimum-rectangle width/length, tagged by urban/historic/industrial/park setting; window-clipped faces separately censored",
+    "road directions per planned grid family and intersections between families; curved geographic roads distinguished from plain local grids",
+    "number of roofs per compound, aligned-row/slab/streetwall density, entrance positions and compound path geometry",
+    "actual street setback and continuity for historic/commercial frontage; internal courtyards and industrial loading courts use declared different rules",
+    "per-template and centre/edge building coverage and synthetic floors; counts alone not population or legal FAR",
+    "public greens are coherent declared spaces with routes/entries, not every unused lot painted green",
+    "same Chu-an crop v6/v7 visual comparison plus historic, high-tech, industry and suburban samples"
+  ],
+  "review_process": [
+    "audit actual small sample first, report concrete organization failures",
+    "root integrates only after sample organization is accepted",
+    "run final full actual-export checks",
+    "read final screenshots independently and bind current SVG hashes",
+    "only then mark accepted_with_remaining_limits; engineering/door-proxy limits remain explicit"
+  ],
+  "do_not_claim": [
+    "globally connected implies planned city",
+    "all building setbacks are wrong just because >41m from public street; correctly organized compounds may have legitimate internal access",
+    "all roads below100m are invalid; internal paths, interrupted geometry and genuine cul-de-sacs are separately classified",
+    "aesthetic passed while user has rejected current pattern or local organization"
+  ]
+}

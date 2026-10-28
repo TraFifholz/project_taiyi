@@ -1,0 +1,475 @@
+{
+  "version": "v7",
+  "reviewer": "collapse_design_audit",
+  "review_status": "requires_correction",
+  "inputs": {
+    "assets\\maps\\longsan-geographic-v7-20261012\\龙散市-基础底图.svg": {
+      "sha256": "ee0707e466a5ffb6ce2d868d84fbea57618ac8bcfbc52b2324533942c6e513d8",
+      "bytes": 124787246,
+      "mtime": 1791800729.7595036
+    },
+    "assets\\maps\\longsan-geographic-v7-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "b533012b81593c506966b733989b150d236ac4c6f925c6444b59041c5f40c37e",
+      "bytes": 124848108,
+      "mtime": 1791800732.1519215
+    },
+    "assets\\maps\\longsan-geographic-v7-20261012\\地图坐标与线路.json": {
+      "sha256": "63b6508a3d9619f32d0698173ff19a17ae6075c83f995ecd29ecd0b8fbd9a8ba",
+      "bytes": 264900,
+      "mtime": 1791800734.814816
+    },
+    "assets\\maps\\longsan-geographic-v7-20261012\\路网.geojson": {
+      "sha256": "33d43b92f95c0ee49883cf6c6c778bbf770bca83127fa6a096c1815d53aa8141",
+      "bytes": 4138487,
+      "mtime": 1791800648.9193513
+    },
+    "assets\\maps\\longsan-geographic-v7-20261012\\铁路.geojson": {
+      "sha256": "9a8bff95b480dd945dc523e8a8eb3d3ecece992e5a09869da32cc2e5b425fe4c",
+      "bytes": 38590,
+      "mtime": 1791800648.9305913
+    },
+    "assets\\maps\\longsan-geographic-v7-20261012\\临街地块.geojson": {
+      "sha256": "611da36a27372f12425b1503e3e7b44a2bde0630832c24167b8afa968db1c301",
+      "bytes": 11805532,
+      "mtime": 1791800651.9437256
+    },
+    "assets\\maps\\longsan-geographic-v7-20261012\\地理骨架.geojson": {
+      "sha256": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+      "bytes": 628562,
+      "mtime": 1791800652.0391383
+    },
+    "assets\\maps\\longsan-geographic-v7-20261012\\灾后地理.geojson": {
+      "sha256": "129697219ef04748e96262cd19c0e3c26a4630826918c50ae79c0b03dc0763b0",
+      "bytes": 15319,
+      "mtime": 1791800652.0546305
+    },
+    "assets\\maps\\longsan-geographic-v7-20261012\\城区规划.geojson": {
+      "sha256": "f411859e2343990e536193bea7f099ffeb57694e825728de89d37823522b14e2",
+      "bytes": 549437,
+      "mtime": 1791800735.0483837
+    },
+    "assets\\maps\\longsan-geographic-v7-20261012\\立交匝道.geojson": {
+      "sha256": "f2dadad27cf411efaa5375ce5bfc4d5a4b78a758197febf991ca8c2c16225445",
+      "bytes": 35475,
+      "mtime": 1791800652.1367168
+    },
+    "assets\\maps\\longsan-geographic-v7-20261012\\灾后交通与分区.json": {
+      "sha256": "45d0f499363cf275aa7779e2e4855f374ce33cfd632d8bfb000198b8a7aa63d0",
+      "bytes": 5025,
+      "mtime": 1791800734.8183439
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\地图坐标与线路.json": {
+      "sha256": "0616bc836aa91e1ee58a3bd0ddabab4663b9b8fb0b542b7e49cb53c5b31d1415",
+      "bytes": 208345,
+      "mtime": 1791784028.4517193
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\铁路.geojson": {
+      "sha256": "a80c94c989ba2b3198c88fcb67d48eac56c82062fed4bd407dc4ed036e34e416",
+      "bytes": 14610,
+      "mtime": 1791784028.7354858
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\路网.geojson": {
+      "sha256": "66b61d8cf1ed0cdcfd32224f8d65150df98e0767fdc25ccd89cd6c3259a71e6e",
+      "bytes": 3161316,
+      "mtime": 1791784028.731142
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\地理骨架.geojson": {
+      "sha256": "aacc5142aeec4288af55546a63586dfb57828b1e8e91cc0b3a4792ac2f92f42e",
+      "bytes": 262662,
+      "mtime": 1791784034.7650864
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "69fce8eac21cd1805bd2daa295e4cbaa528a156b1707b104dfac4f5e399eb0e8",
+      "bytes": 48339069,
+      "mtime": 1791784027.6474524
+    },
+    "assets\\maps\\longsan-geographic-v6-20261012\\铁路.geojson": {
+      "sha256": "9a8bff95b480dd945dc523e8a8eb3d3ecece992e5a09869da32cc2e5b425fe4c",
+      "bytes": 38590,
+      "mtime": 1791795002.1446507
+    },
+    "assets\\maps\\longsan-geographic-v6-20261012\\地理骨架.geojson": {
+      "sha256": "71934501e72bcd2dd149e0294182e3daa1f2b499f39a397dd0839127b2cd1573",
+      "bytes": 693556,
+      "mtime": 1791795007.5326166
+    },
+    "assets\\maps\\longsan-geographic-v6-20261012\\灾后地理.geojson": {
+      "sha256": "129697219ef04748e96262cd19c0e3c26a4630826918c50ae79c0b03dc0763b0",
+      "bytes": 15319,
+      "mtime": 1791795007.5356038
+    },
+    "scripts\\generate_longsan_geographic_maps_v7.py": {
+      "sha256": "f86f13873eab04073f02378e02b1b19e0476f9c582e67b9652121230b9083eaa",
+      "bytes": 22174,
+      "mtime": 1791800351.1035652
+    },
+    "scripts\\generate_longsan_geographic_maps_v6.py": {
+      "sha256": "3ceddbf5832e6a287e97b6a828dc57a33e77e1459038540436246fc29b8a5152",
+      "bytes": 36623,
+      "mtime": 1791794941.9269764
+    },
+    "scripts\\longsan_planned_fabric.py": {
+      "sha256": "4c3167843486ddcba3e473ca81f1513230fafbda3dcc0191d8071ace846a1e84",
+      "bytes": 44334,
+      "mtime": 1791798505.6033945
+    },
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7基础独立核验.py": {
+      "sha256": "f5ee2e90bd600c71c7ca41fb72c9f0b0b7e1b691459c79726ab4874348f4d3e8",
+      "bytes": 26404,
+      "mtime": 1791800739.4666488
+    },
+    "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py": {
+      "sha256": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94",
+      "bytes": 11040,
+      "mtime": 1791779440.641944
+    }
+  },
+  "hard_gates": {
+    "shared_base_in_two_svgs": true,
+    "48_by_36_km_extent": true,
+    "preserved_source_and_v5_hashes": true,
+    "frozen_water_island_geography": true,
+    "v6_complete_water_geography_frozen": false,
+    "v6_disaster_features_frozen": true,
+    "v6_national_rail_geography_and_state_frozen": true,
+    "collapse_core_security_svg_matches_geojson": true,
+    "collapse_is_dry_and_respects_three_user_anchors": true,
+    "gucheng_center_remains_outside_collapse": true,
+    "stations_and_status_preserved_and_json_matches": true,
+    "metro_route_order_and_section_identity_preserved": true,
+    "all_80_geographic_metro_sections_and_status_frozen": true,
+    "metro_actual_svg_matches_km_geometry": true,
+    "active_metro_clear_of_security": true,
+    "operational_roads_clear_of_security": true,
+    "operational_rails_clear_of_security": true,
+    "active_access_clear_of_security": true,
+    "active_roofs_clear_of_security_and_water": true,
+    "ordinary_roofs_do_not_overlap": true,
+    "ordinary_roofs_clear_transport_corridors": true,
+    "built_lot_inventory_matches_actual_roofs": true,
+    "actual_private_access_clear_barriers_and_other_roofs": false,
+    "rendered_roads_match_exported_km": true,
+    "rendered_railways_match_exported_km": true,
+    "road_rail_grade_at_every_actual_crossing": true,
+    "motorway_grades_at_every_actual_crossing": true,
+    "independent_passenger_mainlines_have_grade_separation": true,
+    "ordinary_road_network_one_component": true,
+    "motorway_network_one_component": true,
+    "passenger_railways_reach_both_frame_ends": true,
+    "freight_branches_join_conventional": true,
+    "two_stations_remain_connected_with_separate_platforms_tracks": true,
+    "interchange_ramps_join_roads_and_clear_reserves_roofs": true,
+    "four_security_gates_join_wall_patrol_recovery_ring": true,
+    "seven_districts_exclusive_and_outside_security": true,
+    "road_network_contains_multiple_directions": true,
+    "inputs_stable_during_read": false
+  },
+  "unresolved_hard_errors": [
+    {
+      "gate": "v6_complete_water_geography_frozen",
+      "priority": "P1"
+    },
+    {
+      "gate": "actual_private_access_clear_barriers_and_other_roofs",
+      "priority": "P1"
+    },
+    {
+      "gate": "inputs_stable_during_read",
+      "priority": "P1"
+    }
+  ],
+  "observations": {
+    "collapse_area_km2": 37.47625,
+    "security_belt_area_km2": 4.245408934370616,
+    "anchor_distances_km": {
+      "铁铺": 0.9848857801796086,
+      "船政学堂": 0.7923755400943343,
+      "龙门吊路": 1.4142135623730976,
+      "故城中心": 2.6465784948226365
+    },
+    "historically_affected_metro_sections": [],
+    "unchanged_metro_sections": 80,
+    "roads": 5629,
+    "road_components": 1,
+    "motorway_components": 1,
+    "road_component_sizes": [
+      5622
+    ],
+    "buildings": 115881,
+    "roofs_in_security": [],
+    "roofs_in_water": [],
+    "overlap": [],
+    "roof_transport": [],
+    "road_in_security": [],
+    "rail_in_security": [],
+    "access_in_security": [],
+    "road_geo_errors": [],
+    "rail_geo_errors": [],
+    "metro_geo_errors": [],
+    "rail_grade_errors": [],
+    "rail_grade_conflicts": [],
+    "motorway_grade_errors": [],
+    "passenger_mainline_crossings": [],
+    "rail_frame": [
+      {
+        "name": "龙散普速干线",
+        "gaps_m": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "龙散高铁干线",
+        "gaps_m": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "freight_connections": [
+      {
+        "name": "望津港货运支线",
+        "gap_m": 0.0
+      },
+      {
+        "name": "铁山厂区货运联络线",
+        "gap_m": 3.443531499639769e-12
+      }
+    ],
+    "rail_stations": [
+      {
+        "name": "龙散火车站",
+        "platforms": 2,
+        "tracks": 4,
+        "mainline_gap_m": 0.0,
+        "platform_track_intersections": 0
+      },
+      {
+        "name": "龙散东站",
+        "platforms": 2,
+        "tracks": 4,
+        "mainline_gap_m": 0.0,
+        "platform_track_intersections": 0
+      }
+    ],
+    "ramps": 10,
+    "interchange_ramp_counts": {
+      "北岭枢纽": 4,
+      "南港枢纽": 2,
+      "北岭城市立交": 2,
+      "西城学府立交": 2
+    },
+    "ramp_errors": [],
+    "security_gates": 4,
+    "gate_errors": [],
+    "road_directions_km": {
+      "90": 3097.246092842904,
+      "0": 3163.1449997688615,
+      "120": 227.0248633715413,
+      "20": 252.39685558838315,
+      "110": 240.2301128922883,
+      "30": 231.21327316412402,
+      "80": 97.81296148147098,
+      "40": 21.574630354654797,
+      "50": 16.938334567758126,
+      "70": 26.145199155014684,
+      "60": 40.53255399067189,
+      "160": 22.53472132771558,
+      "100": 67.73297674866691,
+      "150": 24.25895350286657,
+      "10": 107.02653045650608,
+      "170": 65.44985646373674,
+      "130": 14.02117206560837,
+      "140": 5.45977323197076
+    },
+    "district_overlap": [],
+    "district_security_errors": [],
+    "protected_file_errors": [],
+    "lot_errors": [],
+    "private_service_errors": [
+      {
+        "path": 142153,
+        "lot": "P8878",
+        "reason": "private driveway crosses water/security/rail/motorway reservation"
+      },
+      {
+        "path": 142154,
+        "lot": "P8878",
+        "reason": "private driveway crosses water/security/rail/motorway reservation"
+      }
+    ],
+    "frontage_errors": [],
+    "district_programs": [
+      {
+        "district": "深中新区",
+        "lots": 599,
+        "uses": {
+          "housing": 484,
+          "office": 115
+        },
+        "morphologies": {
+          "unknown": 599
+        },
+        "density_by_radius": {
+          "core": {
+            "count": 84,
+            "mean_density": 0.9344976190476191,
+            "mean_storeys": 29.726190476190474
+          },
+          "outer": {
+            "count": 274,
+            "mean_density": 0.624175547445255,
+            "mean_storeys": 11.364963503649635
+          }
+        }
+      },
+      {
+        "district": "楚岸区",
+        "lots": 1046,
+        "uses": {
+          "mixed": 462,
+          "historic": 292,
+          "housing": 276,
+          "office": 16
+        },
+        "morphologies": {
+          "unknown": 1046
+        },
+        "density_by_radius": {
+          "core": {
+            "count": 131,
+            "mean_density": 0.9469862595419846,
+            "mean_storeys": 17.412213740458014
+          },
+          "outer": {
+            "count": 506,
+            "mean_density": 0.662032015810277,
+            "mean_storeys": 10.219367588932807
+          }
+        }
+      },
+      {
+        "district": "北岭区",
+        "lots": 2496,
+        "uses": {
+          "housing": 2496
+        },
+        "morphologies": {
+          "unknown": 2496
+        },
+        "density_by_radius": {
+          "core": {
+            "count": 228,
+            "mean_density": 0.8742855263157893,
+            "mean_storeys": 13.793859649122806
+          },
+          "outer": {
+            "count": 1419,
+            "mean_density": 0.6225161381254405,
+            "mean_storeys": 11.56800563777308
+          }
+        }
+      },
+      {
+        "district": "故城区",
+        "lots": 2431,
+        "uses": {
+          "historic": 2431
+        },
+        "morphologies": {
+          "unknown": 2431
+        },
+        "density_by_radius": {
+          "core": {
+            "count": 224,
+            "mean_density": 0.9099861607142856,
+            "mean_storeys": 3.9151785714285716
+          },
+          "outer": {
+            "count": 1259,
+            "mean_density": 0.7476386020651311,
+            "mean_storeys": 3.926926131850675
+          }
+        }
+      },
+      {
+        "district": "望津区",
+        "lots": 626,
+        "uses": {
+          "housing": 140,
+          "warehouse": 398,
+          "industry": 88
+        },
+        "morphologies": {
+          "unknown": 626
+        },
+        "density_by_radius": {
+          "core": {
+            "count": 35,
+            "mean_density": 0.8036714285714286,
+            "mean_storeys": 2.057142857142857
+          },
+          "outer": {
+            "count": 374,
+            "mean_density": 0.5999393048128342,
+            "mean_storeys": 4.06951871657754
+          }
+        }
+      },
+      {
+        "district": "铁山区",
+        "lots": 952,
+        "uses": {
+          "industry": 525,
+          "warehouse": 167,
+          "housing": 260
+        },
+        "morphologies": {
+          "unknown": 952
+        },
+        "density_by_radius": {
+          "core": {
+            "count": 105,
+            "mean_density": 0.7995466666666672,
+            "mean_storeys": 4.819047619047619
+          },
+          "outer": {
+            "count": 470,
+            "mean_density": 0.661417659574468,
+            "mean_storeys": 4.553191489361702
+          }
+        }
+      },
+      {
+        "district": "文星区",
+        "lots": 2034,
+        "uses": {
+          "academic": 747,
+          "housing": 1170,
+          "office": 117
+        },
+        "morphologies": {
+          "unknown": 2034
+        },
+        "density_by_radius": {
+          "core": {
+            "count": 225,
+            "mean_density": 0.820743111111111,
+            "mean_storeys": 10.933333333333334
+          },
+          "outer": {
+            "count": 1058,
+            "mean_density": 0.5499773156899807,
+            "mean_storeys": 8.263705103969754
+          }
+        }
+      }
+    ]
+  },
+  "scope_limits": [
+    "Concept railway and interchange linework, no curve radius/slope/traffic capacity certification",
+    "Per-building facade entrances and compound routes reviewed separately in v7组团独立核验.json",
+    "Manual image review required before final acceptance",
+    "District planning is provisional; no canonical setting rewritten"
+  ]
+}

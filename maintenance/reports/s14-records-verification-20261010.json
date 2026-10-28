@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "date": "2026-10-10",
+  "record": "S14",
+  "scope_files": 9,
+  "indexed_sessions": 14,
+  "s14_source_lines": 12215,
+  "s14_citation_ranges": 262,
+  "local_links": 66,
+  "anchors": 2,
+  "raw_transcripts_unchanged": 14,
+  "existing_dirty_files_unchanged": 10,
+  "git_status_unchanged": true,
+  "prior_rewards_preserved": true,
+  "existing_workspace_errors": 18,
+  "workspace_error_list_unchanged": true,
+  "diff_summary": [
+    {
+      "file": "RUNBOOK.md",
+      "added_lines": 1,
+      "removed_lines": 1
+    },
+    {
+      "file": "WORKSPACE.md",
+      "added_lines": 3,
+      "removed_lines": 3
+    },
+    {
+      "file": "CODEX_INDEX.md",
+      "added_lines": 2,
+      "removed_lines": 2
+    },
+    {
+      "file": "records/README.md",
+      "added_lines": 2,
+      "removed_lines": 1
+    },
+    {
+      "file": "records/memory/README.md",
+      "added_lines": 4,
+      "removed_lines": 3
+    },
+    {
+      "file": "records/memory/campaign-state.md",
+      "added_lines": 30,
+      "removed_lines": 30
+    },
+    {
+      "file": "records/memory/entities.md",
+      "added_lines": 43,
+      "removed_lines": 4
+    },
+    {
+      "file": "records/memory/rules-and-rewards.md",
+      "added_lines": 38,
+      "removed_lines": 6
+    },
+    {
+      "file": "records/memory/session-14.md",
+      "new_lines": 85
+    }
+  ],
+  "issues": []
+}

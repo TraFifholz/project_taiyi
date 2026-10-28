@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-09",
+  "documents": {
+    "wish-thief": {
+      "blocks": 774,
+      "text_blocks_checked": 477,
+      "expanded_mentions": 0,
+      "tables": 31,
+      "original_images": 0,
+      "preview_images": 6,
+      "missing_blocks": 0,
+      "broken_image_links": 0
+    },
+    "withered-road": {
+      "blocks": 913,
+      "text_blocks_checked": 520,
+      "expanded_mentions": 0,
+      "tables": 16,
+      "original_images": 31,
+      "preview_images": 0,
+      "missing_blocks": 0,
+      "broken_image_links": 0
+    },
+    "employee-exit": {
+      "blocks": 188,
+      "text_blocks_checked": 157,
+      "expanded_mentions": 0,
+      "tables": 0,
+      "original_images": 0,
+      "preview_images": 4,
+      "missing_blocks": 0,
+      "broken_image_links": 0
+    },
+    "endless-train": {
+      "blocks": 271,
+      "text_blocks_checked": 242,
+      "expanded_mentions": 1,
+      "tables": 0,
+      "original_images": 0,
+      "preview_images": 1,
+      "missing_blocks": 0,
+      "broken_image_links": 0
+    }
+  },
+  "local_links": {
+    "maintenance\\research\\module-writing-20261009\\daggerheart-feishu\\README.md": 15,
+    "maintenance\\research\\module-writing-20261009\\daggerheart-feishu\\modules\\wish-thief\\maps\\README.md": 19,
+    "campaign\\guides\\模组写作规范.md": 5
+  },
+  "media_files": 60,
+  "source_files": {
+    "sablewood-messenger": {
+      "bytes": 47128154,
+      "pages": 39,
+      "text_layer_chars": 0
+    },
+    "sablewood-locations": {
+      "bytes": 5234516,
+      "pages": 10,
+      "text_layer_chars": 15488
+    },
+    "module-template": {
+      "bytes": 395632
+    },
+    "homebrew-kit": {
+      "bytes": 3614953,
+      "pages": 20,
+      "text_layer_chars": 41528
+    }
+  },
+  "wish_maps": {
+    "image_files": 18,
+    "all_files": 19,
+    "bytes": 99675307
+  },
+  "workspace_preservation": {
+    "git_status_unchanged": true,
+    "dirty_tracked_files_unchanged": 7,
+    "index_unchanged": true
+  }
+}

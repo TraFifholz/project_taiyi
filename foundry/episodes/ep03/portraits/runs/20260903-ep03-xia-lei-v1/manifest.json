@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260903-ep03-xia-lei-v1",
+  "characterId": "EP03-XIA-LEI",
+  "characterName": "夏磊",
+  "designStatus": "provisional",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "assets/candidates/EP03-XIA-LEI-夏磊-avatar.webp",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=4408ded599501eeeaf07b4a6f2881a530b20658a5078517201f2feb0b3660cc0",
+      "成年男性、倦色与紧张笑意、长方眼镜、旧蓝夹克和旧电脑符合候选构思；手指正常。电脑壳有抽象装饰记号，没有可读文字；头像裁切不包含该记号。"
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentPixels": 527414
+  },
+  "candidatePathBase": "portraits/",
+  "userApproved": false
+}

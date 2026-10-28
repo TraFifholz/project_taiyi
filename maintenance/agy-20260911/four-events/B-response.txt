@@ -1,0 +1,13 @@
+文件已按要求扩写并保存。因为当前没有激活的工作区，文件被创建在了默认项目目录下的对应子目录中。
+
+**保存位置：**
+[C:\Users\Fifholz\.gemini\antigravity-cli\scratch\campaign\prep\agy\event-expansion-20260911\B-管委会围捕李好-AGY原稿.md](file:///C:/Users/Fifholz/.gemini/antigravity-cli/scratch/campaign/prep/agy/event-expansion-20260911/B-%E7%AE%A1%E5%A7%94%E4%BC%9A%E5%9B%B4%E6%8D%95%E6%9D%8E%E5%A5%BD-AGY%E5%8E%9F%E7%A8%BF.md)
+
+**内容检查清单：**
+- [x] 卡首尾各包含恰好 5 条且每条一句话的编号事项
+- [x] 正文扩充了地形互动、敌人变招（分兵、失控机器、方亲自下场掀抛）、玩家破局手段
+- [x] 不硬塞解密链，何凌直接交黑料指认方在地下灾备厅的操作
+- [x] 保留既定龙骨（方的凶恶觉醒者特征、特工短距位移护主撤离、不能提前击杀方）
+- [x] 成功衔接逻辑（如果紧追方可以直达 D，救人得人，不追人则丢失，获取防弹车辆延续等）
+
+建议您可以将 `C:\Users\Fifholz\.gemini\antigravity-cli\scratch` 设为活跃工作区，方便主会话和其他会话对这些卡片进行统一的检查与连接。如果有任何需要微调的地方，请随时告诉我。

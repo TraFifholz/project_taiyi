@@ -1,0 +1,55 @@
+{
+  "scope": "first final-candidate failure evidence, not current acceptance",
+  "inputs": {
+    "龙散市-基础底图.svg": "28bc7912885bcc9884b2c87fa3b483a15e1d53503cf8716178044cad4a935e17",
+    "龙散市-底图与地铁.svg": "26b95516bce9e4d99454e1ed74bc11fb8ecd862b5f900b7e3941ba600fb615d4",
+    "近景/火车站-新.png": "9605738dac6715be307812dcff99236a47846382bbfbdc9554d15232a0b59fd8",
+    "近景/东站-新.png": "12788c8144ab53233054865b4f7893b800d454340ac1ce69aa54765644ee925d"
+  },
+  "errors": [
+    {
+      "station": "龙散火车站",
+      "type": "station overbridge cut by road reservation",
+      "y_km": [
+        17.037,
+        17.055
+      ],
+      "gap_x_km": [
+        32.36828,
+        32.42195
+      ],
+      "shortest_gap_m": 54.00036746023416
+    },
+    {
+      "station": "龙散东站",
+      "type": "station overbridge cut by road reservation",
+      "y_km": [
+        17.037,
+        17.055
+      ],
+      "gap_x_km": [
+        38.62458,
+        38.67769
+      ],
+      "shortest_gap_m": 54.00164612040779
+    },
+    {
+      "station": "龙散东站",
+      "type": "metro station-access split by ordinary roofs",
+      "first_end_km": [
+        38.29,
+        17.24809
+      ],
+      "second_start_km": [
+        38.4323,
+        17.29033
+      ],
+      "gap_m": 148.43688086186538,
+      "last_end_km": [
+        38.48682,
+        17.29812
+      ],
+      "last_end_to_metro_m": 13.313406776627753
+    }
+  ]
+}

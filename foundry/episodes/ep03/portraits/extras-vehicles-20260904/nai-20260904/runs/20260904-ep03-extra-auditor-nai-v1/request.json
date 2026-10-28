@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260904-ep03-extra-auditor-nai-v1",
+    "characterId": "EP03-EXTRA-AUDITOR",
+    "characterName": "M-3 随车审计员",
+    "actorId": "c97aece17d9be1cc",
+    "designStatus": "provisional",
+    "designAssumptions": [
+      "成年中国女性，黑色马尾、棕眼、长方眼镜，神情严肃。",
+      "黑色商务套装外罩普通橙色反光背心，手持审计平板。"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-09-04T00:23:00.517Z",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 23599951,
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, watermark, signature, character name, english text, chinese text, logo, emblem, badge, text focus, hologram, heads-up display, glowing, aura, light particles, child, school uniform, weapon, gun, cleavage, midriff",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "highres, 1girl, solo, mature female, black hair, ponytail, brown eyes, hair behind ear, glasses, rectangular eyewear, business suit, formal clothes, suit, black jacket, jacket, collared shirt, white shirt, long sleeves, collar, necktie, black pants, pants, belt, wristwatch, holding, tablet pc, office lady, serious, expressionless, closed mouth, looking at viewer, standing, cowboy shot, transparent background, shadow, flat color. An adult Chinese field auditor wears a plain orange reflective safety vest over a conservative black business suit and holds an unmarked audit tablet with both hands. She is an unarmed protection target with no logo, badge, readable text, or supernatural effect.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, watermark, signature, character name, english text, chinese text, logo, emblem, badge, text focus, hologram, heads-up display, glowing, aura, light particles, child, school uniform, weapon, gun, cleavage, midriff",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

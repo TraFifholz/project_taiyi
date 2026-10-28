@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-13",
+  "method": "Actual execution: python -B assets/maps/longsan-workpack-20261013/tools/verify_workpack.py assets/maps/龙散市地图工作包-20261013.zip",
+  "process_exit_code": 0,
+  "zip_path": "assets/maps/龙散市地图工作包-20261013.zip",
+  "zip_bytes": 1248681274,
+  "zip_sha256": "8aa9f1e809f8196873a4d455aaeb43f46a5fb0a49f58e93234dbdfeda4045434",
+  "observed_result": {
+    "files_verified": 1350,
+    "zero_visible_svg_text": true,
+    "identical_bases": true,
+    "zip_crc_members_size_and_sha256": true
+  },
+  "status_boundary": "Workpack handoff complete; supplied text-free SVGs remain v9 art seeds for continuation, not a claim of completed final art."
+}

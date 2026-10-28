@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-03T15:32:20.521Z",
+  "status": "deployed_to_fvtt",
+  "purpose": "EP03专用NPC头像候选；非城市正式立绘采用",
+  "userRequest": "用nai生成一下头像",
+  "model": "nai-diffusion-5-curated",
+  "masterUnchangedSha256": "81a049b38469b89123458e20ddc9317547059ed6032f56c4e426e2669cf515b7",
+  "profileSha256": "52e10b390a7e5454d6b0d7650c1cb6b84d079003473c28e59918d98c59cd71da",
+  "sourceFile": "D:\\Project Taiyi\\records\\prep\\ep03-fvtt-20260903\\module-before.md",
+  "sourceSha256": "fa295c0b5d5d7eb7ee049cb6302a6c4f970503f84b5ff424c214b9c0fcc9386d",
+  "characters": [
+    {
+      "characterId": "EP03-LUO-KAI",
+      "name": "罗恺",
+      "actorId": "f5cd5bab755a2027",
+      "runId": "20260903-ep03-luo-kai-v1",
+      "seed": 641139586,
+      "tags": 38,
+      "requestSha256": "79f48ffb8382d0e6b3a80afa0ff7db43ccdacb8d5816fc27863782450935b10a",
+      "requestFile": "runs/20260903-ep03-luo-kai-v1/request.json",
+      "status": "fvtt_deployed",
+      "fullSource": "runs/20260903-ep03-luo-kai-v1/raw.png",
+      "avatarPng": "assets/candidates/EP03-LUO-KAI-罗恺-avatar.png",
+      "avatarWebp": "assets/candidates/EP03-LUO-KAI-罗恺-avatar.webp",
+      "rawSha256": "571ad95bbe9bc1668baddc0fb6d5a62b340aa0a53fc45ee26e1118828ff392d3",
+      "avatarSha256": "ed1ec04799ae20ebab2004819e9e70a403ae18a77fc2ecfd739b8c797db9f3ca",
+      "cropBox": [
+        172,
+        -32,
+        684,
+        480
+      ],
+      "transparentPixels": 502513,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visualNote": "中年感、灰色维修外套、耳机、平板与克制表情符合候选构思；双手可辨、无可读文字，衣装没有能力特效。原图头顶贴近边界，头像加32像素透明留边，不补画。",
+      "userApproved": true,
+      "deployedToFvtt": true,
+      "deployedAt": "2026-09-04T01:32:56+08:00",
+      "deployedPath": "worlds/taiyi/assets/npc/avatars/EP03-LUO-KAI-%E7%BD%97%E6%81%BA-avatar.webp"
+    },
+    {
+      "characterId": "EP03-XIN-HUA",
+      "name": "辛桦",
+      "actorId": "57cb77448d90157a",
+      "runId": "20260903-ep03-xin-hua-v1",
+      "seed": 1930665818,
+      "tags": 36,
+      "requestSha256": "b459bd2e4fd375c17409eea77ebc21ccc71eddb5b6a70eb3c4ce4b29e6f71490",
+      "requestFile": "runs/20260903-ep03-xin-hua-v1/request.json",
+      "status": "fvtt_deployed",
+      "fullSource": "runs/20260903-ep03-xin-hua-v1/raw.png",
+      "avatarPng": "assets/candidates/EP03-XIN-HUA-辛桦-avatar.png",
+      "avatarWebp": "assets/candidates/EP03-XIN-HUA-辛桦-avatar.webp",
+      "rawSha256": "c0d5e5c4bbcfddeee73710aa861cdd9a5b24f02c9df2bd24a4848e99f81ec43a",
+      "avatarSha256": "1aba59647091435cc622898ef07634fba86334ab990d2e645d8fdddae8b322ca",
+      "cropBox": [
+        145,
+        -32,
+        657,
+        480
+      ],
+      "transparentPixels": 497632,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visualNote": "成年人形象、短棕发、深绿夹克、灰高领与头盔区分明确；手指、耳机、衣装正常，无文字或能力特效。原图头顶贴近边界，头像加透明留边。",
+      "userApproved": true,
+      "deployedToFvtt": true,
+      "deployedAt": "2026-09-04T01:32:56+08:00",
+      "deployedPath": "worlds/taiyi/assets/npc/avatars/EP03-XIN-HUA-%E8%BE%9B%E6%A1%A6-avatar.webp"
+    },
+    {
+      "characterId": "EP03-XIA-LEI",
+      "name": "夏磊",
+      "actorId": "f0767585fdbe1cf3",
+      "runId": "20260903-ep03-xia-lei-v1",
+      "seed": 402997849,
+      "tags": 39,
+      "requestSha256": "c789e2f235af70d0360d12359c6b80c5f369a957fcf4ac5404dd603c3d73869d",
+      "requestFile": "runs/20260903-ep03-xia-lei-v1/request.json",
+      "status": "fvtt_deployed",
+      "fullSource": "runs/20260903-ep03-xia-lei-v1/raw.png",
+      "avatarPng": "assets/candidates/EP03-XIA-LEI-夏磊-avatar.png",
+      "avatarWebp": "assets/candidates/EP03-XIA-LEI-夏磊-avatar.webp",
+      "rawSha256": "4408ded599501eeeaf07b4a6f2881a530b20658a5078517201f2feb0b3660cc0",
+      "avatarSha256": "5e8e4fab780309e0aa3a14c46fb7ba851d3fc4db02847f0230b4ce34fe4dd7e4",
+      "cropBox": [
+        147,
+        -32,
+        659,
+        480
+      ],
+      "transparentPixels": 527414,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visualNote": "成年男性、倦色与紧张笑意、长方眼镜、旧蓝夹克和旧电脑符合候选构思；手指正常。电脑壳有抽象装饰记号，没有可读文字；头像裁切不包含该记号。",
+      "userApproved": true,
+      "deployedToFvtt": true,
+      "deployedAt": "2026-09-04T01:32:56+08:00",
+      "deployedPath": "worlds/taiyi/assets/npc/avatars/EP03-XIA-LEI-%E5%A4%8F%E7%A3%8A-avatar.webp"
+    }
+  ],
+  "formalControlUnchanged": true,
+  "deployedToFvtt": true,
+  "deployedAt": "2026-09-04T01:32:56+08:00",
+  "preview": "assets/candidates/EP03-三个头像预览.jpg"
+}

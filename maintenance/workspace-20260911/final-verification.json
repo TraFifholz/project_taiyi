@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "moved_files": 2298,
+  "unchanged_moved_file_bytes": 2207,
+  "changed_code_syntax_checked": [
+    "assets/npc/production/tools/apply-identity-and-roster-corrections.mjs",
+    "assets/npc/production/tools/init-control.mjs",
+    "scripts/check-links.py",
+    "scripts/fvtt/approve_npc_portraits_20260902.cjs",
+    "scripts/fvtt/audit_approved_npc_20260902.cjs",
+    "scripts/fvtt/audit_ep03_encounter.cjs",
+    "scripts/fvtt/audit_ep03_l5_rebuild.cjs",
+    "scripts/fvtt/audit_npc_import.cjs",
+    "scripts/fvtt/audit_npc_refresh.cjs",
+    "scripts/fvtt/audit_relationship_copy_cleanup.cjs",
+    "scripts/fvtt/build_ep03_encounter.cjs",
+    "scripts/fvtt/build_ep03_l5_rebuild.cjs",
+    "scripts/fvtt/build_npc_assets.py",
+    "scripts/fvtt/build_npc_manifest.cjs",
+    "scripts/fvtt/build_npc_supplemental.cjs",
+    "scripts/fvtt/build_sh_glitch.py",
+    "scripts/fvtt/chirp-publication-20260903/build.cjs",
+    "scripts/fvtt/chirp-publication-20260903/test.cjs",
+    "scripts/fvtt/deploy_ep03_chase_tokens.cjs",
+    "scripts/fvtt/finalize_ep03_extra_nai.py",
+    "scripts/fvtt/finalize_ep03_portraits.py",
+    "scripts/fvtt/finalize_npc_documents.cjs",
+    "scripts/fvtt/finalize_npc_refresh_assets.py",
+    "scripts/fvtt/npc_import_runtime.js",
+    "scripts/fvtt/plan_relationship_copy_cleanup.cjs",
+    "scripts/fvtt/prepare_ep03_extra_nai.mjs",
+    "scripts/fvtt/prepare_ep03_extra_nai_retry.mjs",
+    "scripts/fvtt/prepare_ep03_portraits.mjs",
+    "scripts/fvtt/prepare_npc_silhouettes.cjs",
+    "scripts/fvtt/prepare_portrait_refresh.cjs",
+    "scripts/fvtt/prepare_relationship_copy_cleanup.cjs",
+    "scripts/generate_city_base_map.js",
+    "scripts/generate_clean_city_map_from_terrain.js",
+    "scripts/generate_osm_composite_map.py",
+    "scripts/validate-campaign-npc-restructure.mjs"
+  ],
+  "campaign_baseline_only": [
+    "campaign/episodes/chapter-01/04-特派员.md: unexplained organization exception"
+  ],
+  "wiki_build": "passed; existing chunk-size warning",
+  "wiki_links": "passed",
+  "review_runtime": {
+    "rosterCount": 93,
+    "firstImageStatus": 200,
+    "firstImageType": [
+      "image/png"
+    ],
+    "sourceFileExists": true
+  }
+}

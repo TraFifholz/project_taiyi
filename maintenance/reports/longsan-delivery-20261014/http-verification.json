@@ -1,0 +1,58 @@
+[
+  {
+    "file": "index.html",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "sha_matches": true
+  },
+  {
+    "file": "manifest.json",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "sha_matches": true
+  },
+  {
+    "file": "positions.json",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "sha_matches": true
+  },
+  {
+    "file": "source-audit.json",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "sha_matches": true
+  },
+  {
+    "file": "day-metro-clean-8k.webp",
+    "status": 200,
+    "content_type": "image/webp",
+    "size_matches": true
+  },
+  {
+    "file": "night-metro-clean-8k.webp",
+    "status": 200,
+    "content_type": "image/webp",
+    "size_matches": true
+  },
+  {
+    "file": "longsan-webp-maps.zip",
+    "status": 200,
+    "content_type": "application/zip",
+    "size_matches": true
+  },
+  {
+    "file": "longsan-editable-svg.zip",
+    "status": 200,
+    "content_type": "application/zip",
+    "size_matches": true
+  },
+  {
+    "existing_service": "https://fvtt.univare.icu/",
+    "status": 200
+  },
+  {
+    "existing_service": "https://rulebook.univare.icu/",
+    "status": 200
+  }
+]

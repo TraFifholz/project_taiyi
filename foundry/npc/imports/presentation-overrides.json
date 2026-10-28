@@ -1,0 +1,16 @@
+{
+  "LS-NPC-037": {
+    "relationshipPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-037-relationship-monochrome-20260902.webp"
+  },
+  "LS-NPC-006": {
+    "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp",
+    "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp",
+    "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-006-20260902-pink-v4.webp"
+  },
+  "LS-NPC-072": {
+    "relationshipPortrait": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902.webp",
+    "relationshipListImage": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp",
+    "relationshipMapThumbnail": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902.webp"
+  }
+}

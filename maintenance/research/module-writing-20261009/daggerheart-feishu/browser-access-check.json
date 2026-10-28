@@ -1,0 +1,27 @@
+{
+  "status": 200,
+  "final_host": "lcnw6r5edbf2.feishu.cn",
+  "final_path": "/wiki/NwsAwL4JpiFsx2kXhCwc5FzWnsh",
+  "bytes": 1172732,
+  "title": "Docs",
+  "markers": {
+    "__initial": 0,
+    "initialstate": 0,
+    "wikiToken": 1,
+    "匕首": 58,
+    "登录": 0,
+    "permission": 191,
+    "ssr": 930,
+    "pdf": 27
+  },
+  "script_sources": [
+    "//lf-package-cn.feishucdn.com/obj/feishu-static/ccm-vmok/web/static/js/platform_fe_packages_enforced.866b7f91.js",
+    "//lf-package-cn.feishucdn.com/obj/feishu-static/ccm-vmok/web/static/js/ccm_theme_token_11_21_0.3d297547.js",
+    "//lf-package-cn.feishucdn.com/obj/feishu-static/ccm-vmok/web/static/js/25057.b1c4016e.js",
+    "//lf-package-cn.feishucdn.com/obj/feishu-static/ccm-vmok/web/static/js/47937.7c9a2512.js",
+    "//lf-package-cn.feishucdn.com/obj/feishu-static/ccm-vmok/web/static/js/insert_cssvar.a922f056.js",
+    "//lf-package-cn.feishucdn.com/obj/feishu-static/ccm-vmok/web/static/js/25057.b1c4016e.js",
+    "//lf-package-cn.feishucdn.com/obj/feishu-static/ccm-vmok/web/static/js/header_layout.830021e7.js",
+    "//lf-package-cn.feishucdn.com/obj/feishu-static/ccm-vmok/web/static/js/doc_index_css.0bdd6e87.js"
+  ]
+}

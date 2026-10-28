@@ -1,0 +1,54 @@
+[
+  {
+    "token": "GsQkbR0eBogeTNxzTEfcGqDInQe",
+    "block_id": "QqCpddIRpopEEBxJGSpc9HiJnZc",
+    "http_status": 200,
+    "original_http_status": 403,
+    "edition": "public_preview",
+    "content_type": "image/png",
+    "status": "downloaded",
+    "local_file": "assets/01-image-preview.png",
+    "bytes": 1423453,
+    "expected_original_bytes": 1839231,
+    "sha256": "aa69eba6bd160170ebf747a9416ea7c8b1b2d4545bcea8e5b85bea40df64079d"
+  },
+  {
+    "token": "QTmWbQ8pkovj0JxqqUEczuRmnWe",
+    "block_id": "BOamd2XZlooZFJxspgycCiEtnsb",
+    "http_status": 200,
+    "original_http_status": 403,
+    "edition": "public_preview",
+    "content_type": "image/png",
+    "status": "downloaded",
+    "local_file": "assets/02-image-preview.png",
+    "bytes": 1098123,
+    "expected_original_bytes": 1324079,
+    "sha256": "24be3d434776ec3c5313345c82785cb6cb7f60b508db287c949e80acd181fba8"
+  },
+  {
+    "token": "RGkobgxBMo1mixx0a1OcavT2nKb",
+    "block_id": "KtCCd9J5CoPyR4xBHJYcgR64n2b",
+    "http_status": 200,
+    "original_http_status": 403,
+    "edition": "public_preview",
+    "content_type": "image/png",
+    "status": "downloaded",
+    "local_file": "assets/03-image-preview.png",
+    "bytes": 988921,
+    "expected_original_bytes": 1203994,
+    "sha256": "1100fd545c9d2e33aa10e53e4d52b90eb741402a15854df05eda53b15706f102"
+  },
+  {
+    "token": "Ysoqbzq3poO9dhxIGIucllcxnYe",
+    "block_id": "RQswdADmEoLTb2xtuMZcyYMWnJ9",
+    "http_status": 200,
+    "original_http_status": 403,
+    "edition": "public_preview",
+    "content_type": "image/png",
+    "status": "downloaded",
+    "local_file": "assets/04-image-preview.png",
+    "bytes": 585079,
+    "expected_original_bytes": 706822,
+    "sha256": "7be810a480b34189fbcf7f212347e7ac85403661e6f30ce96a64992d9df92f96"
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "url": "https://fvtt.univare.icu/worlds/taiyi/assets/maps/longsan-20261014/index.html",
+  "tests": [
+    {
+      "name": "default day metro clean preview",
+      "passed": true
+    },
+    {
+      "name": "day-base-clean-preview.webp",
+      "passed": true
+    },
+    {
+      "name": "day-base-labels-preview.webp",
+      "passed": true
+    },
+    {
+      "name": "day-metro-clean-preview.webp",
+      "passed": true
+    },
+    {
+      "name": "day-metro-labels-preview.webp",
+      "passed": true
+    },
+    {
+      "name": "night-base-clean-preview.webp",
+      "passed": true
+    },
+    {
+      "name": "night-base-labels-preview.webp",
+      "passed": true
+    },
+    {
+      "name": "night-metro-clean-preview.webp",
+      "passed": true
+    },
+    {
+      "name": "night-metro-labels-preview.webp",
+      "passed": true
+    },
+    {
+      "name": "8k decoded",
+      "passed": true
+    },
+    {
+      "name": "resolution change preserves view",
+      "passed": true,
+      "detail": {
+        "before": [
+          33.33333206176758,
+          0,
+          1333.3333740234375,
+          1000
+        ],
+        "after": [
+          33.33333206176758,
+          0,
+          1333.3333740234375,
+          1000
+        ]
+      }
+    },
+    {
+      "name": "zoom control",
+      "passed": true
+    },
+    {
+      "name": "pan control",
+      "passed": true,
+      "detail": {
+        "panBefore": [
+          -300,
+          -250
+        ],
+        "panAfter": [
+          -200,
+          -200
+        ]
+      }
+    },
+    {
+      "name": "mobile controls remain reachable",
+      "passed": true
+    },
+    {
+      "name": "no load error",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

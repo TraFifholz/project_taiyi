@@ -1,0 +1,17 @@
+{
+  "msg": "Success",
+  "data": {
+    "path": [],
+    "total": 0,
+    "entities": {
+      "nodes": {},
+      "users": {}
+    },
+    "has_more": false,
+    "last_label": "",
+    "node_list": [],
+    "offline": {}
+  },
+  "meta": {},
+  "code": 0
+}

@@ -1,0 +1,187 @@
+{
+  "review_round": "v8_symbol_prototype_local_actual_pixels",
+  "review_date": "2026-10-12",
+  "reviewer": "final_art_review independent subagent",
+  "review_status": "local_prototype_pass_waiting_final_v8_actual_map",
+  "input_prototype_svg": {
+    "path": "temp/longsan-junction-proof-v7/v8-symbol-proof.svg",
+    "sha256": "db042941eb4f4d8eed812ce43b38735df2f83aa674f25d381531d72cbf9a558f"
+  },
+  "reviewed_images": [
+    {
+      "path": "temp/longsan-junction-proof-v7/v8-proof-chuan-before.png",
+      "sha256": "dab3fa2665b6d01f68f11b92505295e02bc3128d93d7f990d3dc5aff98b196e2",
+      "reviewed_actual_pixels": true,
+      "window_size_m": 350,
+      "image_size_px": [
+        900,
+        900
+      ],
+      "binding": "after = v8 prototype rendered over v7 geometry; before = historical same window comparison"
+    },
+    {
+      "path": "temp/longsan-junction-proof-v7/v8-proof-chuan-after.png",
+      "sha256": "fab9353aa9312ae382b26df3009d7492911eaa07f49d9f44c8e0a0c200fcb9c9",
+      "reviewed_actual_pixels": true,
+      "window_size_m": 350,
+      "image_size_px": [
+        900,
+        900
+      ],
+      "binding": "after = v8 prototype rendered over v7 geometry; before = historical same window comparison"
+    },
+    {
+      "path": "temp/longsan-junction-proof-v7/v8-proof-shenzhong-before.png",
+      "sha256": "9c3fc3808f3610bb554beb0d755aedc532d6470df5935ae6a4a35efbe5bec216",
+      "reviewed_actual_pixels": true,
+      "window_size_m": 350,
+      "image_size_px": [
+        900,
+        900
+      ],
+      "binding": "after = v8 prototype rendered over v7 geometry; before = historical same window comparison"
+    },
+    {
+      "path": "temp/longsan-junction-proof-v7/v8-proof-shenzhong-after.png",
+      "sha256": "21c4fd6b198f3509db3ab720f929c3297716369fbd09bd90739f1c45608673d9",
+      "reviewed_actual_pixels": true,
+      "window_size_m": 350,
+      "image_size_px": [
+        900,
+        900
+      ],
+      "binding": "after = v8 prototype rendered over v7 geometry; before = historical same window comparison"
+    },
+    {
+      "path": "temp/longsan-junction-proof-v7/v8-proof-wenxing235-before.png",
+      "sha256": "b388cea390d7535b0b982613370cc250226c4c23565ac95a49c015ff28048ece",
+      "reviewed_actual_pixels": true,
+      "window_size_m": 350,
+      "image_size_px": [
+        900,
+        900
+      ],
+      "binding": "after = v8 prototype rendered over v7 geometry; before = historical same window comparison"
+    },
+    {
+      "path": "temp/longsan-junction-proof-v7/v8-proof-wenxing235-after.png",
+      "sha256": "c6a1f4e61749060d7d05f4b16c1dd13ad3ee08dcb1ff287b873d53469ec76c77",
+      "reviewed_actual_pixels": true,
+      "window_size_m": 350,
+      "image_size_px": [
+        900,
+        900
+      ],
+      "binding": "after = v8 prototype rendered over v7 geometry; before = historical same window comparison"
+    },
+    {
+      "path": "temp/longsan-junction-proof-v7/v8-proof-wenxing240-before.png",
+      "sha256": "b3530287bb2117a7bdd78103386102591dd18d02db80efbe9cc5672300a7a36c",
+      "reviewed_actual_pixels": true,
+      "window_size_m": 350,
+      "image_size_px": [
+        900,
+        900
+      ],
+      "binding": "after = v8 prototype rendered over v7 geometry; before = historical same window comparison"
+    },
+    {
+      "path": "temp/longsan-junction-proof-v7/v8-proof-wenxing240-after.png",
+      "sha256": "15f5abce5aedc1e5c0842d9d2903deddc494d896a1d297f9295d491c8ea53e77",
+      "reviewed_actual_pixels": true,
+      "window_size_m": 350,
+      "image_size_px": [
+        900,
+        900
+      ],
+      "binding": "after = v8 prototype rendered over v7 geometry; before = historical same window comparison"
+    },
+    {
+      "path": "temp/longsan-junction-proof-v7/v8-proof-longmendiao-before.png",
+      "sha256": "eccb63eb39f74fcf553f02347adac5ed34502bc2ecaf6b2ec6aa2045c95e2cae",
+      "reviewed_actual_pixels": true,
+      "window_size_m": 350,
+      "image_size_px": [
+        900,
+        900
+      ],
+      "binding": "after = v8 prototype rendered over v7 geometry; before = historical same window comparison"
+    },
+    {
+      "path": "temp/longsan-junction-proof-v7/v8-proof-longmendiao-after.png",
+      "sha256": "5ce0c5f35f88e554a66f91676c1a60e81011a008a18f55026030de3a0e36bb9a",
+      "reviewed_actual_pixels": true,
+      "window_size_m": 350,
+      "image_size_px": [
+        900,
+        900
+      ],
+      "binding": "after = v8 prototype rendered over v7 geometry; before = historical same window comparison"
+    },
+    {
+      "path": "temp/longsan-junction-proof-v7/v8-proof-beiyuan-before.png",
+      "sha256": "4a0ac4056b584d5f1dcb41875ca9e3c28eb2a97ec5c4a12854f38961d69c8501",
+      "reviewed_actual_pixels": true,
+      "window_size_m": 350,
+      "image_size_px": [
+        900,
+        900
+      ],
+      "binding": "after = v8 prototype rendered over v7 geometry; before = historical same window comparison"
+    },
+    {
+      "path": "temp/longsan-junction-proof-v7/v8-proof-beiyuan-after.png",
+      "sha256": "ed7fb337205216a6c9506cf855648650b5e7c976c867103468c251044367b2aa",
+      "reviewed_actual_pixels": true,
+      "window_size_m": 350,
+      "image_size_px": [
+        900,
+        900
+      ],
+      "binding": "after = v8 prototype rendered over v7 geometry; before = historical same window comparison"
+    }
+  ],
+  "closed_local_findings": [
+    {
+      "id": "SYMBOL-BEIYUAN-WEDGE",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "coordinates_km": [
+        32.3,
+        6.5
+      ],
+      "observation": "最新原型北苑黄路折角没有白色三角楔，黄色路面沿南北主轴连续。此处实际为两个primary端点折角相接，共享圆角修复从图上可辨。"
+    },
+    {
+      "id": "ART-03",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "scope": "原4节点：楚岸、深中、文星235/240",
+      "observation": "4张最新原型after均未出现封口白描边或跨满路面的圆帽，路口可读为连续路面。"
+    },
+    {
+      "id": "SYMBOL-NONINCIDENT-ERASE-LOCAL",
+      "status": "verified_fixed",
+      "scope": "龙门吊/北苑两个原误擦重点",
+      "observation": "两个最新局部中邻道仍可辨，不因端点修复再次被整块背景遮去。此结论只限两个窗口。"
+    }
+  ],
+  "unresolved_must_correct_local": [],
+  "remaining_art_findings": [
+    {
+      "id": "SYMBOL-DISK-AA-SEAM",
+      "priority": "P3",
+      "status": "open_for_later_refinement",
+      "must_correct_this_iteration": false,
+      "observation": "350m/900px局部仍可见淡圆形补丁抗锯齿接缝，不形成断路观感。"
+    }
+  ],
+  "status_boundary": {
+    "prototype_only": true,
+    "final_v8_map_reviewed": false,
+    "candidate_available_for_review": false,
+    "art_complete": false,
+    "user_adopted": false,
+    "does_not_replace_v8_full_map_or_full_symbol_geometry_audit": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scope": "中途审查留痕，不是地图输入冻结。数值来自本轮只读工具输出；保留修前错误，供与修后实测区分。",
+  "source_output_modified_time_local": "2026-10-11 22:22:34",
+  "preview_modified_time_local": "2026-10-11 22:23:44",
+  "reader": "v2独立核验.py",
+  "water_component_distance_to_main_river_m": {
+    "文星溪": 799.0164264259522,
+    "东侧汊沟": 190.5498342267715
+  },
+  "piers": [
+    {"center_km":[28,30.055],"distance_to_water_m":648.2749895611264,"water_overlap_m2":0},
+    {"center_km":[30.2,30.855],"distance_to_water_m":143.9657013912221,"water_overlap_m2":0},
+    {"center_km":[33.3,31.105],"distance_to_water_m":0,"water_overlap_m2":313.6084700019944},
+    {"center_km":[35,31.135],"distance_to_water_m":0,"water_overlap_m2":1488.764176143541},
+    {"center_km":[39.2,30.355],"distance_to_water_m":0,"water_overlap_m2":1544.4722431131804}
+  ],
+  "actual_svg_area_km2": {"university":0.3333359999999743,"technology_park":0.1999999999999318,"gray_zone":3.5000049264499467},
+  "topology": {"named_stations":66,"named_adjacent_edges":80,"interchanges":19,"closed_stations":3,"unnamed_planned_stations":3},
+  "note": "地图在审查进行中继续迭代。22:40:39版本的水面和码头修复结果已由v2独立核验.json另行验证；不能用此历史证据宣称修后仍有相同错误。"
+}

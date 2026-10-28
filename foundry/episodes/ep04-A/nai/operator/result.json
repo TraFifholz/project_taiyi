@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260911-ep04-A-operator",
+  "characterId": "EP04-A-operator",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "408fe5",
+  "apiSeed": 11092027,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "9529f9b741dc189da842396198761c0958d2ce4e4f3c76ecacc16817655f1849",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-11T10:25:02.341Z"
+}

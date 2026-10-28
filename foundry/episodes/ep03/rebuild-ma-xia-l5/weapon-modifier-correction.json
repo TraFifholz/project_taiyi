@@ -1,0 +1,7 @@
+{
+  "actor": "马铁鹰",
+  "item": "拳脚 · 破门重拳",
+  "before": "1",
+  "after": "+1",
+  "reason": "Explicitly signed modifier; silent tests now use native dialog formula assembly to avoid suppressChat leading-plus loss."
+}

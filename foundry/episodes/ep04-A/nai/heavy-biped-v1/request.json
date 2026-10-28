@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "runId": "20260911-ep04-A-heavy-biped-v1",
+    "characterId": "EP04-A-heavy",
+    "humanInitiated": true,
+    "userRequest": "保留履带机做成其他单位，A场重型自走机改画双足机",
+    "concept": "三米级双足城市压制机，宽厚前装甲，反关节液压双腿，宽大脚掌，躯干侧置机炮，另一侧抓持机械臂，单眼传感器和侧面维修口；低机位四分之三全身构图，透明底，均匀前光，沉重压迫感。",
+    "tagEvidence": "../../tag-evidence.json; retained confirmed robot/no_humans/non-humanoid_robot/robot_joints/full_body/from_above/transparent_background/shadow; tank moved to negative"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, simple background, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 1024,
+      "height": 1024,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 310920261,
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, simple background, best quality, very aesthetic, absurdres",
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, 3::tank, cannon, logo, english text::, tank, wheels, tracks, human face, pilot, wings",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, simple background, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "solo, robot, no humans, non-humanoid robot, mecha, robot joints, full body, transparent background, shadow. A menacing three-meter-tall BIPEDAL urban suppression combat walker, exactly TWO massive reverse-jointed hydraulic legs with broad heavy armored feet planted firmly apart. Broad squat armored torso, thick sloped front armor, exposed piston knees and hip joints, one small recessed red optical sensor instead of a human face. A thick short autocannon physically integrated into the RIGHT side of the torso on a robust joint, a powerful articulated gripping claw on the LEFT. Visible side maintenance hatch, heavy cables and vents. Dark gunmetal grey armor with worn ochre industrial warning stripes. Brutal industrial construction machinery silhouette, substantial weight and combat power, no cockpit or pilot, no heroic humanoid proportions. Entire body and both feet visible, three-quarter full-body view from slightly below, soft frontal studio lighting, transparent background.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, 3::tank, cannon, logo, english text::, tank, wheels, tracks, human face, pilot, wings",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

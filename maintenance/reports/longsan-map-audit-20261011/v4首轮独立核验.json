@@ -1,0 +1,3625 @@
+{
+  "inputs_before": {
+    "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-基础底图.svg": {
+      "sha256": "393229f3113829377e09cd614f70cb85b5e9343595f0dcd6e19457b243c0ce16",
+      "bytes": 24010365,
+      "mtime": 1791769810.8576934
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "394c7f93ff9a5959792112b32101fc763170f37e6d04aecc88c3db56d360e4e3",
+      "bytes": 24072592,
+      "mtime": 1791769810.932229
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\地图坐标与线路.json": {
+      "sha256": "ac6c4716c17dad3f4087e73caed33af40f6a6750eab102f589f50bea483c0deb",
+      "bytes": 137579,
+      "mtime": 1791769811.2375557
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\龙散市-基础底图.svg": {
+      "sha256": "a7a1fbafcfe0e0cd988d28b1b27e3c2893f8de9a49a78ed39af956c004b1ec89",
+      "bytes": 30366338,
+      "mtime": 1791771932.5379221
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "478b7ddccbcca04c555bf6f2f155ae70d7b9d1f784d279d9523f65b8cf0086d1",
+      "bytes": 30428571,
+      "mtime": 1791771932.724717
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\地图坐标与线路.json": {
+      "sha256": "36738dc28907c274a94f41abb3797ecef3e71bb6675929ea86dc5a2a95e67987",
+      "bytes": 153853,
+      "mtime": 1791771933.4607427
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\地理骨架.geojson": {
+      "sha256": "5526d3974202d53ca0c211b27893d38edb0cd0e441e290b62ef5ab25ba43bb7e",
+      "bytes": 1093521,
+      "mtime": 1791771933.6260316
+    },
+    "temp\\longsan-map-qa-v4\\fabric.pickle": {
+      "sha256": "e37dd193f784924e0bb711da17143e5d96af1391b3bb22fd8d12a57f793ab070",
+      "bytes": 20742365,
+      "mtime": 1791771882.424245
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\地理骨架.geojson": {
+      "sha256": "db6cd9922279008e6996fc9634fcd407a8ec08508b1e06dd7d1262c6741d55d4",
+      "bytes": 578552,
+      "mtime": 1791769811.2848785
+    },
+    "scripts\\generate_longsan_geographic_maps_v2.py": {
+      "sha256": "5129a5ba04625d4432aa594ec8874236f9ab20cadde34539b9552006ba0be2aa",
+      "bytes": 79384,
+      "mtime": 1791732304.222766
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-基础底图.svg": {
+      "sha256": "351934eeee2c00e3461135bf1879cb1261eb37ac619d239a14406f04dc7a3deb",
+      "bytes": 25964379,
+      "mtime": 1791731903.1857991
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-底图与地铁.svg": {
+      "sha256": "9b2baae3639b557495be820c44c3c7c95d855add3b222e8e2d7a0c3967bd9da8",
+      "bytes": 26026612,
+      "mtime": 1791731903.2562244
+    },
+    "campaign\\world\\15-城区与交通网络.md": {
+      "sha256": "f857bda308a893f598be4cd78390621f844f807780b5670fda824a811c07121c",
+      "bytes": 43431,
+      "mtime": 1778758510.119573
+    },
+    "assets\\maps\\RMG\\终稿.json": {
+      "sha256": "f5d2cf43a63b04542940580c0873d0900f38110f1b1f442505d1a395ab1f7ccd",
+      "bytes": 63749,
+      "mtime": 1778751228.1803095
+    },
+    "src\\地铁图.svg": {
+      "sha256": "41fa82d6cf408827f663b636ed056f39684d8cbb7c631b39f49878ed3a095cda",
+      "bytes": 132120,
+      "mtime": 1778758356.4046044
+    }
+  },
+  "basis": "actual exported SVG/JSON/GeoJSON, source route tables; cache only for block pattern provenance",
+  "extent_svg": "0 0 4800 3600",
+  "extent_json": [
+    48,
+    36
+  ],
+  "named_stations": 66,
+  "named_segments": 80,
+  "interchanges": 19,
+  "actual_svg_station_records_same_as_v3": true,
+  "actual_svg_segment_paths_same_as_v3": true,
+  "actual_unnamed_planned_markers_same_as_v3": true,
+  "actual_unnamed_planned_marker_count": 3,
+  "actual_two_svg_base_layers_exact": true,
+  "actual_water_path_changed_from_v3_permitted": true,
+  "json_preservation": {
+    "stations": true,
+    "routes": true,
+    "segments": true,
+    "planned_unnamed_stations": true
+  },
+  "geo_changes_from_v3_permitted": {
+    "楚江主河与河汊": true,
+    "河中洲": true,
+    "全部水体": true
+  },
+  "source_table_edges_missing": [],
+  "source_table_edges_extra": [],
+  "station_water_errors": [],
+  "required_island_station_names": [
+    "燧明园",
+    "深中中心",
+    "财经大学",
+    "沙尾",
+    "奥体中心",
+    "枫湾",
+    "江湾",
+    "楚江西路",
+    "天门",
+    "云梦科技园",
+    "楚江新城"
+  ],
+  "required_island_station_errors": [],
+  "west_bank_station_checks": {
+    "楚风传媒": {
+      "xy_km": [
+        17.8,
+        12.2
+      ],
+      "river_west_edge_x_km": 18.951007792207786,
+      "west_of_main_river": true
+    },
+    "引资银行": {
+      "xy_km": [
+        18.2,
+        16.4
+      ],
+      "river_west_edge_x_km": 19.230295106462457,
+      "west_of_main_river": true
+    },
+    "楚江西岸": {
+      "xy_km": [
+        18.9,
+        18.9
+      ],
+      "river_west_edge_x_km": 19.411342155009454,
+      "west_of_main_river": true
+    }
+  },
+  "protected_sources_against_reviewed_v3": {
+    "scripts\\generate_longsan_geographic_maps_v2.py": {
+      "expected_sha256": "5129a5ba04625d4432aa594ec8874236f9ab20cadde34539b9552006ba0be2aa",
+      "actual_sha256": "5129a5ba04625d4432aa594ec8874236f9ab20cadde34539b9552006ba0be2aa",
+      "unchanged": true
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-基础底图.svg": {
+      "expected_sha256": "351934eeee2c00e3461135bf1879cb1261eb37ac619d239a14406f04dc7a3deb",
+      "actual_sha256": "351934eeee2c00e3461135bf1879cb1261eb37ac619d239a14406f04dc7a3deb",
+      "unchanged": true
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-底图与地铁.svg": {
+      "expected_sha256": "9b2baae3639b557495be820c44c3c7c95d855add3b222e8e2d7a0c3967bd9da8",
+      "actual_sha256": "9b2baae3639b557495be820c44c3c7c95d855add3b222e8e2d7a0c3967bd9da8",
+      "unchanged": true
+    },
+    "campaign\\world\\15-城区与交通网络.md": {
+      "expected_sha256": "f857bda308a893f598be4cd78390621f844f807780b5670fda824a811c07121c",
+      "actual_sha256": "f857bda308a893f598be4cd78390621f844f807780b5670fda824a811c07121c",
+      "unchanged": true
+    },
+    "assets\\maps\\RMG\\终稿.json": {
+      "expected_sha256": "f5d2cf43a63b04542940580c0873d0900f38110f1b1f442505d1a395ab1f7ccd",
+      "actual_sha256": "f5d2cf43a63b04542940580c0873d0900f38110f1b1f442505d1a395ab1f7ccd",
+      "unchanged": true
+    },
+    "src\\地铁图.svg": {
+      "expected_sha256": "41fa82d6cf408827f663b636ed056f39684d8cbb7c631b39f49878ed3a095cda",
+      "actual_sha256": "41fa82d6cf408827f663b636ed056f39684d8cbb7c631b39f49878ed3a095cda",
+      "unchanged": true
+    }
+  },
+  "actual_water_vs_geo_symmetric_difference_m2": 458.07980685821946,
+  "river_valid": true,
+  "main_river_polygon_count": 1,
+  "main_river_inner_50m_large_components": 1,
+  "stream_connections": [
+    {
+      "name": "文澜河",
+      "polygon_count": 1,
+      "valid": true,
+      "actual_water_coverage_fraction": 0.9999840819720035,
+      "main_river_overlap_m2": 61137.98925084696,
+      "river_inner_50m_overlap_m2": 51995.33011109576,
+      "main_river_gap_m": 0.0,
+      "old_cutoff_may_be_isolated": false
+    },
+    {
+      "name": "东岭水系",
+      "polygon_count": 1,
+      "valid": true,
+      "actual_water_coverage_fraction": 0.9999817633955915,
+      "main_river_overlap_m2": 59885.644260998335,
+      "river_inner_50m_overlap_m2": 48873.20336785033,
+      "main_river_gap_m": 0.0,
+      "old_cutoff_may_be_isolated": false
+    },
+    {
+      "name": "窑湾水系",
+      "polygon_count": 1,
+      "valid": true,
+      "actual_water_coverage_fraction": 0.9999847407485812,
+      "main_river_overlap_m2": 256966.82657235776,
+      "river_inner_50m_overlap_m2": 231041.47332428227,
+      "main_river_gap_m": 0.0,
+      "old_cutoff_may_be_isolated": false
+    },
+    {
+      "name": "楚江旧河汊",
+      "polygon_count": 1,
+      "valid": true,
+      "actual_water_coverage_fraction": 0.9999865627241195,
+      "main_river_overlap_m2": 0.0,
+      "river_inner_50m_overlap_m2": 0.0,
+      "main_river_gap_m": 2074.888566722265,
+      "old_cutoff_may_be_isolated": true
+    }
+  ],
+  "river_bar_measurements": [
+    {
+      "center_km": [
+        23.14999999999999,
+        6.000000000000003
+      ],
+      "area_m2": 248996.90310000075,
+      "gap_to_main_river_bank_m": 688.2182068125934,
+      "attached_to_main_river_bank": false
+    },
+    {
+      "center_km": [
+        20.01000000000002,
+        12.25
+      ],
+      "area_m2": 163906.03779999985,
+      "gap_to_main_river_bank_m": 857.1326956383524,
+      "attached_to_main_river_bank": false
+    },
+    {
+      "center_km": [
+        24.849999999999998,
+        28.199999999999978
+      ],
+      "area_m2": 304260.6144000005,
+      "gap_to_main_river_bank_m": 594.3151465893466,
+      "attached_to_main_river_bank": false
+    },
+    {
+      "center_km": [
+        32.900000000000034,
+        31.549999999999997
+      ],
+      "area_m2": 248997.3696999997,
+      "gap_to_main_river_bank_m": 301.1113376750713,
+      "attached_to_main_river_bank": false
+    },
+    {
+      "center_km": [
+        41.64999999999996,
+        29.19999999999999
+      ],
+      "area_m2": 158251.44250000003,
+      "gap_to_main_river_bank_m": 640.79691868597,
+      "attached_to_main_river_bank": false
+    }
+  ],
+  "town_measurements": [
+    {
+      "name": "云麓镇",
+      "center_km": [
+        5.5,
+        20.999999999999996
+      ],
+      "actual_roofs": 303,
+      "school_roofs": 0,
+      "actual_plazas": 1,
+      "village_street_length_km": 9.572579437086372,
+      "street_length_reaching_public_major_fraction": 0.9411835562677495,
+      "unconnected_street_parts": [
+        [
+          6.13084,
+          20.9199
+        ],
+        [
+          6.1055,
+          20.868065
+        ],
+        [
+          4.95088,
+          21.17572
+        ],
+        [
+          5.0003150000000005,
+          21.1599
+        ],
+        [
+          5.0605,
+          21.14064
+        ],
+        [
+          5.225499999999999,
+          21.08784
+        ],
+        [
+          5.306305,
+          21.061985
+        ],
+        [
+          5.390499999999999,
+          21.035040000000002
+        ],
+        [
+          6.143655000000001,
+          21.16052
+        ],
+        [
+          6.10815,
+          21.087895
+        ],
+        [
+          6.026025000000001,
+          20.9199
+        ],
+        [
+          5.2805,
+          21.371995
+        ],
+        [
+          5.356694999999999,
+          21.349419999999995
+        ],
+        [
+          5.445499999999999,
+          21.323105
+        ]
+      ],
+      "school_frontage_gap_m": [],
+      "plaza_frontage_gap_m": [
+        26.000987885865428
+      ]
+    },
+    {
+      "name": "窑湾村",
+      "center_km": [
+        13.9,
+        32.0
+      ],
+      "actual_roofs": 29,
+      "school_roofs": 0,
+      "actual_plazas": 1,
+      "village_street_length_km": 4.105302615005314,
+      "street_length_reaching_public_major_fraction": 0.994219724319383,
+      "unconnected_street_parts": [
+        [
+          13.610524999999999,
+          32.044399999999996
+        ]
+      ],
+      "school_frontage_gap_m": [],
+      "plaza_frontage_gap_m": [
+        0.0
+      ]
+    },
+    {
+      "name": "莲花村",
+      "center_km": [
+        6.1,
+        10.6
+      ],
+      "actual_roofs": 48,
+      "school_roofs": 1,
+      "actual_plazas": 1,
+      "village_street_length_km": 4.665243641609335,
+      "street_length_reaching_public_major_fraction": 0.9778723927046163,
+      "unconnected_street_parts": [
+        [
+          5.80975,
+          10.42825
+        ],
+        [
+          5.81825,
+          10.53175
+        ],
+        [
+          5.97958,
+          10.733715
+        ]
+      ],
+      "school_frontage_gap_m": [
+        20.999999999999904
+      ],
+      "plaza_frontage_gap_m": [
+        6.999999999999673
+      ]
+    },
+    {
+      "name": "北郊集镇",
+      "center_km": [
+        36.1,
+        1.8000000000000003
+      ],
+      "actual_roofs": 159,
+      "school_roofs": 1,
+      "actual_plazas": 1,
+      "village_street_length_km": 6.999067349707122,
+      "street_length_reaching_public_major_fraction": 0.9660990812014546,
+      "unconnected_street_parts": [
+        [
+          36.572,
+          1.731
+        ],
+        [
+          36.57692,
+          1.8750000000000002
+        ],
+        [
+          36.094295,
+          1.58622
+        ],
+        [
+          36.08884499999999,
+          1.683
+        ],
+        [
+          36.08614,
+          1.731
+        ],
+        [
+          36.12954,
+          2.019
+        ],
+        [
+          36.358615,
+          1.587
+        ],
+        [
+          36.32329,
+          1.7018149999999999
+        ]
+      ],
+      "school_frontage_gap_m": [
+        45.0000000000017
+      ],
+      "plaza_frontage_gap_m": [
+        0.0
+      ]
+    },
+    {
+      "name": "东岭山前村",
+      "center_km": [
+        44.00000000000001,
+        16.1
+      ],
+      "actual_roofs": 88,
+      "school_roofs": 1,
+      "actual_plazas": 1,
+      "village_street_length_km": 5.86502365720005,
+      "street_length_reaching_public_major_fraction": 0.9511369892735724,
+      "unconnected_street_parts": [
+        [
+          43.698665,
+          15.859855000000001
+        ],
+        [
+          44.16326,
+          16.09158
+        ],
+        [
+          43.671170000000004,
+          15.993874999999997
+        ],
+        [
+          44.300325,
+          16.301915
+        ],
+        [
+          43.85819000000001,
+          16.28651
+        ],
+        [
+          43.90584,
+          16.274594999999998
+        ],
+        [
+          43.97118,
+          15.89837
+        ],
+        [
+          44.19327500000001,
+          15.93351
+        ]
+      ],
+      "school_frontage_gap_m": [
+        29.000566585671397
+      ],
+      "plaza_frontage_gap_m": [
+        13.358862227002144
+      ]
+    },
+    {
+      "name": "窑湾农场",
+      "center_km": [
+        16.6,
+        32.9
+      ],
+      "actual_roofs": 17,
+      "school_roofs": 1,
+      "actual_plazas": 0,
+      "village_street_length_km": 4.235795478751244,
+      "street_length_reaching_public_major_fraction": 1.0,
+      "unconnected_street_parts": [],
+      "school_frontage_gap_m": [
+        12.999999999998124
+      ],
+      "plaza_frontage_gap_m": []
+    },
+    {
+      "name": "机场社区",
+      "center_km": [
+        6.450000000000001,
+        5.549999999999999
+      ],
+      "actual_roofs": 53,
+      "school_roofs": 1,
+      "actual_plazas": 1,
+      "village_street_length_km": 5.142548882398992,
+      "street_length_reaching_public_major_fraction": 1.0,
+      "unconnected_street_parts": [],
+      "school_frontage_gap_m": [
+        25.798102979024982
+      ],
+      "plaza_frontage_gap_m": [
+        0.0
+      ]
+    },
+    {
+      "name": "南郊农贸镇",
+      "center_km": [
+        22.9,
+        34.25
+      ],
+      "actual_roofs": 121,
+      "school_roofs": 1,
+      "actual_plazas": 1,
+      "village_street_length_km": 7.065630710840379,
+      "street_length_reaching_public_major_fraction": 0.9969120355385475,
+      "unconnected_street_parts": [
+        [
+          22.623624999999997,
+          34.312740000000005
+        ]
+      ],
+      "school_frontage_gap_m": [
+        48.20000000000135
+      ],
+      "plaza_frontage_gap_m": [
+        7.098371593516824
+      ]
+    },
+    {
+      "name": "东郊物流村",
+      "center_km": [
+        43.1,
+        24.199999999999996
+      ],
+      "actual_roofs": 71,
+      "school_roofs": 0,
+      "actual_plazas": 1,
+      "village_street_length_km": 5.285670248512427,
+      "street_length_reaching_public_major_fraction": 1.0,
+      "unconnected_street_parts": [],
+      "school_frontage_gap_m": [],
+      "plaza_frontage_gap_m": [
+        25.994926968610724
+      ]
+    }
+  ],
+  "farm_track_public_connection_gaps": [
+    {
+      "center_km": [
+        12.375695,
+        0.01
+      ],
+      "length_km": 16.15139,
+      "gap_to_public_roads_m": 839.9999999999999,
+      "gap_to_village_access_m": 5272.26
+    },
+    {
+      "center_km": [
+        6.122315,
+        1.06
+      ],
+      "length_km": 2.9817299999999998,
+      "gap_to_public_roads_m": 72.34447110871707,
+      "gap_to_village_access_m": 4222.260000000001
+    },
+    {
+      "center_km": [
+        17.028785,
+        1.06
+      ],
+      "length_km": 7.283929999999998,
+      "gap_to_public_roads_m": 40.00000000000004,
+      "gap_to_village_access_m": 7897.8991503437155
+    },
+    {
+      "center_km": [
+        5.181445,
+        2.11
+      ],
+      "length_km": 1.7628899999999996,
+      "gap_to_public_roads_m": 66.47644996538311,
+      "gap_to_village_access_m": 3178.6956784977074
+    },
+    {
+      "center_km": [
+        19.82526,
+        2.11
+      ],
+      "length_km": 2.64996,
+      "gap_to_public_roads_m": 53.18603200089371,
+      "gap_to_village_access_m": 12135.08832285122
+    },
+    {
+      "center_km": [
+        21.055605,
+        3.16
+      ],
+      "length_km": 1.435649999999999,
+      "gap_to_public_roads_m": 98.62826369758118,
+      "gap_to_village_access_m": 13692.945139866733
+    },
+    {
+      "center_km": [
+        4.7777,
+        5.26
+      ],
+      "length_km": 0.5785800000000005,
+      "gap_to_public_roads_m": 59.92033377744042,
+      "gap_to_village_access_m": 964.5477034341019
+    },
+    {
+      "center_km": [
+        21.504269999999998,
+        5.26
+      ],
+      "length_km": 0.9914600000000036,
+      "gap_to_public_roads_m": 40.94007816308735,
+      "gap_to_village_access_m": 13994.641831786907
+    },
+    {
+      "center_km": [
+        5.493740000000001,
+        6.31
+      ],
+      "length_km": 0.9445199999999998,
+      "gap_to_public_roads_m": 33.99999999999981,
+      "gap_to_village_access_m": 554.6430924477463
+    },
+    {
+      "center_km": [
+        6.177465,
+        6.31
+      ],
+      "length_km": 0.2869299999999999,
+      "gap_to_public_roads_m": 33.99999999999981,
+      "gap_to_village_access_m": 531.623783704228
+    },
+    {
+      "center_km": [
+        21.812365,
+        6.31
+      ],
+      "length_km": 0.17450999999999794,
+      "gap_to_public_roads_m": 129.36000000000013,
+      "gap_to_village_access_m": 14374.383887471491
+    },
+    {
+      "center_km": [
+        20.35429,
+        8.41
+      ],
+      "length_km": 0.14562000000000097,
+      "gap_to_public_roads_m": 42.8433845535109,
+      "gap_to_village_access_m": 13737.388227024812
+    },
+    {
+      "center_km": [
+        5.9899249999999995,
+        23.8839
+      ],
+      "length_km": 0.9101740155047284,
+      "gap_to_public_roads_m": 15.997053435776113,
+      "gap_to_village_access_m": 2410.7844710148215
+    },
+    {
+      "center_km": [
+        7.186324999999999,
+        23.737000000000002
+      ],
+      "length_km": 1.211298814207295,
+      "gap_to_public_roads_m": 16.00183988755292,
+      "gap_to_village_access_m": 2487.369725039213
+    },
+    {
+      "center_km": [
+        8.52696,
+        23.57239
+      ],
+      "length_km": 1.354112757786442,
+      "gap_to_public_roads_m": 33.993218147263185,
+      "gap_to_village_access_m": 2965.6528374878917
+    },
+    {
+      "center_km": [
+        6.392435,
+        24.801690000000004
+      ],
+      "length_km": 1.8118144209879783,
+      "gap_to_public_roads_m": 16.006881613645408,
+      "gap_to_village_access_m": 3370.786290943494
+    },
+    {
+      "center_km": [
+        7.430535,
+        24.674230000000005
+      ],
+      "length_km": 0.20334551212160923,
+      "gap_to_public_roads_m": 15.994166826699889,
+      "gap_to_village_access_m": 3568.4211453806824
+    },
+    {
+      "center_km": [
+        7.745590000000001,
+        24.63554
+      ],
+      "length_km": 0.3400345917697199,
+      "gap_to_public_roads_m": 16.001769209926625,
+      "gap_to_village_access_m": 3648.279759448282
+    },
+    {
+      "center_km": [
+        9.147235,
+        24.463445
+      ],
+      "length_km": 1.7809854987057032,
+      "gap_to_public_roads_m": 63.40817376332529,
+      "gap_to_village_access_m": 3944.7764277966367
+    },
+    {
+      "center_km": [
+        6.64277,
+        25.73816
+      ],
+      "length_km": 2.9471268943158857,
+      "gap_to_public_roads_m": 16.005658471362025,
+      "gap_to_village_access_m": 4330.784291581293
+    },
+    {
+      "center_km": [
+        8.24322,
+        25.541650000000004
+      ],
+      "length_km": 0.14344899720806834,
+      "gap_to_public_roads_m": 15.999089452191015,
+      "gap_to_village_access_m": 4717.714583248972
+    },
+    {
+      "center_km": [
+        8.664864999999999,
+        25.489874999999998
+      ],
+      "length_km": 0.553959049930586,
+      "gap_to_public_roads_m": 33.99781882126332,
+      "gap_to_village_access_m": 4804.092022786405
+    },
+    {
+      "center_km": [
+        10.238240000000001,
+        25.296695
+      ],
+      "length_km": 2.131367094824353,
+      "gap_to_public_roads_m": 123.42999999999905,
+      "gap_to_village_access_m": 5177.401506441239
+    },
+    {
+      "center_km": [
+        6.848855,
+        26.68007
+      ],
+      "length_km": 4.154114238932291,
+      "gap_to_public_roads_m": 33.9969754026742,
+      "gap_to_village_access_m": 5290.789685588675
+    },
+    {
+      "center_km": [
+        9.48353,
+        26.356569999999998
+      ],
+      "length_km": 1.0025925228127333,
+      "gap_to_public_roads_m": 16.001068119792542,
+      "gap_to_village_access_m": 5877.867013679367
+    },
+    {
+      "center_km": [
+        11.97715,
+        26.05039
+      ],
+      "length_km": 1.8823506534118455,
+      "gap_to_public_roads_m": 67.0131453836019,
+      "gap_to_village_access_m": 5846.595968065522
+    },
+    {
+      "center_km": [
+        19.961825,
+        25.07
+      ],
+      "length_km": 0.12097137057998351,
+      "gap_to_public_roads_m": 123.04604422735191,
+      "gap_to_village_access_m": 8249.568307554036
+    },
+    {
+      "center_km": [
+        7.003225,
+        27.628320000000002
+      ],
+      "length_km": 5.044048203665385,
+      "gap_to_public_roads_m": 33.99097652225697,
+      "gap_to_village_access_m": 6106.66149227219
+    },
+    {
+      "center_km": [
+        10.472459999999998,
+        27.202355
+      ],
+      "length_km": 1.7943143126275274,
+      "gap_to_public_roads_m": 16.00557696389552,
+      "gap_to_village_access_m": 5206.688432017036
+    },
+    {
+      "center_km": [
+        14.395494999999997,
+        26.720660000000002
+      ],
+      "length_km": 4.699297811684208,
+      "gap_to_public_roads_m": 82.37000000000093,
+      "gap_to_village_access_m": 4885.30470225128
+    },
+    {
+      "center_km": [
+        20.25077,
+        26.001725
+      ],
+      "length_km": 0.12362198388636376,
+      "gap_to_public_roads_m": 99.41999999999851,
+      "gap_to_village_access_m": 7521.862322855955
+    },
+    {
+      "center_km": [
+        7.301235,
+        28.558939999999996
+      ],
+      "length_km": 5.644543959515243,
+      "gap_to_public_roads_m": 33.9905246402993,
+      "gap_to_village_access_m": 5046.455181184118
+    },
+    {
+      "center_km": [
+        10.332465,
+        28.186754999999998
+      ],
+      "length_km": 0.311229935899488,
+      "gap_to_public_roads_m": 33.99906883280255,
+      "gap_to_village_access_m": 4822.44274235579
+    },
+    {
+      "center_km": [
+        12.300435,
+        27.945114999999998
+      ],
+      "length_km": 0.13789841550938686,
+      "gap_to_public_roads_m": 16.002701405164313,
+      "gap_to_village_access_m": 4028.3553201027394
+    },
+    {
+      "center_km": [
+        14.79127,
+        27.63928
+      ],
+      "length_km": 4.7936512562346465,
+      "gap_to_public_roads_m": 15.996213471580658,
+      "gap_to_village_access_m": 3925.2987455704383
+    },
+    {
+      "center_km": [
+        19.698390000000003,
+        27.03676
+      ],
+      "length_km": 2.1649570291347624,
+      "gap_to_public_roads_m": 89.46742027365158,
+      "gap_to_village_access_m": 5842.921955905281
+    },
+    {
+      "center_km": [
+        7.50995,
+        29.500524999999996
+      ],
+      "length_km": 6.065108303443559,
+      "gap_to_public_roads_m": 194.75054411533358,
+      "gap_to_village_access_m": 4111.2572941376475
+    },
+    {
+      "center_km": [
+        12.964949999999998,
+        28.830735000000008
+      ],
+      "length_km": 0.8258959317613804,
+      "gap_to_public_roads_m": 16.001061621657332,
+      "gap_to_village_access_m": 2965.3125771999144
+    },
+    {
+      "center_km": [
+        14.260775,
+        28.671625
+      ],
+      "length_km": 0.6975494409717492,
+      "gap_to_public_roads_m": 381.6518239672872,
+      "gap_to_village_access_m": 3013.019857501775
+    },
+    {
+      "center_km": [
+        16.23667,
+        28.429015
+      ],
+      "length_km": 1.7211286856304506,
+      "gap_to_public_roads_m": 26.996064399311575,
+      "gap_to_village_access_m": 3512.6951229077667
+    },
+    {
+      "center_km": [
+        17.447965,
+        28.28029
+      ],
+      "length_km": 0.5633695807371943,
+      "gap_to_public_roads_m": 27.003529424554227,
+      "gap_to_village_access_m": 4414.033607574819
+    },
+    {
+      "center_km": [
+        17.930825,
+        28.220999999999997
+      ],
+      "length_km": 0.16733812506419485,
+      "gap_to_public_roads_m": 42.714646200102166,
+      "gap_to_village_access_m": 4606.6920375037025
+    },
+    {
+      "center_km": [
+        19.266995,
+        28.056939999999994
+      ],
+      "length_km": 0.32259525492480534,
+      "gap_to_public_roads_m": 121.61517832902337,
+      "gap_to_village_access_m": 5188.456973898887
+    },
+    {
+      "center_km": [
+        20.713735,
+        27.8793
+      ],
+      "length_km": 1.4409099863974857,
+      "gap_to_public_roads_m": 855.8597455775113,
+      "gap_to_village_access_m": 5736.109729816888
+    },
+    {
+      "center_km": [
+        7.897250000000001,
+        30.420180000000002
+      ],
+      "length_km": 6.845525545756149,
+      "gap_to_public_roads_m": 33.997941381664845,
+      "gap_to_village_access_m": 2957.1478939342896
+    },
+    {
+      "center_km": [
+        12.62702,
+        29.839435
+      ],
+      "length_km": 2.532838733614914,
+      "gap_to_public_roads_m": 16.00000000000001,
+      "gap_to_village_access_m": 2005.2974840411682
+    },
+    {
+      "center_km": [
+        15.063544999999996,
+        29.54027
+      ],
+      "length_km": 2.3123255281426105,
+      "gap_to_public_roads_m": 15.999999999998238,
+      "gap_to_village_access_m": 2048.330048624978
+    },
+    {
+      "center_km": [
+        17.68799,
+        29.218024999999997
+      ],
+      "length_km": 2.8196970261536936,
+      "gap_to_public_roads_m": 26.997847970468605,
+      "gap_to_village_access_m": 3250.8726582411687
+    },
+    {
+      "center_km": [
+        20.23285,
+        28.905555
+      ],
+      "length_km": 2.1893187470306854,
+      "gap_to_public_roads_m": 27.000867650722096,
+      "gap_to_village_access_m": 4371.718458924357
+    },
+    {
+      "center_km": [
+        8.205259999999999,
+        31.34957
+      ],
+      "length_km": 7.466172023225823,
+      "gap_to_public_roads_m": 15.997593094158827,
+      "gap_to_village_access_m": 1945.1710964591284
+    },
+    {
+      "center_km": [
+        12.940425000000001,
+        30.768165000000003
+      ],
+      "length_km": 1.9013218156324823,
+      "gap_to_public_roads_m": 16.00000000000001,
+      "gap_to_village_access_m": 1045.296496657968
+    },
+    {
+      "center_km": [
+        14.885114999999999,
+        30.529385000000005
+      ],
+      "length_km": 1.952786412539785,
+      "gap_to_public_roads_m": 15.999999999998238,
+      "gap_to_village_access_m": 1087.4356749711678
+    },
+    {
+      "center_km": [
+        18.97629,
+        30.027054999999997
+      ],
+      "length_km": 6.092835091917388,
+      "gap_to_public_roads_m": 15.995214253565319,
+      "gap_to_village_access_m": 2291.2167018420605
+    },
+    {
+      "center_km": [
+        8.891475,
+        32.232524999999995
+      ],
+      "length_km": 8.848908341179719,
+      "gap_to_public_roads_m": 16.00293928366931,
+      "gap_to_village_access_m": 358.0073010676949
+    },
+    {
+      "center_km": [
+        13.427884999999998,
+        31.675520000000002
+      ],
+      "length_km": 0.17979123699446706,
+      "gap_to_public_roads_m": 15.996593345011572,
+      "gap_to_village_access_m": 202.49001358091581
+    },
+    {
+      "center_km": [
+        13.76913,
+        31.63362
+      ],
+      "length_km": 0.2314642685167638,
+      "gap_to_public_roads_m": 16.00000000000001,
+      "gap_to_village_access_m": 85.30100186314868
+    },
+    {
+      "center_km": [
+        14.289159999999999,
+        31.56977
+      ],
+      "length_km": 0.7519251505302914,
+      "gap_to_public_roads_m": 15.999999999998238,
+      "gap_to_village_access_m": 183.50884474596836
+    },
+    {
+      "center_km": [
+        15.215089999999998,
+        31.45608
+      ],
+      "length_km": 0.9562679076493156,
+      "gap_to_public_roads_m": 16.001060744578986,
+      "gap_to_village_access_m": 644.232257652471
+    },
+    {
+      "center_km": [
+        18.872775,
+        31.006974999999997
+      ],
+      "length_km": 6.301419840401048,
+      "gap_to_public_roads_m": 27.00231486242933,
+      "gap_to_village_access_m": 1393.1365505462477
+    },
+    {
+      "center_km": [
+        9.78926,
+        33.0895
+      ],
+      "length_km": 10.65796296882289,
+      "gap_to_public_roads_m": 15.99969144077499,
+      "gap_to_village_access_m": 357.68915879626184
+    },
+    {
+      "center_km": [
+        15.234374999999998,
+        32.420919999999995
+      ],
+      "length_km": 0.17185054116877085,
+      "gap_to_public_roads_m": 16.003536563017573,
+      "gap_to_village_access_m": 985.6179017246003
+    },
+    {
+      "center_km": [
+        18.728405000000002,
+        31.991909999999997
+      ],
+      "length_km": 6.592327884450225,
+      "gap_to_public_roads_m": 34.00010884082676,
+      "gap_to_village_access_m": 433.13839513887285
+    },
+    {
+      "center_km": [
+        10.79309,
+        33.93345
+      ],
+      "length_km": 12.680698968779282,
+      "gap_to_public_roads_m": 16.00266653928719,
+      "gap_to_village_access_m": 109.27008113760483
+    },
+    {
+      "center_km": [
+        19.62968,
+        32.848455
+      ],
+      "length_km": 4.7762404770383995,
+      "gap_to_public_roads_m": 34.00437948478259,
+      "gap_to_village_access_m": 386.948303653087
+    },
+    {
+      "center_km": [
+        12.155595,
+        34.733365
+      ],
+      "length_km": 15.426173421072383,
+      "gap_to_public_roads_m": 16.005326499430026,
+      "gap_to_village_access_m": 1069.268550680752
+    },
+    {
+      "center_km": [
+        20.04466,
+        33.76471
+      ],
+      "length_km": 0.2590099611984047,
+      "gap_to_public_roads_m": 16.00117768591051,
+      "gap_to_village_access_m": 2232.0327616099203
+    },
+    {
+      "center_km": [
+        21.22091,
+        33.62028
+      ],
+      "length_km": 1.5698816053448112,
+      "gap_to_public_roads_m": 34.003102310483634,
+      "gap_to_village_access_m": 675.9131899881858
+    },
+    {
+      "center_km": [
+        15.858485,
+        35.245915
+      ],
+      "length_km": 12.375273844638752,
+      "gap_to_public_roads_m": 394.80556261544206,
+      "gap_to_village_access_m": 387.4141000273479
+    },
+    {
+      "center_km": [
+        19.79713,
+        35.72952
+      ],
+      "length_km": 4.438826722141788,
+      "gap_to_public_roads_m": 1357.658749017422,
+      "gap_to_village_access_m": 1065.372720506771
+    },
+    {
+      "center_km": [
+        26.992,
+        0.01
+      ],
+      "length_km": 3.9840000000000018,
+      "gap_to_public_roads_m": 15.999999999998238,
+      "gap_to_village_access_m": 6813.835630538792
+    },
+    {
+      "center_km": [
+        30.867195,
+        0.01
+      ],
+      "length_km": 3.702390000000001,
+      "gap_to_public_roads_m": 15.999999999998238,
+      "gap_to_village_access_m": 3310.676092900061
+    },
+    {
+      "center_km": [
+        35.62468,
+        0.01
+      ],
+      "length_km": 5.584519999999998,
+      "gap_to_public_roads_m": 1166.45,
+      "gap_to_village_access_m": 1475.0
+    },
+    {
+      "center_km": [
+        41.765955000000005,
+        0.01
+      ],
+      "length_km": 6.468090000000004,
+      "gap_to_public_roads_m": 2215.0684295524584,
+      "gap_to_village_access_m": 2527.6819910938125
+    },
+    {
+      "center_km": [
+        25.793964999999996,
+        1.21
+      ],
+      "length_km": 1.58793,
+      "gap_to_public_roads_m": 62.23074642007611,
+      "gap_to_village_access_m": 9021.990905495248
+    },
+    {
+      "center_km": [
+        27.85603,
+        1.21
+      ],
+      "length_km": 1.287939999999999,
+      "gap_to_public_roads_m": 152.0600000000023,
+      "gap_to_village_access_m": 7113.009208485535
+    },
+    {
+      "center_km": [
+        36.390805,
+        1.21
+      ],
+      "length_km": 3.7484699999999975,
+      "gap_to_public_roads_m": 58.85000000000007,
+      "gap_to_village_access_m": 275.0000000000001
+    },
+    {
+      "center_km": [
+        41.671685,
+        1.21
+      ],
+      "length_km": 6.5837900000000005,
+      "gap_to_public_roads_m": 1211.982830901498,
+      "gap_to_village_access_m": 1830.9976635976338
+    },
+    {
+      "center_km": [
+        30.374999999999996,
+        2.41
+      ],
+      "length_km": 0.4100400000000022,
+      "gap_to_public_roads_m": 40.99561439959185,
+      "gap_to_village_access_m": 5040.109046479055
+    },
+    {
+      "center_km": [
+        35.77611,
+        2.41
+      ],
+      "length_km": 1.2122600000000006,
+      "gap_to_public_roads_m": 40.99561439959185,
+      "gap_to_village_access_m": 294.99999999999994
+    },
+    {
+      "center_km": [
+        40.94631,
+        2.41
+      ],
+      "length_km": 5.390499999999996,
+      "gap_to_public_roads_m": 49.569312410235405,
+      "gap_to_village_access_m": 1711.1046237153416
+    },
+    {
+      "center_km": [
+        37.5522,
+        3.61
+      ],
+      "length_km": 1.0051399999999973,
+      "gap_to_public_roads_m": 149.6709287069489,
+      "gap_to_village_access_m": 1634.0553041130522
+    },
+    {
+      "center_km": [
+        39.227965,
+        3.61
+      ],
+      "length_km": 2.1182899999999947,
+      "gap_to_public_roads_m": 16.000678709424786,
+      "gap_to_village_access_m": 2276.7731974002168
+    },
+    {
+      "center_km": [
+        41.89514500000001,
+        3.61
+      ],
+      "length_km": 3.144509999999997,
+      "gap_to_public_roads_m": 16.00194243707211,
+      "gap_to_village_access_m": 4072.1505316110306
+    },
+    {
+      "center_km": [
+        39.545405,
+        4.81
+      ],
+      "length_km": 2.683410000000002,
+      "gap_to_public_roads_m": 15.999316003936917,
+      "gap_to_village_access_m": 3248.4662057654205
+    },
+    {
+      "center_km": [
+        42.214405,
+        4.81
+      ],
+      "length_km": 2.5830299999999937,
+      "gap_to_public_roads_m": 16.003305142559928,
+      "gap_to_village_access_m": 5177.8256007806995
+    },
+    {
+      "center_km": [
+        40.73944,
+        6.01
+      ],
+      "length_km": 1.4953399999999988,
+      "gap_to_public_roads_m": 15.9979532984494,
+      "gap_to_village_access_m": 5282.670132887346
+    },
+    {
+      "center_km": [
+        42.678455,
+        6.01
+      ],
+      "length_km": 2.3111300000000057,
+      "gap_to_public_roads_m": 16.00466784804109,
+      "gap_to_village_access_m": 6374.742814584753
+    },
+    {
+      "center_km": [
+        40.01497,
+        7.21
+      ],
+      "length_km": 1.0243600000000015,
+      "gap_to_public_roads_m": 33.99794597288067,
+      "gap_to_village_access_m": 5970.635358494101
+    },
+    {
+      "center_km": [
+        41.32884,
+        7.21
+      ],
+      "length_km": 1.4532999999999987,
+      "gap_to_public_roads_m": 16.0021313352207,
+      "gap_to_village_access_m": 6601.5168557006655
+    },
+    {
+      "center_km": [
+        43.544669999999996,
+        7.21
+      ],
+      "length_km": 2.91066,
+      "gap_to_public_roads_m": 15.998749377768316,
+      "gap_to_village_access_m": 7595.745759015371
+    },
+    {
+      "center_km": [
+        40.378565,
+        8.41
+      ],
+      "length_km": 1.4171699999999987,
+      "gap_to_public_roads_m": 33.99925606527287,
+      "gap_to_village_access_m": 7098.2599135562805
+    },
+    {
+      "center_km": [
+        41.55975,
+        8.41
+      ],
+      "length_km": 0.7951199999999972,
+      "gap_to_public_roads_m": 34.000695365535904,
+      "gap_to_village_access_m": 7612.182874346883
+    },
+    {
+      "center_km": [
+        43.961635,
+        8.41
+      ],
+      "length_km": 2.0767299999999977,
+      "gap_to_public_roads_m": 71.30469830243196,
+      "gap_to_village_access_m": 7391.669999999999
+    },
+    {
+      "center_km": [
+        42.154105,
+        9.61
+      ],
+      "length_km": 0.4339899999999943,
+      "gap_to_public_roads_m": 117.11000000000381,
+      "gap_to_village_access_m": 6349.1120569257555
+    },
+    {
+      "center_km": [
+        43.69001,
+        9.61
+      ],
+      "length_km": 0.5222400000000036,
+      "gap_to_public_roads_m": 187.3562126004924,
+      "gap_to_village_access_m": 6191.670000000001
+    },
+    {
+      "center_km": [
+        44.57992,
+        9.61
+      ],
+      "length_km": 0.8401599999999974,
+      "gap_to_public_roads_m": 731.5127832102476,
+      "gap_to_village_access_m": 6203.540817710479
+    },
+    {
+      "center_km": [
+        44.060065,
+        10.81
+      ],
+      "length_km": 0.4347700000000003,
+      "gap_to_public_roads_m": 49.12046518509133,
+      "gap_to_village_access_m": 4992.1120113434945
+    },
+    {
+      "center_km": [
+        44.746065,
+        10.81
+      ],
+      "length_km": 0.507870000000004,
+      "gap_to_public_roads_m": 654.0775361530144,
+      "gap_to_village_access_m": 5042.74266280761
+    },
+    {
+      "center_km": [
+        44.23479000000001,
+        11.42007
+      ],
+      "length_km": 0.3857334089756797,
+      "gap_to_public_roads_m": 153.60936652426602,
+      "gap_to_village_access_m": 4402.776517880179
+    },
+    {
+      "center_km": [
+        46.32338,
+        11.713605000000001
+      ],
+      "length_km": 3.38619460611761,
+      "gap_to_public_roads_m": 595.5817198336397,
+      "gap_to_village_access_m": 4410.461353430046
+    },
+    {
+      "center_km": [
+        46.60912999999999,
+        12.692905
+      ],
+      "length_km": 2.8090780213621684,
+      "gap_to_public_roads_m": 1201.1362476005795,
+      "gap_to_village_access_m": 3517.014458116429
+    },
+    {
+      "center_km": [
+        46.43036,
+        13.606919999999999
+      ],
+      "length_km": 3.1701319149839797,
+      "gap_to_public_roads_m": 1041.446139173794,
+      "gap_to_village_access_m": 2566.558307247273
+    },
+    {
+      "center_km": [
+        45.85378,
+        14.465025
+      ],
+      "length_km": 4.334625225610629,
+      "gap_to_public_roads_m": 195.28554913254652,
+      "gap_to_village_access_m": 1612.7761047473705
+    },
+    {
+      "center_km": [
+        45.948425,
+        15.41747
+      ],
+      "length_km": 4.143473986656607,
+      "gap_to_public_roads_m": 40.905526521488554,
+      "gap_to_village_access_m": 683.257609470982
+    },
+    {
+      "center_km": [
+        46.264845,
+        16.40108
+      ],
+      "length_km": 3.5044146864348096,
+      "gap_to_public_roads_m": 285.48132653153436,
+      "gap_to_village_access_m": 133.58899243575624
+    },
+    {
+      "center_km": [
+        46.386515,
+        17.357315
+      ],
+      "length_km": 3.258684526277438,
+      "gap_to_public_roads_m": 41.244143826727935,
+      "gap_to_village_access_m": 935.4914026863106
+    },
+    {
+      "center_km": [
+        43.80627,
+        17.933825
+      ],
+      "length_km": 0.2863068509484141,
+      "gap_to_public_roads_m": 104.87061838284264,
+      "gap_to_village_access_m": 1545.7318130320655
+    },
+    {
+      "center_km": [
+        46.35899500000001,
+        18.292589999999997
+      ],
+      "length_km": 3.3142646888412512,
+      "gap_to_public_roads_m": 111.96503114812224,
+      "gap_to_village_access_m": 1759.7349336760924
+    },
+    {
+      "center_km": [
+        43.280805,
+        18.799115
+      ],
+      "length_km": 0.6883080096875298,
+      "gap_to_public_roads_m": 33.998994271310266,
+      "gap_to_village_access_m": 2478.2926276168455
+    },
+    {
+      "center_km": [
+        44.94085,
+        19.032420000000002
+      ],
+      "length_km": 0.9105607329552473,
+      "gap_to_public_roads_m": 72.07052188965575,
+      "gap_to_village_access_m": 2591.003198164757
+    },
+    {
+      "center_km": [
+        47.81221,
+        19.435965000000003
+      ],
+      "length_km": 0.37927182929924985,
+      "gap_to_public_roads_m": 3161.800725662511,
+      "gap_to_village_access_m": 4507.374745835988
+    },
+    {
+      "center_km": [
+        43.245495,
+        19.733295000000002
+      ],
+      "length_km": 0.6169946815005792,
+      "gap_to_public_roads_m": 98.8176583410071,
+      "gap_to_village_access_m": 3406.1512440436377
+    },
+    {
+      "center_km": [
+        43.067665000000005,
+        20.647439999999996
+      ],
+      "length_km": 0.2578386768892599,
+      "gap_to_public_roads_m": 44.947191235938334,
+      "gap_to_village_access_m": 3239.0574725682163
+    },
+    {
+      "center_km": [
+        47.924735,
+        22.269195
+      ],
+      "length_km": 0.15200856357455267,
+      "gap_to_public_roads_m": 3962.2745086376867,
+      "gap_to_village_access_m": 4660.044757864461
+    },
+    {
+      "center_km": [
+        43.86409999999999,
+        22.63765
+      ],
+      "length_km": 0.5251101659652033,
+      "gap_to_public_roads_m": 34.00007647861149,
+      "gap_to_village_access_m": 1331.6798640046566
+    },
+    {
+      "center_km": [
+        47.729405,
+        23.180880000000002
+      ],
+      "length_km": 0.5465086821817203,
+      "gap_to_public_roads_m": 3802.1798384742397,
+      "gap_to_village_access_m": 4014.0551240111313
+    },
+    {
+      "center_km": [
+        43.263099999999994,
+        23.492325
+      ],
+      "length_km": 0.12152227655866753,
+      "gap_to_public_roads_m": 80.79232265506383,
+      "gap_to_village_access_m": 417.4286421653413
+    },
+    {
+      "center_km": [
+        43.782815,
+        23.565365
+      ],
+      "length_km": 0.5266148917377789,
+      "gap_to_public_roads_m": 34.00372057964321,
+      "gap_to_village_access_m": 401.90353394813604
+    },
+    {
+      "center_km": [
+        47.714455,
+        24.117919999999998
+      ],
+      "length_km": 0.5767022244625087,
+      "gap_to_public_roads_m": 3240.2260410347867,
+      "gap_to_village_access_m": 3878.9712028062263
+    },
+    {
+      "center_km": [
+        45.83665,
+        24.793155
+      ],
+      "length_km": 4.3692198405321765,
+      "gap_to_public_roads_m": 40.07517061722887,
+      "gap_to_village_access_m": 190.4276881128364
+    },
+    {
+      "center_km": [
+        46.17273,
+        25.779525
+      ],
+      "length_km": 3.690454964323502,
+      "gap_to_public_roads_m": 40.76374001487767,
+      "gap_to_village_access_m": 1400.0535647610052
+    },
+    {
+      "center_km": [
+        46.675475000000006,
+        26.789319999999996
+      ],
+      "length_km": 2.6750837729873016,
+      "gap_to_public_roads_m": 45.859692541488066,
+      "gap_to_village_access_m": 2875.94315173301
+    },
+    {
+      "center_km": [
+        46.466305000000006,
+        29.577345
+      ],
+      "length_km": 3.097534503472073,
+      "gap_to_public_roads_m": 59.877976752730426,
+      "gap_to_village_access_m": 5108.876529972122
+    },
+    {
+      "center_km": [
+        24.395955,
+        32.01
+      ],
+      "length_km": 6.791909999999998,
+      "gap_to_public_roads_m": 190.00000000000483,
+      "gap_to_village_access_m": 1912.3999999999978
+    },
+    {
+      "center_km": [
+        44.086619999999996,
+        32.01
+      ],
+      "length_km": 1.0164800000000014,
+      "gap_to_public_roads_m": 118.37999999999481,
+      "gap_to_village_access_m": 7524.810098401153
+    },
+    {
+      "center_km": [
+        45.77875,
+        32.01
+      ],
+      "length_km": 1.4202399999999926,
+      "gap_to_public_roads_m": 862.9400000000018,
+      "gap_to_village_access_m": 7704.922159535421
+    },
+    {
+      "center_km": [
+        47.431145,
+        32.01
+      ],
+      "length_km": 1.1377099999999984,
+      "gap_to_public_roads_m": 1289.999999999999,
+      "gap_to_village_access_m": 8279.950461645285
+    },
+    {
+      "center_km": [
+        24.28,
+        33.06
+      ],
+      "length_km": 6.559999999999999,
+      "gap_to_public_roads_m": 128.04999999999467,
+      "gap_to_village_access_m": 862.3999999999938
+    },
+    {
+      "center_km": [
+        46.870000000000005,
+        33.06
+      ],
+      "length_km": 2.259999999999998,
+      "gap_to_public_roads_m": 166.18335686825358,
+      "gap_to_village_access_m": 8885.559066361555
+    },
+    {
+      "center_km": [
+        21.493119999999998,
+        34.11
+      ],
+      "length_km": 0.9862399999999987,
+      "gap_to_public_roads_m": 16.000093795087384,
+      "gap_to_village_access_m": 389.8160623935351
+    },
+    {
+      "center_km": [
+        24.766955000000006,
+        34.11
+      ],
+      "length_km": 2.6439100000000018,
+      "gap_to_public_roads_m": 38.05593339181734,
+      "gap_to_village_access_m": 28.25320026095447
+    },
+    {
+      "center_km": [
+        46.095,
+        34.11
+      ],
+      "length_km": 3.8100000000000023,
+      "gap_to_public_roads_m": 164.9242250247029,
+      "gap_to_village_access_m": 9654.88497713981
+    },
+    {
+      "center_km": [
+        24.665505000000003,
+        35.16
+      ],
+      "length_km": 7.331010000000003,
+      "gap_to_public_roads_m": 108.3099999999959,
+      "gap_to_village_access_m": 582.3999999999926
+    },
+    {
+      "center_km": [
+        46.04736,
+        35.16
+      ],
+      "length_km": 3.9052800000000047,
+      "gap_to_public_roads_m": 159.9999999999966,
+      "gap_to_village_access_m": 10695.151278752439
+    }
+  ],
+  "unsupported_svg_geometry_commands": [],
+  "source_conflicts_retained": [
+    {
+      "topic": "楚岸、西岸地标",
+      "adopted": "楚岸核心、楚风传媒、引资银行在楚江西岸；采用用户明确裁决。",
+      "basis": "user"
+    },
+    {
+      "topic": "深中相关设施",
+      "adopted": "财经大学、沙尾、奥体中心、枫湾、楚江西路和燧明园均采用设定稿的岛上归属，产生相应跨江区间。",
+      "basis": "setting; diagram conflicts recorded"
+    },
+    {
+      "topic": "北岭跨江",
+      "adopted": "湖区、云鲤路等西岸站群保留原图岸别，东岸天街、长乐街和北岭站形成对岸片区；不绘未统一的正式区界。",
+      "basis": "diagram; district text differs"
+    },
+    {
+      "topic": "楚江广场与醒钟",
+      "adopted": "保留原图东岸桥头位置；楚江广场属于跨江桥头，醒钟的文星区归属仍待统一。",
+      "basis": "diagram; district text differs"
+    },
+    {
+      "topic": "骑楼街、海关旧址、江湾",
+      "adopted": "骑楼街与海关保留原图西岸，海关在江湾以北；江湾保留岛上位置。区名与部分站表冲突在此保留，不擅改原稿。",
+      "basis": "diagram"
+    },
+    {
+      "topic": "旧城区和故城区",
+      "adopted": "分别标示；旧城区塌陷区域位于铁铺以南、龙门吊路东北、船政学堂以东。主体阶段不画塌陷边界。",
+      "basis": "user"
+    },
+    {
+      "topic": "街坊和场地",
+      "adopted": "功能决定街坊与建筑占地；平地采用稳定正交网格，曲线用于地形、滨江和既有主路转弯。",
+      "basis": "user; reference atlas"
+    },
+    {
+      "topic": "停用站和塌陷区域",
+      "adopted": "继承三个站的停用状态；故城中心停用站与塌陷区域的因果关系留待源设定统一。撤销 v2 的灰区面积、边界和隔离墙解释。",
+      "basis": "user"
+    },
+    {
+      "topic": "面积与园区道路",
+      "adopted": "大学完整地块 500 亩，科技园完整地块 300 亩。科技园同面积地块向南平移 70 m，深中大道从西侧、南侧绕行；不以道路扣除前面积冒充可用地块面积。塌陷区面积未定。",
+      "basis": "setting + current design"
+    },
+    {
+      "topic": "水系重做",
+      "adopted": "按用户最新裁决重做河形与岛形，采用宽缓回弯、分汊与冲积洲滩；不受原图正东、正北转折约束。所有原公里站位留在陆地，岛上功能与西岸关系保持。",
+      "basis": "user + geography design"
+    },
+    {
+      "topic": "城郊与城区过渡",
+      "adopted": "近郊沿主路与节点延伸，镇村、田块、乡道与支流构成外围系统；城区交界的混合街坊带宽为设计值 800 m，非行政区界。新增集镇名称为设计占位。",
+      "basis": "user + NMDC"
+    }
+  ],
+  "grey_drawn_marker_attributes": [],
+  "obsolete_grey_decision_descriptions": [],
+  "piers_water_land": [
+    {
+      "center_km": [
+        27.999999999999996,
+        29.945
+      ],
+      "water_m2": 2753.940350157343,
+      "land_m2": 766.0596498424147
+    },
+    {
+      "center_km": [
+        30.199999999999996,
+        30.857420000000005
+      ],
+      "water_m2": 2749.9841130296754,
+      "land_m2": 770.0158869700817
+    },
+    {
+      "center_km": [
+        33.300000000000004,
+        31.133149999999997
+      ],
+      "water_m2": 2750.055949603105,
+      "land_m2": 769.9440503965742
+    },
+    {
+      "center_km": [
+        35.0,
+        30.895070000000004
+      ],
+      "water_m2": 2749.9767598284493,
+      "land_m2": 770.0232401701714
+    },
+    {
+      "center_km": [
+        39.2,
+        29.78838
+      ],
+      "water_m2": 2749.989385964749,
+      "land_m2": 770.0106140350083
+    }
+  ],
+  "river_inner_domain_50m_components_for_trials": [
+    0,
+    0
+  ],
+  "river_inner_domain_50m_trials": [
+    [
+      21.32229952878273,
+      0.25
+    ],
+    [
+      47.75,
+      28.26438761964053
+    ]
+  ],
+  "building_count": 58550,
+  "roof_detail_count": 357,
+  "building_water_errors": [],
+  "overlapping_roofs_over_1m2": [],
+  "road_building_overlap_over_1m2": [],
+  "path_building_overlap_over_1m2": [],
+  "site_measurements": [
+    {
+      "name": "龙散大学",
+      "kind": "university",
+      "design_plot_km2": 0.3333333333333341,
+      "actual_site_ground_km2": 0.3333359999999997,
+      "footprints": 30,
+      "roof_area_km2": 0.03682486399999957,
+      "actual_center_km": [
+        14.3,
+        18.45778
+      ],
+      "actual_bounds_km": [
+        14.0,
+        18.18,
+        14.6,
+        18.73556
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 34.44444444444272
+    },
+    {
+      "name": "燧明科技园",
+      "kind": "research",
+      "design_plot_km2": 0.1999999999999993,
+      "actual_site_ground_km2": 0.1999999999999993,
+      "footprints": 9,
+      "roof_area_km2": 0.026103999999998944,
+      "actual_center_km": [
+        23.5,
+        19.070000000000004
+      ],
+      "actual_bounds_km": [
+        23.3,
+        18.82,
+        23.7,
+        19.32
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "财经政法大学",
+      "kind": "university-new",
+      "design_plot_km2": 0.33481444648683056,
+      "actual_site_ground_km2": 0.33481592650000014,
+      "footprints": 3,
+      "roof_area_km2": 0.013862720000001482,
+      "actual_center_km": [
+        21.842342975767934,
+        12.834148602694546
+      ],
+      "actual_bounds_km": [
+        21.45,
+        12.6,
+        22.25,
+        13.1
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "楚风中心",
+      "kind": "headquarters",
+      "design_plot_km2": 0.06479999999999995,
+      "actual_site_ground_km2": 0.06479999999999995,
+      "footprints": 1,
+      "roof_area_km2": 0.010786500000000379,
+      "actual_center_km": [
+        17.634999999999998,
+        11.979999999999999
+      ],
+      "actual_bounds_km": [
+        17.5,
+        11.86,
+        17.77,
+        12.1
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "引资银行",
+      "kind": "bank",
+      "design_plot_km2": 0.07037599015219066,
+      "actual_site_ground_km2": 0.07037598509999969,
+      "footprints": 4,
+      "roof_area_km2": 0.01282000000000014,
+      "actual_center_km": [
+        17.88994583087867,
+        16.22003608696519
+      ],
+      "actual_bounds_km": [
+        17.73,
+        16.11,
+        18.05,
+        16.33
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 165.5294535724673
+    },
+    {
+      "name": "云梦科技总部",
+      "kind": "headquarters",
+      "design_plot_km2": 0.07840000000000064,
+      "actual_site_ground_km2": 0.07840000000000064,
+      "footprints": 1,
+      "roof_area_km2": 0.010786500000000379,
+      "actual_center_km": [
+        23.98,
+        19.43
+      ],
+      "actual_bounds_km": [
+        23.84,
+        19.29,
+        24.12,
+        19.57
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "燧明集团总部",
+      "kind": "headquarters",
+      "design_plot_km2": 0.03500000000000014,
+      "actual_site_ground_km2": 0.03500000000000014,
+      "footprints": 1,
+      "roof_area_km2": 0.006810299999999911,
+      "actual_center_km": [
+        23.77,
+        19.435
+      ],
+      "actual_bounds_km": [
+        23.7,
+        19.31,
+        23.84,
+        19.56
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "奥体中心",
+      "kind": "sports",
+      "design_plot_km2": 0.36640104567196174,
+      "actual_site_ground_km2": 0.3664018823499997,
+      "footprints": 2,
+      "roof_area_km2": 0.01770932700000009,
+      "actual_center_km": [
+        20.66784438333942,
+        15.697630681753107
+      ],
+      "actual_bounds_km": [
+        20.32,
+        15.4,
+        21.04,
+        16.0
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 0.0
+    },
+    {
+      "name": "楚钢旧厂区",
+      "kind": "factory",
+      "design_plot_km2": 2.137427529177887,
+      "actual_site_ground_km2": 2.137426499999999,
+      "footprints": 7,
+      "roof_area_km2": 0.17135499999999895,
+      "actual_center_km": [
+        38.558494806779315,
+        20.925
+      ],
+      "actual_bounds_km": [
+        37.9,
+        20.1,
+        39.25,
+        21.75
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "铁山机车厂",
+      "kind": "factory",
+      "design_plot_km2": 1.8766527399275437,
+      "actual_site_ground_km2": 1.876648000000004,
+      "footprints": 8,
+      "roof_area_km2": 0.1751250000000012,
+      "actual_center_km": [
+        40.87499999999999,
+        13.493894998763752
+      ],
+      "actual_bounds_km": [
+        40.15,
+        12.8,
+        41.6,
+        14.15
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "重黎工业遗迹群",
+      "kind": "factory-legacy",
+      "design_plot_km2": 2.2164999999999955,
+      "actual_site_ground_km2": 2.2164999999999955,
+      "footprints": 13,
+      "roof_area_km2": 0.2983199999999963,
+      "actual_center_km": [
+        40.875,
+        21.165
+      ],
+      "actual_bounds_km": [
+        40.1,
+        20.45,
+        41.65,
+        21.88
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "龙散火车站",
+      "kind": "station",
+      "design_plot_km2": 0.19985187491929163,
+      "actual_site_ground_km2": 0.19985274675000125,
+      "footprints": 2,
+      "roof_area_km2": 0.017596006399999288,
+      "actual_center_km": [
+        32.38948738648106,
+        17.06997891428903
+      ],
+      "actual_bounds_km": [
+        32.1,
+        16.88,
+        32.68,
+        17.26
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 43.98138329109791
+    },
+    {
+      "name": "龙散东站",
+      "kind": "station",
+      "design_plot_km2": 0.2820461021717341,
+      "actual_site_ground_km2": 0.28204560000000056,
+      "footprints": 1,
+      "roof_area_km2": 0.012187369599999446,
+      "actual_center_km": [
+        38.47139590193927,
+        17.025
+      ],
+      "actual_bounds_km": [
+        38.13,
+        16.81,
+        38.84,
+        17.24
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 60.000000000002274
+    },
+    {
+      "name": "船政学堂",
+      "kind": "academy",
+      "design_plot_km2": 0.11020000000000074,
+      "actual_site_ground_km2": 0.11020000000000074,
+      "footprints": 1,
+      "roof_area_km2": 0.00380999999999966,
+      "actual_center_km": [
+        31.04,
+        24.274999999999995
+      ],
+      "actual_bounds_km": [
+        30.85,
+        24.13,
+        31.23,
+        24.42
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 79.9999999999983
+    },
+    {
+      "name": "楚墓博物馆",
+      "kind": "museum",
+      "design_plot_km2": 0.11595285796599199,
+      "actual_site_ground_km2": 0.11595290489999986,
+      "footprints": 1,
+      "roof_area_km2": 0.010439999999999883,
+      "actual_center_km": [
+        5.194947380113245,
+        6.868793867878322
+      ],
+      "actual_bounds_km": [
+        5.0,
+        6.72,
+        5.39,
+        7.02
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 15.98072729928237
+    },
+    {
+      "name": "龙翔天街",
+      "kind": "retail",
+      "design_plot_km2": 0.1164530781002031,
+      "actual_site_ground_km2": 0.11645479999999916,
+      "footprints": 2,
+      "roof_area_km2": 0.012600000000000094,
+      "actual_center_km": [
+        26.35216883784954,
+        6.300000000000002
+      ],
+      "actual_bounds_km": [
+        26.1,
+        6.16,
+        26.57,
+        6.44
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 59.9999999999996
+    },
+    {
+      "name": "文侯庙",
+      "kind": "temple",
+      "design_plot_km2": 0.04511647941250918,
+      "actual_site_ground_km2": 0.04511553035000018,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "actual_center_km": [
+        27.306752558172672,
+        20.936216245497448
+      ],
+      "actual_bounds_km": [
+        27.17,
+        20.79,
+        27.44,
+        21.05
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 50.77644784537323
+    },
+    {
+      "name": "长乐街",
+      "kind": "historic-street",
+      "design_plot_km2": 0.14788077109684789,
+      "actual_site_ground_km2": 0.14788090340000012,
+      "footprints": 35,
+      "roof_area_km2": 0.027405000000000755,
+      "actual_center_km": [
+        26.098528596304156,
+        9.579904935569923
+      ],
+      "actual_bounds_km": [
+        25.91,
+        9.33,
+        26.26,
+        9.83
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 24.592440340903877
+    },
+    {
+      "name": "云鲤互娱旧厂",
+      "kind": "creative",
+      "design_plot_km2": 0.12265407052687485,
+      "actual_site_ground_km2": 0.12265460000000059,
+      "footprints": 2,
+      "roof_area_km2": 0.020424000000000695,
+      "actual_center_km": [
+        13.911141428751957,
+        6.545
+      ],
+      "actual_bounds_km": [
+        13.69,
+        6.39,
+        14.14,
+        6.7
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "影视基地",
+      "kind": "studios",
+      "design_plot_km2": 0.5326979640859887,
+      "actual_site_ground_km2": 0.532696499999998,
+      "footprints": 9,
+      "roof_area_km2": 0.09190800000000263,
+      "actual_center_km": [
+        32.201171314529006,
+        11.735
+      ],
+      "actual_bounds_km": [
+        31.76,
+        11.42,
+        32.66,
+        12.05
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 54.143192892479384
+    },
+    {
+      "name": "文星科研组团",
+      "kind": "research-quarter",
+      "design_plot_km2": 0.32400000000000023,
+      "actual_site_ground_km2": 0.32400000000000023,
+      "footprints": 9,
+      "roof_area_km2": 0.02610399999999993,
+      "actual_center_km": [
+        12.83,
+        13.649999999999999
+      ],
+      "actual_bounds_km": [
+        12.53,
+        13.38,
+        13.13,
+        13.92
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "望津旧港街坊",
+      "kind": "port-historic",
+      "design_plot_km2": 0.5928267154115296,
+      "actual_site_ground_km2": 0.5928264110000004,
+      "footprints": 53,
+      "roof_area_km2": 0.07296649999999935,
+      "actual_center_km": [
+        27.763380028278863,
+        28.871246265554902
+      ],
+      "actual_bounds_km": [
+        27.3,
+        28.55,
+        28.23,
+        29.19
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "楚江广场",
+      "kind": "civic-square",
+      "design_plot_km2": 0.02853227755437452,
+      "actual_site_ground_km2": 0.028531621749999868,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "actual_center_km": [
+        26.392723696254425,
+        18.755976708410657
+      ],
+      "actual_bounds_km": [
+        26.27277,
+        18.620060000000002,
+        26.53,
+        18.88
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 25.11706247784197
+    },
+    {
+      "name": "醒钟广场",
+      "kind": "civic-square",
+      "design_plot_km2": 0.09930031954400784,
+      "actual_site_ground_km2": 0.09930028374999954,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "actual_center_km": [
+        28.7955387162316,
+        17.78532523351184
+      ],
+      "actual_bounds_km": [
+        28.62,
+        17.62,
+        28.97,
+        17.96
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 24.41024876066612
+    },
+    {
+      "name": "工运广场",
+      "kind": "civic-square",
+      "design_plot_km2": 0.08409999999999951,
+      "actual_site_ground_km2": 0.08409999999999951,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "actual_center_km": [
+        26.715,
+        12.395
+      ],
+      "actual_bounds_km": [
+        26.57,
+        12.25,
+        26.86,
+        12.54
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 0.0
+    },
+    {
+      "name": "开埠广场",
+      "kind": "civic-square",
+      "design_plot_km2": 0.08896173112847436,
+      "actual_site_ground_km2": 0.08896184999999986,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "actual_center_km": [
+        27.4066153592598,
+        26.485312752975947
+      ],
+      "actual_bounds_km": [
+        27.25125,
+        26.34,
+        27.56,
+        26.63
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": 0.0
+    },
+    {
+      "name": "云麓镇",
+      "kind": "town",
+      "design_plot_km2": 1.1312280000000008,
+      "actual_site_ground_km2": 1.1312280000000008,
+      "footprints": 303,
+      "roof_area_km2": 0.14180399999999993,
+      "actual_center_km": [
+        5.5,
+        20.999999999999996
+      ],
+      "actual_bounds_km": [
+        4.83,
+        20.5779,
+        6.17,
+        21.4221
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "窑湾村",
+      "kind": "town",
+      "design_plot_km2": 0.2580479999999991,
+      "actual_site_ground_km2": 0.2580479999999991,
+      "footprints": 29,
+      "roof_area_km2": 0.013571999999999227,
+      "actual_center_km": [
+        13.9,
+        32.0
+      ],
+      "actual_bounds_km": [
+        13.58,
+        31.7984,
+        14.22,
+        32.2016
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "莲花村",
+      "kind": "town",
+      "design_plot_km2": 0.308699999999999,
+      "actual_site_ground_km2": 0.30869999999999936,
+      "footprints": 48,
+      "roof_area_km2": 0.023266079999999485,
+      "actual_center_km": [
+        6.099999999999999,
+        10.6
+      ],
+      "actual_bounds_km": [
+        5.75,
+        10.3795,
+        6.45,
+        10.8205
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "北郊集镇",
+      "kind": "town",
+      "design_plot_km2": 0.6300000000000001,
+      "actual_site_ground_km2": 0.6300000000000001,
+      "footprints": 159,
+      "roof_area_km2": 0.07521408000000093,
+      "actual_center_km": [
+        36.1,
+        1.8000000000000003
+      ],
+      "actual_bounds_km": [
+        35.6,
+        1.485,
+        36.6,
+        2.115
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "东岭山前村",
+      "kind": "town",
+      "design_plot_km2": 0.403200000000001,
+      "actual_site_ground_km2": 0.4032063896000022,
+      "footprints": 88,
+      "roof_area_km2": 0.041985687449999275,
+      "actual_center_km": [
+        44.0,
+        16.1
+      ],
+      "actual_bounds_km": [
+        43.568819999999995,
+        15.794780000000001,
+        44.431180000000005,
+        16.40522
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "窑湾农场",
+      "kind": "town",
+      "design_plot_km2": 0.2268000000000006,
+      "actual_site_ground_km2": 0.22679999999999925,
+      "footprints": 17,
+      "roof_area_km2": 0.008758079999999705,
+      "actual_center_km": [
+        16.599999999999998,
+        32.9
+      ],
+      "actual_bounds_km": [
+        16.3,
+        32.711,
+        16.9,
+        33.089
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "机场社区",
+      "kind": "town",
+      "design_plot_km2": 0.3638879999999993,
+      "actual_site_ground_km2": 0.3638869431999997,
+      "footprints": 53,
+      "roof_area_km2": 0.025606132799999914,
+      "actual_center_km": [
+        6.449999999999999,
+        5.55
+      ],
+      "actual_bounds_km": [
+        6.04038,
+        5.26004,
+        6.85962,
+        5.83996
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "南郊农贸镇",
+      "kind": "town",
+      "design_plot_km2": 0.6814079999999928,
+      "actual_site_ground_km2": 0.6814080000000099,
+      "footprints": 121,
+      "roof_area_km2": 0.05743007999999786,
+      "actual_center_km": [
+        22.9,
+        34.25
+      ],
+      "actual_bounds_km": [
+        22.38,
+        33.922399999999996,
+        23.42,
+        34.577600000000004
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "东郊物流村",
+      "kind": "town",
+      "design_plot_km2": 0.5103000000000034,
+      "actual_site_ground_km2": 0.5102999999999993,
+      "footprints": 71,
+      "roof_area_km2": 0.03322800000000554,
+      "actual_center_km": [
+        43.099999999999994,
+        24.199999999999996
+      ],
+      "actual_bounds_km": [
+        42.65,
+        23.9165,
+        43.55,
+        24.4835
+      ],
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "龙散国际机场",
+      "kind": "airport",
+      "design_plot_km2": 8.610000000000003,
+      "actual_site_ground_km2": null,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "actual_center_km": null,
+      "actual_bounds_km": null,
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "集装箱作业区 1",
+      "kind": "port",
+      "design_plot_km2": 4.615800000000004,
+      "actual_site_ground_km2": null,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "actual_center_km": null,
+      "actual_bounds_km": null,
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    },
+    {
+      "name": "集装箱作业区 2",
+      "kind": "port",
+      "design_plot_km2": 1.9714271824931489,
+      "actual_site_ground_km2": null,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "actual_center_km": null,
+      "actual_bounds_km": null,
+      "site_ground_water_m2": 0.0,
+      "station_distance_m": null
+    }
+  ],
+  "institute_buildings": 15,
+  "old_city_identical_pattern_runs": [
+    {
+      "y_km": 26.4375,
+      "first_x_km": 35.850000000000016,
+      "blocks": 6,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2312,
+        2345,
+        2382,
+        2413,
+        2441,
+        1727
+      ]
+    },
+    {
+      "y_km": 22.1625,
+      "first_x_km": 33.050000000000004,
+      "blocks": 6,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1945,
+        1981,
+        2017,
+        2052,
+        2088,
+        2123
+      ]
+    },
+    {
+      "y_km": 23.7375,
+      "first_x_km": 33.050000000000004,
+      "blocks": 6,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1952,
+        1988,
+        2024,
+        2059,
+        2095,
+        2130
+      ]
+    },
+    {
+      "y_km": 23.2875,
+      "first_x_km": 35.01000000000001,
+      "blocks": 5,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2197,
+        2230,
+        2264,
+        2298,
+        2331
+      ]
+    },
+    {
+      "y_km": 27.3375,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1970,
+        2006,
+        2041,
+        2077
+      ]
+    },
+    {
+      "y_km": 25.0875,
+      "first_x_km": 32.21,
+      "blocks": 4,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1872,
+        1903,
+        1929,
+        1959
+      ]
+    },
+    {
+      "y_km": 22.8375,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        1948,
+        1984,
+        2020,
+        2055
+      ]
+    },
+    {
+      "y_km": 21.2625,
+      "first_x_km": 35.01000000000001,
+      "blocks": 4,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2188,
+        2221,
+        2255,
+        2288
+      ]
+    },
+    {
+      "y_km": 22.6125,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1947,
+        1983,
+        2019,
+        2054
+      ]
+    },
+    {
+      "y_km": 23.0625,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        1949,
+        1985,
+        2021,
+        2056
+      ]
+    },
+    {
+      "y_km": 23.9625,
+      "first_x_km": 32.21,
+      "blocks": 4,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1866,
+        1897,
+        1923,
+        1953
+      ]
+    },
+    {
+      "y_km": 23.9625,
+      "first_x_km": 36.69000000000002,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        2401,
+        2429,
+        2454,
+        2474
+      ]
+    },
+    {
+      "y_km": 24.1875,
+      "first_x_km": 32.21,
+      "blocks": 4,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1867,
+        1898,
+        1924,
+        1954
+      ]
+    },
+    {
+      "y_km": 24.6375,
+      "first_x_km": 36.69000000000002,
+      "blocks": 4,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2405,
+        2433,
+        2458,
+        2478
+      ]
+    },
+    {
+      "y_km": 25.3125,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        1960,
+        1996,
+        2032,
+        2067
+      ]
+    },
+    {
+      "y_km": 25.3125,
+      "first_x_km": 35.01000000000001,
+      "blocks": 4,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2206,
+        2241,
+        2275,
+        2307
+      ]
+    },
+    {
+      "y_km": 23.7375,
+      "first_x_km": 36.69000000000002,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        2400,
+        2428,
+        2453,
+        2473
+      ]
+    },
+    {
+      "y_km": 26.6625,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1967,
+        2003,
+        2038,
+        2074
+      ]
+    },
+    {
+      "y_km": 26.8875,
+      "first_x_km": 32.21,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        1881,
+        1912,
+        1938,
+        1968
+      ]
+    },
+    {
+      "y_km": 26.8875,
+      "first_x_km": 35.01000000000001,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        2213,
+        2248,
+        2282,
+        2315
+      ]
+    },
+    {
+      "y_km": 23.2875,
+      "first_x_km": 33.330000000000005,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        1986,
+        2022,
+        2057,
+        2093
+      ]
+    },
+    {
+      "y_km": 24.4125,
+      "first_x_km": 36.69000000000002,
+      "blocks": 4,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2404,
+        2432,
+        2457,
+        2477
+      ]
+    },
+    {
+      "y_km": 20.595,
+      "first_x_km": 34.73000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1771,
+        1770,
+        1769
+      ]
+    },
+    {
+      "y_km": 21.0375,
+      "first_x_km": 33.330000000000005,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1976,
+        2012,
+        2047
+      ]
+    },
+    {
+      "y_km": 21.0375,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2187,
+        2220,
+        2254
+      ]
+    },
+    {
+      "y_km": 27.5625,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2113,
+        2148,
+        2183
+      ]
+    },
+    {
+      "y_km": 27.5625,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2216,
+        2251,
+        2285
+      ]
+    },
+    {
+      "y_km": 27.5625,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2318,
+        2351,
+        1720
+      ]
+    },
+    {
+      "y_km": 28.0125,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1699,
+        1917,
+        1943
+      ]
+    },
+    {
+      "y_km": 27.7875,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2217,
+        2252,
+        2286
+      ]
+    },
+    {
+      "y_km": 27.3375,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1883,
+        1914,
+        1940
+      ]
+    },
+    {
+      "y_km": 27.3375,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2112,
+        2147,
+        2182
+      ]
+    },
+    {
+      "y_km": 26.4375,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1879,
+        1910,
+        1936
+      ]
+    },
+    {
+      "y_km": 26.2125,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1878,
+        1909,
+        1935
+      ]
+    },
+    {
+      "y_km": 26.2125,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2311,
+        2344,
+        2381
+      ]
+    },
+    {
+      "y_km": 25.9875,
+      "first_x_km": 33.050000000000004,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1963,
+        1999,
+        2035
+      ]
+    },
+    {
+      "y_km": 25.5375,
+      "first_x_km": 33.050000000000004,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1961,
+        1997,
+        2033
+      ]
+    },
+    {
+      "y_km": 25.5375,
+      "first_x_km": 36.69000000000002,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2409,
+        2437,
+        2462
+      ]
+    },
+    {
+      "y_km": 25.0875,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2205,
+        2240,
+        2274
+      ]
+    },
+    {
+      "y_km": 25.0875,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2306,
+        2339,
+        2376
+      ]
+    },
+    {
+      "y_km": 25.0875,
+      "first_x_km": 36.69000000000002,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2407,
+        2435,
+        2460
+      ]
+    },
+    {
+      "y_km": 22.8375,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2091,
+        2126,
+        2161
+      ]
+    },
+    {
+      "y_km": 22.8375,
+      "first_x_km": 37.53000000000002,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2469,
+        2486,
+        1749
+      ]
+    },
+    {
+      "y_km": 21.7125,
+      "first_x_km": 31.370000000000005,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1802,
+        1807,
+        1830
+      ]
+    },
+    {
+      "y_km": 21.7125,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2190,
+        2223,
+        2257
+      ]
+    },
+    {
+      "y_km": 21.4875,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2085,
+        2120,
+        2155
+      ]
+    },
+    {
+      "y_km": 21.2625,
+      "first_x_km": 33.330000000000005,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1977,
+        2013,
+        2048
+      ]
+    },
+    {
+      "y_km": 21.2625,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2084,
+        2119,
+        2154
+      ]
+    },
+    {
+      "y_km": 21.9375,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2087,
+        2122,
+        2157
+      ]
+    },
+    {
+      "y_km": 21.9375,
+      "first_x_km": 36.97000000000002,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2420,
+        2445,
+        2465
+      ]
+    },
+    {
+      "y_km": 22.6125,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2090,
+        2125,
+        2160
+      ]
+    },
+    {
+      "y_km": 22.6125,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2194,
+        2227,
+        2261
+      ]
+    },
+    {
+      "y_km": 23.0625,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2296,
+        2330,
+        2366
+      ]
+    },
+    {
+      "y_km": 23.9625,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2096,
+        2131,
+        2166
+      ]
+    },
+    {
+      "y_km": 23.9625,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2301,
+        2334,
+        2370
+      ]
+    },
+    {
+      "y_km": 24.1875,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2097,
+        2132,
+        2167
+      ]
+    },
+    {
+      "y_km": 24.6375,
+      "first_x_km": 33.330000000000005,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1993,
+        2029,
+        2064
+      ]
+    },
+    {
+      "y_km": 24.6375,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2099,
+        2134,
+        2169
+      ]
+    },
+    {
+      "y_km": 24.8625,
+      "first_x_km": 33.330000000000005,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1994,
+        2030,
+        2065
+      ]
+    },
+    {
+      "y_km": 24.8625,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2100,
+        2135,
+        2170
+      ]
+    },
+    {
+      "y_km": 24.8625,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2204,
+        2239,
+        2273
+      ]
+    },
+    {
+      "y_km": 25.3125,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1873,
+        1904,
+        1930
+      ]
+    },
+    {
+      "y_km": 25.3125,
+      "first_x_km": 36.69000000000002,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2408,
+        2436,
+        2461
+      ]
+    },
+    {
+      "y_km": 25.7625,
+      "first_x_km": 33.330000000000005,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1998,
+        2034,
+        2069
+      ]
+    },
+    {
+      "y_km": 25.7625,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2104,
+        2139,
+        2174
+      ]
+    },
+    {
+      "y_km": 23.7375,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1865,
+        1896,
+        1922
+      ]
+    },
+    {
+      "y_km": 23.7375,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2199,
+        2232,
+        2268
+      ]
+    },
+    {
+      "y_km": 23.7375,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2300,
+        2333,
+        2369
+      ]
+    },
+    {
+      "y_km": 26.6625,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1880,
+        1911,
+        1937
+      ]
+    },
+    {
+      "y_km": 26.8875,
+      "first_x_km": 33.330000000000005,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2004,
+        2039,
+        2075
+      ]
+    },
+    {
+      "y_km": 26.8875,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2110,
+        2145,
+        2180
+      ]
+    },
+    {
+      "y_km": 27.1125,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2111,
+        2146,
+        2181
+      ]
+    },
+    {
+      "y_km": 27.1125,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2316,
+        2349,
+        2386
+      ]
+    },
+    {
+      "y_km": 23.5125,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2299,
+        2332,
+        2368
+      ]
+    },
+    {
+      "y_km": 24.4125,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2303,
+        2336,
+        2373
+      ]
+    }
+  ],
+  "total_old_city_blocks": 868,
+  "old_city_unique_layout_signatures": 122,
+  "old_city_identical_roof_layout_runs": [
+    {
+      "center_y_km": 25.0875,
+      "first_x_km": 36.69000000000002,
+      "blocks": 3,
+      "ids": [
+        2407,
+        2435,
+        2460
+      ]
+    },
+    {
+      "center_y_km": 23.0625,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "ids": [
+        2296,
+        2330,
+        2366
+      ]
+    },
+    {
+      "center_y_km": 24.1875,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "ids": [
+        1867,
+        1898,
+        1924
+      ]
+    }
+  ],
+  "empty_residential_blocks_over_25000m2": [],
+  "rectangular_residential_blocks_with_less_than_two_roofs": [],
+  "generator_validation_read": false,
+  "audit_stage": "structural review; imagery and subsequent revisions assessed separately",
+  "inputs_after": {
+    "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-基础底图.svg": {
+      "sha256": "393229f3113829377e09cd614f70cb85b5e9343595f0dcd6e19457b243c0ce16",
+      "bytes": 24010365,
+      "mtime": 1791769810.8576934
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "394c7f93ff9a5959792112b32101fc763170f37e6d04aecc88c3db56d360e4e3",
+      "bytes": 24072592,
+      "mtime": 1791769810.932229
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\地图坐标与线路.json": {
+      "sha256": "ac6c4716c17dad3f4087e73caed33af40f6a6750eab102f589f50bea483c0deb",
+      "bytes": 137579,
+      "mtime": 1791769811.2375557
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\龙散市-基础底图.svg": {
+      "sha256": "a7a1fbafcfe0e0cd988d28b1b27e3c2893f8de9a49a78ed39af956c004b1ec89",
+      "bytes": 30366338,
+      "mtime": 1791771932.5379221
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "478b7ddccbcca04c555bf6f2f155ae70d7b9d1f784d279d9523f65b8cf0086d1",
+      "bytes": 30428571,
+      "mtime": 1791771932.724717
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\地图坐标与线路.json": {
+      "sha256": "36738dc28907c274a94f41abb3797ecef3e71bb6675929ea86dc5a2a95e67987",
+      "bytes": 153853,
+      "mtime": 1791771933.4607427
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\地理骨架.geojson": {
+      "sha256": "5526d3974202d53ca0c211b27893d38edb0cd0e441e290b62ef5ab25ba43bb7e",
+      "bytes": 1093521,
+      "mtime": 1791771933.6260316
+    },
+    "temp\\longsan-map-qa-v4\\fabric.pickle": {
+      "sha256": "e37dd193f784924e0bb711da17143e5d96af1391b3bb22fd8d12a57f793ab070",
+      "bytes": 20742365,
+      "mtime": 1791771882.424245
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\地理骨架.geojson": {
+      "sha256": "db6cd9922279008e6996fc9634fcd407a8ec08508b1e06dd7d1262c6741d55d4",
+      "bytes": 578552,
+      "mtime": 1791769811.2848785
+    },
+    "scripts\\generate_longsan_geographic_maps_v2.py": {
+      "sha256": "5129a5ba04625d4432aa594ec8874236f9ab20cadde34539b9552006ba0be2aa",
+      "bytes": 79384,
+      "mtime": 1791732304.222766
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-基础底图.svg": {
+      "sha256": "351934eeee2c00e3461135bf1879cb1261eb37ac619d239a14406f04dc7a3deb",
+      "bytes": 25964379,
+      "mtime": 1791731903.1857991
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-底图与地铁.svg": {
+      "sha256": "9b2baae3639b557495be820c44c3c7c95d855add3b222e8e2d7a0c3967bd9da8",
+      "bytes": 26026612,
+      "mtime": 1791731903.2562244
+    },
+    "campaign\\world\\15-城区与交通网络.md": {
+      "sha256": "f857bda308a893f598be4cd78390621f844f807780b5670fda824a811c07121c",
+      "bytes": 43431,
+      "mtime": 1778758510.119573
+    },
+    "assets\\maps\\RMG\\终稿.json": {
+      "sha256": "f5d2cf43a63b04542940580c0873d0900f38110f1b1f442505d1a395ab1f7ccd",
+      "bytes": 63749,
+      "mtime": 1778751228.1803095
+    },
+    "src\\地铁图.svg": {
+      "sha256": "41fa82d6cf408827f663b636ed056f39684d8cbb7c631b39f49878ed3a095cda",
+      "bytes": 132120,
+      "mtime": 1778758356.4046044
+    }
+  },
+  "inputs_unchanged_during_audit": true
+}

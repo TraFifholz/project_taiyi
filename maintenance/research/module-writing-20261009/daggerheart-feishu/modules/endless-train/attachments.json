@@ -1,0 +1,34 @@
+[
+  {
+    "token": "Hm6ab8xjooC5dSxrErScJtZRnWd",
+    "mimeType": "image/png",
+    "size": 267950,
+    "scale": 1,
+    "width": 886,
+    "height": 226,
+    "name": "image.png",
+    "crop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "rotation": 0,
+    "caption": {
+      "text": {
+        "apool": {
+          "nextNum": 0,
+          "numToAttrib": null
+        },
+        "initialAttributedTexts": {
+          "attribs": null,
+          "text": null
+        }
+      }
+    },
+    "kind": "image",
+    "block_id": "FgG9dkQByou1CrxyvybcfqNMnBh",
+    "source_doc": "M6fBdBOzYoQEtMx4s54ckeqZnhh",
+    "section": ""
+  }
+]

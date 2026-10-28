@@ -1,0 +1,107 @@
+{
+  "version": "v8",
+  "reviewer": "collapse_design_audit",
+  "input_sha256": {
+    "assets\\maps\\longsan-geographic-v8-20261012\\铁路.geojson": "2c7540fd4a02eed18b9f5e90c9bf9dbafeb94f84830092f6463685b2967e2530",
+    "assets\\maps\\longsan-geographic-v8-20261012\\地理骨架.geojson": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+    "assets\\maps\\longsan-geographic-v8-20261012\\灾后地理.geojson": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+    "assets\\maps\\longsan-geographic-v8-20261012\\组团通道.geojson": "00fef14480a0199bd5c3c3954a76b0ae06ccce04a941a71ebc8d675e8e96bf80",
+    "assets\\maps\\longsan-geographic-v8-20261012\\几何校验.json": "5b2156bbc62c0634cdd21db11057691bb1752790efe47991a442ce03a0a6ef86",
+    "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-基础底图.svg": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+    "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-底图与地铁.svg": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8港货农机下穿独审.py": "a9060b1068d5672735b09c378a70b35c52381317619029de58daa392ff87f2c4",
+    "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94",
+    "scripts\\longsan_collapse_v8.py": "dabff8828752f0ea3dafa2c7f9d86af18de0cf2dd0b2242ac81f8493160c4327",
+    "scripts\\generate_longsan_geographic_maps_v8.py": "c274221e3e88ef57dac50e3abe632b2c8f7472dc5a4431cf5ab28a1802833ff1",
+    "temp\\longsan-map-qa-v8\\fabric.pickle": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415"
+  },
+  "hard_gates": {
+    "crossing_is_actual_restored_freight_and_farm_track": true,
+    "classification_is_rail_over_road_not_port_gate": true,
+    "expected_deck_160m_of_actual_rail_centerline": true,
+    "actual_deck_21m_reservation_dry_and_outside_security": true,
+    "both_svgs_have_correct_deck_without_wrong_gate": true,
+    "inputs_stable": true
+  },
+  "unresolved_hard_errors": [],
+  "crossing_xy_km": [
+    40.1626701571128,
+    27.7609
+  ],
+  "actual_path_records": [
+    {
+      "type": "farm-track",
+      "name": "",
+      "width_km": 0.004
+    }
+  ],
+  "actual_classification": [
+    {
+      "path_index": 1654,
+      "path": "田间作业支路",
+      "path_type": "farm-track",
+      "rail": "望津港货运支线",
+      "rail_system": "freight",
+      "xy_km": [
+        40.1626701571128,
+        27.7609
+      ],
+      "grade": "rail-over-road",
+      "basis": "v8 restored port branch; actual rural crossing"
+    }
+  ],
+  "svg_readback": [
+    {
+      "file": "龙散市-基础底图.svg",
+      "sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "actual_decks": 1,
+      "gate_count_at_crossing": 0,
+      "rendered_deck_lengths_m": [
+        159.98726449314628
+      ],
+      "deck_reference_gaps_m": [
+        0.006471583211289993
+      ],
+      "draw_order": {
+        "farm": [
+          124672
+        ],
+        "deck": [
+          509964
+        ],
+        "rail": [
+          509967
+        ]
+      },
+      "errors": []
+    },
+    {
+      "file": "龙散市-底图与地铁.svg",
+      "sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+      "actual_decks": 1,
+      "gate_count_at_crossing": 0,
+      "rendered_deck_lengths_m": [
+        159.98726449314628
+      ],
+      "deck_reference_gaps_m": [
+        0.006471583211289993
+      ],
+      "draw_order": {
+        "farm": [
+          124672
+        ],
+        "deck": [
+          509964
+        ],
+        "rail": [
+          509967
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "The 160m deck is a map symbol approach range, not certified bridge span or engineered structure.",
+    "This audit certifies actual exported crossing geometry and drawing order; final PNG observation is separately recorded."
+  ]
+}

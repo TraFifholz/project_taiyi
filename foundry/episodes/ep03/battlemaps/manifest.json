@@ -1,0 +1,38 @@
+{
+  "set": "EP03 追风大劫案追车战斗地图",
+  "generatedDate": "2026-09-04",
+  "generator": "Codex built-in ImageGen",
+  "maps": [
+    {
+      "id": "parallel-elevated",
+      "file": "EP03-黄绿区并行高架-battlemap.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "C7B67C2714936A419273917FBB03027980435E61801AC5013E49B38EA448D1AA"
+    },
+    {
+      "id": "old-city-depot",
+      "file": "EP03-追风旧城维修场-battlemap.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "5E510AB9FBA40E27FC3A2DBB0FD2AEBE118086A5DC0FA71EC40F387BEF9B41B4"
+    },
+    {
+      "id": "two-level-freight-connector",
+      "file": "EP03-废物流双层联络道-battlemap.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "6429373A9D5FE2C6345B84FC673AB4E9DAABB397AE6D8E15AEF619817A9317B2"
+    }
+  ],
+  "foundry": {
+    "gridType": "gridless",
+    "padding": 0,
+    "optionalSquareGridPixels": 64,
+    "tokenRotation": "free"
+  },
+  "promptFile": "README.md"
+}

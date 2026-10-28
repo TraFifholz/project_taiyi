@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "generator": "NovelAI Diffusion V5 Curated",
+  "rawResolution": [
+    832,
+    1216
+  ],
+  "avatarResolution": [
+    512,
+    512
+  ],
+  "assets": [
+    {
+      "characterId": "EP03-EXTRA-CLEANER",
+      "name": "合规清理员",
+      "actorId": "3b235949f8822316",
+      "runId": "20260904-ep03-extra-cleaner-nai-v1",
+      "seed": 1823720714,
+      "rawSha256": "41ab90e1697e9134022dfeb497ef5bff86e86467e88fb73cc9df46f6aef08524",
+      "avatarSha256": "7ebd3eef7c1d841dc4edcfaeef20e68e7815bd7fd376e0b04f1b2eac7dd92a87",
+      "cropBox": [
+        160,
+        -16,
+        672,
+        496
+      ],
+      "visualQa": "passed"
+    },
+    {
+      "characterId": "EP03-EXTRA-QINGSHAO",
+      "name": "青梢队成员",
+      "actorId": "edf233155b4144b1",
+      "runId": "20260904-ep03-extra-qingshao-nai-v1",
+      "seed": 520242908,
+      "rawSha256": "e2b32409f3c5e8c14335391e815b0c712b3c9d95c1954346d96744548bcf4e6f",
+      "avatarSha256": "d444e90027fda12e1a05249e66f696df655e000a8b1c15b2fb42661084b926dc",
+      "cropBox": [
+        160,
+        -16,
+        672,
+        496
+      ],
+      "visualQa": "passed"
+    },
+    {
+      "characterId": "EP03-EXTRA-MA-DRIVER",
+      "name": "冷藏车司机",
+      "actorId": "58225f08c387421e",
+      "runId": "20260904-ep03-extra-ma-driver-nai-v1",
+      "seed": 79331627,
+      "rawSha256": "f01dd1e81e1f8a9c002207ee75bc0215d6dd8781b9a8964736e670a04632e9a8",
+      "avatarSha256": "139d91659bcbe32b334d3762954ea9ae00f812ebd1627dcae6bae5f2341c97ec",
+      "cropBox": [
+        160,
+        -16,
+        672,
+        496
+      ],
+      "visualQa": "passed"
+    },
+    {
+      "characterId": "EP03-EXTRA-AUDITOR",
+      "name": "M-3 随车审计员",
+      "actorId": "c97aece17d9be1cc",
+      "runId": "20260904-ep03-extra-auditor-nai-v1",
+      "seed": 23599951,
+      "rawSha256": "11d8205d6dd92629bb57f12b291ba3fdcabee019935b17c6fce5c1b2bfbb41eb",
+      "avatarSha256": "b1db01fda833efb74d6f6cd826bff51e7e9cbdbd224cd7a18c677495c29af898",
+      "cropBox": [
+        160,
+        -16,
+        672,
+        496
+      ],
+      "visualQa": "passed"
+    },
+    {
+      "characterId": "EP03-EXTRA-DRONE",
+      "name": "追风警戒无人机",
+      "actorId": "f4202ab0f6698a33",
+      "runId": "20260904-ep03-extra-drone-nai-v2",
+      "seed": 2109974772,
+      "rawSha256": "4ebbb4067e5630d8a94e8380dd627ecf849c9c24a86e1a685f8401d82fece6d5",
+      "avatarSha256": "5201697595db05fe0321ff9d6655657ee6b6b19dc5d12a997b5f783ce3d9d32d",
+      "cropBox": [
+        0,
+        0,
+        832,
+        832
+      ],
+      "visualQa": "passed"
+    }
+  ],
+  "preview": "assets/candidates/EP03-五类支援NPC-NAI预览.jpg"
+}

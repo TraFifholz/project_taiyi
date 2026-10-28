@@ -1,0 +1,224 @@
+{
+  "passed": true,
+  "method": "Native _handleComplexSkill plus SWADE RollDialog complete-formula assembly; native weapon.rollDamage suppressChat",
+  "tests": 24,
+  "skillTests": 19,
+  "weaponTests": 5,
+  "noChatOrCombatCreated": true,
+  "reports": [
+    {
+      "actor": "马铁鹰",
+      "kind": "skill",
+      "name": "运动",
+      "modifiers": [],
+      "formula": "{1d8x[运动],1dw6}kh",
+      "total": 14
+    },
+    {
+      "actor": "马铁鹰",
+      "kind": "skill",
+      "name": "格斗",
+      "modifiers": [],
+      "formula": "{1d10x[格斗],1dw6}kh",
+      "total": 5
+    },
+    {
+      "actor": "马铁鹰",
+      "kind": "skill",
+      "name": "射击",
+      "modifiers": [],
+      "formula": "{1d6x[射击],1dw6}kh",
+      "total": 5
+    },
+    {
+      "actor": "马铁鹰",
+      "kind": "skill",
+      "name": "察觉",
+      "modifiers": [],
+      "formula": "{1d4x[察觉],1dw6}kh",
+      "total": 4
+    },
+    {
+      "actor": "马铁鹰",
+      "kind": "skill",
+      "name": "威吓",
+      "modifiers": [],
+      "formula": "{1d6x[威吓],1dw6}kh",
+      "total": 23
+    },
+    {
+      "actor": "马铁鹰",
+      "kind": "skill",
+      "name": "交涉",
+      "modifiers": [],
+      "formula": "{1d4x[交涉],1dw6}kh",
+      "total": 6
+    },
+    {
+      "actor": "马铁鹰",
+      "kind": "skill",
+      "name": "驾驶",
+      "modifiers": [],
+      "formula": "{1d6x[驾驶],1dw6}kh",
+      "total": 4
+    },
+    {
+      "actor": "马铁鹰",
+      "kind": "skill",
+      "name": "潜行",
+      "modifiers": [],
+      "formula": "{1d4x[潜行],1dw6}kh",
+      "total": 5
+    },
+    {
+      "actor": "马铁鹰",
+      "kind": "skill",
+      "name": "通用知识",
+      "modifiers": [],
+      "formula": "{1d4x[通用知识],1dw6}kh",
+      "total": 4
+    },
+    {
+      "actor": "马铁鹰",
+      "kind": "weapon",
+      "name": "重型手枪",
+      "weaponModifiers": [],
+      "attack": "{1d6x[射击],1dw6}kh",
+      "damage": "2d6x[基础伤害] + 1",
+      "attackTotal": 4,
+      "damageTotal": 6
+    },
+    {
+      "actor": "马铁鹰",
+      "kind": "weapon",
+      "name": "短柄破拆锤",
+      "weaponModifiers": [],
+      "attack": "{1d10x[格斗],1dw6}kh",
+      "damage": "1d12x[力量] + 1d6x[基础伤害] + 2d6x[基础伤害]",
+      "attackTotal": 3,
+      "damageTotal": 24
+    },
+    {
+      "actor": "马铁鹰",
+      "kind": "weapon",
+      "name": "拳脚 · 破门重拳",
+      "weaponModifiers": [
+        {
+          "label": "拳脚 · 破门重拳 特性调整值",
+          "value": "+1"
+        }
+      ],
+      "attack": "{1d10x[格斗],1dw6}kh + 1[拳脚 · 破门重拳 特性调整值]",
+      "damage": "1d12x[力量] + 1d6x[基础伤害] + 2d6x[基础伤害]",
+      "attackTotal": 9,
+      "damageTotal": 45
+    },
+    {
+      "actor": "夏满弓",
+      "kind": "skill",
+      "name": "运动",
+      "modifiers": [],
+      "formula": "{1d6x[运动],1dw6}kh",
+      "total": 4
+    },
+    {
+      "actor": "夏满弓",
+      "kind": "skill",
+      "name": "格斗",
+      "modifiers": [],
+      "formula": "{1d8x[格斗],1dw6}kh",
+      "total": 13
+    },
+    {
+      "actor": "夏满弓",
+      "kind": "skill",
+      "name": "射击",
+      "modifiers": [],
+      "formula": "{1d6x[射击],1dw6}kh",
+      "total": 5
+    },
+    {
+      "actor": "夏满弓",
+      "kind": "skill",
+      "name": "察觉",
+      "modifiers": [
+        {
+          "label": "警觉",
+          "value": 2,
+          "effectID": "9ce1a9436ae8b055",
+          "ignore": false
+        }
+      ],
+      "formula": "{1d8x[察觉],1dw6}kh + 2[警觉]",
+      "total": 8
+    },
+    {
+      "actor": "夏满弓",
+      "kind": "skill",
+      "name": "驾驶",
+      "modifiers": [],
+      "formula": "{1d6x[驾驶],1dw6}kh",
+      "total": 2
+    },
+    {
+      "actor": "夏满弓",
+      "kind": "skill",
+      "name": "交涉",
+      "modifiers": [],
+      "formula": "{1d6x[交涉],1dw6}kh",
+      "total": 4
+    },
+    {
+      "actor": "夏满弓",
+      "kind": "skill",
+      "name": "修理",
+      "modifiers": [],
+      "formula": "{1d4x[修理],1dw6}kh",
+      "total": 7
+    },
+    {
+      "actor": "夏满弓",
+      "kind": "skill",
+      "name": "潜行",
+      "modifiers": [],
+      "formula": "{1d6x[潜行],1dw6}kh",
+      "total": 10
+    },
+    {
+      "actor": "夏满弓",
+      "kind": "skill",
+      "name": "通用知识",
+      "modifiers": [],
+      "formula": "{1d6x[通用知识],1dw6}kh",
+      "total": 5
+    },
+    {
+      "actor": "夏满弓",
+      "kind": "skill",
+      "name": "集中",
+      "modifiers": [],
+      "formula": "{1d6x[集中],1dw6}kh",
+      "total": 15
+    },
+    {
+      "actor": "夏满弓",
+      "kind": "weapon",
+      "name": "手枪",
+      "weaponModifiers": [],
+      "attack": "{1d6x[射击],1dw6}kh",
+      "damage": "2d6x[基础伤害]",
+      "attackTotal": 4,
+      "damageTotal": 8
+    },
+    {
+      "actor": "夏满弓",
+      "kind": "weapon",
+      "name": "电击棍 · 贴身截击",
+      "weaponModifiers": [],
+      "attack": "{1d8x[格斗],1dw6}kh",
+      "damage": "1d6x[力量] + 1d4x[基础伤害] + 2d6x[基础伤害]",
+      "attackTotal": 4,
+      "damageTotal": 20
+    }
+  ]
+}

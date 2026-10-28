@@ -1,0 +1,798 @@
+{
+  "checkedAt": "2026-09-03T03:21:43.072Z",
+  "world": {
+    "id": "taiyi",
+    "title": "TAIYI",
+    "system": "swade",
+    "systemVersion": "6.0.3"
+  },
+  "modules": [
+    {
+      "id": "calendaria",
+      "version": "1.4.0",
+      "active": true
+    },
+    {
+      "id": "glitchsmith-lib",
+      "version": "0.13.0",
+      "active": true
+    },
+    {
+      "id": "smartphone-browser-app",
+      "version": "1.0.3",
+      "active": true
+    },
+    {
+      "id": "smartphone-chirp-app",
+      "version": "1.1.1",
+      "active": true
+    },
+    {
+      "id": "smartphone-id-card",
+      "version": "1.1.4",
+      "active": true
+    },
+    {
+      "id": "smartphone-macro-app",
+      "version": "1.0.2",
+      "active": true
+    },
+    {
+      "id": "smartphone-shop-app",
+      "version": "1.0.0",
+      "active": true
+    },
+    {
+      "id": "smartphone-taxi-app",
+      "version": "1.1.1",
+      "active": true
+    },
+    {
+      "id": "smartphone-widget",
+      "version": "2.3.4",
+      "active": true
+    },
+    {
+      "id": "smartphone-widget-scanner",
+      "version": "1.1.0",
+      "active": true
+    }
+  ],
+  "phoneSchema": [
+    "id",
+    "ownerId",
+    "phoneNumber",
+    "contacts",
+    "activatedAt"
+  ],
+  "phones": [
+    {
+      "id": "phone-FjG1e1e6WBEDL0Tz",
+      "ownerId": "ELxrslbsSHQg0cmK",
+      "owner": "唐索",
+      "apps": [
+        "dice",
+        "weather",
+        "wallet",
+        "taxiapp",
+        "checkers",
+        "chirp"
+      ],
+      "chirpLogin": "chirp_JUuLp3yRrteO5A6W",
+      "keys": [
+        "id",
+        "ownerId",
+        "phoneNumber",
+        "contacts",
+        "activatedAt"
+      ]
+    },
+    {
+      "id": "phone-HIwaRsuDjeEg7paI",
+      "ownerId": "nJxWvLzZvBNXObjk",
+      "owner": "阿尔坎·希耶尔",
+      "apps": [
+        "social",
+        "wallet",
+        "dice",
+        "taxiapp",
+        "weather",
+        "glitchscanner",
+        "checkers",
+        "chirp",
+        "dataarchive"
+      ],
+      "chirpLogin": "chirp_ZOAPq8ZH8wmiAfFP",
+      "keys": [
+        "id",
+        "ownerId",
+        "phoneNumber",
+        "contacts",
+        "activatedAt",
+        "idCards"
+      ]
+    },
+    {
+      "id": "phone-5AKPx6hqwzLRq1Ng",
+      "ownerId": "zmeMlq5pVbbqr1rA",
+      "owner": "黑崎欲子",
+      "apps": [
+        "weather",
+        "taxiapp",
+        "glitchscanner",
+        "wallet",
+        "dice",
+        "chirp"
+      ],
+      "chirpLogin": "chirp_8XW8B3u7w9hhnx3K",
+      "keys": [
+        "id",
+        "ownerId",
+        "phoneNumber",
+        "contacts",
+        "activatedAt"
+      ]
+    },
+    {
+      "id": "phone-fID62VKgvuuMa60m",
+      "ownerId": "vhpt4XZxZn59dWX5",
+      "owner": "凯芙拉·威尔森",
+      "apps": [
+        "minefinder",
+        "social",
+        "checkers",
+        "gacha",
+        "wallet",
+        "dice",
+        "weather",
+        "dataarchive",
+        "glitchscanner",
+        "chirp",
+        "calculator",
+        "taxiapp"
+      ],
+      "chirpLogin": "chirp_6cIzLfynuwPqk6Kb",
+      "keys": [
+        "id",
+        "ownerId",
+        "phoneNumber",
+        "contacts",
+        "activatedAt"
+      ]
+    },
+    {
+      "id": "phone-L5sOZt8WqOn199d1",
+      "ownerId": "j3f9G2P4vDSmmxZw",
+      "owner": "雷武龙",
+      "apps": [
+        "chirp"
+      ],
+      "keys": [
+        "id",
+        "ownerId",
+        "phoneNumber",
+        "contacts",
+        "activatedAt"
+      ]
+    },
+    {
+      "id": "phone-bi1Qw0xi2F5vo5Yn",
+      "ownerId": "dVY3kCrHc0WYyKEa",
+      "owner": "李好",
+      "apps": [
+        "wallet",
+        "dice",
+        "weather",
+        "taxiapp",
+        "glitchscanner",
+        "dataarchive",
+        "chirp"
+      ],
+      "chirpLogin": "chirp_ZWxySPxSvCLSqjzp",
+      "keys": [
+        "id",
+        "ownerId",
+        "phoneNumber",
+        "contacts",
+        "activatedAt"
+      ]
+    },
+    {
+      "id": "phone-mvX1WjDXT4YrO5fk",
+      "ownerId": "gadGwYGyXgzgEfpp",
+      "owner": "沈漫",
+      "apps": [
+        "chirp"
+      ],
+      "chirpLogin": "chirp_FktQ7TOGSEmeoSir",
+      "keys": [
+        "id",
+        "ownerId",
+        "phoneNumber",
+        "contacts",
+        "activatedAt"
+      ]
+    },
+    {
+      "id": "phone-izgwDk1FQeQN7aoq",
+      "ownerId": "a1z7lVrqv6W7wDFI",
+      "owner": "朱瑶光",
+      "keys": [
+        "id",
+        "ownerId",
+        "phoneNumber",
+        "contacts",
+        "activatedAt"
+      ]
+    }
+  ],
+  "defaults": [
+    "appstore",
+    "banking",
+    "calendar",
+    "contacts",
+    "gallery",
+    "idcard",
+    "macros",
+    "messages",
+    "notes",
+    "phone",
+    "settings"
+  ],
+  "storeApps": [
+    "calculator",
+    "checkers",
+    "chirp",
+    "dataarchive",
+    "dice",
+    "gacha",
+    "minefinder",
+    "glitchscanner",
+    "taxiapp",
+    "wallet",
+    "weather"
+  ],
+  "browser": {
+    "journalName": "browserapp",
+    "journals": []
+  },
+  "taxiDestinations": [
+    {
+      "id": "WXX7HUcbNoTCM4Yn",
+      "name": "随缘事务所"
+    },
+    {
+      "id": "fxshJuHmYwE3EBbr",
+      "name": "龙散市"
+    }
+  ],
+  "chirp": {
+    "accounts": [
+      {
+        "id": "chirp_TgsUOnhnjdvtzW0h",
+        "name": "炎羽时区",
+        "handle": "炎羽时区",
+        "postCount": 1
+      },
+      {
+        "id": "chirp_FktQ7TOGSEmeoSir",
+        "name": "地表最强武术家",
+        "handle": "红玉",
+        "postCount": 4
+      },
+      {
+        "id": "chirp_JUuLp3yRrteO5A6W",
+        "name": "唐索",
+        "handle": "udd",
+        "owner": "唐索",
+        "postCount": 6
+      },
+      {
+        "id": "chirp_6cIzLfynuwPqk6Kb",
+        "name": "武士萌萌香",
+        "handle": "SamuraiMomoka",
+        "owner": "凯芙拉·威尔森",
+        "postCount": 5
+      },
+      {
+        "id": "chirp_8XW8B3u7w9hhnx3K",
+        "name": "迪斯波琉卡",
+        "handle": "黑崎",
+        "owner": "黑崎欲子",
+        "postCount": 2
+      },
+      {
+        "id": "chirp_ZWxySPxSvCLSqjzp",
+        "name": "李好",
+        "handle": "引资银行李好",
+        "owner": "李好",
+        "postCount": 3
+      },
+      {
+        "id": "chirp_ZOAPq8ZH8wmiAfFP",
+        "name": "苍系美少女",
+        "handle": "维涅斯",
+        "owner": "阿尔坎·希耶尔",
+        "postCount": 3
+      },
+      {
+        "id": "taiyi_s4_huangqu_digest",
+        "name": "黄区一日三报",
+        "handle": "huangqu_digest",
+        "postCount": 8
+      },
+      {
+        "id": "taiyi_s4_oldwang_noodle",
+        "name": "老王头面馆",
+        "handle": "oldwang_noodle",
+        "postCount": 18
+      },
+      {
+        "id": "taiyi_s4_longteng_service",
+        "name": "龙腾轨道客服",
+        "handle": "longteng_service",
+        "postCount": 2
+      },
+      {
+        "id": "taiyi_s4_chasingwind_city",
+        "name": "追风出行龙散",
+        "handle": "chasingwind_city",
+        "postCount": 5
+      },
+      {
+        "id": "taiyi_s4_wiegand_plaza",
+        "name": "威格广场",
+        "handle": "wiegand_plaza",
+        "postCount": 2
+      },
+      {
+        "id": "taiyi_s4_suiming_official",
+        "name": "燧明科技",
+        "handle": "suiming_official",
+        "postCount": 0
+      },
+      {
+        "id": "taiyi_s4_streetfix_jiahong",
+        "name": "贾红修理站",
+        "handle": "streetfix_jiahong",
+        "postCount": 5
+      },
+      {
+        "id": "taiyi_s4_gucheng_xiaojiu",
+        "name": "故城小酒馆",
+        "handle": "gucheng_xiaojiu",
+        "postCount": 4
+      },
+      {
+        "id": "taiyi_s4_linggong_ahua",
+        "name": "临工阿花",
+        "handle": "linggong_ahua",
+        "postCount": 9
+      },
+      {
+        "id": "taiyi_s4_gongdi_yeshou",
+        "name": "工地野手",
+        "handle": "gongdi_yeshou",
+        "postCount": 4
+      },
+      {
+        "id": "taiyi_s4_gulang_yu",
+        "name": "孤浪鱼",
+        "handle": "gulang_yu",
+        "postCount": 13
+      },
+      {
+        "id": "taiyi_s4_ershou_tangshi",
+        "name": "二手唐士",
+        "handle": "ershou_tangshi",
+        "postCount": 6
+      },
+      {
+        "id": "taiyi_s4_yaoren_kejin",
+        "name": "妖刃戒断中心",
+        "handle": "yaoren_kejin",
+        "postCount": 13
+      }
+    ],
+    "postCount": 113,
+    "s4PostCount": 89,
+    "hiddenCount": 0,
+    "futureComparedWithMay11": 65,
+    "futureComparedWithWorldTime": 68,
+    "postSamples": [
+      {
+        "id": "chirp_kpRou9M1EvNE3cqZ",
+        "author": "武士萌萌香",
+        "time": "2030-05-25T08:38:50.000Z",
+        "content": "何意味"
+      },
+      {
+        "id": "chirp_PcPw4UXkvRJ4CQWU",
+        "author": "武士萌萌香",
+        "time": "2030-05-25T08:41:50.000Z",
+        "content": "@所有人 有没有人认识龙散大学那个天天把《九域》挂嘴边但是根本没在玩只会天天练功的老哥？"
+      },
+      {
+        "id": "chirp_kRS65VnUb4EHllau",
+        "author": "苍系美少女",
+        "time": "2030-05-25T11:17:21.000Z",
+        "content": "想吃猪排饭。。"
+      },
+      {
+        "id": "chirp_rBAeivV4cmQ91kNk",
+        "author": "李好",
+        "time": "2030-05-25T11:18:36.000Z",
+        "content": "周六也是打拼的路上！\n代发工资/闪电贷业务有需求请联系我哦"
+      },
+      {
+        "id": "chirp_7bDIEjPVLHANU5tc",
+        "author": "苍系美少女",
+        "time": "2030-05-25T11:18:36.000Z",
+        "content": "好忙的一天。。好想吃大果"
+      },
+      {
+        "id": "chirp_10CqRX1yYmDTIYK7",
+        "author": "武士萌萌香",
+        "time": "2030-05-25T11:18:36.000Z",
+        "content": "薯上阿姨那家？红薯还怪好吃的。"
+      }
+    ],
+    "dmCount": 8,
+    "malformedDMKeys": [
+      "taiyi_s4_dm_1_全员群",
+      "taiyi_s4_dm_2_全员群",
+      "taiyi_s4_dm_3_李好",
+      "taiyi_s4_dm_4_阿尔坎",
+      "taiyi_s4_dm_5_凯芙拉",
+      "taiyi_s4_dm_6_欲子",
+      "taiyi_s4_dm_7_唐索",
+      "taiyi_s4_dm_8_雷武龙"
+    ],
+    "trends": [
+      "龙散市要闻",
+      "港口塌陷事故",
+      "#黄区安保费",
+      "#追风狗",
+      "#红薯终端",
+      "#码头封锁",
+      "#流水风声",
+      "#老王头面馆",
+      "#520余温",
+      "#数据安全周",
+      "#故城停电",
+      "#铁山夜记",
+      "#临工日记",
+      "#码头动静",
+      "#ETC笑话",
+      "#故城怪谈",
+      "#妖刃沉船日记",
+      "#楚风受害者"
+    ]
+  },
+  "bankAccounts": [
+    {
+      "owner": "黑崎欲子",
+      "shape": "array",
+      "accountCount": 1,
+      "sample": [
+        {
+          "bankId": "bank-N6UOreXVsTWGNuve",
+          "currencyKeys": [
+            "currency"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "凯芙拉·威尔森",
+      "shape": "array",
+      "accountCount": 1,
+      "sample": [
+        {
+          "bankId": "bank-N6UOreXVsTWGNuve",
+          "currencyKeys": [
+            "元",
+            "currency"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "李好",
+      "shape": "array",
+      "accountCount": 1,
+      "sample": [
+        {
+          "bankId": "bank-N6UOreXVsTWGNuve",
+          "currencyKeys": [
+            "currency"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "唐索",
+      "shape": "array",
+      "accountCount": 2,
+      "sample": [
+        {
+          "bankId": "bank-N6UOreXVsTWGNuve",
+          "currencyKeys": [
+            "currency"
+          ]
+        },
+        {
+          "bankId": "bank-N6UOreXVsTWGNuve",
+          "currencyKeys": []
+        }
+      ]
+    },
+    {
+      "owner": "沈漫",
+      "shape": "array",
+      "accountCount": 1,
+      "sample": [
+        {
+          "bankId": "bank-N6UOreXVsTWGNuve",
+          "currencyKeys": [
+            "currency"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "阿尔坎·希耶尔",
+      "shape": "array",
+      "accountCount": 1,
+      "sample": [
+        {
+          "bankId": "bank-N6UOreXVsTWGNuve",
+          "currencyKeys": [
+            "currency"
+          ]
+        }
+      ]
+    }
+  ],
+  "bankDefinitions": [
+    {
+      "name": "引资银行"
+    }
+  ],
+  "currency": {
+    "base": "元",
+    "currencies": {
+      "元": {
+        "name": "人民币",
+        "rate": 1,
+        "symbol": "rmb",
+        "type": "sheet",
+        "actorPath": "system.details.currency"
+      },
+      "刀": {
+        "name": "电子货币",
+        "rate": 1,
+        "symbol": "ustd",
+        "type": "virtual",
+        "actorPath": ""
+      }
+    }
+  },
+  "time": {
+    "source": "calendaria",
+    "worldTime": 1904509738,
+    "unixInterpretation": "2030-05-08T22:28:58.000Z",
+    "phoneConfig": {
+      "secondsInMinute": 60,
+      "minutesInHour": 60,
+      "hoursInDay": 24,
+      "weekdays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "months": [
+        {
+          "name": "January",
+          "days": 31,
+          "isLeap": false,
+          "leapOffset": 0
+        },
+        {
+          "name": "February",
+          "days": 28,
+          "isLeap": true,
+          "leapOffset": 1
+        },
+        {
+          "name": "March",
+          "days": 31,
+          "isLeap": false,
+          "leapOffset": 0
+        },
+        {
+          "name": "April",
+          "days": 30,
+          "isLeap": false,
+          "leapOffset": 0
+        },
+        {
+          "name": "May",
+          "days": 31,
+          "isLeap": false,
+          "leapOffset": 0
+        },
+        {
+          "name": "June",
+          "days": 30,
+          "isLeap": false,
+          "leapOffset": 0
+        },
+        {
+          "name": "July",
+          "days": 31,
+          "isLeap": false,
+          "leapOffset": 0
+        },
+        {
+          "name": "August",
+          "days": 31,
+          "isLeap": false,
+          "leapOffset": 0
+        },
+        {
+          "name": "September",
+          "days": 30,
+          "isLeap": false,
+          "leapOffset": 0
+        },
+        {
+          "name": "October",
+          "days": 31,
+          "isLeap": false,
+          "leapOffset": 0
+        },
+        {
+          "name": "November",
+          "days": 30,
+          "isLeap": false,
+          "leapOffset": 0
+        },
+        {
+          "name": "December",
+          "days": 31,
+          "isLeap": false,
+          "leapOffset": 0
+        }
+      ],
+      "year": 0,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0,
+      "leapYearRule": {
+        "frequency": 4,
+        "exception": 100,
+        "proleptic": 400
+      },
+      "timeShortcuts": {
+        "morning": "08:00",
+        "midday": "12:00",
+        "evening": "18:00",
+        "midnight": "00:00"
+      },
+      "lightingFX": {
+        "enabled": true,
+        "animate": true,
+        "configs": {
+          "dawn": {
+            "start": "06:00",
+            "darkness": 0.75,
+            "daylightColor": "#a56633",
+            "daylight": {
+              "intensity": 0.3,
+              "luminosity": -0.25,
+              "saturation": 1,
+              "shadows": 0
+            },
+            "darknessColor": "#0d1a2e",
+            "darknessEffect": {
+              "intensity": 0.5,
+              "luminosity": -0.5,
+              "saturation": 0,
+              "shadows": 0.5
+            }
+          },
+          "day": {
+            "start": "08:00",
+            "darkness": 0,
+            "daylightColor": "#ffffff",
+            "daylight": {
+              "intensity": 0.5,
+              "luminosity": 0,
+              "saturation": 1,
+              "shadows": 0
+            },
+            "darknessColor": "#0d1a2e",
+            "darknessEffect": {
+              "intensity": 0.5,
+              "luminosity": -0.5,
+              "saturation": 0,
+              "shadows": 0.5
+            }
+          },
+          "dusk": {
+            "start": "18:00",
+            "darkness": 0.75,
+            "daylightColor": "#ff7b25",
+            "daylight": {
+              "intensity": 0.3,
+              "luminosity": -0.25,
+              "saturation": 1,
+              "shadows": 0
+            },
+            "darknessColor": "#0d1a2e",
+            "darknessEffect": {
+              "intensity": 0.5,
+              "luminosity": -0.5,
+              "saturation": 0,
+              "shadows": 0.5
+            }
+          },
+          "night": {
+            "start": "20:00",
+            "darkness": 1,
+            "daylightColor": "#ffffff",
+            "daylight": {
+              "intensity": 0.5,
+              "luminosity": 0,
+              "saturation": 1,
+              "shadows": 0
+            },
+            "darknessColor": "#0d1a2e",
+            "darknessEffect": {
+              "intensity": 0.5,
+              "luminosity": -0.5,
+              "saturation": 0,
+              "shadows": 0.5
+            }
+          }
+        }
+      }
+    }
+  },
+  "scannerKeys": [],
+  "shopKeys": [],
+  "messageThreads": [
+    {
+      "group": true,
+      "count": 132
+    },
+    {
+      "group": false,
+      "count": 8
+    }
+  ],
+  "groupChats": [
+    {
+      "name": "相亲相爱事务所",
+      "memberCount": 7
+    },
+    {
+      "name": "相亲相爱事务所",
+      "memberCount": 8
+    }
+  ],
+  "batteryEnabled": false,
+  "actorPhoneFlagSchema": [
+    {
+      "name": "唐索",
+      "keys": []
+    }
+  ]
+}

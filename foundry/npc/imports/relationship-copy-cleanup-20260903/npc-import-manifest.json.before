@@ -1,0 +1,5264 @@
+{
+  "schemaVersion": 1,
+  "worldId": "taiyi",
+  "systemId": "swade",
+  "status": "imported-verified",
+  "actors": [
+    {
+      "id": "LS-NPC-001",
+      "canonicalName": "陆文青",
+      "displayName": "陆文青",
+      "aliases": [
+        "陆文青"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "重黎工业；义体销售",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-001-陆文青-20260829-ls-npc-001-refresh-v3.png",
+      "approvedSha256": "fefac02707338e81238adff20bcef0b83bbbf11a111e911866eecbfe94dc9be4",
+      "approvedRun": "20260829-ls-npc-001-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-001.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-001.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-001.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "57BoaQ7gjSSojsma",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 20,
+        "anchor": "\"id\": \"LS-NPC-001\""
+      },
+      "actorUuid": "Actor.57BoaQ7gjSSojsma",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-001.webp"
+    },
+    {
+      "id": "LS-NPC-002",
+      "canonicalName": "万祁连",
+      "displayName": "万祁连",
+      "aliases": [
+        "万祁连"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "重黎工业；泥人计划文档管理员",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-002-万祁连-20260829-ls-npc-002-v2.png",
+      "approvedSha256": "b6017ae424b15d35f83a51560650e178cee87cb16f097328d6d503e85e567a1a",
+      "approvedRun": "20260829-ls-npc-002-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-002.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-002.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-002.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "uNlczFawsmnxeae6",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 42,
+        "anchor": "\"id\": \"LS-NPC-002\""
+      },
+      "actorUuid": "Actor.uNlczFawsmnxeae6",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-002.webp"
+    },
+    {
+      "id": "LS-NPC-003",
+      "canonicalName": "苗铁城",
+      "displayName": "苗铁城",
+      "aliases": [
+        "苗铁城"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "重黎工业；夜班维护组长",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-003-苗铁城-20260829-ls-npc-003-refresh-v3.png",
+      "approvedSha256": "6b2953628ba334165e26defcfa98161beed1d84ac91bdf6cdb259df93b032c09",
+      "approvedRun": "20260829-ls-npc-003-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-003.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-003.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-003.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "bnH2ArnAUr584IMt",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 64,
+        "anchor": "\"id\": \"LS-NPC-003\""
+      },
+      "actorUuid": "Actor.bnH2ArnAUr584IMt",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-003.webp"
+    },
+    {
+      "id": "LS-NPC-004",
+      "canonicalName": "党怀沙",
+      "displayName": "党怀沙",
+      "aliases": [
+        "党怀沙"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "重黎工业焰卫；泥人计划外勤",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-004-党怀沙-20260829-ls-npc-004-refresh-v2.png",
+      "approvedSha256": "583f88bda42248255216e1beaf43efff5eb05ca214b56c6a105433fecefa8d98",
+      "approvedRun": "20260829-ls-npc-004-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-004.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-004.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-004.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "ACloRaZSkKutukPP",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 86,
+        "anchor": "\"id\": \"LS-NPC-004\""
+      },
+      "actorUuid": "Actor.ACloRaZSkKutukPP",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-004.webp"
+    },
+    {
+      "id": "LS-NPC-005",
+      "canonicalName": "燕尺素",
+      "displayName": "燕尺素",
+      "aliases": [
+        "燕尺素"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "重黎工业；心理建模师",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-005-燕尺素-20260829-ls-npc-005-refresh-v3.png",
+      "approvedSha256": "773a240b04ad48f634e41e78c50fef6c8f2ba3e9d7fe79755133dd5b221bcc0b",
+      "approvedRun": "20260829-ls-npc-005-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-005.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-005.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-005.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "VDYehYYptYa6HoSR",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 108,
+        "anchor": "\"id\": \"LS-NPC-005\""
+      },
+      "actorUuid": "Actor.VDYehYYptYa6HoSR",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-005.webp"
+    },
+    {
+      "id": "LS-NPC-006",
+      "canonicalName": "翟明珠",
+      "displayName": "翟明珠",
+      "aliases": [
+        "翟明珠",
+        "小猪猪"
+      ],
+      "priority": "P1",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "云梦科技；TAIYI 运维",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-006-翟明珠-20260902-ls-npc-006-pink-v4.png",
+      "approvedSha256": "dc608b1329d7ee9a7ceecfd1d717b0ebedf5a6a154a1420063aa247e127a670a",
+      "approvedRun": "20260902-ls-npc-006-pink-v4",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-006-20260902-pink-v4.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "2YEzICTcbBxgNpxY",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 130,
+        "anchor": "\"id\": \"LS-NPC-006\""
+      },
+      "actorUuid": "Actor.2YEzICTcbBxgNpxY",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-006-20260902-pink-v4.webp"
+    },
+    {
+      "id": "LS-NPC-008",
+      "canonicalName": "苗可栗",
+      "displayName": "苗可栗",
+      "aliases": [
+        "苗可栗"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "云梦科技；夜班客服",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-008-苗可栗-20260829-ls-npc-008-review-v4.png",
+      "approvedSha256": "4ec3ddbf164676b542265aae8ea8dee6403c24b6efa21b2c18c8673f7dbf0511",
+      "approvedRun": "20260829-ls-npc-008-review-v4",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-008.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-008.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-008.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "vnu3ZexhyIfz7OhH",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 152,
+        "anchor": "\"id\": \"LS-NPC-008\""
+      },
+      "actorUuid": "Actor.vnu3ZexhyIfz7OhH",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-008.webp"
+    },
+    {
+      "id": "LS-NPC-009",
+      "canonicalName": "郜白",
+      "displayName": "郜白",
+      "aliases": [
+        "郜白"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "云梦科技；数字安防",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-009-郜白-20260829-ls-npc-009-review-v3.png",
+      "approvedSha256": "3aa596eabcd96f8ea2dc47b67f9d299624b024b9d7dabca7000a41abed9ba654",
+      "approvedRun": "20260829-ls-npc-009-review-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-009.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-009.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-009.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "MnHV47cJxYL4RSVB",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 174,
+        "anchor": "\"id\": \"LS-NPC-009\""
+      },
+      "actorUuid": "Actor.MnHV47cJxYL4RSVB",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-009.webp"
+    },
+    {
+      "id": "LS-NPC-011",
+      "canonicalName": "沈丹青",
+      "displayName": "沈丹青",
+      "aliases": [
+        "沈丹青"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "河图科技；政府事务经理",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-011-沈丹青-20260829-ls-npc-011-v1.png",
+      "approvedSha256": "9f5963fd10d467890dbb72b5a0cf4fa60269f471f3107c62442370f51be1a4c1",
+      "approvedRun": "20260829-ls-npc-011-v1",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-011.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-011.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-011.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "tiGT0NBflfw6V0CQ",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 196,
+        "anchor": "\"id\": \"LS-NPC-011\""
+      },
+      "actorUuid": "Actor.tiGT0NBflfw6V0CQ",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-011.webp"
+    },
+    {
+      "id": "LS-NPC-012",
+      "canonicalName": "罗弈",
+      "displayName": "罗弈",
+      "aliases": [
+        "罗弈"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "河图科技；《九域》运营",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-012-罗弈-20260829-ls-npc-012-refresh-v2.png",
+      "approvedSha256": "2de0d23cc4bbf2b203d201002a6e20cd1521c86cadd0caf0629dd11a9d12d716",
+      "approvedRun": "20260829-ls-npc-012-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-012.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-012.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-012.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "sEMbG68n987ZfnqM",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 218,
+        "anchor": "\"id\": \"LS-NPC-012\""
+      },
+      "actorUuid": "Actor.sEMbG68n987ZfnqM",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-012.webp"
+    },
+    {
+      "id": "LS-NPC-013",
+      "canonicalName": "曲阿七",
+      "displayName": "曲阿七",
+      "aliases": [
+        "曲阿七"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "河图科技；渠道维护与黄区私活",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-013-曲阿七-20260829-ls-npc-013-refresh-v2.png",
+      "approvedSha256": "e2762c809bdbca017e22a7aaf6f5fba3cdc43d62b74145cd4390d5e6cbbf0383",
+      "approvedRun": "20260829-ls-npc-013-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-013.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-013.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-013.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "9fPcKPAaOmzAEddl",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 240,
+        "anchor": "\"id\": \"LS-NPC-013\""
+      },
+      "actorUuid": "Actor.9fPcKPAaOmzAEddl",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-013.webp"
+    },
+    {
+      "id": "LS-NPC-014",
+      "canonicalName": "田进财",
+      "displayName": "田进财",
+      "aliases": [
+        "田进财"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "飞廉速运；资深骑手与互助站联络",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-014-田进财-20260829-ls-npc-014-refresh-v4.png",
+      "approvedSha256": "2cd9ed1384f6395caea32d1134d3bc9ef0fdd183084a99e9a3e164c11472d558",
+      "approvedRun": "20260829-ls-npc-014-refresh-v4",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-014.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-014.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-014.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "FCAx9DVCPshCVdbK",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 262,
+        "anchor": "\"id\": \"LS-NPC-014\""
+      },
+      "actorUuid": "Actor.FCAx9DVCPshCVdbK",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-014.webp"
+    },
+    {
+      "id": "LS-NPC-015",
+      "canonicalName": "单小鹿",
+      "displayName": "单小鹿",
+      "aliases": [
+        "单小鹿"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "飞廉速运；AGV 夜班调度",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-015-单小鹿-20260829-ls-npc-015-refresh-v3.png",
+      "approvedSha256": "3a5e4ffd286dfe7f393f9a5efead677439a64054fbf2ceda99a0997ab4e78025",
+      "approvedRun": "20260829-ls-npc-015-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-015.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-015.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-015.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "jzoMevmSzqwRs6ty",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 284,
+        "anchor": "\"id\": \"LS-NPC-015\""
+      },
+      "actorUuid": "Actor.jzoMevmSzqwRs6ty",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-015.webp"
+    },
+    {
+      "id": "LS-NPC-017",
+      "canonicalName": "方见",
+      "displayName": "方见",
+      "aliases": [
+        "方见"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "燧明科技；芯片质检",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-017-方见-20260829-ls-npc-017-refresh-v2.png",
+      "approvedSha256": "b650254f20fad77729cd39fde7f17f8d067027871238b3cd8c3577f6c8a0671c",
+      "approvedRun": "20260829-ls-npc-017-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-017.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-017.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-017.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "1AzejlGF2afr3Gsy",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 306,
+        "anchor": "\"id\": \"LS-NPC-017\""
+      },
+      "actorUuid": "Actor.1AzejlGF2afr3Gsy",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-017.webp"
+    },
+    {
+      "id": "LS-NPC-018",
+      "canonicalName": "卓近火",
+      "displayName": "卓近火",
+      "aliases": [
+        "卓近火"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "燧明科技；燧人·零助理工程师",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-018-卓近火-20260829-ls-npc-018-refresh-v3.png",
+      "approvedSha256": "6de857bf61b3882f9af67f1965da5921c51755eda8312382f53f81674aee3dc4",
+      "approvedRun": "20260829-ls-npc-018-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-018.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-018.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-018.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "NUIE1vhFiLtUklK2",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 328,
+        "anchor": "\"id\": \"LS-NPC-018\""
+      },
+      "actorUuid": "Actor.NUIE1vhFiLtUklK2",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-018.webp"
+    },
+    {
+      "id": "LS-NPC-019",
+      "canonicalName": "甘采蓝",
+      "displayName": "甘采蓝",
+      "aliases": [
+        "甘采蓝"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "燧明科技；体验顾问、前康复护士",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-019-甘采蓝-20260829-ls-npc-019-refresh-v2.png",
+      "approvedSha256": "9a7123bf1c2af7996402918a4cb26eb31d3e0577cd6f9bb49f0d65c25dd733d6",
+      "approvedRun": "20260829-ls-npc-019-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-019.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-019.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-019.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "Dgsq3cLSLaMGyKDH",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 350,
+        "anchor": "\"id\": \"LS-NPC-019\""
+      },
+      "actorUuid": "Actor.Dgsq3cLSLaMGyKDH",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-019.webp"
+    },
+    {
+      "id": "LS-NPC-021",
+      "canonicalName": "周清梅",
+      "displayName": "周清梅",
+      "aliases": [
+        "周清梅"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "丰隆工业；退役维护技师、回收铺主",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-021-周清梅-20260829-pilot-ls-npc-021-r2.png",
+      "approvedSha256": "8c37a55f20e89588ccf91371d66d05e07e6a8585172743ac12cbe0f5e716c524",
+      "approvedRun": "20260829-pilot-ls-npc-021-r2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-021.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-021.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-021.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "fVhzAQtuu0k43cEJ",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 372,
+        "anchor": "\"id\": \"LS-NPC-021\""
+      },
+      "actorUuid": "Actor.fVhzAQtuu0k43cEJ",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-021.webp"
+    },
+    {
+      "id": "LS-NPC-022",
+      "canonicalName": "霍云骧",
+      "displayName": "霍云骧",
+      "aliases": [
+        "霍云骧"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "丰隆工业；无人机试飞站地勤",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-022-霍云骧-20260829-ls-npc-022-refresh-v2.png",
+      "approvedSha256": "73dadd8fc3070f3bafa2c2fd86abf76015ad4d259f7f51b26cef13031655576d",
+      "approvedRun": "20260829-ls-npc-022-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-022.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-022.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-022.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "JQAqnnjrcHzvOXpa",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 394,
+        "anchor": "\"id\": \"LS-NPC-022\""
+      },
+      "actorUuid": "Actor.JQAqnnjrcHzvOXpa",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-022.webp"
+    },
+    {
+      "id": "LS-NPC-024",
+      "canonicalName": "雷小鼓",
+      "displayName": "雷小鼓",
+      "aliases": [
+        "雷小鼓"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "丰隆工业；羿项目试飞员",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-024-雷小鼓-20260829-ls-npc-024-refresh-v4.png",
+      "approvedSha256": "a5f2f7296348c03bb96dd463fa0b58d7c789c0283e85e87c12377ff0b9aca0a5",
+      "approvedRun": "20260829-ls-npc-024-refresh-v4",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-024.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-024.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-024.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "qimV4VZnX0aOEvR3",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 416,
+        "anchor": "\"id\": \"LS-NPC-024\""
+      },
+      "actorUuid": "Actor.qimV4VZnX0aOEvR3",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-024.webp"
+    },
+    {
+      "id": "LS-NPC-025",
+      "canonicalName": "葛兆康（老葛）",
+      "displayName": "葛兆康（老葛）",
+      "aliases": [
+        "葛兆康（老葛）",
+        "葛兆康",
+        "老葛"
+      ],
+      "priority": "P1",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "九渊建设；楚钢缓冲区工头",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-025-葛兆康（老葛）-20260829-ls-npc-025-refresh-v2.png",
+      "approvedSha256": "c3ea2b4e8ab10e8b1378010eca8778cc0b672e94924b6c6298b583622b5cb594",
+      "approvedRun": "20260829-ls-npc-025-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-025.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-025.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-025.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "IK6oqvb7LMexuwgj",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 438,
+        "anchor": "\"id\": \"LS-NPC-025\""
+      },
+      "actorUuid": "Actor.IK6oqvb7LMexuwgj",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-025.webp"
+    },
+    {
+      "id": "LS-NPC-026",
+      "canonicalName": "甘棠",
+      "displayName": "甘棠",
+      "aliases": [
+        "甘棠"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "九渊建设；地下工程档案员",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-026-甘棠-20260829-ls-npc-026-refresh-v3.png",
+      "approvedSha256": "cca43e6c58d4bd56b82e389ea488bf370f6a69ea418d45a53b7576711966e841",
+      "approvedRun": "20260829-ls-npc-026-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-026.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-026.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-026.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "kN0n8a6t0iYEfIYe",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 460,
+        "anchor": "\"id\": \"LS-NPC-026\""
+      },
+      "actorUuid": "Actor.kN0n8a6t0iYEfIYe",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-026.webp"
+    },
+    {
+      "id": "LS-NPC-027",
+      "canonicalName": "邢九重",
+      "displayName": "邢九重",
+      "aliases": [
+        "邢九重"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "九渊建设；陵寝层夜班掘进队长",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-027-邢九重-20260829-ls-npc-027-refresh-v3.png",
+      "approvedSha256": "0fc739b83553dfe92011efc3800655ef677236ddaf119cd1158d329891805e20",
+      "approvedRun": "20260829-ls-npc-027-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-027.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-027.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-027.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "RlyKuc5Nvyjh28Tw",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 482,
+        "anchor": "\"id\": \"LS-NPC-027\""
+      },
+      "actorUuid": "Actor.RlyKuc5Nvyjh28Tw",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-027.webp"
+    },
+    {
+      "id": "LS-NPC-029",
+      "canonicalName": "秦时雨",
+      "displayName": "秦时雨",
+      "aliases": [
+        "秦时雨"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "龙腾轨交；末班车司机",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-029-秦时雨-20260829-ls-npc-029-v2.png",
+      "approvedSha256": "dddc6842d0e3f2f1c5ee6b56fee2ae0c00730bca19e6ec00ecf52c2f0fe31596",
+      "approvedRun": "20260829-ls-npc-029-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-029.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-029.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-029.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "bZeVGbjdNOzQUeyH",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 504,
+        "anchor": "\"id\": \"LS-NPC-029\""
+      },
+      "actorUuid": "Actor.bZeVGbjdNOzQUeyH",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-029.webp"
+    },
+    {
+      "id": "LS-NPC-030",
+      "canonicalName": "钟月台",
+      "displayName": "钟月台",
+      "aliases": [
+        "钟月台"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "龙腾轨交；故城中心站站务",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-030-钟月台-20260829-ls-npc-030-review-v2.png",
+      "approvedSha256": "ddf0e44fa451556853308b93e29add69e219ca25df7bb1ec0a2e5eb418c44064",
+      "approvedRun": "20260829-ls-npc-030-review-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-030.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-030.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-030.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "OKIMH0V1uQY7eBM6",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 526,
+        "anchor": "\"id\": \"LS-NPC-030\""
+      },
+      "actorUuid": "Actor.OKIMH0V1uQY7eBM6",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-030.webp"
+    },
+    {
+      "id": "LS-NPC-031",
+      "canonicalName": "童司南",
+      "displayName": "童司南",
+      "aliases": [
+        "童司南"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "龙腾轨交；见习调度",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-031-童司南-20260829-ls-npc-031-refresh-v2.png",
+      "approvedSha256": "3bff696933030923069881626f2f46d3e9531099b6cc8c2b776af15142f39929",
+      "approvedRun": "20260829-ls-npc-031-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-031.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-031.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-031.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "0LHEjmZDMASx14Fc",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 548,
+        "anchor": "\"id\": \"LS-NPC-031\""
+      },
+      "actorUuid": "Actor.0LHEjmZDMASx14Fc",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-031.webp"
+    },
+    {
+      "id": "LS-NPC-033",
+      "canonicalName": "赵明芝",
+      "displayName": "赵明芝",
+      "aliases": [
+        "赵明芝",
+        "赵明之",
+        "赵明哲"
+      ],
+      "priority": "P0",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "追风出行；前司机、十七名司机代表",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-033-赵明芝-20260829-ls-npc-033-soft-v4.png",
+      "approvedSha256": "372067e22dc64da66b95539c827f44e401feec0160ec201c8551fcc0c54b396b",
+      "approvedRun": "20260829-ls-npc-033-soft-v4",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-033.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-033.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-033.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "gTmMOIwGa6flQvNZ",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 570,
+        "anchor": "\"id\": \"LS-NPC-033\""
+      },
+      "actorUuid": "Actor.gTmMOIwGa6flQvNZ",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-033.webp"
+    },
+    {
+      "id": "LS-NPC-034",
+      "canonicalName": "苏小晚",
+      "displayName": "苏小晚",
+      "aliases": [
+        "苏小晚"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "追风出行；夜班司机、电台主播",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-034-苏小晚-20260829-ls-npc-034-refresh-v2.png",
+      "approvedSha256": "82a5a7f16f7de81c87735686417b352fa9af4ba869b2d1ed5d54d4e87fb3a811",
+      "approvedRun": "20260829-ls-npc-034-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-034.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-034.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-034.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "DRsx89mriRTnvoJJ",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 592,
+        "anchor": "\"id\": \"LS-NPC-034\""
+      },
+      "actorUuid": "Actor.DRsx89mriRTnvoJJ",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-034.webp"
+    },
+    {
+      "id": "LS-NPC-035",
+      "canonicalName": "顾全有",
+      "displayName": "顾全有",
+      "aliases": [
+        "顾全有"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "追风出行；车辆运营主管",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-035-顾全有-20260829-ls-npc-035-v1.png",
+      "approvedSha256": "509314f4b010bd5b8c445b6f050668a60cf9e7d0bf42305492bb3318a4f9363f",
+      "approvedRun": "20260829-ls-npc-035-v1",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-035.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-035.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-035.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "5IrGfYdHLCMXNrTs",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 614,
+        "anchor": "\"id\": \"LS-NPC-035\""
+      },
+      "actorUuid": "Actor.5IrGfYdHLCMXNrTs",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-035.webp"
+    },
+    {
+      "id": "LS-NPC-037",
+      "canonicalName": "白念秋",
+      "displayName": "白念秋",
+      "aliases": [
+        "白念秋"
+      ],
+      "priority": "P0",
+      "sourceStatus": "blocked_gm",
+      "narrativeStatus": "已故档案",
+      "folder": "龙散 NPC / 档案人物",
+      "privateRole": "楚风传媒；艺人、地铁线死者档案",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p><p>已故人物档案。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-037-白念秋-20260829-ls-npc-037-v3.png",
+      "approvedSha256": "92b1d0e9bc0d40c0452bcbfe23359693a44fd7169a6b3b043e4b884b24d2f02b",
+      "approvedRun": "20260829-ls-npc-037-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-037.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-037.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-037.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "vqcEA8al2OfxGc0p",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 636,
+        "anchor": "\"id\": \"LS-NPC-037\""
+      },
+      "actorUuid": "Actor.vqcEA8al2OfxGc0p",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "relationshipPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-037-relationship-monochrome-20260902.webp",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-037.webp"
+    },
+    {
+      "id": "LS-NPC-038",
+      "canonicalName": "何问舟",
+      "displayName": "何问舟",
+      "aliases": [
+        "何问舟"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "楚风传媒；编剧、前卜府实习",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-038-何问舟-20260829-ls-npc-038-refresh-v3.png",
+      "approvedSha256": "9e91879cf44790962f1e96783556d4f804c5ffc68aa625947aa543529c9eda0d",
+      "approvedRun": "20260829-ls-npc-038-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-038.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-038.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-038.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "4BEAUwXJeiCv4fNt",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 658,
+        "anchor": "\"id\": \"LS-NPC-038\""
+      },
+      "actorUuid": "Actor.4BEAUwXJeiCv4fNt",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-038.webp"
+    },
+    {
+      "id": "LS-NPC-039",
+      "canonicalName": "纪清商",
+      "displayName": "纪清商",
+      "aliases": [
+        "纪清商"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "楚风传媒；主播经纪与九歌少女运营",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-039-纪清商-20260829-ls-npc-039-review-v3.png",
+      "approvedSha256": "0b2536f6dfbd072369f38d024dc4c4d1792626a6fb927c431f4c94a6120376ce",
+      "approvedRun": "20260829-ls-npc-039-review-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-039.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-039.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-039.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "9gAKuBGUBUTAHcoR",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 680,
+        "anchor": "\"id\": \"LS-NPC-039\""
+      },
+      "actorUuid": "Actor.9gAKuBGUBUTAHcoR",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-039.webp"
+    },
+    {
+      "id": "LS-NPC-040",
+      "canonicalName": "向柳",
+      "displayName": "向柳",
+      "aliases": [
+        "向柳"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "楚风传媒；加密频道主播",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-040-向柳-20260829-ls-npc-040-refresh-v3.png",
+      "approvedSha256": "f6eae70b0dcb8f993dbc101767b2e709fd0371c5201c04bcc24028a0b02cba6a",
+      "approvedRun": "20260829-ls-npc-040-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-040.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-040.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-040.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "s5sWbZlEK2VfXf4m",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 702,
+        "anchor": "\"id\": \"LS-NPC-040\""
+      },
+      "actorUuid": "Actor.s5sWbZlEK2VfXf4m",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-040.webp"
+    },
+    {
+      "id": "LS-NPC-041",
+      "canonicalName": "冯宁汐",
+      "displayName": "冯宁汐",
+      "aliases": [
+        "冯宁汐"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "云鲤互娱；隐藏内容开发",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-041-冯宁汐-20260829-ls-npc-041-refresh-v3.png",
+      "approvedSha256": "d62e690fb6144c72e7ef47b2c3d9fdb3944f755df12db590cfcbb9e3c1332a1b",
+      "approvedRun": "20260829-ls-npc-041-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-041.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-041.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-041.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "W04MWmMXNCCftHlu",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 724,
+        "anchor": "\"id\": \"LS-NPC-041\""
+      },
+      "actorUuid": "Actor.W04MWmMXNCCftHlu",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-041.webp"
+    },
+    {
+      "id": "LS-NPC-043",
+      "canonicalName": "阿岛俊",
+      "displayName": "阿岛俊",
+      "aliases": [
+        "阿岛俊"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "云鲤互娱；社群管理员",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-043-阿岛俊-20260829-ls-npc-043-refresh-v2.png",
+      "approvedSha256": "e961da93faa8f5d6b2e09cd9f08c10f884071d81911418f13c9120955fe5a82c",
+      "approvedRun": "20260829-ls-npc-043-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-043.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-043.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-043.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "X2SZWB0NAfdllkvy",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 746,
+        "anchor": "\"id\": \"LS-NPC-043\""
+      },
+      "actorUuid": "Actor.X2SZWB0NAfdllkvy",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-043.webp"
+    },
+    {
+      "id": "LS-NPC-044",
+      "canonicalName": "陈志远",
+      "displayName": "陈志远",
+      "aliases": [
+        "陈志远",
+        "远哥"
+      ],
+      "priority": "P1",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "引资银行；龙散分行主管",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-044-陈志远-20260829-ls-npc-044-v1.png",
+      "approvedSha256": "8804458d2b23b412e11549a0754653ea772d084376fd9d6d428b7ac6621e6601",
+      "approvedRun": "20260829-ls-npc-044-v1",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-044.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-044.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-044.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "KwehyM2AWAaHV2ME",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 768,
+        "anchor": "\"id\": \"LS-NPC-044\""
+      },
+      "actorUuid": "Actor.KwehyM2AWAaHV2ME",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-044.webp"
+    },
+    {
+      "id": "LS-NPC-045",
+      "canonicalName": "金舸",
+      "displayName": "金舸",
+      "aliases": [
+        "金舸"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "引资银行；资深业务员",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-045-金舸-20260829-ls-npc-045-v1.png",
+      "approvedSha256": "9920cdd1c019b1c4c51dbe9df22d0dd14ef76b32c6f006c6f94089e94431edbd",
+      "approvedRun": "20260829-ls-npc-045-v1",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-045.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-045.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-045.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "LmaEpGKUt10QoPW0",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 790,
+        "anchor": "\"id\": \"LS-NPC-045\""
+      },
+      "actorUuid": "Actor.LmaEpGKUt10QoPW0",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-045.webp"
+    },
+    {
+      "id": "LS-NPC-046",
+      "canonicalName": "何凌",
+      "displayName": "何凌",
+      "aliases": [
+        "何凌",
+        "何林",
+        "何玲"
+      ],
+      "priority": "P0",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "引资银行；江城审计员",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-046-何凌-20260829-ls-npc-046-reference-t2i-v4.png",
+      "approvedSha256": "e04457eb637e2f1115c661e58e949093238094469d9592545596233ec43ff1f3",
+      "approvedRun": "20260829-ls-npc-046-reference-t2i-v4",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-046.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-046.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-046.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "psyMJFu6q5eG3CcD",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 812,
+        "anchor": "\"id\": \"LS-NPC-046\""
+      },
+      "actorUuid": "Actor.psyMJFu6q5eG3CcD",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-046.webp"
+    },
+    {
+      "id": "LS-NPC-048",
+      "canonicalName": "沈折琼",
+      "displayName": "沈折琼",
+      "aliases": [
+        "沈折琼"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "引资银行；金库守库人",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-048-沈折琼-20260829-ls-npc-048-refresh-v2.png",
+      "approvedSha256": "5345a14b0ea602ad2e12cbf4c17a9f856799a040c3d32c4ba478705060a3eb03",
+      "approvedRun": "20260829-ls-npc-048-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-048.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-048.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-048.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "0tfTRFx97cvIsWP4",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 834,
+        "anchor": "\"id\": \"LS-NPC-048\""
+      },
+      "actorUuid": "Actor.0tfTRFx97cvIsWP4",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-048.webp"
+    },
+    {
+      "id": "LS-NPC-049",
+      "canonicalName": "白鸢",
+      "displayName": "白鸢",
+      "aliases": [
+        "白鸢"
+      ],
+      "priority": "P1",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "玄盾国际；旧城安保大队长",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-049-白鸢-20260829-ls-npc-049-refresh-v3.png",
+      "approvedSha256": "fc8c507554f33f81336097607a77178d3c1de9e603737c81553ea37140bacb11",
+      "approvedRun": "20260829-ls-npc-049-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-049.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-049.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-049.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "fsDx0SJGMfcP5Hpk",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 856,
+        "anchor": "\"id\": \"LS-NPC-049\""
+      },
+      "actorUuid": "Actor.fsDx0SJGMfcP5Hpk",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-049.webp"
+    },
+    {
+      "id": "LS-NPC-050",
+      "canonicalName": "艾德礼·霍华德",
+      "displayName": "艾德礼·霍华德",
+      "aliases": [
+        "艾德礼·霍华德"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "玄盾国际；训练教官",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-050-艾德礼·霍华德-20260829-ls-npc-050-cowboy-v2.png",
+      "approvedSha256": "308dd499640ea4f0ab0c4b06c4fb32b4162569479ffe7347f1070c6cc9495449",
+      "approvedRun": "20260829-ls-npc-050-cowboy-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-050.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-050.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-050.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "FMxMv42x0bt57VXD",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 878,
+        "anchor": "\"id\": \"LS-NPC-050\""
+      },
+      "actorUuid": "Actor.FMxMv42x0bt57VXD",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-050.webp"
+    },
+    {
+      "id": "LS-NPC-051",
+      "canonicalName": "夏满弓",
+      "displayName": "夏满弓",
+      "aliases": [
+        "夏满弓"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "玄盾国际；旧城巡逻队长",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-051-夏满弓-20260829-ls-npc-051-v1.png",
+      "approvedSha256": "80bcd25931aac4fa8af46d9ad91a9e28a214e065cc9d47653f47457d12d31100",
+      "approvedRun": "20260829-ls-npc-051-v1",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-051.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-051.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-051.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "WLZGos0f2rJ17PVL",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 900,
+        "anchor": "\"id\": \"LS-NPC-051\""
+      },
+      "actorUuid": "Actor.WLZGos0f2rJ17PVL",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-051.webp"
+    },
+    {
+      "id": "LS-NPC-052",
+      "canonicalName": "巫明烛",
+      "displayName": "巫明烛",
+      "aliases": [
+        "巫明烛"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "玄盾国际；直辖特殊战术队长",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-052-巫明烛-20260829-ls-npc-052-refresh-v2.png",
+      "approvedSha256": "82ffbf941ee9496e778ff7baadefafcf0a40c894d5818b7ce7ccb86acd76f550",
+      "approvedRun": "20260829-ls-npc-052-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-052.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-052.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-052.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "kXQo1FBuVNbjbdF8",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 922,
+        "anchor": "\"id\": \"LS-NPC-052\""
+      },
+      "actorUuid": "Actor.kXQo1FBuVNbjbdF8",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-052.webp"
+    },
+    {
+      "id": "LS-NPC-053",
+      "canonicalName": "郁垒",
+      "displayName": "郁垒",
+      "aliases": [
+        "郁垒"
+      ],
+      "priority": "P2",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "玄盾国际；特战队员、前卜府密探",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-053-郁垒-20260829-ls-npc-053-refresh-v2.png",
+      "approvedSha256": "ced729bcd6ba52f925970705831e108764f2915a87656b1d671756c26e469b45",
+      "approvedRun": "20260829-ls-npc-053-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-053.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-053.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-053.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "3QalyVNUzgOSAb3H",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 944,
+        "anchor": "\"id\": \"LS-NPC-053\""
+      },
+      "actorUuid": "Actor.3QalyVNUzgOSAb3H",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-053.webp"
+    },
+    {
+      "id": "LS-NPC-054",
+      "canonicalName": "白鹤年",
+      "displayName": "白鹤年",
+      "aliases": [
+        "白鹤年"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "玄盾国际；黑狱典狱长",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-054-白鹤年-20260829-ls-npc-054-cowboy-v4.png",
+      "approvedSha256": "87477cf6fef02398f5d3212e2c973774c2924ac06076ef7fd62f51b9ba2bde8c",
+      "approvedRun": "20260829-ls-npc-054-cowboy-v4",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-054.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-054.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-054.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "mYC7WLFuZPzfJ2Lc",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 966,
+        "anchor": "\"id\": \"LS-NPC-054\""
+      },
+      "actorUuid": "Actor.mYC7WLFuZPzfJ2Lc",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-054.webp"
+    },
+    {
+      "id": "LS-NPC-055",
+      "canonicalName": "伊莱恩·莫罗",
+      "displayName": "伊莱恩·莫罗",
+      "aliases": [
+        "伊莱恩·莫罗"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "玄盾国际；情报分析官、野心派文职核心",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-055-伊莱恩·莫罗-20260829-ls-npc-055-cowboy-v3.png",
+      "approvedSha256": "47c83bb0fd9a3fdee2454fa32215cca22bd1f67dd1008e754d63f039eea32561",
+      "approvedRun": "20260829-ls-npc-055-cowboy-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-055.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-055.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-055.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "tbnPHoA6QtbjIgL8",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 988,
+        "anchor": "\"id\": \"LS-NPC-055\""
+      },
+      "actorUuid": "Actor.tbnPHoA6QtbjIgL8",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-055.webp"
+    },
+    {
+      "id": "LS-NPC-056",
+      "canonicalName": "卫铁生",
+      "displayName": "卫铁生",
+      "aliases": [
+        "卫铁生"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "义胜盟；黄区分舵红衣",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-056-卫铁生-20260829-ls-npc-056-cowboy-v3.png",
+      "approvedSha256": "12b109b9604a04343f98acb88768a19f55325d031b431b1da518ab0bd5d5fcff",
+      "approvedRun": "20260829-ls-npc-056-cowboy-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-056.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-056.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-056.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "6hT9gap8LopThul3",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1010,
+        "anchor": "\"id\": \"LS-NPC-056\""
+      },
+      "actorUuid": "Actor.6hT9gap8LopThul3",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-056.webp"
+    },
+    {
+      "id": "LS-NPC-057",
+      "canonicalName": "铁手（李铁牙）",
+      "displayName": "铁手（李铁牙）",
+      "aliases": [
+        "铁手（李铁牙）",
+        "铁手",
+        "李铁牙",
+        "铁牙"
+      ],
+      "priority": "P0",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "义胜盟；堂口执行人",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-057-铁手（李铁牙）-20260829-ls-npc-057-refresh-v2.png",
+      "approvedSha256": "24eb6e5e0cae8be5607ee35142661aa08ca08512d748292241b4072c767d180b",
+      "approvedRun": "20260829-ls-npc-057-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-057.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-057.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-057.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "kwipLU20vMECXjOk",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1032,
+        "anchor": "\"id\": \"LS-NPC-057\""
+      },
+      "actorUuid": "Actor.kwipLU20vMECXjOk",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-057.webp"
+    },
+    {
+      "id": "LS-NPC-058",
+      "canonicalName": "闵三元",
+      "displayName": "闵三元",
+      "aliases": [
+        "闵三元"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "义胜盟；总舵账房",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-058-闵三元-20260829-ls-npc-058-review-v3.png",
+      "approvedSha256": "6bc28df2644d7da33cf0dcc1919b5cfaeda2fe8c1781693e44aa3998c222d37a",
+      "approvedRun": "20260829-ls-npc-058-review-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-058.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-058.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-058.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "UQ6s5kAKxZWk7yW6",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1054,
+        "anchor": "\"id\": \"LS-NPC-058\""
+      },
+      "actorUuid": "Actor.UQ6s5kAKxZWk7yW6",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-058.webp"
+    },
+    {
+      "id": "LS-NPC-059",
+      "canonicalName": "柳拂衣",
+      "displayName": "柳拂衣",
+      "aliases": [
+        "柳拂衣"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "义胜盟剑阁；行动者",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-059-柳拂衣-20260829-ls-npc-059-cowboy-v3.png",
+      "approvedSha256": "851dc88356732fb0953118e7ba4835be5bfeb36a9bb33f5be8e39260a377335f",
+      "approvedRun": "20260829-ls-npc-059-cowboy-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-059.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-059.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-059.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "DRgDGdAoKoyE97ZW",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1076,
+        "anchor": "\"id\": \"LS-NPC-059\""
+      },
+      "actorUuid": "Actor.DRgDGdAoKoyE97ZW",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-059.webp"
+    },
+    {
+      "id": "LS-NPC-060",
+      "canonicalName": "纪小刀",
+      "displayName": "纪小刀",
+      "aliases": [
+        "纪小刀"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "义胜盟剑阁；预备成员",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-060-纪小刀-20260829-ls-npc-060-cowboy-v4.png",
+      "approvedSha256": "5b0e07e00f3af0ff9b5b4c68b4321375af267b0280b00d65852bb2a5bcafd1b2",
+      "approvedRun": "20260829-ls-npc-060-cowboy-v4",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-060.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-060.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-060.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "WGt118EU05eesbFr",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1098,
+        "anchor": "\"id\": \"LS-NPC-060\""
+      },
+      "actorUuid": "Actor.WGt118EU05eesbFr",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-060.webp"
+    },
+    {
+      "id": "LS-NPC-061",
+      "canonicalName": "何夜白",
+      "displayName": "何夜白",
+      "aliases": [
+        "何夜白",
+        "荷叶白",
+        "何月白"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "霜月会；神经接口校准技师",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-061-何夜白-20260829-ls-npc-061-refresh-v5.png",
+      "approvedSha256": "b628cf140345ea6fcdb33612a8b7776b4116dc5a8c698b678f471a63b4442e0d",
+      "approvedRun": "20260829-ls-npc-061-refresh-v5",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-061.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-061.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-061.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "RJ33Y3n9CnPNI3gx",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1120,
+        "anchor": "\"id\": \"LS-NPC-061\""
+      },
+      "actorUuid": "Actor.RJ33Y3n9CnPNI3gx",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-061.webp"
+    },
+    {
+      "id": "LS-NPC-062",
+      "canonicalName": "九条千寻",
+      "displayName": "九条千寻",
+      "aliases": [
+        "九条千寻"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "霜月会影手组；骇客",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-062-九条千寻-20260829-ls-npc-062-refresh-v2.png",
+      "approvedSha256": "0f0200d148d38be9330845b05969998c5dd20e853f6c599a9742ae6d7d3939dd",
+      "approvedRun": "20260829-ls-npc-062-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-062.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-062.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-062.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "Yh75cL4suvw30q8q",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1142,
+        "anchor": "\"id\": \"LS-NPC-062\""
+      },
+      "actorUuid": "Actor.Yh75cL4suvw30q8q",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-062.webp"
+    },
+    {
+      "id": "LS-NPC-063",
+      "canonicalName": "鹿岛绫",
+      "displayName": "鹿岛绫",
+      "aliases": [
+        "鹿岛绫"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "霜月会三人众；娱乐区与药物生意",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-063-鹿岛绫-20260829-ls-npc-063-cowboy-v4.png",
+      "approvedSha256": "a4061dd3dcdad0d158518081d7b96e18ddb1b58e8b77f0b75fa4c85a817d95bf",
+      "approvedRun": "20260829-ls-npc-063-cowboy-v4",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-063.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-063.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-063.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "iK2yifpOe0A65J8H",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1164,
+        "anchor": "\"id\": \"LS-NPC-063\""
+      },
+      "actorUuid": "Actor.iK2yifpOe0A65J8H",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-063.webp"
+    },
+    {
+      "id": "LS-NPC-065",
+      "canonicalName": "宋远",
+      "displayName": "宋远",
+      "aliases": [
+        "宋远"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "阿奎拉家族；港口物流接口",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-065-宋远-20260829-ls-npc-065-refresh-v5.png",
+      "approvedSha256": "41953c2a3f4b4b174058e766c29855835423bf1b4fcb77abc70f32b32cc0a2ee",
+      "approvedRun": "20260829-ls-npc-065-refresh-v5",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-065.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-065.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-065.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "O7ycDu9ixwbBxy1d",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1186,
+        "anchor": "\"id\": \"LS-NPC-065\""
+      },
+      "actorUuid": "Actor.O7ycDu9ixwbBxy1d",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-065.webp"
+    },
+    {
+      "id": "LS-NPC-066",
+      "canonicalName": "卢卡·阿奎拉",
+      "displayName": "卢卡·阿奎拉",
+      "aliases": [
+        "卢卡·阿奎拉"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "阿奎拉家族；仓储家顾问",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-066-卢卡·阿奎拉-20260829-ls-npc-066-refresh-v3.png",
+      "approvedSha256": "65f4a0bc614f9dbcbfe23903510e0499c67f7148204943c5c375c4ac03956762",
+      "approvedRun": "20260829-ls-npc-066-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-066.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-066.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-066.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "etV3yeQpnAJHE7BA",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1208,
+        "anchor": "\"id\": \"LS-NPC-066\""
+      },
+      "actorUuid": "Actor.etV3yeQpnAJHE7BA",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-066.webp"
+    },
+    {
+      "id": "LS-NPC-067",
+      "canonicalName": "马铁鹰",
+      "displayName": "马铁鹰",
+      "aliases": [
+        "马铁鹰"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "阿奎拉家族军团；武力执行",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-067-马铁鹰-20260829-ls-npc-067-refresh-v3.png",
+      "approvedSha256": "2d4d50cb686bf9958ea37f3bf33e4b617cb859f61dc6e65738bf83509a7ae205",
+      "approvedRun": "20260829-ls-npc-067-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-067.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-067.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-067.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "7aQZVS47M2oWodIk",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1230,
+        "anchor": "\"id\": \"LS-NPC-067\""
+      },
+      "actorUuid": "Actor.7aQZVS47M2oWodIk",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-067.webp"
+    },
+    {
+      "id": "LS-NPC-068",
+      "canonicalName": "西尔维娅",
+      "displayName": "西尔维娅",
+      "aliases": [
+        "西尔维娅"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "阿奎拉神选小队；祭司",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-068-西尔维娅-20260829-ls-npc-068-cowboy-v4.png",
+      "approvedSha256": "34dc780c736cbe69e4ed791a8bd8d7bcdcc7e51c16509b454400e3dc86ecd214",
+      "approvedRun": "20260829-ls-npc-068-cowboy-v4",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-068.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-068.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-068.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "zpC4rcLk5iW31WO1",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1252,
+        "anchor": "\"id\": \"LS-NPC-068\""
+      },
+      "actorUuid": "Actor.zpC4rcLk5iW31WO1",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-068.webp"
+    },
+    {
+      "id": "LS-NPC-069",
+      "canonicalName": "贺梦琪",
+      "displayName": "贺梦琪",
+      "aliases": [
+        "贺梦琪"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "棍木会外围；电竞馆掌柜",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-069-贺梦琪-20260829-ls-npc-069-cowboy-v3.png",
+      "approvedSha256": "eb48b6f048d6ea8d54db7417dc7d1c57ff5783ff7244f9a3b9e5862339083412",
+      "approvedRun": "20260829-ls-npc-069-cowboy-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-069.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-069.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-069.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "9zEDeY2FWiqEvbpE",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1274,
+        "anchor": "\"id\": \"LS-NPC-069\""
+      },
+      "actorUuid": "Actor.9zEDeY2FWiqEvbpE",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-069.webp"
+    },
+    {
+      "id": "LS-NPC-070",
+      "canonicalName": "老井（井叔）",
+      "displayName": "老井（井叔）",
+      "aliases": [
+        "老井（井叔）",
+        "老井",
+        "井叔"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "棍木会；物理中继维护",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-070-老井（井叔）-20260829-ls-npc-070-cowboy-v3.png",
+      "approvedSha256": "4a8392e53ea3b482a7757e3c11d2b3fcd6e0e2ede288514c74e6e78187334b26",
+      "approvedRun": "20260829-ls-npc-070-cowboy-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-070.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-070.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-070.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "Al9LGpY49FbRx5Qk",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1296,
+        "anchor": "\"id\": \"LS-NPC-070\""
+      },
+      "actorUuid": "Actor.Al9LGpY49FbRx5Qk",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-070.webp"
+    },
+    {
+      "id": "LS-NPC-072",
+      "canonicalName": "苏晦（S.H.）",
+      "displayName": "S.H.",
+      "aliases": [
+        "苏晦（S.H.）",
+        "S.H.",
+        "苏晦"
+      ],
+      "priority": "P1",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "卜府离叛者；测量者主事",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-072-苏晦（S.H.）-20260829-ls-npc-072-cowboy-v3.png",
+      "approvedSha256": "b4e2c55f683da32a3533871cad2ab70debb5f05fb73c88c304e0163ca4f802c6",
+      "approvedRun": "20260829-ls-npc-072-cowboy-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-072.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-072.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-072.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "cdESIH9b3XCTsX5K",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1318,
+        "anchor": "\"id\": \"LS-NPC-072\""
+      },
+      "actorUuid": "Actor.cdESIH9b3XCTsX5K",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "relationshipPortrait": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902.webp",
+      "relationshipListImage": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp",
+      "relationshipMapThumbnail": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902.webp"
+    },
+    {
+      "id": "LS-NPC-073",
+      "canonicalName": "LR-07",
+      "displayName": "LR-07",
+      "aliases": [
+        "LR-07"
+      ],
+      "priority": "P2",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "卜府；驻场采样员",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-073-LR-07-20260829-ls-npc-073-refresh-v2.png",
+      "approvedSha256": "c968d76ea6ef752f527ee4f713e5e331f2d92493fc44e60746c7a1702400c664",
+      "approvedRun": "20260829-ls-npc-073-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-073.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-073.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-073.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "8HBCHnnWHDWRKLEl",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1340,
+        "anchor": "\"id\": \"LS-NPC-073\""
+      },
+      "actorUuid": "Actor.8HBCHnnWHDWRKLEl",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-073.webp"
+    },
+    {
+      "id": "LS-NPC-074",
+      "canonicalName": "薄晚",
+      "displayName": "薄晚",
+      "aliases": [
+        "薄晚"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "卜府；神策分析员",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-074-薄晚-20260829-ls-npc-074-cowboy-v2.png",
+      "approvedSha256": "16e4f848c04d7718717985af25b9c8f7ad9f525e04600384c15850446524471b",
+      "approvedRun": "20260829-ls-npc-074-cowboy-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-074.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-074.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-074.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "HcJE2gk2MnZl2lS0",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1362,
+        "anchor": "\"id\": \"LS-NPC-074\""
+      },
+      "actorUuid": "Actor.HcJE2gk2MnZl2lS0",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-074.webp"
+    },
+    {
+      "id": "LS-NPC-075",
+      "canonicalName": "罗鸣谦",
+      "displayName": "罗鸣谦",
+      "aliases": [
+        "罗鸣谦"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "卜府；特别面试校园联络",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-075-罗鸣谦-20260829-ls-npc-075-refresh-v2.png",
+      "approvedSha256": "bb76879a7329d9e178fa60d4d9d5aed3357e3b7d8f300f8c7b120415e7a2e4cc",
+      "approvedRun": "20260829-ls-npc-075-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-075.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-075.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-075.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "o3HMAuMC5nPJ26qh",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1384,
+        "anchor": "\"id\": \"LS-NPC-075\""
+      },
+      "actorUuid": "Actor.o3HMAuMC5nPJ26qh",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-075.webp"
+    },
+    {
+      "id": "LS-NPC-076",
+      "canonicalName": "玄圭",
+      "displayName": "玄圭",
+      "aliases": [
+        "玄圭"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "卜府；中级裁量官、管委会借调",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-076-玄圭-20260829-ls-npc-076-v1.png",
+      "approvedSha256": "7bbf3d0bee33d0e7cc731bd8f16d0603b8a767922cba8e136d693483b57d3084",
+      "approvedRun": "20260829-ls-npc-076-v1",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-076.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-076.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-076.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "kk159q86nfyUl5dS",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1406,
+        "anchor": "\"id\": \"LS-NPC-076\""
+      },
+      "actorUuid": "Actor.kk159q86nfyUl5dS",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-076.webp"
+    },
+    {
+      "id": "LS-NPC-077",
+      "canonicalName": "方泰安",
+      "displayName": "方泰安",
+      "aliases": [
+        "方泰安"
+      ],
+      "priority": "P0",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "旧城管委会；监察专员",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-077-方泰安-20260829-ls-npc-077-review-v2.png",
+      "approvedSha256": "a08b281a22152010e1ab5371f9019ebd192825b6192b1810cf33f355f65b3628",
+      "approvedRun": "20260829-ls-npc-077-review-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-077.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-077.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-077.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "iBJN4yYdbbbbuyfU",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1428,
+        "anchor": "\"id\": \"LS-NPC-077\""
+      },
+      "actorUuid": "Actor.iBJN4yYdbbbbuyfU",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-077.webp"
+    },
+    {
+      "id": "LS-NPC-078",
+      "canonicalName": "于正清",
+      "displayName": "于正清",
+      "aliases": [
+        "于正清"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "旧城管委会；工程科科长",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-078-于正清-20260829-ls-npc-078-v1.png",
+      "approvedSha256": "46ba2d704cce108b696100f1070079460793117b68190802dd0bd1bed7b48e6c",
+      "approvedRun": "20260829-ls-npc-078-v1",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-078.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-078.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-078.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "3NyAUr5b8np4WF32",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1450,
+        "anchor": "\"id\": \"LS-NPC-078\""
+      },
+      "actorUuid": "Actor.3NyAUr5b8np4WF32",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-078.webp"
+    },
+    {
+      "id": "LS-NPC-079",
+      "canonicalName": "秦有邻",
+      "displayName": "秦有邻",
+      "aliases": [
+        "秦有邻"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "旧城管委会；宣传舆情专员",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-079-秦有邻-20260829-ls-npc-079-refresh-v2.png",
+      "approvedSha256": "ebb96b8a316cfca59e4bf2bc3ed5edae913ed07dcbdcefc52aa143554d0b5d40",
+      "approvedRun": "20260829-ls-npc-079-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-079.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-079.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-079.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "XiQXexl1CAyOi6uk",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1472,
+        "anchor": "\"id\": \"LS-NPC-079\""
+      },
+      "actorUuid": "Actor.XiQXexl1CAyOi6uk",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-079.webp"
+    },
+    {
+      "id": "LS-NPC-080",
+      "canonicalName": "朱见微",
+      "displayName": "朱见微",
+      "aliases": [
+        "朱见微"
+      ],
+      "priority": "P2",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "龙散大学；客座教授、ARP首席",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-080-朱见微-20260829-ls-npc-080-refresh-v2.png",
+      "approvedSha256": "c17c89bf2695d500a0be248f987ed7740fd4c10716606245734885a8f6d2fa2a",
+      "approvedRun": "20260829-ls-npc-080-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-080.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-080.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-080.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "gnoWJXlg9MsPQhKJ",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1494,
+        "anchor": "\"id\": \"LS-NPC-080\""
+      },
+      "actorUuid": "Actor.gnoWJXlg9MsPQhKJ",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-080.webp"
+    },
+    {
+      "id": "LS-NPC-081",
+      "canonicalName": "苏碧城",
+      "displayName": "苏碧城",
+      "aliases": [
+        "苏碧城"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "龙散大学；神经信号博士生",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-081-苏碧城-20260829-ls-npc-081-refresh-v4.png",
+      "approvedSha256": "cd2c4934facfa76181246d0b39d41dff151a50a95cb877ba5aeef795100daf9f",
+      "approvedRun": "20260829-ls-npc-081-refresh-v4",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-081.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-081.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-081.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "fBAjZP6g3eZJcGRR",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1516,
+        "anchor": "\"id\": \"LS-NPC-081\""
+      },
+      "actorUuid": "Actor.fBAjZP6g3eZJcGRR",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-081.webp"
+    },
+    {
+      "id": "LS-NPC-082",
+      "canonicalName": "杜若",
+      "displayName": "杜若",
+      "aliases": [
+        "杜若"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "龙散大学；土木研究生、未名会",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-082-杜若-20260829-ls-npc-082-refresh-v2.png",
+      "approvedSha256": "34596187d69bf73b5ec7b0425ecbb35549a5697d122df45bcc4fd2fed56c4d20",
+      "approvedRun": "20260829-ls-npc-082-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-082.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-082.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-082.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "wK4L20iIt6GKlco0",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1538,
+        "anchor": "\"id\": \"LS-NPC-082\""
+      },
+      "actorUuid": "Actor.wK4L20iIt6GKlco0",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-082.webp"
+    },
+    {
+      "id": "LS-NPC-083",
+      "canonicalName": "纪慎微",
+      "displayName": "纪慎微",
+      "aliases": [
+        "纪慎微"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "龙散财大；法学院讲师、前裁量官",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-083-纪慎微-20260829-ls-npc-083-v1.png",
+      "approvedSha256": "dadc6b7729d3bceaeb72d690e454d47b05453832cab5a5cabd357b6343083e14",
+      "approvedRun": "20260829-ls-npc-083-v1",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-083.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-083.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-083.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "mzzirCssE0U78NSE",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1560,
+        "anchor": "\"id\": \"LS-NPC-083\""
+      },
+      "actorUuid": "Actor.mzzirCssE0U78NSE",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-083.webp"
+    },
+    {
+      "id": "LS-NPC-085",
+      "canonicalName": "凌渡",
+      "displayName": "凌渡",
+      "aliases": [
+        "凌渡"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "21-35所；网络架构研究员",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-085-凌渡-20260829-ls-npc-085-refresh-v4.png",
+      "approvedSha256": "e25816b0dac9f99d1204ff89e14a8524858bdd8202fef1cb17ecd0a3aa35228c",
+      "approvedRun": "20260829-ls-npc-085-refresh-v4",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-085.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-085.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-085.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "GkjbhmkUhK5pESha",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1582,
+        "anchor": "\"id\": \"LS-NPC-085\""
+      },
+      "actorUuid": "Actor.GkjbhmkUhK5pESha",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-085.webp"
+    },
+    {
+      "id": "LS-NPC-086",
+      "canonicalName": "文小篆",
+      "displayName": "文小篆",
+      "aliases": [
+        "文小篆"
+      ],
+      "priority": "P2",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "21-35所；牢笼夜班值守",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-086-文小篆-20260829-ls-npc-086-refresh-v2.png",
+      "approvedSha256": "158e1bce5b5e83bc90a8829ed2a106696dcf9017fabeca91fe0bc8099d93dbb2",
+      "approvedRun": "20260829-ls-npc-086-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-086.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-086.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-086.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "COkMejJ9Z3LcNwvb",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1604,
+        "anchor": "\"id\": \"LS-NPC-086\""
+      },
+      "actorUuid": "Actor.COkMejJ9Z3LcNwvb",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-086.webp"
+    },
+    {
+      "id": "LS-NPC-088",
+      "canonicalName": "沈漫",
+      "displayName": "沈漫",
+      "aliases": [
+        "沈漫",
+        "沈曼",
+        "审判",
+        "神庙"
+      ],
+      "priority": "P0",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "随缘事务所；老板、主线导师",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-088-沈漫-20260829-ls-npc-088-mood-v5.png",
+      "approvedSha256": "cc37436e1ce499930e2f1f90ff6ee4f7ea4a7e3fbdd6f9a215314a9cb4b1ac74",
+      "approvedRun": "20260829-ls-npc-088-mood-v5",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-088.webp",
+      "identityConflict": null,
+      "decision": "matched-updated",
+      "actorId": "gadGwYGyXgzgEfpp",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1626,
+        "anchor": "\"id\": \"LS-NPC-088\""
+      },
+      "actorUuid": "Actor.gadGwYGyXgzgEfpp",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-088.webp"
+    },
+    {
+      "id": "LS-NPC-089",
+      "canonicalName": "沈仲秋",
+      "displayName": "沈仲秋",
+      "aliases": [
+        "沈仲秋",
+        "沈中秋",
+        "阿秋",
+        "沈奏秋"
+      ],
+      "priority": "P0",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "随缘事务所；电竞房与发电机管理",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-089-沈仲秋-20260829-ls-npc-089-mood-v6.png",
+      "approvedSha256": "67953825cc00e378e4111a852c60995789033701433e3d02c0a75ee3bae0aaee",
+      "approvedRun": "20260829-ls-npc-089-mood-v6",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-089.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-089.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-089.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "gBq6GwDgNfcln8lB",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1655,
+        "anchor": "\"id\": \"LS-NPC-089\""
+      },
+      "actorUuid": "Actor.gBq6GwDgNfcln8lB",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-089.webp"
+    },
+    {
+      "id": "LS-NPC-090",
+      "canonicalName": "阿瑶（朱瑶光）",
+      "displayName": "阿瑶",
+      "aliases": [
+        "阿瑶（朱瑶光）",
+        "阿瑶",
+        "朱瑶光",
+        "小瑶"
+      ],
+      "priority": "P0",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "随缘事务所；PC生命绑定／锚点候选",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-090-阿瑶（朱瑶光）-20260829-ls-npc-090-mood-v5.png",
+      "approvedSha256": "4beee66b4c1cd0c9817d3314a355127721ae9ee1df2348bcc745541a475c42fb",
+      "approvedRun": "20260829-ls-npc-090-mood-v5",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-090.webp",
+      "identityConflict": null,
+      "decision": "matched-updated",
+      "actorId": "a1z7lVrqv6W7wDFI",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1677,
+        "anchor": "\"id\": \"LS-NPC-090\""
+      },
+      "actorUuid": "Actor.a1z7lVrqv6W7wDFI",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-090.webp"
+    },
+    {
+      "id": "LS-NPC-091",
+      "canonicalName": "林彬",
+      "displayName": "林彬",
+      "aliases": [
+        "林彬"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "日常接点；短租公寓前台",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-091-林彬-20260829-ls-npc-091-refresh-v2.png",
+      "approvedSha256": "ca7ad6ef18e4d8ad4bc22d7ff68ef292fbc2b612b8e2f1e53d895b75d38750c4",
+      "approvedRun": "20260829-ls-npc-091-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-091.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-091.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-091.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "QlguyKmLQpdAhIlc",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1699,
+        "anchor": "\"id\": \"LS-NPC-091\""
+      },
+      "actorUuid": "Actor.QlguyKmLQpdAhIlc",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-091.webp"
+    },
+    {
+      "id": "LS-NPC-092",
+      "canonicalName": "谢翠莲",
+      "displayName": "谢翠莲",
+      "aliases": [
+        "谢翠莲"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "日常接点；顺风茶馆老板娘",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-092-谢翠莲-20260829-ls-npc-092-review-v3.png",
+      "approvedSha256": "a2662f524689d2f62bebbdb5b111e74cf70cb9aea17529ad9c5926cc5cf069f7",
+      "approvedRun": "20260829-ls-npc-092-review-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-092.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-092.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-092.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "HWPK89onJnRj4DcE",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1721,
+        "anchor": "\"id\": \"LS-NPC-092\""
+      },
+      "actorUuid": "Actor.HWPK89onJnRj4DcE",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-092.webp"
+    },
+    {
+      "id": "LS-NPC-093",
+      "canonicalName": "宋光明",
+      "displayName": "宋光明",
+      "aliases": [
+        "宋光明"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "日常接点；电器修理店老板",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-093-宋光明-20260829-ls-npc-093-refresh-v2.png",
+      "approvedSha256": "77c9832c5aa21d5956b2c0bf9ff87476d40ea91a456b579634ba3a24c58e7db7",
+      "approvedRun": "20260829-ls-npc-093-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-093.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-093.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-093.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "QifpVPyNn5JqftkM",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1743,
+        "anchor": "\"id\": \"LS-NPC-093\""
+      },
+      "actorUuid": "Actor.QifpVPyNn5JqftkM",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-093.webp"
+    },
+    {
+      "id": "LS-NPC-094",
+      "canonicalName": "杨振邦",
+      "displayName": "杨振邦",
+      "aliases": [
+        "杨振邦"
+      ],
+      "priority": "P1",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "日常接点；地下拳场场务",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-094-杨振邦-20260829-ls-npc-094-refresh-v3.png",
+      "approvedSha256": "dbb9fff35c92f207b86cf21ab44dc800c1cabe1345d98609532ba62aa0a14bab",
+      "approvedRun": "20260829-ls-npc-094-refresh-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-094.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-094.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-094.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "YFZp5ZtD2HA6bznJ",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1765,
+        "anchor": "\"id\": \"LS-NPC-094\""
+      },
+      "actorUuid": "Actor.YFZp5ZtD2HA6bznJ",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-094.webp"
+    },
+    {
+      "id": "LS-NPC-095",
+      "canonicalName": "萨布里娜·费雷拉",
+      "displayName": "萨布里娜·费雷拉",
+      "aliases": [
+        "萨布里娜·费雷拉",
+        "Sabrina",
+        "萨布里娜",
+        "savina"
+      ],
+      "priority": "P0",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "日常接点；外籍社区联络、义肢康复",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-095-萨布里娜·费雷拉-20260829-ls-npc-095-cowboy-v4.png",
+      "approvedSha256": "05bedbffcbeb5f2c1a9f5bafb0a6b6106f88b9ffc62e26a48ac08f0c97f7df91",
+      "approvedRun": "20260829-ls-npc-095-cowboy-v4",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-095.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-095.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-095.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "eubCIDi10WeO2cx5",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1787,
+        "anchor": "\"id\": \"LS-NPC-095\""
+      },
+      "actorUuid": "Actor.eubCIDi10WeO2cx5",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-095.webp"
+    },
+    {
+      "id": "LS-NPC-096",
+      "canonicalName": "周凛",
+      "displayName": "周凛",
+      "aliases": [
+        "周凛",
+        "周林",
+        "周玲",
+        "周玲玲"
+      ],
+      "priority": "P0",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "自由人；黄区掮客",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-096-周凛-20260829-ls-npc-096-male-v5.png",
+      "approvedSha256": "4da9386c4a4bfca202003df673276aaf8c071861aa667d5a69ad250af7407ec7",
+      "approvedRun": "20260829-ls-npc-096-male-v5",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-096.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-096.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-096.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "RqRwsNovNTzMLxwh",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1809,
+        "anchor": "\"id\": \"LS-NPC-096\""
+      },
+      "actorUuid": "Actor.RqRwsNovNTzMLxwh",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-096.webp"
+    },
+    {
+      "id": "LS-NPC-098",
+      "canonicalName": "贾红",
+      "displayName": "贾红",
+      "aliases": [
+        "贾红"
+      ],
+      "priority": "P1",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "自由人；修理站／废品站站长",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-098-贾红-20260829-ls-npc-098-cowboy-v3.png",
+      "approvedSha256": "657430cf28622e1f449858f5541ddb5ce3cba132fe8ceb8a54384af3c595b5bd",
+      "approvedRun": "20260829-ls-npc-098-cowboy-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-098.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-098.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-098.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "yu2O7Qa3YUd72Uwr",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1831,
+        "anchor": "\"id\": \"LS-NPC-098\""
+      },
+      "actorUuid": "Actor.yu2O7Qa3YUd72Uwr",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-098.webp"
+    },
+    {
+      "id": "LS-NPC-100",
+      "canonicalName": "陈斌",
+      "displayName": "陈斌",
+      "aliases": [
+        "陈斌",
+        "陈冰"
+      ],
+      "priority": "P0",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "自由人；第一人民医院主治医生",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-100-陈斌-20260829-ls-npc-100-review-v3.png",
+      "approvedSha256": "78b260e5ea9e0ccd5e2c6bb66a2fc680dd34f2103e8bb7f77f1fcfca6c71eacf",
+      "approvedRun": "20260829-ls-npc-100-review-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-100.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-100.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-100.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "27bI4x78JIvvQDk4",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1853,
+        "anchor": "\"id\": \"LS-NPC-100\""
+      },
+      "actorUuid": "Actor.27bI4x78JIvvQDk4",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-100.webp"
+    },
+    {
+      "id": "LS-NPC-101",
+      "canonicalName": "梁文川",
+      "displayName": "梁文川",
+      "aliases": [
+        "梁文川"
+      ],
+      "priority": "P0",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "自由人；老式机械相关人物",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-101-梁文川-20260829-ls-npc-101-cowboy-v3.png",
+      "approvedSha256": "f19689f7f3b0a71a929bbed3e89c9580865caef5950c62571c1c614527136184",
+      "approvedRun": "20260829-ls-npc-101-cowboy-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-101.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-101.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-101.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "c9CMnekZUT44LGED",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1875,
+        "anchor": "\"id\": \"LS-NPC-101\""
+      },
+      "actorUuid": "Actor.c9CMnekZUT44LGED",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-101.webp"
+    },
+    {
+      "id": "LS-NPC-103",
+      "canonicalName": "朱恒／朱蘅（待统一）",
+      "displayName": "朱恒（身份待核）",
+      "aliases": [
+        "朱恒／朱蘅（待统一）",
+        "朱恒（身份待核）",
+        "朱恒",
+        "朱蘅"
+      ],
+      "priority": "P3",
+      "sourceStatus": "blocked_gm",
+      "narrativeStatus": "失踪档案，身份待核",
+      "folder": "龙散 NPC / 档案人物",
+      "privateRole": "失踪者；沈漫闺蜜、疑为阿瑶母亲",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p><p>失踪人物档案；身份尚待核实。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-103-朱恒／朱蘅（待统一）-20260829-ls-npc-103-soft-v3.png",
+      "approvedSha256": "fa3d397b0bb4e704b3a221455a1bb93cf746aa1499c2d1fc9ec043eea24cb988",
+      "approvedRun": "20260829-ls-npc-103-soft-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-103.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-103.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-103.webp",
+      "identityConflict": "朱恒与朱蘅是否同一人未定；多个服务器匹配项必须人工核对",
+      "decision": "created",
+      "actorId": "iPBpGEGMeukkWOlq",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1897,
+        "anchor": "\"id\": \"LS-NPC-103\""
+      },
+      "actorUuid": "Actor.iPBpGEGMeukkWOlq",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-103.webp"
+    },
+    {
+      "id": "LS-NPC-104",
+      "canonicalName": "林鹤",
+      "displayName": "林鹤",
+      "aliases": [
+        "林鹤"
+      ],
+      "priority": "P2",
+      "sourceStatus": "blocked_gm",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "云鲤互娱；美术总监",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-104-林鹤-20260829-ls-npc-104-refresh-v2.png",
+      "approvedSha256": "a189723f1ab14aef94cdff7f09a87de2ff7b33cc8e64a02d779f85fd62fb2582",
+      "approvedRun": "20260829-ls-npc-104-refresh-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-104.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-104.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-104.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "fJ9DysjHxxYTN1nh",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1919,
+        "anchor": "\"id\": \"LS-NPC-104\""
+      },
+      "actorUuid": "Actor.fJ9DysjHxxYTN1nh",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-104.webp"
+    },
+    {
+      "id": "LS-NPC-105",
+      "canonicalName": "黑川",
+      "displayName": "黑川",
+      "aliases": [
+        "黑川"
+      ],
+      "priority": "P3",
+      "sourceStatus": "blocked_gm",
+      "narrativeStatus": "幕后／失踪档案",
+      "folder": "龙散 NPC / 档案人物",
+      "privateRole": "霜月会；会长、幕后档案",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-105-黑川-20260829-ls-npc-105-cowboy-v2.png",
+      "approvedSha256": "934c838d48abb3ad506f18f9524a9aaf622a98dd961bf45f17db842f78ec8a59",
+      "approvedRun": "20260829-ls-npc-105-cowboy-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-105.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-105.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-105.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "PmojUTiwUpFLHOfw",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1941,
+        "anchor": "\"id\": \"LS-NPC-105\""
+      },
+      "actorUuid": "Actor.PmojUTiwUpFLHOfw",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-105.webp"
+    },
+    {
+      "id": "LS-NPC-106",
+      "canonicalName": "红皇后",
+      "displayName": "红皇后",
+      "aliases": [
+        "红皇后",
+        "Red Queen"
+      ],
+      "priority": "P3",
+      "sourceStatus": "blocked_gm",
+      "narrativeStatus": "幕后／失踪档案",
+      "folder": "龙散 NPC / 档案人物",
+      "privateRole": "兔子洞；幕后程序开发者",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-106-红皇后-20260829-ls-npc-106-v2.png",
+      "approvedSha256": "4ddbc2ac8923faef154dc9dc9b58125ee53834efb4a050a1c9fd6c2fc6c5a4ec",
+      "approvedRun": "20260829-ls-npc-106-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-106.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-106.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-106.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "AoAySniG9cDoQ6K7",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1963,
+        "anchor": "\"id\": \"LS-NPC-106\""
+      },
+      "actorUuid": "Actor.AoAySniG9cDoQ6K7",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-106.webp"
+    },
+    {
+      "id": "LS-NPC-107",
+      "canonicalName": "男偶像（姓名待定）",
+      "displayName": "男偶像",
+      "aliases": [
+        "男偶像（姓名待定）",
+        "男偶像"
+      ],
+      "priority": "P3",
+      "sourceStatus": "blocked_gm",
+      "narrativeStatus": "幕后／失踪档案",
+      "folder": "龙散 NPC / 档案人物",
+      "privateRole": "杀猪盘核心；失踪档案",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-107-男偶像（姓名待定）-20260829-ls-npc-107-review-v2.png",
+      "approvedSha256": "15cf4a450c853d5b812832bd4125aa75aa7e1010f1e70616b3c1f57459aa3897",
+      "approvedRun": "20260829-ls-npc-107-review-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-107.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-107.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-107.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "cthqSnquc0kZpCr5",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1985,
+        "anchor": "\"id\": \"LS-NPC-107\""
+      },
+      "actorUuid": "Actor.cthqSnquc0kZpCr5",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-107.webp"
+    },
+    {
+      "id": "LS-NPC-N1",
+      "canonicalName": "周敏",
+      "displayName": "周敏",
+      "aliases": [
+        "周敏"
+      ],
+      "priority": "P1",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "莲花路派出所；社区民警",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-N1-周敏-20260829-ls-npc-n1-cowboy-v2.png",
+      "approvedSha256": "e3fe9c3258c8d6a618b74422f627d52958562195bc21398d32ee569bf3bc296c",
+      "approvedRun": "20260829-ls-npc-n1-cowboy-v2",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-N1.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-N1.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-N1.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "cklvc9bYITPdZmcz",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 2007,
+        "anchor": "\"id\": \"LS-NPC-N1\""
+      },
+      "actorUuid": "Actor.cklvc9bYITPdZmcz",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-N1.webp"
+    },
+    {
+      "id": "LS-NPC-N2",
+      "canonicalName": "程雯",
+      "displayName": "程雯",
+      "aliases": [
+        "程雯"
+      ],
+      "priority": "P1",
+      "sourceStatus": "needs_design",
+      "narrativeStatus": "GM储备",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "故城区中学；教务老师",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-N2-程雯-20260829-ls-npc-n2-cowboy-v3.png",
+      "approvedSha256": "838980e667b06cb7024184ae2446407dc7d8fbcd0c413eb269d999a5c76b34ef",
+      "approvedRun": "20260829-ls-npc-n2-cowboy-v3",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-N2.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-N2.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-N2.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "gRRjgs29ZBBPH4fC",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 2029,
+        "anchor": "\"id\": \"LS-NPC-N2\""
+      },
+      "actorUuid": "Actor.gRRjgs29ZBBPH4fC",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-N2.webp"
+    },
+    {
+      "id": "LS-NPC-N3",
+      "canonicalName": "闻笙（棍木女）",
+      "displayName": "棍木女",
+      "aliases": [
+        "闻笙（棍木女）",
+        "棍木女",
+        "闻笙",
+        "棍木女（代称）"
+      ],
+      "priority": "P0",
+      "sourceStatus": "source_ready",
+      "narrativeStatus": "实跑已出现或提及",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "棍木会；测量者／李好木签联系人",
+      "publicBiography": "<p>数值待填。本卡先用于人物识别、头像、Token 与已有关系记录。</p>",
+      "approvedAsset": "discussion/npc/立绘生产/assets/approved/LS-NPC-N3-闻笙（棍木女）-20260829-ls-npc-n3-v1.png",
+      "approvedSha256": "5d2f0b876ea76a42e30a95147b62498d5c1318a188eb19977c60f47fb5b5ea21",
+      "approvedRun": "20260829-ls-npc-n3-v1",
+      "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-N3.webp",
+      "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-N3.webp",
+      "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-N3.webp",
+      "identityConflict": null,
+      "decision": "created",
+      "actorId": "zltELu4L5KcmScNG",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 2051,
+        "anchor": "\"id\": \"LS-NPC-N3\""
+      },
+      "actorUuid": "Actor.zltELu4L5KcmScNG",
+      "verifiedAt": "2026-09-02T14:08:23.879Z",
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-N3.webp"
+    }
+  ],
+  "players": [
+    {
+      "id": "LS-PC-lihao",
+      "name": "李好",
+      "aliases": [
+        "李好"
+      ],
+      "create": false,
+      "actorId": "dVY3kCrHc0WYyKEa",
+      "actorUuid": "Actor.dVY3kCrHc0WYyKEa"
+    },
+    {
+      "id": "LS-PC-yuko",
+      "name": "黑崎欲子",
+      "aliases": [
+        "黑崎欲子",
+        "黑崎玉子",
+        "玉子"
+      ],
+      "create": false,
+      "actorId": "zmeMlq5pVbbqr1rA",
+      "actorUuid": "Actor.zmeMlq5pVbbqr1rA"
+    },
+    {
+      "id": "LS-PC-tangsuo",
+      "name": "唐索",
+      "aliases": [
+        "唐索"
+      ],
+      "create": false,
+      "actorId": "ELxrslbsSHQg0cmK",
+      "actorUuid": "Actor.ELxrslbsSHQg0cmK"
+    },
+    {
+      "id": "LS-PC-lei",
+      "name": "雷武龙",
+      "aliases": [
+        "雷武龙"
+      ],
+      "create": false,
+      "actorId": "j3f9G2P4vDSmmxZw",
+      "actorUuid": "Actor.j3f9G2P4vDSmmxZw"
+    },
+    {
+      "id": "LS-PC-kevlar",
+      "name": "凯芙拉·威尔森",
+      "aliases": [
+        "凯芙拉·威尔森",
+        "凯芙拉",
+        "武士萌萌香"
+      ],
+      "create": false,
+      "actorId": "vhpt4XZxZn59dWX5",
+      "actorUuid": "Actor.vhpt4XZxZn59dWX5"
+    },
+    {
+      "id": "LS-PC-arkan",
+      "name": "阿尔坎·希耶尔",
+      "aliases": [
+        "阿尔坎·希耶尔",
+        "阿尔坎"
+      ],
+      "create": false,
+      "actorId": "nJxWvLzZvBNXObjk",
+      "actorUuid": "Actor.nJxWvLzZvBNXObjk"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "taiyi-rel-4eff4d38c71335ec",
+      "sourceId": "LS-NPC-088",
+      "targetId": "LS-NPC-089",
+      "sourceRole": "堂姐",
+      "targetRole": "堂弟",
+      "bio": "沈漫与沈仲秋为堂姐弟。",
+      "evidenceStatus": "established",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "discussion/npc/关键NPC.md",
+        "line": 41,
+        "anchor": "堂弟**沈仲秋**"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-21b0da96fd81f653",
+      "sourceId": "LS-NPC-088",
+      "targetId": "LS-NPC-090",
+      "sourceRole": "法定监护人",
+      "targetRole": "被监护人",
+      "bio": "警局登记沈漫为阿瑶的法定监护人。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 60,
+        "anchor": "法定监护人"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-224cb868a0a92e9e",
+      "sourceId": "LS-NPC-089",
+      "targetId": "LS-NPC-090",
+      "sourceRole": "照看者",
+      "targetRole": "被照看者",
+      "bio": "S11 沈仲秋照看阿瑶并协助事务所搬迁。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 227,
+        "anchor": "照看阿瑶"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-b42f52f034a10266",
+      "sourceId": "LS-NPC-088",
+      "targetId": "LS-NPC-100",
+      "sourceRole": "老同学",
+      "targetRole": "老同学",
+      "bio": "沈漫与陈斌是中学时代的老同学。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 43,
+        "anchor": "沈曼初中/高中同学"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-0a104e1c03886aed",
+      "sourceId": "LS-NPC-100",
+      "targetId": "LS-NPC-095",
+      "sourceRole": "主治医生",
+      "targetRole": "义肢康复患者",
+      "bio": "陈斌负责萨布里娜的义肢医疗方案；S11 已进入康复阶段。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 43,
+        "anchor": "负责 Sabrina 义肢方案"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-cec7c626676c8201",
+      "sourceId": "LS-NPC-088",
+      "targetId": "LS-NPC-103",
+      "sourceRole": "好友",
+      "targetRole": "失踪好友",
+      "bio": "沈漫在 S11 提及失踪好友朱恒；不据此确认朱蘅身份或亲缘。",
+      "evidenceStatus": "played",
+      "delivery": "gm-journal",
+      "visibility": "gm",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 41,
+        "anchor": "| 朱恒（疑=朱蘅）"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-940e20882d8b289f",
+      "sourceId": "LS-NPC-100",
+      "targetId": "LS-NPC-103",
+      "sourceRole": "高中同学",
+      "targetRole": "高中同学",
+      "bio": "陈斌与沈漫、朱恒属于高中旧识；朱恒丈夫的身份不在本条确认。",
+      "evidenceStatus": "played",
+      "delivery": "gm-journal",
+      "visibility": "gm",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 263,
+        "anchor": "高中 F4"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-99e79f7c565edbbb",
+      "sourceId": "LS-PC-lihao",
+      "targetId": "LS-NPC-044",
+      "sourceRole": "分行下属",
+      "targetRole": "直接主管",
+      "bio": "陈志远是李好在龙散分行的直接上级。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 18,
+        "anchor": "李好的直接上级"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-8655a517a04a719b",
+      "sourceId": "LS-PC-lihao",
+      "targetId": "LS-NPC-046",
+      "sourceRole": "前同事",
+      "targetRole": "前同事",
+      "bio": "李好与何凌曾在江城分行共事；后续有审计与调查联络。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 19,
+        "anchor": "李好的前同事"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-409a2076c769399e",
+      "sourceId": "LS-PC-lihao",
+      "targetId": "LS-NPC-N3",
+      "sourceRole": "木签持有者",
+      "targetRole": "异常联系人",
+      "bio": "S7 棍木女在面馆外主动接触李好并赠予木签。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 106,
+        "anchor": "赠予木签护身符"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-3f6e8d195ad1ead6",
+      "sourceId": "LS-PC-lihao",
+      "targetId": "LS-NPC-037",
+      "sourceRole": "受托人",
+      "targetRole": "已故委托人",
+      "bio": "李好答应并完成传达白念秋姐姐托付的请求；白念秋已故。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 132,
+        "anchor": "你的事我没有不答应的理由"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-f52f9bef9d757e2f",
+      "sourceId": "LS-PC-lihao",
+      "targetId": "LS-NPC-095",
+      "sourceRole": "救助者",
+      "targetRole": "获救者",
+      "bio": "萨布里娜在码头事件中获李好救助，S11 当面向他道谢。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 274,
+        "anchor": "被李好挖出"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-5ba61e11e3dfc8ea",
+      "sourceId": "LS-PC-lihao",
+      "targetId": "LS-NPC-088",
+      "sourceRole": "照片托付对象／事务所同伴",
+      "targetRole": "照片托付者／事务所老板",
+      "bio": "沈漫在高铁上把阿瑶照片交给李好；后续共同参与事务所生活。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 25,
+        "anchor": "沈漫在高铁上"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-13def20c629b36c2",
+      "sourceId": "LS-PC-yuko",
+      "targetId": "LS-NPC-096",
+      "sourceRole": "曾受委托的执行者",
+      "targetRole": "接头人",
+      "bio": "照片委托经周凛接洽；S3 已取消，不再标为进行中的交易。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 26,
+        "anchor": "周凛已在 S3 取消委托"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-03297e6097033be6",
+      "sourceId": "LS-PC-tangsuo",
+      "targetId": "LS-NPC-096",
+      "sourceRole": "曾受委托的执行者",
+      "targetRole": "接头人",
+      "bio": "唐索参与周凛的照片委托；S3 已取消。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 26,
+        "anchor": "周凛已在 S3 取消委托"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-c78208c3281d1081",
+      "sourceId": "LS-PC-yuko",
+      "targetId": "LS-NPC-033",
+      "sourceRole": "司机旧识／受托人",
+      "targetRole": "司机旧识／委托人",
+      "bio": "S11 赵明芝代表司机方委托欲子追回冻结款；其余队友当时尚未正式入局。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 42,
+        "anchor": "与欲子在北环等单时相识"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-6d4349ab04827442",
+      "sourceId": "LS-PC-yuko",
+      "targetId": "LS-NPC-101",
+      "sourceRole": "夜宵摊新识",
+      "targetRole": "夜宵摊新识",
+      "bio": "欲子以阿玉自称结识梁文川并交换联系方式；不附加委托或内幕关系。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 44,
+        "anchor": "S10 欲子在夜宵摊"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-bdf4fa111f0a7bde",
+      "sourceId": "LS-PC-kevlar",
+      "targetId": "LS-NPC-095",
+      "sourceRole": "朋友／义肢协助者",
+      "targetRole": "朋友／康复者",
+      "bio": "凯芙拉与萨布里娜是朋友，S11 协助安装定制义肢与康复算法。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 31,
+        "anchor": "凯芙拉的巴西朋友"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-582e3de07a44f6cd",
+      "sourceId": "LS-PC-kevlar",
+      "targetId": "LS-NPC-065",
+      "sourceRole": "港口业务联系人",
+      "targetRole": "物流联系人",
+      "bio": "凯芙拉通过宋远的港口物流线参与码头事务。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 28,
+        "anchor": "凯芙拉通过宋远"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-e05869fbdd0a4756",
+      "sourceId": "LS-PC-arkan",
+      "targetId": "LS-NPC-006",
+      "sourceRole": "节点维修受托人",
+      "targetRole": "运维委托人",
+      "bio": "翟明珠委托阿尔坎修复楚钢相关节点。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 20,
+        "anchor": "委托阿尔坎修复楚钢节点"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-479172cbce9af87a",
+      "sourceId": "LS-PC-arkan",
+      "targetId": "LS-NPC-072",
+      "sourceRole": "TXT 联系对象",
+      "targetRole": "TXT 联系人",
+      "bio": "S.H. 在工云广场网吧通过 TXT 联系阿尔坎与凯芙拉。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 35,
+        "anchor": "以 TXT 方式在工云广场网吧"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-1082e6e174da72f6",
+      "sourceId": "LS-PC-kevlar",
+      "targetId": "LS-NPC-072",
+      "sourceRole": "TXT 联系对象",
+      "targetRole": "TXT 联系人",
+      "bio": "S.H. 在工云广场网吧通过 TXT 联系凯芙拉与阿尔坎。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 35,
+        "anchor": "以 TXT 方式在工云广场网吧"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-522a2edb4b3091ac",
+      "sourceId": "LS-PC-arkan",
+      "targetId": "LS-NPC-061",
+      "sourceRole": "诊所接点",
+      "targetRole": "神经接口校准技师",
+      "bio": "S1 月下诊所是双方交集中的接点；不额外推定手术、师承或秘密归属。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 21,
+        "anchor": "S1 中是阿尔坎、雷武龙、唐索发生交集的节点"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-bcb101f1081ad140",
+      "sourceId": "LS-PC-lei",
+      "targetId": "LS-NPC-061",
+      "sourceRole": "诊所接点",
+      "targetRole": "神经接口校准技师",
+      "bio": "S1 月下诊所是双方交集中的接点；不额外推定手术、师承或秘密归属。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 21,
+        "anchor": "S1 中是阿尔坎、雷武龙、唐索发生交集的节点"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-00d1fa01d50dac2e",
+      "sourceId": "LS-PC-tangsuo",
+      "targetId": "LS-NPC-061",
+      "sourceRole": "诊所接点",
+      "targetRole": "神经接口校准技师",
+      "bio": "S1 月下诊所是双方交集中的接点；不额外推定手术、师承或秘密归属。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 21,
+        "anchor": "S1 中是阿尔坎、雷武龙、唐索发生交集的节点"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-632ec08c50f397a0",
+      "sourceId": "LS-PC-lihao",
+      "targetId": "LS-NPC-090",
+      "sourceRole": "生命绑定同伴",
+      "targetRole": "生命绑定同伴",
+      "bio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 32,
+        "anchor": "生命绑定、世界规则、数据因子概念"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-a1e47f392adf346d",
+      "sourceId": "LS-PC-yuko",
+      "targetId": "LS-NPC-090",
+      "sourceRole": "生命绑定同伴",
+      "targetRole": "生命绑定同伴",
+      "bio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 32,
+        "anchor": "生命绑定、世界规则、数据因子概念"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-ed0cb5fbf46742f3",
+      "sourceId": "LS-PC-tangsuo",
+      "targetId": "LS-NPC-090",
+      "sourceRole": "生命绑定同伴",
+      "targetRole": "生命绑定同伴",
+      "bio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 32,
+        "anchor": "生命绑定、世界规则、数据因子概念"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-5e56dd793f2e33f8",
+      "sourceId": "LS-PC-lei",
+      "targetId": "LS-NPC-090",
+      "sourceRole": "生命绑定同伴",
+      "targetRole": "生命绑定同伴",
+      "bio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 32,
+        "anchor": "生命绑定、世界规则、数据因子概念"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-714c678d3384501f",
+      "sourceId": "LS-PC-kevlar",
+      "targetId": "LS-NPC-090",
+      "sourceRole": "生命绑定同伴",
+      "targetRole": "生命绑定同伴",
+      "bio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 32,
+        "anchor": "生命绑定、世界规则、数据因子概念"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-003e53c31f2be4c8",
+      "sourceId": "LS-PC-arkan",
+      "targetId": "LS-NPC-090",
+      "sourceRole": "生命绑定同伴",
+      "targetRole": "生命绑定同伴",
+      "bio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。",
+      "evidenceStatus": "played",
+      "delivery": "tracker",
+      "visibility": "players",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 32,
+        "anchor": "生命绑定、世界规则、数据因子概念"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-46b106c8371e321c",
+      "sourceId": "LS-NPC-N3",
+      "targetId": "LS-NPC-069",
+      "sourceRole": "被掩护的测量者",
+      "targetRole": "外围联络与掩护者",
+      "bio": "贺梦琪为闻笙提供外围联络与现实生活掩护；尚未向玩家揭露。",
+      "evidenceStatus": "gm-established",
+      "delivery": "gm-journal",
+      "visibility": "gm",
+      "source": {
+        "file": "discussion/npc/帮派黑道.md",
+        "line": 52,
+        "anchor": "闻笙的外围联络人与现实生活掩护"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-da0884e53a40bf18",
+      "sourceId": "LS-NPC-N3",
+      "targetId": "LS-NPC-070",
+      "sourceRole": "后辈／测量者",
+      "targetRole": "木签制作前辈",
+      "bio": "老井教闻笙制作与回收木签；尚未向玩家揭露。",
+      "evidenceStatus": "gm-established",
+      "delivery": "gm-journal",
+      "visibility": "gm",
+      "source": {
+        "file": "discussion/npc/帮派黑道.md",
+        "line": 53,
+        "anchor": "教她制作与回收木签的前辈"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-8e2c5c32cefeb223",
+      "sourceId": "LS-NPC-080",
+      "targetId": "LS-NPC-090",
+      "sourceRole": "父亲（GM设定）",
+      "targetRole": "女儿（GM设定）",
+      "bio": "既有设定中朱见微为阿瑶父亲；不借此认定失踪者朱恒的身份。",
+      "evidenceStatus": "gm-established",
+      "delivery": "gm-journal",
+      "visibility": "gm",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 40,
+        "anchor": "阿瑶父亲，ARP"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-b95bcbff18fcc853",
+      "sourceId": "LS-PC-lihao",
+      "targetId": "LS-NPC-091",
+      "sourceRole": "短租住客",
+      "targetRole": "公寓前台",
+      "bio": "既有人物稿将林彬作为李好临时住所的前台接点；实跑接触细节未复核。",
+      "evidenceStatus": "established",
+      "delivery": "gm-journal",
+      "visibility": "gm",
+      "source": {
+        "file": "discussion/npc/日常接点.md",
+        "line": 9,
+        "anchor": "李好的临时住所所在楼"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-3cc1e3f92fdc2fa9",
+      "sourceId": "LS-PC-yuko",
+      "targetId": "LS-NPC-092",
+      "sourceRole": "茶馆常客",
+      "targetRole": "茶馆老板娘",
+      "bio": "既有人物稿中的固定角落桌与长期默契；不宣称为已核对的实跑事件。",
+      "evidenceStatus": "established",
+      "delivery": "gm-journal",
+      "visibility": "gm",
+      "source": {
+        "file": "discussion/npc/日常接点.md",
+        "line": 27,
+        "anchor": "欲子在这里有一张固定的角落桌"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-6254f28bf5154ed3",
+      "sourceId": "LS-PC-kevlar",
+      "targetId": "LS-NPC-093",
+      "sourceRole": "维修合作方",
+      "targetRole": "稳定维修委托方",
+      "bio": "既有人物稿中的维修委托关系。",
+      "evidenceStatus": "established",
+      "delivery": "gm-journal",
+      "visibility": "gm",
+      "source": {
+        "file": "discussion/npc/日常接点.md",
+        "line": 43,
+        "anchor": "他是她在龙散最稳定的收入来源"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-82eda07f2666e218",
+      "sourceId": "LS-PC-lei",
+      "targetId": "LS-NPC-094",
+      "sourceRole": "拳场拳手",
+      "targetRole": "拳场场务",
+      "bio": "既有人物稿中杨振邦熟悉并看好雷武龙。",
+      "evidenceStatus": "established",
+      "delivery": "gm-journal",
+      "visibility": "gm",
+      "source": {
+        "file": "discussion/npc/日常接点.md",
+        "line": 55,
+        "anchor": "他对雷武龙的态度"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    },
+    {
+      "id": "taiyi-rel-82ad50d1622def03",
+      "sourceId": "LS-PC-yuko",
+      "targetId": "LS-NPC-056",
+      "sourceRole": "街面合作方",
+      "targetRole": "帮派旧相识",
+      "bio": "既有人物稿中双方按次结算、互不欠账的旧合作。",
+      "evidenceStatus": "established",
+      "delivery": "gm-journal",
+      "visibility": "gm",
+      "source": {
+        "file": "discussion/npc/帮派黑道.md",
+        "line": 15,
+        "anchor": "两人是旧相识"
+      },
+      "numericalProgress": "unrated",
+      "createReciprocal": true
+    }
+  ],
+  "organizations": [
+    {
+      "id": "taiyi-org-LS-NPC-001",
+      "sourceId": "LS-NPC-001",
+      "name": "重黎工业",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 20,
+        "anchor": "\"id\": \"LS-NPC-001\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-002",
+      "sourceId": "LS-NPC-002",
+      "name": "重黎工业",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 42,
+        "anchor": "\"id\": \"LS-NPC-002\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-003",
+      "sourceId": "LS-NPC-003",
+      "name": "重黎工业",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 64,
+        "anchor": "\"id\": \"LS-NPC-003\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-004",
+      "sourceId": "LS-NPC-004",
+      "name": "重黎工业焰卫",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 86,
+        "anchor": "\"id\": \"LS-NPC-004\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-005",
+      "sourceId": "LS-NPC-005",
+      "name": "重黎工业",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 108,
+        "anchor": "\"id\": \"LS-NPC-005\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-006",
+      "sourceId": "LS-NPC-006",
+      "name": "云梦科技",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 130,
+        "anchor": "\"id\": \"LS-NPC-006\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-008",
+      "sourceId": "LS-NPC-008",
+      "name": "云梦科技",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 152,
+        "anchor": "\"id\": \"LS-NPC-008\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-009",
+      "sourceId": "LS-NPC-009",
+      "name": "云梦科技",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 174,
+        "anchor": "\"id\": \"LS-NPC-009\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-011",
+      "sourceId": "LS-NPC-011",
+      "name": "河图科技",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 196,
+        "anchor": "\"id\": \"LS-NPC-011\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-012",
+      "sourceId": "LS-NPC-012",
+      "name": "河图科技",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 218,
+        "anchor": "\"id\": \"LS-NPC-012\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-013",
+      "sourceId": "LS-NPC-013",
+      "name": "河图科技",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 240,
+        "anchor": "\"id\": \"LS-NPC-013\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-014",
+      "sourceId": "LS-NPC-014",
+      "name": "飞廉速运",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 262,
+        "anchor": "\"id\": \"LS-NPC-014\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-015",
+      "sourceId": "LS-NPC-015",
+      "name": "飞廉速运",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 284,
+        "anchor": "\"id\": \"LS-NPC-015\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-017",
+      "sourceId": "LS-NPC-017",
+      "name": "燧明科技",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 306,
+        "anchor": "\"id\": \"LS-NPC-017\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-018",
+      "sourceId": "LS-NPC-018",
+      "name": "燧明科技",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 328,
+        "anchor": "\"id\": \"LS-NPC-018\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-019",
+      "sourceId": "LS-NPC-019",
+      "name": "燧明科技",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 350,
+        "anchor": "\"id\": \"LS-NPC-019\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-021",
+      "sourceId": "LS-NPC-021",
+      "name": "丰隆工业",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 372,
+        "anchor": "\"id\": \"LS-NPC-021\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-022",
+      "sourceId": "LS-NPC-022",
+      "name": "丰隆工业",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 394,
+        "anchor": "\"id\": \"LS-NPC-022\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-024",
+      "sourceId": "LS-NPC-024",
+      "name": "丰隆工业",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 416,
+        "anchor": "\"id\": \"LS-NPC-024\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-025",
+      "sourceId": "LS-NPC-025",
+      "name": "九渊建设",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 438,
+        "anchor": "\"id\": \"LS-NPC-025\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-026",
+      "sourceId": "LS-NPC-026",
+      "name": "九渊建设",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 460,
+        "anchor": "\"id\": \"LS-NPC-026\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-027",
+      "sourceId": "LS-NPC-027",
+      "name": "九渊建设",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 482,
+        "anchor": "\"id\": \"LS-NPC-027\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-029",
+      "sourceId": "LS-NPC-029",
+      "name": "龙腾轨交",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 504,
+        "anchor": "\"id\": \"LS-NPC-029\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-030",
+      "sourceId": "LS-NPC-030",
+      "name": "龙腾轨交",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 526,
+        "anchor": "\"id\": \"LS-NPC-030\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-031",
+      "sourceId": "LS-NPC-031",
+      "name": "龙腾轨交",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 548,
+        "anchor": "\"id\": \"LS-NPC-031\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-033",
+      "sourceId": "LS-NPC-033",
+      "name": "追风出行",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 570,
+        "anchor": "\"id\": \"LS-NPC-033\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-034",
+      "sourceId": "LS-NPC-034",
+      "name": "追风出行",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 592,
+        "anchor": "\"id\": \"LS-NPC-034\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-035",
+      "sourceId": "LS-NPC-035",
+      "name": "追风出行",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 614,
+        "anchor": "\"id\": \"LS-NPC-035\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-037",
+      "sourceId": "LS-NPC-037",
+      "name": "楚风传媒",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 636,
+        "anchor": "\"id\": \"LS-NPC-037\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-038",
+      "sourceId": "LS-NPC-038",
+      "name": "楚风传媒",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 658,
+        "anchor": "\"id\": \"LS-NPC-038\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-039",
+      "sourceId": "LS-NPC-039",
+      "name": "楚风传媒",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 680,
+        "anchor": "\"id\": \"LS-NPC-039\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-040",
+      "sourceId": "LS-NPC-040",
+      "name": "楚风传媒",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 702,
+        "anchor": "\"id\": \"LS-NPC-040\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-041",
+      "sourceId": "LS-NPC-041",
+      "name": "云鲤互娱",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 724,
+        "anchor": "\"id\": \"LS-NPC-041\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-043",
+      "sourceId": "LS-NPC-043",
+      "name": "云鲤互娱",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 746,
+        "anchor": "\"id\": \"LS-NPC-043\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-044",
+      "sourceId": "LS-NPC-044",
+      "name": "引资银行",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 768,
+        "anchor": "\"id\": \"LS-NPC-044\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-045",
+      "sourceId": "LS-NPC-045",
+      "name": "引资银行",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 790,
+        "anchor": "\"id\": \"LS-NPC-045\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-046",
+      "sourceId": "LS-NPC-046",
+      "name": "引资银行",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 812,
+        "anchor": "\"id\": \"LS-NPC-046\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-048",
+      "sourceId": "LS-NPC-048",
+      "name": "引资银行",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 834,
+        "anchor": "\"id\": \"LS-NPC-048\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-049",
+      "sourceId": "LS-NPC-049",
+      "name": "玄盾国际",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 856,
+        "anchor": "\"id\": \"LS-NPC-049\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-050",
+      "sourceId": "LS-NPC-050",
+      "name": "玄盾国际",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 878,
+        "anchor": "\"id\": \"LS-NPC-050\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-051",
+      "sourceId": "LS-NPC-051",
+      "name": "玄盾国际",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 900,
+        "anchor": "\"id\": \"LS-NPC-051\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-052",
+      "sourceId": "LS-NPC-052",
+      "name": "玄盾国际",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 922,
+        "anchor": "\"id\": \"LS-NPC-052\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-053",
+      "sourceId": "LS-NPC-053",
+      "name": "玄盾国际",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 944,
+        "anchor": "\"id\": \"LS-NPC-053\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-054",
+      "sourceId": "LS-NPC-054",
+      "name": "玄盾国际",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 966,
+        "anchor": "\"id\": \"LS-NPC-054\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-055",
+      "sourceId": "LS-NPC-055",
+      "name": "玄盾国际",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 988,
+        "anchor": "\"id\": \"LS-NPC-055\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-056",
+      "sourceId": "LS-NPC-056",
+      "name": "义胜盟",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1010,
+        "anchor": "\"id\": \"LS-NPC-056\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-057",
+      "sourceId": "LS-NPC-057",
+      "name": "义胜盟",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1032,
+        "anchor": "\"id\": \"LS-NPC-057\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-058",
+      "sourceId": "LS-NPC-058",
+      "name": "义胜盟",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1054,
+        "anchor": "\"id\": \"LS-NPC-058\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-059",
+      "sourceId": "LS-NPC-059",
+      "name": "义胜盟剑阁",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1076,
+        "anchor": "\"id\": \"LS-NPC-059\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-060",
+      "sourceId": "LS-NPC-060",
+      "name": "义胜盟剑阁",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1098,
+        "anchor": "\"id\": \"LS-NPC-060\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-061",
+      "sourceId": "LS-NPC-061",
+      "name": "霜月会",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1120,
+        "anchor": "\"id\": \"LS-NPC-061\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-062",
+      "sourceId": "LS-NPC-062",
+      "name": "霜月会影手组",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1142,
+        "anchor": "\"id\": \"LS-NPC-062\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-063",
+      "sourceId": "LS-NPC-063",
+      "name": "霜月会三人众",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1164,
+        "anchor": "\"id\": \"LS-NPC-063\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-065",
+      "sourceId": "LS-NPC-065",
+      "name": "阿奎拉家族",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1186,
+        "anchor": "\"id\": \"LS-NPC-065\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-066",
+      "sourceId": "LS-NPC-066",
+      "name": "阿奎拉家族",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1208,
+        "anchor": "\"id\": \"LS-NPC-066\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-067",
+      "sourceId": "LS-NPC-067",
+      "name": "阿奎拉家族军团",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1230,
+        "anchor": "\"id\": \"LS-NPC-067\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-068",
+      "sourceId": "LS-NPC-068",
+      "name": "阿奎拉神选小队",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1252,
+        "anchor": "\"id\": \"LS-NPC-068\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-069",
+      "sourceId": "LS-NPC-069",
+      "name": "棍木会外围",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1274,
+        "anchor": "\"id\": \"LS-NPC-069\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-070",
+      "sourceId": "LS-NPC-070",
+      "name": "棍木会",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1296,
+        "anchor": "\"id\": \"LS-NPC-070\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-072",
+      "sourceId": "LS-NPC-072",
+      "name": "卜府离叛者",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1318,
+        "anchor": "\"id\": \"LS-NPC-072\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-073",
+      "sourceId": "LS-NPC-073",
+      "name": "卜府",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1340,
+        "anchor": "\"id\": \"LS-NPC-073\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-074",
+      "sourceId": "LS-NPC-074",
+      "name": "卜府",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1362,
+        "anchor": "\"id\": \"LS-NPC-074\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-075",
+      "sourceId": "LS-NPC-075",
+      "name": "卜府",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1384,
+        "anchor": "\"id\": \"LS-NPC-075\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-076",
+      "sourceId": "LS-NPC-076",
+      "name": "卜府",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1406,
+        "anchor": "\"id\": \"LS-NPC-076\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-077",
+      "sourceId": "LS-NPC-077",
+      "name": "旧城管委会",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1428,
+        "anchor": "\"id\": \"LS-NPC-077\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-078",
+      "sourceId": "LS-NPC-078",
+      "name": "旧城管委会",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1450,
+        "anchor": "\"id\": \"LS-NPC-078\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-079",
+      "sourceId": "LS-NPC-079",
+      "name": "旧城管委会",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1472,
+        "anchor": "\"id\": \"LS-NPC-079\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-080",
+      "sourceId": "LS-NPC-080",
+      "name": "龙散大学",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1494,
+        "anchor": "\"id\": \"LS-NPC-080\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-081",
+      "sourceId": "LS-NPC-081",
+      "name": "龙散大学",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1516,
+        "anchor": "\"id\": \"LS-NPC-081\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-082",
+      "sourceId": "LS-NPC-082",
+      "name": "龙散大学",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1538,
+        "anchor": "\"id\": \"LS-NPC-082\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-083",
+      "sourceId": "LS-NPC-083",
+      "name": "龙散财大",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1560,
+        "anchor": "\"id\": \"LS-NPC-083\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-085",
+      "sourceId": "LS-NPC-085",
+      "name": "21-35所",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1582,
+        "anchor": "\"id\": \"LS-NPC-085\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-086",
+      "sourceId": "LS-NPC-086",
+      "name": "21-35所",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1604,
+        "anchor": "\"id\": \"LS-NPC-086\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-088",
+      "sourceId": "LS-NPC-088",
+      "name": "随缘事务所",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1626,
+        "anchor": "\"id\": \"LS-NPC-088\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-089",
+      "sourceId": "LS-NPC-089",
+      "name": "随缘事务所",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1655,
+        "anchor": "\"id\": \"LS-NPC-089\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-090",
+      "sourceId": "LS-NPC-090",
+      "name": "随缘事务所",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1677,
+        "anchor": "\"id\": \"LS-NPC-090\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-091",
+      "sourceId": "LS-NPC-091",
+      "name": "日常接点",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1699,
+        "anchor": "\"id\": \"LS-NPC-091\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-092",
+      "sourceId": "LS-NPC-092",
+      "name": "日常接点",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1721,
+        "anchor": "\"id\": \"LS-NPC-092\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-093",
+      "sourceId": "LS-NPC-093",
+      "name": "日常接点",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1743,
+        "anchor": "\"id\": \"LS-NPC-093\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-094",
+      "sourceId": "LS-NPC-094",
+      "name": "日常接点",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1765,
+        "anchor": "\"id\": \"LS-NPC-094\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-095",
+      "sourceId": "LS-NPC-095",
+      "name": "日常接点",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1787,
+        "anchor": "\"id\": \"LS-NPC-095\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-096",
+      "sourceId": "LS-NPC-096",
+      "name": "自由人",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1809,
+        "anchor": "\"id\": \"LS-NPC-096\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-098",
+      "sourceId": "LS-NPC-098",
+      "name": "自由人",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1831,
+        "anchor": "\"id\": \"LS-NPC-098\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-100",
+      "sourceId": "LS-NPC-100",
+      "name": "自由人",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1853,
+        "anchor": "\"id\": \"LS-NPC-100\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-101",
+      "sourceId": "LS-NPC-101",
+      "name": "自由人",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1875,
+        "anchor": "\"id\": \"LS-NPC-101\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-103",
+      "sourceId": "LS-NPC-103",
+      "name": "失踪者",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1897,
+        "anchor": "\"id\": \"LS-NPC-103\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-104",
+      "sourceId": "LS-NPC-104",
+      "name": "云鲤互娱",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1919,
+        "anchor": "\"id\": \"LS-NPC-104\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-105",
+      "sourceId": "LS-NPC-105",
+      "name": "霜月会",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1941,
+        "anchor": "\"id\": \"LS-NPC-105\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-106",
+      "sourceId": "LS-NPC-106",
+      "name": "兔子洞",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1963,
+        "anchor": "\"id\": \"LS-NPC-106\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-107",
+      "sourceId": "LS-NPC-107",
+      "name": "杀猪盘核心",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 1985,
+        "anchor": "\"id\": \"LS-NPC-107\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-N1",
+      "sourceId": "LS-NPC-N1",
+      "name": "莲花路派出所",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 2007,
+        "anchor": "\"id\": \"LS-NPC-N1\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-N2",
+      "sourceId": "LS-NPC-N2",
+      "name": "故城区中学",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 2029,
+        "anchor": "\"id\": \"LS-NPC-N2\""
+      }
+    },
+    {
+      "id": "taiyi-org-LS-NPC-N3",
+      "sourceId": "LS-NPC-N3",
+      "name": "棍木会",
+      "evidenceStatus": "registry-role",
+      "delivery": "gm-journal",
+      "note": "归档组织／用途，不推导彼此相识，不代表当前公开身份",
+      "source": {
+        "file": "discussion/npc/立绘生产/control/portrait-master.json",
+        "line": 2051,
+        "anchor": "\"id\": \"LS-NPC-N3\""
+      }
+    }
+  ],
+  "proposals": [
+    {
+      "pair": "苗铁城—苗可栗",
+      "type": "父女",
+      "note": "企业秘密与家庭保护发生直接冲突",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 143,
+        "anchor": "苗铁城—苗可栗"
+      }
+    },
+    {
+      "pair": "单小鹿—苏小晚",
+      "type": "老朋友",
+      "note": "平台调度与司机互助网之间可以传递消息，也会互相隐瞒",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 144,
+        "anchor": "单小鹿—苏小晚"
+      }
+    },
+    {
+      "pair": "甘采蓝—陈斌",
+      "type": "前医院同事",
+      "note": "医疗伦理、义体康复与企业销售三线自然相接",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 145,
+        "anchor": "甘采蓝—陈斌"
+      }
+    },
+    {
+      "pair": "甘棠—老井",
+      "type": "疏远的前师徒",
+      "note": "对旧工程事故各自承担不同版本的愧疚",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 146,
+        "anchor": "甘棠—老井"
+      }
+    },
+    {
+      "pair": "曲阿七—夏满弓",
+      "type": "灰色合作伙伴",
+      "note": "一个卖渠道，一个买路线；关系基于互用而非忠诚",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 147,
+        "anchor": "曲阿七—夏满弓"
+      }
+    },
+    {
+      "pair": "何问舟—秦有邻",
+      "type": "长期甲乙方／对手",
+      "note": "文艺表达与官方舆情控制反复拉扯",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 148,
+        "anchor": "何问舟—秦有邻"
+      }
+    },
+    {
+      "pair": "顾全有—于正清",
+      "type": "大学老同学",
+      "note": "企业效率与公共责任的温和但持久冲突",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 149,
+        "anchor": "顾全有—于正清"
+      }
+    },
+    {
+      "pair": "柳拂衣—巫明烛",
+      "type": "职业敌手",
+      "note": "双方尊重彼此能力，但目标不相容",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 150,
+        "anchor": "柳拂衣—巫明烛"
+      }
+    },
+    {
+      "pair": "纪慎微—罗鸣谦",
+      "type": "前同事、理念决裂",
+      "note": "两种“依法处理异常”的路线形成可讨论的对照",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 151,
+        "anchor": "纪慎微—罗鸣谦"
+      }
+    },
+    {
+      "pair": "凌渡—翟明珠",
+      "type": "旧项目合作者",
+      "note": "研究原型与商用系统之间存在责任归属问题",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 152,
+        "anchor": "凌渡—翟明珠"
+      }
+    },
+    {
+      "pair": "白鸢—艾德礼",
+      "type": "同僚、彼此尊重",
+      "note": "同样正直，却对服从和保护的优先级有不同答案",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 153,
+        "anchor": "白鸢—艾德礼"
+      }
+    },
+    {
+      "pair": "周清梅—苗铁城",
+      "type": "旧维修圈同业、互欠人情",
+      "note": "一个经营退役设备回收，一个维护重黎旧产线；失控机器出现时，两人会先争论“修好”还是“报废”",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 159,
+        "anchor": "周清梅—苗铁城"
+      }
+    },
+    {
+      "pair": "田进财—赵明芝",
+      "type": "跨平台互助组织的老朋友",
+      "note": "飞廉骑手与追风司机可以交换封路、欠薪和平台封号消息，但不会替对方组织承担风险",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 160,
+        "anchor": "田进财—赵明芝"
+      }
+    },
+    {
+      "pair": "霍云骧—白鸢",
+      "type": "装备交接的固定对口",
+      "note": "霍云骧坚持把“幽灵编队”写入交接记录，白鸢必须在如实上报与维持部署之间选择",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 161,
+        "anchor": "霍云骧—白鸢"
+      }
+    },
+    {
+      "pair": "卓近火—苏碧城",
+      "type": "产学合作中的旧项目搭档",
+      "note": "两人分别掌握芯片工程与神经生物的一半证据；彼此合作才能接近真相，也会把对方置于危险中",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 162,
+        "anchor": "卓近火—苏碧城"
+      }
+    },
+    {
+      "pair": "纪清商—冯宁汐",
+      "type": "前甲乙方、仍会私下求助",
+      "note": "楚风的虚拟偶像曾与云鲤项目联动；异常文本跨平台出现时，她们会怀疑是不是对方泄露了素材",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 163,
+        "anchor": "纪清商—冯宁汐"
+      }
+    },
+    {
+      "pair": "何夜白—甘采蓝",
+      "type": "医疗转介同行、方法分歧",
+      "note": "甘采蓝把棘手的接口患者介绍给月下诊所；何夜白愿意处理，却反感她仍替大企业销售受限设备",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 164,
+        "anchor": "何夜白—甘采蓝"
+      }
+    },
+    {
+      "pair": "贺梦琪—阿岛俊",
+      "type": "线下活动合作伙伴",
+      "note": "阿岛俊给体验馆导流，贺梦琪则会暗中拦下明显针对未成年人的招募名单",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 165,
+        "anchor": "贺梦琪—阿岛俊"
+      }
+    },
+    {
+      "pair": "金舸—闵三元",
+      "type": "对手型债务中间人",
+      "note": "两人曾为同一名欠债商户谈过一次延期；都懂现金流，但一个守银行规则，一个守江湖账本",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 166,
+        "anchor": "金舸—闵三元"
+      }
+    },
+    {
+      "pair": "陆文青—萨布里娜",
+      "type": "义体方案销售与康复使用者",
+      "note": "陆文青曾参与前期方案报价；萨布里娜会迫使他面对参数、价格之外的真实生活代价",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 167,
+        "anchor": "陆文青—萨布里娜"
+      }
+    },
+    {
+      "pair": "杜若—甘棠",
+      "type": "前实习生与档案室指导人",
+      "note": "甘棠教过杜若如何读地下工程旧图；杜若加入未名会后开始隐瞒用途，使这段师生关系产生裂缝",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 168,
+        "anchor": "杜若—甘棠"
+      }
+    },
+    {
+      "pair": "周敏—林彬",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 126,
+        "anchor": "与林彬是经常核实住客信息"
+      }
+    },
+    {
+      "pair": "程雯—于正清",
+      "decision": "hold-proposal",
+      "source": {
+        "file": "discussion/npc/NPC最终意见版.md",
+        "line": 134,
+        "anchor": "与于正清是大学老同学"
+      }
+    }
+  ],
+  "supplemental": [
+    {
+      "name": "尼索科托夫",
+      "decision": "check-existing-merchant",
+      "image": "discussion/npc/尼索科托夫.webp",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 254,
+        "anchor": "**尼索科托夫先生**"
+      }
+    },
+    {
+      "name": "李文亚",
+      "decision": "archival-existing-only-until-image-found",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 251,
+        "anchor": "**李文亚教授**"
+      }
+    },
+    {
+      "name": "苏志国",
+      "decision": "archival-existing-only-until-image-found",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 167,
+        "anchor": "名字苏志国"
+      }
+    },
+    {
+      "name": "黑骑士",
+      "decision": "encounter-entity-check-existing",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 82,
+        "anchor": "| 黑骑士 |"
+      }
+    },
+    {
+      "name": "死灵术士",
+      "decision": "encounter-entity-check-existing",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 34,
+        "anchor": "| 死灵术士 |"
+      }
+    },
+    {
+      "name": "交管7号",
+      "decision": "chapter-design-no-premature-reveal",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 220,
+        "anchor": "交管7号"
+      }
+    }
+  ],
+  "retired": [
+    {
+      "id": "LS-NPC-097",
+      "name": "老王头",
+      "decision": "preserve-existing-do-not-recreate"
+    },
+    {
+      "id": "LS-NPC-099",
+      "name": "刘大妈",
+      "decision": "preserve-existing-do-not-recreate"
+    },
+    {
+      "id": "LS-NPC-102",
+      "name": "白芷秋",
+      "decision": "preserve-existing-do-not-recreate"
+    }
+  ],
+  "sourceHashes": {
+    "discussion/npc/立绘生产/control/portrait-master.json": "cbfbfaf9d1de0ff5d77ba583926a873a5f717b5bbba49dedc274d68e1149a7b7",
+    "discussion/npc/关键NPC.md": "9e2c7702f43642596548ad3d30d621981cbe01a2ae2ba871df4ddeb41d156efb",
+    "records/memory/campaign-state.md": "068073e87172fdd6ab9992ee4d48e0bec9be759144f08fd4c3f8babcc8ee70b1",
+    "records/memory/entities.md": "4b9bf2516f024d240a85271dee13179eb3970e19aa2518c3cecf288fe2cc3b4d",
+    "discussion/npc/帮派黑道.md": "903198fdfbc123b31b88e595c4fc97a87f6a51804b27d23eefe6c7a39ad7b7b1",
+    "discussion/npc/日常接点.md": "29cf348071325ea516ffd8a7dbf35f3adb3412c914d7e400f7ae0ab52221d9bf",
+    "discussion/npc/NPC最终意见版.md": "13f396c324c84bc47b8fcaa0da6a7718ab365539ac54462de11547fc21edcf27"
+  },
+  "guardrails": {
+    "preserveSystem": true,
+    "preserveItems": true,
+    "preserveEffects": true,
+    "preserveOwnership": true,
+    "preserveSceneTokens": true,
+    "defaultOwnership": 0,
+    "noNewStatistics": true,
+    "noRankTriggers": true
+  },
+  "presentationRefreshedAt": "2026-09-02T15:11:02.327Z",
+  "presentationOverrides": "discussion/npc/fvtt/presentation-overrides.json"
+}

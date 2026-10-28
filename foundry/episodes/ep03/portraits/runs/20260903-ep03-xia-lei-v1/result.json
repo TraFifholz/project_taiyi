@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260903-ep03-xia-lei-v1",
+  "characterId": "EP03-XIA-LEI",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "9fb458",
+  "apiSeed": 402997849,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "4408ded599501eeeaf07b4a6f2881a530b20658a5078517201f2feb0b3660cc0",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-03T15:33:17.302Z"
+}

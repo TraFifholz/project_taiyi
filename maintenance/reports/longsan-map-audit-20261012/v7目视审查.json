@@ -1,0 +1,355 @@
+{
+  "version": "v7",
+  "review_round": "first_full_city_render",
+  "review_date": "2026-10-12",
+  "reviewer": "final_art_review independent subagent",
+  "review_status": "requires_art_revision",
+  "status_boundary": {
+    "candidate_available_for_review": true,
+    "art_complete": false,
+    "user_adopted": false,
+    "geographic_and_topological_full_validation_by_this_review": false
+  },
+  "input_svg_sha256": {
+    "龙散市-基础底图.svg": "ee0707e466a5ffb6ce2d868d84fbea57618ac8bcfbc52b2324533942c6e513d8",
+    "龙散市-底图与地铁.svg": "b533012b81593c506966b733989b150d236ac4c6f925c6444b59041c5f40c37e"
+  },
+  "data_sha256": {
+    "路网.geojson": "33d43b92f95c0ee49883cf6c6c778bbf770bca83127fa6a096c1815d53aa8141",
+    "建筑.geojson": "0a6b08395ef672f5ae7a40e138ac7367665da311f3c0f1826b3e5be46bf4d974"
+  },
+  "reviewed_images": [
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/龙散市-全图.png",
+      "sha256": "e62ac354a0f29527cf773e36f91e46aa102f5608a360c031abc04de0962ce8b4",
+      "window_km": null,
+      "binding": "v7 frozen SVG above"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/楚岸-新.png",
+      "sha256": "3c1f79895de46f545f65e7e0139e93556c2ef5b7c4daa9defecac3bf87203d6f",
+      "window_km": [
+        15.5,
+        14.3,
+        19.5,
+        18.3
+      ],
+      "binding": "v7 frozen SVG above"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/楚岸街坊-新.png",
+      "sha256": "fe5c6909f45d4beaa148f57c00a82fb7af2d4f4aa5634a22a12aa44e677a5362",
+      "window_km": [
+        16.7,
+        15.2,
+        18.4,
+        17.0
+      ],
+      "binding": "v7 frozen SVG above"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/故城-新.png",
+      "sha256": "0b0b401c7680788440827ba9d809d55baaa6dbd1d293266d0a552c336251ec96",
+      "window_km": [
+        26.6,
+        21.1,
+        30.6,
+        25.1
+      ],
+      "binding": "v7 frozen SVG above"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/深中-新.png",
+      "sha256": "2e53ccdfb465f425878a77e3fce907e5b6053759eb24585718a95340f465085c",
+      "window_km": [
+        20.7,
+        17,
+        24.7,
+        21
+      ],
+      "binding": "v7 frozen SVG above"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/铁山-新.png",
+      "sha256": "226d4ddd6ae31ad1ec1f3005fe2b113797eae0d9538f19eac3a4413a9b901605",
+      "window_km": [
+        38.7,
+        22,
+        41.7,
+        25
+      ],
+      "binding": "v7 frozen SVG above"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/城西边缘-新.png",
+      "sha256": "d20f7583da48e79e87bc9757b939cda7f7156b399bfa46369467e2a13cddec9d",
+      "window_km": [
+        5.3,
+        17,
+        12.8,
+        22
+      ],
+      "binding": "v7 frozen SVG above"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/文星-新.png",
+      "sha256": "4e3b4079590ea2bbc04756cfb7565f9f3c1a05ef684a1a52e506791fc193ee45",
+      "window_km": [
+        11.7,
+        15.5,
+        15.7,
+        19.5
+      ],
+      "binding": "v7 frozen SVG above"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/北岭-新.png",
+      "sha256": "e88a5cf363e94731f70cec954358677701876083342cf7ec08e39e0b2da0e81e",
+      "window_km": [
+        29.6,
+        7.5,
+        31.9,
+        9.3
+      ],
+      "binding": "v7 frozen SVG above"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/楚岸-旧.png",
+      "sha256": "c223e32f8f9f6e3122e027d9208f7f0a0265d62475f54ac3c7c582a44cb13bcd",
+      "window_km": [
+        15.5,
+        14.3,
+        19.5,
+        18.3
+      ],
+      "binding": "v6 comparison"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/故城-旧.png",
+      "sha256": "5cb17deff1f31dd5a2216eda6f9172cd72de22e93d8e59c7be3dccb5125e493b",
+      "window_km": [
+        26.6,
+        21.1,
+        30.6,
+        25.1
+      ],
+      "binding": "v6 comparison"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/近景/深中-旧.png",
+      "sha256": "500eed51f5a3133333b9a8727cf0a5cb36937e771ea6d84758fbcdd2edd76f64",
+      "window_km": [
+        20.7,
+        17,
+        24.7,
+        21
+      ],
+      "binding": "v6 comparison"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/images/changsha-old-town-roads.png",
+      "sha256": "85f1c9bc437033eda73aac527dbcdb877ddff7a75cc3322cec39fc846c0661a0",
+      "window_km": null,
+      "binding": "real OSM reference"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/images/changsha-meixihu-roads.png",
+      "sha256": "72bd8bcd2050c48aea1a021e06ebececc0db11e14a5f3d7f850a3820c62ff967",
+      "window_km": null,
+      "binding": "real OSM reference"
+    }
+  ],
+  "reference_materials": [
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/路网方法参考.html",
+      "sha256": "3215583aa58c7bf2434e119db8da8f9426485147457a7835b39541dc3bdf4882",
+      "read": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v7-20261012/路网方法参考.json",
+      "sha256": "83c40c9f20ef652db58f405b7cbcc29da5478d2cf3bf3eb729789028ec548e83",
+      "read": true
+    }
+  ],
+  "scope": "实际全城输出与8个实际地理近景、3张旧图同窗对照、长沙老城/梅溪湖真实路网。未使用4km合成样例证明最终美术通过；未据楼栋数量赞扬地图。",
+  "observed_road_improvements": [
+    {
+      "windows": [
+        "楚岸",
+        "楚岸街坊",
+        "文星"
+      ],
+      "observation": "相较旧图的散点建筑及短斜线，公共街道朝向稳定、长轴可辨，街坊与私有院内通道在尺度上分开。不是因为横平竖直而判通过，而是普通街块由明确骨架围合。"
+    },
+    {
+      "windows": [
+        "全图",
+        "深中",
+        "铁山"
+      ],
+      "observation": "主干跨区走廊、桥头与沿江道路能够从细街网中读出。实际地理格网没有之前逐点持续漂转的观感。"
+    },
+    {
+      "windows": [
+        "故城"
+      ],
+      "observation": "故城采用稳定斜向街坊，与普通新城方向不同；分区差异从道路方向可辨。此项不证明建筑院落美术合理。"
+    }
+  ],
+  "confirmed_p1_structural_findings": [],
+  "structural_evidence_boundary": "本次没有仅凭PNG把图面圆头当成真断路。以下4个可疑节点已由实际道路GeoJSON证明接合；全网连通、铁路跨层与建筑接入由另一个独立几何审查负责，不能由此声明无结构错误。",
+  "findings": [
+    {
+      "id": "ART-01",
+      "priority": "P2",
+      "class": "repeated_building_form",
+      "must_correct_this_iteration": true,
+      "title": "深中四塔方底在实际城区连续复制",
+      "windows": [
+        "深中",
+        "全图",
+        "楚岸街坊"
+      ],
+      "primary_window_km": [
+        20.7,
+        17,
+        24.7,
+        21
+      ],
+      "observation": "深中大量大型方裙房上四塔按四角排列，四周附相同短绿带；连续多排覆盖城区，形成可一眼识别的重复模组。城区复杂度来自组团类型切换，组团本身仍机械。",
+      "data_evidence": {
+        "commercial_podium_lots_with_base_center_in_window": 101,
+        "tower_count_per_full_owner": {
+          "0": 6,
+          "1": 16,
+          "2": 3,
+          "3": 1,
+          "4": 75
+        },
+        "definition": "以commercial-podium底座顶点均值在窗口内选择lot；按建筑GeoJSON完整owner统计office-tower，边界塔不裁剪。"
+      },
+      "recommendation": "冻结路网与lot归属，按临街长度/组团深度联动选择1/2/3塔、条状或L裙房、后院/街角公共空间；采用独立lot种子避免相邻片区锁成同一个四塔模组，不以每幢随机旋转解决。"
+    },
+    {
+      "id": "ART-02",
+      "priority": "P2",
+      "class": "repeated_building_form",
+      "must_correct_this_iteration": true,
+      "title": "故城四面街墙与机械拉长院落成为大片纹理",
+      "windows": [
+        "故城",
+        "全图"
+      ],
+      "primary_window_km": [
+        26.6,
+        21.1,
+        30.6,
+        25.1
+      ],
+      "observation": "实际故城中连续四面围合院落和长条中庭大量重复，院落随街块长宽拉伸，却缺少临街条带、深宅、后巷与多个不等院子的区别。斜向路网有依据，重复问题发生在屋型层。",
+      "data_evidence": {
+        "roofs_with_vertex_mean_in_window": 4793,
+        "continuous_street_wall": 4462,
+        "deep_court_back_house": 331,
+        "definition": "按建筑外环顶点均值取窗，数据只确认形态标签分布；院落复制的结论来自PNG目视。"
+      },
+      "recommendation": "用1/2/3面街墙、沿巷纵深宅地、若干后院屋和不等公共庭院替代每街块一个同型闭环；街墙面数和院内体量依临街边及地块深度决定，保留稳定朝向。"
+    },
+    {
+      "id": "ART-03",
+      "priority": "P2",
+      "class": "junction_symbol_rendering",
+      "must_correct_this_iteration": true,
+      "title": "已接合道路的圆头/描边使路口读成间隙",
+      "windows": [
+        "楚岸",
+        "深中",
+        "文星"
+      ],
+      "observation": "部分主轴或集散道端头在交叉道路旁显示圆帽/细白边，用户容易读成断路；可疑处数据中心线已有连接，不应添加假路补几何。",
+      "nodes": [
+        {
+          "coordinates_km": [
+            18.93471296924493,
+            15.3478092056494
+          ],
+          "road_feature": 50,
+          "road": "片区连续主轴 1",
+          "joined_feature": 9,
+          "joined_road": "奥体大道",
+          "centerline_distance_km": 9.562630695210967e-10
+        },
+        {
+          "coordinates_km": [
+            22.79708021891023,
+            18.760984511527713
+          ],
+          "road_feature": 321,
+          "road": "片区连续主轴 272",
+          "joined_feature": 5,
+          "joined_road": "楚江大道",
+          "centerline_distance_km": 7.379042355673935e-16
+        },
+        {
+          "coordinates_km": [
+            14.032880412391322,
+            16.415007153903808
+          ],
+          "road_feature": 284,
+          "road": "片区连续主轴 235",
+          "joined_feature": 283,
+          "joined_road": "规划集散道 234",
+          "centerline_distance_km": 0
+        },
+        {
+          "coordinates_km": [
+            13.19238025657169,
+            17.844476701966876
+          ],
+          "road_feature": 289,
+          "road": "规划集散道 240",
+          "joined_feature": 6,
+          "joined_road": "书院路",
+          "centerline_distance_km": 0
+        }
+      ],
+      "recommendation": "仅对已证明同层连接的节点修casing交叉顺序或绘制等宽填色接头；桥上桥下、高速隔离侧不参与几何就近接合。"
+    },
+    {
+      "id": "ART-04",
+      "priority": "P3",
+      "class": "edge_transition_art",
+      "must_correct_this_iteration": false,
+      "title": "城西密度递减仍主要表现为整组小区与农田交替",
+      "windows": [
+        "城西边缘",
+        "全图"
+      ],
+      "primary_window_km": [
+        5.3,
+        17,
+        12.8,
+        22
+      ],
+      "observation": "城郊有农田和村落，较旧图不是全城铺满楼粒；但城边仍是完整规格小区模组与空农田逐格切换，中心与边缘的住宅组团尺度接近，平面密度下降比建设形态演变明显。",
+      "recommendation": "后续分区打磨增加沿出城路的稀疏街带、少量低层院宅与不等规模旧村/新小区过渡；不要新增随机斜路制造复杂度。"
+    },
+    {
+      "id": "ART-05",
+      "priority": "P3",
+      "class": "cartographic_legibility",
+      "must_correct_this_iteration": false,
+      "title": "全图细公共街道与院内路对比偏淡",
+      "windows": [
+        "全图",
+        "楚岸街坊",
+        "北岭"
+      ],
+      "observation": "局部放大后可以区分层级，全图仍以浅灰绿色建筑纹理为主，公共支路与私有院内通道的层级需要近看才能读出。",
+      "recommendation": "屋型修正完成后按全图/城区/街坊三级观看尺度微调公共路描边与私道线宽；保持底图克制，不通过增加楼栋解决可读性。"
+    }
+  ],
+  "non_art_delivery_note": "冻结SVG title已v7，而metadata version/generator仍指v6；已向root告知，下一次导出应校正。",
+  "minimum_next_review": "重绘实际深中与故城及楚岸街坊窗口，重新绑定最终两SVG SHA和PNG SHA；四塔/闭环重复减轻后再判断候选是否可供用户审阅。技术检查、候选可审阅、美术完成、用户采纳是四个不同状态。",
+  "unreviewed_scope": "没有逐栋核验全城建筑，没有证明实际建筑入口可用，没有审核所有19处近景，也不提供道路工程容量/安全认证。"
+}

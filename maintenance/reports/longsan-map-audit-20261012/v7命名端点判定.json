@@ -1,0 +1,200 @@
+{
+  "version": "v7",
+  "reviewer": "collapse_design_audit independent subagent",
+  "input_sha256": {
+    "temp\\longsan-map-qa-v7\\fabric.pickle": "aa3819399fd564fb87e4f8f440bbfe38e000674365d48813bc48a686884563cd",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7路阶段-frozen.json": "d309a7b4b1521f08bbb1a545bf222d53c7765a9cac1badfed1ea0d84aaec079f",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7端点用途核验.py": "be59be2caa004f4dd20bdac3f948d3e2a5b1723261a70879ce7da5c425d7a298",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7端点用途核验.json": "cd0eb5efeedc0a7e5cb619e741bc211a10eed8c960425d2f7e7eafe17c7d18db",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-1-云麓公路.png": "b990cc07dfb11b190b992e6a19718fb4f05fb9ae20174e85817b2a00ade874d6",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-2-窑湾旧道.png": "315ef6e9933a5731ea0de08e00e43b52516411754c546202fc8385a815d94a1b",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-3-东岭山前路.png": "44a8448c3f37ba3862e22e657de06dd64943956150bb14f49e1ed57d1e06fc5a",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-4-南郊连接路.png": "627a5f306e412d3244f201b79770bc72afd5b17fea1833e5a5d5586d15ced064",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-5-机场北郊路.png": "e5f1c9093d239019d349c9b443b14ab07ed58f1dbf567a63cf898f93799d10c0"
+  },
+  "endpoint_decisions": [
+    {
+      "name": "云麓公路",
+      "xy_km": [
+        5.2,
+        7.0
+      ],
+      "kind": "rural",
+      "decision": "purposeful_service_end",
+      "purpose": "楚墓博物馆进场路",
+      "observed_evidence": "道路在博物馆场地入口前结束；最近该馆院内步道15.992m、博物馆场地15.981m、馆屋顶88.776m。实际裁图显示前庭而非无服务城区断头。",
+      "scope_limit": "未把院内步道提高为公共街道；步道最后连接与车辆回转细部仍属设施设计。",
+      "actual_geometry_metrics": {
+        "nearest_owned_entry": {
+          "lot_id": "P5942",
+          "gap_m": 3671.9858177645824
+        },
+        "nearest_unowned_site_or_farm_path": {
+          "name": "楚墓博物馆",
+          "type": "path",
+          "gap_m": 15.992374024348003
+        },
+        "nearest_roof": {
+          "type": "museum",
+          "lot_id": null,
+          "gap_m": 88.77640452282418
+        },
+        "nearest_named_site": {
+          "name": "楚墓博物馆",
+          "kind": "museum",
+          "gap_m": 15.98072729928237
+        },
+        "hill_level_at_point": 140
+      },
+      "reviewed_diagnostic_image": "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-1-云麓公路.png",
+      "image_sha256": "b990cc07dfb11b190b992e6a19718fb4f05fb9ae20174e85817b2a00ade874d6"
+    },
+    {
+      "name": "窑湾旧道",
+      "xy_km": [
+        13.9,
+        32.0
+      ],
+      "kind": "rural",
+      "decision": "purposeful_service_end",
+      "purpose": "窑湾村入村路",
+      "observed_evidence": "实际端点与窑湾村村道几何距离0m；村落场地覆盖端点、最近村屋50.309m，图中可沿村道继续进入居民地。",
+      "scope_limit": "村道保持村落设施层，不纳入公共城市干支路计数。",
+      "actual_geometry_metrics": {
+        "nearest_owned_entry": {
+          "lot_id": "P9107",
+          "gap_m": 301.1673525507348
+        },
+        "nearest_unowned_site_or_farm_path": {
+          "name": "窑湾村",
+          "type": "village-road",
+          "gap_m": 0.0
+        },
+        "nearest_roof": {
+          "type": "village",
+          "lot_id": null,
+          "gap_m": 50.30864736802217
+        },
+        "nearest_named_site": {
+          "name": "窑湾村",
+          "kind": "town",
+          "gap_m": 0.0
+        },
+        "hill_level_at_point": 0
+      },
+      "reviewed_diagnostic_image": "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-2-窑湾旧道.png",
+      "image_sha256": "315ef6e9933a5731ea0de08e00e43b52516411754c546202fc8385a815d94a1b"
+    },
+    {
+      "name": "东岭山前路",
+      "xy_km": [
+        43.4,
+        25.6
+      ],
+      "kind": "rural",
+      "decision": "purposeful_service_end",
+      "purpose": "东岭工厂及农田服务支路",
+      "observed_evidence": "最后段向已有工厂院区；最近P47组团入口47.921m、工厂屋顶80.268m。裁图可见末段仍提供实际进场服务，末端位于农田边缘。",
+      "scope_limit": "小规模服务路，非主干道断裂；回转与厂门停车细节未完成建筑设计。",
+      "actual_geometry_metrics": {
+        "nearest_owned_entry": {
+          "lot_id": "P47",
+          "gap_m": 47.92078951170926
+        },
+        "nearest_unowned_site_or_farm_path": {
+          "name": "",
+          "type": "farm-track",
+          "gap_m": 243.1115534002542
+        },
+        "nearest_roof": {
+          "type": "factory-hall",
+          "lot_id": "P47",
+          "gap_m": 80.26752640164247
+        },
+        "nearest_named_site": {
+          "name": "东郊物流村",
+          "kind": "town",
+          "gap_m": 1116.500000000002
+        },
+        "hill_level_at_point": 0
+      },
+      "reviewed_diagnostic_image": "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-3-东岭山前路.png",
+      "image_sha256": "44a8448c3f37ba3862e22e657de06dd64943956150bb14f49e1ed57d1e06fc5a"
+    },
+    {
+      "name": "南郊连接路",
+      "xy_km": [
+        28.8,
+        34.0
+      ],
+      "kind": "rural",
+      "decision": "purposeful_service_end",
+      "purpose": "南郊仓储及田间服务支路",
+      "observed_evidence": "末段服务仓储组团；最近P7682真实组团入口93.867m、P7684仓储屋顶148.968m，田间道路110m。实际裁图显示两侧组团接入和田边止点。",
+      "scope_limit": "保留乡野服务尽端而非为连通指标添加环线；端头车辆回转规格未核定。",
+      "actual_geometry_metrics": {
+        "nearest_owned_entry": {
+          "lot_id": "P7682",
+          "gap_m": 93.86679716361972
+        },
+        "nearest_unowned_site_or_farm_path": {
+          "name": "",
+          "type": "farm-track",
+          "gap_m": 109.99999999999945
+        },
+        "nearest_roof": {
+          "type": "warehouse",
+          "lot_id": "P7684",
+          "gap_m": 148.96753789753703
+        },
+        "nearest_named_site": {
+          "name": "集装箱作业区 2",
+          "kind": "port",
+          "gap_m": 3044.7331574376108
+        },
+        "hill_level_at_point": 0
+      },
+      "reviewed_diagnostic_image": "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-4-南郊连接路.png",
+      "image_sha256": "627a5f306e412d3244f201b79770bc72afd5b17fea1833e5a5d5586d15ced064"
+    },
+    {
+      "name": "机场北郊路",
+      "xy_km": [
+        20.8,
+        4.0
+      ],
+      "kind": "rural",
+      "decision": "purposeful_service_end",
+      "purpose": "机场北郊住区入口路",
+      "observed_evidence": "端点与P451真实组团入口距离0m，最近住宅楼48.035m；实际裁图显示公共支路在本组团入口转为私人内部通道。",
+      "scope_limit": "公共层与组团内部通道保持独立；内部图连续性另由完整组团审核确认。",
+      "actual_geometry_metrics": {
+        "nearest_owned_entry": {
+          "lot_id": "P451",
+          "gap_m": 0.0
+        },
+        "nearest_unowned_site_or_farm_path": {
+          "name": "",
+          "type": "farm-track",
+          "gap_m": 209.99999999999997
+        },
+        "nearest_roof": {
+          "type": "residential-slab",
+          "lot_id": "P451",
+          "gap_m": 48.03529707859986
+        },
+        "nearest_named_site": {
+          "name": "龙翔天街",
+          "kind": "retail",
+          "gap_m": 5723.250824487776
+        },
+        "hill_level_at_point": 0
+      },
+      "reviewed_diagnostic_image": "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-5-机场北郊路.png",
+      "image_sha256": "e5f1c9093d239019d349c9b443b14ab07ed58f1dbf567a63cf898f93799d10c0"
+    }
+  ],
+  "raw_stage_candidate_count": 5,
+  "all_candidate_images_visually_reviewed": true,
+  "review_boundary": "仅逐一核实际设施用途；不宣称全部公共道路自由端都按同级或更高等级汇接。碼头及窑湾学府尾巴已修剪，不列入最终五例。院内通道不作为公共城市道路。 端点用途证据绑定实际fabric、公共路阶段及诊断裁图，符号层SVG白帽修订不改变这项几何用途判断。"
+}

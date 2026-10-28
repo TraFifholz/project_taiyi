@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "verifiedAt": "2026-09-11T11:32:14.890Z",
+  "assets": [
+    {
+      "name": "EP04-B-shield.webp",
+      "remote": "worlds/taiyi/assets/npc/avatars/EP04-B-shield.webp",
+      "sha256": "580a07c3b10c6af53a7c4919aa69e5932d72b9ca5276ca025a873a21d53fbbeb"
+    },
+    {
+      "name": "EP04-B-official.webp",
+      "remote": "worlds/taiyi/assets/npc/avatars/EP04-B-official.webp",
+      "sha256": "041c954c0528e6b9dcdc6292b38b715e9dc18ca989c203f97b0b708b49ca1909"
+    },
+    {
+      "name": "EP04-B-blocker.webp",
+      "remote": "worlds/taiyi/assets/npc/avatars/EP04-B-blocker.webp",
+      "sha256": "abc0863c792b3721756e4f4ec30b9d316323c58b26d76bddeeff7381a4ec75b9"
+    },
+    {
+      "name": "EP04-B-agent.webp",
+      "remote": "worlds/taiyi/assets/npc/avatars/EP04-B-agent.webp",
+      "sha256": "352793426690f550a8e1c65fef9ec1a205fa736c38e95cddfeb9b6b01d1ee473"
+    },
+    {
+      "name": "EP04-B-cat.webp",
+      "remote": "worlds/taiyi/assets/npc/avatars/EP04-B-cat.webp",
+      "sha256": "1bb79f5edf9c3d02a8407a9e41aad3f6eccd8f409dc483f7078e0e1a1ddcf7f8"
+    },
+    {
+      "name": "EP04-B-map.webp",
+      "remote": "worlds/taiyi/assets/npc/avatars/EP04-B-map.webp",
+      "sha256": "08e64d71e9ce5fc9761b7d17e096917deb3eb45494ef7825b27138f6796c5f2b"
+    }
+  ],
+  "actors": [
+    {
+      "id": "0da6344f62a6c2d3",
+      "name": "无标识抓捕枪手",
+      "items": 10
+    },
+    {
+      "id": "754f316da9072c08",
+      "name": "重盾抓捕队长",
+      "items": 11
+    },
+    {
+      "id": "4eabff7af19862ee",
+      "name": "管委会外围执勤员",
+      "items": 8
+    },
+    {
+      "id": "70fab6ef9664fff0",
+      "name": "封路自动机",
+      "items": 9
+    },
+    {
+      "id": "b3b81823b27161e4",
+      "name": "防弹押送车司机",
+      "items": 10
+    },
+    {
+      "id": "6970ba22eb073244",
+      "name": "何凌 · B场行动",
+      "items": 9
+    },
+    {
+      "id": "f12d924cee9432a9",
+      "name": "陈志远 · B场疏散",
+      "items": 5
+    },
+    {
+      "id": "cb2e6d3b234b58bb",
+      "name": "方泰安 · B-D连续战斗",
+      "items": 10
+    },
+    {
+      "id": "c18720a6766a487e",
+      "name": "随行超级特工 · B-D连续战斗",
+      "items": 10
+    },
+    {
+      "id": "195642ee5ca84487",
+      "name": "防弹押送车",
+      "items": 0
+    },
+    {
+      "id": "b4997e4d3a843500",
+      "name": "方泰安的防弹轿车",
+      "items": 0
+    }
+  ],
+  "scene": {
+    "id": "bd2595ba524b2e36",
+    "name": "B · 大堂围捕与后巷截车",
+    "tokens": 18,
+    "hidden": true
+  },
+  "existingActorsAndScenesUnchanged": true,
+  "runtimeDiceTest": false
+}

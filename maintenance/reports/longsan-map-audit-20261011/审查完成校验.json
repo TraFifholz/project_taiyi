@@ -1,0 +1,11 @@
+{
+  "frozen_input_files": 15,
+  "changed_inputs": [],
+  "station_rows": 66,
+  "unique_station_names": 66,
+  "actual_svg_stations_verified": 66,
+  "report_link_missing": [],
+  "report_characters": 9147,
+  "user_decision_west_bank_recorded": true,
+  "water_shape_flexibility_recorded": true
+}

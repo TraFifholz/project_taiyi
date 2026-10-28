@@ -1,0 +1,36 @@
+{
+  "zhaiCandidate": "discussion\\npc\\立绘生产\\assets\\candidates\\LS-NPC-006-翟明珠-20260902-ls-npc-006-pink-v4-seed-1408779885.png",
+  "zhaiCandidateSha256": "dc608b1329d7ee9a7ceecfd1d717b0ebedf5a6a154a1420063aa247e127a670a",
+  "utility": [
+    {
+      "kind": "male",
+      "source": "discussion\\npc\\立绘生产\\runs\\20260902-utility-male-silhouette-v1\\raw\\male-silhouette.png",
+      "output": "discussion\\npc\\立绘生产\\assets\\utility\\npc-male-silhouette-20260902.png",
+      "rawSha256": "c59aa45a15e599dc207ecd877b469e4744c3b86d590bc36c4e6ec2aa40a8a6b3",
+      "sha256": "28a2562cabf31d5917b852e4e6ba8b795fe569c6415aee3ac0a1b7fd85869063",
+      "dimensions": [
+        832,
+        1216
+      ],
+      "rgbPureBlack": true,
+      "alphaUnchanged": true,
+      "provider": "NovelAI",
+      "processing": "将 NAI 原图内部 RGB 统一为 0，保留原图 alpha 及轮廓；无额外绘制。"
+    },
+    {
+      "kind": "female",
+      "source": "discussion\\npc\\立绘生产\\runs\\20260902-utility-female-silhouette-v1\\raw\\female-silhouette.png",
+      "output": "discussion\\npc\\立绘生产\\assets\\utility\\npc-female-silhouette-20260902.png",
+      "rawSha256": "78308bb59b223050272c980b0b99f2e5f7ef06d84883cde366565f6542715bda",
+      "sha256": "74a63b7bab8afd4de1cffb26608a4401264267b1212f76de4cda19b87c8a03cb",
+      "dimensions": [
+        832,
+        1216
+      ],
+      "rgbPureBlack": true,
+      "alphaUnchanged": true,
+      "provider": "NovelAI",
+      "processing": "将 NAI 原图内部 RGB 统一为 0，保留原图 alpha 及轮廓；无额外绘制。"
+    }
+  ]
+}

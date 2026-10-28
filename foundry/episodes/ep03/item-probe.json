@@ -1,0 +1,413 @@
+[
+  {
+    "name": "警觉",
+    "valid": true,
+    "source": {
+      "_id": "a2f149a929e50bf1",
+      "name": "警觉",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "system": {
+        "description": "<p>察觉投骰 +2（已自动计入）。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "alertness",
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "favorite": false,
+        "category": "",
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "grants": [],
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "Bcvd57nd",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite"
+            }
+          ]
+        },
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": "SWADE.Ranks.Novice",
+            "combinator": "and",
+            "selector": ""
+          }
+        ]
+      },
+      "effects": [
+        {
+          "_id": "9ce1a9436ae8b055",
+          "name": "警觉",
+          "type": "base",
+          "transfer": true,
+          "disabled": false,
+          "system": {
+            "changes": [
+              {
+                "key": "@Skill{察觉}[system.die.modifier]",
+                "value": 2,
+                "type": "add",
+                "phase": "initial",
+                "priority": null
+              }
+            ],
+            "removeEffect": false,
+            "loseTurnOnHold": false,
+            "favorite": false,
+            "conditionalEffect": false
+          },
+          "flags": {
+            "world": {
+              "taiyiEp03": {
+                "key": "xia-mangong:edge:alertness",
+                "version": 1
+              }
+            }
+          },
+          "img": "icons/svg/aura.svg",
+          "start": null,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:edge:alertness",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  },
+  {
+    "name": "招架",
+    "valid": true,
+    "source": {
+      "_id": "98e76cef9fcae700",
+      "name": "招架",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "system": {
+        "description": "<p>格挡 +1（已自动计入）；敌人针对你的围攻加值减少 1，交战时手动处理。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "block",
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "favorite": false,
+        "category": "",
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "grants": [],
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "kw2pLK1W",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite"
+            }
+          ]
+        },
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": "SWADE.Ranks.Novice",
+            "combinator": "and",
+            "selector": ""
+          }
+        ]
+      },
+      "effects": [
+        {
+          "_id": "8a5d04346556c964",
+          "name": "招架",
+          "type": "base",
+          "transfer": true,
+          "disabled": false,
+          "system": {
+            "changes": [
+              {
+                "key": "system.stats.parry.value",
+                "value": 1,
+                "type": "add",
+                "phase": "initial",
+                "priority": null
+              }
+            ],
+            "removeEffect": false,
+            "loseTurnOnHold": false,
+            "favorite": false,
+            "conditionalEffect": false
+          },
+          "flags": {
+            "world": {
+              "taiyiEp03": {
+                "key": "xia-mangong:edge:block",
+                "version": 1
+              }
+            }
+          },
+          "img": "icons/svg/aura.svg",
+          "start": null,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:edge:block",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  },
+  {
+    "name": "战斗反应",
+    "valid": true,
+    "source": {
+      "_id": "bd43db1d3aa857b4",
+      "name": "战斗反应",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "system": {
+        "description": "<p>从动摇与震慑中恢复的投骰 +2（已自动计入）。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "combat-reflexes",
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "favorite": false,
+        "category": "",
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "grants": [],
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "CQv8RIOt",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite"
+            }
+          ]
+        },
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": "SWADE.Ranks.Novice",
+            "combinator": "and",
+            "selector": ""
+          }
+        ]
+      },
+      "effects": [
+        {
+          "_id": "2b6359e62a4c4f06",
+          "name": "战斗反应",
+          "type": "base",
+          "transfer": true,
+          "disabled": false,
+          "system": {
+            "changes": [
+              {
+                "key": "system.attributes.spirit.unShakeBonus",
+                "value": 2,
+                "type": "add",
+                "phase": "initial",
+                "priority": null
+              },
+              {
+                "key": "system.attributes.vigor.unStunBonus",
+                "value": 2,
+                "type": "add",
+                "phase": "initial",
+                "priority": null
+              }
+            ],
+            "removeEffect": false,
+            "loseTurnOnHold": false,
+            "favorite": false,
+            "conditionalEffect": false
+          },
+          "flags": {
+            "world": {
+              "taiyiEp03": {
+                "key": "xia-mangong:edge:combat-reflexes",
+                "version": 1
+              }
+            }
+          },
+          "img": "icons/svg/aura.svg",
+          "start": null,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:edge:combat-reflexes",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  },
+  {
+    "name": "余响测定",
+    "error": "[Item.e0d120abb015e6b8] validation errors: SchemaField#_validateRecursive\n  system: SchemaField#_validateRecursive\n    range: is not a valid value\n  system: SchemaField#_validateRecursive\n    range: is not a valid value",
+    "stack": "Error: [Item.e0d120abb015e6b8] validation errors: SchemaField#_validateRecursive\n  system: SchemaField#_validateRecursive\n    range: is not a valid value\n    at DataModelValidationFailure.asError (https://fvtt.univare.icu/scripts/foundry.mjs:8361:12)\n    at SwadeItem.validate (https://fvtt.univare.icu/scripts/foundry.mjs:14024:59)\n    at new DataModel (https://fvtt.univare.icu/scripts/foundry.mjs:13506:10)\n    at new Document (https://fvtt.univare.icu/scripts/foundry.mjs:14418:1)\n    at new ClientDocumentMixin (https://fvtt.univare.icu/scripts/foundry.mjs:36001:7)\n    at new SwadeItem (https://fvtt.univare.icu/systems/swade/swade.js:3509:1)\n    at <anonymous>:80:140956\n    at <anonymous>:80:141215"
+  }
+]

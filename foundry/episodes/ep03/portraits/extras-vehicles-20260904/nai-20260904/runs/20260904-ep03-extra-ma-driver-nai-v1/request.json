@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260904-ep03-extra-ma-driver-nai-v1",
+    "characterId": "EP03-EXTRA-MA-DRIVER",
+    "characterName": "冷藏车司机",
+    "actorId": "58225f08c387421e",
+    "designStatus": "provisional",
+    "designAssumptions": [
+      "成年中国男性，短乱黑发、棕眼、眼下倦色，戴深色针织帽。",
+      "旧蓝色保暖工作夹克、灰色内搭、黑手套，在方向盘后保持警惕。"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-09-04T00:23:00.517Z",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 79331627,
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, watermark, signature, character name, english text, chinese text, logo, emblem, badge, text focus, hologram, heads-up display, glowing, aura, light particles, child, school uniform, weapon, gun, facial hair, muscular male, vehicle focus",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "highres, 1boy, solo, male focus, mature male, short hair, black hair, messy hair, brown eyes, bags under eyes, beanie, winter clothes, blue jacket, jacket, grey shirt, shirt, long sleeves, high collar, zipper, pocket, black pants, pants, belt, black gloves, gloves, holding, driving, steering wheel, car interior, sitting, serious, closed mouth, looking away, upper body, transparent background, shadow, flat color. A tired adult Chinese refrigerated-truck driver sits behind only a simplified steering wheel fragment, dressed in worn cold-weather workwear. Keep him clearly human and ordinary; no full vehicle, logo, readable text, weapon, or supernatural effect.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, watermark, signature, character name, english text, chinese text, logo, emblem, badge, text focus, hologram, heads-up display, glowing, aura, light particles, child, school uniform, weapon, gun, facial hair, muscular male, vehicle focus",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

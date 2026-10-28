@@ -1,0 +1,17 @@
+{
+  "status": 200,
+  "title": "TAIYI",
+  "world": {
+    "id": "taiyi",
+    "title": "TAIYI",
+    "system": "swade",
+    "coreVersion": "14.364",
+    "systemVersion": "6.0.3"
+  },
+  "assetsExists": false,
+  "dataRoot": "C:\\foundryvtt\\Data",
+  "coreProcess": {
+    "ProcessId": 11472,
+    "ExecutablePath": "C:\\foundryvtt\\Runtime\\node-v24.19.0\\node.exe"
+  }
+}

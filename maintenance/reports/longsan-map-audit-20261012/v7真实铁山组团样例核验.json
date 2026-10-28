@@ -1,0 +1,360 @@
+{
+  "version": "v7",
+  "source": "temp\\longsan-planned-model-v7-final\\真实铁山临街组团.geojson",
+  "scope": "independent actual-export organization and ownership audit; not engineering certification",
+  "input_hashes": {
+    "temp\\longsan-planned-model-v7-final\\真实铁山临街组团.geojson": "eade304b5be8af70721cd19e4c50984599d2f4a59138985f9c40b36b5af3500d",
+    "temp\\longsan-map-qa-v7\\network.pickle": "ed4de905f302311f734a4a241b195eb3525bd0ddb7134a2b95c3bd4946a392bc",
+    "assets\\maps\\longsan-geographic-v6-20261012\\地理骨架.geojson": "71934501e72bcd2dd149e0294182e3daa1f2b499f39a397dd0839127b2cd1573",
+    "assets\\maps\\longsan-geographic-v6-20261012\\灾后地理.geojson": "129697219ef04748e96262cd19c0e3c26a4630826918c50ae79c0b03dc0763b0",
+    "assets\\maps\\longsan-geographic-v6-20261012\\铁路.geojson": "9a8bff95b480dd945dc523e8a8eb3d3ecece992e5a09869da32cc2e5b425fe4c"
+  },
+  "counts": {
+    "public_roads": 5622,
+    "ordinary_roofs": 60,
+    "owned_roofs": 60,
+    "legacy_unowned_roofs": 0,
+    "lots": 24,
+    "private_paths": 172,
+    "path_roles": {
+      "compound-entry": 24,
+      "compound-circulation": 88,
+      "building-door": 60
+    }
+  },
+  "hard_error_counts": {},
+  "errors": {},
+  "private_path_width_boundary_contacts": [
+    {
+      "path": 33,
+      "lot": "P9",
+      "other_lot": "P10",
+      "role": "compound-entry",
+      "painted_contact_area_m2": 6.963451303861312,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 34,
+      "lot": "P9",
+      "other_lot": "P10",
+      "role": "compound-circulation",
+      "painted_contact_area_m2": 6.964262372948932,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 83,
+      "lot": "P17",
+      "other_lot": "P16",
+      "role": "compound-entry",
+      "painted_contact_area_m2": 6.963451303861312,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 84,
+      "lot": "P17",
+      "other_lot": "P16",
+      "role": "compound-circulation",
+      "painted_contact_area_m2": 7.795088923718383,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 92,
+      "lot": "P19",
+      "other_lot": "P27",
+      "role": "compound-entry",
+      "painted_contact_area_m2": 6.963451303861312,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 93,
+      "lot": "P19",
+      "other_lot": "P27",
+      "role": "compound-circulation",
+      "painted_contact_area_m2": 19.632556055198783,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 119,
+      "lot": "P26",
+      "other_lot": "P29",
+      "role": "compound-entry",
+      "painted_contact_area_m2": 6.963451303861312,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 120,
+      "lot": "P26",
+      "other_lot": "P29",
+      "role": "compound-circulation",
+      "painted_contact_area_m2": 20.854933881781356,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 123,
+      "lot": "P27",
+      "other_lot": "P25",
+      "role": "compound-entry",
+      "painted_contact_area_m2": 6.963451303861311,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 124,
+      "lot": "P27",
+      "other_lot": "P25",
+      "role": "compound-circulation",
+      "painted_contact_area_m2": 6.996048417017389,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 139,
+      "lot": "P29",
+      "other_lot": "P26",
+      "role": "compound-entry",
+      "painted_contact_area_m2": 6.963451303861311,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 140,
+      "lot": "P29",
+      "other_lot": "P26",
+      "role": "compound-circulation",
+      "painted_contact_area_m2": 6.965266564575204,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 144,
+      "lot": "P31",
+      "other_lot": "P29",
+      "role": "compound-entry",
+      "painted_contact_area_m2": 6.963451303861311,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 145,
+      "lot": "P31",
+      "other_lot": "P29",
+      "role": "compound-circulation",
+      "painted_contact_area_m2": 6.965266564575204,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 151,
+      "lot": "P36",
+      "other_lot": "P33",
+      "role": "compound-entry",
+      "painted_contact_area_m2": 6.963451303861311,
+      "centreline_in_other_interior_m": 0.0
+    },
+    {
+      "path": 152,
+      "lot": "P36",
+      "other_lot": "P33",
+      "role": "compound-circulation",
+      "painted_contact_area_m2": 6.965266564575204,
+      "centreline_in_other_interior_m": 0.0
+    }
+  ],
+  "entrance_facade_gap_m_quantiles": {
+    "0": 0.0,
+    "25": 0.0,
+    "50": 0.0,
+    "75": 0.0,
+    "90": 0.0,
+    "100": 0.0
+  },
+  "compound_entry_public_gap_m_quantiles": {
+    "0": 0.0,
+    "25": 0.0,
+    "50": 0.0,
+    "75": 0.0,
+    "90": 5.680658171798344e-13,
+    "100": 1.1512430097945303e-12
+  },
+  "private_components_per_compound": {
+    "1": 24
+  },
+  "public_graph": {
+    "components": 1,
+    "road_features_by_component": [
+      5622
+    ]
+  },
+  "organization": {
+    "window_km": [
+      38.849999999999994,
+      12.95,
+      42.304729032892155,
+      15.399246224009353
+    ],
+    "road_features_by_class": {
+      "primary": 1,
+      "rural": 2,
+      "secondary": 3,
+      "local": 24
+    },
+    "full_alignment_length_m_by_class": {
+      "primary": {
+        "0": 39840.82454087158,
+        "25": 39840.82454087158,
+        "50": 39840.82454087158,
+        "75": 39840.82454087158,
+        "90": 39840.82454087158,
+        "100": 39840.82454087158
+      },
+      "secondary": {
+        "0": 1742.3197748678022,
+        "25": 1851.8674076072898,
+        "50": 1961.4150403467772,
+        "75": 2446.6451851179104,
+        "90": 2737.7832719805906,
+        "100": 2931.8753298890438
+      },
+      "local": {
+        "0": 150.90934593183658,
+        "25": 491.4258879478606,
+        "50": 728.6573790753401,
+        "75": 1127.78608237545,
+        "90": 1803.5511402365973,
+        "100": 2234.292683597374
+      },
+      "rural": {
+        "0": 13634.18307394949,
+        "25": 16056.298126266662,
+        "50": 18478.413178583833,
+        "75": 20900.528230901,
+        "90": 22353.797262291304,
+        "100": 23322.64328321817
+      }
+    },
+    "noded_intersection_section_length_m_quantiles": {
+      "0": 1.0721278611658391,
+      "25": 307.0828634983623,
+      "50": 446.85853671947484,
+      "75": 490.88982401727674,
+      "90": 491.42588794786235,
+      "100": 1787.4341468778994
+    },
+    "original_interior_dead_ends": [],
+    "major_endpoint_hierarchy_candidates": [
+      {
+        "name": "工运大道",
+        "kind": "primary",
+        "xy_km": [
+          41.9,
+          13.3
+        ],
+        "connected_classes": [
+          "rural"
+        ]
+      }
+    ],
+    "local_features_under_100m": [],
+    "folded_direction_degrees_length_km": {
+      "15": 1.4053908555238763,
+      "5": 0.35059103693016996,
+      "55": 0.6745483881535946,
+      "0": 21.74507762932806
+    },
+    "complete_interior_face_count": 8,
+    "window_censored_faces": 19,
+    "complete_face_area_m2_quantiles": {
+      "0": 219597.85319444956,
+      "25": 219597.85319444956,
+      "50": 219597.85319445038,
+      "75": 276362.24387455254,
+      "90": 332409.2800856971,
+      "100": 463185.697911701
+    },
+    "complete_face_short_side_m_quantiles": {
+      "0": 446.85853671947484,
+      "25": 446.85853671947484,
+      "50": 446.85853671947484,
+      "75": 490.3537600866947,
+      "90": 490.67539844503597,
+      "100": 491.42588794783217
+    },
+    "complete_face_long_side_m_quantiles": {
+      "0": 491.4258879478606,
+      "25": 491.4258879478606,
+      "50": 491.42588794786235,
+      "75": 563.5976847117306,
+      "90": 930.7486233615853,
+      "100": 1787.4341468779135
+    },
+    "roofs": 60,
+    "lots": 24,
+    "compound_roofs_count_quantiles": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 2.0,
+      "75": 4.0,
+      "90": 4.0,
+      "100": 8.0
+    },
+    "land_km2": 8.461482038786611,
+    "roof_coverage_of_dry_crop": 0.018915931619880377,
+    "roof_setback_to_public_centerline_m_quantiles": {
+      "0": 21.178601412856324,
+      "25": 31.264341158428355,
+      "50": 53.04784672602381,
+      "75": 54.49999999999733,
+      "90": 102.49999999999915,
+      "100": 112.21817464739559
+    },
+    "frontage_roof_setback_m_quantiles": {},
+    "programmes": {
+      "housing": {
+        "compounds": 2,
+        "roofs": 13,
+        "lot_area_km2": 0.06858953979051446,
+        "weighted_roof_coverage": 0.1882531806022583,
+        "roofs_per_compound_quantiles": {
+          "0": 5.0,
+          "25": 5.75,
+          "50": 6.5,
+          "75": 7.25,
+          "90": 7.7,
+          "100": 8.0
+        }
+      },
+      "industry": {
+        "compounds": 18,
+        "roofs": 40,
+        "lot_area_km2": 0.6697351410364443,
+        "weighted_roof_coverage": 0.19218699499227657,
+        "roofs_per_compound_quantiles": {
+          "0": 1.0,
+          "25": 1.0,
+          "50": 2.0,
+          "75": 4.0,
+          "90": 4.0,
+          "100": 4.0
+        }
+      },
+      "warehouse": {
+        "compounds": 4,
+        "roofs": 7,
+        "lot_area_km2": 0.10152803641449627,
+        "weighted_roof_coverage": 0.18152850268036796,
+        "roofs_per_compound_quantiles": {
+          "0": 1.0,
+          "25": 1.75,
+          "50": 2.0,
+          "75": 2.0,
+          "90": 2.0,
+          "100": 2.0
+        }
+      }
+    }
+  },
+  "limits": [
+    "Facade connections are algorithm-selected entrance positions; no manually authored door locations.",
+    "Private owner traversal is checked on actual centreline interiors; boundary paint/caps are separately recorded, not declared parcel-law geometry.",
+    "Legacy named facilities without generated lots require a separate site-level route review.",
+    "Major endpoint candidates include purposefully named facilities/terrain exceptions and require visual adjudication.",
+    "Connected private/public graphs do not by themselves establish good urban design.",
+    "Standalone samples are synthetic planning windows, not the final water-constrained map."
+  ],
+  "hashes_stable_after_audit": true,
+  "review_status": "geometry_pass_visual_review_pending"
+}

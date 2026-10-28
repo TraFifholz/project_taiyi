@@ -1,0 +1,467 @@
+[
+  {
+    "id": "LS-NPC-001",
+    "actorId": "57BoaQ7gjSSojsma",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-001.webp"
+  },
+  {
+    "id": "LS-NPC-002",
+    "actorId": "uNlczFawsmnxeae6",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-002.webp"
+  },
+  {
+    "id": "LS-NPC-003",
+    "actorId": "bnH2ArnAUr584IMt",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-003.webp"
+  },
+  {
+    "id": "LS-NPC-004",
+    "actorId": "ACloRaZSkKutukPP",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-004.webp"
+  },
+  {
+    "id": "LS-NPC-005",
+    "actorId": "VDYehYYptYa6HoSR",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-005.webp"
+  },
+  {
+    "id": "LS-NPC-006",
+    "actorId": "2YEzICTcbBxgNpxY",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-006-20260902-pink-v4.webp"
+  },
+  {
+    "id": "LS-NPC-008",
+    "actorId": "vnu3ZexhyIfz7OhH",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-008.webp"
+  },
+  {
+    "id": "LS-NPC-009",
+    "actorId": "MnHV47cJxYL4RSVB",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-009.webp"
+  },
+  {
+    "id": "LS-NPC-011",
+    "actorId": "tiGT0NBflfw6V0CQ",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-011.webp"
+  },
+  {
+    "id": "LS-NPC-012",
+    "actorId": "sEMbG68n987ZfnqM",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-012.webp"
+  },
+  {
+    "id": "LS-NPC-013",
+    "actorId": "9fPcKPAaOmzAEddl",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-013.webp"
+  },
+  {
+    "id": "LS-NPC-014",
+    "actorId": "FCAx9DVCPshCVdbK",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-014.webp"
+  },
+  {
+    "id": "LS-NPC-015",
+    "actorId": "jzoMevmSzqwRs6ty",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-015.webp"
+  },
+  {
+    "id": "LS-NPC-017",
+    "actorId": "1AzejlGF2afr3Gsy",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-017.webp"
+  },
+  {
+    "id": "LS-NPC-018",
+    "actorId": "NUIE1vhFiLtUklK2",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-018.webp"
+  },
+  {
+    "id": "LS-NPC-019",
+    "actorId": "Dgsq3cLSLaMGyKDH",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-019.webp"
+  },
+  {
+    "id": "LS-NPC-021",
+    "actorId": "fVhzAQtuu0k43cEJ",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-021.webp"
+  },
+  {
+    "id": "LS-NPC-022",
+    "actorId": "JQAqnnjrcHzvOXpa",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-022.webp"
+  },
+  {
+    "id": "LS-NPC-024",
+    "actorId": "qimV4VZnX0aOEvR3",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-024.webp"
+  },
+  {
+    "id": "LS-NPC-025",
+    "actorId": "IK6oqvb7LMexuwgj",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-025.webp"
+  },
+  {
+    "id": "LS-NPC-026",
+    "actorId": "kN0n8a6t0iYEfIYe",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-026.webp"
+  },
+  {
+    "id": "LS-NPC-027",
+    "actorId": "RlyKuc5Nvyjh28Tw",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-027.webp"
+  },
+  {
+    "id": "LS-NPC-029",
+    "actorId": "bZeVGbjdNOzQUeyH",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-029.webp"
+  },
+  {
+    "id": "LS-NPC-030",
+    "actorId": "OKIMH0V1uQY7eBM6",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-030.webp"
+  },
+  {
+    "id": "LS-NPC-031",
+    "actorId": "0LHEjmZDMASx14Fc",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-031.webp"
+  },
+  {
+    "id": "LS-NPC-033",
+    "actorId": "gTmMOIwGa6flQvNZ",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-033.webp"
+  },
+  {
+    "id": "LS-NPC-034",
+    "actorId": "DRsx89mriRTnvoJJ",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-034.webp"
+  },
+  {
+    "id": "LS-NPC-035",
+    "actorId": "5IrGfYdHLCMXNrTs",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-035.webp"
+  },
+  {
+    "id": "LS-NPC-037",
+    "actorId": "vqcEA8al2OfxGc0p",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-037.webp"
+  },
+  {
+    "id": "LS-NPC-038",
+    "actorId": "4BEAUwXJeiCv4fNt",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-038.webp"
+  },
+  {
+    "id": "LS-NPC-039",
+    "actorId": "9gAKuBGUBUTAHcoR",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-039.webp"
+  },
+  {
+    "id": "LS-NPC-040",
+    "actorId": "s5sWbZlEK2VfXf4m",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-040.webp"
+  },
+  {
+    "id": "LS-NPC-041",
+    "actorId": "W04MWmMXNCCftHlu",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-041.webp"
+  },
+  {
+    "id": "LS-NPC-043",
+    "actorId": "X2SZWB0NAfdllkvy",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-043.webp"
+  },
+  {
+    "id": "LS-NPC-044",
+    "actorId": "KwehyM2AWAaHV2ME",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-044.webp"
+  },
+  {
+    "id": "LS-NPC-045",
+    "actorId": "LmaEpGKUt10QoPW0",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-045.webp"
+  },
+  {
+    "id": "LS-NPC-046",
+    "actorId": "psyMJFu6q5eG3CcD",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-046.webp"
+  },
+  {
+    "id": "LS-NPC-048",
+    "actorId": "0tfTRFx97cvIsWP4",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-048.webp"
+  },
+  {
+    "id": "LS-NPC-049",
+    "actorId": "fsDx0SJGMfcP5Hpk",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-049.webp"
+  },
+  {
+    "id": "LS-NPC-050",
+    "actorId": "FMxMv42x0bt57VXD",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-050.webp"
+  },
+  {
+    "id": "LS-NPC-051",
+    "actorId": "WLZGos0f2rJ17PVL",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-051.webp"
+  },
+  {
+    "id": "LS-NPC-052",
+    "actorId": "kXQo1FBuVNbjbdF8",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-052.webp"
+  },
+  {
+    "id": "LS-NPC-053",
+    "actorId": "3QalyVNUzgOSAb3H",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-053.webp"
+  },
+  {
+    "id": "LS-NPC-054",
+    "actorId": "mYC7WLFuZPzfJ2Lc",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-054.webp"
+  },
+  {
+    "id": "LS-NPC-055",
+    "actorId": "tbnPHoA6QtbjIgL8",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-055.webp"
+  },
+  {
+    "id": "LS-NPC-056",
+    "actorId": "6hT9gap8LopThul3",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-056.webp"
+  },
+  {
+    "id": "LS-NPC-057",
+    "actorId": "kwipLU20vMECXjOk",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-057.webp"
+  },
+  {
+    "id": "LS-NPC-058",
+    "actorId": "UQ6s5kAKxZWk7yW6",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-058.webp"
+  },
+  {
+    "id": "LS-NPC-059",
+    "actorId": "DRgDGdAoKoyE97ZW",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-059.webp"
+  },
+  {
+    "id": "LS-NPC-060",
+    "actorId": "WGt118EU05eesbFr",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-060.webp"
+  },
+  {
+    "id": "LS-NPC-061",
+    "actorId": "RJ33Y3n9CnPNI3gx",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-061.webp"
+  },
+  {
+    "id": "LS-NPC-062",
+    "actorId": "Yh75cL4suvw30q8q",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-062.webp"
+  },
+  {
+    "id": "LS-NPC-063",
+    "actorId": "iK2yifpOe0A65J8H",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-063.webp"
+  },
+  {
+    "id": "LS-NPC-065",
+    "actorId": "O7ycDu9ixwbBxy1d",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-065.webp"
+  },
+  {
+    "id": "LS-NPC-066",
+    "actorId": "etV3yeQpnAJHE7BA",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-066.webp"
+  },
+  {
+    "id": "LS-NPC-067",
+    "actorId": "7aQZVS47M2oWodIk",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-067.webp"
+  },
+  {
+    "id": "LS-NPC-068",
+    "actorId": "zpC4rcLk5iW31WO1",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-068.webp"
+  },
+  {
+    "id": "LS-NPC-069",
+    "actorId": "9zEDeY2FWiqEvbpE",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-069.webp"
+  },
+  {
+    "id": "LS-NPC-070",
+    "actorId": "Al9LGpY49FbRx5Qk",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-070.webp"
+  },
+  {
+    "id": "LS-NPC-072",
+    "actorId": "cdESIH9b3XCTsX5K",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902.webp"
+  },
+  {
+    "id": "LS-NPC-073",
+    "actorId": "8HBCHnnWHDWRKLEl",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-073.webp"
+  },
+  {
+    "id": "LS-NPC-074",
+    "actorId": "HcJE2gk2MnZl2lS0",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-074.webp"
+  },
+  {
+    "id": "LS-NPC-075",
+    "actorId": "o3HMAuMC5nPJ26qh",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-075.webp"
+  },
+  {
+    "id": "LS-NPC-076",
+    "actorId": "kk159q86nfyUl5dS",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-076.webp"
+  },
+  {
+    "id": "LS-NPC-077",
+    "actorId": "iBJN4yYdbbbbuyfU",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-077.webp"
+  },
+  {
+    "id": "LS-NPC-078",
+    "actorId": "3NyAUr5b8np4WF32",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-078.webp"
+  },
+  {
+    "id": "LS-NPC-079",
+    "actorId": "XiQXexl1CAyOi6uk",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-079.webp"
+  },
+  {
+    "id": "LS-NPC-080",
+    "actorId": "gnoWJXlg9MsPQhKJ",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-080.webp"
+  },
+  {
+    "id": "LS-NPC-081",
+    "actorId": "fBAjZP6g3eZJcGRR",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-081.webp"
+  },
+  {
+    "id": "LS-NPC-082",
+    "actorId": "wK4L20iIt6GKlco0",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-082.webp"
+  },
+  {
+    "id": "LS-NPC-083",
+    "actorId": "mzzirCssE0U78NSE",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-083.webp"
+  },
+  {
+    "id": "LS-NPC-085",
+    "actorId": "GkjbhmkUhK5pESha",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-085.webp"
+  },
+  {
+    "id": "LS-NPC-086",
+    "actorId": "COkMejJ9Z3LcNwvb",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-086.webp"
+  },
+  {
+    "id": "LS-NPC-088",
+    "actorId": "gadGwYGyXgzgEfpp",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-088.webp"
+  },
+  {
+    "id": "LS-NPC-089",
+    "actorId": "gBq6GwDgNfcln8lB",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-089.webp"
+  },
+  {
+    "id": "LS-NPC-090",
+    "actorId": "a1z7lVrqv6W7wDFI",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-090.webp"
+  },
+  {
+    "id": "LS-NPC-091",
+    "actorId": "QlguyKmLQpdAhIlc",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-091.webp"
+  },
+  {
+    "id": "LS-NPC-092",
+    "actorId": "HWPK89onJnRj4DcE",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-092.webp"
+  },
+  {
+    "id": "LS-NPC-093",
+    "actorId": "QifpVPyNn5JqftkM",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-093.webp"
+  },
+  {
+    "id": "LS-NPC-094",
+    "actorId": "YFZp5ZtD2HA6bznJ",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-094.webp"
+  },
+  {
+    "id": "LS-NPC-095",
+    "actorId": "eubCIDi10WeO2cx5",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-095.webp"
+  },
+  {
+    "id": "LS-NPC-096",
+    "actorId": "RqRwsNovNTzMLxwh",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-096.webp"
+  },
+  {
+    "id": "LS-NPC-098",
+    "actorId": "yu2O7Qa3YUd72Uwr",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-098.webp"
+  },
+  {
+    "id": "LS-NPC-100",
+    "actorId": "27bI4x78JIvvQDk4",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-100.webp"
+  },
+  {
+    "id": "LS-NPC-101",
+    "actorId": "c9CMnekZUT44LGED",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-101.webp"
+  },
+  {
+    "id": "LS-NPC-103",
+    "actorId": "iPBpGEGMeukkWOlq",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-103.webp"
+  },
+  {
+    "id": "LS-NPC-104",
+    "actorId": "fJ9DysjHxxYTN1nh",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-104.webp"
+  },
+  {
+    "id": "LS-NPC-105",
+    "actorId": "PmojUTiwUpFLHOfw",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-105.webp"
+  },
+  {
+    "id": "LS-NPC-106",
+    "actorId": "AoAySniG9cDoQ6K7",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-106.webp"
+  },
+  {
+    "id": "LS-NPC-107",
+    "actorId": "cthqSnquc0kZpCr5",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-107.webp"
+  },
+  {
+    "id": "LS-NPC-N1",
+    "actorId": "cklvc9bYITPdZmcz",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-N1.webp"
+  },
+  {
+    "id": "LS-NPC-N2",
+    "actorId": "gRRjgs29ZBBPH4fC",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-N2.webp"
+  },
+  {
+    "id": "LS-NPC-N3",
+    "actorId": "zltELu4L5KcmScNG",
+    "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-N3.webp"
+  }
+]

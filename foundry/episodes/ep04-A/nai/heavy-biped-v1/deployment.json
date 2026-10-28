@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "time": "2026-09-11T11:11:39.290Z",
+  "model": "nai-diffusion-5-curated",
+  "selected": "nai/heavy-biped-v1/raw.png",
+  "remote": "worlds/taiyi/assets/npc/avatars/EP04-A-heavy-biped-v1.webp",
+  "sha256": "955449cc367a0e667ddbb5b7c5cb1e24c7a5a53cd29229775a04b20260fb991e",
+  "actor": "79a02db6071ff86d",
+  "prototypeUpdated": true,
+  "sceneTokensUpdated": 1,
+  "statsAndItemsUnchanged": true,
+  "previousTrackedVersion": "preserved as reusable tracked sentry"
+}

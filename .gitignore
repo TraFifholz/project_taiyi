@@ -2,10 +2,8 @@ node_modules/
 src/.vitepress/dist/
 src/.vitepress/cache/
 discussion/
-character_sheet/
 temp/
 CLAUDE.md
-records/
 AGENTS.md
 CODEX_INDEX.md
 RUNBOOK.md
@@ -13,9 +11,5 @@ FVTT_MAINTENANCE.md
 .opencode/
 .claude/
 scripts/fvtt/
-# Local campaign workspace (organized 2026-09-11)
-campaign/
-assets/
-foundry/
-maintenance/
 WORKSPACE.md
+assets/

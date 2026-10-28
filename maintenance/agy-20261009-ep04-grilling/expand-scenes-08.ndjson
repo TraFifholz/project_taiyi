@@ -1,0 +1,437 @@
+{"event":"init","conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","init":{"model":"gemini-3.1-pro-high","cwd":"D:\\Project Taiyi","tools":["ask_custom_permission","ask_permission","ask_question","browser_click_element","browser_drag_pixel_to_pixel","browser_get_dom","browser_get_network_request","browser_input","browser_list_network_requests","browser_mouse_down","browser_mouse_up","browser_move_mouse","browser_press_key","browser_refresh_page","browser_resize_window","browser_scroll","browser_scroll_dom","browser_select_option","browser_subagent","call_mcp_tool","capture_browser_console_logs","capture_browser_screenshot","click_browser_pixel","command_status","define_subagent","delete_knowledge","execute_browser_javascript","find_by_name","finish","generate_image","grep_search","invoke_subagent","list_browser_pages","list_dir","list_permissions","list_plugin_accounts","list_resources","manage_inbox","manage_subagents","manage_task","multi_replace_file_content","notebook_edit","notebook_execution","open_browser_url","read_browser_page","read_resource","read_url_content","replace_file_content","run_command","run_workflow","schedule","search_marketplace","search_web","sed_file","send_command_input","send_message","view_file","wait","wait_5_seconds","write_to_file"],"permission_mode":"request-review","expanded_commands":[{"name":"plan","type":"system"}]}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":0,"state":"DONE","step_type":"user_input"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"这是一份"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"为您准备的 Markdown"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":" 格式场景梗概。"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"依照"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"您的要求"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，这 4 场大戏专注"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"于火爆的"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"实机演出、超能对"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"碰以及绝"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"境中的人"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"物高光。前序的《围捕李好"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"》与《档案室突围"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"》均已作"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"为"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"独立模块保留，您可随时按"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"需选用或"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"交替并行，无需受"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"互斥限制"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n```mark"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"down"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n# 第四话：新增与改版场景梗概\n\n\u003e **"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"GM 提示**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：此前的《"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"围捕李好》与《档案室突围"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"》作为成熟模块继"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"续保留，您可以根"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"据玩家的具体调查"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"路线与决策"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"自行选用，两者互"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"不排斥，也并非必"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"跑流程。\n\n## 场景 "}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"8：铜锅煮局"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"（现有 NP"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"C 改版）\n\n地下升"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"降台化身生死斗兽"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"场，重型外骨骼与"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"冷兵器的血战在轰鸣声中一"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"触即发！\n\n**事件**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：铜锅煮局"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。拳场因故停摆，两方势力"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"为争夺高价值医疗"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"舱与场地控制权展"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"开笼"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"斗。\n**地"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"点**：旧城区由货运升降台"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"改造的地"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"下拳场《铜锅》。"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n**环境**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：外围是喧嚣的赌"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"档与机油"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"味混杂的宵夜摊。"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"看场蓝衣们紧张对"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"峙，全息霓虹灯在"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"生锈的钢铁穹顶上"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"闪烁"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n**参与人员**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：\n- **卫铁生**："}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"义胜盟黄"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"区红衣，为保住"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"堂口生计与地盘，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"必须拿下场地的控"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"制权。\n- **鹿岛绫*"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*：霜月会干部，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"想要"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"吞下拳场的收入和"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"地盘。能敏锐察觉"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"交涉中哪方更接近毁约。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"闵三元**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：义胜盟账房，作为调停人"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"出场，只在乎守住"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"江湖账本"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"与现金流规矩。\n- **柳拂衣*"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*：剑阁行动者，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"受邀监督"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"争斗，拒绝"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"任何人破坏已定下的承诺与"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"规矩。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**杨振邦**：拳场"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"场务，夹在"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"中间，只"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"想把赛事办完、结"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"清赌债，别让手下"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的少年送"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"命。\n\n**可能"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的发展**：\n杨振"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"邦试图在卫铁生和"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"鹿岛绫之间苦苦周"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"旋。双方最终"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"在闵三元见证下，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"派人进入升降台笼"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"斗决胜。鹿岛绫雇"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"佣"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"了**马铁鹰**（重"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"装外骨骼、战锤、"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"追求重火力与赏金）出战，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"玩家可选"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"择替卫铁生登台，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"或趁乱骇入目标医"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"疗设备。\n\n**可玩"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"要点**：\n- 鹿岛绫"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"会在赛前交涉时利"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"用“失衡”能力洞"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"察玩家的"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"底线与真实"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"目的。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"笼斗场地（升降台"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"）存在严"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"重老化，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"超能或重击可直接"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"破坏结构导致塌陷"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n**故障后的各"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"人行动**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：\n战斗导致升降"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"台失控急"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"坠，多方"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"混战瞬间爆发：\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**卫铁生**：尝试"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"稳住局面"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，指挥蓝衣"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"死守医疗"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"舱。\n- **鹿岛绫**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：趁乱让"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"人强行运"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"走设备。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"杨振邦**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：拼命抢"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"救被波及的年轻拳"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"手。\n- **柳拂衣**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：剑意出"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"鞘"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，斩断落"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"下的重物"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"以维持秩序。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"闵三元**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：优先保护账本与"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"自身的绝"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"对安全。"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n**标签**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：巨物对战、笼斗"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"争产、升"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"降台急坠、势力"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"斡旋。\n\n-"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"--\n\n## 场景 9：电"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"竞馆突围"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"战\n\n霓虹"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"闪烁的"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"电竞馆瞬"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"间沦为火"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"海，物理防线与信"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"息空间的"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"双重绞肉"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"机开始疯"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"狂运转！"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n**事件**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：信息节"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"点保卫战"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。方泰安的黑警雇"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"佣兵突袭"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"电竞馆，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"试图拔管"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"摧毁正在"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"信息空间"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"抢救李好"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的众人。\n**地点**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：贺梦琪"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"经营的地下电竞馆"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n**环境"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：狭窄"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的机柜通"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"道，爆闪"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的 RGB 灯带，四处"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"飞溅的火"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"花与全息"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"投影，服务器散热"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"风扇发出"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"震耳欲聋"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的轰鸣。"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n**参与"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"人员**：\n- **贺梦"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"琪**：电竞馆掌柜"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，拼命维"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"持备用电"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"源，保护"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"昂贵的设"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"备与场内"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"熟客。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**闻笙**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：测量者，感知到"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"致命的信"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"息场余响"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，强忍头"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"痛用木签"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"吸收峰值"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"干扰。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**夏满弓*"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*：玄盾"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"巡逻队长"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，受雇进"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"行物理清"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"场。战斗"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"盲感，只"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"求拿钱和"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"队员活命"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n**可"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"能的发展"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：\n夏满"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"弓的重装"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"小队破门"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"而入，布"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"置信号屏蔽仪并开"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"始暴力清"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"场。玩家"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"需要在现"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"实中利用"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"狭窄地形"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"与超能迎"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"战，同时"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"确保陷入"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"深潜舱的"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"队友不断"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"电。玩家"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的拼死救"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"场将极大"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"拉近与贺"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"梦琪、闻"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"笙的关系"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n**可"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"玩要点**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：\n- 超能"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"可以直接"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"引发机柜"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"过载爆炸"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，或改变"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"全息投影"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"生成足以"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"乱真的视"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"觉诱饵。"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- 闻笙吸"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"收干扰时"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"会短暂失"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"明，需要"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"玩家在枪"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"林弹雨中"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"提供火力"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"掩护。\n\n*"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*危险后"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的各人行"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"动**：\n电"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"网过载导"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"致大火蔓"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"延：\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"贺梦琪**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：启动灭"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"火系统，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"拖拽昏迷"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的客人撤"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"离。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"闻笙**："}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"失去视觉"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"但仍用电"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"子音精准"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"指引敌人"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"方位。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**夏满弓*"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*：权衡"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"伤亡，若"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"代价过大"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"则考虑撕"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"毁与方的"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"合同带队"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"撤退。\n\n*"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*标签**："}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"阵地防守"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、双线救"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"援、火力"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"压制、场"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"景破坏。"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n---\n\n## "}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"场景 10："}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"港口集装"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"箱追击\n\n"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"几十吨重"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的集装箱"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"在夜空中"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"狂野摇摆"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，钢铁巨"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"兽间的跑"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"酷追逐正"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"走向失控"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"边缘！\n\n*"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*事件**："}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"夺取异常"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"失踪者。"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"方泰安试"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"图通过自"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"动化港口"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"转移被受"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"损的人格"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"残留与非"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"法义体，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"玩家强行"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"介入拦截"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n**地点"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：无人"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"化运作的"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"深水港物"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"流区。\n**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"环境**："}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"暴雨如注"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，几十米"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"高的自动"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"化塔吊来"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"回穿梭，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"无人重卡"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"在错综复"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"杂的车道"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"上高速行"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"驶，海风"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"夹杂着机"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"油味。\n\n*"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*参与人"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"员**：\n- *"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*宋远**："}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"港口物流"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"接口人，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"察觉货物"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"涉及人口"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"买卖后强"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"行停止放"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"行，正遭"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"到清剿。"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- **贾红*"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*：被请"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"来帮忙覆"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"盖自动化"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"系统权限"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，拼命敲"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"击键盘抢"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"夺塔吊控"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"制权以保"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"住设备。"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- **纪小"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"刀**：想"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"在实战中"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"证明自己"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，握刀的"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"手还在抖"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，但刀锋"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"已锁定目"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"标的重火"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"力。\n\n**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"可能的发"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"展**：\n宋"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"远锁死了"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"运输车队"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，但方泰安的机械"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"猎犬正强"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"行重启系"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"统。玩家"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"需要在高"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"速移动的"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"集装箱之"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"间跳跃战"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"斗，抢夺"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"载有核心"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"数据的货"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"柜。\n\n**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"可玩要点"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：\n- 玩"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"家可指挥"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"贾红操控"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"塔吊，将"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"重型集装"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"箱当作巨"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"型武器直"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"接砸向敌"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"方车队。"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- 纪小刀"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的锋刃异"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"能可以切"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"断重卡铰"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"链，玩家"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"超能可直"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"接改变集"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"装箱磁性"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"或操控雨"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"水阻碍机"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"械猎犬。"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n**危险"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"后的各人"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"行动**：\n"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"塔吊主轴"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"断裂，巨"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"型货柜引"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"发多米诺"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"式坍塌："}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- **宋远*"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*：寻找"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"掩体，尝"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"试物理切"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"断总电源"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n- **贾"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"红**：死"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"死抱住控"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"制终端，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"疯狂备份"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"抢出的数"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"据。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"纪小刀**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：克服恐"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"惧，斩碎"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"飞来的致"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"命破片掩"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"护队友。"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n**标签**"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：立体机"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"动、重型"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"机械操控"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、暴雨追"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"车、截获"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"证据。\n\n-"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"--\n\n## 场"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"景 11：灾"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"备厅地下"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"决战\n\n狂"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"暴的念动"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"力将重型"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"水轮机撕"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"成碎片，"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"在这个绝"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"境般的地"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"下水库里"}}
+{"event":"step_update","step_update":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","step_index":1,"state":"DONE","step_type":"agent_response","text_delta":"，死亡的压迫感瞬间拉满！\n\n**事件**：终局清算。玩家直捣方泰安在灾备厅地下的老巢，遭遇其绝境反扑与超级特工的强行介入。\n**地点**：管委会灾备厅地下的巨型冷却水库与备用发电机组。\n**环境**：齐腰深的汹涌冷却水，高压电弧在受损电缆间疯狂跳跃，警报红光闪烁，水流轰鸣。\n\n**参与人员**：\n- **方泰安**：穷凶极恶的觉醒者，被逼入绝境，用暴力念动力操控重机械与水流进行毁灭性攻击。\n- **于正清**：工程科科长，被迫卷入，拼命想稳住地下结构，防止整个街区断电塌陷。\n- **超级特工**：上级派来的黑手，隐藏在暗处冷酷评估战况。\n\n**可能的发展**：\n方泰安彻底疯狂，将场地内的工业重机当作炮弹砸向玩家。这是一场纯粹的超能与意志消耗战。当玩家历经苦战即将击垮方时，特工会突然现身，瞬间改变局势。\n\n**可玩要点**：\n- 方的念动力极度致命，玩家必须利用地形、冷却水和导电环境进行超能组合反击。\n- 战斗中必须分出精力保护于正清操作泄洪阀，否则全员都会被狂暴的水流吞没。\n\n**危险后的各人行动**：\n特工突然出手，以压倒性实力秒杀重伤的方泰安并强行夺走上游数据：\n- **方泰安**：在极度的惊愕与不甘中被当场灭口。\n- **于正清**：吓破了胆，疯狂拉动最后的保命闸门。\n- **超级特工**：冷酷地警告玩家接受“战果”，随后在爆炸掩护下抽身，留下震撼的新局面。\n\n**标签**：BOSS战、暴力念动力、水下高压电、第三方强权介入。\n```\n","duration_seconds":73.4930835,"usage":{"input_tokens":16809,"output_tokens":7796,"thinking_tokens":5503,"cache_read_tokens":0,"total_tokens":24605}}}
+{"event":"result","result":{"conversation_id":"5660d011-185e-414a-a505-7fecf6f66daa","status":"SUCCESS","response":"这是一份为您准备的 Markdown 格式场景梗概。依照您的要求，这 4 场大戏专注于火爆的实机演出、超能对碰以及绝境中的人物高光。前序的《围捕李好》与《档案室突围》均已作为独立模块保留，您可随时按需选用或交替并行，无需受互斥限制。\n\n```markdown\n# 第四话：新增与改版场景梗概\n\n\u003e **GM 提示**：此前的《围捕李好》与《档案室突围》作为成熟模块继续保留，您可以根据玩家的具体调查路线与决策自行选用，两者互不排斥，也并非必跑流程。\n\n## 场景 8：铜锅煮局（现有 NPC 改版）\n\n地下升降台化身生死斗兽场，重型外骨骼与冷兵器的血战在轰鸣声中一触即发！\n\n**事件**：铜锅煮局。拳场因故停摆，两方势力为争夺高价值医疗舱与场地控制权展开笼斗。\n**地点**：旧城区由货运升降台改造的地下拳场《铜锅》。\n**环境**：外围是喧嚣的赌档与机油味混杂的宵夜摊。看场蓝衣们紧张对峙，全息霓虹灯在生锈的钢铁穹顶上闪烁。\n\n**参与人员**：\n- **卫铁生**：义胜盟黄区红衣，为保住堂口生计与地盘，必须拿下场地的控制权。\n- **鹿岛绫**：霜月会干部，想要吞下拳场的收入和地盘。能敏锐察觉交涉中哪方更接近毁约。\n- **闵三元**：义胜盟账房，作为调停人出场，只在乎守住江湖账本与现金流规矩。\n- **柳拂衣**：剑阁行动者，受邀监督争斗，拒绝任何人破坏已定下的承诺与规矩。\n- **杨振邦**：拳场场务，夹在中间，只想把赛事办完、结清赌债，别让手下的少年送命。\n\n**可能的发展**：\n杨振邦试图在卫铁生和鹿岛绫之间苦苦周旋。双方最终在闵三元见证下，派人进入升降台笼斗决胜。鹿岛绫雇佣了**马铁鹰**（重装外骨骼、战锤、追求重火力与赏金）出战，玩家可选择替卫铁生登台，或趁乱骇入目标医疗设备。\n\n**可玩要点**：\n- 鹿岛绫会在赛前交涉时利用“失衡”能力洞察玩家的底线与真实目的。\n- 笼斗场地（升降台）存在严重老化，超能或重击可直接破坏结构导致塌陷。\n\n**故障后的各人行动**：\n战斗导致升降台失控急坠，多方混战瞬间爆发：\n- **卫铁生**：尝试稳住局面，指挥蓝衣死守医疗舱。\n- **鹿岛绫**：趁乱让人强行运走设备。\n- **杨振邦**：拼命抢救被波及的年轻拳手。\n- **柳拂衣**：剑意出鞘，斩断落下的重物以维持秩序。\n- **闵三元**：优先保护账本与自身的绝对安全。\n\n**标签**：巨物对战、笼斗争产、升降台急坠、势力斡旋。\n\n---\n\n## 场景 9：电竞馆突围战\n\n霓虹闪烁的电竞馆瞬间沦为火海，物理防线与信息空间的双重绞肉机开始疯狂运转！\n\n**事件**：信息节点保卫战。方泰安的黑警雇佣兵突袭电竞馆，试图拔管摧毁正在信息空间抢救李好的众人。\n**地点**：贺梦琪经营的地下电竞馆。\n**环境**：狭窄的机柜通道，爆闪的 RGB 灯带，四处飞溅的火花与全息投影，服务器散热风扇发出震耳欲聋的轰鸣。\n\n**参与人员**：\n- **贺梦琪**：电竞馆掌柜，拼命维持备用电源，保护昂贵的设备与场内熟客。\n- **闻笙**：测量者，感知到致命的信息场余响，强忍头痛用木签吸收峰值干扰。\n- **夏满弓**：玄盾巡逻队长，受雇进行物理清场。战斗盲感，只求拿钱和队员活命。\n\n**可能的发展**：\n夏满弓的重装小队破门而入，布置信号屏蔽仪并开始暴力清场。玩家需要在现实中利用狭窄地形与超能迎战，同时确保陷入深潜舱的队友不断电。玩家的拼死救场将极大拉近与贺梦琪、闻笙的关系。\n\n**可玩要点**：\n- 超能可以直接引发机柜过载爆炸，或改变全息投影生成足以乱真的视觉诱饵。\n- 闻笙吸收干扰时会短暂失明，需要玩家在枪林弹雨中提供火力掩护。\n\n**危险后的各人行动**：\n电网过载导致大火蔓延：\n- **贺梦琪**：启动灭火系统，拖拽昏迷的客人撤离。\n- **闻笙**：失去视觉但仍用电子音精准指引敌人方位。\n- **夏满弓**：权衡伤亡，若代价过大则考虑撕毁与方的合同带队撤退。\n\n**标签**：阵地防守、双线救援、火力压制、场景破坏。\n\n---\n\n## 场景 10：港口集装箱追击\n\n几十吨重的集装箱在夜空中狂野摇摆，钢铁巨兽间的跑酷追逐正走向失控边缘！\n\n**事件**：夺取异常失踪者。方泰安试图通过自动化港口转移被受损的人格残留与非法义体，玩家强行介入拦截。\n**地点**：无人化运作的深水港物流区。\n**环境**：暴雨如注，几十米高的自动化塔吊来回穿梭，无人重卡在错综复杂的车道上高速行驶，海风夹杂着机油味。\n\n**参与人员**：\n- **宋远**：港口物流接口人，察觉货物涉及人口买卖后强行停止放行，正遭到清剿。\n- **贾红**：被请来帮忙覆盖自动化系统权限，拼命敲击键盘抢夺塔吊控制权以保住设备。\n- **纪小刀**：想在实战中证明自己，握刀的手还在抖，但刀锋已锁定目标的重火力。\n\n**可能的发展**：\n宋远锁死了运输车队，但方泰安的机械猎犬正强行重启系统。玩家需要在高速移动的集装箱之间跳跃战斗，抢夺载有核心数据的货柜。\n\n**可玩要点**：\n- 玩家可指挥贾红操控塔吊，将重型集装箱当作巨型武器直接砸向敌方车队。\n- 纪小刀的锋刃异能可以切断重卡铰链，玩家超能可直接改变集装箱磁性或操控雨水阻碍机械猎犬。\n\n**危险后的各人行动**：\n塔吊主轴断裂，巨型货柜引发多米诺式坍塌：\n- **宋远**：寻找掩体，尝试物理切断总电源。\n- **贾红**：死死抱住控制终端，疯狂备份抢出的数据。\n- **纪小刀**：克服恐惧，斩碎飞来的致命破片掩护队友。\n\n**标签**：立体机动、重型机械操控、暴雨追车、截获证据。\n\n---\n\n## 场景 11：灾备厅地下决战\n\n狂暴的念动力将重型水轮机撕成碎片，在这个绝境般的地下水库里，死亡的压迫感瞬间拉满！\n\n**事件**：终局清算。玩家直捣方泰安在灾备厅地下的老巢，遭遇其绝境反扑与超级特工的强行介入。\n**地点**：管委会灾备厅地下的巨型冷却水库与备用发电机组。\n**环境**：齐腰深的汹涌冷却水，高压电弧在受损电缆间疯狂跳跃，警报红光闪烁，水流轰鸣。\n\n**参与人员**：\n- **方泰安**：穷凶极恶的觉醒者，被逼入绝境，用暴力念动力操控重机械与水流进行毁灭性攻击。\n- **于正清**：工程科科长，被迫卷入，拼命想稳住地下结构，防止整个街区断电塌陷。\n- **超级特工**：上级派来的黑手，隐藏在暗处冷酷评估战况。\n\n**可能的发展**：\n方泰安彻底疯狂，将场地内的工业重机当作炮弹砸向玩家。这是一场纯粹的超能与意志消耗战。当玩家历经苦战即将击垮方时，特工会突然现身，瞬间改变局势。\n\n**可玩要点**：\n- 方的念动力极度致命，玩家必须利用地形、冷却水和导电环境进行超能组合反击。\n- 战斗中必须分出精力保护于正清操作泄洪阀，否则全员都会被狂暴的水流吞没。\n\n**危险后的各人行动**：\n特工突然出手，以压倒性实力秒杀重伤的方泰安并强行夺走上游数据：\n- **方泰安**：在极度的惊愕与不甘中被当场灭口。\n- **于正清**：吓破了胆，疯狂拉动最后的保命闸门。\n- **超级特工**：冷酷地警告玩家接受“战果”，随后在爆炸掩护下抽身，留下震撼的新局面。\n\n**标签**：BOSS战、暴力念动力、水下高压电、第三方强权介入。\n```\n","duration_seconds":73.8474177,"num_turns":1,"usage":{"input_tokens":16809,"output_tokens":7796,"thinking_tokens":5503,"cache_read_tokens":0,"total_tokens":24605}}}

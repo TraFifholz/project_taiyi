@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260911-ep04-A-heavy-biped-v1",
+  "characterId": "EP04-A-heavy",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "4f5c43",
+  "apiSeed": 310920261,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "09ced5e6f21adce54e531ca8cb0f9c0442cf444baf0dd28f6bb8c61253036840",
+  "width": 1024,
+  "height": 1024,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-11T11:10:20.275Z"
+}

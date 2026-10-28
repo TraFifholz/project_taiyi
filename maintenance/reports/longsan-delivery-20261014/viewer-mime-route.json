@@ -1,0 +1,10 @@
+{
+  "before_sha256": "cb5b351b00c4b397a575d5dbd7dcdf396568232e46cc2a9cbc0a17c08672c2d1",
+  "after_sha256": "03b04103dbcacd8b0a002c85f915cb4ff26ac912ff40ede138c912895450c7bc",
+  "backup": "C:\\Caddy\\backups\\longsan-map-20261014\\Caddyfile.original",
+  "candidate_validated": true,
+  "reload_succeeded": true,
+  "exact_path": "/worlds/taiyi/assets/maps/longsan-20261014/index.html",
+  "only_change": "Deferred Content-Type override for this HTML file",
+  "rollback": "Restore Caddyfile.original and reload"
+}

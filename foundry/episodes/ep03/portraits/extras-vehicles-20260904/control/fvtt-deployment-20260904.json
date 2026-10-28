@@ -1,0 +1,21 @@
+{
+  "verifiedAt": "2026-09-04T22:48:33+08:00",
+  "world": "taiyi",
+  "system": "swade",
+  "user": "AssistantAgent",
+  "passed": true,
+  "targets": 12,
+  "actorImagesChanged": 12,
+  "prototypeTokensChanged": 12,
+  "sceneTokensChanged": 0,
+  "existingSceneTokensAtDeployment": 0,
+  "sceneTokensVerifiedAfterDeployment": 3,
+  "verifiedScene": "高架",
+  "verifiedSceneTokenActors": [
+    "中继车 M-3",
+    "零号库载车 Z-0",
+    "欲子的退役玄盾巡逻越野车"
+  ],
+  "remoteHashesMatched": 12,
+  "notes": "Five supporting NPCs use the NAI V5 WebP assets; seven vehicles use the generated PNG assets. No target Actor was placed in a Scene when the write began. A fresh post-deployment session found three target vehicle Tokens in the Highroad scene; all three already used the new prototype artwork."
+}

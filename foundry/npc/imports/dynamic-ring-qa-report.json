@@ -1,0 +1,749 @@
+{
+  "id": "taiyi-ring-qa-20260902",
+  "status": "complete",
+  "phase": "complete",
+  "reports": {
+    "update": {
+      "worldId": "taiyi",
+      "changes": [
+        {
+          "id": "LS-NPC-088",
+          "actorId": "gadGwYGyXgzgEfpp",
+          "action": "updated",
+          "fields": [
+            "prototypeToken.ring.subject.texture",
+            "prototypeToken.ring.subject.scale",
+            "prototypeToken.texture.scaleX",
+            "prototypeToken.texture.scaleY",
+            "_id"
+          ]
+        },
+        {
+          "id": "LS-NPC-090",
+          "actorId": "a1z7lVrqv6W7wDFI",
+          "action": "updated",
+          "fields": [
+            "prototypeToken.ring.subject.texture",
+            "prototypeToken.ring.subject.scale",
+            "prototypeToken.texture.scaleX",
+            "prototypeToken.texture.scaleY",
+            "_id"
+          ]
+        }
+      ],
+      "relationChanges": [
+        {
+          "id": "taiyi-rel-4eff4d38c71335ec",
+          "ownerId": "LS-NPC-088",
+          "targetId": "LS-NPC-089",
+          "relationshipId": "rel_SVqoDTZH1CklSzBj",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-4eff4d38c71335ec",
+          "ownerId": "LS-NPC-089",
+          "targetId": "LS-NPC-088",
+          "relationshipId": "rel_dYwbnpz6m5QYEmYH",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-21b0da96fd81f653",
+          "ownerId": "LS-NPC-088",
+          "targetId": "LS-NPC-090",
+          "relationshipId": "rel_PvFIyloHVn87hlz8",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-21b0da96fd81f653",
+          "ownerId": "LS-NPC-090",
+          "targetId": "LS-NPC-088",
+          "relationshipId": "rel_PRL3qjqxFQBB6cU2",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-224cb868a0a92e9e",
+          "ownerId": "LS-NPC-089",
+          "targetId": "LS-NPC-090",
+          "relationshipId": "rel_3Jwc1cRLcSUAIiHv",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-224cb868a0a92e9e",
+          "ownerId": "LS-NPC-090",
+          "targetId": "LS-NPC-089",
+          "relationshipId": "rel_DXyK75n2k4s6hTY9",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-b42f52f034a10266",
+          "ownerId": "LS-NPC-088",
+          "targetId": "LS-NPC-100",
+          "relationshipId": "rel_SvxiV2db8lu9Pv4B",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-b42f52f034a10266",
+          "ownerId": "LS-NPC-100",
+          "targetId": "LS-NPC-088",
+          "relationshipId": "rel_yCZORPhxetEbSjX5",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-5ba61e11e3dfc8ea",
+          "ownerId": "LS-PC-lihao",
+          "targetId": "LS-NPC-088",
+          "relationshipId": "rel_riLslW7zOH5yQ8tw",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-5ba61e11e3dfc8ea",
+          "ownerId": "LS-NPC-088",
+          "targetId": "LS-PC-lihao",
+          "relationshipId": "rel_6CqsFNgsvVVioyFS",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-632ec08c50f397a0",
+          "ownerId": "LS-PC-lihao",
+          "targetId": "LS-NPC-090",
+          "relationshipId": "rel_uSNta1zHvRWnHArg",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-632ec08c50f397a0",
+          "ownerId": "LS-NPC-090",
+          "targetId": "LS-PC-lihao",
+          "relationshipId": "rel_fPgGrCod312SbylC",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-a1e47f392adf346d",
+          "ownerId": "LS-PC-yuko",
+          "targetId": "LS-NPC-090",
+          "actorId": "zmeMlq5pVbbqr1rA",
+          "relationshipIds": [
+            "rel_f6b6AgiqhZToFycc"
+          ],
+          "action": "reused-existing-preserved"
+        },
+        {
+          "id": "taiyi-rel-a1e47f392adf346d",
+          "ownerId": "LS-NPC-090",
+          "targetId": "LS-PC-yuko",
+          "relationshipId": "rel_4isXvoD9BzvxJNoY",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-ed0cb5fbf46742f3",
+          "ownerId": "LS-PC-tangsuo",
+          "targetId": "LS-NPC-090",
+          "actorId": "ELxrslbsSHQg0cmK",
+          "relationshipIds": [
+            "rel_uwQOA0xZy3xNmOI7"
+          ],
+          "action": "reused-existing-preserved"
+        },
+        {
+          "id": "taiyi-rel-ed0cb5fbf46742f3",
+          "ownerId": "LS-NPC-090",
+          "targetId": "LS-PC-tangsuo",
+          "relationshipId": "rel_c2sfybziNB0uPxyM",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-5e56dd793f2e33f8",
+          "ownerId": "LS-PC-lei",
+          "targetId": "LS-NPC-090",
+          "relationshipId": "rel_Vho5pzJjVECAtd5j",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-5e56dd793f2e33f8",
+          "ownerId": "LS-NPC-090",
+          "targetId": "LS-PC-lei",
+          "relationshipId": "rel_69lWiKbryQvQk3aX",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-714c678d3384501f",
+          "ownerId": "LS-PC-kevlar",
+          "targetId": "LS-NPC-090",
+          "actorId": "vhpt4XZxZn59dWX5",
+          "relationshipIds": [
+            "rel_ftk0BSYMVFQtMiKL"
+          ],
+          "action": "reused-existing-preserved"
+        },
+        {
+          "id": "taiyi-rel-714c678d3384501f",
+          "ownerId": "LS-NPC-090",
+          "targetId": "LS-PC-kevlar",
+          "relationshipId": "rel_kuXrBaOKt9VWBjyD",
+          "action": "unchanged"
+        },
+        {
+          "id": "taiyi-rel-003e53c31f2be4c8",
+          "ownerId": "LS-PC-arkan",
+          "targetId": "LS-NPC-090",
+          "actorId": "nJxWvLzZvBNXObjk",
+          "relationshipIds": [
+            "rel_aUW46zeGgaln8rQ2"
+          ],
+          "action": "reused-existing-preserved"
+        },
+        {
+          "id": "taiyi-rel-003e53c31f2be4c8",
+          "ownerId": "LS-NPC-090",
+          "targetId": "LS-PC-arkan",
+          "relationshipId": "rel_veNmrrGhVnOwBEPV",
+          "action": "unchanged"
+        }
+      ],
+      "protectedFailures": [],
+      "matches": [
+        {
+          "id": "LS-NPC-001",
+          "actorId": "57BoaQ7gjSSojsma",
+          "name": "陆文青"
+        },
+        {
+          "id": "LS-NPC-002",
+          "actorId": "uNlczFawsmnxeae6",
+          "name": "万祁连"
+        },
+        {
+          "id": "LS-NPC-003",
+          "actorId": "bnH2ArnAUr584IMt",
+          "name": "苗铁城"
+        },
+        {
+          "id": "LS-NPC-004",
+          "actorId": "ACloRaZSkKutukPP",
+          "name": "党怀沙"
+        },
+        {
+          "id": "LS-NPC-005",
+          "actorId": "VDYehYYptYa6HoSR",
+          "name": "燕尺素"
+        },
+        {
+          "id": "LS-NPC-006",
+          "actorId": "2YEzICTcbBxgNpxY",
+          "name": "翟明珠"
+        },
+        {
+          "id": "LS-NPC-008",
+          "actorId": "vnu3ZexhyIfz7OhH",
+          "name": "苗可栗"
+        },
+        {
+          "id": "LS-NPC-009",
+          "actorId": "MnHV47cJxYL4RSVB",
+          "name": "郜白"
+        },
+        {
+          "id": "LS-NPC-011",
+          "actorId": "tiGT0NBflfw6V0CQ",
+          "name": "沈丹青"
+        },
+        {
+          "id": "LS-NPC-012",
+          "actorId": "sEMbG68n987ZfnqM",
+          "name": "罗弈"
+        },
+        {
+          "id": "LS-NPC-013",
+          "actorId": "9fPcKPAaOmzAEddl",
+          "name": "曲阿七"
+        },
+        {
+          "id": "LS-NPC-014",
+          "actorId": "FCAx9DVCPshCVdbK",
+          "name": "田进财"
+        },
+        {
+          "id": "LS-NPC-015",
+          "actorId": "jzoMevmSzqwRs6ty",
+          "name": "单小鹿"
+        },
+        {
+          "id": "LS-NPC-017",
+          "actorId": "1AzejlGF2afr3Gsy",
+          "name": "方见"
+        },
+        {
+          "id": "LS-NPC-018",
+          "actorId": "NUIE1vhFiLtUklK2",
+          "name": "卓近火"
+        },
+        {
+          "id": "LS-NPC-019",
+          "actorId": "Dgsq3cLSLaMGyKDH",
+          "name": "甘采蓝"
+        },
+        {
+          "id": "LS-NPC-021",
+          "actorId": "fVhzAQtuu0k43cEJ",
+          "name": "周清梅"
+        },
+        {
+          "id": "LS-NPC-022",
+          "actorId": "JQAqnnjrcHzvOXpa",
+          "name": "霍云骧"
+        },
+        {
+          "id": "LS-NPC-024",
+          "actorId": "qimV4VZnX0aOEvR3",
+          "name": "雷小鼓"
+        },
+        {
+          "id": "LS-NPC-025",
+          "actorId": "IK6oqvb7LMexuwgj",
+          "name": "葛兆康（老葛）"
+        },
+        {
+          "id": "LS-NPC-026",
+          "actorId": "kN0n8a6t0iYEfIYe",
+          "name": "甘棠"
+        },
+        {
+          "id": "LS-NPC-027",
+          "actorId": "RlyKuc5Nvyjh28Tw",
+          "name": "邢九重"
+        },
+        {
+          "id": "LS-NPC-029",
+          "actorId": "bZeVGbjdNOzQUeyH",
+          "name": "秦时雨"
+        },
+        {
+          "id": "LS-NPC-030",
+          "actorId": "OKIMH0V1uQY7eBM6",
+          "name": "钟月台"
+        },
+        {
+          "id": "LS-NPC-031",
+          "actorId": "0LHEjmZDMASx14Fc",
+          "name": "童司南"
+        },
+        {
+          "id": "LS-NPC-033",
+          "actorId": "gTmMOIwGa6flQvNZ",
+          "name": "赵明芝"
+        },
+        {
+          "id": "LS-NPC-034",
+          "actorId": "DRsx89mriRTnvoJJ",
+          "name": "苏小晚"
+        },
+        {
+          "id": "LS-NPC-035",
+          "actorId": "5IrGfYdHLCMXNrTs",
+          "name": "顾全有"
+        },
+        {
+          "id": "LS-NPC-037",
+          "actorId": "vqcEA8al2OfxGc0p",
+          "name": "白念秋"
+        },
+        {
+          "id": "LS-NPC-038",
+          "actorId": "4BEAUwXJeiCv4fNt",
+          "name": "何问舟"
+        },
+        {
+          "id": "LS-NPC-039",
+          "actorId": "9gAKuBGUBUTAHcoR",
+          "name": "纪清商"
+        },
+        {
+          "id": "LS-NPC-040",
+          "actorId": "s5sWbZlEK2VfXf4m",
+          "name": "向柳"
+        },
+        {
+          "id": "LS-NPC-041",
+          "actorId": "W04MWmMXNCCftHlu",
+          "name": "冯宁汐"
+        },
+        {
+          "id": "LS-NPC-043",
+          "actorId": "X2SZWB0NAfdllkvy",
+          "name": "阿岛俊"
+        },
+        {
+          "id": "LS-NPC-044",
+          "actorId": "KwehyM2AWAaHV2ME",
+          "name": "陈志远"
+        },
+        {
+          "id": "LS-NPC-045",
+          "actorId": "LmaEpGKUt10QoPW0",
+          "name": "金舸"
+        },
+        {
+          "id": "LS-NPC-046",
+          "actorId": "psyMJFu6q5eG3CcD",
+          "name": "何凌"
+        },
+        {
+          "id": "LS-NPC-048",
+          "actorId": "0tfTRFx97cvIsWP4",
+          "name": "沈折琼"
+        },
+        {
+          "id": "LS-NPC-049",
+          "actorId": "fsDx0SJGMfcP5Hpk",
+          "name": "白鸢"
+        },
+        {
+          "id": "LS-NPC-050",
+          "actorId": "FMxMv42x0bt57VXD",
+          "name": "艾德礼·霍华德"
+        },
+        {
+          "id": "LS-NPC-051",
+          "actorId": "WLZGos0f2rJ17PVL",
+          "name": "夏满弓"
+        },
+        {
+          "id": "LS-NPC-052",
+          "actorId": "kXQo1FBuVNbjbdF8",
+          "name": "巫明烛"
+        },
+        {
+          "id": "LS-NPC-053",
+          "actorId": "3QalyVNUzgOSAb3H",
+          "name": "郁垒"
+        },
+        {
+          "id": "LS-NPC-054",
+          "actorId": "mYC7WLFuZPzfJ2Lc",
+          "name": "白鹤年"
+        },
+        {
+          "id": "LS-NPC-055",
+          "actorId": "tbnPHoA6QtbjIgL8",
+          "name": "伊莱恩·莫罗"
+        },
+        {
+          "id": "LS-NPC-056",
+          "actorId": "6hT9gap8LopThul3",
+          "name": "卫铁生"
+        },
+        {
+          "id": "LS-NPC-057",
+          "actorId": "kwipLU20vMECXjOk",
+          "name": "铁手（李铁牙）"
+        },
+        {
+          "id": "LS-NPC-058",
+          "actorId": "UQ6s5kAKxZWk7yW6",
+          "name": "闵三元"
+        },
+        {
+          "id": "LS-NPC-059",
+          "actorId": "DRgDGdAoKoyE97ZW",
+          "name": "柳拂衣"
+        },
+        {
+          "id": "LS-NPC-060",
+          "actorId": "WGt118EU05eesbFr",
+          "name": "纪小刀"
+        },
+        {
+          "id": "LS-NPC-061",
+          "actorId": "RJ33Y3n9CnPNI3gx",
+          "name": "何夜白"
+        },
+        {
+          "id": "LS-NPC-062",
+          "actorId": "Yh75cL4suvw30q8q",
+          "name": "九条千寻"
+        },
+        {
+          "id": "LS-NPC-063",
+          "actorId": "iK2yifpOe0A65J8H",
+          "name": "鹿岛绫"
+        },
+        {
+          "id": "LS-NPC-065",
+          "actorId": "O7ycDu9ixwbBxy1d",
+          "name": "宋远"
+        },
+        {
+          "id": "LS-NPC-066",
+          "actorId": "etV3yeQpnAJHE7BA",
+          "name": "卢卡·阿奎拉"
+        },
+        {
+          "id": "LS-NPC-067",
+          "actorId": "7aQZVS47M2oWodIk",
+          "name": "马铁鹰"
+        },
+        {
+          "id": "LS-NPC-068",
+          "actorId": "zpC4rcLk5iW31WO1",
+          "name": "西尔维娅"
+        },
+        {
+          "id": "LS-NPC-069",
+          "actorId": "9zEDeY2FWiqEvbpE",
+          "name": "贺梦琪"
+        },
+        {
+          "id": "LS-NPC-070",
+          "actorId": "Al9LGpY49FbRx5Qk",
+          "name": "老井（井叔）"
+        },
+        {
+          "id": "LS-NPC-072",
+          "actorId": "cdESIH9b3XCTsX5K",
+          "name": "S.H."
+        },
+        {
+          "id": "LS-NPC-073",
+          "actorId": "8HBCHnnWHDWRKLEl",
+          "name": "LR-07"
+        },
+        {
+          "id": "LS-NPC-074",
+          "actorId": "HcJE2gk2MnZl2lS0",
+          "name": "薄晚"
+        },
+        {
+          "id": "LS-NPC-075",
+          "actorId": "o3HMAuMC5nPJ26qh",
+          "name": "罗鸣谦"
+        },
+        {
+          "id": "LS-NPC-076",
+          "actorId": "kk159q86nfyUl5dS",
+          "name": "玄圭"
+        },
+        {
+          "id": "LS-NPC-077",
+          "actorId": "iBJN4yYdbbbbuyfU",
+          "name": "方泰安"
+        },
+        {
+          "id": "LS-NPC-078",
+          "actorId": "3NyAUr5b8np4WF32",
+          "name": "于正清"
+        },
+        {
+          "id": "LS-NPC-079",
+          "actorId": "XiQXexl1CAyOi6uk",
+          "name": "秦有邻"
+        },
+        {
+          "id": "LS-NPC-080",
+          "actorId": "gnoWJXlg9MsPQhKJ",
+          "name": "朱见微"
+        },
+        {
+          "id": "LS-NPC-081",
+          "actorId": "fBAjZP6g3eZJcGRR",
+          "name": "苏碧城"
+        },
+        {
+          "id": "LS-NPC-082",
+          "actorId": "wK4L20iIt6GKlco0",
+          "name": "杜若"
+        },
+        {
+          "id": "LS-NPC-083",
+          "actorId": "mzzirCssE0U78NSE",
+          "name": "纪慎微"
+        },
+        {
+          "id": "LS-NPC-085",
+          "actorId": "GkjbhmkUhK5pESha",
+          "name": "凌渡"
+        },
+        {
+          "id": "LS-NPC-086",
+          "actorId": "COkMejJ9Z3LcNwvb",
+          "name": "文小篆"
+        },
+        {
+          "id": "LS-NPC-088",
+          "actorId": "gadGwYGyXgzgEfpp",
+          "name": "沈漫"
+        },
+        {
+          "id": "LS-NPC-089",
+          "actorId": "gBq6GwDgNfcln8lB",
+          "name": "沈仲秋"
+        },
+        {
+          "id": "LS-NPC-090",
+          "actorId": "a1z7lVrqv6W7wDFI",
+          "name": "朱瑶光"
+        },
+        {
+          "id": "LS-NPC-091",
+          "actorId": "QlguyKmLQpdAhIlc",
+          "name": "林彬"
+        },
+        {
+          "id": "LS-NPC-092",
+          "actorId": "HWPK89onJnRj4DcE",
+          "name": "谢翠莲"
+        },
+        {
+          "id": "LS-NPC-093",
+          "actorId": "QifpVPyNn5JqftkM",
+          "name": "宋光明"
+        },
+        {
+          "id": "LS-NPC-094",
+          "actorId": "YFZp5ZtD2HA6bznJ",
+          "name": "杨振邦"
+        },
+        {
+          "id": "LS-NPC-095",
+          "actorId": "eubCIDi10WeO2cx5",
+          "name": "萨布里娜·费雷拉"
+        },
+        {
+          "id": "LS-NPC-096",
+          "actorId": "RqRwsNovNTzMLxwh",
+          "name": "周凛"
+        },
+        {
+          "id": "LS-NPC-098",
+          "actorId": "yu2O7Qa3YUd72Uwr",
+          "name": "贾红"
+        },
+        {
+          "id": "LS-NPC-100",
+          "actorId": "27bI4x78JIvvQDk4",
+          "name": "陈斌"
+        },
+        {
+          "id": "LS-NPC-101",
+          "actorId": "c9CMnekZUT44LGED",
+          "name": "梁文川"
+        },
+        {
+          "id": "LS-NPC-103",
+          "actorId": "iPBpGEGMeukkWOlq",
+          "name": "朱恒（身份待核）"
+        },
+        {
+          "id": "LS-NPC-104",
+          "actorId": "fJ9DysjHxxYTN1nh",
+          "name": "林鹤"
+        },
+        {
+          "id": "LS-NPC-105",
+          "actorId": "PmojUTiwUpFLHOfw",
+          "name": "黑川"
+        },
+        {
+          "id": "LS-NPC-106",
+          "actorId": "AoAySniG9cDoQ6K7",
+          "name": "红皇后"
+        },
+        {
+          "id": "LS-NPC-107",
+          "actorId": "cthqSnquc0kZpCr5",
+          "name": "男偶像"
+        },
+        {
+          "id": "LS-NPC-N1",
+          "actorId": "cklvc9bYITPdZmcz",
+          "name": "周敏"
+        },
+        {
+          "id": "LS-NPC-N2",
+          "actorId": "gRRjgs29ZBBPH4fC",
+          "name": "程雯"
+        },
+        {
+          "id": "LS-NPC-N3",
+          "actorId": "zltELu4L5KcmScNG",
+          "name": "棍木女"
+        },
+        {
+          "id": "LS-PC-lihao",
+          "actorId": "dVY3kCrHc0WYyKEa",
+          "name": "李好"
+        },
+        {
+          "id": "LS-PC-yuko",
+          "actorId": "zmeMlq5pVbbqr1rA",
+          "name": "黑崎欲子"
+        },
+        {
+          "id": "LS-PC-tangsuo",
+          "actorId": "ELxrslbsSHQg0cmK",
+          "name": "唐索"
+        },
+        {
+          "id": "LS-PC-lei",
+          "actorId": "j3f9G2P4vDSmmxZw",
+          "name": "雷武龙"
+        },
+        {
+          "id": "LS-PC-kevlar",
+          "actorId": "vhpt4XZxZn59dWX5",
+          "name": "凯芙拉·威尔森"
+        },
+        {
+          "id": "LS-PC-arkan",
+          "actorId": "nJxWvLzZvBNXObjk",
+          "name": "阿尔坎·希耶尔"
+        }
+      ]
+    },
+    "cleanup": {
+      "deleted": [
+        "5oNiajsl71A14PPK"
+      ],
+      "remaining": 0
+    },
+    "scene": {
+      "sceneId": "qGJFfjp48UTGGRcq",
+      "previousView": "fxshJuHmYwE3EBbr",
+      "tokens": [
+        {
+          "id": "kZsdflfLc3X6SnKY",
+          "name": "沈漫",
+          "actorId": "gadGwYGyXgzgEfpp",
+          "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+          "actorLink": false
+        },
+        {
+          "id": "JNgbAtMSh5FJ0hJr",
+          "name": "朱瑶光",
+          "actorId": "a1z7lVrqv6W7wDFI",
+          "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp",
+          "actorLink": false
+        },
+        {
+          "id": "pShfDqgJWuI9EOc5",
+          "name": "沈仲秋",
+          "actorId": "gBq6GwDgNfcln8lB",
+          "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-089.webp",
+          "actorLink": true
+        },
+        {
+          "id": "zOtCw343EgF0aIi0",
+          "name": "棍木女",
+          "actorId": "zltELu4L5KcmScNG",
+          "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-N3.webp",
+          "actorLink": true
+        }
+      ],
+      "originalSceneIds": [
+        "CkARhUCzIU5Ne7tR",
+        "sCmkZHfKQWKdtLGD",
+        "WXX7HUcbNoTCM4Yn",
+        "IZbTn3sMc3c5f0V3",
+        "fxshJuHmYwE3EBbr"
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "requestedAt": "2026-09-02",
+  "provider": "NovelAI",
+  "assets": [
+    {
+      "id": "UTILITY-MALE",
+      "name": "通用男性纯黑剪影",
+      "slug": "male-silhouette",
+      "seed": 2026090201,
+      "runId": "20260902-utility-male-silhouette-v1",
+      "status": "qa_passed",
+      "asset": "assets/utility/npc-male-silhouette-20260902.png",
+      "sha256": "28a2562cabf31d5917b852e4e6ba8b795fe569c6415aee3ac0a1b7fd85869063"
+    },
+    {
+      "id": "UTILITY-FEMALE",
+      "name": "通用女性纯黑剪影",
+      "slug": "female-silhouette",
+      "seed": 2026090202,
+      "runId": "20260902-utility-female-silhouette-v1",
+      "status": "qa_passed",
+      "asset": "assets/utility/npc-female-silhouette-20260902.png",
+      "sha256": "74a63b7bab8afd4de1cffb26608a4401264267b1212f76de4cda19b87c8a03cb"
+    },
+    {
+      "id": "LS-NPC-072-ANONYMOUS",
+      "name": "S.H. 男性 Glitch 剪影",
+      "slug": "sh-glitch-silhouette",
+      "seed": null,
+      "runId": "20260902-utility-sh-glitch-derived-v1",
+      "status": "qa_passed",
+      "asset": "assets/utility/sh-glitch-silhouette-20260902.png",
+      "sha256": "9efcf4f5259047090955d342b69dbd59c1b43ad95ee9970c558eee5304862c71",
+      "sourceRun": "20260902-utility-male-silhouette-v1",
+      "processing": "Reproducible RGB split (cyan/magenta) and displaced horizontal slices; pure black interior; original anonymous male NAI outline",
+      "generationAttempts": [
+        "20260902-utility-sh-glitch-silhouette-v1",
+        "20260902-utility-sh-glitch-silhouette-v2"
+      ],
+      "processingSeed": null
+    }
+  ]
+}

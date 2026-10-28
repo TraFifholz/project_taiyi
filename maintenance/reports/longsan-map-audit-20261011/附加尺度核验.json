@@ -1,0 +1,74 @@
+{
+  "building_counts_by_actual_zone": {
+    "深中新区": 10539,
+    "北岭区": 12633,
+    "文星区": 10379,
+    "楚岸区": 4037,
+    "故城区": 5122,
+    "铁山区": 3348,
+    "望津区": 2357,
+    "云麓镇": 3035,
+    "窑湾村": 2184,
+    "旧城灰区": 1781
+  },
+  "building_dimensions_by_type": {
+    "center": {
+      "count": 10539,
+      "median_length_m": 41.60000000000218,
+      "median_width_m": 50.159999999999854,
+      "median_footprint_m2": 2153.727999985218
+    },
+    "residential": {
+      "count": 12633,
+      "median_length_m": 46.64658615590562,
+      "median_width_m": 57.919834253905584,
+      "median_footprint_m2": 2776.345599979162
+    },
+    "campus": {
+      "count": 10379,
+      "median_length_m": 46.7156162326903,
+      "median_width_m": 57.988964467388605,
+      "median_footprint_m2": 2805.28639999032
+    },
+    "civic": {
+      "count": 4037,
+      "median_length_m": 46.6433617999383,
+      "median_width_m": 57.462279801621555,
+      "median_footprint_m2": 2757.766400039196
+    },
+    "old": {
+      "count": 5122,
+      "median_length_m": 26.722754296470868,
+      "median_width_m": 32.24486315678806,
+      "median_footprint_m2": 888.1311999857425
+    },
+    "industry": {
+      "count": 3348,
+      "median_length_m": 115.66752353189267,
+      "median_width_m": 96.23977558151432,
+      "median_footprint_m2": 11255.121600061655
+    },
+    "port": {
+      "count": 2357,
+      "median_length_m": 124.31999999999971,
+      "median_width_m": 100.47999999999956,
+      "median_footprint_m2": 12009.548799991608
+    },
+    "town": {
+      "count": 5219,
+      "median_length_m": 46.69184082899253,
+      "median_width_m": 58.27658191760742,
+      "median_footprint_m2": 2781.9744000434875
+    },
+    "closed": {
+      "count": 1781,
+      "median_length_m": 46.344932840602695,
+      "median_width_m": 59.464274989274415,
+      "median_footprint_m2": 2784.2272000312805
+    }
+  },
+  "landmark_boundary_distance_km": {
+    "书院路→龙散大学": 1.6774285560083146,
+    "云梦科技园→燧明科技园": 5.312445312218517
+  }
+}

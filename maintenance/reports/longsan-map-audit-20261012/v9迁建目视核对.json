@@ -1,0 +1,51 @@
+{
+  "reviewer": "collapse_design_audit",
+  "scope": "six final local images actually viewed; complete art evaluation remains a separate report",
+  "input_svg_sha256": {
+    "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+    "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+  },
+  "actual_viewed_images": [
+    {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\财经新址-新.png",
+      "sha256": "705c413e736ef79536029d353c8c9c724c9c8fad18b2e6d048bd6192eeaa2194",
+      "bytes": 161598,
+      "observation": "完整六院落、图书馆及四宿舍可辨，内部路径通过院落开口接主轴并避让图书馆，周界公共街与外部道路交点可见。保留整组清退后的边缘绿地，其精细景观仍为后续设计。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\奥体新址-新.png",
+      "sha256": "d96afa735ea3830aab71924f54a676e8ff3f1a50bb0ad94754572ba5cd88e791",
+      "bytes": 227704,
+      "observation": "完整环形看台、标准足球场与跑道、体育馆和游泳馆可辨；内部步道连通场馆与西南出口，公共周界在设施外。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\西岸五站-地铁-新.png",
+      "sha256": "d7f60954c96402375949140c695e3fc2ea27493e13fb0059abe38398c3ec8a5d",
+      "bytes": 813161,
+      "observation": "五个修正站均在楚江主航道西侧：财经在奥体以北，沙尾在财经以东，楚江西路在奥体东北，枫湾在奥体西南；传媒、银行和大学既有位置可对照。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\跨江3与6号线-地铁-新.png",
+      "sha256": "7d9bc50bab87cf1c6dce6264b6fc70cb39f88ccd51989307379e0ed5f6449b10",
+      "bytes": 833974,
+      "observation": "沙尾至工运、楚江西路至工运两条区间跨两河汊与江心洲并在工运会合，岛上段不新增未授权车站；线路粗细是显示符号，不能读取为工程宽度。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\燧明园-地铁-新.png",
+      "sha256": "29726a89f47fffc9ef1a252e7cd98336c6114b5d7f49ac950c792cccdf3f968e",
+      "bytes": 1242451,
+      "observation": "燧明园回到东岸，L1工运—燧明园—楚江广场连续位于东岸；岛上深中/云梦科技园仍保留。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\岛上旧址-新.png",
+      "sha256": "cc447d32c87eb46da1d0809f9cbe3af003d0d801cd1042d656850c48e9c03039",
+      "bytes": 525459,
+      "observation": "原专用校园/体育场建筑不再留在岛上；旧址采用开放绿地，既有公共街与周围居住组团保留。"
+    }
+  ],
+  "unresolved_must_correct_from_this_local_visual_read": [],
+  "limits": [
+    "This visual read establishes the local bank/facility revision as visible; it is not a claim of finished art or user acceptance.",
+    "Whole-compound empty margins and repeated old court forms remain visible; full independent art reviewer owns prioritization."
+  ]
+}

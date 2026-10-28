@@ -1,0 +1,21 @@
+{
+  "source": "https://lcnw6r5edbf2.feishu.cn/wiki/OtXywNNduiizHgkc0YIcR9aonmc",
+  "http_status": 200,
+  "final_host": "lcnw6r5edbf2.feishu.cn",
+  "final_path": "/wiki/OtXywNNduiizHgkc0YIcR9aonmc",
+  "status": "downloaded",
+  "title": "愿望窃贼 The Wish Thief",
+  "blocks": 774,
+  "pagination_requests": 6,
+  "missing_blocks": 0,
+  "attachment_count": 6,
+  "references": 8,
+  "source_sha256": "94c8f751669a8f821f5e3f8bf688d8301c511f2d08003287869d29ae31eaf950",
+  "reachable_blocks": 774,
+  "unvisited_blocks": 0,
+  "conversion_notes": "本地阅读副本。正文、表格、配图和主要文字强调保留；原页分栏、字体与分页不作精确复刻。其中 6 张配图为公开预览图。",
+  "local_reader": "content.html",
+  "local_markdown": "content.md",
+  "assets_downloaded": 6,
+  "assets_unavailable": 0
+}

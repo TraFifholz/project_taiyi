@@ -1,0 +1,16 @@
+{
+  "verifiedAt": "2026-09-03T14:15:36.267Z",
+  "world": "taiyi",
+  "named": 7,
+  "extraTemplates": 5,
+  "vehicleTemplates": 7,
+  "newActors": 15,
+  "filledExisting": 4,
+  "untouchedExisting": 114,
+  "items": 215,
+  "powers": 36,
+  "playerActorsUnchanged": true,
+  "sceneTokensUnchanged": true,
+  "failures": [],
+  "passed": true
+}

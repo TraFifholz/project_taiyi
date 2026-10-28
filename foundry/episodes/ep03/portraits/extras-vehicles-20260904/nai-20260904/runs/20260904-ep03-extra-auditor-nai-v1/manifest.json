@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260904-ep03-extra-auditor-nai-v1",
+  "characterId": "EP03-EXTRA-AUDITOR",
+  "characterName": "M-3 随车审计员",
+  "actorId": "c97aece17d9be1cc",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "assets/candidates/EP03-EXTRA-AUDITOR-M-3 随车审计员-nai-avatar.webp",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=11d8205d6dd92629bb57f12b291ba3fdcabee019935b17c6fce5c1b2bfbb41eb",
+      "成年审计员、西装、眼镜和橙色反光背心清楚；手部正常，无武器、文字、标志或能力特效。"
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentPixels": 606849
+  },
+  "userApproved": false,
+  "deployedToFvtt": false
+}

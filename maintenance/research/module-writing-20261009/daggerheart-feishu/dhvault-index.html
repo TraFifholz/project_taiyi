@@ -1,0 +1,2645 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>宏伟宝库 · The Great Vault</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@700;900&display=swap" rel="stylesheet">
+  <style>
+    /* ══════════════════════════════════════════
+       Design Tokens — Dark Theme (default)
+       ══════════════════════════════════════════ */
+    :root {
+      --bg-deepest: #151310;
+      --bg-deep: #1c1a16;
+      --bg-surface: #24211c;
+      --bg-elevated: #2d2922;
+      --bg-highlight: #37312a;
+      --bg-input: #1d1a16;
+
+      --gold: #b89342;
+      --gold-light: #c9a54e;
+      --gold-bright: #ddc078;
+      --gold-dim: #6b5a32;
+      --gold-dark: #3d3018;
+      --gold-pale: #d5c7a6;
+
+      --crimson: #843434;
+      --crimson-light: #a84444;
+      --crimson-glow: rgba(160, 60, 60, 0.35);
+
+      --text-primary: #cec4b0;
+      --text-secondary: #a29684;
+      --text-muted: #969080;
+      --text-dim: #716856;
+
+      /* 可翻转边框 / 覆盖层 */
+      --border-card: rgba(255,255,255,0.04);
+      --border-subtle: rgba(255,255,255,0.05);
+      --border-input: rgba(255,255,255,0.06);
+      --border-hover: rgba(255,255,255,0.08);
+      --border-medium: rgba(255,255,255,0.12);
+      --border-gold: rgba(184,147,66,0.14);
+      --border-gold-strong: rgba(184,147,66,0.2);
+      --overlay-bg: rgba(0,0,0,0.55);
+      --overlay-light: rgba(0,0,0,0.45);
+      --tag-flavor-bg: rgba(255,255,255,0.03);
+      --tag-flavor-border: rgba(255,255,255,0.06);
+      --cover-gradient: rgba(21,19,16,0.6);
+      --btn-ghost-border: var(--border-hover);
+      --divider: var(--border-subtle);
+
+      --font-display: 'Cinzel Decorative', 'Cinzel', 'Noto Serif SC', 'Source Han Serif SC', 'STSong', serif;
+      --font-heading: 'Cinzel', 'Noto Serif SC', 'Source Han Serif SC', serif;
+      --font-body: 'Noto Serif SC', 'Source Han Serif SC', 'STSong', 'SimSun', Georgia, serif;
+
+      --radius-sm: 3px;
+      --radius-md: 6px;
+      --radius-lg: 10px;
+      --radius-card: 4px;
+
+      --shadow-card: 0 2px 12px rgba(0,0,0,0.35);
+      --shadow-card-hover: 0 6px 28px rgba(0,0,0,0.45), 0 0 0 1px rgba(184,147,66,0.12);
+      --shadow-glow-gold: 0 0 20px rgba(184,147,66,0.1);
+      --shadow-modal: 0 16px 64px rgba(0,0,0,0.5);
+
+      --transition-fast: 0.15s ease;
+      --transition-base: 0.25s ease;
+      --transition-slow: 0.4s ease;
+
+      --max-width: 1320px;
+    }
+
+    /* ══════════════════════════════════════════
+       Light Theme
+       ══════════════════════════════════════════ */
+    [data-theme="light"] {
+      --bg-deepest: #e5e0d7;
+      --bg-deep: #dbd5ca;
+      --bg-surface: #ece7dc;
+      --bg-elevated: #e3ded4;
+      --bg-highlight: #dad4c8;
+      --bg-input: #e2ddd2;
+
+      --gold: #9a6e22;
+      --gold-light: #b08028;
+      --gold-bright: #c09030;
+      --gold-dim: #8a6e30;
+      --gold-dark: #ddd0a8;
+      --gold-pale: #7a6032;
+
+      --crimson: #8a3030;
+      --crimson-light: #a04040;
+      --crimson-glow: rgba(140,50,50,0.18);
+
+      --text-primary: #3c3020;
+      --text-secondary: #5a4a32;
+      --text-muted: #726452;
+      --text-dim: #8c7a64;
+
+      --border-card: rgba(0,0,0,0.07);
+      --border-subtle: rgba(0,0,0,0.05);
+      --border-input: rgba(0,0,0,0.13);
+      --border-hover: rgba(0,0,0,0.12);
+      --border-medium: rgba(0,0,0,0.15);
+      --border-gold: rgba(154,110,34,0.12);
+      --border-gold-strong: rgba(154,110,34,0.2);
+      --overlay-bg: rgba(0,0,0,0.2);
+      --overlay-light: rgba(0,0,0,0.1);
+      --tag-flavor-bg: rgba(0,0,0,0.03);
+      --tag-flavor-border: rgba(0,0,0,0.07);
+      --cover-gradient: rgba(0,0,0,0.25);
+      --btn-ghost-border: rgba(0,0,0,0.12);
+      --divider: rgba(0,0,0,0.08);
+
+      --shadow-card: 0 2px 12px rgba(0,0,0,0.04);
+      --shadow-card-hover: 0 6px 24px rgba(0,0,0,0.07), 0 0 0 1px rgba(154,110,34,0.12);
+      --shadow-glow-gold: 0 0 20px rgba(154,110,34,0.06);
+      --shadow-modal: 0 16px 64px rgba(0,0,0,0.1);
+    }
+
+    /* ══════════════════════════════════════════
+       Reset & Base
+       ══════════════════════════════════════════ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-deepest);
+      color: var(--text-primary);
+      min-height: 100vh;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ══════════════════════════════════════════
+       Texture & Vignette
+       ══════════════════════════════════════════ */
+    .texture-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      opacity: 0.035;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+      background-repeat: repeat;
+      background-size: 180px 180px;
+      transition: opacity 0.5s ease;
+    }
+    [data-theme="light"] .texture-overlay { opacity: 0.025; }
+
+    .vignette {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      background: radial-gradient(ellipse at 50% 0%, transparent 55%, var(--overlay-bg) 100%);
+      transition: background 0.5s ease;
+    }
+
+    /* ══════════════════════════════════════════
+       App Container
+       ══════════════════════════════════════════ */
+    .app {
+      position: relative;
+      z-index: 1;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 32px 80px;
+    }
+
+    /* ══════════════════════════════════════════
+       Hero Section
+       ══════════════════════════════════════════ */
+    .hero {
+      text-align: center;
+      padding: 32px 0 26px;
+      position: relative;
+    }
+
+    .hero-ornament {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .hero-ornament::before,
+    .hero-ornament::after {
+      content: '';
+      height: 1px;
+      width: 80px;
+      background: linear-gradient(to right, transparent, var(--gold-dim), transparent);
+    }
+    .hero-ornament::before { background: linear-gradient(to left, transparent, var(--gold-dim), transparent); }
+    .hero-ornament-icon {
+      color: var(--gold-dim);
+      font-size: 14px;
+      letter-spacing: 6px;
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(28px, 4.5vw, 48px);
+      font-weight: 700;
+      color: var(--gold-pale);
+      letter-spacing: 0.06em;
+      line-height: 1.25;
+      text-shadow: 0 2px 12px rgba(184, 147, 66, 0.08);
+    }
+    .hero-title em {
+      font-style: normal;
+      color: var(--gold-light);
+    }
+
+    .hero-subtitle {
+      margin-top: 12px;
+      font-size: 15px;
+      color: var(--text-secondary);
+      letter-spacing: 0.08em;
+      font-family: var(--font-heading);
+      font-weight: 400;
+    }
+
+    .hero-divider {
+      margin: 32px auto 0;
+      width: 120px;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold-dim), transparent);
+    }
+
+    /* ══════════════════════════════════════════
+       Toolbar (Frozen / Sticky)
+       ══════════════════════════════════════════ */
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      position: sticky;
+      top: 12px;
+      z-index: 100;
+      background: var(--bg-surface);
+      border: 2px solid var(--border-gold);
+      border-radius: var(--radius-lg);
+      padding: 8px 12px;
+      box-shadow: var(--shadow-card);
+    }
+
+    /* 搜索框 */
+    .search-box {
+      flex: 1;
+      min-width: 0;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .search-input {
+      width: 100%;
+      background: var(--bg-input);
+      border: 1px solid transparent;
+      border-radius: var(--radius-md);
+      padding: 9px 14px;
+      font-family: var(--font-body);
+      font-size: 14px;
+      color: var(--text-primary);
+      outline: none;
+      transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+    }
+    .search-input::placeholder { color: var(--text-muted); }
+    .search-input:focus {
+      border-color: var(--gold-dim);
+      box-shadow: 0 0 0 3px rgba(184, 147, 66, 0.04);
+    }
+    .search-clear {
+      position: absolute;
+      right: 8px;
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 16px;
+      padding: 4px 8px;
+      border-radius: var(--radius-sm);
+      display: none;
+      transition: color var(--transition-fast);
+    }
+    .search-clear:hover { color: var(--text-primary); }
+    .search-clear.visible { display: block; }
+
+    /* 标签触发器 */
+    .tag-trigger {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg-input);
+      border: 1px solid transparent;
+      border-radius: var(--radius-md);
+      padding: 9px 12px;
+      font-family: var(--font-body);
+      font-size: 13px;
+      color: var(--text-secondary);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all var(--transition-fast);
+      user-select: none;
+    }
+    .tag-trigger:hover {
+      border-color: var(--gold-dim);
+      color: var(--text-primary);
+    }
+    .tag-trigger:focus-visible,
+    .theme-toggle:focus-visible,
+    .toolbar-action:focus-visible {
+      outline: 2px solid var(--gold-light);
+      outline-offset: 2px;
+    }
+    .tag-trigger.active {
+      border-color: var(--gold);
+      color: var(--gold-light);
+      box-shadow: 0 0 8px rgba(184, 147, 66, 0.08);
+    }
+    .tag-trigger-count {
+      font-size: 11px;
+      color: var(--gold-dim);
+      background: var(--gold-dark);
+      padding: 1px 6px;
+      border-radius: 10px;
+      min-width: 18px;
+      text-align: center;
+    }
+    .tag-trigger.active .tag-trigger-count {
+      color: var(--gold-bright);
+      background: rgba(184, 147, 66, 0.2);
+    }
+    .tag-trigger-caret {
+      font-size: 10px;
+      color: var(--text-muted);
+      transition: transform var(--transition-fast);
+    }
+
+    /* 主题切换按钮 */
+    .theme-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: var(--bg-input);
+      border: 1px solid transparent;
+      border-radius: var(--radius-md);
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 16px;
+      transition: all var(--transition-fast);
+      flex-shrink: 0;
+      line-height: 1;
+    }
+    .theme-toggle:hover {
+      border-color: var(--gold-dim);
+      color: var(--gold-light);
+    }
+    .theme-toggle:active { transform: scale(0.92); }
+
+    /* 活跃筛选标签 */
+    .active-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+      min-height: 0;
+    }
+    .active-filter-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(184, 147, 66, 0.08);
+      border: 1px solid rgba(184, 147, 66, 0.18);
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: var(--gold-light);
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      animation: chipIn 0.2s ease;
+    }
+    .active-filter-chip:hover {
+      background: rgba(184, 147, 66, 0.15);
+      border-color: var(--gold);
+    }
+    .active-filter-chip-remove {
+      font-size: 14px;
+      line-height: 1;
+      opacity: 0.6;
+      transition: opacity var(--transition-fast);
+    }
+    .active-filter-chip:hover .active-filter-chip-remove { opacity: 1; }
+
+    /* ══════════════════════════════════════════
+       Section Sidebar Navigation
+       ══════════════════════════════════════════ */
+    .section-nav {
+      position: fixed;
+      left: max(16px, calc((100vw - var(--max-width)) / 2 - 140px));
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 10;
+    }
+    .section-nav-link {
+      font-family: var(--font-heading);
+      font-size: 13px;
+      color: var(--text-muted);
+      text-decoration: none;
+      letter-spacing: 0.06em;
+      padding: 4px 0;
+      transition: color var(--transition-fast);
+      scroll-behavior: smooth;
+    }
+    .section-nav-link:hover {
+      color: var(--gold-light);
+    }
+    .section-nav-link.active {
+      color: var(--gold-bright);
+      font-weight: 700;
+    }
+    /* 桌面端显示全标签，移动端显示短标签 */
+    .nav-label-short { display: none; }
+
+    /* ══════════════════════════════════════════
+       Card Grid
+       ══════════════════════════════════════════ */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
+      gap: 24px;
+    }
+
+    .card-grid[aria-busy="true"] {
+      min-height: 720px;
+    }
+
+    .section-header {
+      grid-column: 1 / -1;
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--gold-bright);
+      letter-spacing: 0.1em;
+      margin-top: 40px;
+      padding-bottom: 8px;
+      scroll-margin-top: 90px;
+    }
+    .section-header::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(to right, var(--gold-dim), transparent);
+    }
+
+    .card {
+      background: var(--bg-surface);
+      min-width: 0;
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-card);
+      cursor: pointer;
+      transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+      position: relative;
+      animation: cardEnter 0.45s ease both;
+      content-visibility: auto;
+      contain-intrinsic-size: auto 520px;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-card-hover);
+      border-color: rgba(184, 147, 66, 0.2);
+    }
+    .card:active { transform: translateY(-1px); }
+
+    /* 封面区域 */
+    .card-cover {
+      position: relative;
+      aspect-ratio: 3 / 4;
+      background: var(--bg-deep);
+      border-radius: var(--radius-card) var(--radius-card) 0 0;
+    }
+    .card-cover img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: var(--radius-card) var(--radius-card) 0 0;
+      transition: transform 1.2s ease, opacity 0.3s ease;
+    }
+    .card:hover .card-cover img { transform: scale(1.04); }
+    .card-cover-placeholder {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-dim);
+      gap: 8px;
+    }
+    .card-cover-placeholder-icon { font-size: 36px; opacity: 0.5; }
+    .card-cover-placeholder-text {
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      font-family: var(--font-heading);
+    }
+    .card-cover::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 48px;
+      background: linear-gradient(to top, var(--cover-gradient), transparent);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity var(--transition-base);
+    }
+    .card:hover .card-cover::after { opacity: 1; }
+
+    /* 首屏骨架与真实卡片使用相同网格和封面比例，避免数据返回时页面跳动。 */
+    .skeleton-card {
+      pointer-events: none;
+      animation: none;
+      overflow: hidden;
+    }
+    .skeleton-block {
+      position: relative;
+      overflow: hidden;
+      background: var(--bg-elevated);
+    }
+    .skeleton-block::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      transform: translateX(-100%);
+      background: linear-gradient(90deg, transparent, rgba(184,147,66,0.08), transparent);
+      animation: skeletonSweep 1.6s ease-in-out infinite;
+    }
+    .skeleton-cover { aspect-ratio: 3 / 4; }
+    .skeleton-body { padding: 16px; }
+    .skeleton-line {
+      height: 12px;
+      margin-bottom: 12px;
+      border-radius: 2px;
+    }
+    .skeleton-line--title { width: 72%; height: 16px; }
+    .skeleton-line--meta { width: 46%; }
+    .skeleton-line--tag { width: 58%; margin-bottom: 0; }
+    .skeleton-section-title {
+      width: min(240px, 55vw);
+      height: 32px;
+      border-radius: 2px;
+    }
+
+    /* 推荐徽章 */
+    .card-badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: linear-gradient(135deg, var(--crimson-light), var(--crimson));
+      color: #f0d0d0;
+      font-size: 10px;
+      font-family: var(--font-heading);
+      letter-spacing: 0.08em;
+      padding: 3px 10px;
+      border-radius: 2px;
+      box-shadow: 0 2px 10px var(--crimson-glow);
+      z-index: 2;
+      opacity: 0;
+      transform: translateY(-4px);
+      transition: all var(--transition-base);
+    }
+    .card.recommended .card-badge { opacity: 1; transform: translateY(0); }
+
+    /* 卡片信息 */
+    .card-body {
+      padding: 14px 16px 16px;
+    }
+    .card-body-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .card-info {
+      flex: 1;
+      min-width: 0;
+    }
+    .card-title {
+      font-family: var(--font-heading);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.35;
+      margin-bottom: 6px;
+      letter-spacing: 0.02em;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-author {
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-bottom: 10px;
+    }
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+    .card-tag {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 2px;
+      font-family: var(--font-body);
+      letter-spacing: 0.03em;
+    }
+    .card-tag--content {
+      background: rgba(184, 147, 66, 0.08);
+      color: var(--gold-light);
+      border: 1px solid rgba(184, 147, 66, 0.12);
+    }
+    .card-tag--flavor {
+      background: var(--tag-flavor-bg);
+      color: var(--text-secondary);
+      border: 1px solid var(--tag-flavor-border);
+    }
+
+    /* 点赞按钮 */
+    .card-like {
+      display: flex;
+      flex-shrink: 0;
+      padding-top: 2px;
+    }
+    .card-like-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      background: none;
+      border: 1px solid transparent;
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
+      cursor: pointer;
+      font-family: var(--font-body);
+      font-size: 12px;
+      padding: 4px 10px;
+      min-width: 48px;
+      transition: all var(--transition-fast);
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    .card-like-btn:hover {
+      color: var(--crimson-light);
+      border-color: rgba(160, 68, 68, 0.3);
+      background: rgba(160, 68, 68, 0.06);
+    }
+    .card-like-btn.liked {
+      color: var(--crimson-light);
+    }
+    .card-like-btn.liked:hover {
+      color: #d06060;
+      border-color: rgba(160, 68, 68, 0.5);
+    }
+    .card-like-icon {
+      font-size: 15px;
+      line-height: 1;
+      transition: transform 0.2s ease;
+    }
+    .card-like-btn.liked .card-like-icon {
+      transform: scale(1.12);
+    }
+    .card-like-count {
+      font-size: 11px;
+      opacity: 0.7;
+      min-width: 12px;
+      text-align: right;
+    }
+
+    /* 悬停简介 */
+    .card-summary-indicator {
+      position: absolute;
+      bottom: 10px;
+      left: 12px;
+      z-index: 2;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--overlay-light);
+      backdrop-filter: blur(4px);
+      border: 1px solid rgba(255,255,255,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      color: var(--text-secondary);
+      opacity: 0;
+      transition: opacity var(--transition-base);
+    }
+    .card.has-summary .card-summary-indicator { opacity: 0.8; }
+
+    .card-summary-tooltip {
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+      right: 8px;
+      transform: none;
+      background: var(--bg-elevated);
+      border: 1px solid var(--gold-dim);
+      border-radius: var(--radius-md);
+      padding: 10px 14px;
+      font-size: 12px;
+      color: var(--text-primary);
+      line-height: 1.5;
+      white-space: pre-line;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      opacity: 0;
+      pointer-events: none;
+      transition: all var(--transition-base);
+      z-index: 30;
+      text-align: left;
+    }
+    .card-summary-tooltip::after {
+      content: '';
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 6px solid transparent;
+      border-bottom-color: var(--gold-dim);
+    }
+    .card:hover .card-summary-tooltip { opacity: 1; }
+
+    /* ══════════════════════════════════════════
+       Tag Popup Modal
+       ══════════════════════════════════════════ */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      background: var(--overlay-bg);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--transition-slow);
+    }
+    .modal-overlay.visible { opacity: 1; pointer-events: all; }
+
+    .modal {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-gold-strong);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-modal);
+      width: 640px;
+      max-width: 92vw;
+      max-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      transform: translateY(12px) scale(0.97);
+      transition: transform var(--transition-slow);
+    }
+    .modal-overlay.visible .modal { transform: translateY(0) scale(1); }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--divider);
+    }
+    .modal-title {
+      font-family: var(--font-heading);
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: 0.04em;
+    }
+    .modal-close {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 20px;
+      cursor: pointer;
+      padding: 4px 8px;
+      border-radius: var(--radius-sm);
+      transition: color var(--transition-fast);
+      line-height: 1;
+    }
+    .modal-close:hover { color: var(--text-primary); }
+
+    .modal-body {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+      min-height: 0;
+    }
+    .modal-column {
+      flex: 1;
+      padding: 20px 24px;
+      overflow-y: auto;
+    }
+    .modal-column + .modal-column {
+      border-left: 1px solid var(--divider);
+    }
+    .modal-column-title {
+      font-family: var(--font-heading);
+      font-size: 12px;
+      color: var(--text-muted);
+      letter-spacing: 0.1em;
+      margin-bottom: 14px;
+      text-transform: uppercase;
+    }
+    .modal-tag-list { display: flex; flex-direction: column; gap: 4px; }
+    .modal-tag-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 12px;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      font-size: 13px;
+      color: var(--text-secondary);
+      border: 1px solid transparent;
+    }
+    .modal-tag-item:hover {
+      background: var(--bg-elevated);
+      color: var(--text-primary);
+    }
+    .modal-tag-item.selected {
+      background: rgba(184, 147, 66, 0.08);
+      border-color: rgba(184, 147, 66, 0.2);
+      color: var(--gold-light);
+    }
+    .modal-tag-item.selected::before {
+      content: '◆';
+      font-size: 8px;
+      margin-right: 8px;
+      color: var(--gold);
+    }
+    .modal-tag-count {
+      font-size: 11px;
+      color: var(--text-muted);
+      background: var(--bg-deep);
+      padding: 2px 8px;
+      border-radius: 10px;
+    }
+    .modal-tag-item.selected .modal-tag-count {
+      color: var(--gold-dim);
+      background: var(--gold-dark);
+    }
+    .modal-tag-empty {
+      font-size: 13px;
+      color: var(--text-muted);
+      text-align: center;
+      padding: 24px 0;
+    }
+
+    .modal-footer {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      padding: 14px 24px;
+      border-top: 1px solid var(--divider);
+    }
+
+    .btn {
+      padding: 8px 20px;
+      border-radius: var(--radius-md);
+      font-family: var(--font-body);
+      font-size: 13px;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      border: 1px solid transparent;
+      letter-spacing: 0.03em;
+    }
+    .btn--ghost {
+      background: transparent;
+      color: var(--text-secondary);
+      border-color: var(--btn-ghost-border);
+    }
+    .btn--ghost:hover { color: var(--text-primary); border-color: var(--border-medium); }
+    .btn--gold {
+      background: linear-gradient(to bottom, rgba(184, 147, 66, 0.15), rgba(184, 147, 66, 0.08));
+      color: var(--gold-light);
+      border-color: rgba(184, 147, 66, 0.25);
+    }
+    .btn--gold:hover {
+      background: linear-gradient(to bottom, rgba(184, 147, 66, 0.25), rgba(184, 147, 66, 0.15));
+      border-color: var(--gold);
+      color: var(--gold-bright);
+    }
+
+    /* ══════════════════════════════════════════
+       投稿说明 Dialog (native <dialog>，独立于 .modal-overlay)
+       ══════════════════════════════════════════ */
+    #submissionNoticeDialog {
+      width: 640px;
+      max-width: calc(100vw - 32px); /* 移动端左右各留 16px */
+      max-height: 90vh;
+      max-height: 90dvh;
+      margin: auto;
+      padding: 0;
+      border: 1px solid var(--border-gold-strong);
+      border-radius: var(--radius-md); /* 6px，不超过 8px */
+      background: var(--bg-surface);
+      color: var(--text-primary);
+      box-shadow: var(--shadow-modal);
+      overflow: hidden;
+    }
+    #submissionNoticeDialog[open] {
+      display: flex;
+      flex-direction: column;
+    }
+    #submissionNoticeDialog::backdrop {
+      background: var(--overlay-bg);
+      backdrop-filter: blur(4px);
+    }
+    #submissionNoticeDialog .submission-notice-header {
+      display: flex; align-items: center; justify-content: space-between;
+      flex-shrink: 0;
+      gap: 12px;
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--divider);
+    }
+    #submissionNoticeDialog .submission-notice-title {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 0;
+    }
+    #submissionNoticeDialog .submission-notice-close {
+      background: none; border: none; color: var(--text-muted);
+      font-size: 22px; line-height: 1; cursor: pointer;
+      padding: 4px 8px; border-radius: var(--radius-sm);
+      transition: color var(--transition-fast);
+    }
+    #submissionNoticeDialog .submission-notice-close:hover { color: var(--text-primary); }
+    #submissionNoticeDialog .submission-notice-body {
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      padding: 20px 24px;
+    }
+    #submissionNoticeDialog .submission-notice-body p,
+    #submissionNoticeDialog .submission-notice-body li {
+      font-size: 16px;
+      line-height: 1.8;
+      color: var(--text-primary);
+      margin-bottom: 14px;
+    }
+    #submissionNoticeDialog .submission-notice-body p:last-child { margin-bottom: 0; }
+    #submissionNoticeDialog .submission-notice-body h3 {
+      font-size: 16px;
+      color: var(--gold);
+      margin: 20px 0 10px;
+      letter-spacing: 0;
+    }
+    #submissionNoticeDialog .submission-notice-body h3:first-child { margin-top: 0; }
+    #submissionNoticeDialog .submission-notice-body ul { padding-left: 24px; margin-bottom: 14px; }
+    #submissionNoticeDialog .submission-notice-body .submission-notice-footnote {
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+    #submissionNoticeDialog .submission-notice-footer {
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+      flex-shrink: 0;
+      gap: 12px;
+      padding: 14px 24px;
+      border-top: 1px solid var(--divider);
+    }
+    #submissionNoticeDialog .submission-notice-check {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 13px; color: var(--text-secondary);
+      cursor: pointer; user-select: none;
+    }
+    #submissionNoticeDialog .submission-notice-check input[type="checkbox"] {
+      width: 16px; height: 16px; flex-shrink: 0;
+      accent-color: var(--gold); cursor: pointer;
+    }
+    #submissionNoticeDialog .submission-notice-actions {
+      display: flex; gap: 10px; margin-left: auto;
+    }
+    #submissionNoticeDialog .submission-notice-actions .btn {
+      min-height: 40px; padding: 10px 20px;
+      border-radius: var(--radius-md); font-size: 14px;
+    }
+    #submissionNoticeDialog .btn--gold {
+      background: var(--gold-dark); color: var(--gold-bright);
+      border-color: var(--border-gold);
+    }
+    #submissionNoticeDialog .btn--gold:hover { background: var(--gold-dim); color: var(--gold-bright); }
+    #submissionNoticeDialog .btn--ghost {
+      background: transparent; color: var(--text-secondary);
+      border-color: var(--border-medium);
+    }
+    #submissionNoticeDialog .btn--ghost:hover { color: var(--text-primary); border-color: var(--border-hover); }
+
+    /* ══════════════════════════════════════════
+       States: Loading, Empty, Error
+       ══════════════════════════════════════════ */
+    .state-message {
+      text-align: center;
+      padding: 80px 32px;
+      display: none;
+    }
+    .state-message.visible { display: block; }
+
+    .loading-status {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .state-icon { font-size: 48px; margin-bottom: 16px; opacity: 0.6; }
+    .state-text { font-size: 15px; color: var(--text-secondary); margin-bottom: 8px; }
+    .state-hint { font-size: 13px; color: var(--text-muted); }
+
+    .spinner {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      border: 2px solid var(--text-dim);
+      border-top-color: var(--gold);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    .results-count {
+      margin-top: 24px;
+      font-size: 12px;
+      color: var(--text-muted);
+      font-family: var(--font-heading);
+      letter-spacing: 0.06em;
+      text-align: center;
+      opacity: 0;
+      transition: opacity var(--transition-base);
+    }
+    .results-count.visible { opacity: 1; }
+
+    /* ══════════════════════════════════════════
+       Footer
+       ══════════════════════════════════════════ */
+    .site-footer {
+      text-align: center;
+      padding: 48px 0 32px;
+      font-size: 11px;
+      color: var(--text-dim);
+      letter-spacing: 0.06em;
+      font-family: var(--font-heading);
+    }
+    .site-footer a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color var(--transition-fast);
+    }
+    .site-footer a:hover { color: var(--gold-dim); }
+    .site-footer .privacy-notice {
+      max-width: 760px;
+      margin: 10px auto 0;
+      font-family: var(--font-body);
+      letter-spacing: normal;
+      line-height: 1.7;
+    }
+
+    /* ══════════════════════════════════════════
+       Scrollbar
+       ══════════════════════════════════════════ */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: var(--bg-deep); }
+    ::-webkit-scrollbar-thumb { background: var(--text-dim); border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+    /* ══════════════════════════════════════════
+       Animations
+       ══════════════════════════════════════════ */
+    @keyframes cardEnter {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes chipIn {
+      from { opacity: 0; transform: scale(0.85); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes skeletonSweep { to { transform: translateX(100%); } }
+
+    :where(a, button, input, [tabindex]):focus-visible {
+      outline: 2px solid var(--gold-bright);
+      outline-offset: 3px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    /* ══════════════════════════════════════════
+       Narrow Nav — 视口不够宽时，导航切换为左贴边窄轨
+       ══════════════════════════════════════════ */
+    @media (max-width: 1400px) {
+      /* App — 左 padding 收窄，拉近导航与卡片间距 */
+      .app {
+        padding-left: 8px;
+      }
+
+      /* ── 分区导航：贴左的窄轨 ── */
+      .section-nav {
+        left: 0;
+        width: 48px;
+        gap: 2px;
+      }
+      .section-nav-link {
+        font-size: 12px;
+        padding: 10px 4px;
+        text-align: center;
+        line-height: 1.3;
+        border-radius: var(--radius-sm);
+        letter-spacing: 0.04em;
+        min-height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .section-nav-link:active {
+        background: rgba(184, 147, 66, 0.06);
+      }
+
+      /* ── 卡片区：为导航让路 ── */
+      .card-grid {
+        padding-left: 48px;
+      }
+      /* 筛选后导航隐藏时，卡片回中 */
+      .card-grid.card-grid--centered {
+        padding-left: 0;
+      }
+
+      /* 短标签替代全标签 */
+      .nav-label-full  { display: none; }
+      .nav-label-short { display: inline; }
+    }
+
+    /* ══════════════════════════════════════════
+       Mobile Portrait (≥360px, ≤640px)
+       ══════════════════════════════════════════ */
+    @media (max-width: 640px) {
+      /* App — 全局收窄 padding，底部留白缩减 */
+      .app {
+        padding: 0 8px 48px;
+      }
+
+      /* Hero — 保持视觉，略微压缩上下间距 */
+      .hero {
+        padding: 40px 0 28px;
+      }
+      .hero-ornament::before,
+      .hero-ornament::after {
+        width: 36px;
+      }
+
+      /* ── 工具栏：两行 ── */
+      .toolbar {
+        flex-wrap: wrap;
+        gap: 6px;
+        padding: 8px 8px;
+      }
+      /* 第一行：搜索框独占 */
+      .search-box {
+        flex: 1 1 100%;
+        order: 0;
+      }
+      /* 第二行：全部按钮紧凑排列 */
+      .tag-trigger {
+        order: 1;
+        font-size: 11px;
+        padding: 5px 8px;
+        gap: 3px;
+      }
+      .tag-trigger-caret {
+        display: none;
+      }
+      .tag-trigger-count {
+        font-size: 10px;
+        padding: 1px 4px;
+      }
+      .theme-toggle {
+        order: 2;
+        margin-left: 0;
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+      }
+      .toolbar .toolbar-action {
+        order: 2;
+        margin-left: 0;
+        padding: 5px 8px;
+        font-size: 11px;
+      }
+
+      /* 隐藏活跃筛选标签 */
+      .active-filters {
+        display: none !important;
+      }
+
+      /* ── 导航在手机上更紧凑 ── */
+      .section-nav {
+        gap: 1px;
+      }
+      .section-nav-link {
+        font-size: 11px;
+        padding: 12px 2px;
+        min-height: 40px;
+      }
+
+      /* ── 卡片区：单列 + 窄间距 ── */
+      .card-grid {
+        padding-left: 48px;
+        gap: 14px;
+        grid-template-columns: minmax(0, 1fr);
+        margin-top: 20px;
+      }
+      .card-grid[aria-busy="true"] { min-height: 620px; }
+
+      /* Section header — 锚点安全距离更大（双行工具栏） */
+      .section-header {
+        font-size: 20px;
+        margin-top: 28px;
+        letter-spacing: 0.06em;
+        scroll-margin-top: 130px;
+        padding-left: 0;
+      }
+
+      /* 卡片：不做标签折叠 */
+      .card-tags {
+        flex-wrap: wrap;
+      }
+
+      /* ── 标签弹窗：铺满 ── */
+      .modal {
+        width: 95vw;
+        max-width: 95vw;
+        max-height: 85vh;
+      }
+      .modal-body {
+        flex-direction: row;
+      }
+      .modal-column {
+        padding: 14px 12px;
+      }
+      .modal-header {
+        padding: 14px 16px;
+      }
+      .modal-footer {
+        padding: 12px 16px;
+      }
+
+      /* ── 投稿说明 dialog：窄屏更紧凑 ── */
+      #submissionNoticeDialog .submission-notice-header {
+        padding: 14px 16px;
+      }
+      #submissionNoticeDialog .submission-notice-body {
+        padding: 16px;
+      }
+      #submissionNoticeDialog .submission-notice-footer {
+        padding: 12px 16px;
+      }
+      #submissionNoticeDialog .submission-notice-actions {
+        width: 100%;
+      }
+      #submissionNoticeDialog .submission-notice-actions .btn {
+        flex: 1;
+      }
+
+      /* 结果计数 */
+      .results-count {
+        margin-top: 16px;
+      }
+    }
+
+    /* ══════════════════════════════════════════
+       Toast
+       ══════════════════════════════════════════ */
+    .toast {
+      position: fixed;
+      bottom: 32px;
+      left: 50%;
+      transform: translateX(-50%) translateY(calc(100% + 48px));
+      padding: 12px 28px;
+      border-radius: var(--radius-md);
+      background: var(--bg-elevated);
+      color: var(--text-primary);
+      font-size: 14px;
+      border: 1px solid var(--border-gold);
+      box-shadow: var(--shadow-modal);
+      z-index: 10000;
+      opacity: 0;
+      visibility: hidden;
+      transition: transform var(--transition-base), opacity var(--transition-base), visibility 0s linear var(--transition-base);
+      pointer-events: none;
+      max-width: 480px;
+      text-align: center;
+    }
+    .toast.visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(-50%) translateY(0);
+      transition: transform var(--transition-base), opacity var(--transition-base), visibility 0s;
+    }
+    .toast.error { border-color: var(--crimson); color: var(--crimson-light); }
+    .toast.success { border-color: var(--gold-light); color: var(--gold-bright); }
+
+    /* ══════════════════════════════════════════
+       Submit Modal (scoped under #submitModalOverlay)
+       ══════════════════════════════════════════ */
+    #submitModalOverlay.modal-overlay {
+      position: fixed; inset: 0;
+      background: var(--overlay-bg);
+      backdrop-filter: blur(4px);
+      z-index: 1000;
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0; pointer-events: none;
+      transition: opacity var(--transition-base);
+    }
+    #submitModalOverlay.visible { opacity: 1; pointer-events: all; }
+    #submitModalOverlay .modal-panel {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-lg);
+      width: 560px; max-width: 95vw; max-height: 92vh;
+      overflow-y: auto;
+      box-shadow: var(--shadow-modal);
+      padding: 0;
+    }
+    #submitModalOverlay .modal-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--divider);
+    }
+    #submitModalOverlay .modal-title {
+      font-family: var(--font-display);
+      font-size: 18px; color: var(--gold);
+    }
+    #submitModalOverlay .modal-close {
+      background: none; border: none; color: var(--text-muted);
+      font-size: 22px; cursor: pointer; padding: 4px 8px;
+      transition: color var(--transition-fast);
+    }
+    #submitModalOverlay .modal-close:hover { color: var(--text-primary); }
+    #submitModalOverlay .modal-body {
+      display: block; flex: none; overflow: visible; min-height: auto;
+      padding: 20px 24px;
+    }
+    #submitModalOverlay .modal-footer {
+      display: flex; gap: 12px; justify-content: flex-end;
+      padding: 16px 24px; border-top: 1px solid var(--divider);
+    }
+
+    /* ── Form ── */
+    #submitModalOverlay .form-group { margin-bottom: 16px; }
+    #submitModalOverlay .form-group.full { grid-column: 1 / -1; }
+    #submitModalOverlay .form-label {
+      display: block; font-size: 13px; color: var(--text-secondary);
+      margin-bottom: 6px;
+    }
+    #submitModalOverlay .form-hint { color: var(--text-dim); font-size: 11px; }
+    #submitModalOverlay .required { color: var(--crimson-light); }
+    #submitModalOverlay .input,
+    #submitModalOverlay .textarea {
+      width: 100%; padding: 10px 12px;
+      background: var(--bg-input); color: var(--text-primary);
+      border: 1px solid var(--border-input); border-radius: var(--radius-md);
+      font-family: var(--font-body); font-size: 14px;
+      outline: none; transition: border-color var(--transition-fast);
+    }
+    #submitModalOverlay .input:focus,
+    #submitModalOverlay .textarea:focus { border-color: var(--gold-dim); }
+    #submitModalOverlay .textarea { min-height: 80px; resize: vertical; }
+
+    /* ── Cover Upload ── */
+    #submitModalOverlay .cover-upload-area { display: flex; gap: 16px; align-items: flex-start; }
+    #submitModalOverlay .cover-preview {
+      width: 100px; height: 133px;
+      border: 1px solid var(--border-medium); border-radius: var(--radius-sm);
+      overflow: hidden; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      background: var(--bg-deepest);
+    }
+    #submitModalOverlay .cover-preview img { width: 100%; height: 100%; object-fit: cover; }
+    #submitModalOverlay .cover-preview-placeholder { font-size: 36px; color: var(--text-dim); }
+    #submitModalOverlay .cover-upload-controls { flex: 1; min-width: 0; }
+    #submitModalOverlay .cropper-panel { display: none; margin-top: 12px; }
+    #submitModalOverlay .cropper-panel.active { display: flex; flex-direction: column; gap: 10px; }
+    #submitModalOverlay .cropper-main {
+      width: 100%; height: 300px;
+      background: var(--bg-deepest); border: 1px solid var(--border-medium);
+      border-radius: var(--radius-md); overflow: hidden;
+      display: flex; align-items: center; justify-content: center;
+    }
+    #submitModalOverlay .cropper-main canvas { display: block; max-width: 100%; max-height: 100%; }
+    #submitModalOverlay .cropper-actions { display: flex; align-items: center; gap: 10px; }
+    #submitModalOverlay .cropper-hint { font-size: 12px; color: var(--text-dim); flex: 1; }
+    #submitModalOverlay .cover-upload-status { display: block; font-size: 12px; margin-top: 6px; }
+    #submitModalOverlay .cover-upload-status.success { color: var(--gold-light); }
+    #submitModalOverlay .cover-upload-status.error { color: var(--crimson-light); }
+
+    /* ── Chip Input ── */
+    #submitModalOverlay .chip-input-wrap {
+      display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+      padding: 6px 10px;
+      background: var(--bg-input); border: 1px solid var(--border-input);
+      border-radius: var(--radius-md);
+      transition: border-color var(--transition-fast);
+      cursor: text;
+    }
+    #submitModalOverlay .chip-input-wrap:focus-within { border-color: var(--gold-dim); }
+    #submitModalOverlay .chip {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 3px 8px;
+      background: var(--gold-dark); color: var(--gold-pale);
+      border: 1px solid var(--border-gold);
+      border-radius: var(--radius-sm); font-size: 12px;
+    }
+    #submitModalOverlay .chip .chip-remove {
+      cursor: pointer; font-size: 14px; line-height: 1;
+      color: var(--gold-dim); transition: color var(--transition-fast);
+    }
+    #submitModalOverlay .chip .chip-remove:hover { color: var(--text-primary); }
+    #submitModalOverlay .chip-input {
+      flex: 1; min-width: 80px; border: none; outline: none;
+      background: transparent; color: var(--text-primary);
+      font-family: var(--font-body); font-size: 13px; padding: 4px 0;
+    }
+    #submitModalOverlay .chip-input::placeholder { color: var(--text-dim); font-size: 12px; }
+
+    /* ── Buttons ── */
+    #submitModalOverlay .btn {
+      padding: 10px 22px; border-radius: var(--radius-md);
+      font-family: var(--font-body); font-size: 14px; cursor: pointer;
+      border: 1px solid transparent;
+      transition: all var(--transition-fast);
+    }
+    #submitModalOverlay .btn--gold {
+      background: var(--gold-dark); color: var(--gold-bright);
+      border-color: var(--border-gold);
+    }
+    #submitModalOverlay .btn--gold:hover { background: var(--gold-dim); color: var(--gold-bright); }
+    #submitModalOverlay .btn--ghost {
+      background: transparent; color: var(--text-secondary);
+      border-color: var(--border-medium);
+    }
+    #submitModalOverlay .btn--ghost:hover { color: var(--text-primary); border-color: var(--border-hover); }
+    #submitModalOverlay .btn--sm { padding: 5px 12px; font-size: 12px; }
+    #submitModalOverlay .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    /* 表单头部：投稿说明入口 + 关闭按钮 */
+    #submitModalOverlay .submit-modal-header-actions {
+      display: flex; align-items: center; gap: 10px;
+    }
+
+    /* ── Subscribe Modal ── */
+    #subscribeModal .modal { width: 460px; }
+    #subscribeModal .modal-body {
+      display: block;
+      padding: 22px 24px 24px;
+      overflow: visible;
+    }
+
+    #subscribeModal [hidden] {
+      display: none !important;
+    }
+    .subscribe-description {
+      margin: 0 0 18px;
+      color: var(--text-secondary);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+    .subscribe-existing-email {
+      display: inline-block;
+      margin-top: 8px;
+      color: var(--gold-light);
+      overflow-wrap: anywhere;
+    }
+    .subscribe-label {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--text-secondary);
+      font-size: 13px;
+    }
+    .subscribe-input {
+      width: 100%;
+      padding: 10px 12px;
+      background: var(--bg-input);
+      color: var(--text-primary);
+      border: 1px solid var(--border-input);
+      border-radius: var(--radius-md);
+      font-family: var(--font-body);
+      font-size: 14px;
+      outline: none;
+      transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+    }
+    .subscribe-input:focus {
+      border-color: var(--gold-dim);
+      box-shadow: 0 0 0 2px rgba(184, 147, 66, 0.1);
+    }
+    #subscribeModal .btn--danger {
+      margin-right: auto;
+      background: rgba(132, 52, 52, 0.12);
+      color: var(--crimson-light);
+      border-color: rgba(168, 68, 68, 0.35);
+    }
+    #subscribeModal .btn--danger:hover {
+      background: rgba(132, 52, 52, 0.24);
+      border-color: var(--crimson-light);
+    }
+    #subscribeModal .btn:focus-visible {
+      outline: 2px solid var(--gold-light);
+      outline-offset: 2px;
+    }
+
+    /* ── Toolbar actions ── */
+    .toolbar .toolbar-action {
+      margin-left: auto;
+      background: var(--gold-dark); color: var(--gold-bright);
+      border-color: var(--border-gold); border-radius: var(--radius-md);
+      padding: 8px 14px; font-size: 13px;
+      font-family: var(--font-heading); cursor: pointer;
+      transition: all var(--transition-fast);
+      white-space: nowrap;
+    }
+    .toolbar .toolbar-action + .toolbar-action { margin-left: 0; }
+    .toolbar .toolbar-action:hover {
+      background: var(--gold-dim); color: var(--gold-bright);
+      border-color: var(--border-gold-strong);
+    }
+    .toolbar .btn--subscribe {
+      background: transparent;
+      color: var(--text-secondary);
+      border-color: var(--border-medium);
+    }
+    .toolbar .btn--subscribe:hover {
+      background: var(--bg-elevated);
+      color: var(--gold-light);
+      border-color: var(--gold-dim);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="texture-overlay" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <div class="app">
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero-ornament">
+        <span class="hero-ornament-icon" aria-hidden="true">✦ ✦ ✦</span>
+      </div>
+      <h1 class="hero-title">宏伟宝库 <em>The Great Vault</em></h1>
+      <p class="hero-subtitle">《匕首之心》第三方模组与资源目录</p>
+      <div class="hero-divider" aria-hidden="true"></div>
+    </header>
+
+    <!-- 冻结工具栏 -->
+    <div class="toolbar">
+        <div class="search-box">
+          <input
+            type="text"
+            class="search-input"
+            id="searchInput"
+            placeholder="搜索标题、作者、标签、简介…"
+            autocomplete="off"
+          >
+          <button class="search-clear" id="searchClear" aria-label="清除搜索">&times;</button>
+        </div>
+        <button class="tag-trigger" id="filterTrigger" aria-haspopup="dialog">
+          筛选
+          <span class="tag-trigger-count" id="filterCount">0</span>
+          <span class="tag-trigger-caret">&#9660;</span>
+        </button>
+        <button class="tag-trigger" id="sortToggle" type="button" aria-label="当前按最新排序，点击切换为最热" title="最新：更新时间；最热：点赞 + 推荐 × 10">排序：最新</button>
+        <button class="theme-toggle" id="themeToggle" aria-label="切换亮色/暗色主题" title="切换主题">
+          &#9788;
+        </button>
+        <button class="toolbar-action btn--submit" id="submitEntryBtn">提交资源</button>
+        <button class="toolbar-action btn--subscribe" id="subscribeBtn">订阅通知</button>
+      </div>
+      <div class="active-filters" id="activeFilters"></div>
+
+    <nav class="section-nav" id="sectionNav" style="display:none"></nav>
+
+    <div class="results-count" id="resultsCount" aria-live="polite"></div>
+    <div class="card-grid" id="cardGrid" role="list" aria-busy="true">
+      <div class="section-header" aria-hidden="true"><span class="skeleton-block skeleton-section-title"></span></div>
+      <div class="card skeleton-card" aria-hidden="true"><div class="skeleton-block skeleton-cover"></div><div class="skeleton-body"><div class="skeleton-block skeleton-line skeleton-line--title"></div><div class="skeleton-block skeleton-line skeleton-line--meta"></div><div class="skeleton-block skeleton-line skeleton-line--tag"></div></div></div>
+      <div class="card skeleton-card" aria-hidden="true"><div class="skeleton-block skeleton-cover"></div><div class="skeleton-body"><div class="skeleton-block skeleton-line skeleton-line--title"></div><div class="skeleton-block skeleton-line skeleton-line--meta"></div><div class="skeleton-block skeleton-line skeleton-line--tag"></div></div></div>
+      <div class="card skeleton-card" aria-hidden="true"><div class="skeleton-block skeleton-cover"></div><div class="skeleton-body"><div class="skeleton-block skeleton-line skeleton-line--title"></div><div class="skeleton-block skeleton-line skeleton-line--meta"></div><div class="skeleton-block skeleton-line skeleton-line--tag"></div></div></div>
+      <div class="card skeleton-card" aria-hidden="true"><div class="skeleton-block skeleton-cover"></div><div class="skeleton-body"><div class="skeleton-block skeleton-line skeleton-line--title"></div><div class="skeleton-block skeleton-line skeleton-line--meta"></div><div class="skeleton-block skeleton-line skeleton-line--tag"></div></div></div>
+      <div class="card skeleton-card" aria-hidden="true"><div class="skeleton-block skeleton-cover"></div><div class="skeleton-body"><div class="skeleton-block skeleton-line skeleton-line--title"></div><div class="skeleton-block skeleton-line skeleton-line--meta"></div><div class="skeleton-block skeleton-line skeleton-line--tag"></div></div></div>
+      <div class="card skeleton-card" aria-hidden="true"><div class="skeleton-block skeleton-cover"></div><div class="skeleton-body"><div class="skeleton-block skeleton-line skeleton-line--title"></div><div class="skeleton-block skeleton-line skeleton-line--meta"></div><div class="skeleton-block skeleton-line skeleton-line--tag"></div></div></div>
+      <div class="card skeleton-card" aria-hidden="true"><div class="skeleton-block skeleton-cover"></div><div class="skeleton-body"><div class="skeleton-block skeleton-line skeleton-line--title"></div><div class="skeleton-block skeleton-line skeleton-line--meta"></div><div class="skeleton-block skeleton-line skeleton-line--tag"></div></div></div>
+      <div class="card skeleton-card" aria-hidden="true"><div class="skeleton-block skeleton-cover"></div><div class="skeleton-body"><div class="skeleton-block skeleton-line skeleton-line--title"></div><div class="skeleton-block skeleton-line skeleton-line--meta"></div><div class="skeleton-block skeleton-line skeleton-line--tag"></div></div></div>
+    </div>
+
+    <div class="loading-status" id="loadingState" role="status" aria-live="polite">
+      正在检视图书馆…
+    </div>
+
+    <div class="state-message" id="emptyState">
+      <div class="state-icon" aria-hidden="true">&#128218;</div>
+      <p class="state-text">目录中暂无资源条目</p>
+      <p class="state-hint">等待管理员添加第一批模组与资源</p>
+    </div>
+
+    <div class="state-message" id="errorState">
+      <div class="state-icon" aria-hidden="true">&#9888;</div>
+      <p class="state-text" id="errorText">无法连接到数据服务</p>
+      <p class="state-hint">请确认后端服务已启动</p>
+    </div>
+
+    <footer class="site-footer">
+      <p>宏伟宝库 · The Great Vault &mdash; 仅做目录索引，点击卡片跳转至外部资源</p>
+      <p class="privacy-notice">点赞审计仅用于排查异常：记录随机浏览器凭据、哈希 IP 与粗略设备信息，审计保留阈值为 90 天，实际删除取决于定期维护；不保存原始 IP 或完整 UA，不会自动处罚。清除 Cookie 会更换该标识。</p>
+    </footer>
+  </div>
+
+  <!-- 标签弹窗 -->
+  <div class="modal-overlay" id="tagModal" role="dialog" aria-modal="true" aria-label="标签筛选">
+    <div class="modal">
+      <div class="modal-header">
+        <span class="modal-title">选择标签</span>
+        <button class="modal-close" id="tagModalClose" aria-label="关闭">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-column">
+          <div class="modal-column-title">内容标签</div>
+          <div class="modal-tag-list" id="modalContentTags"></div>
+        </div>
+        <div class="modal-column">
+          <div class="modal-column-title">风味标签</div>
+          <div class="modal-tag-list" id="modalFlavorTags"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn--ghost" id="tagModalClear">清空</button>
+        <button class="btn btn--gold" id="tagModalApply">应用</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 投稿 Modal -->
+  <div class="modal-overlay" id="submitModalOverlay">
+    <div class="modal-panel">
+      <div class="modal-header">
+        <span class="modal-title">提交资源</span>
+        <div class="submit-modal-header-actions">
+          <button class="btn btn--ghost btn--sm" id="submitNoticeReopenBtn" type="button">投稿说明</button>
+          <button class="modal-close" id="submitModalClose" type="button">&times;</button>
+        </div>
+      </div>
+      <div class="modal-body" id="submitModalBody"></div>
+      <div class="modal-footer">
+        <button class="btn btn--ghost" id="submitModalCancelBtn" type="button">取消</button>
+        <button class="btn btn--gold" id="submitModalSaveBtn" type="button">提交</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 投稿说明 Dialog（原生 dialog，独立于 .modal-overlay） -->
+  <dialog id="submissionNoticeDialog" role="dialog" aria-labelledby="submissionNoticeTitle">
+    <div class="submission-notice-header">
+      <h2 class="submission-notice-title" id="submissionNoticeTitle">投稿说明</h2>
+      <button class="submission-notice-close" id="submissionNoticeClose" type="button" aria-label="关闭投稿说明">&times;</button>
+    </div>
+    <div class="submission-notice-body" tabindex="0">
+      <h3>平台与审核</h3>
+      <p>宏伟宝库是第三方资源展示与分享平台。投稿内容应遵守法律法规与公序良俗，不得抄袭或侵犯他人权益；内容应基本可读，避免明显无法理解的文字。请准确填写资源分类及适用规则。</p>
+      <p>宏伟宝库作为一个社群平台仅对以上原则性问题进行审核，不对作品质量、平衡性、适用性做出筛选。</p>
+      <h3>AI 使用声明</h3>
+      <p>请在资源正文首页（封面除外）显著注明是否使用生成式 AI；如有使用，请说明涉及的部分和用途（如文字、插图、翻译或排版），能够估计时可补充比例。未使用也请明确注明未使用AI。</p>
+      <p>示例：</p>
+      <ul>
+        <li>未使用生成式 AI 创作本资源。</li>
+        <li>本资源的封面插图使用生成式 AI，正文与规则设计未使用。</li>
+        <li>本资源使用生成式 AI 辅助翻译和文字润色，全文已由作者复核。</li>
+      </ul>
+      <h3>生效与历史投稿</h3>
+      <p>本次新增要求不追溯生效日期之前的历史投稿，无需补交声明；但不代表豁免抄袭、侵权等问题。</p>
+      <p>如发现抄袭、侵权或有证据表明声明不实，平台可要求说明、修改或下架，并告知具体原因。声明不实处置亦以正式生效后的适用投稿为限。</p>
+      <p class="submission-notice-footnote">本公告自 2026年09月18日 起生效。</p>
+    </div>
+    <div class="submission-notice-footer">
+      <label class="submission-notice-check">
+        <input type="checkbox" id="submissionNoticeDismiss">
+        <span>不再显示（当前浏览器）</span>
+      </label>
+      <div class="submission-notice-actions">
+        <button class="btn btn--ghost" id="submissionNoticeCancel" type="button">取消</button>
+        <button class="btn btn--gold" id="submissionNoticeContinue" type="button">继续投稿</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- 订阅通知 Modal -->
+  <div class="modal-overlay" id="subscribeModal" role="dialog" aria-modal="true" aria-labelledby="subscribeModalTitle">
+    <div class="modal">
+      <div class="modal-header">
+        <span class="modal-title" id="subscribeModalTitle">订阅通知</span>
+        <button class="modal-close" id="subscribeModalClose" type="button" aria-label="关闭">&times;</button>
+      </div>
+      <div class="modal-body" id="subscribeFormState">
+        <p class="subscribe-description">留下邮箱，新作品上线宏伟宝库时，我们会发送一封通知。</p>
+        <label class="subscribe-label" for="subscribeEmail">邮箱</label>
+        <input class="subscribe-input" id="subscribeEmail" type="email" autocomplete="email" placeholder="name@example.com">
+      </div>
+      <div class="modal-body" id="subscribeExistingState" hidden>
+        <p class="subscribe-description">
+          这个邮箱已经填写过了，无需重复订阅。<br>
+          <span class="subscribe-existing-email" id="subscribeExistingEmail"></span>
+        </p>
+      </div>
+      <div class="modal-footer" id="subscribeFormFooter">
+        <button class="btn btn--ghost" id="subscribeCancel" type="button">取消</button>
+        <button class="btn btn--gold" id="subscribeSave" type="button">确认订阅</button>
+      </div>
+      <div class="modal-footer" id="subscribeExistingFooter" hidden>
+        <button class="btn btn--danger" id="unsubscribeBtn" type="button">取消订阅</button>
+        <button class="btn btn--ghost" id="subscribeExistingClose" type="button">关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <link rel="stylesheet" href="/assets/content-tags.css">
+  <script src="/assets/content-tags.js"></script>
+  <script src="/assets/catalog-order.js"></script>
+  <script src="/assets/tag-tooltips.js"></script>
+  <script src="/assets/resource-form.js"></script>
+  <script>
+  (function () {
+    'use strict';
+
+    const API_BASE = window.location.protocol === 'file:' ? 'http://localhost:5000' : '';
+
+    /* ── 配置 ── */
+    const CONFIG = {
+      THEME_KEY: 'dh-marketplace-theme',
+
+      // 分区
+      LATEST_COUNT: 8,
+      EDITOR_PICK_COUNT: 8,
+      POPULAR_PICK_COUNT: 4,
+      POPULAR_LIKE_THRESHOLD: 5,  // 大众点评最低点赞数
+
+      // 分区标签映射
+      MODULE_TAGS: ['模组', '遭遇'], // 模组资源
+      PLAYER_RESOURCE_TAGS: ['职业', '领域', '传承', '装备物品'], // 玩家资源
+      GM_RESOURCE_TAGS: ['敌人', '环境', '遭遇', '设定', '电子工具', '工具书'], // GM资源
+      EXT_RULE_TAGS: ['扩展规则'], // 扩展规则
+      CAMPAIGN_FRAMEWORK_TAGS: ['战役框架'], // 战役框架
+    };
+
+    /* ── 主题管理 ── */
+    const THEME_KEY = CONFIG.THEME_KEY; // 与管理页共享
+
+    function getSavedTheme() {
+      try { return localStorage.getItem(THEME_KEY); } catch { return null; }
+    }
+    function saveTheme(theme) {
+      try { localStorage.setItem(THEME_KEY, theme); } catch {}
+    }
+    function applyTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      const btn = document.getElementById('themeToggle');
+      if (btn) btn.innerHTML = theme === 'light' ? '&#9790;' : '&#9788;';
+    }
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'light' ? 'dark' : 'light';
+      applyTheme(next);
+      saveTheme(next);
+    }
+
+    // 初始化主题
+    const saved = getSavedTheme();
+    if (saved) applyTheme(saved);
+
+    document.getElementById('themeToggle').addEventListener('click', toggleTheme);
+
+    /* ── 状态 ── */
+    const state = {
+      entries: [],
+      tags: { contentTags: [], flavorTags: [] },
+      searchQuery: '',
+      sortMode: 'latest',
+      rotationDay: window.CatalogOrder.dayKey(),
+      dailyHighlights: null,
+      selectedContentTags: [],
+      selectedFlavorTags: [],
+      pendingContentTags: [],
+      pendingFlavorTags: [],
+      loading: true,
+      error: null,
+      tagModalOpen: false,
+      likedEntries: [],
+      locallyTouchedLikes: new Set(),
+    };
+
+    const $ = (sel) => document.querySelector(sel);
+
+    const dom = {
+      searchInput: $('#searchInput'),
+      searchClear: $('#searchClear'),
+      filterTrigger: $('#filterTrigger'),
+      filterCount: $('#filterCount'),
+      activeFilters: $('#activeFilters'),
+      cardGrid: $('#cardGrid'),
+      resultsCount: $('#resultsCount'),
+      sectionNav: $('#sectionNav'),
+      loadingState: $('#loadingState'),
+      emptyState: $('#emptyState'),
+      errorState: $('#errorState'),
+      errorText: $('#errorText'),
+      tagModal: $('#tagModal'),
+      tagModalClose: $('#tagModalClose'),
+      modalContentTags: $('#modalContentTags'),
+      modalFlavorTags: $('#modalFlavorTags'),
+      tagModalClear: $('#tagModalClear'),
+      tagModalApply: $('#tagModalApply'),
+    };
+
+    async function apiFetch(path) {
+      const res = await fetch(API_BASE + path, { headers: { 'Accept': 'application/json' } });
+      if (!res.ok) throw new Error(`API ${res.status}`);
+      return res.json();
+    }
+
+    async function loadData() {
+      try {
+        const data = await apiFetch('/api/public/bootstrap');
+        state.entries = data.entries || [];
+        state.tags = data.tags || { contentTags: [], flavorTags: [] };
+        state.loading = false;
+        state.error = null;
+      } catch (err) {
+        console.error('数据加载失败:', err);
+        state.loading = false;
+        state.error = err.message;
+      }
+    }
+
+    async function loadLikes() {
+      try {
+        const data = await apiFetch('/api/public/likes');
+        const serverLikedEntries = data.likedEntryIds || [];
+        const untouchedServerLikes = serverLikedEntries.filter(id => !state.locallyTouchedLikes.has(id));
+        const touchedLocalLikes = state.likedEntries.filter(id => state.locallyTouchedLikes.has(id));
+        state.likedEntries = Array.from(new Set([...untouchedServerLikes, ...touchedLocalLikes]));
+      } catch (err) {
+        console.error('点赞记录加载失败:', err);
+        state.likedEntries = state.likedEntries.filter(id => state.locallyTouchedLikes.has(id));
+      }
+    }
+
+    async function toggleLike(entryId, btnEl) {
+      try {
+        const res = await fetch(API_BASE + '/api/public/like/' + encodeURIComponent(entryId), {
+          method: 'POST',
+          headers: { 'Accept': 'application/json' },
+        });
+        if (!res.ok) {
+          const errData = await res.json().catch(() => ({}));
+          throw new Error(errData.error || `API ${res.status}`);
+        }
+        const data = await res.json();
+        state.locallyTouchedLikes.add(entryId);
+        if (data.liked) {
+          if (!state.likedEntries.includes(entryId)) state.likedEntries.push(entryId);
+        } else {
+          state.likedEntries = state.likedEntries.filter(id => id !== entryId);
+        }
+        const entry = state.entries.find(e => e.id === entryId);
+        if (entry) entry.likeCount = data.likeCount;
+        updateCardLikeUI(entryId, data.liked, data.likeCount);
+        renderTagModal();
+      } catch (err) {
+        console.error('点赞操作失败:', err);
+      }
+    }
+
+    function updateCardLikeUI(entryId, liked, likeCount) {
+      const entry = state.entries.find(e => e.id === entryId);
+      const displayCount = window.CatalogOrder.score({ likeCount, recommendValue: entry?.recommendValue });
+      const btns = document.querySelectorAll(`.card-like-btn[data-entry-id="${entryId}"]`);
+      btns.forEach(btn => {
+        btn.classList.toggle('liked', liked);
+        btn.setAttribute('aria-label', liked ? '取消点赞' : '点赞');
+        const icon = btn.querySelector('.card-like-icon');
+        if (icon) icon.innerHTML = liked ? '&#9829;' : '&#9825;';
+        let countEl = btn.querySelector('.card-like-count');
+        if (displayCount > 0) {
+          if (!countEl) {
+            countEl = document.createElement('span');
+            countEl.className = 'card-like-count';
+            btn.appendChild(countEl);
+          }
+          countEl.textContent = displayCount;
+        } else {
+          if (countEl) countEl.remove();
+        }
+      });
+    }
+
+    function getFilteredEntries() {
+      const q = state.searchQuery.trim().toLowerCase();
+      const selC = state.selectedContentTags;
+      const selF = state.selectedFlavorTags;
+
+      return state.entries.filter(entry => {
+        if (q) {
+          const hay = [entry.title, entry.author, entry.summary,
+            ...(entry.contentTags||[]), ...(entry.flavorTags||[])].join(' ').toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        if (selC.length && !selC.some(t => (entry.contentTags||[]).includes(t))) return false;
+        if (selF.length && !selF.some(t => (entry.flavorTags||[]).includes(t))) return false;
+        return true;
+      });
+    }
+
+    function renderAll() {
+      renderActiveFilters();
+      renderTagTriggerStates();
+      renderCardGrid();
+      if (state.tagModalOpen) renderTagModal();
+    }
+
+    function renderTagTriggerStates() {
+      const sc = state.selectedContentTags.length;
+      const sf = state.selectedFlavorTags.length;
+      const selectedCount = sc + sf;
+      dom.filterCount.textContent = selectedCount || '0';
+      dom.filterTrigger.classList.toggle('active', selectedCount > 0);
+    }
+
+    function renderActiveFilters() {
+      const chips = [];
+      state.selectedContentTags.forEach(t => chips.push({ type:'content', tag:t, label:t }));
+      state.selectedFlavorTags.forEach(t => chips.push({ type:'flavor', tag:t, label:t }));
+
+      dom.activeFilters.innerHTML = chips.map(c =>
+        `<span class="active-filter-chip" data-type="${c.type}" data-tag="${escAttr(c.tag)}" data-tag-description="${escAttr(window.ContentTags.description(c.tag))}">
+          ${escHtml(c.label)} <span class="active-filter-chip-remove">&times;</span>
+        </span>`
+      ).join('');
+    }
+
+    function renderCard(entry, idx, prioritizeImage = false) {
+      const hasSummary = !!(entry.summary && entry.summary.trim());
+      const isRec = entry.recommendValue > 0;
+      const cTags = window.CatalogOrder.tags(entry.contentTags || []);
+      const fTags = entry.flavorTags || [];
+      const liked = state.likedEntries.includes(entry.id);
+      const likeCount = window.CatalogOrder.score(entry);
+
+      const imageHtml = entry.coverPath
+        ? `<img src="${escAttr(entry.coverPath)}" alt="${escAttr(entry.title)} 封面"
+             width="600" height="800" loading="${prioritizeImage ? 'eager' : 'lazy'}"
+             fetchpriority="${prioritizeImage ? 'high' : 'auto'}" decoding="async"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
+        : '';
+
+      return `
+        <div class="card ${isRec?'recommended':''} ${hasSummary?'has-summary':''}"
+             role="listitem"
+             style="animation-delay:${Math.min(idx*0.04,0.6)}s"
+             data-href="${escAttr(entry.targetUrl)}" data-id="${escAttr(entry.id)}">
+          <div class="card-cover">
+            ${imageHtml}
+            <div class="card-cover-placeholder" style="display:${entry.coverPath ? 'none' : 'flex'}">
+              <span class="card-cover-placeholder-icon">&#9876;</span>
+              <span class="card-cover-placeholder-text">NO COVER</span>
+            </div>
+            ${isRec?'<span class="card-badge">&#9733; 推荐</span>':''}
+            ${hasSummary?`<div class="card-summary-tooltip">${escHtml(entry.summary)}</div>`:''}
+          </div>
+          <div class="card-body">
+            <div class="card-body-row">
+              <div class="card-info">
+                <div class="card-title">${escHtml(entry.title)}</div>
+                <div class="card-author">作者：${escHtml(entry.author)}</div>
+              </div>
+              <div class="card-like">
+                <button class="card-like-btn ${liked?'liked':''}" data-action="like" data-entry-id="${entry.id}" aria-label="${liked?'取消点赞':'点赞'}">
+                  <span class="card-like-icon">${liked?'&#9829;':'&#9825;'}</span>
+                  ${likeCount > 0 ? `<span class="card-like-count">${likeCount}</span>` : ''}
+                </button>
+              </div>
+            </div>
+            <div class="card-tags">
+              ${cTags.map(t=>`<span class="card-tag card-tag--content" tabindex="0" data-tag-description="${escAttr(window.ContentTags.description(t))}">${escHtml(t)}</span>`).join('')}
+              ${fTags.map(t=>`<span class="card-tag card-tag--flavor" tabindex="0" data-tag-description="${escAttr(window.ContentTags.description(t))}">${escHtml(t)}</span>`).join('')}
+            </div>
+          </div>
+        </div>`;
+    }
+
+    function hasTag(entry, tag) {
+      return (entry.contentTags||[]).includes(tag) || (entry.flavorTags||[]).includes(tag);
+    }
+
+    function getPriorityImageCount() {
+      if (window.matchMedia('(max-width: 640px)').matches) return 1;
+      if (window.matchMedia('(max-width: 1024px)').matches) return 2;
+      return 4;
+    }
+
+    function renderCardGrid() {
+      const filtered = window.CatalogOrder.entries(getFilteredEntries(), state.sortMode);
+      const hasActiveFilter = state.searchQuery.trim() || state.selectedContentTags.length || state.selectedFlavorTags.length;
+      const priorityImageCount = getPriorityImageCount();
+
+      if (!state.loading && state.entries.length > 0) {
+        const total = state.entries.length;
+        const shown = filtered.length;
+        dom.resultsCount.textContent = shown === total ? `共 ${total} 个条目` : `筛选出 ${shown} / ${total} 个条目`;
+        dom.resultsCount.classList.add('visible');
+      } else {
+        dom.resultsCount.classList.remove('visible');
+      }
+
+      if (!state.loading && state.entries.length > 0 && filtered.length === 0) {
+        dom.cardGrid.innerHTML = '';
+        dom.cardGrid.classList.add('card-grid--centered');
+        dom.emptyState.classList.add('visible');
+        dom.emptyState.querySelector('.state-text').textContent = '没有匹配的资源';
+        dom.emptyState.querySelector('.state-hint').textContent = '尝试调整搜索词或标签筛选';
+        return;
+      }
+      dom.emptyState.classList.remove('visible');
+
+      if (hasActiveFilter) {
+        dom.sectionNav.style.display = 'none';
+        dom.cardGrid.classList.add('card-grid--centered');
+        dom.cardGrid.innerHTML = filtered.map((entry, idx) => renderCard(entry, idx, idx < priorityImageCount)).join('');
+      } else {
+        dom.cardGrid.classList.remove('card-grid--centered');
+        const sorted = window.CatalogOrder.entries(state.entries, 'latest');
+        const latest = sorted.slice(0, CONFIG.LATEST_COUNT);
+        const bySelectedOrder = (arr) => window.CatalogOrder.entries(arr, state.sortMode);
+        // 仅下方五个分区排除 PbDH：战役框架 / 模组 / 玩家资源 / GM资源 / 扩展规则。
+        // 最新收录、编辑推荐、社群匕选、PbDH 专区与全局搜索结果仍基于全量条目。
+        const nonPbDHEntries = state.entries.filter(e => !window.ContentTags.isPbDH(e));
+        const campaignTags = CONFIG.CAMPAIGN_FRAMEWORK_TAGS;
+        const campaign = bySelectedOrder(nonPbDHEntries.filter(e => campaignTags.some(t => hasTag(e, t))));
+        const moduleTags = CONFIG.MODULE_TAGS;
+        const module = bySelectedOrder(nonPbDHEntries.filter(e => moduleTags.some(t => hasTag(e, t))));
+        const campaignOrModule = new Set([...campaign.map(e => e.id), ...module.map(e => e.id)]);
+        const playerResourceTags = CONFIG.PLAYER_RESOURCE_TAGS;
+        const playerResource = bySelectedOrder(nonPbDHEntries.filter(e =>
+          !campaignOrModule.has(e.id) && playerResourceTags.some(t => hasTag(e, t))));
+        const gmResourceTags = CONFIG.GM_RESOURCE_TAGS;
+        const gmResource = bySelectedOrder(nonPbDHEntries.filter(e =>
+          !campaignOrModule.has(e.id) && gmResourceTags.some(t => hasTag(e, t))));
+        const extRuleTags = CONFIG.EXT_RULE_TAGS;
+        const extRule = bySelectedOrder(nonPbDHEntries.filter(e => extRuleTags.some(t => hasTag(e, t))));
+        const pbdh = bySelectedOrder(state.entries.filter(window.ContentTags.isPbDH));
+
+        if (!state.dailyHighlights) state.dailyHighlights = window.CatalogOrder.highlights(state.entries, state.rotationDay, CONFIG);
+        const picks = state.dailyHighlights;
+        const editorPick = picks.editor;
+        const popularPick = picks.popular;
+
+        const sections = [
+          { id: 'sec-latest', label: '最新收录', short: '最新', entries: latest },
+          { id: 'sec-editor', label: '编辑推荐', short: '推荐', entries: editorPick },
+          { id: 'sec-popular', label: '社群匕选', short: '热榜', entries: popularPick },
+          { id: 'sec-module', label: '战役模组', short: '模组', entries: module },
+          { id: 'sec-player', label: '玩家资源', short: '玩家', entries: playerResource },
+          { id: 'sec-gm', label: 'GM资源', short: 'GM', entries: gmResource },
+          { id: 'sec-extrule', label: '扩展规则', short: '房规', entries: extRule },
+          { id: 'sec-campaign', label: '战役框架', short: '战框', entries: campaign },
+          { id: 'sec-pbdh', label: 'PbDH专区', short: 'PbDH', entries: pbdh },
+        ];
+
+        let gridHtml = '', navHtml = '';
+        for (const s of sections) {
+          if (!s.entries.length) continue;
+          gridHtml += `<div class="section-header" id="${s.id}">${s.label} · ${s.entries.length}</div>`;
+          if (s.id === 'sec-pbdh') {
+            gridHtml += '<p class="section-description">PBDH是“Powered by Daggerheart”的缩写，可以理解为“以《匕首心》为驱动引擎”。它表示创作者从《匕首心》提供的设计语言和基础机制出发，对它进行重新取舍、组合、改造，最终创作了出一款新的游戏。详情请见<a href="https://vcn3zvu2w61p.feishu.cn/wiki/FOziwMdb6iFF4nkU4fkc5jsjnKg#share-RMZkdlaJEo64laxY2m6cvQcunBg" target="_blank" rel="noopener noreferrer">贤者恩泽</a>。</p>';
+          }
+          gridHtml += s.entries.map((e, i) => renderCard(e, i,
+            s.id === 'sec-latest' && i < priorityImageCount)).join('');
+          navHtml += `<a href="#${s.id}" class="section-nav-link"><span class="nav-label-full">${s.label}</span><span class="nav-label-short">${s.short}</span></a>`;
+        }
+        dom.cardGrid.innerHTML = gridHtml;
+        dom.sectionNav.innerHTML = navHtml;
+        dom.sectionNav.style.display = 'flex';
+      }
+
+      dom.cardGrid.setAttribute('aria-busy', 'false');
+    }
+
+    function renderTagModal() {
+      const cTags = window.CatalogOrder.tags(state.tags.contentTags || [], item => item.tag);
+      dom.modalContentTags.innerHTML = cTags.length === 0
+        ? '<div class="modal-tag-empty">暂无内容标签</div>'
+        : cTags.map(tc => {
+            const sel = state.pendingContentTags.includes(tc.tag);
+            return `<div class="modal-tag-item ${sel?'selected':''}" data-type="content" data-tag="${escAttr(tc.tag)}" data-tag-description="${escAttr(window.ContentTags.description(tc.tag))}">
+              <span>${escHtml(tc.tag)}</span><span class="modal-tag-count">${tc.count}</span></div>`;
+          }).join('');
+
+      const fTags = state.tags.flavorTags || [];
+      dom.modalFlavorTags.innerHTML = fTags.length === 0
+        ? '<div class="modal-tag-empty">暂无风味标签</div>'
+        : fTags.map(tc => {
+            const sel = state.pendingFlavorTags.includes(tc.tag);
+            return `<div class="modal-tag-item ${sel?'selected':''}" data-type="flavor" data-tag="${escAttr(tc.tag)}" data-tag-description="${escAttr(window.ContentTags.description(tc.tag))}">
+              <span>${escHtml(tc.tag)}</span><span class="modal-tag-count">${tc.count}</span></div>`;
+          }).join('');
+
+      dom.tagModal.querySelectorAll('.modal-tag-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const arr = item.dataset.type === 'content' ? state.pendingContentTags : state.pendingFlavorTags;
+          const idx = arr.indexOf(item.dataset.tag);
+          if (idx === -1) arr.push(item.dataset.tag); else arr.splice(idx, 1);
+          renderTagModal();
+        });
+      });
+    }
+
+    function updateDisplayMode() {
+      dom.cardGrid.setAttribute('aria-busy', String(state.loading));
+      dom.loadingState.textContent = state.loading
+        ? '正在检视图书馆…'
+        : (state.error ? '目录加载失败' : '目录加载完成');
+      dom.errorState.classList.toggle('visible', !!state.error && !state.loading);
+      if (state.error) dom.errorText.textContent = state.error;
+      dom.cardGrid.style.display = (!state.error && (state.loading || state.entries.length > 0)) ? '' : 'none';
+      if (!state.loading && !state.error && state.entries.length === 0) {
+        dom.emptyState.classList.add('visible');
+      }
+    }
+
+    function openTagModal() {
+      state.pendingContentTags = [...state.selectedContentTags];
+      state.pendingFlavorTags = [...state.selectedFlavorTags];
+      state.tagModalOpen = true;
+      dom.tagModal.classList.add('visible');
+      renderTagModal();
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeTagModal(apply) {
+      if (apply) {
+        state.selectedContentTags = [...state.pendingContentTags];
+        state.selectedFlavorTags = [...state.pendingFlavorTags];
+        renderAll();
+      }
+      state.tagModalOpen = false;
+      dom.tagModal.classList.remove('visible');
+      document.body.style.overflow = '';
+    }
+
+    function syncPendingFromSelected() {
+      state.pendingContentTags = [...state.selectedContentTags];
+      state.pendingFlavorTags = [...state.selectedFlavorTags];
+    }
+
+    // 事件绑定
+    dom.cardGrid.addEventListener('click', (e) => {
+      const likeBtn = e.target.closest('[data-action="like"]');
+      if (likeBtn) {
+        e.stopPropagation();
+        toggleLike(likeBtn.dataset.entryId, likeBtn);
+        return;
+      }
+      const card = e.target.closest('.card[data-href]');
+      if (card?.dataset.href) window.open(card.dataset.href, '_blank', 'noopener');
+    });
+
+    dom.activeFilters.addEventListener('click', (e) => {
+      const chip = e.target.closest('.active-filter-chip');
+      if (!chip) return;
+      if (chip.dataset.type === 'content') {
+        state.selectedContentTags = state.selectedContentTags.filter(t => t !== chip.dataset.tag);
+      } else {
+        state.selectedFlavorTags = state.selectedFlavorTags.filter(t => t !== chip.dataset.tag);
+      }
+      syncPendingFromSelected();
+      renderAll();
+    });
+
+    let searchTimer;
+    dom.searchInput.addEventListener('input', () => {
+      dom.searchClear.classList.toggle('visible', dom.searchInput.value.length > 0);
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => { state.searchQuery = dom.searchInput.value; renderAll(); }, 200);
+    });
+    dom.searchClear.addEventListener('click', () => {
+      dom.searchInput.value = '';
+      dom.searchClear.classList.remove('visible');
+      state.searchQuery = '';
+      renderAll();
+      dom.searchInput.focus();
+    });
+
+    document.getElementById('sortToggle').addEventListener('click', function () {
+      state.sortMode = state.sortMode === 'latest' ? 'hot' : 'latest';
+      this.textContent = state.sortMode === 'latest' ? '排序：最新' : '排序：最热';
+      this.setAttribute('aria-label', state.sortMode === 'latest' ? '当前按最新排序，点击切换为最热' : '当前按最热排序，点击切换为最新');
+      renderCardGrid();
+    });
+    function rotateIfNeeded() {
+      const day = window.CatalogOrder.dayKey();
+      if (day !== state.rotationDay) {
+        state.rotationDay = day;
+        state.dailyHighlights = null;
+        if (!state.loading) renderCardGrid();
+      }
+    }
+    setInterval(rotateIfNeeded, 30000);
+    document.addEventListener('visibilitychange', rotateIfNeeded);
+    dom.filterTrigger.addEventListener('click', openTagModal);
+    dom.tagModalClose.addEventListener('click', () => closeTagModal(false));
+    dom.tagModalClear.addEventListener('click', () => { state.pendingContentTags = []; state.pendingFlavorTags = []; renderTagModal(); });
+    dom.tagModalApply.addEventListener('click', () => closeTagModal(true));
+
+    function escHtml(s) {
+      if (!s) return '';
+      const d = document.createElement('div');
+      d.appendChild(document.createTextNode(s));
+      return d.innerHTML;
+    }
+    function escAttr(s) {
+      if (!s) return '';
+      return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    /* ── 分区导航：滚动高亮当前分区 ── */
+    let activeNavTicking = false;
+    function updateActiveNavSection() {
+      const links = document.querySelectorAll('.section-nav-link');
+      const headers = document.querySelectorAll('.section-header');
+      if (!links.length || !headers.length) return;
+
+      const toolbarHeight = document.querySelector('.toolbar').offsetHeight + 32;
+
+      let activeId = null;
+      headers.forEach(h => {
+        if (h.getBoundingClientRect().top <= toolbarHeight) {
+          activeId = h.id;
+        }
+      });
+
+      links.forEach(link => {
+        const href = link.getAttribute('href');
+        link.classList.toggle('active', href === '#' + activeId);
+      });
+    }
+
+    function onNavScroll() {
+      if (!activeNavTicking) {
+        requestAnimationFrame(() => {
+          updateActiveNavSection();
+          activeNavTicking = false;
+        });
+        activeNavTicking = true;
+      }
+    }
+
+    window.addEventListener('scroll', onNavScroll, { passive: true });
+
+    /* ══════════════════════════════════════════
+       投稿系统
+       ══════════════════════════════════════════ */
+
+    // ── Toast ──
+    const toast = document.getElementById('toast');
+    let toastTimer = null;
+    let toastClearTimer = null;
+    function showToast(msg, type) {
+      var text = String(msg || '').trim();
+      clearTimeout(toastTimer);
+      clearTimeout(toastClearTimer);
+      if (!text) {
+        toast.textContent = '';
+        toast.className = 'toast';
+        return;
+      }
+      toast.textContent = text;
+      toast.className = 'toast visible' + (type ? ' ' + type : '');
+      toastTimer = setTimeout(function () {
+        toast.classList.remove('visible');
+        toastClearTimer = setTimeout(function () { toast.textContent = ''; }, 260);
+      }, 3000);
+    }
+
+    // ── DOM ──
+    const submitBtn = document.getElementById('submitEntryBtn');
+    const submitOverlay = document.getElementById('submitModalOverlay');
+    const submitClose = document.getElementById('submitModalClose');
+    const submitCancel = document.getElementById('submitModalCancelBtn');
+    const submitSave = document.getElementById('submitModalSaveBtn');
+    const submitBody = document.getElementById('submitModalBody');
+    let submitForm = null;
+
+    const submissionNoticeDialog = document.getElementById('submissionNoticeDialog');
+    const submissionNoticeClose = document.getElementById('submissionNoticeClose');
+    const submissionNoticeCancel = document.getElementById('submissionNoticeCancel');
+    const submissionNoticeContinue = document.getElementById('submissionNoticeContinue');
+    const submissionNoticeDismiss = document.getElementById('submissionNoticeDismiss');
+    const submitNoticeReopenBtn = document.getElementById('submitNoticeReopenBtn');
+
+    const subscribeBtn = document.getElementById('subscribeBtn');
+    const subscribeModal = document.getElementById('subscribeModal');
+    const subscribeClose = document.getElementById('subscribeModalClose');
+    const subscribeCancel = document.getElementById('subscribeCancel');
+    const subscribeSave = document.getElementById('subscribeSave');
+    const subscribeEmail = document.getElementById('subscribeEmail');
+    const subscribeFormState = document.getElementById('subscribeFormState');
+    const subscribeExistingState = document.getElementById('subscribeExistingState');
+    const subscribeFormFooter = document.getElementById('subscribeFormFooter');
+    const subscribeExistingFooter = document.getElementById('subscribeExistingFooter');
+    const subscribeExistingEmail = document.getElementById('subscribeExistingEmail');
+    const unsubscribeBtn = document.getElementById('unsubscribeBtn');
+    const subscribeExistingClose = document.getElementById('subscribeExistingClose');
+    let existingSubscriptionEmail = '';
+
+    function mountSubmitForm() {
+      submitForm = window.ResourceForm.create({
+        bodyEl: submitBody,
+        showRecommendValue: false,
+        showFeedbackEmail: true,
+        getFlavorSuggestions: function () { return state.tags.flavorTags || []; },
+        initialValues: {
+          title: '',
+          author: '',
+          feedbackEmail: '',
+          contentTags: [],
+          flavorTags: [],
+          summary: '',
+          targetUrl: '',
+          coverPath: ''
+        },
+        uploadCover: async function (formData) {
+          var res = await fetch(API_BASE + '/api/public/covers', {
+            method: 'POST',
+            body: formData
+          });
+          var data = await res.json().catch(function () { return {}; });
+          if (!res.ok) throw new Error(data.error || '上传失败');
+          return data;
+        },
+        escHtml: escHtml,
+        escAttr: escAttr
+      });
+    }
+
+    mountSubmitForm();
+
+    // ── Modal 开/关 ──
+    function openSubmitModal() {
+      submitOverlay.classList.add('visible');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeSubmitModal() {
+      submitOverlay.classList.remove('visible');
+      document.body.style.overflow = '';
+      mountSubmitForm();
+    }
+
+    // ── 投稿说明（原生 dialog，独立于 .modal-overlay）──
+    const SUBMISSION_NOTICE_KEY = 'dhm-submission-notice:2026-09-18-v1';
+    let submissionNoticeReturnFocus = null;
+    let submissionNoticeSuppressFocusRestore = false;
+
+    function hasSeenSubmissionNotice() {
+      try { return localStorage.getItem(SUBMISSION_NOTICE_KEY) === '1'; } catch { return false; }
+    }
+
+    function rememberSubmissionNoticeChoice(checked) {
+      try {
+        if (checked) localStorage.setItem(SUBMISSION_NOTICE_KEY, '1');
+        else localStorage.removeItem(SUBMISSION_NOTICE_KEY);
+      } catch { /* 存储不可用时静默忽略，不阻塞继续投稿 */ }
+    }
+
+    function openSubmissionNotice(fromForm) {
+      submissionNoticeReturnFocus = fromForm ? submitNoticeReopenBtn : submitBtn;
+      submissionNoticeDismiss.checked = false; // 默认不勾，取消不记忆
+      document.body.style.overflow = 'hidden';
+      if (submissionNoticeDialog.open) return;
+      submissionNoticeDialog.showModal();
+      requestAnimationFrame(function () { submissionNoticeClose.focus(); });
+    }
+
+    function finishSubmissionNoticeClose() {
+      // 说明关闭后：仍停留在投稿表单则继续锁滚动，否则恢复页面滚动
+      document.body.style.overflow = submitOverlay.classList.contains('visible') ? 'hidden' : '';
+      var target = submissionNoticeReturnFocus;
+      submissionNoticeReturnFocus = null;
+      if (!submissionNoticeSuppressFocusRestore && target && typeof target.focus === 'function') {
+        target.focus();
+      }
+      submissionNoticeSuppressFocusRestore = false;
+    }
+
+    function closeSubmissionNotice() {
+      if (submissionNoticeDialog.open) {
+        submissionNoticeDialog.close();
+      } else {
+        submissionNoticeDialog.removeAttribute('open');
+        finishSubmissionNoticeClose();
+      }
+    }
+
+    submissionNoticeDialog.addEventListener('close', finishSubmissionNoticeClose);
+
+    function focusSubmitFormFirstField() {
+      requestAnimationFrame(function () {
+        var field = submitBody.querySelector('[data-field="title"]');
+        if (field && typeof field.focus === 'function') field.focus();
+      });
+    }
+
+    function continueFromSubmissionNotice() {
+      rememberSubmissionNoticeChoice(submissionNoticeDismiss.checked);
+      submissionNoticeSuppressFocusRestore = true; // 交由表单接管焦点
+      closeSubmissionNotice();
+      openSubmitModal();
+      focusSubmitFormFirstField();
+    }
+
+    submissionNoticeClose.addEventListener('click', closeSubmissionNotice);
+    submissionNoticeCancel.addEventListener('click', closeSubmissionNotice);
+    submissionNoticeContinue.addEventListener('click', continueFromSubmissionNotice);
+    submitNoticeReopenBtn.addEventListener('click', function () { openSubmissionNotice(true); });
+
+    // 首次投稿先看说明；选择“不再显示”后直接进入表单
+    submitBtn.addEventListener('click', function () {
+      if (hasSeenSubmissionNotice()) {
+        openSubmitModal();
+        focusSubmitFormFirstField();
+      } else {
+        openSubmissionNotice(false);
+      }
+    });
+    submitClose.addEventListener('click', closeSubmitModal);
+    submitCancel.addEventListener('click', closeSubmitModal);
+
+    function openSubscribeModal() {
+      showSubscribeForm();
+      subscribeModal.classList.add('visible');
+      document.body.style.overflow = 'hidden';
+      requestAnimationFrame(function () { subscribeEmail.focus(); });
+    }
+
+    function closeSubscribeModal() {
+      subscribeModal.classList.remove('visible');
+      document.body.style.overflow = '';
+      subscribeEmail.value = '';
+      showSubscribeForm();
+    }
+
+    function showSubscribeForm() {
+      existingSubscriptionEmail = '';
+      subscribeExistingEmail.textContent = '';
+      subscribeFormState.hidden = false;
+      subscribeFormFooter.hidden = false;
+      subscribeExistingState.hidden = true;
+      subscribeExistingFooter.hidden = true;
+    }
+
+    function showExistingSubscription(email) {
+      existingSubscriptionEmail = email;
+      subscribeExistingEmail.textContent = email;
+      subscribeFormState.hidden = true;
+      subscribeFormFooter.hidden = true;
+      subscribeExistingState.hidden = false;
+      subscribeExistingFooter.hidden = false;
+      requestAnimationFrame(function () { unsubscribeBtn.focus(); });
+    }
+
+    async function saveSubscription() {
+      var email = subscribeEmail.value.trim();
+      if (!email || !subscribeEmail.checkValidity()) {
+        showToast('请输入有效的邮箱地址', 'error');
+        subscribeEmail.focus();
+        return;
+      }
+      subscribeSave.disabled = true;
+      try {
+        var res = await fetch(API_BASE + '/api/public/subscriptions', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({ email: email })
+        });
+        var data = await res.json().catch(function () { return {}; });
+        if (!res.ok) throw new Error(data.error || '订阅失败');
+        if (data.alreadySubscribed) {
+          showExistingSubscription(email.toLowerCase());
+        } else {
+          closeSubscribeModal();
+          showToast('订阅成功', 'success');
+        }
+      } catch (err) {
+        showToast(err.message, 'error');
+      } finally {
+        subscribeSave.disabled = false;
+      }
+    }
+
+    async function cancelSubscription() {
+      if (!existingSubscriptionEmail) return;
+      unsubscribeBtn.disabled = true;
+      subscribeExistingClose.disabled = true;
+      try {
+        var res = await fetch(API_BASE + '/api/public/subscriptions', {
+          method: 'DELETE',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({ email: existingSubscriptionEmail })
+        });
+        var data = await res.json().catch(function () { return {}; });
+        if (!res.ok) throw new Error(data.error || '取消订阅失败');
+        closeSubscribeModal();
+        showToast(data.unsubscribed ? '已取消订阅' : '该邮箱已取消订阅', 'success');
+      } catch (err) {
+        showToast(err.message, 'error');
+      } finally {
+        unsubscribeBtn.disabled = false;
+        subscribeExistingClose.disabled = false;
+      }
+    }
+
+    subscribeBtn.addEventListener('click', openSubscribeModal);
+    subscribeClose.addEventListener('click', closeSubscribeModal);
+    subscribeCancel.addEventListener('click', closeSubscribeModal);
+    subscribeExistingClose.addEventListener('click', closeSubscribeModal);
+    subscribeSave.addEventListener('click', saveSubscription);
+    unsubscribeBtn.addEventListener('click', cancelSubscription);
+    subscribeEmail.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') saveSubscription();
+    });
+    subscribeModal.addEventListener('click', function (event) {
+      if (event.target === subscribeModal) closeSubscribeModal();
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key !== 'Escape') return;
+      // 投稿说明 dialog 打开时，Escape 交给原生 dialog 自行关闭，避免连带关闭底下的投稿表单
+      if (submissionNoticeDialog.open) return;
+      if (subscribeModal.classList.contains('visible')) {
+        closeSubscribeModal();
+      } else if (submitOverlay.classList.contains('visible')) {
+        closeSubmitModal();
+      } else if (dom.tagModal.classList.contains('visible')) {
+        closeTagModal(false);
+      }
+    });
+
+    // ── 提交流程 ──
+    submitSave.addEventListener('click', async function () {
+      var body = submitForm.collect();
+
+      if (!body.title) { showToast('标题不能为空', 'error'); return; }
+      if (!body.targetUrl) { showToast('跳转链接不能为空', 'error'); return; }
+      if (!body.feedbackEmail) { showToast('反馈邮箱不能为空', 'error'); return; }
+
+      submitSave.disabled = true;
+      try {
+        var res = await fetch(API_BASE + '/api/public/submissions', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(body),
+        });
+        var data = await res.json();
+        if (!res.ok) throw new Error(data.error || '提交失败');
+        closeSubmitModal();
+        showToast('提交成功，等待审核', 'success');
+      } catch (err) {
+        showToast(err.message, 'error');
+      } finally {
+        submitSave.disabled = false;
+      }
+    });
+
+    /* ══════════════════════════════════════════ */
+
+    async function init() {
+      updateDisplayMode();
+      await loadData();
+      updateDisplayMode();
+      renderAll();
+      requestAnimationFrame(() => updateActiveNavSection());
+      loadLikes().then(() => {
+        if (!state.loading && !state.error && state.entries.length > 0) {
+          state.entries.forEach(entry => {
+            updateCardLikeUI(entry.id, state.likedEntries.includes(entry.id), entry.likeCount || 0);
+          });
+        }
+      });
+    }
+
+    init();
+  })();
+  </script>
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6e62f307b2ce42deace5384ad2581359"}'></script><!-- Cloudflare Pages Analytics --></body>
+</html>

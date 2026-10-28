@@ -1,0 +1,2282 @@
+{
+  "name": "夏满弓",
+  "type": "npc",
+  "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-051.webp",
+  "folder": "Xt6WTfhdvQwwfeJW",
+  "ownership": {
+    "default": 0,
+    "ZLyjAZl8wgUWm0mg": 3
+  },
+  "system": {
+    "details": {
+      "biography": {
+        "value": "<p>M-3 随车安保／近身阻拦</p><p>烛龙眼；盲区感</p>"
+      },
+      "autoCalcToughness": true,
+      "toughnessTrait": "vigor",
+      "autoCalcParry": true,
+      "parryBaseSwid": "fighting",
+      "archetype": "M-3 随车安保／近身阻拦",
+      "appearance": "",
+      "notes": "<p>与交管7号车队共一张卡；每轮只选一项系统行动或夏满弓的一项主动行动，无人机也从这同一额度支出。</p><p>先挡接线者、护住审计员；马铁鹰挟人夺车时优先对付马。只有对方使用致命武力或直接威胁乘员才拔枪。救人、保签章并交涉成功可谈一次接管+1，仍需累计3点。被绕过不清空接管进度。</p><p>只知道本次任务、岗哨与亲眼见闻；不知预制案情、付款链与零号库历史。</p>",
+      "goals": "",
+      "species": {
+        "name": ""
+      },
+      "currency": 0,
+      "wealth": {
+        "die": 6,
+        "modifier": 0,
+        "wild-die": 6
+      },
+      "conviction": {
+        "value": 0,
+        "active": false
+      }
+    },
+    "additionalStats": {},
+    "category": "",
+    "auras": {
+      "aura1": {
+        "radius": 5,
+        "walls": false,
+        "enabled": false,
+        "color": "#000000",
+        "alpha": 0.25,
+        "visibleTo": []
+      },
+      "aura2": {
+        "radius": 5,
+        "walls": false,
+        "enabled": false,
+        "color": "#000000",
+        "alpha": 0.25,
+        "visibleTo": []
+      }
+    },
+    "attributes": {
+      "agility": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "smarts": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "animal": false
+      },
+      "spirit": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unShakeBonus": 0
+      },
+      "strength": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "encumbranceSteps": 0
+      },
+      "vigor": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unStunBonus": 0,
+        "soakBonus": 0,
+        "bleedOut": {
+          "modifier": 0,
+          "ignoreWounds": false
+        }
+      }
+    },
+    "pace": {
+      "base": "ground",
+      "ground": 6,
+      "fly": null,
+      "swim": null,
+      "burrow": null,
+      "running": {
+        "die": 6,
+        "mod": 0
+      }
+    },
+    "stats": {
+      "toughness": {
+        "value": 0,
+        "armor": 0,
+        "modifier": 0
+      },
+      "parry": {
+        "value": 0,
+        "shield": 0,
+        "modifier": 0
+      },
+      "size": 0,
+      "gangUpDamage": false,
+      "speed": {}
+    },
+    "powerPoints": {
+      "general": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "fatigue": {
+      "value": 0,
+      "max": 2,
+      "ignored": 0
+    },
+    "woundsOrFatigue": {
+      "ignored": 0
+    },
+    "advances": {
+      "mode": "expanded",
+      "value": 8,
+      "rank": "Veteran",
+      "details": "",
+      "list": []
+    },
+    "initiative": {
+      "hasHesitant": false,
+      "hasLevelHeaded": false,
+      "hasImpLevelHeaded": false,
+      "hasQuick": false,
+      "follow": ""
+    },
+    "bennies": {
+      "value": 2,
+      "max": 2
+    },
+    "wounds": {
+      "value": 0,
+      "max": 3,
+      "ignored": 0
+    },
+    "wildcard": true
+  },
+  "prototypeToken": {
+    "name": "夏满弓",
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "worlds/taiyi/assets/npc/avatars/LS-NPC-051.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": 0,
+    "displayName": 0,
+    "displayBars": 0,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "depth": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "flags": {
+    "world": {
+      "taiyiNpc": {
+        "id": "LS-NPC-051",
+        "sourceSha256": "80bcd25931aac4fa8af46d9ad91a9e28a214e065cc9d47653f47457d12d31100",
+        "approvedRun": "20260829-ls-npc-051-v1",
+        "placeholder": true
+      },
+      "taiyiEp03": {
+        "key": "xia-mangong",
+        "version": 1,
+        "budget": 18,
+        "powerLimit": 6
+      }
+    },
+    "ginzzzu-portraits": {
+      "portraitCustomImage": "worlds/taiyi/assets/npc/portraits/LS-NPC-051.webp"
+    }
+  },
+  "_id": "WLZGos0f2rJ17PVL",
+  "items": [
+    {
+      "_id": "29cc9d30ce1123b5",
+      "name": "运动",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "description": "",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "athletics",
+        "attribute": "agility",
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": []
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:skill:athletics",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621084,
+        "modifiedTime": 1788444621100,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "e09f49233fad1a19",
+      "name": "格斗",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "description": "",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "fighting",
+        "attribute": "agility",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": []
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:skill:fighting",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621085,
+        "modifiedTime": 1788444621102,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "0033aff9d7b8120b",
+      "name": "射击",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "description": "",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "shooting",
+        "attribute": "agility",
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": []
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:skill:shooting",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621085,
+        "modifiedTime": 1788444621103,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "394aa4a313b09eb3",
+      "name": "察觉",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "description": "",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "notice",
+        "attribute": "smarts",
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": []
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:skill:notice",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621085,
+        "modifiedTime": 1788444621105,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "cce94cb83b4c3153",
+      "name": "驾驶",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "description": "",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "driving",
+        "attribute": "agility",
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": []
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:skill:driving",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621087,
+        "modifiedTime": 1788444621105,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "c1a5492a1b66a805",
+      "name": "交涉",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "description": "",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "persuasion",
+        "attribute": "spirit",
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": []
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:skill:persuasion",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621087,
+        "modifiedTime": 1788444621105,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "2621b7835a710e76",
+      "name": "修理",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "description": "",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "repair",
+        "attribute": "smarts",
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "isCoreSkill": false,
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": []
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:skill:repair",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621087,
+        "modifiedTime": 1788444621105,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "78e8f25aa09a41ef",
+      "name": "潜行",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "description": "",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "stealth",
+        "attribute": "agility",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "isCoreSkill": true,
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": []
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:skill:stealth",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621087,
+        "modifiedTime": 1788444621105,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "37a434fc8c32ab54",
+      "name": "盲区感",
+      "type": "swade-supers-companion.superPower",
+      "img": "modules/swade-supers-companion/assets/icons/Supers_Icons_Power.webp",
+      "system": {
+        "description": "<p>本场特殊构筑，费用2点。花一个动作，感到长期巡逻辖区内最可能被突破的一处盲区，须亲自换位防守。只给入口选择，不揭示闯入者、时间与目的；陌生辖区无效，不自动识破潜伏或既成预埋接口。此为既有能力的局部规则化，不使用完整版扫描或预知。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "special-blindspot",
+        "trapping": "烛龙眼；盲区感",
+        "range": "",
+        "duration": "",
+        "favorite": true,
+        "level": 1,
+        "build": {
+          "cost": 2,
+          "level": 1,
+          "limit": 6
+        },
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "activities": [],
+        "templates": {
+          "scone": false,
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "damage": "",
+        "ap": 0
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:power:blindspot",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621088,
+        "modifiedTime": 1788444621105,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "af0cea8f673adfbd",
+      "name": "超级技能",
+      "type": "swade-supers-companion.superPower",
+      "img": "modules/swade-supers-companion/assets/icons/Supers_Icons_Power.webp",
+      "system": {
+        "description": "<p>运动提升1级；格斗提升2级；察觉提升1级；驾驶提升1级。骰阶由效果自动计入。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "super-skill",
+        "trapping": "烛龙眼；盲区感",
+        "range": "",
+        "duration": "",
+        "favorite": true,
+        "level": 1,
+        "build": {
+          "cost": 5,
+          "level": 1,
+          "limit": 6
+        },
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "activities": [],
+        "templates": {
+          "scone": false,
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "damage": "",
+        "ap": 0
+      },
+      "effects": [
+        {
+          "_id": "dfa05ffd62eeef9b",
+          "name": "超级技能",
+          "type": "base",
+          "transfer": true,
+          "disabled": false,
+          "system": {
+            "changes": [
+              {
+                "key": "@Skill{运动}[system.die.sides]",
+                "value": 2,
+                "type": "add",
+                "phase": "initial",
+                "priority": null
+              },
+              {
+                "key": "@Skill{格斗}[system.die.sides]",
+                "value": 4,
+                "type": "add",
+                "phase": "initial",
+                "priority": null
+              },
+              {
+                "key": "@Skill{察觉}[system.die.sides]",
+                "value": 2,
+                "type": "add",
+                "phase": "initial",
+                "priority": null
+              },
+              {
+                "key": "@Skill{驾驶}[system.die.sides]",
+                "value": 2,
+                "type": "add",
+                "phase": "initial",
+                "priority": null
+              }
+            ],
+            "removeEffect": false,
+            "loseTurnOnHold": false,
+            "favorite": false,
+            "conditionalEffect": false
+          },
+          "flags": {
+            "world": {
+              "taiyiEp03": {
+                "key": "xia-mangong:power:skills",
+                "version": 1
+              }
+            }
+          },
+          "img": "icons/svg/aura.svg",
+          "start": null,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1788444621089,
+            "modifiedTime": 1788444621089,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:power:skills",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621089,
+        "modifiedTime": 1788444621105,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "c09dc39fe8c5f277",
+      "name": "超级专长",
+      "type": "swade-supers-companion.superPower",
+      "img": "modules/swade-supers-companion/assets/icons/Supers_Icons_Power.webp",
+      "system": {
+        "description": "<p>警觉、招架、战斗反应；各专长另列，效果只计算一次。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "super-edge",
+        "trapping": "烛龙眼；盲区感",
+        "range": "",
+        "duration": "",
+        "favorite": true,
+        "level": 1,
+        "build": {
+          "cost": 6,
+          "level": 1,
+          "limit": 6
+        },
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "activities": [],
+        "templates": {
+          "scone": false,
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "damage": "",
+        "ap": 0
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:power:edges",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621090,
+        "modifiedTime": 1788444621105,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "a2f149a929e50bf1",
+      "name": "警觉",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "system": {
+        "description": "<p>察觉投骰 +2（已自动计入）。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "alertness",
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "favorite": false,
+        "category": "",
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "grants": [],
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "A7fez1mN",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite",
+              "rechargeAmount": ""
+            }
+          ]
+        },
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": "SWADE.Ranks.Novice",
+            "combinator": "and",
+            "selector": ""
+          }
+        ]
+      },
+      "effects": [
+        {
+          "_id": "9ce1a9436ae8b055",
+          "name": "警觉",
+          "type": "base",
+          "transfer": true,
+          "disabled": false,
+          "system": {
+            "changes": [
+              {
+                "key": "@Skill{察觉}[system.die.modifier]",
+                "value": 2,
+                "type": "add",
+                "phase": "initial",
+                "priority": null
+              }
+            ],
+            "removeEffect": false,
+            "loseTurnOnHold": false,
+            "favorite": false,
+            "conditionalEffect": false
+          },
+          "flags": {
+            "world": {
+              "taiyiEp03": {
+                "key": "xia-mangong:edge:alertness",
+                "version": 1
+              }
+            }
+          },
+          "img": "icons/svg/aura.svg",
+          "start": null,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1788444621090,
+            "modifiedTime": 1788444621090,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:edge:alertness",
+            "version": 1
+          }
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621090,
+        "modifiedTime": 1788444621216,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "98e76cef9fcae700",
+      "name": "招架",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "system": {
+        "description": "<p>格挡 +1（已自动计入）；敌人针对你的围攻加值减少 1，交战时手动处理。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "block",
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "favorite": false,
+        "category": "",
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "grants": [],
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "RjZKEwa4",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite",
+              "rechargeAmount": ""
+            }
+          ]
+        },
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": "SWADE.Ranks.Novice",
+            "combinator": "and",
+            "selector": ""
+          }
+        ]
+      },
+      "effects": [
+        {
+          "_id": "8a5d04346556c964",
+          "name": "招架",
+          "type": "base",
+          "transfer": true,
+          "disabled": false,
+          "system": {
+            "changes": [
+              {
+                "key": "system.stats.parry.value",
+                "value": 1,
+                "type": "add",
+                "phase": "initial",
+                "priority": null
+              }
+            ],
+            "removeEffect": false,
+            "loseTurnOnHold": false,
+            "favorite": false,
+            "conditionalEffect": false
+          },
+          "flags": {
+            "world": {
+              "taiyiEp03": {
+                "key": "xia-mangong:edge:block",
+                "version": 1
+              }
+            }
+          },
+          "img": "icons/svg/aura.svg",
+          "start": null,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1788444621093,
+            "modifiedTime": 1788444621093,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:edge:block",
+            "version": 1
+          }
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621093,
+        "modifiedTime": 1788444621325,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "bd43db1d3aa857b4",
+      "name": "战斗反应",
+      "type": "edge",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "system": {
+        "description": "<p>从动摇与震慑中恢复的投骰 +2（已自动计入）。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "combat-reflexes",
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "favorite": false,
+        "category": "",
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "grants": [],
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "mABEEcfi",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite",
+              "rechargeAmount": ""
+            }
+          ]
+        },
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "value": "SWADE.Ranks.Novice",
+            "combinator": "and",
+            "selector": ""
+          }
+        ]
+      },
+      "effects": [
+        {
+          "_id": "2b6359e62a4c4f06",
+          "name": "战斗反应",
+          "type": "base",
+          "transfer": true,
+          "disabled": false,
+          "system": {
+            "changes": [
+              {
+                "key": "system.attributes.spirit.unShakeBonus",
+                "value": 2,
+                "type": "add",
+                "phase": "initial",
+                "priority": null
+              },
+              {
+                "key": "system.attributes.vigor.unStunBonus",
+                "value": 2,
+                "type": "add",
+                "phase": "initial",
+                "priority": null
+              }
+            ],
+            "removeEffect": false,
+            "loseTurnOnHold": false,
+            "favorite": false,
+            "conditionalEffect": false
+          },
+          "flags": {
+            "world": {
+              "taiyiEp03": {
+                "key": "xia-mangong:edge:combat-reflexes",
+                "version": 1
+              }
+            }
+          },
+          "img": "icons/svg/aura.svg",
+          "start": null,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1788444621094,
+            "modifiedTime": 1788444621094,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:edge:combat-reflexes",
+            "version": 1
+          }
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621094,
+        "modifiedTime": 1788444621354,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "6deef3733566f8f6",
+      "name": "超级属性·聪慧",
+      "type": "swade-supers-companion.superPower",
+      "img": "modules/swade-supers-companion/assets/icons/Supers_Icons_Power.webp",
+      "system": {
+        "description": "<p>该属性提升 1 级，已由效果自动计入。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "super-attribute-smarts",
+        "trapping": "烛龙眼；盲区感",
+        "range": "",
+        "duration": "",
+        "favorite": true,
+        "level": 1,
+        "build": {
+          "cost": 2,
+          "level": 1,
+          "limit": 6
+        },
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "activities": [],
+        "templates": {
+          "scone": false,
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "damage": "",
+        "ap": 0
+      },
+      "effects": [
+        {
+          "_id": "af89483a23ce557e",
+          "name": "超级属性·聪慧",
+          "type": "base",
+          "transfer": true,
+          "disabled": false,
+          "system": {
+            "changes": [
+              {
+                "key": "system.attributes.smarts.die.sides",
+                "value": 2,
+                "type": "add",
+                "phase": "initial",
+                "priority": null
+              }
+            ],
+            "removeEffect": false,
+            "loseTurnOnHold": false,
+            "favorite": false,
+            "conditionalEffect": false
+          },
+          "flags": {
+            "world": {
+              "taiyiEp03": {
+                "key": "xia-mangong:power:attr-smarts",
+                "version": 1
+              }
+            }
+          },
+          "img": "icons/svg/aura.svg",
+          "start": null,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1788444621094,
+            "modifiedTime": 1788444621094,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:power:attr-smarts",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621094,
+        "modifiedTime": 1788444621106,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "b63d32e7cfaf75ea",
+      "name": "离奇反射",
+      "type": "swade-supers-companion.superPower",
+      "img": "modules/swade-supers-companion/assets/icons/Supers_Icons_Power.webp",
+      "system": {
+        "description": "<p>回避时忽略通常的 −2 灵巧减值；原本不可回避的范围攻击可按 −2 尝试回避。扔回手雷的运动减值减少 2。按情境手动选择回避，不增加主动行动。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "uncanny-reflexes",
+        "trapping": "烛龙眼；盲区感",
+        "range": "",
+        "duration": "",
+        "favorite": true,
+        "level": 1,
+        "build": {
+          "cost": 3,
+          "level": 1,
+          "limit": 6
+        },
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "activities": [],
+        "templates": {
+          "scone": false,
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "damage": "",
+        "ap": 0
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:power:reflexes",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621095,
+        "modifiedTime": 1788444621107,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "2d3d918c3f0855ef",
+      "name": "手枪",
+      "type": "weapon",
+      "img": "systems/swade/assets/icons/weapon.svg",
+      "system": {
+        "description": "<p>使用射击投骰。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "ep03-pistol",
+        "damage": "2d6",
+        "range": "12/24/48",
+        "rangeType": 1,
+        "rof": 1,
+        "ap": 0,
+        "shots": 12,
+        "currentShots": 12,
+        "reloadType": "magazine",
+        "equipStatus": 4,
+        "equippable": true,
+        "favorite": true,
+        "quantity": 1,
+        "actions": {
+          "trait": "射击",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "weight": 0,
+        "price": 0,
+        "build": {
+          "limit": 1,
+          "level": 1
+        },
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "pXysEQ5m",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite",
+              "rechargeAmount": ""
+            }
+          ]
+        },
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "activities": [],
+        "templates": {
+          "scone": false,
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "parry": 0,
+        "minStr": "",
+        "ammo": "",
+        "ppReloadCost": 2,
+        "trademark": 0,
+        "isHeavyWeapon": false
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:weapon:pistol",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621096,
+        "modifiedTime": 1788444621110,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "29071eae5e1f00ea",
+      "name": "电击棍",
+      "type": "weapon",
+      "img": "systems/swade/assets/icons/weapon.svg",
+      "system": {
+        "description": "<p>非致命伤害，电击不是额外的免费震慑。 需实际近战接触。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "ep03-baton",
+        "damage": "@str+d4",
+        "range": "",
+        "rangeType": 0,
+        "rof": 1,
+        "ap": 0,
+        "shots": 0,
+        "currentShots": 0,
+        "reloadType": "none",
+        "equipStatus": 4,
+        "equippable": true,
+        "favorite": true,
+        "quantity": 1,
+        "actions": {
+          "trait": "格斗",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "weight": 0,
+        "price": 0,
+        "build": {
+          "limit": 1,
+          "level": 1
+        },
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "D5AW1UEG",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite",
+              "rechargeAmount": ""
+            }
+          ]
+        },
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "activities": [],
+        "templates": {
+          "scone": false,
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "parry": 0,
+        "minStr": "",
+        "ammo": "",
+        "ppReloadCost": 2,
+        "trademark": 0,
+        "isHeavyWeapon": false
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:weapon:baton",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621097,
+        "modifiedTime": 1788444621110,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "f7afcd6f9ddd0a22",
+      "name": "轻型护甲",
+      "type": "armor",
+      "img": "systems/swade/assets/icons/armor.svg",
+      "system": {
+        "description": "<p>护甲 +2，已穿戴。不是重型护甲。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "swid": "ep03-armor",
+        "armor": 2,
+        "equipStatus": 3,
+        "equippable": true,
+        "quantity": 1,
+        "locations": {
+          "torso": true,
+          "arms": true,
+          "legs": false,
+          "head": false
+        },
+        "notes": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "weight": 0,
+        "price": 0,
+        "build": {
+          "limit": 1,
+          "level": 1
+        },
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "o5iKy8no",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite",
+              "rechargeAmount": ""
+            }
+          ]
+        },
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "activities": [],
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "minStr": "",
+        "toughness": 0,
+        "isNaturalArmor": false,
+        "isHeavyArmor": false,
+        "energy": {
+          "value": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "mods": {
+          "value": 0,
+          "max": 0
+        }
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:armor",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621098,
+        "modifiedTime": 1788444621110,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "695945f009ca954d",
+      "name": "安全绳",
+      "type": "gear",
+      "img": "systems/swade/assets/icons/gear.svg",
+      "system": {
+        "description": "<p>安全绳</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "quantity": 1,
+        "notes": "",
+        "swid": "none",
+        "additionalStats": {},
+        "choiceSets": [],
+        "weight": 0,
+        "price": 0,
+        "build": {
+          "limit": 1,
+          "level": 1
+        },
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "2Oz2FaqZ",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite",
+              "rechargeAmount": ""
+            }
+          ]
+        },
+        "equippable": false,
+        "equipStatus": 3,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "activities": [],
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:gear:安全绳",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621098,
+        "modifiedTime": 1788444621110,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "38058dc369de802c",
+      "name": "短距通话设备",
+      "type": "gear",
+      "img": "systems/swade/assets/icons/gear.svg",
+      "system": {
+        "description": "<p>短距通话设备</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "quantity": 1,
+        "notes": "",
+        "swid": "none",
+        "additionalStats": {},
+        "choiceSets": [],
+        "weight": 0,
+        "price": 0,
+        "build": {
+          "limit": 1,
+          "level": 1
+        },
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "UYm6b2qd",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite",
+              "rechargeAmount": ""
+            }
+          ]
+        },
+        "equippable": false,
+        "equipStatus": 3,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "activities": [],
+        "favorite": false,
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "isAmmo": false
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:gear:短距通话设备",
+            "version": 1
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621099,
+        "modifiedTime": 1788444621110,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "188975b8bee282fa",
+      "name": "职责（重大）",
+      "type": "hindrance",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "system": {
+        "description": "<p>保住审计员、匣体和交接记录。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "major": true,
+        "notes": "",
+        "swid": "none",
+        "additionalStats": {},
+        "choiceSets": [],
+        "favorite": false,
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "grants": [],
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "TlfCcNMm",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite",
+              "rechargeAmount": ""
+            }
+          ]
+        },
+        "severity": "either"
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:hindrance:职责（重大）",
+            "version": 1
+          }
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621099,
+        "modifiedTime": 1788444621404,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "6adf0686b867e49f",
+      "name": "贪财（轻微）",
+      "type": "hindrance",
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "system": {
+        "description": "<p>出售自己能控制的便利；不会为收钱牺牲乘员。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "major": false,
+        "notes": "",
+        "swid": "none",
+        "additionalStats": {},
+        "choiceSets": [],
+        "favorite": false,
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "grants": [],
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "HhAFVlH2",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite",
+              "rechargeAmount": ""
+            }
+          ]
+        },
+        "severity": "either"
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:hindrance:贪财（轻微）",
+            "version": 1
+          }
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621099,
+        "modifiedTime": 1788444621434,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "4fdd80183c2c6a54",
+      "name": "本场行动额度",
+      "type": "ability",
+      "img": "systems/swade/assets/icons/ability.svg",
+      "system": {
+        "description": "<p>与交管7号车队共一张卡；每轮只选一项系统行动或夏满弓的一项主动行动，无人机也从这同一额度支出。</p>",
+        "source": "龙散战记 · EP03 本场构筑",
+        "favorite": true,
+        "notes": "",
+        "swid": "none",
+        "additionalStats": {},
+        "choiceSets": [],
+        "category": "",
+        "actions": {
+          "trait": "",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "grants": [],
+        "build": {
+          "limit": 1,
+          "level": 1
+        },
+        "subtype": "special",
+        "grantsPowers": false,
+        "charges": {
+          "hasCharges": false,
+          "charges": [
+            {
+              "id": "X8jaTNTt",
+              "sort": 0,
+              "name": "次数",
+              "value": 1,
+              "max": 1,
+              "rechargeType": "finite",
+              "rechargeAmount": ""
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "flags": {
+        "world": {
+          "taiyiEp03": {
+            "key": "xia-mangong:action-budget",
+            "version": 1
+          }
+        },
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1788444621100,
+        "modifiedTime": 1788444621465,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "swade",
+    "systemVersion": "6.0.3",
+    "createdTime": 1788356744894,
+    "modifiedTime": 1788444620792,
+    "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

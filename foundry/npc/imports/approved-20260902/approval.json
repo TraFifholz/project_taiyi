@@ -1,0 +1,12 @@
+{
+  "approvedAt": "2026-09-02T15:54:08.267Z",
+  "userText": "通过",
+  "characterId": "LS-NPC-006",
+  "runId": "20260902-ls-npc-006-pink-v4",
+  "utilityAssets": [
+    "assets/utility/npc-male-silhouette-20260902.png",
+    "assets/utility/npc-female-silhouette-20260902.png",
+    "assets/utility/sh-glitch-silhouette-20260902.png"
+  ],
+  "scope": "翟明珠正式入库与 FVTT 图片更新；三张剪影通过；S.H. Relationship 使用 Glitch 版；通用男女剪影保留为缺图素材"
+}

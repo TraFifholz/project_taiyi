@@ -1,0 +1,258 @@
+{
+  "status": "source_conflict_confirmed_read_only",
+  "reviewer": "final_art_review independent subagent",
+  "review_date": "2026-10-12",
+  "scope": "原图岸别与当前v8落位核查；不实施修改，不改冻结v8审查、SVG或封包。",
+  "frozen_v8_changed": false,
+  "input_sha256": {
+    "src/地铁图.svg": "41fa82d6cf408827f663b636ed056f39684d8cbb7c631b39f49878ed3a095cda",
+    "assets/maps/RMP_1778746875450.png": "dd423d8a84746d4011cbe975ecf7d0f1b6fe8ccfb67cfa9e24f5700f2f735070",
+    "assets/maps/地铁图.webp": "5dde089ed789b6894cd042e408f52be9f6e427d12366f8aa2510a490de0c57da",
+    "campaign/world/15-城区与交通网络.md": "f857bda308a893f598be4cd78390621f844f807780b5670fda824a811c07121c",
+    "campaign/world/14-企业名录与商业生态.md": "7c99a28562d7298b814899d41ee6cade76e0f9d6c59241642af9f19698b53470",
+    "scripts/generate_longsan_geographic_maps_v2.py": "5129a5ba04625d4432aa594ec8874236f9ab20cadde34539b9552006ba0be2aa",
+    "assets/maps/longsan-geographic-v8-20261012/地图坐标与线路.json": "e09a05ff6d66b453aa6d6688884fe54ae3a246542b9ace330e5c88b40798c00a",
+    "assets/maps/longsan-geographic-v8-20261012/龙散市-基础底图.svg": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+    "assets/maps/longsan-geographic-v8-20261012/龙散市-底图与地铁.svg": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9"
+  },
+  "actual_viewed_images": [
+    "assets/maps/地铁图.webp",
+    "assets/maps/RMP_1778746875450.png",
+    "maintenance/reports/longsan-map-audit-20261011/原地铁图-审查预览.png",
+    "assets/maps/longsan-geographic-v8-20261012/龙散市-全图.png",
+    "assets/maps/longsan-geographic-v8-20261012/龙散市-地铁全图.png"
+  ],
+  "original_png_size_px": [
+    5172,
+    3835
+  ],
+  "coordinate_boundary": "原SVG/PNG坐标只用于确认河岸/岛内外；它们无公里标定，不把图面水流转角当真实河道约束。当前km坐标不得与原SVG单位相减算位移。",
+  "stations": [
+    {
+      "name": "财经大学",
+      "facility": "龙散财经政法大学",
+      "lines": [
+        "3",
+        "7"
+      ],
+      "original_svg_xy": [
+        -82.84,
+        -27.51
+      ],
+      "original_png_station_center_px": [
+        1821,
+        995.5
+      ],
+      "original_bank": "楚江西岸陆地，岛外",
+      "pixel_evidence": "5172×3835原PNG中相邻行971/1019的蓝水西边均在x2451，站心x1821。",
+      "v8_xy_km": [
+        21.7,
+        13.1
+      ],
+      "v8_location": "江心洲内"
+    },
+    {
+      "name": "奥体中心",
+      "facility": "龙散奥林匹克体育中心",
+      "lines": [
+        "4",
+        "6",
+        "7"
+      ],
+      "original_svg_xy": [
+        -82.03,
+        72.22
+      ],
+      "original_png_station_center_px": [
+        1824.3,
+        1394.4
+      ],
+      "original_bank": "楚江西岸陆地，岛外",
+      "pixel_evidence": "原PNG相邻行1370/1418蓝水西边在x2402/x2354，站心x1824。",
+      "v8_xy_km": [
+        20.8,
+        15.8
+      ],
+      "v8_location": "江心洲内"
+    },
+    {
+      "name": "沙尾",
+      "lines": [
+        "3"
+      ],
+      "original_svg_xy": [
+        20.37,
+        -27.51
+      ],
+      "original_png_station_center_px": [
+        2233.9,
+        995.5
+      ],
+      "original_bank": "楚江西岸陆地，岛外",
+      "pixel_evidence": "原PNG相邻行971/1019蓝水西边均在x2451，站心x2234。",
+      "v8_xy_km": [
+        22.5,
+        13.2
+      ],
+      "v8_location": "江心洲内"
+    },
+    {
+      "name": "枫湾",
+      "lines": [
+        "4"
+      ],
+      "original_svg_xy": [
+        -161.58,
+        151.77
+      ],
+      "original_png_station_center_px": [
+        1506,
+        1712.5
+      ],
+      "original_bank": "楚江西岸陆地，岛外",
+      "pixel_evidence": "原PNG相邻行1689/1737蓝水西边均在x2277，站心x1506；原岛西汊在更东侧。",
+      "v8_xy_km": [
+        20.9,
+        17.4
+      ],
+      "v8_location": "江心洲内"
+    },
+    {
+      "name": "楚江西路",
+      "lines": [
+        "6"
+      ],
+      "original_svg_xy": [
+        20.37,
+        40.02
+      ],
+      "original_png_station_center_px": [
+        2233.9,
+        1265.6
+      ],
+      "original_bank": "楚江西岸陆地，岛外",
+      "pixel_evidence": "原PNG相邻行1242/1290蓝水西边均在x2451，站心x2234。",
+      "v8_xy_km": [
+        21.6,
+        15.2
+      ],
+      "v8_location": "江心洲内"
+    }
+  ],
+  "setting_evidence": [
+    {
+      "path": "campaign/world/15-城区与交通网络.md",
+      "lines": [
+        11,
+        33
+      ],
+      "quote": "深中新区：河中洲（楚江中央岛）；四面环楚江。",
+      "implication": "设定将行政区整体等同江心洲。"
+    },
+    {
+      "path": "campaign/world/15-城区与交通网络.md",
+      "lines": [
+        47,
+        381,
+        382,
+        401,
+        402,
+        439,
+        440,
+        463,
+        464
+      ],
+      "quote": "财经大学、沙尾、奥体中心、枫湾、楚江西路的站表均归深中新区。",
+      "implication": "与原图五站在西岸、岛外关系冲突。"
+    },
+    {
+      "path": "campaign/world/14-企业名录与商业生态.md",
+      "lines": [
+        444
+      ],
+      "quote": "位于绿区内部，是龙散市唯一一所校园完全坐落在绿区的大学。",
+      "implication": "绿区是安防状态；这一条没有规定岛上。移回西岸仍可保留校园全绿。"
+    },
+    {
+      "path": "campaign/world/15-城区与交通网络.md",
+      "lines": [
+        7
+      ],
+      "quote": "绿/黄/红的变动以街道甚至街区为单位，极少有一整片城区统一着色。",
+      "implication": "安防全绿不自动等于深中行政区或江心洲。"
+    }
+  ],
+  "implementation_cause": [
+    {
+      "path": "scripts/generate_longsan_geographic_maps_v2.py",
+      "lines": [
+        1000
+      ],
+      "evidence": "明确写采用设定稿的岛上归属，把财经大学、沙尾、奥体中心、枫湾、楚江西路和燧明园全部放岛上，并产生相应跨江区间。"
+    },
+    {
+      "path": "scripts/generate_longsan_geographic_maps_v2.py",
+      "lines": [
+        1013
+      ],
+      "evidence": "island_names 强制包含这五站；后续版本沿用坐标。"
+    }
+  ],
+  "diagnosis": "主因是早期把深中新区归属机械等同岛上地理落点；不是水系随意扩大后偶然包住设施。岛形确为容纳这些指定岛上节点扩到更北，但根因仍是图文冲突的选择及固定落点。只缩岛不移动站点可能令节点落水，只移动两处POI而保留对应地铁站也不能修正。",
+  "recommended_minimal_revision": {
+    "status": "recommendation_only_no_new_generation",
+    "source_priority": "按用户当前岸别反馈，以原图五站西岸/岛外关系校正；保留真实水系曲岸自由。",
+    "geographic_scope": "财经大学、奥体中心连同沙尾、枫湾、楚江西路成组放回西岸。校园/体育总平面、地铁站、邻接支路、公交/入口等需要随地理落点一起对齐。岛上深中核心与快速线走廊保留。",
+    "administrative_options": [
+      "将深中新区定义为江心洲核心加西岸功能片区，保留五站的深中新区行政归属。",
+      "将五站归入西岸邻接城区，同时保留校园独立绿区安防状态。"
+    ],
+    "administrative_choice_boundary": "两方案涉及设定解释，当前只提出；不能从原图自行宣布行政区已定。用户反馈足以判岸别，不足以在此报告静默改设定。",
+    "station_order_unchanged": true,
+    "interchanges_unchanged": true,
+    "route_scope": [
+      {
+        "line": "3",
+        "sequence": "云鲤路→财经大学→沙尾→工运广场",
+        "effect": "西岸段保留到沙尾，跨楚江走廊安排在沙尾—工运广场；实际跨一或两汊由真实水系决定，不要求复制原折角。"
+      },
+      {
+        "line": "4",
+        "sequence": "楚风传媒→奥体中心→枫湾→龙散大学",
+        "effect": "全部为西岸连续走廊，取消因人为挪岛新增的来回跨水；三线奥体换乘保留。"
+      },
+      {
+        "line": "6",
+        "sequence": "书院路→奥体中心→楚江西路→工运广场",
+        "effect": "西岸保持到楚江西路，跨江走廊安排在楚江西路—工运广场；保持L1/L3/L6工运换乘。"
+      },
+      {
+        "line": "7",
+        "sequence": "引资银行→奥体中心→财经大学",
+        "effect": "北端三站恢复同岸连续；财经与L3、奥体与L4/L6换乘不拆。更南的江湾/港区跨江原拓扑保留并单独核验。"
+      }
+    ],
+    "island_effect": "岛上企业中心、天门—深中中心—云梦科技园—江湾—楚江新城快速线保留；无需凭这两处设施否决整个岛形。若以后收缩洲头须另审水动力形态、既有道路与建筑，不在本次事实核查中再生成。",
+    "no_exact_new_km_coordinate_assigned": true
+  },
+  "followup_bank_conflicts": [
+    {
+      "name": "燧明园",
+      "original": "原图位于主河东岸，島外。",
+      "current_setting_and_v8": "设定列深中；v8在岛上。",
+      "action": "后续统一岸别清单复核，与五西岸站分开讨论。"
+    },
+    {
+      "name": "江湾",
+      "original": "原图在江心洲内。",
+      "setting": "站表归楚岸区；楚岸区已由用户裁定西岸。",
+      "action": "保留原图岛内证据，行政归属矛盾后续统一处理。"
+    }
+  ],
+  "limitations": [
+    "未给出新的公里坐标、岸线或工程跨江桥位。",
+    "没有重算全部区间水面穿越长度。",
+    "原图为示意图，可靠的是岸别/岛内外/站序/换乘，图面角度并非现实地理方向。"
+  ],
+  "conclusion": "用户指出两设施不应在洲上有原图直接证据；应修正原图五站被机械归岛的落位与关联线路，而不是把安防绿区解释为只能在岛上。"
+}

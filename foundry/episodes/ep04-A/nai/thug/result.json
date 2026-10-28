@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260911-ep04-A-thug",
+  "characterId": "EP04-A-thug",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "be1b4a",
+  "apiSeed": 11092028,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "07fbd8163fd7f06011775729c0e576034cc5e1f13738023f39654e90f50b8b5f",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-11T10:25:05.803Z"
+}

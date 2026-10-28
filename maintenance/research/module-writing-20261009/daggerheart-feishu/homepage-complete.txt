@@ -1,0 +1,367 @@
+《匕首之心 Daggerheart》非官方中文资料站
+
+# Your Adventure Begins!
+欢迎来到 《匕首之心》（Daggerheart），这是一款由 Darrington Press 推出的全新史诗级桌上角色扮演游戏（TTRPG）。游戏采用创新的卡牌与“二元骰”（Duality Dice）机制，兼具战术深度与叙事自由，让每个团都能玩出属于自己的风格。
+在《匕首之心》的系统中，主持人与玩家共同构建世界观，每一个选择都至关重要——因为冒险的命运在希望与恐惧之间摇摆！
+简单的规则、279 张精美插画卡牌、容易上手的机制、以叙事为核心的设计等等，都让《匕首之心》向你发出召唤！
+这就是我们的游戏方式——大胆的选择、令人印象深刻的角色，以及即使骰子与卡牌收起后依然流传的故事。现在，轮到你了。
+什么样的故事在等待着你？
+
+# 快速导航
+点击下方感兴趣的内容，快速跳转到你所需的地方！
+1️⃣ 查看规则：WIKI、视频入门
+2️⃣ 创建角色：车卡器、PDF
+3️⃣ 跑团准备：面团组织、入群交流、资料打印、网络骰子、FVTT、官方模组、民间模组、卡牌打印
+4️⃣ 进阶提升：带团提升、经验分享、工具使用、学习自制、扩展内容、测试资源、模组模板、战斗提升
+5️⃣ 其它更多：官方采访、群聊话题、跑团实况、排版工具、更多分享
+
+## 第一次玩匕首之心，不知道选什么职业？来试试这个测试吧。（←这是个能点的链接）
+
+## 匕首心官中预热倒计时 ！
+8.8正式开始众筹
+点击进入众筹页面
+https://zhongchou.modian.com/item/159038.html
+
+## 新扩展
+
+## 《匕首之心：希望与恐惧》
+
+## 2026年8月25日（太平洋标准时）已发售
+更新：SRD抢先版译本已发布，第一次校对流程中
+↓↓↓抢先体验版↓↓↓（未完成校对，后续会有修改）
+  
+ 
+[《希望与恐惧》玩家资源速览](https://lcnw6r5edbf2.feishu.cn/wiki/ZewMwFcg9ir8RvkwlwvcYH5Knhb)
+[匕首之心玩家资源-dhsheet修正版.json](https://vcn3zvu2w61p.feishu.cn/file/ApekbmmTMopV4FxntM8cC1gtnKf)
+
+## 新官方T2模组
+
+## 《消逝的尖塔 The Dying Spire》
+
+## 将于2026年6月27日Free RPG Day发布
+注：本模组已在线下发布实体模组，但仅供Free RPG Day参与的线下店铺的合作带团GM免费使用，目前仍需等待官方在Free RPG Day后放出PDF。
+匕心半月报刊THE DISPATCH透漏说一周会发布，而多数Free RPG Day资源则惯例会在1月后公布到网络。具体时间仍需等官方发布才可知晓！！！
+最新更新：PDF不仅未公布，连代理的工程文件都没拿到。
+用希望和恐惧丰富成功或失败
+当游戏机制接管命运时，玩家会掷出一颗希望骰和一颗恐惧骰（均为12面骰）来决定结果。若希望骰更高，你还会获得希望点，用以在未来的某个瞬间驱动自身能力，并将局势扭转为对你有利！若恐惧骰更高，则由游戏主持人获得恐惧点，用以挑战角色，并让叙事变得更加复杂而丰富。希望与恐惧这两种力量在每位英雄身上的对立与拉扯，推动了《匕首之心》以角色为核心的独特叙事。
+卡牌让你的英雄鲜活起来
+除骰子之外，《匕首之心》的卡牌系统让上手与角色成长都变得轻松直观，把角色的能力直接呈现在你手边。种族与社群卡展示背景、习俗与价值观；子职与领域卡为角色提供大量令人兴奋的能力与法术。通过你选择的卡牌，以及你讲述的故事，塑造独一无二的角色。
+共同创造你的世界
+在《匕首之心》中，游戏主持人会向玩家提问——每一个世界、地图与冒险，都是在玩家的回答之上协作构建的。以叙事与角色驱动为核心，《匕首之心》鼓励每一位玩家成为讲述故事的人。
+游戏主持人指南与帮助
+《匕首之心》为各个经验层级的游戏主持人提供深入的资源，确保任何人都能自信地运行游戏。从在第零场中设定期望、引导玩家理解机制、塑造对手，到创建完整战役，本规则书以建议与完整的游玩示例为你全面护航。
+更多最新消息请关注
+631843480（qq交流三群 New！）
+791858682（qq交流一群，已满）
+583981590（qq交流二群，已满）
+       一切内容以原文为准，请积极支持正版，前往daggerheart.com购买原版电子版或纸质书籍。
+       如果你在淘宝或其他渠道发现有人盗用译文或者本页面内的其他内容牟利，请举报店家或通过邮箱/Q群联络翻译组。翻译文本纠错抓虫、提出意见可发email至翻译组邮箱：
+daggerheartzhaxin@163.com
+《匕首之心》中文维基
+       《匕首之心》中文维基是由热心玩家共同搭建、维护的中文资料合集站。站内所有内容均来官方正式出版物（不含测试内容），我们的目标是建立关于《匕首之心》完全详尽的资料库。如果你是一名新玩家，我们强烈推荐你通过查看维基来获取游戏基础知识。
+       只要你愿意同其他维基用户分享你的知识和力量，欢迎加入维基社群。由于本维基并非由Darrington Press公司管理，我们建议你将游戏反馈、改进建议等信息直接发布给其官方客服。
+《匕首之心》中文社区护火人联盟名册
+       护火人联盟是由中文玩家社群共建、旨在向更多玩家在线下推广《匕首之心》的组织，有意愿参与到《匕首之心》的线下开团活动的店家/社群/个人GM，可以向PolearmMaster（QQ：285080123或是交流群小窗）进行登记。护火人联盟感谢您的奉献！
+
+# 最近更新 What's New?
+
+##   挖掘匕心相关的博客社媒视频的小角落，助你团力大增
+[挖掘思想 Thought Delver](https://my.feishu.cn/wiki/SSbJwzB69ioBEQkk6zGcAAornic?from=from_parent_docx)
+解构系列已上线，带你理解如何使用核心书敌人，运作一场围绕一个敌人为核心的遭遇。
+
+##   新书新玩具抢先速览（未完成校对）
+[《希望与恐惧》玩家资源速览](https://lcnw6r5edbf2.feishu.cn/wiki/ZewMwFcg9ir8RvkwlwvcYH5Knhb)
+
+##   在苍瘠之地上驰骋，要么赢，要么死。
+[暗影纪元：苍瘠之地 —— 荒途末路](https://lcnw6r5edbf2.feishu.cn/wiki/Gl7YwRedUi7jJRk43J1cKaQ4nNd)
+
+## THE VOID 更新：
+  新测试职业
+[【The Void】召唤师 Summoner](https://lcnw6r5edbf2.feishu.cn/wiki/DMc0wUsMPiYAemkWfEzcKs0Hnyg)
+  重做
+[【The Void】血猎人 Blood Hunter](https://my.feishu.cn/wiki/R7VawcpOUiBmDAkJT0EcMabqnvh)
+  重做
+[【The Void】鲜血 BLOOD](https://my.feishu.cn/wiki/RDacwOc59idSZikSRRHcbt9Knye)
+
+##   重要更新：
+[贤者恩泽 Sage-Touched](https://vcn3zvu2w61p.feishu.cn/wiki/FOziwMdb6iFF4nkU4fkc5jsjnKg)
+怎么处理「回忆知识」与「观察周围」的掷骰？
+我该怎样设计一个在叙事性方面较强，但是不会让玩家感知到强数值对抗的敌人？
+玩家更习惯回合制玩法，应如何让其更适应「行动」与「聚焦」机制？
+
+##    最新更新与调整：20260908
+[核心规则书中译本调整与勘误Changelog](https://lcnw6r5edbf2.feishu.cn/wiki/PRonwnHjlivPnAkQnoXcsre2n7d)
+术士-原初起源【操纵魔法】翻译勘误：当在你施放法术或使用造成魔法伤害的武器时后
+
+# 游戏资源
+
+## 系统参考文档
+System Reference Document
+https://daggerheart.cn/SRD/
+开源核心规则集，制作Daggerheart Compatible内容或其他匕首之心相关第三方资源可以参考、利用的公共游戏内容。
+
+## 社区游戏许可协议
+Community Gaming License
+   
+[DPCGL_中译.pdf](https://lcnw6r5edbf2.feishu.cn/file/TXRWbS0LBoOSkYx5MlncQFVvn5e)
+[DPCGL_创作者指南_实操版.pdf](https://lcnw6r5edbf2.feishu.cn/file/Oiu4bds2jooyHgxzmoQczBx7nYc)
+制作Daggerheart Compatible内容或其他匕首之心相关第三方资源需要遵守的协议。（翻译&编撰：船长）
+ 
+[兼容匕首心的官方LOGO素材.zip](https://my.feishu.cn/file/RsgGb3eUbo5cR5xO7BScHcDTnfd)
+
+## 【核心规则书】
+《匕首之心》中文维基 
+
+## 【官方冒险资源/模组】
+ 
+最适合入门与快速了解规则的快速入门冒险。
+[檀木林信使_匕首之心快速入门冒险_汉化嵌字_V1.6.pdf](https://my.feishu.cn/file/EsTQbXuiFoCS5cxA17PcZleinch)
+ 
+让你在檀木林更好的展开属于你们的冒险！
+[檀木林地点设定_汉化粗字版.pdf](https://my.feishu.cn/wiki/GqptwNldWi9czpk1eHvcylqfnxf)
+ 
+在苍瘠之地上驰骋，要么赢，要么死。
+[暗影纪元：苍瘠之地 —— 荒途末路](https://lcnw6r5edbf2.feishu.cn/wiki/Gl7YwRedUi7jJRk43J1cKaQ4nNd)
+  
+匕心周年庆纪念模组
+[愿望窃贼 The Wish Thief](https://lcnw6r5edbf2.feishu.cn/wiki/OtXywNNduiizHgkc0YIcR9aonmc)
+PDF汉化嵌字版 —— by 萍琪派
+模组地图 —— by Tcho-Tcho
+
+## 【官方补充材料】
+  自制内容套件【Homebrew私设必看！】
+[匕首之心自制套件.pdf](https://vcn3zvu2w61p.feishu.cn/file/CSi0b3tAaousMSxsTI5cKUePnpg)
+
+## 【线下打印材料与其它资源】
+其他附件：核心书附件_嵌字翻译 一页GM指南、一页游玩指南、角色侧边栏、创建角色流程、兼职卡、主板战役框架伊科尼斯武装卡、野兽形态表、初始装备表等等，面团所需的实体资料。
+官方地图_嵌字翻译 默认三拼接世界地图与战役框架地图。
+空白人物卡：人物卡合集
+卡牌：单独卡图、A4页3×3打印卡
+模组模板： 
+[匕首心模组模板.docx](https://my.feishu.cn/file/AJpGbex7Io8XJux0z8Ccetdunqc)
+
+# The Void 测试资源
+The Void 是一个专为《匕首之心》的粉丝打造的测试集合地，让玩家能在正式发布前抢先体验正在开发中的内容！这个空间为创作者与玩家而设，提供包括实验性职业、子职业、种族、社群、敌人、战利品、武器等在内的试玩材料抢先试用。将这些内容带到你的游戏桌上，亲身体验后，将你的反馈发送给 Darrington Press 团队，共同塑造《匕首之心》的未来！
+链接已全部从果园替换为飞书，无法访问果园的朋友现在可以尝试浏览。
+官方针对新测试内容（召唤师，血猎人与鲜血领域）的意见收集将在太平洋时间2026年7月23日在官网开启。
+血猎人 Blood Hunter
+鲜血领域 Blood
+2026/07/09 UPDATED！
+召唤师 Summoner
+2026/07/09 NEW！
+
+### 已过期测试材料
+邪术师 Warlock
+ 恐怖领域 Dread
+2025/07/29 
+刺客 Assassin
+2025/07/29 
+女巫 Witch 
+2025/07/29
+格斗家 Brawler 
+2025/07/29
+新种族与新社群 New Ancestries & Communities
+2025/07/29 
+转变卡 Transformation Cards
+2025/07/29 
+敌人与环境 Adversaries and Environments
+2025/09/09
+注：链接内带有最新 The Void 卡包
+
+# 第三方资源
+
+### 宏伟宝库
+最后更新：持续更新
+第三方资源仓库, 现已有150+资源，支持搜索/筛选/点赞/移动端
+需要上传资源的各位作者/译者可以在宝库首页上方的工具栏右侧, 点击【上传资源】按钮。
+
+###  
+[翻译匕杀榜](https://my.feishu.cn/wiki/NWRlwa3t7iv8DjksA97cuuy4n4d)
+最后更新：2026/09/13
+试图为社区添砖加瓦，翻译更多资源？欢迎在匕杀榜上揭下你的猎杀目标，我们提供译者最佳实践，术语使用指南与需翻译资源的筛选。
+您只需一心翻译资源，把余下的排版、公布等等杂活交给护火人！
+
+### 宏伟堡库
+最后更新：持续更新
+收录群友提供的文字Log、战报、replay等开团记录。为大家的美好回忆提供一个存放与展示的舞台。
+提交资源请联系：
+不冻港(QQ3486636827)
+汉堡(QQ1728746851)
+关于《匕首之心》相关第三方内容创作须知 
+如你计划制作与《匕首之心 Daggerheart》相关的第三方内容，（包括但不仅限于模组、玩家资源、各类卡牌、战役框架、衍生辅助工具等），请务必确保所制作的内容遵守Darrington Press发布的系统参考文档（SRD / System Reference Document）和社区游戏许可（CGL / Community Gaming License） 的相关规定。 
+若涉及大规模分发或商用售卖，请更加谨慎，确保符合许可要求，避免产生法律风险。 
+如对相关规定有任何疑问，欢迎联系官中代理船长（435833837）或者交流群群主（285080123）咨询。 
+官方SRD与CGL的下载地址：https://darringtonpress.com/license/ 
+
+# 团务心得、经验分享
+
+####  
+[贤者恩泽 Sage-Touched](https://vcn3zvu2w61p.feishu.cn/wiki/FOziwMdb6iFF4nkU4fkc5jsjnKg)
+最后更新：2026/08/26
+       由翻译组与资深GM共同撰写的数据分析、规则解释、判决案例以及总结官方设计师的规则澄清，解决跑团、带团遇到的各类问题。
+
+####  
+[星界投影 Astral Projection](https://lcnw6r5edbf2.feishu.cn/wiki/Xj3UwNWo4i4jDOkQYHRcsgZ2nZf)
+最后更新：2026/09/27
+      由翻译组归纳、整理的各种官方团队采访内容，深入了解匕心设计理念与未来规划。
+
+####  
+[无可讳言 Tell No Lies](https://lcnw6r5edbf2.feishu.cn/wiki/PV8vwrMT2icvGAkLgYRcKN3jnmf)
+最后更新：2026/08/08
+      由中文社群组织，每月关键成功日一次的交流群劲爆话题投票结果，近距离窥视群友们的真情实感。
+
+####  
+[挖掘思想 Thought Delver](https://my.feishu.cn/wiki/SSbJwzB69ioBEQkk6zGcAAornic)
+最后更新：2026/09/18
+       社媒平台，个人博客，油管视频。各处搜集而来与匕相关的带团技巧。
+
+####  
+[恐惧成功指南 - 后果、麻烦与代价](https://ai.feishu.cn/wiki/TseowovKriVOJikd6mfcmE5Znrd)
+
+####  
+[通用的敌人恐惧行动](https://my.feishu.cn/wiki/F2lMwjJ1yi42G5k8KevcWFCInve)
+最后更新：2025/12/21
+玩家掷出恐惧结果或GM花费恐惧点后，引入次要后果、麻烦或代价的相关指南。
+
+####  
+[战斗中的GM行动时机与示例](https://u5glinc33f.feishu.cn/wiki/PS5CwMuV3iTy0NksnZJc1od5noc)
+最后更新：2026/06/20
+叙事角度切入，在战斗中，我们除了「聚焦一个敌人」外，还能做些什么？又什么时候做？
+以及…如何掌控遭遇的强弱？
+
+####  
+[自定义敌人指南](https://u5glinc33f.feishu.cn/docx/ZdcfdtIJPoOt61x5bjucgU0Xnif?from=from_copylink)
+最后更新：2026/06/10
+       被官方招安的Reddit第三方敌人创作者rightknighttofight编写的自定义敌人指南。
+
+####   - 一条腿
+[武器自制指南](https://u5glinc33f.feishu.cn/wiki/V0OHwvSG0iJXbCkwG1Vc44pWnXe?from=from_copylink)
+
+#### 自定义武器规则  -  SC萍琪派
+最后更新：2025/08/20
+武器数值的平衡性设计参考。
+
+####  
+[官方术语汇总与规范（种族|族群|职业|领域）](https://lcnz1nhz1wq6.feishu.cn/wiki/Lcc4wsRQcik7p3kqxVdcL8UUnNd)
+最后更新：2026/05/11
+无论你想翻译，还是homebrew，助力你成为使用规范语言的好宝宝。
+
+####  
+[军需官指南：物资补给选择与采购](https://lcnw6r5edbf2.feishu.cn/wiki/XZEdwZpAKiS6HzkB6Smc7ythnkb)
+最后更新：2025/07/31
+教你如何运用零食创造场外优势，当一个人见人爱的好玩家。
+
+####  
+[恐惧点追踪器一览](https://my.feishu.cn/wiki/NAKhw3XOkiLqiakI3Xgc61jLnAb)
+最后更新：2026/09/21
+各式各样的恐惧点追踪器，从能买的到能打印的，再到需要自制的。
+在这你能找到这些图片的讨论出处，甚至有他们的直接购买渠道。
+
+####  
+[更丰富的经济_V1.2.pdf](https://my.feishu.cn/file/M7ZBbYlxno22JHx27LhcVhZcn9e)
+最后更新：2025/08/16
+将货币视为一种讲述故事的手段。
+影视思维货币系统、等级宝藏预算、分阶价目表、战利品生成概率重构。
+
+# 精选视频
+
+## 【中文社群Replay/实况】
+艾斯零桌面剧场：檀木林的信使（上篇）
+艾斯零桌面剧场：檀木林的信使（下篇）
+
+## 【翻译组出品视频】
+《匕首之心》入门视频：
+《搞定角色，即刻出发！》
+up主：这是一条腿 
+译者：猫小寞
+Knights of Last Call：
+从这开始你的《匕首之心》GM之旅吧
+up主：这是一条腿 
+译者：这是一条腿
+Critical Role跑团实况：
+《暗影纪元 第一季》
+up主：Gentlemanly 
+译者：Gentlemanly、jollyco-、小小怪下士猫吃鱼 
+Critical Role跑团实况：
+《暗影纪元 第二季：苍瘠之地》
+up主：Gentlemanly 
+译者：Gentlemanly
+
+# 电子化游戏辅助材料
+   当前核心书+希望与恐惧拓展 SRD 中所有玩家所需的资源
+[匕首之心玩家资源-dhsheet修正版.json](https://vcn3zvu2w61p.feishu.cn/file/ApekbmmTMopV4FxntM8cC1gtnKf)
+
+## 【人物卡/环境卡/敌人卡生成器】
+
+### PbDH综合工具站
+作者：Zac，Github
+ 
+[PbDH车卡器教程与技巧](https://vcn3zvu2w61p.feishu.cn/docx/AopFdHoPmootkUx48Ujc8mVfn7c)
+收录匕心原版与众多PbDH规则的车卡器, 兼容其他车卡器存档和资源格式. 当前支持规则:
+猫猫头车卡器
+作者：RidRisR，Github项目
+界面简洁、操作简单，支持导出pdf与保存/读取JSON格式存档，支持第三方卡包
+第三方卡包合集
+
+### 匕首之心SRD版车卡器
+作者：RidRisR，不冻港
+基于猫猫头车卡器的分支项目，文本均基于SRD内容，图片资源需单独导入。适配在线资源追踪面板。
+ 
+[匕首之心工具小箱（0217更新车技如何GM+车卡工具）](https://pcno6gj6tj7a.feishu.cn/wiki/DoFawrVhEij43tk8m5Uceucancg?from=from_copylink)
+作者：Rink_CX
+支持敌人卡制作、环境卡制作、遭遇管理（直接在遭遇编辑器中调用创作好的敌人卡和环境卡），开团公告一键生成
+   
+[【Homebrewery】供新手入门用的图文教程|1128](https://pcno6gj6tj7a.feishu.cn/wiki/Q7TLw5bmkigIXxkWhWRc3RcNn0d?from=from_copylink)
+教程作者：Rink_CX
+模组、战框排版工具
+
+### 
+匕首之心战役架构师
+战役文档编辑器、卡牌工坊
+作者：不咕鸟/基德
+线下掷骰与展示面板
+作者：不冻港
+线下投屏使用的面板工具。包含：掷骰（掷骰与普通掷骰）、恐惧点追踪、播放音乐、展示背景图片与角色等功能。
+手机可用，但无针对优化排版。
+艾斯零桌面剧场同款。
+在线资源追踪面板
+作者：不冻港
+在线资源追踪面板。包括角色的希望、压力、护甲、生命，以及GM的恐惧点、进度钟。提供笔记、战斗面板、掷骰、x卡、画板等功能。
+（注：请使用srd车卡器导出的html卡，否则会导致翻页后资源清空）
+
+### 海豹骰最新sealpack插件
+作者：zac
+.dd / .ddr [算式] [adv/dis] [dc难度] [hope费用] [-- 原因]
+例：.dd 敏捷+2+2d6h1 adv dc15 hope -- 攀爬
+.dd：动作掷骰；.ddr：反应掷骰。
+hope 花费1希望，hope2 花费2希望；费用为0–5，先支付再结算。
+经历在 iframe 中选择；手输时把经历加进算式并写希望费用。
+取高 k/kh/h，取低 q/kl/l。属性与资源用 .st；GM 用 .dh gm；失败恢复用 .dh recover。
+与 sealchat 联动人物卡使用教程见： 
+[PbDH综合应用使用教程](https://vcn3zvu2w61p.feishu.cn/docx/AopFdHoPmootkUx48Ujc8mVfn7c#share-F6OIdAdxdoUTtbxmEttcQZ4fnpd)
+青果骰娘插件发布 作者：Desom-fu
+海豹骰脚本 作者: 猫猫头
+匕首之心速查-海豹骰适用 .查dh/匕心/匕首之心/匕首心+关键字 作者：牧露
+公告板发车教程（含图片形式） 作者：不冻港
+
+## 【各类工具网站收集】
+ 
+[网站收录](https://vcn3zvu2w61p.feishu.cn/docx/GvCeddOMdo3oGWx2dktc6J5Anih)
+
+## 【FVTT相关】
+匕首之心V13懒人包下载链接 -- by 不冻港
+ 搭配上面的懒人包使用
+ 
+[匕首之心系统配置与mod推荐](https://xcnplziulnma.feishu.cn/wiki/CZ9xwNhOgiUOe8kEXv5cHtJpnph)
+ 
+
+## 【网团战斗地图】
+ 网团辅助工具，团队资源速记与简易Battlemap，搭配腾讯文档、飞书等在线协作平台使用。（作者：道听狐说）
+[DH测试用战场地图](https://lcnw6r5edbf2.feishu.cn/sheets/LEHusvRgDhkoTZtMTAIcKZBYnPc)
+
+# 面团游戏辅助材料
+
+## 3D打印&实体小垃圾
+ 
+[第三方 - 立体帷幕人物卡 - Tornioduva奇幻风角色卡-匕首之心-扎心汉化组嵌字.zip](https://my.feishu.cn/file/DhvSbXLl0oHLgfxvQdKcsB2ongf)
+扑克筹码计数底卡

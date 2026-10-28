@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"results\": [\n    {\n      \"tag\": \"shield\",\n      \"category\": \"general\",\n      \"count\": 38292\n    },\n    {\n      \"tag\": \"riot_shield\",\n      \"category\": \"general\",\n      \"count\": 320\n    },\n    {\n      \"tag\": \"police_uniform\",\n      \"category\": \"general\",\n      \"count\": 15429\n    },\n    {\n      \"tag\": \"suit\",\n      \"category\": \"general\",\n      \"count\": 106811\n    },\n    {\n      \"tag\": \"necktie\",\n      \"category\": \"general\",\n      \"count\": 663918\n    },\n    {\n      \"tag\": \"cat\",\n      \"category\": \"general\",\n      \"count\": 118728\n    },\n    {\n      \"tag\": \"machine_gun\",\n      \"category\": \"general\",\n      \"count\": 9087\n    },\n    {\n      \"tag\": \"grenade_launcher\",\n      \"category\": \"general\",\n      \"count\": 1724\n    },\n    {\n      \"tag\": \"chainsaw\",\n      \"category\": \"general\",\n      \"count\": 5667\n    },\n    {\n      \"tag\": \"robot\",\n      \"category\": \"general\",\n      \"count\": 92892\n    }\n  ]\n}"
+    }
+  ]
+}

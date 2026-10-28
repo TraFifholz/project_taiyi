@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260904-ep03-extra-ma-driver-nai-v1",
+  "characterId": "EP03-EXTRA-MA-DRIVER",
+  "characterName": "冷藏车司机",
+  "actorId": "58225f08c387421e",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "assets/candidates/EP03-EXTRA-MA-DRIVER-冷藏车司机-nai-avatar.webp",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=f01dd1e81e1f8a9c002207ee75bc0215d6dd8781b9a8964736e670a04632e9a8",
+      "成年疲惫司机、针织帽与蓝色保暖工作服辨识明确；候选头像裁切排除了原图胸口伪标记和下方异常方向盘片段。"
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentPixels": 344306
+  },
+  "userApproved": false,
+  "deployedToFvtt": false
+}

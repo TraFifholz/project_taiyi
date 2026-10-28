@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260904-ep03-extra-drone-nai-v2",
+  "characterId": "EP03-EXTRA-DRONE",
+  "characterName": "追风警戒无人机",
+  "actorId": "f4202ab0f6698a33",
+  "retryOf": "20260904-ep03-extra-drone-nai-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "assets/candidates/EP03-EXTRA-DRONE-追风警戒无人机-nai-avatar.webp",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "Remove fake shell marking and duplicate cast-shadow silhouette.",
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=4ebbb4067e5630d8a94e8380dd627ecf849c9c24a86e1a685f8401d82fece6d5",
+      "采用无机身伪标记的v2；四旋翼、中央摄像头和接触探针清楚。方形裁切排除了原图下方重复投影，且不补画。"
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentPixels": 729543
+  },
+  "userApproved": false,
+  "deployedToFvtt": false
+}

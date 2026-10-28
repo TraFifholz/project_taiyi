@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "time": "2026-09-11T11:06:46.661Z",
+  "model": "nai-diffusion-5-curated",
+  "selected": "nai/heavy-v4/raw.png",
+  "remote": "worlds/taiyi/assets/npc/avatars/EP04-A-heavy-v4.webp",
+  "sha256": "6fb0d3680e2c4dfa0a83149d821fb52c0d8450b22b5e225c87ef419b619996b0",
+  "actor": "79a02db6071ff86d",
+  "prototypeUpdated": true,
+  "sceneTokensUpdated": 1,
+  "statsAndItemsUnchanged": true,
+  "rejected": {
+    "v1": "tank",
+    "v2": "elongated chassis",
+    "v3": "floating weapon"
+  }
+}

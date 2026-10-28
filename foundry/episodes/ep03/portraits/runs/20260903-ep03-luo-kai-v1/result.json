@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260903-ep03-luo-kai-v1",
+  "characterId": "EP03-LUO-KAI",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "7672fc",
+  "apiSeed": 641139586,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "571ad95bbe9bc1668baddc0fb6d5a62b340aa0a53fc45ee26e1118828ff392d3",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-03T15:32:30.768Z"
+}

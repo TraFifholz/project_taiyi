@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "actor": "79a02db6071ff86d",
+  "weapons": [
+    {
+      "id": "39aa7c16cb0fb3d4",
+      "name": "臂载机枪",
+      "damage": "2d8",
+      "trait": "射击",
+      "rof": 3,
+      "ammo": 60
+    },
+    {
+      "id": "45e3001d476c1d6b",
+      "name": "液压破拆钳",
+      "damage": "@str+d8",
+      "trait": "格斗",
+      "rof": 1,
+      "ammo": 0
+    },
+    {
+      "id": "fd12acd2a2a7f7a6",
+      "name": "肩载榴弹炮",
+      "damage": "3d6",
+      "trait": "射击",
+      "rof": 1,
+      "ammo": 6
+    }
+  ],
+  "sceneTokens": 1,
+  "verification": "Server item readback and skill references; no browser dice test"
+}

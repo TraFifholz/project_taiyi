@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "verifiedAt": "2026-09-11T11:26:31.949Z",
+  "world": "taiyi",
+  "assets": [
+    {
+      "name": "EP04-A-rifle.webp",
+      "sha256": "c78df6ca36a9ac9a6b050d9c8578f52a4168f5d6e3fb5c9761c0315768bde7c1"
+    },
+    {
+      "name": "EP04-A-operator.webp",
+      "sha256": "d41a38bbec4281b415eef1713186183db99ef5ae26ac96af4e71fca71489ed67"
+    },
+    {
+      "name": "EP04-A-thug.webp",
+      "sha256": "889252ace80c82dd0f06cbfaf3eb19b3b9fee44fb9ac51aec89c903e229c70d8"
+    },
+    {
+      "name": "EP04-A-hound.webp",
+      "sha256": "cc6610cddbd26f9c79d29c6fe9a1e37256357cdf90402c820210950ab3e86b19"
+    },
+    {
+      "name": "EP04-A-heavy-multi-v2.webp",
+      "sha256": "793eeb5400c6e0eea32377bebcfee8be03b651f6a8866b1311df78cca5f456f8"
+    },
+    {
+      "name": "EP04-A-street.webp",
+      "sha256": "c55e77266e35c6aee49203336fa4325e0b6cffba6ce92d010c93af96ec50328d"
+    }
+  ],
+  "actors": [
+    {
+      "id": "1247d4524316e895",
+      "name": "PMC步枪手",
+      "type": "npc",
+      "items": 8,
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+    },
+    {
+      "id": "0ea4f2ed8e10cc42",
+      "name": "PMC队长",
+      "type": "npc",
+      "items": 10,
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+    },
+    {
+      "id": "7768111d88fdd297",
+      "name": "PMC操机员兼司机",
+      "type": "npc",
+      "items": 10,
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-operator.webp"
+    },
+    {
+      "id": "db91d24426d5d760",
+      "name": "封后路的街头打手",
+      "type": "npc",
+      "items": 8,
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-thug.webp"
+    },
+    {
+      "id": "327bdbb9fc7162d5",
+      "name": "追风机械犬",
+      "type": "npc",
+      "items": 7,
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-hound.webp"
+    },
+    {
+      "id": "79a02db6071ff86d",
+      "name": "追风重型自走机",
+      "type": "npc",
+      "items": 9,
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-heavy-multi-v2.webp"
+    },
+    {
+      "id": "5b6241d2848e8926",
+      "name": "堵路厢车",
+      "type": "vehicle",
+      "items": 0,
+      "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-COLD-TRUCK.png"
+    },
+    {
+      "id": "d4624da235257d3a",
+      "name": "PMC装甲指挥车",
+      "type": "vehicle",
+      "items": 0,
+      "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-M3.png"
+    },
+    {
+      "id": "480d85e94c62cb42",
+      "name": "梁文川 · A场支援",
+      "type": "npc",
+      "items": 7,
+      "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-101.webp"
+    }
+  ],
+  "scene": {
+    "id": "39cfb1510198509a",
+    "name": "A · 施工街口与停车场",
+    "tokens": 16,
+    "hidden": true,
+    "active": false,
+    "background": "worlds/taiyi/assets/npc/avatars/EP04-A-street.webp"
+  },
+  "existingActorsUnchanged": true,
+  "existingScenesUnchanged": true
+}

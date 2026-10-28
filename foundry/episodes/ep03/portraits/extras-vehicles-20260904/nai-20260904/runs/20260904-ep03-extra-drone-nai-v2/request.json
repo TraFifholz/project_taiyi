@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260904-ep03-extra-drone-nai-v2",
+    "characterId": "EP03-EXTRA-DRONE",
+    "characterName": "追风警戒无人机",
+    "actorId": "f4202ab0f6698a33",
+    "designStatus": "provisional",
+    "designAssumptions": [
+      "紧凑白灰机身、蓝色识别块、四旋翼与中央摄像球。",
+      "仅保留小型非致命接触探针，不出现枪炮、导弹或可读编号。"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-09-04T00:24:28.761Z",
+    "credentialPolicy": "runtime-only; never logged",
+    "retryOf": "20260904-ep03-extra-drone-nai-v1",
+    "retryReason": "Remove fake shell marking and duplicate cast-shadow silhouette."
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, simple background, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 2109974772,
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, simple background, best quality, very aesthetic, absurdres",
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, watermark, signature, character name, english text, chinese text, logo, emblem, badge, text focus, hologram, heads-up display, glowing, aura, light particles, child, school uniform, weapon, gun, 1girl, 1boy, holding weapon, shadow, reflection",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, simple background, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "highres, absurdres, no humans, solo, drone, robot, vehicle focus, quadcopter, propeller, rotor, camera, security camera, machinery, science fiction, industrial, circuit board, flying, midair, floating, facing viewer, from above, blue theme, white theme, grey theme, simple background, transparent background, flat color. A compact near-future traffic-monitoring quadcopter with four clearly separated rotors, a white-and-grey shell, restrained blue panels, one central camera ball, and one short nonlethal contact probe. One isolated object only on an empty transparent background. The shell is completely blank and unmarked, with no badge, icon, letters, numbers, cast shadow, duplicate silhouette, human pilot, gun, cannon, missile, or supernatural glow.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, watermark, signature, character name, english text, chinese text, logo, emblem, badge, text focus, hologram, heads-up display, glowing, aura, light particles, child, school uniform, weapon, gun, 1girl, 1boy, holding weapon, shadow, reflection",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

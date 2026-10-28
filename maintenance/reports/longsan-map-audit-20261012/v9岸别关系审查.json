@@ -1,0 +1,4082 @@
+{
+  "status": "source_bank_conflicts_confirmed_for_v9_revision",
+  "reviewer": "final_art_review independent subagent",
+  "review_date": "2026-10-12",
+  "read_only_v8_preserved": true,
+  "input_sha256": {
+    "src/地铁图.svg": "41fa82d6cf408827f663b636ed056f39684d8cbb7c631b39f49878ed3a095cda",
+    "assets/maps/RMG/终稿.json": "f5d2cf43a63b04542940580c0873d0900f38110f1b1f442505d1a395ab1f7ccd",
+    "assets/maps/RMP_1778746875450.png": "dd423d8a84746d4011cbe975ecf7d0f1b6fe8ccfb67cfa9e24f5700f2f735070",
+    "assets/maps/地铁图.webp": "5dde089ed789b6894cd042e408f52be9f6e427d12366f8aa2510a490de0c57da",
+    "campaign/world/15-城区与交通网络.md": "f857bda308a893f598be4cd78390621f844f807780b5670fda824a811c07121c",
+    "campaign/world/14-企业名录与商业生态.md": "7c99a28562d7298b814899d41ee6cade76e0f9d6c59241642af9f19698b53470",
+    "scripts/generate_longsan_geographic_maps_v2.py": "5129a5ba04625d4432aa594ec8874236f9ab20cadde34539b9552006ba0be2aa",
+    "assets/maps/longsan-geographic-v4-20261012/地理骨架.geojson": "3c0f9ddcb78bba47c3c3d27414f997bbf26a5ddf35764fbb806a16b5bc609ab1",
+    "assets/maps/longsan-geographic-v8-20261012/地理骨架.geojson": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+    "assets/maps/longsan-geographic-v8-20261012/地图坐标与线路.json": "e09a05ff6d66b453aa6d6688884fe54ae3a246542b9ace330e5c88b40798c00a",
+    "assets/maps/longsan-geographic-v8-20261012/龙散市-基础底图.svg": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+    "assets/maps/longsan-geographic-v8-20261012/龙散市-底图与地铁.svg": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+    "assets/maps/longsan-geographic-v8-20261012/龙散市-全图.png": "dea7d45027a0aad5487f22ce5679a04383c084162faacd2def45910b2ef772f8",
+    "assets/maps/longsan-geographic-v8-20261012/龙散市-地铁全图.png": "ff53ea7d08c257acc895bad089bc53a21414fd013f6c0e041d0d11213da87eb2"
+  },
+  "actual_viewed_images": [
+    "assets/maps/RMP_1778746875450.png",
+    "assets/maps/地铁图.webp",
+    "assets/maps/longsan-geographic-v8-20261012/龙散市-全图.png",
+    "assets/maps/longsan-geographic-v8-20261012/龙散市-地铁全图.png"
+  ],
+  "method": {
+    "original_water": "实际源SVG六条蓝色路径取各自描边宽度；只在图框外延伸两个开放端，用于划分图面连通大陆与封闭江心洲，不改变源图。与实际源PNG目视交叉核对。",
+    "v8_water": "当前v8全部水体与河中洲直接读回；v4首个同名水体/河中洲与v8几何完全相等，故以v4独立导出的楚江主河与河汊求主河岸大陆连通分量，避免支流/湖泊的全局包围盒误判。",
+    "current_station": "全部66站以正式v8 SVG实际circle中心读回，和当前JSON逐站完全相同。",
+    "downstream_ports": "码东、屏南、港务新村单列其他/下游南岸，不因其与西岸大陆连通就称西岸。",
+    "image_and_coordinate_boundary": "原图无公里尺度。原PNG像素与SVG单位只证明岸别/岛内外，不以示意水流角度推断真实流向，不计算原/新图的公里位移。"
+  },
+  "checks": {
+    "named_station_count": 66,
+    "original_named_count": 66,
+    "actual_svg_count": 66,
+    "all_station_json_matches_actual_svg": true,
+    "all_inputs_unchanged_during_audit": true,
+    "source_SVG_RMG_max_coordinate_delta_diagram_units": 0.05318505698824083,
+    "same_source_adjacencies": 80,
+    "unclassified_stations": []
+  },
+  "counts": {
+    "original": {
+      "东岸": 27,
+      "西岸": 31,
+      "岛": 5,
+      "其他": 3
+    },
+    "v8": {
+      "东岸": 26,
+      "岛": 11,
+      "西岸": 26,
+      "其他": 3
+    },
+    "category_mismatches": 6
+  },
+  "station_bank_table": [
+    {
+      "station": "烈士陵园",
+      "source_node_id": "stn_b807a16b_lieshi",
+      "source_svg_xy": [
+        159.99,
+        -208.94
+      ],
+      "source_RMG_xy": [
+        159.99,
+        -208.94
+      ],
+      "source_PNG_station_center_px": [
+        2792.5,
+        269.9
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        26.4,
+        3.0
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "1"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "龙翔天街",
+      "source_node_id": "stn_b807a16b_longxiang",
+      "source_svg_xy": [
+        159.99,
+        -119.81
+      ],
+      "source_RMG_xy": [
+        159.99,
+        -119.81
+      ],
+      "source_PNG_station_center_px": [
+        2792.5,
+        626.3
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        26.4,
+        6.5
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "1",
+        "8"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "长乐街",
+      "source_node_id": "stn_b807a16b_changle",
+      "source_svg_xy": [
+        159.99,
+        -27.51
+      ],
+      "source_RMG_xy": [
+        159.99,
+        -27.51
+      ],
+      "source_PNG_station_center_px": [
+        2792.5,
+        995.5
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        26.0,
+        9.7
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "1"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "工运广场",
+      "source_node_id": "stn_b807a16b_gongyun",
+      "source_svg_xy": [
+        160.02,
+        40.00482623804308
+      ],
+      "source_RMG_xy": [
+        160.02,
+        40.02
+      ],
+      "source_PNG_station_center_px": [
+        2792.7,
+        1265.5
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        26.7,
+        12.4
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "1",
+        "3",
+        "6"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "燧明园",
+      "source_node_id": "stn_b807a16b_suiming",
+      "source_svg_xy": [
+        159.99,
+        121.39
+      ],
+      "source_RMG_xy": [
+        159.99,
+        121.39
+      ],
+      "source_PNG_station_center_px": [
+        2792.5,
+        1591.0
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        23.77,
+        18.85
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "1"
+      ],
+      "operating_status": "open",
+      "bank_matches": false,
+      "category_matches": false,
+      "priority": "P1",
+      "must_correct_in_v9": true,
+      "target_relation": "东岸、岛外",
+      "correction_scope": "地铁站心、相邻区间锚点、对应设施落点/入口与路网一起校正；不能只移动标签或POI。"
+    },
+    {
+      "station": "楚江广场",
+      "source_node_id": "stn_b807a16b_chujiang",
+      "source_svg_xy": [
+        160.02,
+        219.28
+      ],
+      "source_RMG_xy": [
+        160.02,
+        219.28
+      ],
+      "source_PNG_station_center_px": [
+        2792.7,
+        1982.5
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        26.4,
+        18.75
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "1",
+        "2"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "文侯庙",
+      "source_node_id": "stn_b807a16b_wenhoumiao",
+      "source_svg_xy": [
+        160.02,
+        286.86
+      ],
+      "source_RMG_xy": [
+        160.02,
+        286.86
+      ],
+      "source_PNG_station_center_px": [
+        2792.7,
+        2252.8
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        27.3,
+        21.1
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "1"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "故城中心",
+      "source_node_id": "stn_b807a16b_guchengzx",
+      "source_svg_xy": [
+        160.02,
+        336.08
+      ],
+      "source_RMG_xy": [
+        160.02,
+        336.08
+      ],
+      "source_PNG_station_center_px": [
+        2792.7,
+        2449.7
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        29.2,
+        22.9
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "1"
+      ],
+      "operating_status": "closed",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "南门早市",
+      "source_node_id": "stn_b807a16b_nanmen",
+      "source_svg_xy": [
+        160.02,
+        377.07
+      ],
+      "source_RMG_xy": [
+        160.02,
+        377.07
+      ],
+      "source_PNG_station_center_px": [
+        2792.7,
+        2613.6
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        27.5,
+        24.6
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "1",
+        "5"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "开埠广场",
+      "source_node_id": "stn_b807a16b_kaibu",
+      "source_svg_xy": [
+        160.02,
+        430.18
+      ],
+      "source_RMG_xy": [
+        160.02,
+        430.18
+      ],
+      "source_PNG_station_center_px": [
+        2792.7,
+        2826.0
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        27.4,
+        26.5
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "1"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "望津港",
+      "source_node_id": "stn_b807a16b_wangjin",
+      "source_svg_xy": [
+        160.02,
+        485.02
+      ],
+      "source_RMG_xy": [
+        160.02,
+        485.02
+      ],
+      "source_PNG_station_center_px": [
+        2792.7,
+        3045.4
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        27.2,
+        28.4
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "1",
+        "7"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "云麓东",
+      "source_node_id": "stn_b807a16b_yunludong",
+      "source_svg_xy": [
+        -420.54,
+        286.86
+      ],
+      "source_RMG_xy": [
+        -420.54,
+        286.86
+      ],
+      "source_PNG_station_center_px": [
+        469.9,
+        2252.8
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        5.5,
+        21.0
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "2"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "山麓路口",
+      "source_node_id": "stn_b807a16b_shanlu",
+      "source_svg_xy": [
+        -303.79,
+        217.41
+      ],
+      "source_RMG_xy": [
+        -303.79,
+        217.41
+      ],
+      "source_PNG_station_center_px": [
+        937.0,
+        1975.0
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        10.0,
+        18.8
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "2",
+        "8"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "龙散大学",
+      "source_node_id": "stn_b807a16b_longsandx",
+      "source_svg_xy": [
+        -161.58,
+        219.28
+      ],
+      "source_RMG_xy": [
+        -161.58,
+        219.28
+      ],
+      "source_PNG_station_center_px": [
+        1506.0,
+        1982.5
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        14.3,
+        18.77
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "2",
+        "4"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "楚江西岸",
+      "source_node_id": "stn_b807a16b_chujiangxj",
+      "source_svg_xy": [
+        0.36,
+        219.28
+      ],
+      "source_RMG_xy": [
+        0.36,
+        219.28
+      ],
+      "source_PNG_station_center_px": [
+        2153.9,
+        1982.5
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        18.9,
+        18.9
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "2",
+        "7"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "深中中心",
+      "source_node_id": "stn_b807a16b_shenzhong",
+      "source_svg_xy": [
+        78.37,
+        217.41
+      ],
+      "source_RMG_xy": [
+        78.37,
+        217.41
+      ],
+      "source_PNG_station_center_px": [
+        2466.0,
+        1975.0
+      ],
+      "source_bank": "岛",
+      "source_relation": "江心洲内",
+      "v8_actual_svg_xy_km": [
+        22.4,
+        18.65
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "2",
+        "FR"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "醒钟广场",
+      "source_node_id": "stn_b807a16b_zhongli",
+      "source_svg_xy": [
+        241.67,
+        183.73
+      ],
+      "source_RMG_xy": [
+        241.67,
+        183.73
+      ],
+      "source_PNG_station_center_px": [
+        3119.3,
+        1840.3
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        28.8,
+        17.8
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "2"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "龙散火车站",
+      "source_node_id": "stn_O-TP7xSjGM",
+      "source_svg_xy": [
+        332.28681494301173,
+        183.73
+      ],
+      "source_RMG_xy": [
+        332.34,
+        183.73
+      ],
+      "source_PNG_station_center_px": [
+        3481.9,
+        1840.3
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        32.4,
+        17.3
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "2",
+        "5"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "钢阳街",
+      "source_node_id": "stn_b807a16b_gangyang",
+      "source_svg_xy": [
+        423.0,
+        183.73
+      ],
+      "source_RMG_xy": [
+        423,
+        183.73
+      ],
+      "source_PNG_station_center_px": [
+        3844.8,
+        1840.3
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        35.4,
+        17.4
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "2",
+        "6"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "龙散东站",
+      "source_node_id": "stn_BNSv8xvVHw",
+      "source_svg_xy": [
+        494.28,
+        183.73
+      ],
+      "source_RMG_xy": [
+        494.28,
+        183.73
+      ],
+      "source_PNG_station_center_px": [
+        4130.0,
+        1840.3
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        38.5,
+        17.3
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "2",
+        "8"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "楚墓博物馆",
+      "source_node_id": "stn_b807a16b_chumu",
+      "source_svg_xy": [
+        -418.51,
+        -120.69
+      ],
+      "source_RMG_xy": [
+        -418.51,
+        -120.69
+      ],
+      "source_PNG_station_center_px": [
+        478.1,
+        622.8
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        5.2,
+        7.0
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "3",
+        "6"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "黄泥塘",
+      "source_node_id": "stn_Vn1oFRP9aA",
+      "source_svg_xy": [
+        -318.78,
+        -119.7828844548647
+      ],
+      "source_RMG_xy": [
+        -318.78,
+        -119.81
+      ],
+      "source_PNG_station_center_px": [
+        877.1,
+        626.4
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        9.1,
+        6.5
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "3"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "云鲤路",
+      "source_node_id": "stn_b807a16b_yunlilu",
+      "source_svg_xy": [
+        -166.55,
+        -119.81
+      ],
+      "source_RMG_xy": [
+        -166.55,
+        -119.81
+      ],
+      "source_PNG_station_center_px": [
+        1486.1,
+        626.3
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        13.9,
+        6.8
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "3",
+        "4",
+        "8"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "财经大学",
+      "source_node_id": "stn_b807a16b_caijingdx",
+      "source_svg_xy": [
+        -82.84,
+        -27.51
+      ],
+      "source_RMG_xy": [
+        -82.84,
+        -27.51
+      ],
+      "source_PNG_station_center_px": [
+        1821.0,
+        995.5
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        21.7,
+        13.1
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "3",
+        "7"
+      ],
+      "operating_status": "open",
+      "bank_matches": false,
+      "category_matches": false,
+      "priority": "P1",
+      "must_correct_in_v9": true,
+      "target_relation": "西岸、岛外",
+      "correction_scope": "地铁站心、相邻区间锚点、对应设施落点/入口与路网一起校正；不能只移动标签或POI。"
+    },
+    {
+      "station": "沙尾",
+      "source_node_id": "stn_UYsAwKJCF8",
+      "source_svg_xy": [
+        20.37,
+        -27.510000000000012
+      ],
+      "source_RMG_xy": [
+        20.37,
+        -27.51
+      ],
+      "source_PNG_station_center_px": [
+        2233.9,
+        995.5
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        22.5,
+        13.2
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "3"
+      ],
+      "operating_status": "open",
+      "bank_matches": false,
+      "category_matches": false,
+      "priority": "P1",
+      "must_correct_in_v9": true,
+      "target_relation": "西岸、岛外",
+      "correction_scope": "地铁站心、相邻区间锚点、对应设施落点/入口与路网一起校正；不能只移动标签或POI。"
+    },
+    {
+      "station": "影视基地",
+      "source_node_id": "stn_b807a16b_yingshi",
+      "source_svg_xy": [
+        332.34,
+        40.02
+      ],
+      "source_RMG_xy": [
+        332.34,
+        40.02
+      ],
+      "source_PNG_station_center_px": [
+        3482.1,
+        1265.6
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        32.3,
+        12.1
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "3"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "铁山北",
+      "source_node_id": "stn_b807a16b_tieshan_db",
+      "source_svg_xy": [
+        494.28,
+        40.02
+      ],
+      "source_RMG_xy": [
+        494.28,
+        40.02
+      ],
+      "source_PNG_station_center_px": [
+        4130.0,
+        1265.6
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        38.4,
+        12.4
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "3",
+        "8"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "铁山大道",
+      "source_node_id": "stn_b807a16b_tieshandadao",
+      "source_svg_xy": [
+        658.26,
+        76.74
+      ],
+      "source_RMG_xy": [
+        658.26,
+        76.74
+      ],
+      "source_PNG_station_center_px": [
+        4786.0,
+        1412.4
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        41.9,
+        13.3
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "3"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "龙散机场",
+      "source_node_id": "stn_b807a16b_jichang",
+      "source_svg_xy": [
+        -418.51,
+        -191.94
+      ],
+      "source_RMG_xy": [
+        -418.51,
+        -191.94
+      ],
+      "source_PNG_station_center_px": [
+        478.1,
+        337.8
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        5.2,
+        4.3
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "4"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "机场新城",
+      "source_node_id": "stn_b807a16b_jichangxc",
+      "source_svg_xy": [
+        -318.78,
+        -191.94
+      ],
+      "source_RMG_xy": [
+        -318.78,
+        -191.94
+      ],
+      "source_PNG_station_center_px": [
+        877.1,
+        337.8
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        8.3,
+        3.9
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "4"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "双柏公园",
+      "source_node_id": "stn_BFKVT-_p96",
+      "source_svg_xy": [
+        -166.55,
+        -188.9
+      ],
+      "source_RMG_xy": [
+        -166.55,
+        -188.9
+      ],
+      "source_PNG_station_center_px": [
+        1486.1,
+        350.0
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        13.6,
+        3.5
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "4"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "楚风传媒",
+      "source_node_id": "stn_b807a16b_chufeng",
+      "source_svg_xy": [
+        -166.55,
+        -27.51
+      ],
+      "source_RMG_xy": [
+        -166.55,
+        -27.51
+      ],
+      "source_PNG_station_center_px": [
+        1486.1,
+        995.5
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        17.8,
+        12.2
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "4"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "奥体中心",
+      "source_node_id": "stn_b807a16b_aoti",
+      "source_svg_xy": [
+        -82.03,
+        72.22
+      ],
+      "source_RMG_xy": [
+        -82.03,
+        72.22
+      ],
+      "source_PNG_station_center_px": [
+        1824.3,
+        1394.4
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        20.8,
+        15.8
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "4",
+        "6",
+        "7"
+      ],
+      "operating_status": "open",
+      "bank_matches": false,
+      "category_matches": false,
+      "priority": "P1",
+      "must_correct_in_v9": true,
+      "target_relation": "西岸、岛外",
+      "correction_scope": "地铁站心、相邻区间锚点、对应设施落点/入口与路网一起校正；不能只移动标签或POI。"
+    },
+    {
+      "station": "枫湾",
+      "source_node_id": "stn_EDiIcUODgQ",
+      "source_svg_xy": [
+        -161.58,
+        151.77
+      ],
+      "source_RMG_xy": [
+        -161.58,
+        151.77
+      ],
+      "source_PNG_station_center_px": [
+        1506.0,
+        1712.5
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        20.9,
+        17.4
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "4"
+      ],
+      "operating_status": "open",
+      "bank_matches": false,
+      "category_matches": false,
+      "priority": "P1",
+      "must_correct_in_v9": true,
+      "target_relation": "西岸、岛外",
+      "correction_scope": "地铁站心、相邻区间锚点、对应设施落点/入口与路网一起校正；不能只移动标签或POI。"
+    },
+    {
+      "station": "石鼓",
+      "source_node_id": "stn_0Kw9eIkZCS",
+      "source_svg_xy": [
+        -161.58,
+        286.86
+      ],
+      "source_RMG_xy": [
+        -161.58,
+        286.86
+      ],
+      "source_PNG_station_center_px": [
+        1506.0,
+        2252.8
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        14.0,
+        21.3
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "4"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "回龙",
+      "source_node_id": "stn_e5dcWjwf9l",
+      "source_svg_xy": [
+        -225.05,
+        286.86
+      ],
+      "source_RMG_xy": [
+        -225.05,
+        286.86
+      ],
+      "source_PNG_station_center_px": [
+        1252.1,
+        2252.8
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        10.9,
+        21.8
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "4"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "窑湾",
+      "source_node_id": "stn_b807a16b_yaowan",
+      "source_svg_xy": [
+        -108.79,
+        527.98
+      ],
+      "source_RMG_xy": [
+        -108.79,
+        527.98
+      ],
+      "source_PNG_station_center_px": [
+        1717.2,
+        3217.2
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        16.0,
+        29.7
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "5"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "窑湾北",
+      "source_node_id": "stn_b807a16b_yaowanbei",
+      "source_svg_xy": [
+        -32.59,
+        479.47
+      ],
+      "source_RMG_xy": [
+        -32.59,
+        479.47
+      ],
+      "source_PNG_station_center_px": [
+        2022.1,
+        3023.2
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        17.8,
+        27.5
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "5"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "江声路",
+      "source_node_id": "stn_b807a16b_jiangsheng",
+      "source_svg_xy": [
+        -32.59,
+        426.71
+      ],
+      "source_RMG_xy": [
+        -32.59,
+        426.71
+      ],
+      "source_PNG_station_center_px": [
+        2022.1,
+        2812.1
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        18.2,
+        25.6
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "5"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "骑楼街",
+      "source_node_id": "stn_b807a16b_qilou",
+      "source_svg_xy": [
+        -32.59,
+        377.07
+      ],
+      "source_RMG_xy": [
+        -32.59,
+        377.07
+      ],
+      "source_PNG_station_center_px": [
+        2022.1,
+        2613.6
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        18.5,
+        23.7
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "5"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "江湾",
+      "source_node_id": "stn_b807a16b_jiangwan",
+      "source_svg_xy": [
+        79.01,
+        377.07
+      ],
+      "source_RMG_xy": [
+        79.01,
+        377.07
+      ],
+      "source_PNG_station_center_px": [
+        2468.6,
+        2613.6
+      ],
+      "source_bank": "岛",
+      "source_relation": "江心洲内",
+      "v8_actual_svg_xy_km": [
+        22.4,
+        24.1
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "5",
+        "7",
+        "FR"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "船政学堂",
+      "source_node_id": "stn_b807a16b_chuanzheng",
+      "source_svg_xy": [
+        300.94,
+        377.07
+      ],
+      "source_RMG_xy": [
+        300.94,
+        377.07
+      ],
+      "source_PNG_station_center_px": [
+        3356.5,
+        2613.6
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        31.1,
+        24.5
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "5"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "白茅岗",
+      "source_node_id": "stn_-A7m4RhRlt",
+      "source_svg_xy": [
+        300.04,
+        286.86
+      ],
+      "source_RMG_xy": [
+        300.04,
+        286.86
+      ],
+      "source_PNG_station_center_px": [
+        3352.9,
+        2252.8
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        31.1,
+        21.1
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "5"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "冷水坪",
+      "source_node_id": "stn_AwiWNslxiv",
+      "source_svg_xy": [
+        300.04,
+        217.41
+      ],
+      "source_RMG_xy": [
+        300.04,
+        217.41
+      ],
+      "source_PNG_station_center_px": [
+        3352.9,
+        1975.0
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        31.4,
+        18.7
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "5"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "莲花路",
+      "source_node_id": "stn_-2K-UhgHc3",
+      "source_svg_xy": [
+        -418.51,
+        -27.51
+      ],
+      "source_RMG_xy": [
+        -418.51,
+        -27.51
+      ],
+      "source_PNG_station_center_px": [
+        478.1,
+        995.5
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        6.8,
+        11.2
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "6"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "植物园",
+      "source_node_id": "stn_b807a16b_zhiwuyuan",
+      "source_svg_xy": [
+        -418.51686068051885,
+        72.77
+      ],
+      "source_RMG_xy": [
+        -418.51,
+        72.77
+      ],
+      "source_PNG_station_center_px": [
+        478.0,
+        1396.6
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        6.7,
+        14.3
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "6"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "黑石坳",
+      "source_node_id": "stn_5EA7cI7oaz",
+      "source_svg_xy": [
+        -318.78,
+        72.22
+      ],
+      "source_RMG_xy": [
+        -318.78,
+        72.22
+      ],
+      "source_PNG_station_center_px": [
+        877.1,
+        1394.4
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        9.4,
+        16.3
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "6"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "书院路",
+      "source_node_id": "stn_b807a16b_shuyuanlu",
+      "source_svg_xy": [
+        -225.05,
+        72.77
+      ],
+      "source_RMG_xy": [
+        -225.05,
+        72.77
+      ],
+      "source_PNG_station_center_px": [
+        1252.1,
+        1396.6
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        14.3,
+        18.145
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "6",
+        "8"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "楚江西路",
+      "source_node_id": "stn_6Q45v-iOw5",
+      "source_svg_xy": [
+        20.37,
+        40.02
+      ],
+      "source_RMG_xy": [
+        20.37,
+        40.02
+      ],
+      "source_PNG_station_center_px": [
+        2233.9,
+        1265.6
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        21.6,
+        15.2
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "6"
+      ],
+      "operating_status": "open",
+      "bank_matches": false,
+      "category_matches": false,
+      "priority": "P1",
+      "must_correct_in_v9": true,
+      "target_relation": "西岸、岛外",
+      "correction_scope": "地铁站心、相邻区间锚点、对应设施落点/入口与路网一起校正；不能只移动标签或POI。"
+    },
+    {
+      "station": "望桥",
+      "source_node_id": "stn_BX4Je0CbMC",
+      "source_svg_xy": [
+        332.3411883639059,
+        121.39
+      ],
+      "source_RMG_xy": [
+        332.34,
+        121.39
+      ],
+      "source_PNG_station_center_px": [
+        3482.1,
+        1591.0
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        32.2,
+        15.0
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "6"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "铁铺",
+      "source_node_id": "stn_yw1fIydWIv",
+      "source_svg_xy": [
+        424.01,
+        254.0
+      ],
+      "source_RMG_xy": [
+        424.01,
+        254
+      ],
+      "source_PNG_station_center_px": [
+        3848.8,
+        2121.4
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        35.8,
+        20.0
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "6"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "港务新村",
+      "source_node_id": "stn_b807a16b_gangwu",
+      "source_svg_xy": [
+        509.07,
+        569.07
+      ],
+      "source_RMG_xy": [
+        509.07,
+        569.07
+      ],
+      "source_PNG_station_center_px": [
+        4189.2,
+        3381.5
+      ],
+      "source_bank": "其他",
+      "source_relation": "楚江下游南岸",
+      "v8_actual_svg_xy_km": [
+        40.7,
+        33.4
+      ],
+      "v8_bank": "其他",
+      "v8_relation": "楚江下游南岸",
+      "lines": [
+        "7"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "屏南",
+      "source_node_id": "stn_b807a16b_jz_zhongxin",
+      "source_svg_xy": [
+        360.01,
+        569.0699999999999
+      ],
+      "source_RMG_xy": [
+        360.01,
+        569.07
+      ],
+      "source_PNG_station_center_px": [
+        3592.8,
+        3381.5
+      ],
+      "source_bank": "其他",
+      "source_relation": "楚江下游南岸",
+      "v8_actual_svg_xy_km": [
+        35.8,
+        33.75
+      ],
+      "v8_bank": "其他",
+      "v8_relation": "楚江下游南岸",
+      "lines": [
+        "7"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "码东",
+      "source_node_id": "stn_b807a16b_madong",
+      "source_svg_xy": [
+        244.07,
+        569.07
+      ],
+      "source_RMG_xy": [
+        244.07,
+        569.07
+      ],
+      "source_PNG_station_center_px": [
+        3128.9,
+        3381.5
+      ],
+      "source_bank": "其他",
+      "source_relation": "楚江下游南岸",
+      "v8_actual_svg_xy_km": [
+        31.2,
+        33.7
+      ],
+      "v8_bank": "其他",
+      "v8_relation": "楚江下游南岸",
+      "lines": [
+        "7"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "龙门吊路",
+      "source_node_id": "stn_b807a16b_longmendiao",
+      "source_svg_xy": [
+        240.25,
+        485.02
+      ],
+      "source_RMG_xy": [
+        240.25,
+        485.02
+      ],
+      "source_PNG_station_center_px": [
+        3113.6,
+        3045.4
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        31.7,
+        29.2
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "7"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "海关旧址",
+      "source_node_id": "stn_b807a16b_haiguan",
+      "source_svg_xy": [
+        0.36,
+        286.86
+      ],
+      "source_RMG_xy": [
+        0.36,
+        286.86
+      ],
+      "source_PNG_station_center_px": [
+        2153.9,
+        2252.8
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        18.4,
+        21.6
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "7"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "引资银行",
+      "source_node_id": "stn_b807a16b_yinzi",
+      "source_svg_xy": [
+        0.36,
+        139.39290034177705
+      ],
+      "source_RMG_xy": [
+        0.36,
+        139.4
+      ],
+      "source_PNG_station_center_px": [
+        2153.9,
+        1663.0
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        18.2,
+        16.4
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "7"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "文星",
+      "source_node_id": "stn_eVUEN2qG57",
+      "source_svg_xy": [
+        -225.05,
+        -27.51
+      ],
+      "source_RMG_xy": [
+        -225.05,
+        -27.51
+      ],
+      "source_PNG_station_center_px": [
+        1252.1,
+        995.5
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        13.2,
+        13.1
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "8"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "胧月湖",
+      "source_node_id": "stn_CKQ-jGLZj9",
+      "source_svg_xy": [
+        -81.21,
+        -119.81
+      ],
+      "source_RMG_xy": [
+        -81.21,
+        -119.81
+      ],
+      "source_PNG_station_center_px": [
+        1827.5,
+        626.3
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        16.2,
+        7.2
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "8"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "月华州",
+      "source_node_id": "stn_4XyaGJAjSN",
+      "source_svg_xy": [
+        20.37,
+        -119.81
+      ],
+      "source_RMG_xy": [
+        20.37,
+        -119.81
+      ],
+      "source_PNG_station_center_px": [
+        2233.9,
+        626.3
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        20.7,
+        6.6
+      ],
+      "v8_bank": "西岸",
+      "v8_relation": "楚江西岸大陆",
+      "lines": [
+        "8"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "北岭",
+      "source_node_id": "stn_b807a16b_changlejn",
+      "source_svg_xy": [
+        332.34,
+        -119.81
+      ],
+      "source_RMG_xy": [
+        332.34,
+        -119.81
+      ],
+      "source_PNG_station_center_px": [
+        3482.1,
+        626.3
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        32.3,
+        6.5
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "8"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "楚钢集团",
+      "source_node_id": "stn_b807a16b_chugang",
+      "source_svg_xy": [
+        519.726732224291,
+        254.0
+      ],
+      "source_RMG_xy": [
+        519.73,
+        254
+      ],
+      "source_PNG_station_center_px": [
+        4231.8,
+        2121.4
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        38.6,
+        21.1
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "8"
+      ],
+      "operating_status": "construction-halted",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "铁山",
+      "source_node_id": "stn_b807a16b_tieshan",
+      "source_svg_xy": [
+        670.92,
+        258.1600000000001
+      ],
+      "source_RMG_xy": [
+        670.92,
+        258.16
+      ],
+      "source_PNG_station_center_px": [
+        4836.7,
+        2138.0
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        41.0,
+        22.3
+      ],
+      "v8_bank": "东岸",
+      "v8_relation": "楚江东岸大陆/下游北岸",
+      "lines": [
+        "8"
+      ],
+      "operating_status": "construction-halted",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "天门",
+      "source_node_id": "stn_GnwREs4NmF",
+      "source_svg_xy": [
+        78.37,
+        168.69
+      ],
+      "source_RMG_xy": [
+        78.37,
+        168.69
+      ],
+      "source_PNG_station_center_px": [
+        2466.0,
+        1780.2
+      ],
+      "source_bank": "岛",
+      "source_relation": "江心洲内",
+      "v8_actual_svg_xy_km": [
+        22.3,
+        16.5
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "FR"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "云梦科技园",
+      "source_node_id": "stn_s-6y0fpz5H",
+      "source_svg_xy": [
+        78.37,
+        286.86
+      ],
+      "source_RMG_xy": [
+        78.37,
+        286.86
+      ],
+      "source_PNG_station_center_px": [
+        2466.0,
+        2252.8
+      ],
+      "source_bank": "岛",
+      "source_relation": "江心洲内",
+      "v8_actual_svg_xy_km": [
+        23.5,
+        19.275
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "FR"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    },
+    {
+      "station": "楚江新城",
+      "source_node_id": "stn_kJlJ39IEFT",
+      "source_svg_xy": [
+        78.37,
+        454.19
+      ],
+      "source_RMG_xy": [
+        78.37,
+        454.19
+      ],
+      "source_PNG_station_center_px": [
+        2466.0,
+        2922.0
+      ],
+      "source_bank": "岛",
+      "source_relation": "江心洲内",
+      "v8_actual_svg_xy_km": [
+        23.0,
+        26.5
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "FR"
+      ],
+      "operating_status": "open",
+      "bank_matches": true,
+      "category_matches": true
+    }
+  ],
+  "priority_corrections": [
+    {
+      "station": "燧明园",
+      "source_node_id": "stn_b807a16b_suiming",
+      "source_svg_xy": [
+        159.99,
+        121.39
+      ],
+      "source_RMG_xy": [
+        159.99,
+        121.39
+      ],
+      "source_PNG_station_center_px": [
+        2792.5,
+        1591.0
+      ],
+      "source_bank": "东岸",
+      "source_relation": "楚江东岸大陆/下游北岸",
+      "v8_actual_svg_xy_km": [
+        23.77,
+        18.85
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "1"
+      ],
+      "operating_status": "open",
+      "bank_matches": false,
+      "category_matches": false,
+      "priority": "P1",
+      "must_correct_in_v9": true,
+      "target_relation": "东岸、岛外",
+      "correction_scope": "地铁站心、相邻区间锚点、对应设施落点/入口与路网一起校正；不能只移动标签或POI。"
+    },
+    {
+      "station": "财经大学",
+      "source_node_id": "stn_b807a16b_caijingdx",
+      "source_svg_xy": [
+        -82.84,
+        -27.51
+      ],
+      "source_RMG_xy": [
+        -82.84,
+        -27.51
+      ],
+      "source_PNG_station_center_px": [
+        1821.0,
+        995.5
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        21.7,
+        13.1
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "3",
+        "7"
+      ],
+      "operating_status": "open",
+      "bank_matches": false,
+      "category_matches": false,
+      "priority": "P1",
+      "must_correct_in_v9": true,
+      "target_relation": "西岸、岛外",
+      "correction_scope": "地铁站心、相邻区间锚点、对应设施落点/入口与路网一起校正；不能只移动标签或POI。"
+    },
+    {
+      "station": "沙尾",
+      "source_node_id": "stn_UYsAwKJCF8",
+      "source_svg_xy": [
+        20.37,
+        -27.510000000000012
+      ],
+      "source_RMG_xy": [
+        20.37,
+        -27.51
+      ],
+      "source_PNG_station_center_px": [
+        2233.9,
+        995.5
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        22.5,
+        13.2
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "3"
+      ],
+      "operating_status": "open",
+      "bank_matches": false,
+      "category_matches": false,
+      "priority": "P1",
+      "must_correct_in_v9": true,
+      "target_relation": "西岸、岛外",
+      "correction_scope": "地铁站心、相邻区间锚点、对应设施落点/入口与路网一起校正；不能只移动标签或POI。"
+    },
+    {
+      "station": "奥体中心",
+      "source_node_id": "stn_b807a16b_aoti",
+      "source_svg_xy": [
+        -82.03,
+        72.22
+      ],
+      "source_RMG_xy": [
+        -82.03,
+        72.22
+      ],
+      "source_PNG_station_center_px": [
+        1824.3,
+        1394.4
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        20.8,
+        15.8
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "4",
+        "6",
+        "7"
+      ],
+      "operating_status": "open",
+      "bank_matches": false,
+      "category_matches": false,
+      "priority": "P1",
+      "must_correct_in_v9": true,
+      "target_relation": "西岸、岛外",
+      "correction_scope": "地铁站心、相邻区间锚点、对应设施落点/入口与路网一起校正；不能只移动标签或POI。"
+    },
+    {
+      "station": "枫湾",
+      "source_node_id": "stn_EDiIcUODgQ",
+      "source_svg_xy": [
+        -161.58,
+        151.77
+      ],
+      "source_RMG_xy": [
+        -161.58,
+        151.77
+      ],
+      "source_PNG_station_center_px": [
+        1506.0,
+        1712.5
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        20.9,
+        17.4
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "4"
+      ],
+      "operating_status": "open",
+      "bank_matches": false,
+      "category_matches": false,
+      "priority": "P1",
+      "must_correct_in_v9": true,
+      "target_relation": "西岸、岛外",
+      "correction_scope": "地铁站心、相邻区间锚点、对应设施落点/入口与路网一起校正；不能只移动标签或POI。"
+    },
+    {
+      "station": "楚江西路",
+      "source_node_id": "stn_6Q45v-iOw5",
+      "source_svg_xy": [
+        20.37,
+        40.02
+      ],
+      "source_RMG_xy": [
+        20.37,
+        40.02
+      ],
+      "source_PNG_station_center_px": [
+        2233.9,
+        1265.6
+      ],
+      "source_bank": "西岸",
+      "source_relation": "楚江西岸大陆",
+      "v8_actual_svg_xy_km": [
+        21.6,
+        15.2
+      ],
+      "v8_bank": "岛",
+      "v8_relation": "江心洲内",
+      "lines": [
+        "6"
+      ],
+      "operating_status": "open",
+      "bank_matches": false,
+      "category_matches": false,
+      "priority": "P1",
+      "must_correct_in_v9": true,
+      "target_relation": "西岸、岛外",
+      "correction_scope": "地铁站心、相邻区间锚点、对应设施落点/入口与路网一起校正；不能只移动标签或POI。"
+    }
+  ],
+  "all_80_station_adjacencies": [
+    {
+      "line": "1",
+      "from": "烈士陵园",
+      "to": "龙翔天街",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L1_0"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "1",
+      "from": "龙翔天街",
+      "to": "长乐街",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L1_1"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "1",
+      "from": "长乐街",
+      "to": "工运广场",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L1_2"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "1",
+      "from": "工运广场",
+      "to": "燧明园",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L1_3"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": true
+    },
+    {
+      "line": "1",
+      "from": "燧明园",
+      "to": "楚江广场",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_YOQGNoLzem"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": true
+    },
+    {
+      "line": "1",
+      "from": "楚江广场",
+      "to": "文侯庙",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L1_6"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "1",
+      "from": "文侯庙",
+      "to": "故城中心",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L1_7"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "1",
+      "from": "故城中心",
+      "to": "南门早市",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L1_8"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "1",
+      "from": "南门早市",
+      "to": "开埠广场",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L1_9"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "1",
+      "from": "开埠广场",
+      "to": "望津港",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L1_10"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "2",
+      "from": "云麓东",
+      "to": "山麓路口",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L2_0"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "2",
+      "from": "山麓路口",
+      "to": "龙散大学",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L2_1"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "2",
+      "from": "龙散大学",
+      "to": "楚江西岸",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L2_2"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "2",
+      "from": "楚江西岸",
+      "to": "深中中心",
+      "original_bank_pair": [
+        "西岸",
+        "岛"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_ry3Uf-Rrv6"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "2",
+      "from": "深中中心",
+      "to": "楚江广场",
+      "original_bank_pair": [
+        "岛",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_RMTRVeRRIv"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "2",
+      "from": "楚江广场",
+      "to": "醒钟广场",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_E8RDDAqtFO"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "2",
+      "from": "醒钟广场",
+      "to": "龙散火车站",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_3wE_gjtmSt"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "2",
+      "from": "龙散火车站",
+      "to": "钢阳街",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_0vEmGjKUSR"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "2",
+      "from": "钢阳街",
+      "to": "龙散东站",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_kElpPiaUWR"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "3",
+      "from": "楚墓博物馆",
+      "to": "黄泥塘",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_BGx4LHwqmr"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "3",
+      "from": "黄泥塘",
+      "to": "云鲤路",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_A3NKLv4pN3"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "3",
+      "from": "云鲤路",
+      "to": "财经大学",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_QrOiVp-v0D"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": true
+    },
+    {
+      "line": "3",
+      "from": "财经大学",
+      "to": "沙尾",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_HPQh_8QQfh"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": true
+    },
+    {
+      "line": "3",
+      "from": "沙尾",
+      "to": "工运广场",
+      "original_bank_pair": [
+        "西岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_76PBR7rZn2"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": true
+    },
+    {
+      "line": "3",
+      "from": "工运广场",
+      "to": "影视基地",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L3_4"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "3",
+      "from": "影视基地",
+      "to": "铁山北",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_er9j8KZlWM"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "3",
+      "from": "铁山北",
+      "to": "铁山大道",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L3_6"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "4",
+      "from": "龙散机场",
+      "to": "机场新城",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L4_0"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "4",
+      "from": "机场新城",
+      "to": "双柏公园",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_B3eYGk0gsy"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "4",
+      "from": "双柏公园",
+      "to": "云鲤路",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_e46I6vJ61d"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "4",
+      "from": "云鲤路",
+      "to": "楚风传媒",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_gp0Klp9doi"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "4",
+      "from": "楚风传媒",
+      "to": "奥体中心",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_wj9OV4b625"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": true
+    },
+    {
+      "line": "4",
+      "from": "奥体中心",
+      "to": "枫湾",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_OHdRlQu4hE"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": true
+    },
+    {
+      "line": "4",
+      "from": "枫湾",
+      "to": "龙散大学",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_vwiQVv0IS7"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": true
+    },
+    {
+      "line": "4",
+      "from": "龙散大学",
+      "to": "石鼓",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_7G5lj0KO9Y"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "4",
+      "from": "石鼓",
+      "to": "回龙",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_O8AWpvFKVi"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "5",
+      "from": "窑湾",
+      "to": "窑湾北",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L5_0"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "5",
+      "from": "窑湾北",
+      "to": "江声路",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L5_1"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "5",
+      "from": "江声路",
+      "to": "骑楼街",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L5_2"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "5",
+      "from": "骑楼街",
+      "to": "江湾",
+      "original_bank_pair": [
+        "西岸",
+        "岛"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_iX2WGYpm94"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "5",
+      "from": "江湾",
+      "to": "南门早市",
+      "original_bank_pair": [
+        "岛",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L5_4"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "5",
+      "from": "南门早市",
+      "to": "船政学堂",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_e5cTNwZG-V"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "5",
+      "from": "船政学堂",
+      "to": "白茅岗",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_R6As-1T8bS"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "5",
+      "from": "白茅岗",
+      "to": "冷水坪",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_5y2nFiP2Sx"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "5",
+      "from": "冷水坪",
+      "to": "龙散火车站",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_sm4naW41gN"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "6",
+      "from": "楚墓博物馆",
+      "to": "莲花路",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_HSZnajpsTJ"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "6",
+      "from": "莲花路",
+      "to": "植物园",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_d3fu2nELUA"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "6",
+      "from": "植物园",
+      "to": "黑石坳",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_GHMX5IIOFr"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "6",
+      "from": "黑石坳",
+      "to": "书院路",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_qAAG3Ak_Az"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "6",
+      "from": "书院路",
+      "to": "奥体中心",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_LtcLrjlKBc"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": true
+    },
+    {
+      "line": "6",
+      "from": "奥体中心",
+      "to": "楚江西路",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_V-njZgQa9U"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": true
+    },
+    {
+      "line": "6",
+      "from": "楚江西路",
+      "to": "工运广场",
+      "original_bank_pair": [
+        "西岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_wNfz2Ys1I5"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": true
+    },
+    {
+      "line": "6",
+      "from": "工运广场",
+      "to": "望桥",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_HV2RVyX--l"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "6",
+      "from": "望桥",
+      "to": "钢阳街",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_1kIgetGsjl"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "6",
+      "from": "钢阳街",
+      "to": "铁铺",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_6ZcK0lMcev"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "7",
+      "from": "港务新村",
+      "to": "屏南",
+      "original_bank_pair": [
+        "其他",
+        "其他"
+      ],
+      "v8_bank_pair": [
+        "其他",
+        "其他"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L7_3"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "7",
+      "from": "屏南",
+      "to": "码东",
+      "original_bank_pair": [
+        "其他",
+        "其他"
+      ],
+      "v8_bank_pair": [
+        "其他",
+        "其他"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L7_2"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "7",
+      "from": "码东",
+      "to": "龙门吊路",
+      "original_bank_pair": [
+        "其他",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "其他",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L7_1"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "7",
+      "from": "龙门吊路",
+      "to": "望津港",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L7_0"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "7",
+      "from": "望津港",
+      "to": "江湾",
+      "original_bank_pair": [
+        "东岸",
+        "岛"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_9fLc4tk8dV"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "7",
+      "from": "江湾",
+      "to": "海关旧址",
+      "original_bank_pair": [
+        "岛",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_SKm6AjnAX8"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "7",
+      "from": "海关旧址",
+      "to": "楚江西岸",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_veWS34o2ea"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "7",
+      "from": "楚江西岸",
+      "to": "引资银行",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_kYyc2PJ239"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "7",
+      "from": "引资银行",
+      "to": "奥体中心",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_uGdrAUEusg"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": true
+    },
+    {
+      "line": "7",
+      "from": "奥体中心",
+      "to": "财经大学",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_z_sVEzPuYR"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": true
+    },
+    {
+      "line": "8",
+      "from": "山麓路口",
+      "to": "书院路",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_ba-cq9w0CN"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "8",
+      "from": "书院路",
+      "to": "文星",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_uYbe7PXi5_"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "8",
+      "from": "文星",
+      "to": "云鲤路",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_ZqnNBZjOEk"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "8",
+      "from": "云鲤路",
+      "to": "胧月湖",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_52jNM8CqPZ"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "8",
+      "from": "胧月湖",
+      "to": "月华州",
+      "original_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "西岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_zeEEle3LOf"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "8",
+      "from": "月华州",
+      "to": "龙翔天街",
+      "original_bank_pair": [
+        "西岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "西岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_j857m5inbJ"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "8",
+      "from": "龙翔天街",
+      "to": "北岭",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L8_3"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "8",
+      "from": "北岭",
+      "to": "铁山北",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_4HY2IuANot"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "8",
+      "from": "铁山北",
+      "to": "龙散东站",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_XOt-nLAtDd"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "8",
+      "from": "龙散东站",
+      "to": "楚钢集团",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_VAGo08jxsm"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "8",
+      "from": "楚钢集团",
+      "to": "铁山",
+      "original_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "v8_bank_pair": [
+        "东岸",
+        "东岸"
+      ],
+      "original_graph_edge_ids": [
+        "line_b807a16b_L8_5"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "FR",
+      "from": "天门",
+      "to": "深中中心",
+      "original_bank_pair": [
+        "岛",
+        "岛"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_bA5m7OHPNL"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "FR",
+      "from": "深中中心",
+      "to": "云梦科技园",
+      "original_bank_pair": [
+        "岛",
+        "岛"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_93a3LXCt6z"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "FR",
+      "from": "云梦科技园",
+      "to": "江湾",
+      "original_bank_pair": [
+        "岛",
+        "岛"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_a1zBPRDRx7"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    },
+    {
+      "line": "FR",
+      "from": "江湾",
+      "to": "楚江新城",
+      "original_bank_pair": [
+        "岛",
+        "岛"
+      ],
+      "v8_bank_pair": [
+        "岛",
+        "岛"
+      ],
+      "original_graph_edge_ids": [
+        "line_nQ_AEps5Bz"
+      ],
+      "same_adjacency_confirmed": true,
+      "endpoint_relation_changed": false
+    }
+  ],
+  "water_path_source_evidence": [
+    {
+      "path": {
+        "d": "M 85.66 -219.34 L 85.66 48.56 C 85.66 53.56 82.12446609406726 62.09553390593274 78.58893218813452 65.63106781186548 L 42.11 102.11",
+        "fill": "none",
+        "stroke": "#B9E3F9",
+        "stroke-width": "22",
+        "stroke-linecap": "round",
+        "cursor": "pointer"
+      }
+    },
+    {
+      "path": {
+        "d": "M 42.11 102.11 L 42.11 322.89 C 42.11 327.89 38.57446609406726 336.42553390593275 35.038932188134524 339.96106781186546 L 25 350",
+        "fill": "none",
+        "stroke": "#B9E3F9",
+        "stroke-width": "22",
+        "stroke-linecap": "round",
+        "cursor": "pointer"
+      }
+    },
+    {
+      "path": {
+        "d": "M 25 350 L 25 465.86999999999995 C 25 470.86999999999995 28.535533905932738 479.40553390593266 32.071067811865476 482.9410678118654 L 73.56 524.43",
+        "fill": "none",
+        "stroke": "#B9E3F9",
+        "stroke-width": "22",
+        "stroke-linecap": "round",
+        "cursor": "pointer"
+      }
+    },
+    {
+      "path": {
+        "d": "M 73.56 524.43 L 606.33 524.43 C 611.33 524.43 619.8655339059328 520.8944660940672 623.4010678118655 517.3589321881345 L 697.66 443.1",
+        "fill": "none",
+        "stroke": "#B9E3F9",
+        "stroke-width": "22",
+        "stroke-linecap": "round",
+        "cursor": "pointer"
+      }
+    },
+    {
+      "path": {
+        "d": "M 42.11 102.11 L 103.67 102.11 C 112.83500000000001 102.11 122 111.275 122 120.44 L 122 328.64",
+        "fill": "none",
+        "stroke": "#B9E3F9",
+        "stroke-width": "20",
+        "stroke-linecap": "round",
+        "cursor": "pointer"
+      }
+    },
+    {
+      "path": {
+        "d": "M 122 328.64 L 122 465.98999999999995 C 122 470.98999999999995 118.46446609406726 479.52553390593266 114.92893218813452 483.0610678118654 L 73.56 524.43",
+        "fill": "none",
+        "stroke": "#B9E3F9",
+        "stroke-width": "20",
+        "stroke-linecap": "round",
+        "cursor": "pointer"
+      }
+    }
+  ],
+  "limitations": [
+    "本表核查66具名站。L6三个无名延伸规划节点另按灾后设置审查，不能自动合并为具名站。",
+    "本审核不反对真实水系自由弯曲，不要求照抄原图直角或站对全部方向。",
+    "本表不赋予新站点公里坐标，也不实施v9生成。"
+  ],
+  "source_refs": [
+    {
+      "path": "campaign/world/15-城区与交通网络.md",
+      "lines": [
+        11,
+        33
+      ],
+      "evidence": "深中新区被整体定义为中央岛、四面环江；这不是原图五个西岸站的岸别证据。"
+    },
+    {
+      "path": "campaign/world/15-城区与交通网络.md",
+      "lines": [
+        381,
+        382,
+        401,
+        402,
+        439,
+        440,
+        463,
+        464
+      ],
+      "evidence": "五站在站表都归深中；原图站心西岸关系与这一整区岛上定义冲突。"
+    },
+    {
+      "path": "scripts/generate_longsan_geographic_maps_v2.py",
+      "lines": [
+        1000,
+        1013,
+        1014
+      ],
+      "evidence": "早期生成器明确选择设定稿岛上归属并把五站及燧明园强制列入island_names；v8沿用其落点。"
+    },
+    {
+      "path": "campaign/world/14-企业名录与商业生态.md",
+      "lines": [
+        444
+      ],
+      "evidence": "财经政法校园完全绿区只描述安防状态，不证明只能位于江心洲。"
+    },
+    {
+      "path": "campaign/world/15-城区与交通网络.md",
+      "lines": [
+        333,
+        335,
+        342,
+        343,
+        344
+      ],
+      "evidence": "L1标题/定位为东岸主动脉，工运广场—燧明园—楚江广场原图三站同在东岸。"
+    },
+    {
+      "path": "campaign/world/15-城区与交通网络.md",
+      "lines": [
+        46,
+        343,
+        497
+      ],
+      "evidence": "同一燧明科技园区同时被L1燧明园备注引用，并要求云梦科技园站位于园区南端。两站原岸别分别东岸和岛上，文字关联需另行统一。"
+    },
+    {
+      "path": "campaign/world/15-城区与交通网络.md",
+      "lines": [
+        489,
+        491,
+        495,
+        496,
+        497,
+        498,
+        499
+      ],
+      "evidence": "快速线五站服务河中洲；原图与v8均岛内，江湾归楚岸的行政文字另有冲突。"
+    }
+  ],
+  "required_route_relationships": [
+    {
+      "line": "1",
+      "sequence": [
+        "工运广场",
+        "燧明园",
+        "楚江广场"
+      ],
+      "target_banks": [
+        "东岸",
+        "东岸",
+        "东岸"
+      ],
+      "effect": "撤销当前因燧明园归岛产生的东岸→岛→东岸来回跨汊，保持东岸连续主动脉。"
+    },
+    {
+      "line": "3",
+      "sequence": [
+        "云鲤路",
+        "财经大学",
+        "沙尾",
+        "工运广场"
+      ],
+      "target_banks": [
+        "西岸",
+        "西岸",
+        "西岸",
+        "东岸"
+      ],
+      "effect": "西岸走廊到沙尾，跨江安排在沙尾—工运广场。跨一汊或两汊由现实新地理决定，不要求照抄图面折角。"
+    },
+    {
+      "line": "4",
+      "sequence": [
+        "楚风传媒",
+        "奥体中心",
+        "枫湾",
+        "龙散大学"
+      ],
+      "target_banks": [
+        "西岸",
+        "西岸",
+        "西岸",
+        "西岸"
+      ],
+      "effect": "整段西岸连续，消除人为挪岛产生的入岛再回西岸。"
+    },
+    {
+      "line": "6",
+      "sequence": [
+        "书院路",
+        "奥体中心",
+        "楚江西路",
+        "工运广场"
+      ],
+      "target_banks": [
+        "西岸",
+        "西岸",
+        "西岸",
+        "东岸"
+      ],
+      "effect": "西岸到楚江西路，跨江安排在楚江西路—工运广场。"
+    },
+    {
+      "line": "7",
+      "sequence": [
+        "引资银行",
+        "奥体中心",
+        "财经大学"
+      ],
+      "target_banks": [
+        "西岸",
+        "西岸",
+        "西岸"
+      ],
+      "effect": "北端三站同岸；保持奥体三线和财经两线换乘。"
+    },
+    {
+      "line": "2",
+      "sequence": [
+        "楚江西岸",
+        "深中中心",
+        "楚江广场"
+      ],
+      "target_banks": [
+        "西岸",
+        "岛",
+        "东岸"
+      ],
+      "effect": "原有穿岛跨江骨架保留，不能随着五站回西岸把深中中心也移走。"
+    },
+    {
+      "line": "5/7",
+      "sequence": [
+        "骑楼街/海关旧址",
+        "江湾",
+        "南门早市/望津港"
+      ],
+      "target_banks": [
+        "西岸",
+        "岛",
+        "东岸"
+      ],
+      "effect": "江湾岛上三线换乘保留；L7龙门吊路—码东的下游北岸→南岸跨江继续保留。"
+    },
+    {
+      "line": "FR",
+      "sequence": [
+        "天门",
+        "深中中心",
+        "云梦科技园",
+        "江湾",
+        "楚江新城"
+      ],
+      "target_banks": [
+        "岛",
+        "岛",
+        "岛",
+        "岛",
+        "岛"
+      ],
+      "effect": "五站全保留岛内，同一快速线连续；不因燧明园迁东把云梦科技园站也牵走。"
+    }
+  ],
+  "unchanged_island_nodes": [
+    "深中中心",
+    "江湾",
+    "天门",
+    "云梦科技园",
+    "楚江新城"
+  ],
+  "layout_revision_boundary": {
+    "station_order_and_interchanges": "全部既有80具名邻接与换乘需保留；改变的是岸别落点和实际区间线形。",
+    "island_shape": "当前五站和燧明园是被早期规则指定上岛，不是自由水系扩张偶然包住。先改错误落点；无需仅为两设施推翻整个岛形。若收洲头，另核岸线、桥路、建筑与岛上核心。",
+    "source_conflict_scope": "以下行政/文字冲突不等同v8额外岸别迁错，不能据文字表将已继承原图的节点再次搬岸。"
+  },
+  "site_dependency_requiring_explicit_design": {
+    "topic": "燧明科技园和云梦科技园站",
+    "current_v8_site_bounds_km": [
+      23.3,
+      18.82,
+      23.7,
+      19.32
+    ],
+    "current_v8_site_area_km2": 0.2,
+    "current_relation": "岛上燧明科技园距L1燧明园站东边界约70m，快速线云梦科技园站在园区内部、距南界45m。",
+    "original_station_relation": "L1燧明园东岸；快速线云梦科技园在岛内。",
+    "risk": "整园随L1迁东同时保留快速线园区南端文字，会造成新的跨江园站脱离；仅移动快速线站又会破坏原图岛内关系。",
+    "options": [
+      "东岸燧明园区与岛上云梦园区区分为两个地点，并同步澄清15:46/343/497的同一园区引用。",
+      "明确同一机构拥有东岸与岛上两个园区后分别规划；这是新设定决定，不是原图能证明的既有事实。"
+    ],
+    "recommendation": "两站岸别确定；对应园区关联必须明确区分并在新候选说明，不能静默把两站当成同一岛上园区。"
+  },
+  "additional_text_only_conflicts": [
+    {
+      "stations": [
+        "楚江广场"
+      ],
+      "original_and_v8": "东岸，L1东岸脊梁与L2跨江第一站。",
+      "setting_ref": "15:344归楚岸；楚岸现用户决定为西岸。",
+      "action": "同步行政归属或区界解释，不应把站移西破坏源岸别。"
+    },
+    {
+      "stations": [
+        "醒钟广场"
+      ],
+      "original_and_v8": "东岸。",
+      "setting_ref": "15:365归西岸文星。",
+      "action": "行政文字待统一，实际岸别保留。"
+    },
+    {
+      "stations": [
+        "骑楼街",
+        "海关旧址"
+      ],
+      "original_and_v8": "西岸。",
+      "setting_ref": "15:418归故城，15:460归望津；两区总体东岸。",
+      "action": "行政文字/跨岸片区解释待统一，实际西岸保留。"
+    },
+    {
+      "stations": [
+        "江湾"
+      ],
+      "original_and_v8": "岛内。",
+      "setting_ref": "15:419/459/498归楚岸。",
+      "action": "行政文字或岛上跨区片区解释待统一，不随西岸设施纠偏迁出岛。"
+    },
+    {
+      "stations": [
+        "黄泥塘",
+        "云鲤路",
+        "双柏公园",
+        "胧月湖",
+        "月华州"
+      ],
+      "original_and_v8": "西岸。",
+      "setting_ref": "15站表归北岭；15:17北岭整体写东岸北部。",
+      "action": "保留原图与v8一致岸别，后续行政范围说明应允许跨岸或修正站属区。"
+    }
+  ],
+  "bank_change_summary": "精确六站需地理纠偏：五个西岸节点由岛回西岸，加燧明园由岛回东岸。其余60站与原图岸别类别一致。云梦科技园/江湾等五快速线节点全留岛；下游三南岸站保持。"
+}

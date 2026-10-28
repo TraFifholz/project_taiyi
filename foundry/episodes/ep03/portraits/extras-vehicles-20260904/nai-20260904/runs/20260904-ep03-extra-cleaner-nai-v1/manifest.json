@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260904-ep03-extra-cleaner-nai-v1",
+  "characterId": "EP03-EXTRA-CLEANER",
+  "characterName": "合规清理员",
+  "actorId": "3b235949f8822316",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "assets/candidates/EP03-EXTRA-CLEANER-合规清理员-nai-avatar.webp",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=41ab90e1697e9134022dfeb497ef5bff86e86467e88fb73cc9df46f6aef08524",
+      "安全帽、护目镜、灰色工业服、工具腰带和扳手清楚；成年人比例、双手与工具正常，无文字、标志或能力特效。"
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentPixels": 506513
+  },
+  "userApproved": false,
+  "deployedToFvtt": false
+}

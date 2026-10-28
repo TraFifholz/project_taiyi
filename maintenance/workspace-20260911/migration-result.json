@@ -1,0 +1,154 @@
+{
+  "moved_files": 2298,
+  "updated_text_files": 95,
+  "byte_preserved_moved_files": 2215,
+  "raw_transcripts_unchanged": 12,
+  "public_source_files_unchanged": 203,
+  "baseline_broken_links": [
+    {
+      "file": "character_sheet/沈仲秋.md",
+      "target": "../discussion/session-01-npcs.md"
+    },
+    {
+      "file": "discussion/设定/14-企业名录与商业生态.md",
+      "target": "../../团次/dark-lines.md"
+    },
+    {
+      "file": "discussion/设定/14-企业名录与商业生态.md",
+      "target": "../../团次/dark-lines.md"
+    },
+    {
+      "file": "discussion/设定/16-大背景-诸夏与龙散.md",
+      "target": "../../团次/dark-lines.md"
+    },
+    {
+      "file": "discussion/设定/16-大背景-诸夏与龙散.md",
+      "target": "../../团次/dark-lines.md"
+    },
+    {
+      "file": "docs/superpowers/plans/2026-05-13-swade-wiki-plan.md",
+      "target": "./path.md"
+    },
+    {
+      "file": "docs/superpowers/plans/2026-05-13-swade-wiki-plan.md",
+      "target": "./$2.md"
+    },
+    {
+      "file": "docs/superpowers/plans/2026-05-13-swade-wiki-plan.md",
+      "target": "./path.md"
+    },
+    {
+      "file": "docs/superpowers/plans/2026-05-13-swade-wiki-plan.md",
+      "target": "./${inner}.md"
+    },
+    {
+      "file": "docs/superpowers/plans/2026-05-13-swade-wiki-plan.md",
+      "target": "./${name}/"
+    },
+    {
+      "file": "docs/superpowers/specs/2026-05-13-swade-wiki-design.md",
+      "target": "./path.md"
+    },
+    {
+      "file": "docs/superpowers/specs/2026-05-13-swade-wiki-design.md",
+      "target": "./path.md"
+    }
+  ],
+  "text_updated": [
+    "CODEX_INDEX.md",
+    "campaign/README.md",
+    "assets/backgrounds/README.md",
+    "assets/backgrounds/prompts/scenes.json",
+    "foundry/npc/FVTT-NPC空人物卡导入计划.md",
+    "campaign/npcs/index.md",
+    "campaign/npcs/roster/NPC出场安排.md",
+    "campaign/npcs/NPC工作总控.md",
+    "campaign/npcs/reference/NPC最终意见版.md",
+    "campaign/npcs/roster/全城NPC名单.md",
+    "campaign/npcs/reference/关键NPC.md",
+    "campaign/npcs/reference/核心NPC.md",
+    "campaign/npcs/重要NPC故事.md",
+    "foundry/npc/imports/refresh-20260902/完成记录.md",
+    "assets/npc/production/README.md",
+    "assets/npc/production/control/portrait-master.json",
+    "assets/npc/production/prompts/LS-NPC-021.md",
+    "assets/npc/production/prompts/LS-NPC-033.json",
+    "assets/npc/production/prompts/LS-NPC-080.json",
+    "assets/npc/production/tools/apply-identity-and-roster-corrections.mjs",
+    "assets/npc/production/tools/init-control.mjs",
+    "campaign/npcs/stories/交管7号.md",
+    "campaign/npcs/stories/何凌.md",
+    "campaign/npcs/stories/刑天.md",
+    "campaign/npcs/stories/同舟.md",
+    "campaign/npcs/stories/大楚.md",
+    "campaign/npcs/stories/方泰安.md",
+    "campaign/npcs/stories/朱瑶光.md",
+    "campaign/npcs/stories/朱蘅.md",
+    "campaign/npcs/stories/梁文川.md",
+    "campaign/npcs/stories/沈漫.md",
+    "campaign/npcs/stories/玄圭.md",
+    "campaign/npcs/stories/白念秋.md",
+    "campaign/npcs/stories/白鸢.md",
+    "campaign/npcs/stories/红皇后.md",
+    "campaign/npcs/stories/纪崇吾.md",
+    "campaign/npcs/stories/苏晦.md",
+    "campaign/npcs/stories/萧烬.md",
+    "campaign/npcs/stories/言璞.md",
+    "campaign/npcs/stories/许承钧.md",
+    "campaign/npcs/stories/郑启明.md",
+    "campaign/npcs/stories/闻笙.md",
+    "campaign/npcs/stories/陈培安.md",
+    "campaign/npcs/stories/韩铸.md",
+    "campaign/episodes/20-episode-outline.md",
+    "campaign/episodes/campaign-outline-notes.md",
+    "campaign/episodes/dark-lines.md",
+    "campaign/decisions/二十话重整-设计定案.md",
+    "campaign/episodes/第一季-删不掉的路与第二季归城布局.md",
+    "campaign/episodes/chapter-01/01-事务所开张.md",
+    "campaign/episodes/chapter-01/02-地铁幽灵.md",
+    "campaign/episodes/chapter-01/03-追风大劫案.md",
+    "campaign/episodes/chapter-01/04-特派员.md",
+    "campaign/episodes/chapter-02/05-帮派奥运会.md",
+    "campaign/episodes/chapter-02/06-楚风真人秀.md",
+    "campaign/episodes/chapter-02/07-旧城寻宝.md",
+    "campaign/episodes/chapter-02/08-引资银行劫案.md",
+    "campaign/episodes/chapter-03/09-云麓镇考古.md",
+    "campaign/episodes/chapter-03/10-霜月会黑研究所.md",
+    "campaign/episodes/chapter-03/11-陵寝杯地下拳王.md",
+    "campaign/episodes/chapter-03/12-重黎大暴走.md",
+    "campaign/episodes/chapter-04/13-九域封神.md",
+    "campaign/episodes/chapter-04/14-启示录方舟.md",
+    "campaign/episodes/chapter-04/15-卜府策士游戏.md",
+    "campaign/episodes/chapter-04/16-神机.md",
+    "campaign/episodes/chapter-05/17-楚钢遗址再临.md",
+    "campaign/episodes/chapter-05/18-龙散大反攻.md",
+    "campaign/episodes/chapter-05/19-云梦潜入.md",
+    "campaign/episodes/chapter-05/20-三重结局.md",
+    "campaign/archive/main-arc-restart/README.md",
+    "assets/group-portraits/20260904-六人聚餐/manifest.json",
+    "assets/group-portraits/20260904-六人聚餐/prompt-stage4-中文招牌.md",
+    "assets/group-portraits/20260904-六人聚餐/prompt-stage5-中式小炒菜单墙.md",
+    "assets/group-portraits/20260904-六人聚餐/README.md",
+    "campaign/world/06-核心谜团.md",
+    "campaign/world/11-玩家角色与主线驱动.md",
+    "campaign/world/13-框架总览.md",
+    "campaign/guides/开团助手指引.md",
+    "records/memory/campaign-state.md",
+    "records/memory/entities.md",
+    "records/memory/README.md",
+    "records/memory/session-08.md",
+    "records/memory/session-11.md",
+    "campaign/prep/modules/ep03-追风大劫案-module.md",
+    "campaign/prep/modules/ep03-追风大劫案-白话主持版.md",
+    "campaign/prep/sessions/session-04-foundry-prep.md",
+    "campaign/prep/sessions/session-13-第四话开场安排.md",
+    "foundry/episodes/ep03/portraits/README.md",
+    "foundry/episodes/ep03/portraits/extras-vehicles-20260904/nai-20260904/README.md",
+    "scripts/check-links.py",
+    "scripts/generate_city_base_map.js",
+    "scripts/generate_clean_city_map_from_terrain.js",
+    "scripts/generate_osm_composite_map.py",
+    "scripts/validate-campaign-npc-restructure.mjs",
+    "scripts/fvtt/SMARTPHONE_CHIRP_CDP_GUIDE.md"
+  ]
+}

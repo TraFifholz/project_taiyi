@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260911-ep04-B-official",
+  "characterId": "EP04-B-official",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "03bc61",
+  "apiSeed": 411092001,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "8a73e4784c91cbe3b713e89a7918faae37b0db21b90fdd5f2fad8940439d4e3d",
+  "width": 1024,
+  "height": 1024,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-11T11:26:22.994Z"
+}

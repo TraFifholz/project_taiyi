@@ -1,0 +1,80 @@
+[
+  {
+    "token": "SFE3bRTW9ofAc0x8T2jczwQAncd",
+    "block_id": "TxJGdkpFuoBMLTxI7wDcwTNin3c",
+    "http_status": 200,
+    "original_http_status": 403,
+    "edition": "public_preview",
+    "content_type": "image/jpeg",
+    "status": "downloaded",
+    "local_file": "assets/01-img8-preview.jpg",
+    "bytes": 284208,
+    "expected_original_bytes": 400324,
+    "sha256": "bf796a739993b8b5b2e4a606d019a8d0f89c0eff6819c9c25fde16ec590158af"
+  },
+  {
+    "token": "DmAqbDmVuoEJFPxF2BQcRC2qnyg",
+    "block_id": "UGsjdYPKlo7rQ5xO72yc0BrpnLh",
+    "http_status": 200,
+    "original_http_status": 403,
+    "edition": "public_preview",
+    "content_type": "image/png",
+    "status": "downloaded",
+    "local_file": "assets/02-图片111-preview.png",
+    "bytes": 70981,
+    "expected_original_bytes": 79090,
+    "sha256": "c9c4f62806beb65072305d347523ea70d02c8a4da608f575a55d35ce24617ccb"
+  },
+  {
+    "token": "MtMzblHzKoPl6yxbguqcnZC1nuc",
+    "block_id": "EGgKd9Oxdo43nVx2B74csRBgnPc",
+    "http_status": 200,
+    "original_http_status": 403,
+    "edition": "public_preview",
+    "content_type": "image/jpeg",
+    "status": "downloaded",
+    "local_file": "assets/03-img27-preview.jpg",
+    "bytes": 184397,
+    "expected_original_bytes": 260503,
+    "sha256": "ca28b7c66832f3a52589d72f9539b98405d54015939a678277e557d2f4444689"
+  },
+  {
+    "token": "U73EbyFwcoyj5HxDODdcRSs5ngc",
+    "block_id": "Lh9Ld1ziVoVGyYxLFfzco8xPnuc",
+    "http_status": 200,
+    "original_http_status": 403,
+    "edition": "public_preview",
+    "content_type": "image/jpeg",
+    "status": "downloaded",
+    "local_file": "assets/04-img35-preview.jpg",
+    "bytes": 268778,
+    "expected_original_bytes": 818037,
+    "sha256": "e265e867d81a244908e61b7cd3d7429122bf9010a5144b406754a8091ea3c564"
+  },
+  {
+    "token": "QtU0bRzAao7KvyxKtcbci5oWnZV",
+    "block_id": "MJ4vd22lpoOMM2xqmizcTBgenJ2",
+    "http_status": 200,
+    "original_http_status": 403,
+    "edition": "public_preview",
+    "content_type": "image/png",
+    "status": "downloaded",
+    "local_file": "assets/05-图片111-preview.png",
+    "bytes": 1362709,
+    "expected_original_bytes": 3946452,
+    "sha256": "c7d889c993219b42630c0af47a9e45637f557be73ff2cbd430d458bbda2379e5"
+  },
+  {
+    "token": "K8oMbXUtfobkRjxCtakcBPofnPH",
+    "block_id": "LEcod1sA6oK9HUxrK54cxucpn2r",
+    "http_status": 200,
+    "original_http_status": 403,
+    "edition": "public_preview",
+    "content_type": "image/png",
+    "status": "downloaded",
+    "local_file": "assets/06-图片111-preview.png",
+    "bytes": 787080,
+    "expected_original_bytes": 2258898,
+    "sha256": "5e761f899982ba53df4292a1d61ae6d4b7e0c2e792e2f2de2157b87c1303805b"
+  }
+]

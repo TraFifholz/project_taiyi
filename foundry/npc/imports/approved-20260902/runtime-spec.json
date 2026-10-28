@@ -1,0 +1,20 @@
+{
+  "zhai": {
+    "id": "LS-NPC-006",
+    "actorId": "2YEzICTcbBxgNpxY",
+    "actorUuid": "Actor.2YEzICTcbBxgNpxY",
+    "actorImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp",
+    "tokenImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp",
+    "fullPortrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-006-20260902-pink-v4.webp",
+    "approvedRun": "20260902-ls-npc-006-pink-v4",
+    "approvedSha256": "dc608b1329d7ee9a7ceecfd1d717b0ebedf5a6a154a1420063aa247e127a670a"
+  },
+  "sh": {
+    "id": "LS-NPC-072",
+    "actorId": "cdESIH9b3XCTsX5K",
+    "actorUuid": "Actor.cdESIH9b3XCTsX5K",
+    "relationshipPortrait": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902.webp",
+    "relationshipListImage": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp",
+    "relationshipMapThumbnail": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp"
+  }
+}

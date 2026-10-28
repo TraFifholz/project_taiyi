@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260903-ep03-luo-kai-v1",
+  "characterId": "EP03-LUO-KAI",
+  "characterName": "罗恺",
+  "designStatus": "provisional",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "assets/candidates/EP03-LUO-KAI-罗恺-avatar.webp",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=571ad95bbe9bc1668baddc0fb6d5a62b340aa0a53fc45ee26e1118828ff392d3",
+      "中年感、灰色维修外套、耳机、平板与克制表情符合候选构思；双手可辨、无可读文字，衣装没有能力特效。原图头顶贴近边界，头像加32像素透明留边，不补画。"
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentPixels": 502513
+  },
+  "candidatePathBase": "portraits/",
+  "userApproved": false
+}

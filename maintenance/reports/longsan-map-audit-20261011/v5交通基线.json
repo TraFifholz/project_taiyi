@@ -1,0 +1,342 @@
+{
+  "scope": "v5 preparation from final actual v4 exports; no generator imports or asset edits",
+  "inputs": {
+    "assets\\maps\\longsan-geographic-v4-20261012\\龙散市-基础底图.svg": {
+      "sha256": "c7be4063b8cf6a2d1c7b92fc6fe577f93703192c8e9893fb8fb7566dc6f01605",
+      "bytes": 30858965,
+      "mtime": 1791774361.0873818
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "908fb547a977f3c642964df9f56517fbb067b29a868d6054b1b04861b27bcdb6",
+      "bytes": 30921198,
+      "mtime": 1791774361.177126
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\地图坐标与线路.json": {
+      "sha256": "29bc9549c554d3a4a7d29ee0ec0c4c74fbeab841df5f39238782ee6e949cb6a2",
+      "bytes": 154582,
+      "mtime": 1791774361.5446537
+    },
+    "assets\\maps\\longsan-geographic-v4-20261012\\地理骨架.geojson": {
+      "sha256": "3c0f9ddcb78bba47c3c3d27414f997bbf26a5ddf35764fbb806a16b5bc609ab1",
+      "bytes": 1187271,
+      "mtime": 1791774361.6214862
+    },
+    "campaign\\world\\15-城区与交通网络.md": {
+      "sha256": "f857bda308a893f598be4cd78390621f844f807780b5670fda824a811c07121c",
+      "bytes": 43431,
+      "mtime": 1778758510.119573
+    },
+    "src\\核心规则\\龙散市\\城区与地点.md": {
+      "sha256": "0357d8e8d8ef53af9090c44d3e1d82292e061b65372f11207fc385eb35611925",
+      "bytes": 4133,
+      "mtime": 1780316151.6749353
+    },
+    "src\\核心规则\\龙散市\\日常与制度.md": {
+      "sha256": "df72e65eb5a3e9deaaee788b4c331041dd0301c79ef9240936a759de6a8421bf",
+      "bytes": 4375,
+      "mtime": 1780365065.214247
+    }
+  },
+  "inputs_unchanged_during_read": true,
+  "coordinate_basis": "km; origin NW; x east, y south; SVG 100 units/km; 48x36 km",
+  "station_anchors": {
+    "龙散火车站": {
+      "xy_km": [
+        32.4,
+        17.3
+      ],
+      "metro_lines": [
+        "2",
+        "5"
+      ]
+    },
+    "龙散东站": {
+      "xy_km": [
+        38.5,
+        17.3
+      ],
+      "metro_lines": [
+        "2",
+        "8"
+      ]
+    }
+  },
+  "national_railways": {
+    "raw_svg_paths": 6,
+    "distinct_centerlines": 2,
+    "note": "Existing generic mainline strokes; no explicit conventional/HSR type. Replaces earlier erroneous absence claim.",
+    "lines": [
+      {
+        "index": 1,
+        "svg_group": "railways",
+        "stroke_copies": 3,
+        "path_d_sha256": "72d8b32cfab2697d98442b5b3880fa320a61aea3959f742f81fbf19137e89697",
+        "type_defined_in_actual_svg": false,
+        "length_km": 28.778996378361626,
+        "bounds_km": [
+          31.0544,
+          0.0,
+          33.04035,
+          27.9
+        ],
+        "endpoints_km": [
+          [
+            32.775619999999996,
+            0.0
+          ],
+          [
+            31.6,
+            27.9
+          ]
+        ],
+        "endpoint_on_frame_1m": [
+          true,
+          false
+        ],
+        "distance_to_metro_anchor_m": {
+          "龙散火车站": 0.0,
+          "龙散东站": 6056.5375283703315
+        },
+        "distance_to_station_concourse_m": {
+          "龙散火车站": 82.78887121631459,
+          "龙散东站": 5800.302853077846
+        },
+        "distance_to_each_drawn_platform_m": [
+          6053.502444859326,
+          6101.225383216447
+        ]
+      },
+      {
+        "index": 2,
+        "svg_group": "railways",
+        "stroke_copies": 3,
+        "path_d_sha256": "669b3d4d8912a3712e548d89549a327b0a82e9a562ce9cbdf3d115466610bbba",
+        "type_defined_in_actual_svg": false,
+        "length_km": 37.047930366523616,
+        "bounds_km": [
+          38.1,
+          0.0,
+          43.91025,
+          36.0
+        ],
+        "endpoints_km": [
+          [
+            38.47573,
+            0.0
+          ],
+          [
+            43.91025,
+            36.0
+          ]
+        ],
+        "endpoint_on_frame_1m": [
+          true,
+          true
+        ],
+        "distance_to_metro_anchor_m": {
+          "龙散火车站": 6099.954970808407,
+          "龙散东站": 0.0
+        },
+        "distance_to_station_concourse_m": {
+          "龙散火车站": 5882.719524643177,
+          "龙散东站": 134.47608855852016
+        },
+        "distance_to_each_drawn_platform_m": [
+          32.88175277122434,
+          0.0
+        ]
+      }
+    ]
+  },
+  "industrial_rails": {
+    "count": 12,
+    "length_km": 21.75,
+    "bounds_km": [
+      31.024,
+      12.83,
+      40.86,
+      33.07
+    ],
+    "distance_to_each_metro_anchor_m": {
+      "龙散火车站": 6265.54067898374,
+      "龙散东站": 2832.137002335867
+    },
+    "distance_to_national_rail_centerline_m": 0.0,
+    "touches_frame_1m": false
+  },
+  "station_platforms": [
+    {
+      "bounds_km": [
+        38.450500000000005,
+        16.8235,
+        38.4655,
+        16.9465
+      ],
+      "area_m2": 1844.9999999992126,
+      "long_extent_m": 123.00000000000111,
+      "distance_to_national_rail_centerline_m": 32.88175277122434
+    },
+    {
+      "bounds_km": [
+        38.4985,
+        16.8235,
+        38.5135,
+        16.9465
+      ],
+      "area_m2": 1845.0000000000866,
+      "long_extent_m": 123.00000000000111,
+      "distance_to_national_rail_centerline_m": 0.0
+    }
+  ],
+  "roads": {
+    "local": {
+      "tagged_paths": 2157,
+      "union_centerline_km": 4929.409347021123,
+      "declared_physical_width_m": [],
+      "tagged_stroke_width_m": [
+        5.5,
+        14.0
+      ],
+      "routes_touching_frame_1m": []
+    },
+    "motorway": {
+      "tagged_paths": 1,
+      "union_centerline_km": 123.429366796211,
+      "declared_physical_width_m": [
+        44.0
+      ],
+      "tagged_stroke_width_m": [
+        56.0
+      ],
+      "routes_touching_frame_1m": []
+    },
+    "primary": {
+      "tagged_paths": 14,
+      "union_centerline_km": 368.72153054061016,
+      "declared_physical_width_m": [
+        30.0
+      ],
+      "tagged_stroke_width_m": [
+        40.0
+      ],
+      "routes_touching_frame_1m": []
+    },
+    "rural": {
+      "tagged_paths": 8,
+      "union_centerline_km": 127.94220636137932,
+      "declared_physical_width_m": [
+        8.0
+      ],
+      "tagged_stroke_width_m": [
+        11.0
+      ],
+      "routes_touching_frame_1m": [
+        "北郊连接路"
+      ]
+    },
+    "secondary": {
+      "tagged_paths": 8,
+      "union_centerline_km": 132.23077521845454,
+      "declared_physical_width_m": [
+        20.0
+      ],
+      "tagged_stroke_width_m": [
+        26.5
+      ],
+      "routes_touching_frame_1m": []
+    }
+  },
+  "density_sample_method": "Fixed 2x2km windows. Ordinary roof union coverage; centreline union length. Excludes internal drives, paths, farm tracks. No floor area or population inference.",
+  "samples": [
+    {
+      "name": "北岭住宅",
+      "center_km": [
+        31,
+        9
+      ],
+      "sample_area_km2": 4,
+      "ordinary_roof_centroids": 173,
+      "ordinary_roof_coverage_fraction": 0.09700199999999896,
+      "main_and_city_local_centerline_km_per_km2": 5.0004375,
+      "including_village_roads_centerline_km_per_km2": 5.0004375
+    },
+    {
+      "name": "文星居住",
+      "center_km": [
+        12.5,
+        20.5
+      ],
+      "sample_area_km2": 4,
+      "ordinary_roof_centroids": 250,
+      "ordinary_roof_coverage_fraction": 0.10827789400000251,
+      "main_and_city_local_centerline_km_per_km2": 6.499999999999992,
+      "including_village_roads_centerline_km_per_km2": 6.499999999999992
+    },
+    {
+      "name": "故城片区",
+      "center_km": [
+        31.7,
+        22.6
+      ],
+      "sample_area_km2": 4,
+      "ordinary_roof_centroids": 426,
+      "ordinary_roof_coverage_fraction": 0.1287211214999984,
+      "main_and_city_local_centerline_km_per_km2": 7.509640777357554,
+      "including_village_roads_centerline_km_per_km2": 7.509640777357554
+    },
+    {
+      "name": "铁山工业",
+      "center_km": [
+        35.7,
+        15
+      ],
+      "sample_area_km2": 4,
+      "ordinary_roof_centroids": 65,
+      "ordinary_roof_coverage_fraction": 0.15993775500000046,
+      "main_and_city_local_centerline_km_per_km2": 4.503792002634948,
+      "including_village_roads_centerline_km_per_km2": 4.503792002634948
+    },
+    {
+      "name": "城西外缘",
+      "center_km": [
+        8,
+        24
+      ],
+      "sample_area_km2": 4,
+      "ordinary_roof_centroids": 1,
+      "ordinary_roof_coverage_fraction": 0.00017212500000001615,
+      "main_and_city_local_centerline_km_per_km2": 1.0865607241750153,
+      "including_village_roads_centerline_km_per_km2": 1.0865607241750153
+    },
+    {
+      "name": "云麓镇周边",
+      "center_km": [
+        5.5,
+        21
+      ],
+      "sample_area_km2": 4,
+      "ordinary_roof_centroids": 304,
+      "ordinary_roof_coverage_fraction": 0.03598975500000008,
+      "main_and_city_local_centerline_km_per_km2": 1.3604684227730965,
+      "including_village_roads_centerline_km_per_km2": 2.998618422773097
+    },
+    {
+      "name": "西南郊野",
+      "center_km": [
+        8,
+        31
+      ],
+      "sample_area_km2": 4,
+      "ordinary_roof_centroids": 0,
+      "ordinary_roof_coverage_fraction": 0.0,
+      "main_and_city_local_centerline_km_per_km2": 0.0,
+      "including_village_roads_centerline_km_per_km2": 0.0
+    }
+  ],
+  "corrections": [
+    "Untagged railways group contains two distinct generic routes, six painted paths; rail absence claim withdrawn.",
+    "Industrial rails use data-detail, not data-path: count corrected to 12.",
+    "Village street centreline is reported separately so its density is not silently omitted.",
+    "SVG painted stroke width is not the declared physical width/right of way."
+  ]
+}

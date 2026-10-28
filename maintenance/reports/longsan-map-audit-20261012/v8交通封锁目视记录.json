@@ -1,0 +1,96 @@
+{
+  "version": "v8-expanded-collapse-full-city-frozen",
+  "reviewer": "collapse_design_audit",
+  "status": "eleven final disaster, railway and urban-fabric closeups plus the full map visually reviewed; technical gates are audited separately",
+  "svg_inputs": [
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-基础底图.svg",
+      "sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "bytes": 122980065
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-底图与地铁.svg",
+      "sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+      "bytes": 123042868
+    }
+  ],
+  "actual_visual_reviews": [
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\近景\\塌陷全区-新.png",
+      "sha256": "a47e94e412de4baca9e4d95f0aa23491c4098a356578b2a78f8f3ce78b260918",
+      "bytes": 1585651,
+      "observation": "扩大后的灰色斜线核心、封锁墙、外側道路和管制口可区分；西侧故城继续生活区仍在界外。楚钢/铁山未建成站位置及三地标关系仍以独立几何量测为准。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\近景\\废墟与断线-新.png",
+      "sha256": "7a2406e37ad5712edd3448f1f9d2bd8617bbf9bec39008ca5c49703c1eb60f79",
+      "bytes": 472774,
+      "observation": "断裂道路和旧铁路线采用淡色或虚线，与仍运营线路区别可见；随机废墟轮廓允许作为战术地图概念层，不代表逐栋真实结构损毁模拟。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\近景\\普速绕行-新.png",
+      "sha256": "1e86fc4456dac097695e842790eb67449ce989277ecf1d24ffa0a15b8c465c4a",
+      "bytes": 1822822,
+      "observation": "普速与高铁恢复线在扩大隔离区东侧绕行，旧线经过灰区；具体封控带零侵入和支线接轨依据独立几何审核。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\近景\\火车站-新.png",
+      "sha256": "091ab7f8e605c038ffbea97d4377513c87cbd986175121c4dd4bc9450206648a",
+      "bytes": 447530,
+      "observation": "普速站轨道、站台/跨线设施与道路跨越能够目视区分；站场仅是概念图，未做调度能力/曲线半径/完整人行入口认证。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\近景\\东站-新.png",
+      "sha256": "186d076c7a9f248b193689855e8272cdafc49217144803f15e4dfbf991477460",
+      "bytes": 154438,
+      "observation": "东站与普速站分立，铁路/道路关系可辨；站前场地与公共路接入精细设计留作设施层完善。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\近景\\西管制口-新.png",
+      "sha256": "9efc13c9b1dabb6417902cd00da995a2794afb7f1e632087c2c135217cb92a1f",
+      "bytes": 1189603,
+      "observation": "西侧生活街区、隔离净空带、墙线和检查口空间顺序清楚，受控通道抵达墙线。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\近景\\两座在建站塌陷区-新.png",
+      "sha256": "679ca1c770d4a34cd909812670f9c7f66a21f534cd4209bab589237356d8774e",
+      "bytes": 429396,
+      "observation": "北东扩界后的核心、旧轨道和原设备作业场已实际读图；核心继续位于外围墙和巡逻路内，具体站点裕度以独立坐标量测为准。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\近景\\停工站与塌陷-地铁-新.png",
+      "sha256": "02c8eca93e50709995d56e59a2eeb8b0a10fc1433eb4401b38c90afa38d0d79f",
+      "bytes": 511007,
+      "observation": "楚钢集团、铁山的叉号站标均在灰色斜线核心内，名称明确为未建成·塌陷停工，虚线区间可与外侧规划延伸辨别。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\近景\\恢复环路支流桥-新.png",
+      "sha256": "4074a8abf8af2ee6646e58b92683f04f77887b7b6e3b72dbef9448413427d5c9",
+      "bytes": 65469,
+      "observation": "实际近景中外侧主路沿弧形桥面连通两岸，未再停在岸边；桥边线、道路填色与水体区分可见。120m水上中线仅是概念地图量测，未认证工程跨度。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\近景\\港货农机下穿-新.png",
+      "sha256": "4e0cefd588d7a1536cd649c60b8094e35f5e1e3eb409b8bd6a3017de25ff53ee",
+      "bytes": 105268,
+      "observation": "实际近景中两条铁路各有跨田间路的高架符号，田间路从下方穿行；此前错误的两根棕门杆已不在该点。160m高架符号长度不等于工程跨度。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\近景\\楚岸街坊-新.png",
+      "sha256": "9e0110ce77d7ee3f522a8d341103ef79d05bd0975405328486fb20f01fe90478",
+      "bytes": 267577,
+      "observation": "实际河岸近景中公共街坊与独立组团路径可区分，多种楼栋组合依道路布置；重复梳状院落等美术细化由独立美术审查继续记录。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-全图.png",
+      "sha256": "dea7d45027a0aad5487f22ce5679a04383c084162faacd2def45910b2ef772f8",
+      "bytes": 2593204,
+      "observation": "48×36km全图中旧城区隔离区与故城区分立，楚岸仍在西岸；普速、高铁及东侧恢复走廊与外围公路可辨。小尺度下仍有组团重复和城郊过渡细化空间。"
+    }
+  ],
+  "scope_limits": [
+    "This visual record does not declare art complete or user accepted.",
+    "Generated compound entrance positions are audited separately; legacy facility circulation is concept-level.",
+    "Urban repetition findings belong to independent v8目视审查.json."
+  ]
+}

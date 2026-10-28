@@ -1,0 +1,790 @@
+{
+  "status": "complete",
+  "result": {
+    "status": "complete",
+    "log": [
+      {
+        "name": "夏满弓",
+        "id": "WLZGos0f2rJ17PVL",
+        "action": "filled-existing"
+      },
+      {
+        "name": "闻笙",
+        "id": "zltELu4L5KcmScNG",
+        "action": "filled-existing"
+      },
+      {
+        "name": "马铁鹰",
+        "id": "7aQZVS47M2oWodIk",
+        "action": "filled-existing"
+      },
+      {
+        "name": "罗恺",
+        "id": "f5cd5bab755a2027",
+        "action": "created"
+      },
+      {
+        "name": "辛桦",
+        "id": "57cb77448d90157a",
+        "action": "created"
+      },
+      {
+        "name": "赵明芝",
+        "id": "gTmMOIwGa6flQvNZ",
+        "action": "filled-existing"
+      },
+      {
+        "name": "夏磊",
+        "id": "f0767585fdbe1cf3",
+        "action": "created"
+      },
+      {
+        "name": "合规清理员",
+        "id": "3b235949f8822316",
+        "action": "created"
+      },
+      {
+        "name": "青梢队成员",
+        "id": "edf233155b4144b1",
+        "action": "created"
+      },
+      {
+        "name": "追风警戒无人机",
+        "id": "f4202ab0f6698a33",
+        "action": "created"
+      },
+      {
+        "name": "冷藏车司机",
+        "id": "58225f08c387421e",
+        "action": "created"
+      },
+      {
+        "name": "M-3 随车审计员",
+        "id": "c97aece17d9be1cc",
+        "action": "created"
+      },
+      {
+        "name": "中继车 M-3",
+        "id": "298635cb754b5aea",
+        "action": "created"
+      },
+      {
+        "name": "零号库载车 Z-0",
+        "id": "afe354e8fe5faec3",
+        "action": "created"
+      },
+      {
+        "name": "追风载客轿车／空诱饵车",
+        "id": "e259aa8a691ed14b",
+        "action": "created"
+      },
+      {
+        "name": "马铁鹰的短轴冷藏厢车",
+        "id": "3a333216b680256b",
+        "action": "created"
+      },
+      {
+        "name": "罗恺的白色 SUV",
+        "id": "698ef8d10a6b1491",
+        "action": "created"
+      },
+      {
+        "name": "青梢队行动车",
+        "id": "389b4cc35538b135",
+        "action": "created"
+      },
+      {
+        "name": "欲子的退役玄盾巡逻越野车",
+        "id": "864f29cc4b5e420c",
+        "action": "created"
+      }
+    ],
+    "verification": {
+      "mode": "verify",
+      "world": "taiyi",
+      "reports": [
+        {
+          "id": "WLZGos0f2rJ17PVL",
+          "name": "夏满弓",
+          "type": "npc",
+          "attributes": {
+            "agility": 8,
+            "smarts": 8,
+            "spirit": 6,
+            "strength": 6,
+            "vigor": 8
+          },
+          "skills": {
+            "athletics": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "fighting": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "shooting": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "notice": {
+              "sides": 8,
+              "modifier": 2
+            },
+            "driving": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "persuasion": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "repair": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "stealth": {
+              "sides": 4,
+              "modifier": 0
+            }
+          },
+          "parry": 7,
+          "toughness": 8,
+          "armor": 2,
+          "spent": 18,
+          "wildcard": true,
+          "soak": 0,
+          "woundsIgnored": 0,
+          "wounds": 3,
+          "items": 24,
+          "failures": []
+        },
+        {
+          "id": "zltELu4L5KcmScNG",
+          "name": "棍木女",
+          "type": "npc",
+          "attributes": {
+            "agility": 8,
+            "smarts": 8,
+            "spirit": 8,
+            "strength": 4,
+            "vigor": 6
+          },
+          "skills": {
+            "athletics": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "notice": {
+              "sides": 10,
+              "modifier": 2
+            },
+            "occult": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "stealth": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "fighting": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "shooting": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "persuasion": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "repair": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "focus": {
+              "sides": 6,
+              "modifier": 0
+            }
+          },
+          "parry": 4,
+          "toughness": 6,
+          "armor": 1,
+          "spent": 15,
+          "wildcard": true,
+          "soak": 0,
+          "woundsIgnored": 0,
+          "wounds": 3,
+          "items": 25,
+          "failures": []
+        },
+        {
+          "id": "7aQZVS47M2oWodIk",
+          "name": "马铁鹰",
+          "type": "npc",
+          "attributes": {
+            "agility": 8,
+            "smarts": 6,
+            "spirit": 8,
+            "strength": 10,
+            "vigor": 10
+          },
+          "skills": {
+            "athletics": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "fighting": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "shooting": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "notice": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "intimidation": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "persuasion": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "driving": {
+              "sides": 6,
+              "modifier": 0
+            }
+          },
+          "parry": 7,
+          "toughness": 12,
+          "armor": 2,
+          "spent": 24,
+          "wildcard": true,
+          "soak": 2,
+          "woundsIgnored": 1,
+          "wounds": 3,
+          "items": 24,
+          "failures": []
+        },
+        {
+          "id": "f5cd5bab755a2027",
+          "name": "罗恺",
+          "type": "npc",
+          "attributes": {
+            "agility": 8,
+            "smarts": 8,
+            "spirit": 6,
+            "strength": 6,
+            "vigor": 8
+          },
+          "skills": {
+            "athletics": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "fighting": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "shooting": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "notice": {
+              "sides": 8,
+              "modifier": 2
+            },
+            "stealth": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "persuasion": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "repair": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "driving": {
+              "sides": 6,
+              "modifier": 0
+            }
+          },
+          "parry": 6,
+          "toughness": 9,
+          "armor": 2,
+          "spent": 21,
+          "wildcard": true,
+          "soak": 0,
+          "woundsIgnored": 0,
+          "wounds": 3,
+          "items": 26,
+          "failures": []
+        },
+        {
+          "id": "57cb77448d90157a",
+          "name": "辛桦",
+          "type": "npc",
+          "attributes": {
+            "agility": 8,
+            "smarts": 6,
+            "spirit": 8,
+            "strength": 6,
+            "vigor": 6
+          },
+          "skills": {
+            "athletics": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "fighting": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "shooting": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "notice": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "persuasion": {
+              "sides": 8,
+              "modifier": 1
+            },
+            "driving": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "stealth": {
+              "sides": 6,
+              "modifier": 0
+            }
+          },
+          "parry": 5,
+          "toughness": 7,
+          "armor": 1,
+          "spent": 18,
+          "wildcard": true,
+          "soak": 0,
+          "woundsIgnored": 0,
+          "wounds": 3,
+          "items": 24,
+          "failures": []
+        },
+        {
+          "id": "gTmMOIwGa6flQvNZ",
+          "name": "赵明芝",
+          "type": "npc",
+          "attributes": {
+            "agility": 8,
+            "smarts": 6,
+            "spirit": 8,
+            "strength": 4,
+            "vigor": 6
+          },
+          "skills": {
+            "athletics": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "notice": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "driving": {
+              "sides": 10,
+              "modifier": 2
+            },
+            "persuasion": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "repair": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "healing": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "common-knowledge": {
+              "sides": 6,
+              "modifier": 0
+            }
+          },
+          "parry": 2,
+          "toughness": 5,
+          "armor": 0,
+          "spent": 15,
+          "wildcard": true,
+          "soak": 0,
+          "woundsIgnored": 0,
+          "wounds": 3,
+          "items": 19,
+          "failures": []
+        },
+        {
+          "id": "f0767585fdbe1cf3",
+          "name": "夏磊",
+          "type": "npc",
+          "attributes": {
+            "agility": 6,
+            "smarts": 10,
+            "spirit": 6,
+            "strength": 4,
+            "vigor": 6
+          },
+          "skills": {
+            "athletics": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "notice": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "repair": {
+              "sides": 8,
+              "modifier": 2
+            },
+            "electronics": {
+              "sides": 8,
+              "modifier": 1
+            },
+            "research": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "persuasion": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "driving": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "common-knowledge": {
+              "sides": 6,
+              "modifier": 0
+            }
+          },
+          "parry": 2,
+          "toughness": 5,
+          "armor": 0,
+          "spent": 15,
+          "wildcard": true,
+          "soak": 0,
+          "woundsIgnored": 0,
+          "wounds": 3,
+          "items": 20,
+          "failures": []
+        },
+        {
+          "id": "3b235949f8822316",
+          "name": "合规清理员",
+          "type": "npc",
+          "attributes": {
+            "agility": 8,
+            "smarts": 6,
+            "spirit": 6,
+            "strength": 6,
+            "vigor": 6
+          },
+          "skills": {
+            "athletics": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "fighting": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "shooting": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "notice": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "stealth": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "repair": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "driving": {
+              "sides": 6,
+              "modifier": 0
+            }
+          },
+          "parry": 5,
+          "toughness": 7,
+          "armor": 2,
+          "spent": 0,
+          "wildcard": false,
+          "soak": 0,
+          "woundsIgnored": 0,
+          "wounds": 0,
+          "items": 13,
+          "failures": []
+        },
+        {
+          "id": "edf233155b4144b1",
+          "name": "青梢队成员",
+          "type": "npc",
+          "attributes": {
+            "agility": 8,
+            "smarts": 6,
+            "spirit": 6,
+            "strength": 6,
+            "vigor": 6
+          },
+          "skills": {
+            "athletics": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "fighting": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "shooting": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "notice": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "driving": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "stealth": {
+              "sides": 6,
+              "modifier": 0
+            }
+          },
+          "parry": 5,
+          "toughness": 6,
+          "armor": 1,
+          "spent": 0,
+          "wildcard": false,
+          "soak": 0,
+          "woundsIgnored": 0,
+          "wounds": 0,
+          "items": 11,
+          "failures": []
+        },
+        {
+          "id": "f4202ab0f6698a33",
+          "name": "追风警戒无人机",
+          "type": "npc",
+          "attributes": {
+            "agility": 8,
+            "smarts": 6,
+            "spirit": 6,
+            "strength": 4,
+            "vigor": 6
+          },
+          "skills": {
+            "athletics": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "notice": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "shooting": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "stealth": {
+              "sides": 6,
+              "modifier": 0
+            }
+          },
+          "parry": 2,
+          "toughness": 7,
+          "armor": 2,
+          "spent": 0,
+          "wildcard": false,
+          "soak": 0,
+          "woundsIgnored": 0,
+          "wounds": 0,
+          "items": 9,
+          "failures": []
+        },
+        {
+          "id": "58225f08c387421e",
+          "name": "冷藏车司机",
+          "type": "npc",
+          "attributes": {
+            "agility": 6,
+            "smarts": 6,
+            "spirit": 6,
+            "strength": 6,
+            "vigor": 6
+          },
+          "skills": {
+            "athletics": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "notice": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "driving": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "persuasion": {
+              "sides": 6,
+              "modifier": 0
+            }
+          },
+          "parry": 2,
+          "toughness": 5,
+          "armor": 0,
+          "spent": 0,
+          "wildcard": false,
+          "soak": 0,
+          "woundsIgnored": 0,
+          "wounds": 0,
+          "items": 5,
+          "failures": []
+        },
+        {
+          "id": "c97aece17d9be1cc",
+          "name": "M-3 随车审计员",
+          "type": "npc",
+          "attributes": {
+            "agility": 4,
+            "smarts": 6,
+            "spirit": 6,
+            "strength": 4,
+            "vigor": 6
+          },
+          "skills": {
+            "athletics": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "notice": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "research": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "persuasion": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "electronics": {
+              "sides": 6,
+              "modifier": 0
+            }
+          },
+          "parry": 2,
+          "toughness": 5,
+          "armor": 0,
+          "spent": 0,
+          "wildcard": false,
+          "soak": 0,
+          "woundsIgnored": 0,
+          "wounds": 0,
+          "items": 8,
+          "failures": []
+        },
+        {
+          "id": "298635cb754b5aea",
+          "name": "中继车 M-3",
+          "type": "vehicle",
+          "toughness": 14,
+          "armor": 2,
+          "wounds": 4,
+          "items": 1,
+          "failures": []
+        },
+        {
+          "id": "afe354e8fe5faec3",
+          "name": "零号库载车 Z-0",
+          "type": "vehicle",
+          "toughness": 16,
+          "armor": 5,
+          "wounds": 4,
+          "items": 1,
+          "failures": []
+        },
+        {
+          "id": "e259aa8a691ed14b",
+          "name": "追风载客轿车／空诱饵车",
+          "type": "vehicle",
+          "toughness": 10,
+          "armor": 2,
+          "wounds": 4,
+          "items": 1,
+          "failures": []
+        },
+        {
+          "id": "3a333216b680256b",
+          "name": "马铁鹰的短轴冷藏厢车",
+          "type": "vehicle",
+          "toughness": 12,
+          "armor": 2,
+          "wounds": 4,
+          "items": 1,
+          "failures": []
+        },
+        {
+          "id": "698ef8d10a6b1491",
+          "name": "罗恺的白色 SUV",
+          "type": "vehicle",
+          "toughness": 12,
+          "armor": 2,
+          "wounds": 4,
+          "items": 1,
+          "failures": []
+        },
+        {
+          "id": "389b4cc35538b135",
+          "name": "青梢队行动车",
+          "type": "vehicle",
+          "toughness": 11,
+          "armor": 1,
+          "wounds": 4,
+          "items": 1,
+          "failures": []
+        },
+        {
+          "id": "864f29cc4b5e420c",
+          "name": "欲子的退役玄盾巡逻越野车",
+          "type": "vehicle",
+          "toughness": 13,
+          "armor": 0,
+          "wounds": 4,
+          "items": 1,
+          "failures": []
+        }
+      ],
+      "passed": true,
+      "folder": "EP03 · 追风大劫案",
+      "journal": "EP03 · 追风大劫案 · GM速查"
+    }
+  }
+}

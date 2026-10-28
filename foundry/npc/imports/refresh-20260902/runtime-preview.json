@@ -1,0 +1,328 @@
+{
+  "status": "preview-complete",
+  "preview": {
+    "at": "2026-09-02T15:01:27.634Z",
+    "players": [
+      {
+        "id": "dVY3kCrHc0WYyKEa",
+        "name": "李好"
+      },
+      {
+        "id": "nJxWvLzZvBNXObjk",
+        "name": "阿尔坎·希耶尔"
+      },
+      {
+        "id": "ELxrslbsSHQg0cmK",
+        "name": "唐索"
+      },
+      {
+        "id": "j3f9G2P4vDSmmxZw",
+        "name": "雷武龙"
+      },
+      {
+        "id": "zmeMlq5pVbbqr1rA",
+        "name": "黑崎欲子"
+      },
+      {
+        "id": "vhpt4XZxZn59dWX5",
+        "name": "凯芙拉·威尔森"
+      }
+    ],
+    "portraits": [
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "owner": "凯芙拉·威尔森",
+        "relationshipId": "rel_10pw3nICJ24L5UXi",
+        "targetId": "LS-NPC-088",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-088.webp",
+          "listImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+          "mapThumbnail": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+          "portraitScale": 0.75
+        }
+      },
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "owner": "凯芙拉·威尔森",
+        "relationshipId": "rel_ftk0BSYMVFQtMiKL",
+        "targetId": "LS-NPC-090",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-090.webp",
+          "listImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp",
+          "mapThumbnail": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp",
+          "portraitScale": 0.75
+        }
+      },
+      {
+        "ownerId": "ELxrslbsSHQg0cmK",
+        "owner": "唐索",
+        "relationshipId": "rel_IPiYW1fXjoLkhtko",
+        "targetId": "LS-NPC-088",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-088.webp",
+          "listImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+          "mapThumbnail": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+          "portraitScale": 0.75
+        }
+      },
+      {
+        "ownerId": "ELxrslbsSHQg0cmK",
+        "owner": "唐索",
+        "relationshipId": "rel_uwQOA0xZy3xNmOI7",
+        "targetId": "LS-NPC-090",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-090.webp",
+          "listImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp",
+          "mapThumbnail": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp",
+          "portraitScale": 0.75
+        }
+      },
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "owner": "李好",
+        "relationshipId": "rel_p2qh8B9CqRzQtD2m",
+        "targetId": "LS-NPC-037",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-037-relationship-monochrome-20260902.webp"
+        }
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "owner": "阿尔坎·希耶尔",
+        "relationshipId": "rel_uY7oZ0YZ6wPDtZpV",
+        "targetId": "LS-NPC-088",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-088.webp",
+          "listImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+          "mapThumbnail": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+          "portraitScale": 0.75
+        }
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "owner": "阿尔坎·希耶尔",
+        "relationshipId": "rel_aUW46zeGgaln8rQ2",
+        "targetId": "LS-NPC-090",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-090.webp",
+          "listImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp",
+          "mapThumbnail": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp",
+          "portraitScale": 0.75
+        }
+      },
+      {
+        "ownerId": "zmeMlq5pVbbqr1rA",
+        "owner": "黑崎欲子",
+        "relationshipId": "rel_X8vzkfFs8AWHYhif",
+        "targetId": "LS-NPC-088",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-088.webp",
+          "listImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+          "mapThumbnail": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+          "portraitScale": 0.75
+        }
+      },
+      {
+        "ownerId": "zmeMlq5pVbbqr1rA",
+        "owner": "黑崎欲子",
+        "relationshipId": "rel_f6b6AgiqhZToFycc",
+        "targetId": "LS-NPC-090",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-090.webp",
+          "listImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp",
+          "mapThumbnail": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp",
+          "portraitScale": 0.75
+        }
+      }
+    ],
+    "capacity": [
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "from": 10,
+        "to": 12
+      }
+    ],
+    "party": [
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "targetId": "nJxWvLzZvBNXObjk",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "targetId": "ELxrslbsSHQg0cmK",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "targetId": "j3f9G2P4vDSmmxZw",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "targetId": "zmeMlq5pVbbqr1rA",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "targetId": "vhpt4XZxZn59dWX5",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "targetId": "dVY3kCrHc0WYyKEa",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "targetId": "ELxrslbsSHQg0cmK",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "targetId": "j3f9G2P4vDSmmxZw",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "targetId": "zmeMlq5pVbbqr1rA",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "targetId": "vhpt4XZxZn59dWX5",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "ELxrslbsSHQg0cmK",
+        "targetId": "dVY3kCrHc0WYyKEa",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "ELxrslbsSHQg0cmK",
+        "targetId": "nJxWvLzZvBNXObjk",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "ELxrslbsSHQg0cmK",
+        "targetId": "j3f9G2P4vDSmmxZw",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "ELxrslbsSHQg0cmK",
+        "targetId": "zmeMlq5pVbbqr1rA",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "ELxrslbsSHQg0cmK",
+        "targetId": "vhpt4XZxZn59dWX5",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "j3f9G2P4vDSmmxZw",
+        "targetId": "dVY3kCrHc0WYyKEa",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "j3f9G2P4vDSmmxZw",
+        "targetId": "nJxWvLzZvBNXObjk",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "j3f9G2P4vDSmmxZw",
+        "targetId": "ELxrslbsSHQg0cmK",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "j3f9G2P4vDSmmxZw",
+        "targetId": "zmeMlq5pVbbqr1rA",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "j3f9G2P4vDSmmxZw",
+        "targetId": "vhpt4XZxZn59dWX5",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "zmeMlq5pVbbqr1rA",
+        "targetId": "dVY3kCrHc0WYyKEa",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "zmeMlq5pVbbqr1rA",
+        "targetId": "nJxWvLzZvBNXObjk",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "zmeMlq5pVbbqr1rA",
+        "targetId": "ELxrslbsSHQg0cmK",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "zmeMlq5pVbbqr1rA",
+        "targetId": "j3f9G2P4vDSmmxZw",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "zmeMlq5pVbbqr1rA",
+        "targetId": "vhpt4XZxZn59dWX5",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "targetId": "dVY3kCrHc0WYyKEa",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "targetId": "nJxWvLzZvBNXObjk",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "targetId": "ELxrslbsSHQg0cmK",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "targetId": "j3f9G2P4vDSmmxZw",
+        "relationshipId": null,
+        "action": "created"
+      },
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "targetId": "zmeMlq5pVbbqr1rA",
+        "relationshipId": null,
+        "action": "created"
+      }
+    ]
+  }
+}

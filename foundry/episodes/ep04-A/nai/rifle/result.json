@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260911-ep04-A-rifle",
+  "characterId": "EP04-A-rifle",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "4a62df",
+  "apiSeed": 11092026,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "33dd3968f434deb512ccab2de4ea129fb569f50b612d26f4df939a21956c07a4",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-11T10:24:58.785Z"
+}

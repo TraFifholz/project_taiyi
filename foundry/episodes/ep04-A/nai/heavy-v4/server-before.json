@@ -1,0 +1,667 @@
+{
+  "actor": {
+    "_id": "79a02db6071ff86d",
+    "name": "追风重型自走机",
+    "type": "npc",
+    "folder": "50c1e74954f80165",
+    "img": "worlds/taiyi/assets/npc/avatars/EP04-A-heavy.webp",
+    "system": {
+      "attributes": {
+        "agility": {
+          "die": {
+            "sides": 4,
+            "modifier": 0
+          },
+          "wild-die": {
+            "sides": 6
+          }
+        },
+        "smarts": {
+          "die": {
+            "sides": 4,
+            "modifier": 0
+          },
+          "wild-die": {
+            "sides": 6
+          }
+        },
+        "spirit": {
+          "die": {
+            "sides": 6,
+            "modifier": 0
+          },
+          "wild-die": {
+            "sides": 6
+          },
+          "unShakeBonus": 2
+        },
+        "strength": {
+          "die": {
+            "sides": 12,
+            "modifier": 0
+          },
+          "wild-die": {
+            "sides": 6
+          }
+        },
+        "vigor": {
+          "die": {
+            "sides": 8,
+            "modifier": 0
+          },
+          "wild-die": {
+            "sides": 6
+          }
+        }
+      },
+      "wildcard": false,
+      "wounds": {
+        "value": 0,
+        "max": 2,
+        "ignored": 0
+      },
+      "bennies": {
+        "value": 0,
+        "max": 0
+      },
+      "pace": {
+        "base": "ground",
+        "ground": 4,
+        "fly": null,
+        "swim": null,
+        "burrow": null,
+        "running": {
+          "die": 6,
+          "mod": 0
+        }
+      },
+      "stats": {
+        "size": 2,
+        "toughness": {
+          "value": 0,
+          "armor": 0,
+          "modifier": 0
+        },
+        "parry": {
+          "value": 0,
+          "modifier": 0,
+          "shield": 0
+        },
+        "gangUpDamage": false,
+        "speed": {}
+      },
+      "details": {
+        "autoCalcToughness": true,
+        "autoCalcParry": true,
+        "parryBaseSwid": "fighting",
+        "archetype": "追风重型自走机",
+        "biography": {
+          "value": "<p>本场遭遇模板。</p>"
+        },
+        "notes": "<p>本场强化龙套，可承受2损伤。机炮开火前必须上一轮用动作预瞄，并公开指出射界；下一轮仅向该射界射击，目标脱离则落空或重新预瞄。不开火轮可慢速移动。正面装甲厚；侧面维护口/顶部镜头的瞄准攻击−2，命中忽略本卡4点装甲，玩家必须确实取得对应射线。维护口接入成功的电子学/修理检定使其停机，梁在接触接口并得到掩护时可用权限直接停机。构装体动摇恢复+2，免疫毒病，无呼吸。</p>"
+      },
+      "powerPoints": {
+        "general": {
+          "value": 0,
+          "max": 0
+        }
+      },
+      "advances": {
+        "mode": "expanded",
+        "value": 0,
+        "rank": "Novice"
+      },
+      "additionalStats": {},
+      "category": "",
+      "auras": {
+        "aura1": {
+          "x": 0,
+          "y": 0,
+          "elevation": 0,
+          "level": null,
+          "disabled": false,
+          "radius": 5,
+          "externalRadius": 0,
+          "rotation": 0,
+          "angle": 360,
+          "walls": false,
+          "priority": 0,
+          "enabled": false,
+          "color": "#000000",
+          "alpha": 0.25,
+          "visibleTo": []
+        },
+        "aura2": {
+          "x": 0,
+          "y": 0,
+          "elevation": 0,
+          "level": null,
+          "disabled": false,
+          "radius": 5,
+          "externalRadius": 0,
+          "rotation": 0,
+          "angle": 360,
+          "walls": false,
+          "priority": 0,
+          "enabled": false,
+          "color": "#000000",
+          "alpha": 0.25,
+          "visibleTo": []
+        }
+      },
+      "fatigue": {
+        "value": 0,
+        "max": 2,
+        "ignored": 0
+      },
+      "woundsOrFatigue": {
+        "ignored": 0
+      },
+      "initiative": {
+        "hasHesitant": false,
+        "hasLevelHeaded": false,
+        "hasImpLevelHeaded": false,
+        "hasQuick": false,
+        "follow": ""
+      }
+    },
+    "items": [
+      {
+        "_id": "c0f6079410a14560",
+        "name": "运动",
+        "type": "skill",
+        "img": "systems/swade/assets/icons/skill.svg",
+        "system": {
+          "description": "",
+          "source": "第四话 A · 本场预备数值",
+          "swid": "athletics",
+          "attribute": "agility",
+          "die": {
+            "sides": 4,
+            "modifier": 0
+          },
+          "wild-die": {
+            "sides": 6
+          },
+          "isCoreSkill": true
+        },
+        "effects": [],
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {},
+        "_stats": {
+          "coreVersion": "14.364",
+          "systemId": "swade",
+          "systemVersion": "6.0.3",
+          "createdTime": 1789122548286,
+          "modifiedTime": 1789122548286,
+          "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null
+        }
+      },
+      {
+        "_id": "3a8bbfb0e69cb1db",
+        "name": "格斗",
+        "type": "skill",
+        "img": "systems/swade/assets/icons/skill.svg",
+        "system": {
+          "description": "",
+          "source": "第四话 A · 本场预备数值",
+          "swid": "fighting",
+          "attribute": "agility",
+          "die": {
+            "sides": 4,
+            "modifier": 0
+          },
+          "wild-die": {
+            "sides": 6
+          },
+          "isCoreSkill": false
+        },
+        "effects": [],
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {},
+        "_stats": {
+          "coreVersion": "14.364",
+          "systemId": "swade",
+          "systemVersion": "6.0.3",
+          "createdTime": 1789122548286,
+          "modifiedTime": 1789122548286,
+          "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null
+        }
+      },
+      {
+        "_id": "8036a49aae72d2a2",
+        "name": "射击",
+        "type": "skill",
+        "img": "systems/swade/assets/icons/skill.svg",
+        "system": {
+          "description": "",
+          "source": "第四话 A · 本场预备数值",
+          "swid": "shooting",
+          "attribute": "agility",
+          "die": {
+            "sides": 6,
+            "modifier": 0
+          },
+          "wild-die": {
+            "sides": 6
+          },
+          "isCoreSkill": false
+        },
+        "effects": [],
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {},
+        "_stats": {
+          "coreVersion": "14.364",
+          "systemId": "swade",
+          "systemVersion": "6.0.3",
+          "createdTime": 1789122548286,
+          "modifiedTime": 1789122548286,
+          "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null
+        }
+      },
+      {
+        "_id": "a413cba8f3d9d1dc",
+        "name": "察觉",
+        "type": "skill",
+        "img": "systems/swade/assets/icons/skill.svg",
+        "system": {
+          "description": "",
+          "source": "第四话 A · 本场预备数值",
+          "swid": "notice",
+          "attribute": "smarts",
+          "die": {
+            "sides": 6,
+            "modifier": 0
+          },
+          "wild-die": {
+            "sides": 6
+          },
+          "isCoreSkill": true
+        },
+        "effects": [],
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {},
+        "_stats": {
+          "coreVersion": "14.364",
+          "systemId": "swade",
+          "systemVersion": "6.0.3",
+          "createdTime": 1789122548286,
+          "modifiedTime": 1789122548286,
+          "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null
+        }
+      },
+      {
+        "_id": "39aa7c16cb0fb3d4",
+        "name": "预瞄机炮",
+        "type": "weapon",
+        "img": "systems/swade/assets/icons/weapon.svg",
+        "system": {
+          "description": "<p>本场强化龙套，可承受2损伤。机炮开火前必须上一轮用动作预瞄，并公开指出射界；下一轮仅向该射界射击，目标脱离则落空或重新预瞄。不开火轮可慢速移动。正面装甲厚；侧面维护口/顶部镜头的瞄准攻击−2，命中忽略本卡4点装甲，玩家必须确实取得对应射线。维护口接入成功的电子学/修理检定使其停机，梁在接触接口并得到掩护时可用权限直接停机。构装体动摇恢复+2，免疫毒病，无呼吸。</p>",
+          "source": "第四话 A · 本场预备数值",
+          "damage": "2d8",
+          "range": "24/48/96",
+          "rangeType": 1,
+          "ap": 2,
+          "rof": 3,
+          "shots": 60,
+          "currentShots": 60,
+          "reloadType": "magazine",
+          "equipStatus": 3,
+          "equippable": true,
+          "favorite": true,
+          "quantity": 1,
+          "actions": {
+            "trait": "射击",
+            "traitMod": "",
+            "dmgMod": "",
+            "additional": {}
+          }
+        },
+        "effects": [],
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {},
+        "_stats": {
+          "coreVersion": "14.364",
+          "systemId": "swade",
+          "systemVersion": "6.0.3",
+          "createdTime": 1789122548286,
+          "modifiedTime": 1789122548286,
+          "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null
+        }
+      },
+      {
+        "_id": "8875f6f3a2f2c351",
+        "name": "机壳装甲",
+        "type": "armor",
+        "img": "systems/swade/assets/icons/armor.svg",
+        "system": {
+          "description": "",
+          "source": "第四话 A · 本场预备数值",
+          "armor": 4,
+          "equipStatus": 3,
+          "equippable": true,
+          "quantity": 1,
+          "locations": {
+            "torso": true,
+            "arms": false,
+            "legs": false,
+            "head": false
+          }
+        },
+        "effects": [],
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {},
+        "_stats": {
+          "coreVersion": "14.364",
+          "systemId": "swade",
+          "systemVersion": "6.0.3",
+          "createdTime": 1789122548286,
+          "modifiedTime": 1789122548286,
+          "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null
+        }
+      },
+      {
+        "_id": "7cb2665fecd0f01c",
+        "name": "本场行动与弱点",
+        "type": "ability",
+        "img": "systems/swade/assets/icons/ability.svg",
+        "system": {
+          "description": "<p>本场强化龙套，可承受2损伤。机炮开火前必须上一轮用动作预瞄，并公开指出射界；下一轮仅向该射界射击，目标脱离则落空或重新预瞄。不开火轮可慢速移动。正面装甲厚；侧面维护口/顶部镜头的瞄准攻击−2，命中忽略本卡4点装甲，玩家必须确实取得对应射线。维护口接入成功的电子学/修理检定使其停机，梁在接触接口并得到掩护时可用权限直接停机。构装体动摇恢复+2，免疫毒病，无呼吸。</p>",
+          "source": "第四话 A · 本场预备数值",
+          "favorite": true
+        },
+        "effects": [],
+        "folder": null,
+        "sort": 0,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {},
+        "_stats": {
+          "coreVersion": "14.364",
+          "systemId": "swade",
+          "systemVersion": "6.0.3",
+          "createdTime": 1789122548286,
+          "modifiedTime": 1789122548286,
+          "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null
+        }
+      }
+    ],
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "ZLyjAZl8wgUWm0mg": 3
+    },
+    "prototypeToken": {
+      "name": "追风重型自走机",
+      "actorLink": false,
+      "disposition": -1,
+      "texture": {
+        "src": "worlds/taiyi/assets/npc/avatars/EP04-A-heavy.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "width": 2,
+      "height": 2,
+      "displayName": 20,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "fatigue"
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "depth": 1,
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
+    },
+    "flags": {
+      "world": {
+        "taiyiEp04A": {
+          "key": "heavy",
+          "version": 1
+        }
+      }
+    },
+    "sort": 0,
+    "_stats": {
+      "coreVersion": "14.364",
+      "systemId": "swade",
+      "systemVersion": "6.0.3",
+      "createdTime": 1789122548286,
+      "modifiedTime": 1789122548287,
+      "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+    }
+  },
+  "tokens": [
+    {
+      "scene": "39cfb1510198509a",
+      "token": {
+        "_id": "ddbb74ca41c3eb3d",
+        "name": "追风重型自走机",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-heavy.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "width": 2,
+        "height": 2,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        },
+        "actorId": "79a02db6071ff86d",
+        "x": 1600,
+        "y": 1300,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:9",
+              "version": 1
+            }
+          }
+        },
+        "delta": null,
+        "elevation": 0,
+        "depth": 1,
+        "shape": 4,
+        "level": "defaultLevel0000",
+        "sort": 0,
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": {},
+        "occludable": {
+          "radius": 0
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "_movementHistory": [],
+        "_regions": []
+      }
+    }
+  ]
+}

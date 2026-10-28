@@ -1,0 +1,4192 @@
+{
+  "folder": {
+    "_id": "50c1e74954f80165",
+    "name": "第四话 A · PMC猎杀欲子",
+    "type": "Actor",
+    "color": "#b45736"
+  },
+  "actors": [
+    {
+      "_id": "1247d4524316e895",
+      "name": "PMC步枪手",
+      "type": "npc",
+      "folder": "50c1e74954f80165",
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "strength": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": false,
+        "wounds": {
+          "value": 0,
+          "max": 0,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 0,
+          "max": 0
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 6,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "PMC步枪手",
+          "biography": {
+            "value": "<p>本场遭遇模板。</p>"
+          },
+          "notes": "<p>六名步枪手总数包含队长；本模板部署五名。三人封街，另两人与队长护送指挥车。正常SWADE行动与弹药规则；不是第三话的车队行动限额。失去优势便撤退。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "f65fe630c36bf63f",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "0a259aab564eaba2",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "4964b48de7b6c0cb",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "66889f2adbc328f1",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "73a2496a17975288",
+          "name": "潜行",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "stealth",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "bbd3c371f06caf4e",
+          "name": "突击步枪",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "system": {
+            "description": "<p>正常行动和弹药消耗；射速3时正常应用后坐力。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "damage": "2d8",
+            "range": "24/48/96",
+            "rangeType": 1,
+            "ap": 2,
+            "rof": 3,
+            "shots": 30,
+            "currentShots": 30,
+            "reloadType": "magazine",
+            "equipStatus": 3,
+            "equippable": true,
+            "favorite": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            }
+          },
+          "effects": []
+        },
+        {
+          "_id": "6b63b37b06e08c22",
+          "name": "防弹背心",
+          "type": "armor",
+          "img": "systems/swade/assets/icons/armor.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "armor": 2,
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "locations": {
+              "torso": true,
+              "arms": false,
+              "legs": false,
+              "head": false
+            }
+          },
+          "effects": []
+        },
+        {
+          "_id": "00ef70d42388954f",
+          "name": "本场行动与弱点",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "system": {
+            "description": "<p>六名步枪手总数包含队长；本模板部署五名。三人封街，另两人与队长护送指挥车。正常SWADE行动与弹药规则；不是第三话的车队行动限额。失去优势便撤退。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "favorite": true
+          },
+          "effects": []
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "PMC步枪手",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        }
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04A": {
+            "key": "rifle",
+            "version": 1
+          }
+        }
+      }
+    },
+    {
+      "_id": "0ea4f2ed8e10cc42",
+      "name": "PMC队长",
+      "type": "npc",
+      "folder": "50c1e74954f80165",
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "strength": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": true,
+        "wounds": {
+          "value": 0,
+          "max": 3,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 2,
+          "max": 2
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 6,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "PMC队长",
+          "biography": {
+            "value": "<p>本场遭遇模板。</p>"
+          },
+          "notes": "<p>队长计入六名步枪手。优先保住指挥车和部下；伤亡过半、重机停摆或退路被截后，会用驻地坐标换命。知道本地部署，不知道方泰安上游。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "81e845a9f865b1f8",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "42aafd88891010da",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "10cfc2f84a78b8c6",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "1c1bfcac6451be2e",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "e5b84debbc2dec54",
+          "name": "潜行",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "stealth",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "dddf404e80658b64",
+          "name": "交涉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "persuasion",
+            "attribute": "spirit",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "092789f46ca48d69",
+          "name": "突击步枪",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "system": {
+            "description": "<p>正常行动和弹药消耗；射速3时正常应用后坐力。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "damage": "2d8",
+            "range": "24/48/96",
+            "rangeType": 1,
+            "ap": 2,
+            "rof": 3,
+            "shots": 30,
+            "currentShots": 30,
+            "reloadType": "magazine",
+            "equipStatus": 3,
+            "equippable": true,
+            "favorite": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            }
+          },
+          "effects": []
+        },
+        {
+          "_id": "552d57e0bc29b96b",
+          "name": "手枪",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "system": {
+            "description": "<p>正常行动和弹药消耗；射速3时正常应用后坐力。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "damage": "2d6",
+            "range": "12/24/48",
+            "rangeType": 1,
+            "ap": 1,
+            "rof": 1,
+            "shots": 12,
+            "currentShots": 12,
+            "reloadType": "magazine",
+            "equipStatus": 3,
+            "equippable": true,
+            "favorite": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            }
+          },
+          "effects": []
+        },
+        {
+          "_id": "d3278cc9c5c478e3",
+          "name": "防弹背心",
+          "type": "armor",
+          "img": "systems/swade/assets/icons/armor.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "armor": 2,
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "locations": {
+              "torso": true,
+              "arms": false,
+              "legs": false,
+              "head": false
+            }
+          },
+          "effects": []
+        },
+        {
+          "_id": "ec8403167b920a63",
+          "name": "本场行动与弱点",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "system": {
+            "description": "<p>队长计入六名步枪手。优先保住指挥车和部下；伤亡过半、重机停摆或退路被截后，会用驻地坐标换命。知道本地部署，不知道方泰安上游。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "favorite": true
+          },
+          "effects": []
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "PMC队长",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        }
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04A": {
+            "key": "leader",
+            "version": 1
+          }
+        }
+      }
+    },
+    {
+      "_id": "7768111d88fdd297",
+      "name": "PMC操机员兼司机",
+      "type": "npc",
+      "folder": "50c1e74954f80165",
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-operator.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "strength": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": false,
+        "wounds": {
+          "value": 0,
+          "max": 0,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 0,
+          "max": 0
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 6,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "PMC操机员兼司机",
+          "biography": {
+            "value": "<p>本场遭遇模板。</p>"
+          },
+          "notes": "<p>只有一人，在装甲指挥车内；驾驶、电子操控和射击照常受多动作减值。操机员被制服后，机械犬追最后目标，失去协同；不会自动倒戈。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "f06219531b190bd5",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "6a72edee98d28f6e",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "ccf2105c89020c8c",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "23a883c7393305ab",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "4bb9d731e0066aa6",
+          "name": "驾驶",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "driving",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "90d17f55efeef2d1",
+          "name": "电子学",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "electronics",
+            "attribute": "smarts",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "40ddf3924e42f730",
+          "name": "修理",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "repair",
+            "attribute": "smarts",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "a03ab7600768c42f",
+          "name": "手枪",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "system": {
+            "description": "<p>正常行动和弹药消耗；射速3时正常应用后坐力。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "damage": "2d6",
+            "range": "12/24/48",
+            "rangeType": 1,
+            "ap": 1,
+            "rof": 1,
+            "shots": 12,
+            "currentShots": 12,
+            "reloadType": "magazine",
+            "equipStatus": 3,
+            "equippable": true,
+            "favorite": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            }
+          },
+          "effects": []
+        },
+        {
+          "_id": "1e89be8d7f1c9176",
+          "name": "防弹背心",
+          "type": "armor",
+          "img": "systems/swade/assets/icons/armor.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "armor": 1,
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "locations": {
+              "torso": true,
+              "arms": false,
+              "legs": false,
+              "head": false
+            }
+          },
+          "effects": []
+        },
+        {
+          "_id": "eeccf1106f5066a8",
+          "name": "本场行动与弱点",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "system": {
+            "description": "<p>只有一人，在装甲指挥车内；驾驶、电子操控和射击照常受多动作减值。操机员被制服后，机械犬追最后目标，失去协同；不会自动倒戈。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "favorite": true
+          },
+          "effects": []
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "PMC操机员兼司机",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-operator.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        }
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04A": {
+            "key": "operator",
+            "version": 1
+          }
+        }
+      }
+    },
+    {
+      "_id": "db91d24426d5d760",
+      "name": "封后路的街头打手",
+      "type": "npc",
+      "folder": "50c1e74954f80165",
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-thug.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "strength": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": false,
+        "wounds": {
+          "value": 0,
+          "max": 0,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 0,
+          "max": 0
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 6,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "封后路的街头打手",
+          "biography": {
+            "value": "<p>本场遭遇模板。</p>"
+          },
+          "notes": "<p>三人守后巷。一个倒下或面对明显压倒性火力就逃，受雇不等于愿意送死。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "8423360478550a34",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "6864f5ea2b0aeb35",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "8ee0806e09ac20b7",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "ad071647a7afcfec",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "61843c3502c104d0",
+          "name": "潜行",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "stealth",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "8ed188852e402ef5",
+          "name": "手枪",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "system": {
+            "description": "<p>正常行动和弹药消耗；射速3时正常应用后坐力。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "damage": "2d6",
+            "range": "12/24/48",
+            "rangeType": 1,
+            "ap": 1,
+            "rof": 1,
+            "shots": 12,
+            "currentShots": 12,
+            "reloadType": "magazine",
+            "equipStatus": 3,
+            "equippable": true,
+            "favorite": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            }
+          },
+          "effects": []
+        },
+        {
+          "_id": "4e6fe1377d8420ef",
+          "name": "短棍",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "system": {
+            "description": "<p>正常行动和弹药消耗；射速3时正常应用后坐力。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "damage": "@str+d4",
+            "range": "",
+            "rangeType": 0,
+            "ap": 0,
+            "rof": 1,
+            "shots": 0,
+            "currentShots": 0,
+            "reloadType": "none",
+            "equipStatus": 3,
+            "equippable": true,
+            "favorite": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "格斗",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            }
+          },
+          "effects": []
+        },
+        {
+          "_id": "059c5d8bfd7f8d83",
+          "name": "本场行动与弱点",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "system": {
+            "description": "<p>三人守后巷。一个倒下或面对明显压倒性火力就逃，受雇不等于愿意送死。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "favorite": true
+          },
+          "effects": []
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "封后路的街头打手",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-thug.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        }
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04A": {
+            "key": "thug",
+            "version": 1
+          }
+        }
+      }
+    },
+    {
+      "_id": "327bdbb9fc7162d5",
+      "name": "追风机械犬",
+      "type": "npc",
+      "folder": "50c1e74954f80165",
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-hound.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "unShakeBonus": 2
+          },
+          "strength": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": false,
+        "wounds": {
+          "value": 0,
+          "max": 0,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 0,
+          "max": 0
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 10,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "追风机械犬",
+          "biography": {
+            "value": "<p>本场遭遇模板。</p>"
+          },
+          "notes": "<p>液压扑跃按运动、擒抱或考验处理，不能免费击倒加咬击。构装体：动摇恢复+2，免疫毒病，不呼吸；没有额外动作。被毁后不补充。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "ccc45910e9ffd4e8",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "06d74bbd1701b0e0",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "2b76152d35147061",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "e2dc69ec56a9c50d",
+          "name": "潜行",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "stealth",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "b33ad4d390afde74",
+          "name": "切割颚",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "system": {
+            "description": "<p>正常行动和弹药消耗；射速3时正常应用后坐力。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "damage": "@str+d6",
+            "range": "",
+            "rangeType": 0,
+            "ap": 2,
+            "rof": 1,
+            "shots": 0,
+            "currentShots": 0,
+            "reloadType": "none",
+            "equipStatus": 3,
+            "equippable": true,
+            "favorite": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "格斗",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            }
+          },
+          "effects": []
+        },
+        {
+          "_id": "398fd3f452388947",
+          "name": "机壳装甲",
+          "type": "armor",
+          "img": "systems/swade/assets/icons/armor.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "armor": 2,
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "locations": {
+              "torso": true,
+              "arms": false,
+              "legs": false,
+              "head": false
+            }
+          },
+          "effects": []
+        },
+        {
+          "_id": "966bd5ad9176c39f",
+          "name": "本场行动与弱点",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "system": {
+            "description": "<p>液压扑跃按运动、擒抱或考验处理，不能免费击倒加咬击。构装体：动摇恢复+2，免疫毒病，不呼吸；没有额外动作。被毁后不补充。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "favorite": true
+          },
+          "effects": []
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "追风机械犬",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-hound.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        }
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04A": {
+            "key": "hound",
+            "version": 1
+          }
+        }
+      }
+    },
+    {
+      "_id": "79a02db6071ff86d",
+      "name": "追风重型自走机",
+      "type": "npc",
+      "folder": "50c1e74954f80165",
+      "img": "worlds/taiyi/assets/npc/avatars/EP04-A-heavy-multi-v2.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "unShakeBonus": 2
+          },
+          "strength": {
+            "die": {
+              "sides": 12,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": false,
+        "wounds": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 0,
+          "max": 0
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 4,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 2,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "追风重型自走机",
+          "biography": {
+            "value": "<p>本场遭遇模板。</p>"
+          },
+          "notes": "<p>本场强化龙套，可承受2损伤。机炮开火前必须上一轮用动作预瞄，并公开指出射界；下一轮仅向该射界射击，目标脱离则落空或重新预瞄。不开火轮可慢速移动。正面装甲厚；侧面维护口/顶部镜头的瞄准攻击−2，命中忽略本卡4点装甲，玩家必须确实取得对应射线。维护口接入成功的电子学/修理检定使其停机，梁在接触接口并得到掩护时可用权限直接停机。构装体动摇恢复+2，免疫毒病，无呼吸。</p><p>同一台机器的三种武装共用正常动作；同轮多动作照常累积减值，不因装了三种武器而免费开火三次。远程武器保留提前一轮预瞄：先公开射界或榴弹落点，下一轮才开火；离开射界/爆炸范围即规避。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "c0f6079410a14560",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1789122548286,
+            "modifiedTime": 1789122548286,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "3a8bbfb0e69cb1db",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1789122548286,
+            "modifiedTime": 1789122548286,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "8036a49aae72d2a2",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1789122548286,
+            "modifiedTime": 1789122548286,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "a413cba8f3d9d1dc",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1789122548286,
+            "modifiedTime": 1789122548286,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "39aa7c16cb0fb3d4",
+          "name": "臂载机枪",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "system": {
+            "description": "<p>同一台机器的三种武装共用正常动作；同轮多动作照常累积减值，不因装了三种武器而免费开火三次。远程武器保留提前一轮预瞄：先公开射界或榴弹落点，下一轮才开火；离开射界/爆炸范围即规避。 机枪使用射击，伤害2d8，AP2，射速3；正常计算后坐力与弹药。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "damage": "2d8",
+            "range": "24/48/96",
+            "rangeType": 1,
+            "ap": 2,
+            "rof": 3,
+            "shots": 60,
+            "currentShots": 60,
+            "reloadType": "magazine",
+            "equipStatus": 3,
+            "equippable": true,
+            "favorite": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            }
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1789122548286,
+            "modifiedTime": 1789125961876,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "8875f6f3a2f2c351",
+          "name": "机壳装甲",
+          "type": "armor",
+          "img": "systems/swade/assets/icons/armor.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "armor": 4,
+            "equipStatus": 3,
+            "equippable": true,
+            "quantity": 1,
+            "locations": {
+              "torso": true,
+              "arms": false,
+              "legs": false,
+              "head": false
+            }
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1789122548286,
+            "modifiedTime": 1789122548286,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "7cb2665fecd0f01c",
+          "name": "本场行动与弱点",
+          "type": "ability",
+          "img": "systems/swade/assets/icons/ability.svg",
+          "system": {
+            "description": "<p>本场强化龙套，可承受2损伤。机炮开火前必须上一轮用动作预瞄，并公开指出射界；下一轮仅向该射界射击，目标脱离则落空或重新预瞄。不开火轮可慢速移动。正面装甲厚；侧面维护口/顶部镜头的瞄准攻击−2，命中忽略本卡4点装甲，玩家必须确实取得对应射线。维护口接入成功的电子学/修理检定使其停机，梁在接触接口并得到掩护时可用权限直接停机。构装体动摇恢复+2，免疫毒病，无呼吸。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "favorite": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1789122548286,
+            "modifiedTime": 1789122548286,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "45e3001d476c1d6b",
+          "name": "液压破拆钳",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "system": {
+            "description": "<p>同一台机器的三种武装共用正常动作；同轮多动作照常累积减值，不因装了三种武器而免费开火三次。远程武器保留提前一轮预瞄：先公开射界或榴弹落点，下一轮才开火；离开射界/爆炸范围即规避。 近战攻击造成力量+d8、AP2；夹住目标按擒抱另行处理，不附送自动擒抱或额外伤害。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "damage": "@str+d8",
+            "range": "",
+            "rangeType": 0,
+            "ap": 2,
+            "rof": 1,
+            "shots": 0,
+            "currentShots": 0,
+            "reloadType": "none",
+            "equipStatus": 3,
+            "equippable": true,
+            "favorite": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "格斗",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            }
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "ZLyjAZl8wgUWm0mg": 3
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1789125961898,
+            "modifiedTime": 1789125961898,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "fd12acd2a2a7f7a6",
+          "name": "肩载榴弹炮",
+          "type": "weapon",
+          "img": "systems/swade/assets/icons/weapon.svg",
+          "system": {
+            "description": "<p>同一台机器的三种武装共用正常动作；同轮多动作照常累积减值，不因装了三种武器而免费开火三次。远程武器保留提前一轮预瞄：先公开射界或榴弹落点，下一轮才开火；离开射界/爆炸范围即规避。 本场用中型爆炸模板，3d6、AP2，6发；需要可见目标或同伴提供的实际落点，不能隔楼精确追踪玩家。爆炸、失手偏移与遮蔽照常结算。本场武器数值，非现实口径换算。</p>",
+            "source": "第四话 A · 本场预备数值",
+            "damage": "3d6",
+            "range": "24/48/96",
+            "rangeType": 1,
+            "ap": 2,
+            "rof": 1,
+            "shots": 6,
+            "currentShots": 6,
+            "reloadType": "single",
+            "equipStatus": 3,
+            "equippable": true,
+            "favorite": true,
+            "quantity": 1,
+            "actions": {
+              "trait": "射击",
+              "traitMod": "",
+              "dmgMod": "",
+              "additional": {}
+            },
+            "isHeavyWeapon": true,
+            "templates": {
+              "small": false,
+              "medium": true,
+              "large": false,
+              "cone": false,
+              "scone": false,
+              "stream": false
+            }
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0,
+            "ZLyjAZl8wgUWm0mg": 3
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "swade",
+            "systemVersion": "6.0.3",
+            "createdTime": 1789125961917,
+            "modifiedTime": 1789125961917,
+            "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "追风重型自走机",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-heavy-multi-v2.webp"
+        },
+        "width": 2,
+        "height": 2,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        }
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04A": {
+            "key": "heavy",
+            "version": 1
+          }
+        }
+      }
+    },
+    {
+      "_id": "5b6241d2848e8926",
+      "name": "堵路厢车",
+      "type": "vehicle",
+      "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-COLD-TRUCK.png",
+      "system": {
+        "size": 5,
+        "handling": -1,
+        "topspeed": {
+          "value": 100,
+          "unit": "km/h"
+        },
+        "toughness": {
+          "total": 12,
+          "armor": 2
+        },
+        "wounds": {
+          "value": 0,
+          "max": 4,
+          "ignored": 0
+        },
+        "crew": {
+          "required": {
+            "max": 1
+          },
+          "optional": {
+            "value": 0,
+            "max": 7
+          },
+          "members": []
+        },
+        "driver": {
+          "skill": "driving",
+          "skillAlternative": ""
+        },
+        "description": "<p>阻路厢车，普通车辆，可抢夺、挪走或打毁；不是马铁鹰的车。</p>",
+        "classification": "陆地载具",
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          },
+          "smarts": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          },
+          "spirit": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          },
+          "strength": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "encumbranceSteps": 0,
+            "enabled": false
+          },
+          "vigor": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          }
+        },
+        "scale": 0,
+        "cost": 0,
+        "stats": {
+          "parry": {
+            "value": 0,
+            "shield": 0,
+            "modifier": 0
+          }
+        },
+        "energy": {
+          "value": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "status": {
+          "isOutOfControl": false,
+          "isWrecked": false,
+          "isDistracted": false,
+          "isVulnerable": false
+        },
+        "details": {
+          "autoCalcParry": true
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        },
+        "cargo": {
+          "max": 0
+        },
+        "mods": {
+          "max": 0
+        }
+      },
+      "items": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "堵路厢车",
+        "actorLink": false,
+        "width": 2,
+        "height": 3,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-COLD-TRUCK.png"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "bar1": {
+          "attribute": "wounds"
+        }
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04A": {
+            "key": "van",
+            "version": 1
+          }
+        }
+      },
+      "folder": "50c1e74954f80165",
+      "effects": [],
+      "sort": 0
+    },
+    {
+      "_id": "d4624da235257d3a",
+      "name": "PMC装甲指挥车",
+      "type": "vehicle",
+      "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-M3.png",
+      "system": {
+        "size": 5,
+        "handling": 0,
+        "topspeed": {
+          "value": 120,
+          "unit": "km/h"
+        },
+        "toughness": {
+          "total": 14,
+          "armor": 4
+        },
+        "wounds": {
+          "value": 0,
+          "max": 4,
+          "ignored": 0
+        },
+        "crew": {
+          "required": {
+            "max": 1
+          },
+          "optional": {
+            "value": 0,
+            "max": 7
+          },
+          "members": []
+        },
+        "driver": {
+          "skill": "driving",
+          "skillAlternative": ""
+        },
+        "description": "<p>操机员兼司机一人在车内；没有额外炮手或独立火力。打破车门或迫停车后可夺取。不是M-3，也没有退款、归档或上游情报。</p>",
+        "classification": "陆地载具",
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          },
+          "smarts": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          },
+          "spirit": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          },
+          "strength": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "encumbranceSteps": 0,
+            "enabled": false
+          },
+          "vigor": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "enabled": false
+          }
+        },
+        "scale": 0,
+        "cost": 0,
+        "stats": {
+          "parry": {
+            "value": 0,
+            "shield": 0,
+            "modifier": 0
+          }
+        },
+        "energy": {
+          "value": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "status": {
+          "isOutOfControl": false,
+          "isWrecked": false,
+          "isDistracted": false,
+          "isVulnerable": false
+        },
+        "details": {
+          "autoCalcParry": true
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        },
+        "cargo": {
+          "max": 0
+        },
+        "mods": {
+          "max": 0
+        }
+      },
+      "items": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "PMC装甲指挥车",
+        "actorLink": false,
+        "width": 2,
+        "height": 3,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-M3.png"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "bar1": {
+          "attribute": "wounds"
+        }
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04A": {
+            "key": "command",
+            "version": 1
+          }
+        }
+      },
+      "folder": "50c1e74954f80165",
+      "effects": [],
+      "sort": 0
+    },
+    {
+      "_id": "480d85e94c62cb42",
+      "name": "梁文川 · A场支援",
+      "type": "npc",
+      "folder": "50c1e74954f80165",
+      "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-101.webp",
+      "system": {
+        "attributes": {
+          "agility": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "smarts": {
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "spirit": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "strength": {
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          },
+          "vigor": {
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            }
+          }
+        },
+        "wildcard": true,
+        "wounds": {
+          "value": 0,
+          "max": 3,
+          "ignored": 0
+        },
+        "bennies": {
+          "value": 2,
+          "max": 2
+        },
+        "pace": {
+          "base": "ground",
+          "ground": 6,
+          "fly": null,
+          "swim": null,
+          "burrow": null,
+          "running": {
+            "die": 6,
+            "mod": 0
+          }
+        },
+        "stats": {
+          "size": 0,
+          "toughness": {
+            "value": 0,
+            "armor": 0,
+            "modifier": 0
+          },
+          "parry": {
+            "value": 0,
+            "modifier": 0,
+            "shield": 0
+          },
+          "gangUpDamage": false,
+          "speed": {}
+        },
+        "details": {
+          "autoCalcToughness": true,
+          "autoCalcParry": true,
+          "parryBaseSwid": "fighting",
+          "archetype": "恋旧的中年熟人",
+          "biography": {
+            "value": "<p>本场遭遇模板。</p>"
+          },
+          "notes": "<p>仅供本场保护与维修，不是完整人物构筑。进入接口旁且获得掩护，可花一个动作以维护权限停机。没有远程一键控制全场的能力；若玩家已经击毁机器，则关闭残存炮塔或上报链路，不再刷新敌人。</p>"
+        },
+        "powerPoints": {
+          "general": {
+            "value": 0,
+            "max": 0
+          }
+        },
+        "advances": {
+          "mode": "expanded",
+          "value": 0,
+          "rank": "Novice"
+        },
+        "additionalStats": {},
+        "category": "",
+        "auras": {
+          "aura1": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          },
+          "aura2": {
+            "x": 0,
+            "y": 0,
+            "elevation": 0,
+            "level": null,
+            "disabled": false,
+            "radius": 5,
+            "externalRadius": 0,
+            "rotation": 0,
+            "angle": 360,
+            "walls": false,
+            "priority": 0,
+            "enabled": false,
+            "color": "#000000",
+            "alpha": 0.25,
+            "visibleTo": []
+          }
+        },
+        "fatigue": {
+          "value": 0,
+          "max": 2,
+          "ignored": 0
+        },
+        "woundsOrFatigue": {
+          "ignored": 0
+        },
+        "initiative": {
+          "hasHesitant": false,
+          "hasLevelHeaded": false,
+          "hasImpLevelHeaded": false,
+          "hasQuick": false,
+          "follow": ""
+        }
+      },
+      "items": [
+        {
+          "_id": "3d785824f4ff50c3",
+          "name": "运动",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "athletics",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "cc1d918c40f26b10",
+          "name": "格斗",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "fighting",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "97ce330e7e77f64a",
+          "name": "射击",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "shooting",
+            "attribute": "agility",
+            "die": {
+              "sides": 4,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "cd67a989542f9750",
+          "name": "察觉",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "notice",
+            "attribute": "smarts",
+            "die": {
+              "sides": 6,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": true
+          },
+          "effects": []
+        },
+        {
+          "_id": "6d3d8f56bee7c7de",
+          "name": "驾驶",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "driving",
+            "attribute": "agility",
+            "die": {
+              "sides": 8,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "36ed91ea76346d80",
+          "name": "电子学",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "electronics",
+            "attribute": "smarts",
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        },
+        {
+          "_id": "bd81500e5919f85c",
+          "name": "修理",
+          "type": "skill",
+          "img": "systems/swade/assets/icons/skill.svg",
+          "system": {
+            "description": "",
+            "source": "第四话 A · 本场预备数值",
+            "swid": "repair",
+            "attribute": "smarts",
+            "die": {
+              "sides": 10,
+              "modifier": 0
+            },
+            "wild-die": {
+              "sides": 6
+            },
+            "isCoreSkill": false
+          },
+          "effects": []
+        }
+      ],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "prototypeToken": {
+        "name": "梁文川",
+        "actorLink": false,
+        "disposition": 1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/LS-NPC-101.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        }
+      },
+      "flags": {
+        "world": {
+          "taiyiEp04A": {
+            "key": "liang",
+            "version": 1
+          }
+        }
+      }
+    }
+  ],
+  "scene": {
+    "_id": "39cfb1510198509a",
+    "name": "A · 施工街口与停车场",
+    "active": false,
+    "navigation": false,
+    "width": 3072,
+    "height": 2048,
+    "padding": 0,
+    "grid": {
+      "type": 0,
+      "size": 50,
+      "distance": 1,
+      "units": "英寸"
+    },
+    "tokenVision": false,
+    "fog": {
+      "mode": 0
+    },
+    "tokens": [
+      {
+        "_id": "c6ab4bf521c7d93f",
+        "name": "PMC步枪手 1",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "1247d4524316e895",
+        "x": 500,
+        "y": 1020,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:0",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "1662be50dcadcea8",
+        "name": "PMC步枪手 2",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "1247d4524316e895",
+        "x": 920,
+        "y": 1030,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:1",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "7caca0449598e597",
+        "name": "PMC步枪手 3",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "1247d4524316e895",
+        "x": 1220,
+        "y": 1020,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:2",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "d65aa2280ca55cba",
+        "name": "PMC步枪手 4",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "1247d4524316e895",
+        "x": 2360,
+        "y": 680,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:3",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "81771ab3a4b9e0de",
+        "name": "PMC步枪手 5",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "1247d4524316e895",
+        "x": 2460,
+        "y": 920,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:4",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "910b8be9bc6c6300",
+        "name": "PMC队长",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "0ea4f2ed8e10cc42",
+        "x": 2500,
+        "y": 580,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:5",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "ba42db31cd674908",
+        "name": "PMC操机员兼司机",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-operator.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "7768111d88fdd297",
+        "x": 2720,
+        "y": 680,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:6",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "b5535d19e9a88937",
+        "name": "追风机械犬 1",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-hound.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "327bdbb9fc7162d5",
+        "x": 200,
+        "y": 670,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:7",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "de19891af6f67672",
+        "name": "追风机械犬 2",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-hound.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "327bdbb9fc7162d5",
+        "x": 290,
+        "y": 900,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:8",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "ddbb74ca41c3eb3d",
+        "name": "追风重型自走机",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-heavy-multi-v2.webp"
+        },
+        "width": 2,
+        "height": 2,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "79a02db6071ff86d",
+        "x": 1600,
+        "y": 1300,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:9",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "ca09a5a424054695",
+        "name": "封后路的街头打手 1",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-thug.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "db91d24426d5d760",
+        "x": 60,
+        "y": 170,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:10",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "09d8cb92bc182726",
+        "name": "封后路的街头打手 2",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-thug.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "db91d24426d5d760",
+        "x": 70,
+        "y": 320,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:11",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "63fc5faf02c62ff5",
+        "name": "封后路的街头打手 3",
+        "actorLink": false,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-thug.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "db91d24426d5d760",
+        "x": 80,
+        "y": 460,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:12",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "4d2981db13ab3dcc",
+        "name": "梁文川",
+        "actorLink": false,
+        "disposition": 1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/LS-NPC-101.webp"
+        },
+        "width": 1,
+        "height": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "bar2": {
+          "attribute": "fatigue"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "actorId": "480d85e94c62cb42",
+        "x": 1860,
+        "y": 1600,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:13",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "dc9ed4e7f609c2ba",
+        "name": "堵路厢车",
+        "actorLink": false,
+        "width": 2,
+        "height": 3,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-COLD-TRUCK.png"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "actorId": "5b6241d2848e8926",
+        "x": 1540,
+        "y": 740,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:14",
+              "version": 1
+            }
+          }
+        }
+      },
+      {
+        "_id": "3eba584ca9b9ae2e",
+        "name": "PMC装甲指挥车",
+        "actorLink": false,
+        "width": 2,
+        "height": 3,
+        "disposition": -1,
+        "texture": {
+          "src": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-M3.png"
+        },
+        "ring": {
+          "enabled": false
+        },
+        "bar1": {
+          "attribute": "wounds"
+        },
+        "actorId": "d4624da235257d3a",
+        "x": 2660,
+        "y": 640,
+        "hidden": true,
+        "locked": false,
+        "flags": {
+          "world": {
+            "taiyiEp04A": {
+              "key": "placement:15",
+              "version": 1
+            }
+          }
+        }
+      }
+    ],
+    "walls": [],
+    "lights": [],
+    "drawings": [],
+    "notes": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "world": {
+        "taiyiEp04A": {
+          "key": "scene",
+          "version": 1
+        }
+      }
+    },
+    "levels": [
+      {
+        "_id": "defaultLevel0000",
+        "name": "街面与屋顶",
+        "elevation": {
+          "bottom": 0,
+          "top": 20
+        },
+        "background": {
+          "color": "#1c1c1c",
+          "src": "worlds/taiyi/assets/npc/avatars/EP04-A-street.webp",
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "foreground": {
+          "src": null,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "fog": {
+          "src": null
+        },
+        "textures": {
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "offsetX": 0,
+          "offsetY": 0,
+          "fit": "fill",
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotation": 0
+        },
+        "visibility": {
+          "levels": []
+        },
+        "sort": 0,
+        "flags": {}
+      }
+    ],
+    "initialLevel": "defaultLevel0000",
+    "environment": {
+      "globalLight": {
+        "enabled": true
+      }
+    },
+    "journal": "7a6c55a5e57b7f06"
+  },
+  "journal": {
+    "_id": "7a6c55a5e57b7f06",
+    "name": "A · 猎杀欲子 · 开场与资源",
+    "ownership": {
+      "default": 0
+    },
+    "pages": [
+      {
+        "_id": "4fea3ef4dd544f98",
+        "name": "开场与单位",
+        "type": "text",
+        "text": {
+          "format": 1,
+          "content": "<h1>A · PMC猎杀欲子</h1><p>开局先揭示封街三人、两条机械犬与堵路车；停车场重机、指挥车护卫、后巷打手和梁文川随进入视野揭示。所有敌人是同一批，不能刷新。</p><p>场景隐藏全部16枚预置Token；不要全选加入战斗，载具和车内操机员重叠是乘员位置标记。三人封街组、两人与队长护送组、两犬、打手组、重机分别发牌；每名单位正常行动。操机员驾驶/操控不产生额外免费射击。</p><p>无视野墙：采用明场地图和GM判定楼顶高度、围挡与掩体，避免平面墙误封楼梯。地图顶部楼顶可走；围挡有缺口，跳翻围挡同样可行；停车场东边缺口可步行退出。屋顶高6米（3英寸）。掩体减值按SWADE的−2/−4/−6由实际露出面积判定。</p><p>预瞄机炮先标出射界，下一轮才能开火；跑出射界即规避。侧面接口可打可修可骇；梁的停机要实际接触和掩护。所有这些条目已写进Actor。</p><p>临时支援梁卡复用正式头像，不改正式人物与关系。不预设欲子重伤、断弹或原车复活。当前PC卡上的伤势应按第三话尾声实跑结算；本次部署不清空玩家伤势。</p><p>枪口全部聚焦欲子时危险很高。按事件卡先包抄、迫停、堵出口，敌人不会凭隐藏预置获得跨掩体射线；玩家一旦冲垮队形即可撤或反杀。此为可运行的初始构筑，尚未经整场实战平衡测试。</p><p>@UUID[Actor.1247d4524316e895]{PMC步枪手}</p><p>@UUID[Actor.0ea4f2ed8e10cc42]{PMC队长}</p><p>@UUID[Actor.7768111d88fdd297]{PMC操机员兼司机}</p><p>@UUID[Actor.db91d24426d5d760]{封后路的街头打手}</p><p>@UUID[Actor.327bdbb9fc7162d5]{追风机械犬}</p><p>@UUID[Actor.79a02db6071ff86d]{追风重型自走机}</p><p>@UUID[Actor.5b6241d2848e8926]{堵路厢车}</p><p>@UUID[Actor.d4624da235257d3a]{PMC装甲指挥车}</p><p>@UUID[Actor.480d85e94c62cb42]{梁文川 · A场支援}</p>"
+        }
+      }
+    ],
+    "flags": {
+      "world": {
+        "taiyiEp04A": {
+          "key": "journal",
+          "version": 1
+        }
+      }
+    }
+  },
+  "placements": [
+    [
+      "rifle",
+      250,
+      510
+    ],
+    [
+      "rifle",
+      460,
+      515
+    ],
+    [
+      "rifle",
+      610,
+      510
+    ],
+    [
+      "rifle",
+      1180,
+      340
+    ],
+    [
+      "rifle",
+      1230,
+      460
+    ],
+    [
+      "leader",
+      1250,
+      290
+    ],
+    [
+      "operator",
+      1360,
+      340
+    ],
+    [
+      "hound",
+      100,
+      335
+    ],
+    [
+      "hound",
+      145,
+      450
+    ],
+    [
+      "heavy",
+      800,
+      650
+    ],
+    [
+      "thug",
+      30,
+      85
+    ],
+    [
+      "thug",
+      35,
+      160
+    ],
+    [
+      "thug",
+      40,
+      230
+    ],
+    [
+      "liang",
+      930,
+      800
+    ],
+    [
+      "van",
+      770,
+      370
+    ],
+    [
+      "command",
+      1330,
+      320
+    ]
+  ],
+  "specs": [
+    {
+      "key": "rifle",
+      "name": "PMC步枪手",
+      "image": "rifle",
+      "count": 5,
+      "attr": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "skills": {
+        "athletics": 6,
+        "fighting": 6,
+        "shooting": 6,
+        "notice": 6,
+        "stealth": 6
+      },
+      "armor": 2,
+      "weapons": [
+        {
+          "name": "突击步枪",
+          "damage": "2d8",
+          "range": "24/48/96",
+          "ap": 2,
+          "rof": 3,
+          "shots": 30
+        }
+      ],
+      "notes": "六名步枪手总数包含队长；本模板部署五名。三人封街，另两人与队长护送指挥车。正常SWADE行动与弹药规则；不是第三话的车队行动限额。失去优势便撤退。"
+    },
+    {
+      "key": "leader",
+      "name": "PMC队长",
+      "image": "rifle",
+      "count": 1,
+      "attr": [
+        8,
+        6,
+        8,
+        6,
+        8
+      ],
+      "skills": {
+        "athletics": 6,
+        "fighting": 8,
+        "shooting": 8,
+        "notice": 8,
+        "stealth": 6,
+        "persuasion": 6
+      },
+      "armor": 2,
+      "wildcard": true,
+      "weapons": [
+        {
+          "name": "突击步枪",
+          "damage": "2d8",
+          "range": "24/48/96",
+          "ap": 2,
+          "rof": 3,
+          "shots": 30
+        },
+        {
+          "name": "手枪",
+          "damage": "2d6",
+          "range": "12/24/48",
+          "ap": 1,
+          "shots": 12
+        }
+      ],
+      "notes": "队长计入六名步枪手。优先保住指挥车和部下；伤亡过半、重机停摆或退路被截后，会用驻地坐标换命。知道本地部署，不知道方泰安上游。"
+    },
+    {
+      "key": "operator",
+      "name": "PMC操机员兼司机",
+      "image": "operator",
+      "count": 1,
+      "attr": [
+        6,
+        8,
+        6,
+        4,
+        6
+      ],
+      "skills": {
+        "athletics": 4,
+        "fighting": 4,
+        "shooting": 4,
+        "notice": 6,
+        "driving": 8,
+        "electronics": 8,
+        "repair": 6
+      },
+      "armor": 1,
+      "weapons": [
+        {
+          "name": "手枪",
+          "damage": "2d6",
+          "range": "12/24/48",
+          "ap": 1,
+          "shots": 12
+        }
+      ],
+      "notes": "只有一人，在装甲指挥车内；驾驶、电子操控和射击照常受多动作减值。操机员被制服后，机械犬追最后目标，失去协同；不会自动倒戈。"
+    },
+    {
+      "key": "thug",
+      "name": "封后路的街头打手",
+      "image": "thug",
+      "count": 3,
+      "attr": [
+        6,
+        4,
+        4,
+        6,
+        6
+      ],
+      "skills": {
+        "athletics": 6,
+        "fighting": 6,
+        "shooting": 4,
+        "notice": 4,
+        "stealth": 4
+      },
+      "armor": 0,
+      "weapons": [
+        {
+          "name": "手枪",
+          "damage": "2d6",
+          "range": "12/24/48",
+          "ap": 1,
+          "shots": 12
+        },
+        {
+          "name": "短棍",
+          "damage": "@str+d4",
+          "melee": true
+        }
+      ],
+      "notes": "三人守后巷。一个倒下或面对明显压倒性火力就逃，受雇不等于愿意送死。"
+    },
+    {
+      "key": "hound",
+      "name": "追风机械犬",
+      "image": "hound",
+      "count": 2,
+      "attr": [
+        8,
+        4,
+        6,
+        8,
+        6
+      ],
+      "skills": {
+        "athletics": 8,
+        "fighting": 6,
+        "notice": 8,
+        "stealth": 6
+      },
+      "armor": 2,
+      "pace": 10,
+      "weapons": [
+        {
+          "name": "切割颚",
+          "damage": "@str+d6",
+          "melee": true,
+          "ap": 2
+        }
+      ],
+      "notes": "液压扑跃按运动、擒抱或考验处理，不能免费击倒加咬击。构装体：动摇恢复+2，免疫毒病，不呼吸；没有额外动作。被毁后不补充。",
+      "construct": true
+    },
+    {
+      "key": "heavy",
+      "name": "追风重型自走机",
+      "image": "heavy",
+      "count": 1,
+      "attr": [
+        4,
+        4,
+        6,
+        12,
+        8
+      ],
+      "skills": {
+        "athletics": 4,
+        "fighting": 4,
+        "shooting": 6,
+        "notice": 6
+      },
+      "armor": 4,
+      "size": 2,
+      "pace": 4,
+      "wounds": 2,
+      "weapons": [
+        {
+          "name": "预瞄机炮",
+          "damage": "2d8",
+          "range": "24/48/96",
+          "ap": 2,
+          "rof": 3,
+          "shots": 60
+        }
+      ],
+      "notes": "本场强化龙套，可承受2损伤。机炮开火前必须上一轮用动作预瞄，并公开指出射界；下一轮仅向该射界射击，目标脱离则落空或重新预瞄。不开火轮可慢速移动。正面装甲厚；侧面维护口/顶部镜头的瞄准攻击−2，命中忽略本卡4点装甲，玩家必须确实取得对应射线。维护口接入成功的电子学/修理检定使其停机，梁在接触接口并得到掩护时可用权限直接停机。构装体动摇恢复+2，免疫毒病，无呼吸。",
+      "construct": true
+    }
+  ]
+}

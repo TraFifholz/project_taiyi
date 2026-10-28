@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "runId": "20260911-ep04-A-heavy-v4",
+    "characterId": "EP04-A-heavy",
+    "humanInitiated": true,
+    "userRequest": "重型自走机误画成坦克，立即重画并替换FVTT",
+    "concept": "矮宽紧凑履带排爆机器人改装为城市武装自走机，短机炮、球形摄像头、短履带和侧面维护口。",
+    "tagEvidence": "../../tag-evidence.json; retained confirmed robot/no_humans/non-humanoid_robot/robot_joints/full_body/from_above/transparent_background/shadow; tank moved to negative"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, simple background, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 1024,
+      "height": 1024,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 211092188,
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, simple background, best quality, very aesthetic, absurdres",
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, 3::tank, cannon, logo, english text::",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, simple background, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "solo, robot, no humans, non-humanoid robot, robot joints, full body, from above, transparent background, shadow. A low compact unmanned combat robot with a pair of short continuous rubber caterpillar tracks and exposed suspension. Its small dark grey armored wedge-shaped central body has a side service panel. A short automatic cannon is physically attached to a thick mechanical swivel mount on the chassis, with a clearly visible supporting bracket directly connecting the weapon to the body. A small camera head sits beside the gun. Compact chunky industrial robot, yellow warning stripes, no cockpit, no human crew, no wheels, no large tank turret. Three-quarter view of the entire robot, transparent background, soft front lighting.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, 3::tank, cannon, logo, english text::",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

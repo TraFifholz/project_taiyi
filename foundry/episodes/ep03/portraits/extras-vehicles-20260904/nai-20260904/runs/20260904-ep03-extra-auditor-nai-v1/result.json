@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260904-ep03-extra-auditor-nai-v1",
+  "characterId": "EP03-EXTRA-AUDITOR",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "4c9c24",
+  "apiSeed": 23599951,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "11d8205d6dd92629bb57f12b291ba3fdcabee019935b17c6fce5c1b2bfbb41eb",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-04T00:23:25.648Z"
+}

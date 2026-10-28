@@ -1,0 +1,135 @@
+{
+  "status": "FAIL",
+  "stories": 25,
+  "episodes": 20,
+  "retainedNPCs": 93,
+  "outlineCoverage": 93,
+  "markdownFiles": 63,
+  "localLinks": 438,
+  "verifiedApprovedAssets": 93,
+  "episodeStats": [
+    {
+      "episode": 1,
+      "mainPeople": 6,
+      "mainOrganizations": 3,
+      "history": true
+    },
+    {
+      "episode": 2,
+      "mainPeople": 6,
+      "mainOrganizations": 3,
+      "history": true
+    },
+    {
+      "episode": 3,
+      "mainPeople": 7,
+      "mainOrganizations": 5,
+      "history": false
+    },
+    {
+      "episode": 4,
+      "mainPeople": 9,
+      "mainOrganizations": 4,
+      "history": false
+    },
+    {
+      "episode": 5,
+      "mainPeople": 8,
+      "mainOrganizations": 3,
+      "history": false
+    },
+    {
+      "episode": 6,
+      "mainPeople": 7,
+      "mainOrganizations": 3,
+      "history": false
+    },
+    {
+      "episode": 7,
+      "mainPeople": 8,
+      "mainOrganizations": 4,
+      "history": false
+    },
+    {
+      "episode": 8,
+      "mainPeople": 8,
+      "mainOrganizations": 3,
+      "history": false
+    },
+    {
+      "episode": 9,
+      "mainPeople": 7,
+      "mainOrganizations": 3,
+      "history": false
+    },
+    {
+      "episode": 10,
+      "mainPeople": 7,
+      "mainOrganizations": 3,
+      "history": false
+    },
+    {
+      "episode": 11,
+      "mainPeople": 7,
+      "mainOrganizations": 3,
+      "history": false
+    },
+    {
+      "episode": 12,
+      "mainPeople": 8,
+      "mainOrganizations": 3,
+      "history": false
+    },
+    {
+      "episode": 13,
+      "mainPeople": 7,
+      "mainOrganizations": 3,
+      "history": false
+    },
+    {
+      "episode": 14,
+      "mainPeople": 8,
+      "mainOrganizations": 4,
+      "history": false
+    },
+    {
+      "episode": 15,
+      "mainPeople": 8,
+      "mainOrganizations": 3,
+      "history": false
+    },
+    {
+      "episode": 16,
+      "mainPeople": 7,
+      "mainOrganizations": 3,
+      "history": false
+    },
+    {
+      "episode": 17,
+      "mainPeople": 7,
+      "mainOrganizations": 3,
+      "history": false
+    },
+    {
+      "episode": 18,
+      "mainPeople": 8,
+      "mainOrganizations": 4,
+      "history": false
+    },
+    {
+      "episode": 19,
+      "mainPeople": 7,
+      "mainOrganizations": 3,
+      "history": false
+    },
+    {
+      "episode": 20,
+      "mainPeople": 6,
+      "mainOrganizations": 3,
+      "history": false
+    }
+  ],
+  "errors": [
+    "campaign/episodes/chapter-01/04-特派员.md: unexplained organization exception"
+  ]
+}

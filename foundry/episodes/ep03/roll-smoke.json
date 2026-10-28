@@ -1,0 +1,483 @@
+{
+  "passed": true,
+  "tests": 64,
+  "skillTests": 51,
+  "weaponTests": 13,
+  "noChatOrCombatCreated": true,
+  "reports": [
+    {
+      "actor": "夏满弓",
+      "item": "格斗",
+      "kind": "skill",
+      "formula": "{1d8x[格斗],1dw6}kh",
+      "total": 9
+    },
+    {
+      "actor": "夏满弓",
+      "item": "射击",
+      "kind": "skill",
+      "formula": "{1d6x[射击],1dw6}kh",
+      "total": 4
+    },
+    {
+      "actor": "夏满弓",
+      "item": "察觉",
+      "kind": "skill",
+      "formula": "{1d8x[察觉],1dw6}kh2[警觉]",
+      "total": 2
+    },
+    {
+      "actor": "夏满弓",
+      "item": "驾驶",
+      "kind": "skill",
+      "formula": "{1d8x[驾驶],1dw6}kh",
+      "total": 3
+    },
+    {
+      "actor": "夏满弓",
+      "item": "交涉",
+      "kind": "skill",
+      "formula": "{1d6x[交涉],1dw6}kh",
+      "total": 3
+    },
+    {
+      "actor": "夏满弓",
+      "item": "修理",
+      "kind": "skill",
+      "formula": "{1d6x[修理],1dw6}kh",
+      "total": 1
+    },
+    {
+      "actor": "夏满弓",
+      "item": "手枪",
+      "kind": "weapon",
+      "attackFormula": "{1d6x[射击],1dw6}kh",
+      "attackTotal": 4,
+      "damageFormula": "2d6x[基础伤害]",
+      "damageTotal": 18
+    },
+    {
+      "actor": "夏满弓",
+      "item": "电击棍",
+      "kind": "weapon",
+      "attackFormula": "{1d8x[格斗],1dw6}kh",
+      "attackTotal": 4,
+      "damageFormula": "1d6x[力量] + 1d4x[基础伤害]",
+      "damageTotal": 11
+    },
+    {
+      "actor": "棍木女",
+      "item": "察觉",
+      "kind": "skill",
+      "formula": "{1d10x[察觉],1dw6}kh2[警觉]",
+      "total": 2
+    },
+    {
+      "actor": "棍木女",
+      "item": "格斗",
+      "kind": "skill",
+      "formula": "{1d4x[格斗],1dw6}kh",
+      "total": 4
+    },
+    {
+      "actor": "棍木女",
+      "item": "射击",
+      "kind": "skill",
+      "formula": "{1d4x[射击],1dw6}kh",
+      "total": 3
+    },
+    {
+      "actor": "棍木女",
+      "item": "交涉",
+      "kind": "skill",
+      "formula": "{1d4x[交涉],1dw6}kh",
+      "total": 9
+    },
+    {
+      "actor": "棍木女",
+      "item": "修理",
+      "kind": "skill",
+      "formula": "{1d6x[修理],1dw6}kh",
+      "total": 5
+    },
+    {
+      "actor": "棍木女",
+      "item": "手枪",
+      "kind": "weapon",
+      "attackFormula": "{1d4x[射击],1dw6}kh",
+      "attackTotal": 1,
+      "damageFormula": "2d6x[基础伤害]",
+      "damageTotal": 11
+    },
+    {
+      "actor": "马铁鹰",
+      "item": "格斗",
+      "kind": "skill",
+      "formula": "{1d10x[格斗],1dw6}kh",
+      "total": 8
+    },
+    {
+      "actor": "马铁鹰",
+      "item": "射击",
+      "kind": "skill",
+      "formula": "{1d8x[射击],1dw6}kh",
+      "total": 10
+    },
+    {
+      "actor": "马铁鹰",
+      "item": "察觉",
+      "kind": "skill",
+      "formula": "{1d6x[察觉],1dw6}kh",
+      "total": 4
+    },
+    {
+      "actor": "马铁鹰",
+      "item": "交涉",
+      "kind": "skill",
+      "formula": "{1d6x[交涉],1dw6}kh",
+      "total": 4
+    },
+    {
+      "actor": "马铁鹰",
+      "item": "驾驶",
+      "kind": "skill",
+      "formula": "{1d6x[驾驶],1dw6}kh",
+      "total": 11
+    },
+    {
+      "actor": "马铁鹰",
+      "item": "重型手枪",
+      "kind": "weapon",
+      "attackFormula": "{1d8x[射击],1dw6}kh",
+      "attackTotal": 3,
+      "damageFormula": "2d6x[基础伤害] + 1",
+      "damageTotal": 10
+    },
+    {
+      "actor": "马铁鹰",
+      "item": "短柄破拆锤",
+      "kind": "weapon",
+      "attackFormula": "{1d10x[格斗],1dw6}kh",
+      "attackTotal": 5,
+      "damageFormula": "1d10x[力量] + 1d6x[基础伤害]",
+      "damageTotal": 11
+    },
+    {
+      "actor": "马铁鹰",
+      "item": "拳脚（搏击手）",
+      "kind": "weapon",
+      "attackFormula": "{1d10x[格斗],1dw6}kh",
+      "attackTotal": 9,
+      "damageFormula": "1d10x[力量] + 1d4x[基础伤害]",
+      "damageTotal": 4
+    },
+    {
+      "actor": "罗恺",
+      "item": "格斗",
+      "kind": "skill",
+      "formula": "{1d8x[格斗],1dw6}kh",
+      "total": 5
+    },
+    {
+      "actor": "罗恺",
+      "item": "射击",
+      "kind": "skill",
+      "formula": "{1d8x[射击],1dw6}kh",
+      "total": 4
+    },
+    {
+      "actor": "罗恺",
+      "item": "察觉",
+      "kind": "skill",
+      "formula": "{1d8x[察觉],1dw6}kh2[警觉]",
+      "total": 2
+    },
+    {
+      "actor": "罗恺",
+      "item": "交涉",
+      "kind": "skill",
+      "formula": "{1d6x[交涉],1dw6}kh",
+      "total": 7
+    },
+    {
+      "actor": "罗恺",
+      "item": "修理",
+      "kind": "skill",
+      "formula": "{1d10x[修理],1dw6}kh",
+      "total": 1
+    },
+    {
+      "actor": "罗恺",
+      "item": "驾驶",
+      "kind": "skill",
+      "formula": "{1d6x[驾驶],1dw6}kh",
+      "total": 5
+    },
+    {
+      "actor": "罗恺",
+      "item": "消音冲锋枪",
+      "kind": "weapon",
+      "attackFormula": "{1d8x[射击],1dw6}kh",
+      "attackTotal": 4,
+      "damageFormula": "2d6x[基础伤害]",
+      "damageTotal": 4
+    },
+    {
+      "actor": "罗恺",
+      "item": "电击棍",
+      "kind": "weapon",
+      "attackFormula": "{1d8x[格斗],1dw6}kh",
+      "attackTotal": 5,
+      "damageFormula": "1d6x[力量] + 1d4x[基础伤害]",
+      "damageTotal": 8
+    },
+    {
+      "actor": "辛桦",
+      "item": "格斗",
+      "kind": "skill",
+      "formula": "{1d6x[格斗],1dw6}kh",
+      "total": 5
+    },
+    {
+      "actor": "辛桦",
+      "item": "射击",
+      "kind": "skill",
+      "formula": "{1d8x[射击],1dw6}kh",
+      "total": 5
+    },
+    {
+      "actor": "辛桦",
+      "item": "察觉",
+      "kind": "skill",
+      "formula": "{1d6x[察觉],1dw6}kh",
+      "total": 5
+    },
+    {
+      "actor": "辛桦",
+      "item": "交涉",
+      "kind": "skill",
+      "formula": "{1d8x[交涉],1dw6}kh1[技能加值·交涉]",
+      "total": 1
+    },
+    {
+      "actor": "辛桦",
+      "item": "驾驶",
+      "kind": "skill",
+      "formula": "{1d10x[驾驶],1dw6}kh",
+      "total": 10
+    },
+    {
+      "actor": "辛桦",
+      "item": "手枪",
+      "kind": "weapon",
+      "attackFormula": "{1d8x[射击],1dw6}kh",
+      "attackTotal": 5,
+      "damageFormula": "2d6x[基础伤害]",
+      "damageTotal": 17
+    },
+    {
+      "actor": "赵明芝",
+      "item": "察觉",
+      "kind": "skill",
+      "formula": "{1d6x[察觉],1dw6}kh",
+      "total": 5
+    },
+    {
+      "actor": "赵明芝",
+      "item": "驾驶",
+      "kind": "skill",
+      "formula": "{1d10x[驾驶],1dw6}kh2[技能加值·驾驶]",
+      "total": 2
+    },
+    {
+      "actor": "赵明芝",
+      "item": "交涉",
+      "kind": "skill",
+      "formula": "{1d8x[交涉],1dw6}kh",
+      "total": 3
+    },
+    {
+      "actor": "赵明芝",
+      "item": "修理",
+      "kind": "skill",
+      "formula": "{1d4x[修理],1dw6}kh",
+      "total": 7
+    },
+    {
+      "actor": "夏磊",
+      "item": "察觉",
+      "kind": "skill",
+      "formula": "{1d6x[察觉],1dw6}kh",
+      "total": 11
+    },
+    {
+      "actor": "夏磊",
+      "item": "修理",
+      "kind": "skill",
+      "formula": "{1d8x[修理],1dw6}kh2[修理先生]",
+      "total": 2
+    },
+    {
+      "actor": "夏磊",
+      "item": "交涉",
+      "kind": "skill",
+      "formula": "{1d4x[交涉],1dw6}kh",
+      "total": 5
+    },
+    {
+      "actor": "夏磊",
+      "item": "驾驶",
+      "kind": "skill",
+      "formula": "{1d6x[驾驶],1dw6}kh",
+      "total": 4
+    },
+    {
+      "actor": "合规清理员",
+      "item": "格斗",
+      "kind": "skill",
+      "formula": "{1d6x[格斗]}kh",
+      "total": 1
+    },
+    {
+      "actor": "合规清理员",
+      "item": "射击",
+      "kind": "skill",
+      "formula": "{1d8x[射击]}kh",
+      "total": 6
+    },
+    {
+      "actor": "合规清理员",
+      "item": "察觉",
+      "kind": "skill",
+      "formula": "{1d6x[察觉]}kh",
+      "total": 2
+    },
+    {
+      "actor": "合规清理员",
+      "item": "修理",
+      "kind": "skill",
+      "formula": "{1d6x[修理]}kh",
+      "total": 1
+    },
+    {
+      "actor": "合规清理员",
+      "item": "驾驶",
+      "kind": "skill",
+      "formula": "{1d6x[驾驶]}kh",
+      "total": 10
+    },
+    {
+      "actor": "合规清理员",
+      "item": "消音冲锋枪",
+      "kind": "weapon",
+      "attackFormula": "{1d8x[射击]}kh",
+      "attackTotal": 7,
+      "damageFormula": "2d6x[基础伤害]",
+      "damageTotal": 4
+    },
+    {
+      "actor": "合规清理员",
+      "item": "电击棍",
+      "kind": "weapon",
+      "attackFormula": "{1d6x[格斗]}kh",
+      "attackTotal": 5,
+      "damageFormula": "1d6x[力量] + 1d4x[基础伤害]",
+      "damageTotal": 6
+    },
+    {
+      "actor": "青梢队成员",
+      "item": "格斗",
+      "kind": "skill",
+      "formula": "{1d6x[格斗]}kh",
+      "total": 4
+    },
+    {
+      "actor": "青梢队成员",
+      "item": "射击",
+      "kind": "skill",
+      "formula": "{1d6x[射击]}kh",
+      "total": 2
+    },
+    {
+      "actor": "青梢队成员",
+      "item": "察觉",
+      "kind": "skill",
+      "formula": "{1d6x[察觉]}kh",
+      "total": 2
+    },
+    {
+      "actor": "青梢队成员",
+      "item": "驾驶",
+      "kind": "skill",
+      "formula": "{1d6x[驾驶]}kh",
+      "total": 4
+    },
+    {
+      "actor": "青梢队成员",
+      "item": "手枪",
+      "kind": "weapon",
+      "attackFormula": "{1d6x[射击]}kh",
+      "attackTotal": 1,
+      "damageFormula": "2d6x[基础伤害]",
+      "damageTotal": 4
+    },
+    {
+      "actor": "追风警戒无人机",
+      "item": "察觉",
+      "kind": "skill",
+      "formula": "{1d8x[察觉]}kh",
+      "total": 6
+    },
+    {
+      "actor": "追风警戒无人机",
+      "item": "射击",
+      "kind": "skill",
+      "formula": "{1d6x[射击]}kh",
+      "total": 4
+    },
+    {
+      "actor": "追风警戒无人机",
+      "item": "电击针",
+      "kind": "weapon",
+      "attackFormula": "{1d6x[射击]}kh",
+      "attackTotal": 4,
+      "damageFormula": "2d6x[基础伤害]",
+      "damageTotal": 4
+    },
+    {
+      "actor": "冷藏车司机",
+      "item": "察觉",
+      "kind": "skill",
+      "formula": "{1d6x[察觉]}kh",
+      "total": 4
+    },
+    {
+      "actor": "冷藏车司机",
+      "item": "驾驶",
+      "kind": "skill",
+      "formula": "{1d6x[驾驶]}kh",
+      "total": 2
+    },
+    {
+      "actor": "冷藏车司机",
+      "item": "交涉",
+      "kind": "skill",
+      "formula": "{1d6x[交涉]}kh",
+      "total": 1
+    },
+    {
+      "actor": "M-3 随车审计员",
+      "item": "察觉",
+      "kind": "skill",
+      "formula": "{1d6x[察觉]}kh",
+      "total": 3
+    },
+    {
+      "actor": "M-3 随车审计员",
+      "item": "交涉",
+      "kind": "skill",
+      "formula": "{1d4x[交涉]}kh",
+      "total": 1
+    }
+  ]
+}

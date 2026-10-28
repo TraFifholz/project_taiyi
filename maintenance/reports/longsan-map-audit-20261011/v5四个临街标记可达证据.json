@@ -1,0 +1,82 @@
+[
+  {
+    "lot": "P42912",
+    "safe_frontage_connector_count": 53,
+    "shortest_safe_connector": {
+      "road": "南门大道",
+      "length_m": 26.00153336636605,
+      "coords_km": [
+        [
+          34.98417321530011,
+          24.28977215031633
+        ],
+        [
+          34.985159904117246,
+          24.31575495583422
+        ]
+      ],
+      "barrier_area_m2": 0.0,
+      "other_roof_overlap_m2": 0
+    }
+  },
+  {
+    "lot": "P43265",
+    "safe_frontage_connector_count": 43,
+    "shortest_safe_connector": {
+      "road": "南门大道",
+      "length_m": 25.998478812102967,
+      "coords_km": [
+        [
+          35.05218549707099,
+          24.33922688592274
+        ],
+        [
+          35.05119892416604,
+          24.313247132759045
+        ]
+      ],
+      "barrier_area_m2": 0.0,
+      "other_roof_overlap_m2": 0
+    }
+  },
+  {
+    "lot": "P61070",
+    "safe_frontage_connector_count": 38,
+    "shortest_safe_connector": {
+      "road": "码头联络路",
+      "length_m": 20.997719941764306,
+      "coords_km": [
+        [
+          34.84863008235233,
+          26.461046945091972
+        ],
+        [
+          34.846176682558266,
+          26.48190084334154
+        ]
+      ],
+      "barrier_area_m2": 0.0,
+      "other_roof_overlap_m2": 0
+    }
+  },
+  {
+    "lot": "P75505",
+    "safe_frontage_connector_count": 43,
+    "shortest_safe_connector": {
+      "road": "铁路沿线集散道 26",
+      "length_m": 21.000199102608384,
+      "coords_km": [
+        [
+          33.13471734018292,
+          12.215609495563022
+        ],
+        [
+          33.15560624447085,
+          12.217768671331372
+        ]
+      ],
+      "barrier_area_m2": 0.5184004516537125,
+      "other_roof_overlap_m2": 0
+    }
+  }
+]

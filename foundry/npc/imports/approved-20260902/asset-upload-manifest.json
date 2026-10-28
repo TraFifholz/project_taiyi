@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "kind": "avatars",
+      "file": "discussion/npc/fvtt/assets/avatars/LS-NPC-006-20260902-pink-v4.webp",
+      "remote": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp",
+      "sha256": "63079b942bf282eb817eb2228413765707c68c1c1c246dc40c6f49c94a5e4ce8"
+    },
+    {
+      "kind": "portraits",
+      "file": "discussion/npc/fvtt/assets/portraits/LS-NPC-006-20260902-pink-v4.webp",
+      "remote": "worlds/taiyi/assets/npc/portraits/LS-NPC-006-20260902-pink-v4.webp",
+      "sha256": "22283ef5c01347987f67e38d6dc742df77e20c73979f49a3b3535fbfcd340b0c"
+    }
+  ]
+}

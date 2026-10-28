@@ -1,0 +1,972 @@
+{
+  "version": "v8",
+  "review_round": "final_actual_map_after_underpass_and_recovery_ring_bridge_corrections",
+  "review_date": "2026-10-12",
+  "reviewer": "final_art_review independent subagent",
+  "review_status": "candidate_reviewable_with_remaining_art_issues",
+  "final_v8_map_reviewed": true,
+  "unresolved_must_correct": [],
+  "status_boundary": {
+    "candidate_available_for_review": true,
+    "art_complete": false,
+    "user_adopted": false,
+    "prototype_used_as_final_evidence": false,
+    "full_network_engineering_certified_by_this_visual_review": false
+  },
+  "scope": "必须以最终冻结的两个正式SVG与实际33张新PNG作为证据；对照3张同范围v6旧图、2张真实长沙OSM窗口，并阅读当前路网方法参考HTML/JSON。审查长轴、街坊/私道层级、区际和城郊过渡、屋型、扩大塌陷与停工站、绕行/断线、跨层符号及6处原问题节点。没有用合成4km样例或建筑数量替代目视。",
+  "observed_road_improvements": [
+    {
+      "windows": [
+        "楚岸",
+        "楚岸街坊",
+        "文星"
+      ],
+      "observation": "同范围v6旧图有散点建筑、短斜线和大块无组织留白；本轮稳定公共街坊与连续长轴可辨，细院内路按独立尺度附着于街坊。没有持续逐点漂转的普通街路观感。"
+    },
+    {
+      "windows": [
+        "全图",
+        "深中",
+        "铁山",
+        "北岭"
+      ],
+      "observation": "跨区干道、站前轴与沿江/跨江走廊能从细街网中读出。普通街路选择稳定方向，少量继承斜轴与有地理理由的平滑走廊另行存在。"
+    },
+    {
+      "windows": [
+        "故城"
+      ],
+      "observation": "故城采用稳定斜向细街坊，与新城正轴有可读差别；街区边缘有连接通道，没有把城区名义边界绘成统一断头墙。"
+    }
+  ],
+  "confirmed_p1_structural_findings": [],
+  "structural_evidence_boundary": "本审查不把空的P1列表等同整城拓扑或铁路工程认证；几何、地块归属、通行和层级需参看独立机械报告。目视结论只绑定实际审查窗口与全图。",
+  "closed_findings": [
+    {
+      "id": "ART-01",
+      "priority": "P2",
+      "class": "repeated_building_form",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "windows": [
+        "深中",
+        "楚岸街坊"
+      ],
+      "observation": "首轮连续四角四塔加方裙房模组未重现；实际街块内出现条状/L/T/角部底座、不同塔数量和后排楼。较首轮明显减轻统一图标复制；不等于所有组团都已自然。"
+    },
+    {
+      "id": "ART-02",
+      "priority": "P2",
+      "class": "repeated_building_form",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "windows": [
+        "故城",
+        "西管制口"
+      ],
+      "observation": "首轮普遍四面闭环街墙改为不同街墙、纵深屋组与后巷，实际图内院落有开口与体量差异。梳状后排节奏仍列为P3。"
+    },
+    {
+      "id": "ART-03",
+      "priority": "P2",
+      "class": "junction_symbol_rendering",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "windows": [
+        "楚岸路口",
+        "深中路口",
+        "文星主次路口",
+        "文星次干路口",
+        "北岭"
+      ],
+      "observation": "最终实际图中原问题道路交点不再有封满道路的圆帽或白描边，黄/白路级颜色不同仍可读为连通。这里只关闭实际渲染的交点封口问题；中心线与归属由独立几何核验报告审查。"
+    },
+    {
+      "id": "SYMBOL-BEIYUAN-WEDGE",
+      "priority": "P2",
+      "class": "junction_symbol_rendering",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "coordinates_km": [
+        32.3,
+        6.5
+      ],
+      "windows": [
+        "北苑路口"
+      ],
+      "observation": "最终实际北苑黄主轴折角无白三角楔，沿主轴黄色路面连续；并保留左右白色道路开口。"
+    },
+    {
+      "id": "SYMBOL-NONINCIDENT-ERASE-LOCAL",
+      "priority": "P2",
+      "class": "neighbor_road_visibility",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "coordinates_km": [
+        [
+          39.7,
+          28.7
+        ],
+        [
+          32.3,
+          6.5
+        ]
+      ],
+      "windows": [
+        "龙门吊路口",
+        "北苑路口"
+      ],
+      "observation": "最终两个原误擦重点中，邻道仍可辨且没有被节点背景整块遮去。此处只声明这两个窗口；全城误擦归零需要独立机械核验。"
+    },
+    {
+      "id": "V8-EXPANDED-CORE-UNFINISHED-STATIONS",
+      "priority": "P2",
+      "class": "setting_to_map_visual_binding",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "coordinates_km": [
+        [
+          38.6,
+          21.1
+        ],
+        [
+          41,
+          22.3
+        ]
+      ],
+      "windows": [
+        "塌陷全区",
+        "两座在建站塌陷区",
+        "停工站与塌陷-地铁",
+        "扩界全区-地铁",
+        "东侧恢复廊道"
+      ],
+      "observation": "扩大的灰色核心覆盖楚钢集团和铁山两未建成站；正式地铁叠图使用叉形节点、灰色虚线路段与未建成塌陷停工文字，不读成区外仍正常运营站。"
+    },
+    {
+      "id": "V8-UNDERPASS-GATE-POSTS",
+      "priority": "P2",
+      "class": "transport_symbol_semantics",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "coordinates_km": [
+        40.1626701571128,
+        27.7609
+      ],
+      "windows": [
+        "港货农机下穿"
+      ],
+      "observation": "最终 e686 / 8fb5 的实际港货农机下穿近景中，两根棕色门杆已经消失；农机白路从铁路下方通过，铁路桥跨层框线与上方铁路绘制仍保留。没有沿用 44d / 5cb 的门杆修前截图作关闭依据。"
+    },
+    {
+      "id": "V8-RECOVERY-RING-RIVER-GAP",
+      "priority": "P2",
+      "class": "recovery_corridor_continuity",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "coordinates_km": [
+        41.91,
+        24.22
+      ],
+      "windows": [
+        "恢复环路支流桥",
+        "塌陷全区",
+        "普速绕行",
+        "扩界全区-地铁",
+        "东侧恢复廊道"
+      ],
+      "observation": "最终实际支流桥近景有连续黄色环路、跨实水桥段及两侧干地引道；全区和东侧廊道图中此前支流处恢复环路缺口已补齐。环路精确闭合长度、原弧段补回和地块P8810清空由 v8恢复环路桥独审.json 给出，本目视只核实正式地图没有视觉断线。"
+    }
+  ],
+  "findings": [
+    {
+      "id": "ART-04",
+      "priority": "P3",
+      "class": "edge_transition_art",
+      "status": "open_for_later_refinement",
+      "must_correct_this_iteration": false,
+      "windows": [
+        "城西边缘",
+        "全图"
+      ],
+      "primary_window_km": [
+        5.3,
+        17,
+        12.8,
+        22
+      ],
+      "observation": "城郊建筑随道路向外减少，但完整规格小区组团与整片农田切换仍有明显节奏；密度梯度比建设年代/形态演变更明确。",
+      "recommendation": "后续沿出城路增加较小低层街带、不等规模旧村和小区，减少以整组是否生成控制城市边缘。"
+    },
+    {
+      "id": "ART-05",
+      "priority": "P3",
+      "class": "cartographic_legibility",
+      "status": "open_for_later_refinement",
+      "must_correct_this_iteration": false,
+      "windows": [
+        "全图",
+        "楚岸街坊",
+        "北岭"
+      ],
+      "observation": "城区放大后公共支路与私有接入可分辨，全图尺度细街道对比仍偏淡，建筑浅纹理比较突出。",
+      "recommendation": "后续按全图/城区/街坊三个观看尺度微调公共路与院内路的描边和线宽，保留底图克制。"
+    },
+    {
+      "id": "ART-06",
+      "priority": "P3",
+      "class": "historic_building_rhythm",
+      "status": "open_for_later_refinement",
+      "must_correct_this_iteration": false,
+      "windows": [
+        "故城",
+        "西管制口"
+      ],
+      "primary_window_km": [
+        26.6,
+        21.1,
+        30.6,
+        25.1
+      ],
+      "observation": "万能四面闭院已消除，但深宅、后排屋和后巷在大片斜街坊内仍有梳状等距排列，年代差异与公共空间变化有限。",
+      "recommendation": "后续依临街长度、宅地深度与街巷历史调整后屋数量和院子比例，加入不等规模街角公共空间。"
+    },
+    {
+      "id": "ART-07",
+      "priority": "P3",
+      "class": "planned_building_rhythm",
+      "status": "open_for_later_refinement",
+      "must_correct_this_iteration": false,
+      "windows": [
+        "深中",
+        "楚岸",
+        "文星"
+      ],
+      "primary_window_km": [
+        20.7,
+        17,
+        24.7,
+        21
+      ],
+      "observation": "商业底座已有差异，普通住宅组团、近等街块及短绿带仍显规格化。规划住宅重复本身不证明结构错误，当前主要是美术和城市建设层次的细化项。",
+      "recommendation": "后续以手工POI、公共空间、不同建设时期和跨地块功能来打破连续规格组团，不靠随机旋转每幢楼。"
+    },
+    {
+      "id": "SYMBOL-DISK-AA-SEAM",
+      "priority": "P3",
+      "class": "raster_symbol_seam",
+      "status": "open_for_later_refinement",
+      "must_correct_this_iteration": false,
+      "windows": [
+        "楚岸路口",
+        "深中路口",
+        "文星主次路口",
+        "文星次干路口",
+        "龙门吊路口",
+        "北苑路口"
+      ],
+      "observation": "350m/900px近景能看到淡圆形补丁抗锯齿接缝；没有形成跨满道路的封口或断裂观感。",
+      "recommendation": "后续可微调图形裁剪/抗锯齿接边，保持实际路面及邻道语义。"
+    }
+  ],
+  "layer_observations": [
+    {
+      "windows": [
+        "塌陷全区",
+        "西管制口",
+        "废墟与断线",
+        "铁山"
+      ],
+      "observation": "灰色斜线核心、外侧隔离带、围界和管制口清楚；废墟保留原街块与少量道路遗迹，内部非正常通行交通用灰色虚线表达。旧城区塌陷区与故城区仍为不同空间。"
+    },
+    {
+      "windows": [
+        "普速绕行",
+        "东侧恢复廊道",
+        "望津",
+        "火车站",
+        "东站"
+      ],
+      "observation": "铁路恢复廊道绕到扩大核心东侧，核心内旧线为废弃灰虚线；两站跨线道路有桥梁符号，港货农机交叉处不再误画门杆。新增恢复环路支流桥在最终图中连续跨过水面。此项不认证最小铁路曲线半径、桥梁结构或立交所有车道方向。"
+    },
+    {
+      "windows": [
+        "城市立交",
+        "西城学府立交",
+        "南港立交",
+        "北向枢纽"
+      ],
+      "observation": "主线、匝道与桥段可分辨，普通交点修复没有把这些跨层设施统一擦成同层路口。匝道所有转向的工程能力不属本次目视认证。"
+    },
+    {
+      "windows": [
+        "地铁全图",
+        "扩界全区-地铁",
+        "停工站与塌陷-地铁"
+      ],
+      "observation": "正式地铁线路在浅底图上可追踪；核心内停工节点与虚线可辨，外侧虚线延伸没有被画作核心内的正常运营线。完整站序与所有锚点一致性不由此报告单独认证。"
+    }
+  ],
+  "unreviewed_scope": [
+    "未逐栋检查全部建筑。",
+    "未逐个目视审阅所有公共道路节点。",
+    "不认证立交所有车道方向和铁路工程参数。",
+    "不替代原地铁图全部站序/设置的独立一致性审查。",
+    "本轮没有完成用户计划中的全部手工POI阶段。"
+  ],
+  "status": "candidate_reviewable",
+  "completed_actual_view_count": 33,
+  "input_svg_sha256": {
+    "龙散市-基础底图.svg": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+    "龙散市-底图与地铁.svg": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9"
+  },
+  "input_data_sha256": {
+    "路网.geojson": "735570ee178862bb98aa30a8cee1e1a2b4523874d88477d5fce3446540e2e4b5",
+    "建筑.geojson": "bba3a4f14d91f8133779e7be52f2fa04d33e1fc10d25afc6325f0139320d0632"
+  },
+  "input_files": [
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/龙散市-基础底图.svg",
+      "sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "bytes": 122980065,
+      "mtime": 1791811183.0805407
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/龙散市-底图与地铁.svg",
+      "sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+      "bytes": 123042868,
+      "mtime": 1791811184.375293
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/路网.geojson",
+      "sha256": "735570ee178862bb98aa30a8cee1e1a2b4523874d88477d5fce3446540e2e4b5",
+      "bytes": 4108433,
+      "mtime": 1791811153.40171
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/建筑.geojson",
+      "sha256": "bba3a4f14d91f8133779e7be52f2fa04d33e1fc10d25afc6325f0139320d0632",
+      "bytes": 117021688,
+      "mtime": 1791811170.922862
+    }
+  ],
+  "reviewed_images": [
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/东侧恢复廊道-新.png",
+      "sha256": "9af596fad6439070b0e06dc80f5ebe073895b4c7b8fc9840b0ca284c60c0d3b9",
+      "bytes": 952961,
+      "mtime": 1791811294.2365475,
+      "actual_view_image_completed": true,
+      "window_km": [
+        38,
+        18,
+        45,
+        30
+      ],
+      "source_svg": "龙散市-底图与地铁.svg",
+      "source_svg_sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/东站-新.png",
+      "sha256": "186d076c7a9f248b193689855e8272cdafc49217144803f15e4dfbf991477460",
+      "bytes": 154438,
+      "mtime": 1791811313.8458757,
+      "actual_view_image_completed": true,
+      "window_km": [
+        37.95,
+        16.1,
+        39.05,
+        17.95
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/两座在建站塌陷区-新.png",
+      "sha256": "679ca1c770d4a34cd909812670f9c7f66a21f534cd4209bab589237356d8774e",
+      "bytes": 429396,
+      "mtime": 1791811315.1038902,
+      "actual_view_image_completed": true,
+      "window_km": [
+        37.7,
+        20.3,
+        41.7,
+        23.4
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/停工站与塌陷-地铁-新.png",
+      "sha256": "02c8eca93e50709995d56e59a2eeb8b0a10fc1433eb4401b38c90afa38d0d79f",
+      "bytes": 511007,
+      "mtime": 1791811292.8143208,
+      "actual_view_image_completed": true,
+      "window_km": [
+        37.3,
+        19.9,
+        42.4,
+        23.9
+      ],
+      "source_svg": "龙散市-底图与地铁.svg",
+      "source_svg_sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/北向枢纽-新.png",
+      "sha256": "ffaaad464681c83de6eb7c4aece4c2cd31fcffa1154fddb1ab24a3afe26cff51",
+      "bytes": 252707,
+      "mtime": 1791811312.6740708,
+      "actual_view_image_completed": true,
+      "window_km": [
+        25,
+        0.7,
+        27.8,
+        2.9
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/北岭-新.png",
+      "sha256": "2c44095713f3a86323ac0599a5149d0e25029b1941f90cab3e92a9ec195b1e56",
+      "bytes": 208255,
+      "mtime": 1791811309.2146327,
+      "actual_view_image_completed": true,
+      "window_km": [
+        29.6,
+        7.5,
+        31.9,
+        9.3
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/北苑路口-新.png",
+      "sha256": "5eea677f60d7fa2b93ebc2a631d83504ebc6db8d09a128eb940a721e3126e4d6",
+      "bytes": 44141,
+      "mtime": 1791811275.2569408,
+      "actual_view_image_completed": true,
+      "window_km": [
+        32.125,
+        6.325,
+        32.474999999999994,
+        6.675
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/南港立交-新.png",
+      "sha256": "4b62a2d2d87f59bb145d7ee04d69b836b4a3c801636b7eea169a7154fe196a8a",
+      "bytes": 185015,
+      "mtime": 1791811312.14659,
+      "actual_view_image_completed": true,
+      "window_km": [
+        41.8,
+        32.5,
+        43.6,
+        34.4
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/城市立交-新.png",
+      "sha256": "34cc0d05c4fd15ed976f2e02e6438888a3984a15171f4127c68a351bbbb59954",
+      "bytes": 277147,
+      "mtime": 1791811310.957965,
+      "actual_view_image_completed": true,
+      "window_km": [
+        31.3,
+        11.2,
+        33.3,
+        13
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/城西边缘-新.png",
+      "sha256": "182b688f103408e2eb4cbc0130476325e8384ab8031b9f34ecf02225bbee6c68",
+      "bytes": 893644,
+      "mtime": 1791811314.486717,
+      "actual_view_image_completed": true,
+      "window_km": [
+        5.3,
+        17,
+        12.8,
+        22
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/塌陷全区-新.png",
+      "sha256": "a47e94e412de4baca9e4d95f0aa23491c4098a356578b2a78f8f3ce78b260918",
+      "bytes": 1585651,
+      "mtime": 1791811303.291387,
+      "actual_view_image_completed": true,
+      "window_km": [
+        30.8,
+        19.8,
+        43,
+        29
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/废墟与断线-新.png",
+      "sha256": "7a2406e37ad5712edd3448f1f9d2bd8617bbf9bec39008ca5c49703c1eb60f79",
+      "bytes": 472774,
+      "mtime": 1791811304.6948562,
+      "actual_view_image_completed": true,
+      "window_km": [
+        33.1,
+        22.7,
+        35,
+        24.8
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/恢复环路支流桥-新.png",
+      "sha256": "4074a8abf8af2ee6646e58b92683f04f77887b7b6e3b72dbef9448413427d5c9",
+      "bytes": 65469,
+      "mtime": 1791811276.022005,
+      "actual_view_image_completed": true,
+      "window_km": [
+        41.735,
+        24.044999999999998,
+        42.084999999999994,
+        24.395
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/扩界全区-地铁-新.png",
+      "sha256": "e20919f26ffc45ec7a7e0dea6c4ac08507355f1b86565800ed29361d571e114c",
+      "bytes": 1299092,
+      "mtime": 1791811293.5647078,
+      "actual_view_image_completed": true,
+      "window_km": [
+        30.8,
+        19.8,
+        43,
+        29
+      ],
+      "source_svg": "龙散市-底图与地铁.svg",
+      "source_svg_sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/故城-新.png",
+      "sha256": "62ac876de1cb4ea9028aed16768cd80af714c0e2c672ae4c0d77c785a9da7ea6",
+      "bytes": 2072836,
+      "mtime": 1791811306.3544967,
+      "actual_view_image_completed": true,
+      "window_km": [
+        26.6,
+        21.1,
+        30.6,
+        25.1
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/文星-新.png",
+      "sha256": "62f77cc4ebfe24c3995141772a642675bebcd9c50fe83abaa18cc08452f65f07",
+      "bytes": 589715,
+      "mtime": 1791811308.6751022,
+      "actual_view_image_completed": true,
+      "window_km": [
+        11.7,
+        15.5,
+        15.7,
+        19.5
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/文星主次路口-新.png",
+      "sha256": "c6a1f4e61749060d7d05f4b16c1dd13ad3ee08dcb1ff287b873d53469ec76c77",
+      "bytes": 13860,
+      "mtime": 1791811274.1986525,
+      "actual_view_image_completed": true,
+      "window_km": [
+        13.8578804124,
+        16.2400071539,
+        14.207880412400002,
+        16.5900071539
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/文星次干路口-新.png",
+      "sha256": "a4ac421a08895833bddcf4f1eed55c7eef066b019960489747aa69a1e4937c62",
+      "bytes": 32852,
+      "mtime": 1791811274.5303087,
+      "actual_view_image_completed": true,
+      "window_km": [
+        13.0173802566,
+        17.669476702,
+        13.3673802566,
+        18.019476702000002
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/普速绕行-新.png",
+      "sha256": "1e86fc4456dac097695e842790eb67449ce989277ecf1d24ffa0a15b8c465c4a",
+      "bytes": 1822822,
+      "mtime": 1791811305.5670114,
+      "actual_view_image_completed": true,
+      "window_km": [
+        31.7,
+        18.2,
+        44.8,
+        31.2
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/望津-新.png",
+      "sha256": "a959a7e4a8170821feb25c6b14ca2e6776aede0752444cfe2504eee1331eab81",
+      "bytes": 141105,
+      "mtime": 1791811310.4393725,
+      "actual_view_image_completed": true,
+      "window_km": [
+        36.8,
+        28.7,
+        39,
+        30.4
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/楚岸-新.png",
+      "sha256": "63e86f02bb902b3fc5e00632c378bd59a922fcc3bc68b3af7fc2bc27f67041b7",
+      "bytes": 602240,
+      "mtime": 1791811306.888997,
+      "actual_view_image_completed": true,
+      "window_km": [
+        15.5,
+        14.3,
+        19.5,
+        18.3
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/楚岸街坊-新.png",
+      "sha256": "9e0110ce77d7ee3f522a8d341103ef79d05bd0975405328486fb20f01fe90478",
+      "bytes": 267577,
+      "mtime": 1791811307.5586133,
+      "actual_view_image_completed": true,
+      "window_km": [
+        16.7,
+        15.2,
+        18.4,
+        17
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/楚岸路口-新.png",
+      "sha256": "30dca780d241c61e96f8b24b65a3189b51b96e32c94d3655cdfec9f7e4a7ec16",
+      "bytes": 48010,
+      "mtime": 1791811273.491738,
+      "actual_view_image_completed": true,
+      "window_km": [
+        18.7597129692,
+        15.1728092056,
+        19.1097129692,
+        15.522809205600002
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/深中-新.png",
+      "sha256": "6b623807cec018f095101ac1a9e20b4efb2ba80fb25cf4fd3d9061daccf339ea",
+      "bytes": 447004,
+      "mtime": 1791811308.1404452,
+      "actual_view_image_completed": true,
+      "window_km": [
+        20.7,
+        17,
+        24.7,
+        21
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/深中路口-新.png",
+      "sha256": "e09661cd3cf787f20cea12bc208e04913ef04bb6a333d26f02b67a72121af47b",
+      "bytes": 18517,
+      "mtime": 1791811273.8646514,
+      "actual_view_image_completed": true,
+      "window_km": [
+        22.6220802189,
+        18.585984511499998,
+        22.9720802189,
+        18.9359845115
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/港货农机下穿-新.png",
+      "sha256": "4e0cefd588d7a1536cd649c60b8094e35f5e1e3eb409b8bd6a3017de25ff53ee",
+      "bytes": 105268,
+      "mtime": 1791811275.6338022,
+      "actual_view_image_completed": true,
+      "window_km": [
+        39.9876701571128,
+        27.5859,
+        40.3376701571128,
+        27.9359
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/火车站-新.png",
+      "sha256": "091ab7f8e605c038ffbea97d4377513c87cbd986175121c4dd4bc9450206648a",
+      "bytes": 447530,
+      "mtime": 1791811313.2816937,
+      "actual_view_image_completed": true,
+      "window_km": [
+        31.85,
+        16.25,
+        32.95,
+        17.85
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/西城学府立交-新.png",
+      "sha256": "e34b94592678e855f0b2ea3316a3a836c67251bced2ee1d51480b59320f3b251",
+      "bytes": 312708,
+      "mtime": 1791811311.5272112,
+      "actual_view_image_completed": true,
+      "window_km": [
+        12.9,
+        5.8,
+        14.9,
+        7.8
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/西管制口-新.png",
+      "sha256": "9efc13c9b1dabb6417902cd00da995a2794afb7f1e632087c2c135217cb92a1f",
+      "bytes": 1189603,
+      "mtime": 1791811304.0317495,
+      "actual_view_image_completed": true,
+      "window_km": [
+        31.1,
+        23.8,
+        32.8,
+        26
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/铁山-新.png",
+      "sha256": "e80c853276212d9dd8baad254710b0b211e7403121a520314d6a178c61bd3437",
+      "bytes": 592318,
+      "mtime": 1791811309.8578262,
+      "actual_view_image_completed": true,
+      "window_km": [
+        38.7,
+        22,
+        41.7,
+        25
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/龙门吊路口-新.png",
+      "sha256": "8c1585ce35247e68c0bb459b537eb076fa4f03b2282ae80ce3c5bf7666fda57f",
+      "bytes": 42687,
+      "mtime": 1791811274.8912907,
+      "actual_view_image_completed": true,
+      "window_km": [
+        39.525000000000006,
+        28.525,
+        39.875,
+        28.875
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/龙散市-全图.png",
+      "sha256": "dea7d45027a0aad5487f22ce5679a04383c084162faacd2def45910b2ef772f8",
+      "bytes": 2593204,
+      "mtime": 1791811274.4269097,
+      "actual_view_image_completed": true,
+      "window_km": [
+        0,
+        0,
+        48,
+        36
+      ],
+      "source_svg": "龙散市-基础底图.svg",
+      "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "role": "final_actual_render"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/龙散市-地铁全图.png",
+      "sha256": "ff53ea7d08c257acc895bad089bc53a21414fd013f6c0e041d0d11213da87eb2",
+      "bytes": 2652250,
+      "mtime": 1791811289.471244,
+      "actual_view_image_completed": true,
+      "window_km": [
+        0,
+        0,
+        48,
+        36
+      ],
+      "source_svg": "龙散市-底图与地铁.svg",
+      "source_svg_sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+      "role": "final_actual_render"
+    }
+  ],
+  "comparison_references": [
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/楚岸-旧.png",
+      "sha256": "c223e32f8f9f6e3122e027d9208f7f0a0265d62475f54ac3c7c582a44cb13bcd",
+      "bytes": 1109359,
+      "mtime": 1791811319.0457978,
+      "role": "same_geographic_window_v6_render",
+      "actual_read_completed": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/故城-旧.png",
+      "sha256": "5cb17deff1f31dd5a2216eda6f9172cd72de22e93d8e59c7be3dccb5125e493b",
+      "bytes": 1015063,
+      "mtime": 1791811318.7592838,
+      "role": "same_geographic_window_v6_render",
+      "actual_read_completed": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/近景/深中-旧.png",
+      "sha256": "500eed51f5a3133333b9a8727cf0a5cb36937e771ea6d84758fbcdd2edd76f64",
+      "bytes": 717015,
+      "mtime": 1791811319.287807,
+      "role": "same_geographic_window_v6_render",
+      "actual_read_completed": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/images/changsha-old-town-roads.png",
+      "sha256": "85f1c9bc437033eda73aac527dbcdb877ddff7a75cc3322cec39fc846c0661a0",
+      "bytes": 229062,
+      "mtime": 1791796381.9841301,
+      "role": "real_OSM_road_window",
+      "actual_read_completed": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/images/changsha-meixihu-roads.png",
+      "sha256": "72bd8bcd2050c48aea1a021e06ebececc0db11e14a5f3d7f850a3820c62ff967",
+      "bytes": 295918,
+      "mtime": 1791796382.1264563,
+      "role": "real_OSM_road_window",
+      "actual_read_completed": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/路网方法参考.html",
+      "sha256": "7352f353bd6c7344d7225764338e3e7ca4bf6da9b6f59476e0ca763a107e6d9c",
+      "bytes": 1191695,
+      "mtime": 1791805387.733539,
+      "role": "road_generation_method_reference",
+      "actual_read_completed": true
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v8-20261012/路网方法参考.json",
+      "sha256": "9d8b01373ce3e6d1d4d0e6f1c1fe1172f3a1ef2732cea18637ace9cae7581c80",
+      "bytes": 15922,
+      "mtime": 1791805387.7386286,
+      "role": "road_generation_method_reference",
+      "actual_read_completed": true
+    }
+  ],
+  "evidence_integrity": {
+    "final_svg_hashes_live_verified": true,
+    "all_33_pngs_actual_viewed": true,
+    "all_final_png_mtimes_after_both_final_svgs": true,
+    "old_pngs_and_symbol_prototype_not_used_as_final_acceptance": true,
+    "review_method": "逐张 tools.view_image；当前最终2SVG、道路/建筑与全部33PNG读回SHA256。同尺度v6旧图和真实长沙窗口只作为比较材料。"
+  },
+  "history_artifacts": [
+    {
+      "path": "maintenance/reports/longsan-map-audit-20261012/v8目视审查-下穿门杆修前.json",
+      "sha256": "26fec809fe3cdb3ee6137a8eb25bb61d45a51612e0794bc8ffdd9431748b7c74",
+      "role": "rejected_first_v8_render_not_final_acceptance"
+    },
+    {
+      "path": "maintenance/reports/longsan-map-audit-20261012/v8符号原型目视审查.json",
+      "sha256": "c28ceef4be1d00532d7ac77c294ebda1b83a23efdf396ea34e5ba919e1448ccf",
+      "role": "local_symbol_prototype_not_final_map"
+    }
+  ],
+  "geometry_report_cross_references": [
+    {
+      "path": "maintenance/reports/longsan-map-audit-20261012/v8港货农机下穿独审.json",
+      "sha256": "4b28ffb043a0686745e7f6a74fe91a674c8280dd6893bc86baf8df0b011eaa39",
+      "actual_read_completed": true
+    },
+    {
+      "path": "maintenance/reports/longsan-map-audit-20261012/v8恢复环路桥独审.json",
+      "sha256": "444ceffc29e79a4a0e1afb671a628cf8f7ec69648d472ec530649a6536b2aab9",
+      "actual_read_completed": true
+    }
+  ]
+}

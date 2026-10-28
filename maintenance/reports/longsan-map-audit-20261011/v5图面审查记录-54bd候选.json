@@ -1,0 +1,119 @@
+{
+  "complete": true,
+  "reviewed_at_utc": "2026-10-12T05:43:57.313518+00:00",
+  "base_svg_sha256": "54bd2c54f4b172c89499eb55f81cc2c5fbd65b01ff2e65342756e1df3b56f3c3",
+  "metro_svg_sha256": "127d53e2263fc519b9058d0fb97e3d042c50dbe34ea37473179d83bb31078a72",
+  "images": {
+    "assets\\maps\\longsan-geographic-v5-20261012\\龙散市-全图.png": {
+      "sha256": "8f7b17b4f7a7c6367c3637d1c5504e712f6077720edcd3398dad9bea62a5bd32",
+      "mtime": 1791782976.750287,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\龙散市-地铁全图.png": {
+      "sha256": "607fdc8e6f5076d0ec630728ca10b4cebbb510f6c5049e143597098e7f689dc5",
+      "mtime": 1791782980.5746648,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\近景\\火车站-新.png": {
+      "sha256": "f288679139e6d451c0cab485f4006f3e25c5295d914b81a7ccb7785169d94f05",
+      "mtime": 1791782982.8661828,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\近景\\东站-新.png": {
+      "sha256": "8387d433c1f2dc36d1fc59d30e1dd2ec7a34cdc709e5c7cc46607143a6b3ce21",
+      "mtime": 1791782983.1657176,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\近景\\故城-新.png": {
+      "sha256": "df258aaca77867ae585a0884de3fe9cb7a6111fe518f6126e8cab59f1f0cfd8e",
+      "mtime": 1791782984.7155738,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\近景\\故城滨江-新.png": {
+      "sha256": "bab2042e6e6d3a7dd44b3109b233ae420c8b3cbeefb2e41edb5ca90b4f7f76ec",
+      "mtime": 1791782984.9834154,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\近景\\港区过渡-新.png": {
+      "sha256": "66f28a5c271e144ed05b04063ec1e9bde86f9c7b07efbbfff2164cb12f16f625",
+      "mtime": 1791782985.9773111,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\近景\\城西边缘-新.png": {
+      "sha256": "35c3cd496d5695273f59b80f71600221fae3d07e747401759dc83594b4f6318f",
+      "mtime": 1791782985.3258255,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\近景\\北岭铁山过渡-新.png": {
+      "sha256": "5d2b9414f46ffe6cc6c5db72002150b2fd6d04a3cf1f5161780b4bd6e0d5b35d",
+      "mtime": 1791782985.6191418,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\近景\\云麓-新.png": {
+      "sha256": "9fb964473c1b95918d60f652551c7f42965a519a31178dae4b6dbb9626586dfd",
+      "mtime": 1791782986.6938562,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\近景\\大学-新.png": {
+      "sha256": "ac6fcd27de164b1dc82d0618dbd169dc4f2685f3b7a603a957c3ce04e24ca8f1",
+      "mtime": 1791782986.19965,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\近景\\西南高速-新.png": {
+      "sha256": "20a510115e6d289306c9e87dc86dd9a5304e5e0ce29a06b590089ec100b871cf",
+      "mtime": 1791782984.239788,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\近景\\北向外联-新.png": {
+      "sha256": "894653949ead011db8e98e571d271e73f8d6c0b3ed0a1e49d755979685e8b6db",
+      "mtime": 1791782983.5484324,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\近景\\港区铁路-新.png": {
+      "sha256": "05b72b155a1bb9b6fed0409da0ec97726a316a6ff8b8de442ded0d3331a02ad8",
+      "mtime": 1791783314.7789593,
+      "visually_read": true
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\近景\\厂区高铁-新.png": {
+      "sha256": "3cec3604a99003df670d5fcbefc0d0cf06f17c75e55514b9c5faa2b96d6e643d",
+      "mtime": 1791783315.0261793,
+      "visually_read": true
+    }
+  },
+  "blocking_candidate_issues": [],
+  "visual_observations": [
+    {
+      "topic": "两站动线",
+      "judgement": "当前候选的横向天桥已完整画在道路、铁路及站台之上；站前步道亦可见连续。首轮 54 m 天桥断口和东站约148 m 步道断口已消失。"
+    },
+    {
+      "topic": "都市密度及外缘",
+      "judgement": "全图能读出稠密核心、稀疏边缘和沿路地块。城西近景见逐渐分散的完整楼体和接入通道；不再把城区边界等同楼群模板的硬拼接。"
+    },
+    {
+      "topic": "用途过渡",
+      "judgement": "北岭—铁山、港区过渡有地块大小及用途的连续变化，仍以统一的矩形/L形屋顶语言为主；普通工厂的装卸场和围合关系较简略。"
+    },
+    {
+      "topic": "故城近景",
+      "judgement": "主近景已换成实际东部街坊，滨江窗口也显示街坊；历史街坊主要靠尺寸和色调区别，连续街墙、窄进深铺宅、成组院落表现尚弱。"
+    },
+    {
+      "topic": "云麓村镇",
+      "judgement": "继承的村宅仍为规则点阵，近景重复明显；学校和对外接路的几何功能已独立检查通过，村宅肌理属于待深化的美术限制。"
+    },
+    {
+      "topic": "大学",
+      "judgement": "红砖庭院开口、内部道路及体育场可辨；21-35联合研究所15栋编号实验楼独立可见，无穿楼路。"
+    },
+    {
+      "topic": "线网叠加",
+      "judgement": "地铁图的站序、岸别和线路配色可读，主路与国铁都有层级；轨道、路宽和楼体描边的可见宽度含制图夸张，工程可建性仍未验算。"
+    },
+    {
+      "topic": "铁路跨越设施服务路",
+      "judgement": "终版港区铁路和厂区高铁近景中，连续高架边线可辨且画在服务路上方，港内两处货运平交各画两根门杆；完整集装箱没有掩盖这些铁路。"
+    }
+  ],
+  "scope_note": "审查代理已重新目视当前两版全图和13处近景。本记录只完成实际图面复核；最终放行还须独立几何门槛全部通过。4个直接临街接点标记另行判定，不能以本视觉记录代替几何接入结论。"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Publication boundary, hidden drafts, schedules, invalid dates, nested replies, raw data preservation",
+    "Actual renderers: both timelines, four profile tabs, search, detail, bookmarks, trend and quoted-post fallback",
+    "Inclusive due time, two clock hooks, polling, clock rewind, composing-draft preservation, hide/reopen cleanup",
+    "Actual realtime callback and world-setting refresh do not bypass publication filtering",
+    "Native schedule/publish handlers: date validation, immediate broadcast, due visibility, manual publish and existing GM guard",
+    "Real snapshot: 113 preserved; 45 eligible; 68 future posts excluded"
+  ]
+}

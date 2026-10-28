@@ -1,0 +1,77 @@
+[
+  {
+    "path": "src\\地铁图.svg",
+    "bytes": 132120,
+    "sha256": "41fa82d6cf408827f663b636ed056f39684d8cbb7c631b39f49878ed3a095cda"
+  },
+  {
+    "path": "assets\\maps\\RMG\\终稿.json",
+    "bytes": 63749,
+    "sha256": "f5d2cf43a63b04542940580c0873d0900f38110f1b1f442505d1a395ab1f7ccd"
+  },
+  {
+    "path": "assets\\maps\\RMP_1778746859180.svg",
+    "bytes": 132133,
+    "sha256": "d323cf8aaa8a0a9044f776e9bbe2bb1ea38ae3c5efa8e28917389873f49d97b4"
+  },
+  {
+    "path": "assets\\maps\\longsan_terrain_grid.txt",
+    "bytes": 450,
+    "sha256": "649de82da5d9438f511ad9b6532cba746f3d9b920f7516969dafae0ab5d531e4"
+  },
+  {
+    "path": "assets\\maps\\longsan_region_grid_review.html",
+    "bytes": 11727,
+    "sha256": "bc0ea5c952a3cc42de5f17100455cdae519305e3890298b5c755b21cec4e0767"
+  },
+  {
+    "path": "campaign\\world\\15-城区与交通网络.md",
+    "bytes": 43431,
+    "sha256": "f857bda308a893f598be4cd78390621f844f807780b5670fda824a811c07121c"
+  },
+  {
+    "path": "campaign\\world\\09-城市空间与动态分区.md",
+    "bytes": 3519,
+    "sha256": "61b85e2e1568a709fab476adf5bc9d35e5a14274efd85668fbafe84fd22b26cb"
+  },
+  {
+    "path": "src\\核心规则\\龙散市\\城区与地点.md",
+    "bytes": 4133,
+    "sha256": "0357d8e8d8ef53af9090c44d3e1d82292e061b65372f11207fc385eb35611925"
+  },
+  {
+    "path": "scripts\\generate_longsan_geographic_maps.py",
+    "bytes": 43306,
+    "sha256": "fc32fd6fbf38b1ac63776685460eab29e45ee5d3c4aa7e03a044ceaf995b2edd"
+  },
+  {
+    "path": "assets\\maps\\longsan-geographic-20261011\\地图坐标与线路.json",
+    "bytes": 175892,
+    "sha256": "6a01c125d9f2f6a91d08ced17242eece8708b27efd8209d334ece23c4e64a464"
+  },
+  {
+    "path": "assets\\maps\\longsan-geographic-20261011\\地图预览.html",
+    "bytes": 3717,
+    "sha256": "29d0a51a73193d479e71445268bc1d5cae0b16235d22ea57c006ec4349e663d5"
+  },
+  {
+    "path": "assets\\maps\\longsan-geographic-20261011\\基础底图-预览.png",
+    "bytes": 2139993,
+    "sha256": "b99765f87e16aa1a193182e475edb81204aaf3fc5981d1bcacf57d6d4f4d9e9f"
+  },
+  {
+    "path": "assets\\maps\\longsan-geographic-20261011\\底图与地铁-预览.png",
+    "bytes": 2231815,
+    "sha256": "393c158547e43c5e133d5af10ad14bda68f1b0800c30190c68862ac0504b4964"
+  },
+  {
+    "path": "assets\\maps\\longsan-geographic-20261011\\龙散市-基础底图.svg",
+    "bytes": 6975242,
+    "sha256": "c9674ace5ac7b4511febcce8618ca75ec608aaa8de7a22b3016beea490de9949"
+  },
+  {
+    "path": "assets\\maps\\longsan-geographic-20261011\\龙散市-底图与地铁.svg",
+    "bytes": 7093253,
+    "sha256": "6585e45df6e5ca86771884d707e72bcaf080d2de10354e95ba2d00a980c1e7ca"
+  }
+]

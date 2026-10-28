@@ -1,0 +1,60 @@
+{
+  "version": "v7-current-building-baseline",
+  "reviewer": "collapse_design_audit",
+  "status": "superseded candidate baseline; wait new building variants and repaired legacy tails",
+  "svg_inputs": [
+    {
+      "path": "assets\\maps\\longsan-geographic-v7-20261012\\龙散市-基础底图.svg",
+      "sha256": "ee0707e466a5ffb6ce2d868d84fbea57618ac8bcfbc52b2324533942c6e513d8",
+      "bytes": 124787246
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v7-20261012\\龙散市-底图与地铁.svg",
+      "sha256": "b533012b81593c506966b733989b150d236ac4c6f925c6444b59041c5f40c37e",
+      "bytes": 124848108
+    }
+  ],
+  "actual_visual_reviews": [
+    {
+      "path": "assets\\maps\\longsan-geographic-v7-20261012\\近景\\塌陷全区-新.png",
+      "sha256": "2a02718a14718b1264298a410fbd95c751a55065c415ab9e1849ffd961c66966",
+      "bytes": 1907311,
+      "observation": "灰色斜线覆盖核心，与连续封锁墙、外侧道路和四处管制口区分明确；未把西侧故城继续生活区涂成塌陷。复核三地标位置仍以几何量测为准。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v7-20261012\\近景\\废墟与断线-新.png",
+      "sha256": "e93a3d8ea84fcd699e8abc7336ec100d4fb44ad4601e78e1eb27eea6c5175614",
+      "bytes": 475595,
+      "observation": "断裂道路和旧铁路线采用淡色或虚线，与仍运营线路区别可见；随机废墟轮廓允许作为战术地图概念层，不代表逐栋真实结构损毁模拟。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v7-20261012\\近景\\普速绕行-新.png",
+      "sha256": "33085a6032c0972fe9b2e75ae3ec4f5f83132698b2aa774d018e7235e9906557",
+      "bytes": 2089183,
+      "observation": "恢复铁路在隔离区东侧连续绕行，旧线经过灰区；具体封控带零侵入和支线接轨需机械审核。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v7-20261012\\近景\\火车站-新.png",
+      "sha256": "dcf57dc6b760bdcbd57e21bb589d64904129fd64f0289cf963e2c11c6ded4de3",
+      "bytes": 422101,
+      "observation": "普速站轨道、站台/跨线设施与道路跨越能够目视区分；站场仅是概念图，未做调度能力/曲线半径/完整人行入口认证。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v7-20261012\\近景\\东站-新.png",
+      "sha256": "4e85b03204e6d7f340d88d006fcb6cc724f2dba42ae328cb5cd15285e1167c88",
+      "bytes": 148867,
+      "observation": "东站与普速站分立，铁路/道路关系可辨；站前场地与公共路接入精细设计留作设施层完善。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v7-20261012\\近景\\西管制口-新.png",
+      "sha256": "bda222e68e61ea158bbc2f127eefa62c19faf91d184f94ef332fc16593b77f2c",
+      "bytes": 1056684,
+      "observation": "西侧生活街区、隔离净空带、墙线和检查口空间顺序清楚，受控通道抵达墙线。"
+    }
+  ],
+  "scope_limits": [
+    "This visual record does not declare art complete or user accepted.",
+    "Generated compound entrance positions are audited separately; legacy facility circulation is concept-level.",
+    "Urban repetition findings belong to independent v7目视审查.json."
+  ]
+}

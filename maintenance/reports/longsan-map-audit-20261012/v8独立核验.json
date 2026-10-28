@@ -1,0 +1,3028 @@
+{
+  "version": "v8",
+  "reviewer": "collapse_design_audit independent subagent",
+  "review_status": "technical_geometry_and_ownership_passed_candidate_for_review",
+  "inputs": {
+    "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-基础底图.svg": {
+      "sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "bytes": 122980065
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+      "bytes": 123042868
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\地图坐标与线路.json": {
+      "sha256": "e09a05ff6d66b453aa6d6688884fe54ae3a246542b9ace330e5c88b40798c00a",
+      "bytes": 287088,
+      "mtime": 1791811185.7268603
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\路网.geojson": {
+      "sha256": "735570ee178862bb98aa30a8cee1e1a2b4523874d88477d5fce3446540e2e4b5",
+      "bytes": 4108433
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\铁路.geojson": {
+      "sha256": "2c7540fd4a02eed18b9f5e90c9bf9dbafeb94f84830092f6463685b2967e2530",
+      "bytes": 42615
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\临街地块.geojson": {
+      "sha256": "ca541b79cf8bbe4adcac8bdb5c0bb466e756e1581997247098cf098f1b472f7a",
+      "bytes": 11574532
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\地理骨架.geojson": {
+      "sha256": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+      "bytes": 628562
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\灾后地理.geojson": {
+      "sha256": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+      "bytes": 17433
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\城区规划.geojson": {
+      "sha256": "f2361b1494b639da0690f6520b840dab50b9bd1748e02d39b913b470cb3f7247",
+      "bytes": 550934,
+      "mtime": 1791811185.7633047
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\立交匝道.geojson": {
+      "sha256": "f2dadad27cf411efaa5375ce5bfc4d5a4b78a758197febf991ca8c2c16225445",
+      "bytes": 35475,
+      "mtime": 1791811154.7126284
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\灾后交通与分区.json": {
+      "sha256": "4b12c3b807a6681b00b4e386cef3a684064594794fe189c0c494293043328ae6",
+      "bytes": 16222,
+      "mtime": 1791811185.7288601
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\地图坐标与线路.json": {
+      "sha256": "0616bc836aa91e1ee58a3bd0ddabab4663b9b8fb0b542b7e49cb53c5b31d1415",
+      "bytes": 208345,
+      "mtime": 1791784028.4517193
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\铁路.geojson": {
+      "sha256": "a80c94c989ba2b3198c88fcb67d48eac56c82062fed4bd407dc4ed036e34e416",
+      "bytes": 14610,
+      "mtime": 1791784028.7354858
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\路网.geojson": {
+      "sha256": "66b61d8cf1ed0cdcfd32224f8d65150df98e0767fdc25ccd89cd6c3259a71e6e",
+      "bytes": 3161316,
+      "mtime": 1791784028.731142
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\地理骨架.geojson": {
+      "sha256": "aacc5142aeec4288af55546a63586dfb57828b1e8e91cc0b3a4792ac2f92f42e",
+      "bytes": 262662,
+      "mtime": 1791784034.7650864
+    },
+    "assets\\maps\\longsan-geographic-v5-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "69fce8eac21cd1805bd2daa295e4cbaa528a156b1707b104dfac4f5e399eb0e8",
+      "bytes": 48339069,
+      "mtime": 1791784027.6474524
+    },
+    "assets\\maps\\longsan-geographic-v7-20261012\\铁路.geojson": {
+      "sha256": "9a8bff95b480dd945dc523e8a8eb3d3ecece992e5a09869da32cc2e5b425fe4c",
+      "bytes": 38590,
+      "mtime": 1791804996.048138
+    },
+    "assets\\maps\\longsan-geographic-v7-20261012\\地理骨架.geojson": {
+      "sha256": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+      "bytes": 628562,
+      "mtime": 1791804999.0248797
+    },
+    "assets\\maps\\longsan-geographic-v7-20261012\\灾后地理.geojson": {
+      "sha256": "129697219ef04748e96262cd19c0e3c26a4630826918c50ae79c0b03dc0763b0",
+      "bytes": 15319,
+      "mtime": 1791804999.0309713
+    },
+    "scripts\\generate_longsan_geographic_maps_v8.py": {
+      "sha256": "c274221e3e88ef57dac50e3abe632b2c8f7472dc5a4431cf5ab28a1802833ff1",
+      "bytes": 36914
+    },
+    "scripts\\generate_longsan_geographic_maps_v7.py": {
+      "sha256": "a4ff591e8d01c00df8e28ef22b63a59703394faa0f3dc042a3428414a04f1b6e",
+      "bytes": 34721,
+      "mtime": 1791807820.1100605
+    },
+    "scripts\\generate_longsan_geographic_maps_v6.py": {
+      "sha256": "3ceddbf5832e6a287e97b6a828dc57a33e77e1459038540436246fc29b8a5152",
+      "bytes": 36623,
+      "mtime": 1791794941.9269764
+    },
+    "scripts\\longsan_collapse_v8.py": {
+      "sha256": "dabff8828752f0ea3dafa2c7f9d86af18de0cf2dd0b2242ac81f8493160c4327",
+      "bytes": 35104
+    },
+    "scripts\\longsan_planned_fabric.py": {
+      "sha256": "0fb13d1e278b016d2d2f4521726449b963c27b272eeac4f366a8a245ba19d537",
+      "bytes": 54042
+    },
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8基础独立核验.py": {
+      "sha256": "d9c9e52385403fd8eb49ed56464ef26a90c4fbd906b649386fdffa31593230ff",
+      "bytes": 28088,
+      "mtime": 1791808925.6422353
+    },
+    "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py": {
+      "sha256": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94",
+      "bytes": 11040
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\建筑.geojson": {
+      "sha256": "bba3a4f14d91f8133779e7be52f2fa04d33e1fc10d25afc6325f0139320d0632",
+      "bytes": 117021688
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\组团通道.geojson": {
+      "sha256": "00fef14480a0199bd5c3c3954a76b0ae06ccce04a941a71ebc8d675e8e96bf80",
+      "bytes": 99561193
+    },
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8组团独立核验.py": {
+      "sha256": "0c4ffc72eef3cf7d64a1f95c19674c962dfd744bc9d6912eaa6e89e4e5ec0088",
+      "bytes": 26479
+    },
+    "temp\\longsan-map-qa-v8\\network.pickle": {
+      "sha256": "ebd74d5da0b6c2667ec8b8c64a5fa11d9f65e451f5a60b5505cf495da2b6b001",
+      "bytes": 4879758
+    },
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8路网阶段独立核验.py": {
+      "sha256": "7df82b41be57709f20c737a144e023365f34f01b7e8df35f1c9eabebb3caf302",
+      "bytes": 9524
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\街坊.geojson": {
+      "sha256": "764143684fb2908ad681b012b7d2885e264558ec7b610409fbdbdc380c09276e",
+      "bytes": 12675670
+    },
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8符号层独立读回.py": {
+      "sha256": "2f0eee6a291c1636f57c392df0d970e3a18e1db718de502bfff80c947802c732",
+      "bytes": 13899
+    },
+    "temp\\longsan-map-qa-v8\\fabric.pickle": {
+      "sha256": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415",
+      "bytes": 54677380
+    },
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8路口邻道擦除核验.py": {
+      "sha256": "5e0c0f24613c4f135168b39ef6cf674a384f5b797df622f04ada1b39e5d48e6d",
+      "bytes": 5516
+    },
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8公共路严格连通.py": {
+      "sha256": "e18eacb37fd9655a9397e8775ba74c49a30fbebf09bcaea906ff0337d2e380fc",
+      "bytes": 1314
+    },
+    "assets\\maps\\longsan-geographic-v8-20261012\\几何校验.json": {
+      "sha256": "5b2156bbc62c0634cdd21db11057691bb1752790efe47991a442ce03a0a6ef86",
+      "bytes": 59652
+    },
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8港货农机下穿独审.py": {
+      "sha256": "a9060b1068d5672735b09c378a70b35c52381317619029de58daa392ff87f2c4",
+      "bytes": 5609
+    },
+    "temp\\longsan-map-qa-v8\\pre-ring-bridge-eb20bc8bc6236a9f00b3718b7aeff5347c3022bda27323e29318f4351cb8b7f2.pickle": {
+      "sha256": "eb20bc8bc6236a9f00b3718b7aeff5347c3022bda27323e29318f4351cb8b7f2",
+      "bytes": 54677818
+    },
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8恢复环路桥独审.py": {
+      "sha256": "35c433ec4ec81abb2df89703c29e7968d875d3ddc64d755e3baa892275189b21",
+      "bytes": 7595
+    }
+  },
+  "hard_gates": {
+    "two_unfinished_closed_stations_inside_actual_collapse": true,
+    "expanded_collapse_actually_affects_prior_highspeed": true,
+    "operational_rail_physical_reservations_clear_and_real_primitives_connected": true,
+    "shared_base_in_two_svgs": true,
+    "48_by_36_km_extent": true,
+    "preserved_source_and_v5_hashes": true,
+    "frozen_water_island_geography": true,
+    "v6_water_island_features_frozen": true,
+    "collapse_core_security_svg_matches_geojson": true,
+    "collapse_is_dry_and_respects_three_user_anchors": true,
+    "gucheng_center_remains_outside_collapse": true,
+    "stations_and_status_preserved_and_json_matches": true,
+    "metro_route_order_and_section_identity_preserved": true,
+    "all_80_original_metro_section_identities_retained": true,
+    "metro_actual_svg_matches_km_geometry": true,
+    "active_metro_clear_of_security": true,
+    "operational_roads_clear_of_security": true,
+    "operational_rails_clear_of_security": true,
+    "active_access_clear_of_security": true,
+    "active_roofs_clear_of_security_and_water": true,
+    "ordinary_roofs_do_not_overlap": true,
+    "ordinary_roofs_clear_transport_corridors": true,
+    "built_lot_inventory_matches_actual_roofs": true,
+    "actual_private_access_clear_barriers_and_other_roofs": true,
+    "rendered_roads_match_exported_km": true,
+    "rendered_railways_match_exported_km": true,
+    "road_rail_grade_at_every_actual_crossing": true,
+    "motorway_grades_at_every_actual_crossing": true,
+    "independent_passenger_mainlines_have_grade_separation": true,
+    "ordinary_road_network_one_component": true,
+    "motorway_network_one_component": true,
+    "passenger_railways_reach_both_frame_ends": true,
+    "freight_branches_join_conventional": true,
+    "two_stations_remain_connected_with_separate_platforms_tracks": true,
+    "interchange_ramps_join_roads_and_clear_reserves_roofs": true,
+    "four_security_gates_join_wall_patrol_recovery_ring": true,
+    "seven_districts_exclusive_and_outside_security": true,
+    "road_network_contains_multiple_directions": true,
+    "inputs_stable_during_read": true,
+    "symbol_svg_metadata_correct_v8": true,
+    "symbol_all_polygon_junctions_independently_reconstructed": true,
+    "symbol_blocks_match_current_network_semantics_and_geometry": true,
+    "symbol_inputs_stable": true,
+    "junction_symbols_preserve_nonincident_public_road_fill": true,
+    "inputs_stable": true,
+    "public_primitive_network_connected_with_20mm_tolerance": true,
+    "strict_public_graph_inputs_stable": true,
+    "rural_freight_crossing_is_actual_restored_freight_and_farm_track": true,
+    "rural_freight_classification_is_rail_over_road_not_port_gate": true,
+    "rural_freight_expected_deck_160m_of_actual_rail_centerline": true,
+    "rural_freight_actual_deck_21m_reservation_dry_and_outside_security": true,
+    "rural_freight_both_svgs_have_correct_deck_without_wrong_gate": true,
+    "rural_freight_inputs_stable": true,
+    "recovery_ring_ring_is_exact_original_380m_offset_closed_loop": true,
+    "recovery_ring_ring_only_one_previous_river_gap": true,
+    "recovery_ring_whole_P8810_removed_and_all_other_geometry_preserved": true,
+    "recovery_ring_new_bridge_centerline_does_not_split_land_blocks": true,
+    "recovery_ring_no_retained_compound_in_new_28m_road_reservation": true,
+    "recovery_ring_new_closed_ring_reservation_outside_security": true,
+    "recovery_ring_both_svgs_have_explicit_correct_river_bridge": true,
+    "recovery_ring_inputs_stable": true,
+    "compound_full_export_has_real_inventory": true,
+    "compound_all_executed_checks_zero_errors": true,
+    "compound_inputs_stable_during_read": true,
+    "actual_public_graph_has_one_component": true,
+    "all_generation_blocks_valid_nonzero": true,
+    "remaining_named_road_endpoints_individually_adjudicated": true,
+    "all_audits_bind_current_frozen_inputs": true,
+    "actual_visual_review_binds_final_svgs_and_pngs": true,
+    "actual_visual_review_is_candidate_without_unresolved_must_correct": true
+  },
+  "unresolved_hard_errors": [],
+  "supporting_reports": [
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8基础独立核验.json",
+      "sha256": "928b2a39813fd79ff15060b8b8d56282f6b3f02d440c16f8ee04e10caec3d303"
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8组团独立核验.json",
+      "sha256": "32a156847df84d7bc1a0be65e22de3d9f5d66cf7f30f237cbb2e865781ddb465"
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8符号层独立读回.json",
+      "sha256": "5ca322615c476e27d131f0bbeab54d28685ed1976c16dc78442ff9cf9a88d7d5"
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8路口邻道擦除核验.json",
+      "sha256": "18023c3e0c24fe9d23ce2a105c00ec0f1e18d34c7b1d4311fa880fa436fe0020"
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8公共路严格连通.json",
+      "sha256": "787d9241706aae22cc55f79e3bb908fdc91ecabeced03c10b2d300adf1375acb"
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8路阶段-frozen.json",
+      "sha256": "5997cad49a7ba69101a95ccbde75ffcb4fd637b2c26ab64c08adfef222f742e6"
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8命名端点判定.json",
+      "sha256": "bca9a106d961dc06a5b4550a699dada0186869499239e1bde728f8a8eb72b1b0"
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8端点用途核验.json",
+      "sha256": "57a6570e8e58934ef09a0522daa4c9ef3cff6949d3d886b80178900d28c8b912"
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8目视审查.json",
+      "sha256": "9194f1e957822601e70c58e85573c1604003a7fce7fc51e7e298488020019f12"
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8交通封锁目视记录.json",
+      "sha256": "59554d177523bfad9e9d13f8d89f4cce78cc220631629586f081d14f94bc9198"
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8楚岸前后核验.json",
+      "sha256": "913c04711562dd6cf7df1712766a1af426ed6d52b86fe482b11443367d430774"
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8港货农机下穿独审.json",
+      "sha256": "4b28ffb043a0686745e7f6a74fe91a674c8280dd6893bc86baf8df0b011eaa39"
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8恢复环路桥独审.json",
+      "sha256": "444ceffc29e79a4a0e1afb671a628cf8f7ec69648d472ec530649a6536b2aab9"
+    }
+  ],
+  "inventory": {
+    "public_roads": 5584,
+    "ordinary_roofs": 103424,
+    "owned_roofs": 102397,
+    "legacy_unowned_roofs": 1027,
+    "lots": 9898,
+    "private_paths": 186701,
+    "path_roles": {
+      "legacy": 1696,
+      "compound-entry": 9898,
+      "compound-circulation": 72710,
+      "building-door": 102397
+    }
+  },
+  "organization": {
+    "window_km": [
+      16.7,
+      15.2,
+      18.4,
+      17.0
+    ],
+    "road_features_by_class": {
+      "primary": 2,
+      "secondary": 2,
+      "local": 43
+    },
+    "full_alignment_length_m_by_class": {
+      "secondary": {
+        "0": 766.5114178925592,
+        "25": 1054.0166986780591,
+        "50": 1341.5219794635593,
+        "75": 1629.0272602490595,
+        "90": 1801.5304287203594,
+        "100": 1916.5325410345595
+      },
+      "primary": {
+        "0": 23432.068405906357,
+        "25": 23787.09252558874,
+        "50": 24142.116645271126,
+        "75": 24497.14076495351,
+        "90": 24710.15523676294,
+        "100": 24852.164884635895
+      },
+      "local": {
+        "0": 85.65903554211833,
+        "25": 367.9496577913328,
+        "50": 600.2750974321777,
+        "75": 942.1288950426714,
+        "90": 1226.9540626779421,
+        "100": 3140.6232958820583
+      }
+    },
+    "noded_intersection_section_length_m_quantiles": {
+      "0": 1.7763568394002505e-12,
+      "25": 90.43486836563378,
+      "50": 178.14155793715614,
+      "75": 199.97491638585174,
+      "90": 258.82599043750935,
+      "100": 809.8708449158155
+    },
+    "original_interior_dead_ends": [],
+    "major_endpoint_hierarchy_candidates": [],
+    "local_features_under_100m": [
+      {
+        "kind": "local",
+        "name": "街坊道路",
+        "patch": "有序规划路网",
+        "real_width_km": 0.012,
+        "width_km": 0.012,
+        "role": "local-public-closure",
+        "generated": true,
+        "district": "chuan",
+        "survey_angle": 0.0,
+        "planning_face_angle": 0.0,
+        "length_m": 85.65903554211833
+      }
+    ],
+    "folded_direction_degrees_length_km": {
+      "75": 1.8771572346587866,
+      "15": 0.0771723947561378,
+      "0": 21.23767214391028
+    },
+    "complete_interior_face_count": 28,
+    "window_censored_faces": 31,
+    "complete_face_area_m2_quantiles": {
+      "0": 2565.808426392757,
+      "25": 35623.843153328,
+      "50": 36726.10188664094,
+      "75": 66696.912823933,
+      "90": 66696.91282393363,
+      "100": 66696.91282393428
+    },
+    "complete_face_short_side_m_quantiles": {
+      "0": 38.96844948636158,
+      "25": 178.14155793715614,
+      "50": 191.6278544731398,
+      "75": 255.5038059641852,
+      "90": 255.50380596418628,
+      "100": 255.50380596418876
+    },
+    "complete_face_long_side_m_quantiles": {
+      "0": 131.6864519996237,
+      "25": 191.65325410345702,
+      "50": 199.97491638585174,
+      "75": 261.04078008639317,
+      "90": 261.04078008639317,
+      "100": 261.04078008639317
+    },
+    "roofs": 463,
+    "lots": 57,
+    "compound_roofs_count_quantiles": {
+      "0": 1.0,
+      "25": 3.0,
+      "50": 8.0,
+      "75": 10.0,
+      "90": 15.0,
+      "100": 38.0
+    },
+    "land_km2": 2.7702555921962557,
+    "roof_coverage_of_dry_crop": 0.1386856291012618,
+    "roof_setback_to_public_centerline_m_quantiles": {
+      "0": 15.999999999998234,
+      "25": 16.500000000000625,
+      "50": 29.2134961493602,
+      "75": 49.251657132571566,
+      "90": 79.3985692800348,
+      "100": 184.2940874661025
+    },
+    "frontage_roof_setback_m_quantiles": {
+      "0": 15.999999999998234,
+      "25": 16.000000000000014,
+      "50": 16.000000000000014,
+      "75": 16.500000000000625,
+      "90": 59.15968744346677,
+      "100": 118.38656248115953
+    },
+    "programmes": {
+      "historic": {
+        "compounds": 5,
+        "roofs": 56,
+        "lot_area_km2": 0.09980035852750073,
+        "weighted_roof_coverage": 0.28893200739718655,
+        "roofs_per_compound_quantiles": {
+          "0": 8.0,
+          "25": 8.0,
+          "50": 10.0,
+          "75": 15.0,
+          "90": 15.0,
+          "100": 15.0
+        }
+      },
+      "housing": {
+        "compounds": 22,
+        "roofs": 187,
+        "lot_area_km2": 0.8526262893654748,
+        "weighted_roof_coverage": 0.18804943824768242,
+        "roofs_per_compound_quantiles": {
+          "0": 2.0,
+          "25": 5.25,
+          "50": 6.0,
+          "75": 10.0,
+          "90": 15.0,
+          "100": 22.0
+        }
+      },
+      "mixed": {
+        "compounds": 19,
+        "roofs": 193,
+        "lot_area_km2": 0.5433510585178792,
+        "weighted_roof_coverage": 0.20320591748023598,
+        "roofs_per_compound_quantiles": {
+          "0": 3.0,
+          "25": 8.0,
+          "50": 9.0,
+          "75": 10.0,
+          "90": 11.0,
+          "100": 38.0
+        }
+      },
+      "office": {
+        "compounds": 11,
+        "roofs": 21,
+        "lot_area_km2": 0.37982047572732036,
+        "weighted_roof_coverage": 0.22577184263903882,
+        "roofs_per_compound_quantiles": {
+          "0": 1.0,
+          "25": 1.0,
+          "50": 2.0,
+          "75": 2.5,
+          "90": 3.0,
+          "100": 3.0
+        }
+      }
+    }
+  },
+  "actual_blocks": {
+    "count": 12233,
+    "area_m2_quantiles": {
+      "0": 714.6305841948287,
+      "25": 37701.18294581813,
+      "50": 69128.87771141353,
+      "75": 102358.43797314556,
+      "90": 197124.99591683107,
+      "100": 19352210.695543617
+    },
+    "area_m2_by_district": {
+      "tieshan": {
+        "0": 958.1789744350818,
+        "25": 171465.73111855646,
+        "50": 216878.8981328538,
+        "75": 225260.72308490658,
+        "90": 304647.0970961226,
+        "100": 19352210.695543617
+      },
+      "beiling": {
+        "0": 714.6305841948287,
+        "25": 64222.58312046941,
+        "50": 69975.36209680076,
+        "75": 98117.37127352452,
+        "90": 139061.14453865995,
+        "100": 5994499.237904083
+      },
+      "wangjin": {
+        "0": 1329.7369482257066,
+        "25": 63791.400228744926,
+        "50": 199884.82013627977,
+        "75": 212517.82837157644,
+        "90": 253191.48985839248,
+        "100": 7749608.146737608
+      },
+      "wenxing": {
+        "0": 1030.3504505366225,
+        "25": 67436.61481888015,
+        "50": 97093.88985039161,
+        "75": 103981.83931600327,
+        "90": 109342.0829020716,
+        "100": 8923647.294512916
+      },
+      "chuan": {
+        "0": 795.2492513165037,
+        "25": 37249.68399813372,
+        "50": 39794.74287516846,
+        "75": 53836.28703307036,
+        "90": 68847.52799543052,
+        "100": 1098134.6191098767
+      },
+      "shenzhong": {
+        "0": 3228.851570668053,
+        "25": 62711.953430839785,
+        "50": 67413.37860207057,
+        "75": 81197.36428193549,
+        "90": 144005.56968541752,
+        "100": 1708027.454159138
+      },
+      "gucheng": {
+        "0": 760.4654643349262,
+        "25": 14287.451625397987,
+        "50": 14434.643181517396,
+        "75": 28574.903250797805,
+        "90": 43303.92954455204,
+        "100": 2061724.5460609235
+      }
+    }
+  },
+  "ownership_routes": {
+    "facade_gap_m_quantiles": {
+      "0": 0.0,
+      "25": 0.0,
+      "50": 0.0,
+      "75": 0.0,
+      "90": 6.854331636479434e-13,
+      "100": 3.9722541816609455e-12
+    },
+    "entry_to_public_gap_m_quantiles": {
+      "0": 0.0,
+      "25": 0.0,
+      "50": 0.0,
+      "75": 0.0,
+      "90": 2.663557707690841e-12,
+      "100": 3.392194479828335e-08
+    },
+    "private_components_per_compound": {
+      "1": 9898
+    },
+    "path_width_boundary_contacts": 1732
+  },
+  "fresh_city_and_symbol_verification": {
+    "compound_geometry_recomputed": true,
+    "symbol_independent_readback": {
+      "version": "v8",
+      "reviewer": "collapse_design_audit independent subagent",
+      "input_sha256": {
+        "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-基础底图.svg": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-底图与地铁.svg": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+        "assets\\maps\\longsan-geographic-v8-20261012\\街坊.geojson": "764143684fb2908ad681b012b7d2885e264558ec7b610409fbdbdc380c09276e",
+        "assets\\maps\\longsan-geographic-v8-20261012\\路网.geojson": "735570ee178862bb98aa30a8cee1e1a2b4523874d88477d5fce3446540e2e4b5",
+        "assets\\maps\\longsan-geographic-v8-20261012\\地理骨架.geojson": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+        "assets\\maps\\longsan-geographic-v8-20261012\\铁路.geojson": "2c7540fd4a02eed18b9f5e90c9bf9dbafeb94f84830092f6463685b2967e2530",
+        "maintenance\\reports\\longsan-map-audit-20261012\\v8符号层独立读回.py": "2f0eee6a291c1636f57c392df0d970e3a18e1db718de502bfff80c947802c732",
+        "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94",
+        "temp\\longsan-map-qa-v8\\network.pickle": "ebd74d5da0b6c2667ec8b8c64a5fa11d9f65e451f5a60b5505cf495da2b6b001",
+        "temp\\longsan-map-qa-v8\\fabric.pickle": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415",
+        "scripts\\generate_longsan_geographic_maps_v8.py": "c274221e3e88ef57dac50e3abe632b2c8f7472dc5a4431cf5ab28a1802833ff1",
+        "scripts\\longsan_collapse_v8.py": "dabff8828752f0ea3dafa2c7f9d86af18de0cf2dd0b2242ac81f8493160c4327",
+        "scripts\\longsan_planned_fabric.py": "0fb13d1e278b016d2d2f4521726449b963c27b272eeac4f366a8a245ba19d537"
+      },
+      "pairs": [
+        {
+          "file": "龙散市-基础底图.svg",
+          "after_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+          "final_symbol_polygon_paths": 2992,
+          "actual_nodes": 642,
+          "maximum_reconstruction_hausdorff_m": 0.010022071888551854,
+          "maximum_actual_stencil_excess_m": 0.006848973273479442,
+          "exact_rounded_ring_degeneracy_checks": [
+            {
+              "xy_km": [
+                14.770593154015,
+                8.534892323119
+              ],
+              "part": "local-casing",
+              "raw_reference_gap_m": 0.010022071888551854,
+              "independently_rounded_ring_gap_m": 0.0
+            }
+          ]
+        },
+        {
+          "file": "龙散市-底图与地铁.svg",
+          "after_sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+          "final_symbol_polygon_paths": 2992,
+          "actual_nodes": 642,
+          "maximum_reconstruction_hausdorff_m": 0.010022071888551854,
+          "maximum_actual_stencil_excess_m": 0.006848973273479442,
+          "exact_rounded_ring_degeneracy_checks": [
+            {
+              "xy_km": [
+                14.770593154015,
+                8.534892323119
+              ],
+              "part": "local-casing",
+              "raw_reference_gap_m": 0.010022071888551854,
+              "independently_rounded_ring_gap_m": 0.0
+            }
+          ]
+        }
+      ],
+      "hard_gates": {
+        "svg_metadata_correct_v8": true,
+        "all_polygon_junctions_independently_reconstructed": true,
+        "blocks_match_current_network_semantics_and_geometry": true,
+        "inputs_stable": true
+      },
+      "unresolved_hard_errors": [],
+      "block_verification": {
+        "count": 12233,
+        "method": "Exact unique ID/full attribute/geometry comparison with current independently stamped network.pickle.",
+        "errors": []
+      },
+      "quantization_limits": {
+        "svg_units_per_km": 100,
+        "decimal_places": 3,
+        "maximum_per_axis_m": 0.005,
+        "maximum_2d_m": 0.007071067811865476,
+        "reconstruction_tolerance_m": 0.008,
+        "actual_footprint_tolerance_m": 0.009,
+        "endpoint_matching_tolerance_m": 0.001,
+        "physical_public_endpoint_connectivity_tolerance_m": 0.02,
+        "round_cap_method": "Analytic stencil limits and true primary same-width joins; rare rounded-ring degeneracy must exactly match independently quantized SVG rings."
+      },
+      "review_boundary": "Fresh v8 exports are audited directly. No geometry invariance or inherited full-city audit is assumed. Every symbol polygon and actual neighbouring public primitive is independently rebuilt, including primary joint and free endpoint flags. Not road engineering or aesthetic acceptance."
+    }
+  },
+  "strict_public_graph": {
+    "input_sha256": {
+      "assets\\maps\\longsan-geographic-v8-20261012\\路网.geojson": "735570ee178862bb98aa30a8cee1e1a2b4523874d88477d5fce3446540e2e4b5",
+      "maintenance\\reports\\longsan-map-audit-20261012\\v8组团独立核验.py": "0c4ffc72eef3cf7d64a1f95c19674c962dfd744bc9d6912eaa6e89e4e5ec0088",
+      "maintenance\\reports\\longsan-map-audit-20261012\\v8公共路严格连通.py": "e18eacb37fd9655a9397e8775ba74c49a30fbebf09bcaea906ff0337d2e380fc"
+    },
+    "scope": "actual public centreline primitives; multipart pieces do not automatically connect",
+    "tolerance_m": 0.02,
+    "public_features": 5584,
+    "components": 1,
+    "features_per_component": [
+      5584
+    ],
+    "hard_gates": {
+      "public_primitive_network_connected_with_20mm_tolerance": true,
+      "strict_public_graph_inputs_stable": true
+    }
+  },
+  "rural_freight_underpass": {
+    "version": "v8",
+    "reviewer": "collapse_design_audit",
+    "input_sha256": {
+      "assets\\maps\\longsan-geographic-v8-20261012\\铁路.geojson": "2c7540fd4a02eed18b9f5e90c9bf9dbafeb94f84830092f6463685b2967e2530",
+      "assets\\maps\\longsan-geographic-v8-20261012\\地理骨架.geojson": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+      "assets\\maps\\longsan-geographic-v8-20261012\\灾后地理.geojson": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+      "assets\\maps\\longsan-geographic-v8-20261012\\组团通道.geojson": "00fef14480a0199bd5c3c3954a76b0ae06ccce04a941a71ebc8d675e8e96bf80",
+      "assets\\maps\\longsan-geographic-v8-20261012\\几何校验.json": "5b2156bbc62c0634cdd21db11057691bb1752790efe47991a442ce03a0a6ef86",
+      "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-基础底图.svg": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-底图与地铁.svg": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+      "maintenance\\reports\\longsan-map-audit-20261012\\v8港货农机下穿独审.py": "a9060b1068d5672735b09c378a70b35c52381317619029de58daa392ff87f2c4",
+      "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94",
+      "scripts\\longsan_collapse_v8.py": "dabff8828752f0ea3dafa2c7f9d86af18de0cf2dd0b2242ac81f8493160c4327",
+      "scripts\\generate_longsan_geographic_maps_v8.py": "c274221e3e88ef57dac50e3abe632b2c8f7472dc5a4431cf5ab28a1802833ff1",
+      "temp\\longsan-map-qa-v8\\fabric.pickle": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415"
+    },
+    "hard_gates": {
+      "crossing_is_actual_restored_freight_and_farm_track": true,
+      "classification_is_rail_over_road_not_port_gate": true,
+      "expected_deck_160m_of_actual_rail_centerline": true,
+      "actual_deck_21m_reservation_dry_and_outside_security": true,
+      "both_svgs_have_correct_deck_without_wrong_gate": true,
+      "inputs_stable": true
+    },
+    "unresolved_hard_errors": [],
+    "crossing_xy_km": [
+      40.1626701571128,
+      27.7609
+    ],
+    "actual_path_records": [
+      {
+        "type": "farm-track",
+        "name": "",
+        "width_km": 0.004
+      }
+    ],
+    "actual_classification": [
+      {
+        "path_index": 1654,
+        "path": "田间作业支路",
+        "path_type": "farm-track",
+        "rail": "望津港货运支线",
+        "rail_system": "freight",
+        "xy_km": [
+          40.1626701571128,
+          27.7609
+        ],
+        "grade": "rail-over-road",
+        "basis": "v8 restored port branch; actual rural crossing"
+      }
+    ],
+    "svg_readback": [
+      {
+        "file": "龙散市-基础底图.svg",
+        "sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "actual_decks": 1,
+        "gate_count_at_crossing": 0,
+        "rendered_deck_lengths_m": [
+          159.98726449314628
+        ],
+        "deck_reference_gaps_m": [
+          0.006471583211289993
+        ],
+        "draw_order": {
+          "farm": [
+            124672
+          ],
+          "deck": [
+            509964
+          ],
+          "rail": [
+            509967
+          ]
+        },
+        "errors": []
+      },
+      {
+        "file": "龙散市-底图与地铁.svg",
+        "sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+        "actual_decks": 1,
+        "gate_count_at_crossing": 0,
+        "rendered_deck_lengths_m": [
+          159.98726449314628
+        ],
+        "deck_reference_gaps_m": [
+          0.006471583211289993
+        ],
+        "draw_order": {
+          "farm": [
+            124672
+          ],
+          "deck": [
+            509964
+          ],
+          "rail": [
+            509967
+          ]
+        },
+        "errors": []
+      }
+    ],
+    "limitations": [
+      "The 160m deck is a map symbol approach range, not certified bridge span or engineered structure.",
+      "This audit certifies actual exported crossing geometry and drawing order; final PNG observation is separately recorded."
+    ]
+  },
+  "recovery_ring_bridge": {
+    "version": "v8",
+    "reviewer": "collapse_design_audit",
+    "input_sha256": {
+      "temp\\longsan-map-qa-v8\\pre-ring-bridge-eb20bc8bc6236a9f00b3718b7aeff5347c3022bda27323e29318f4351cb8b7f2.pickle": "eb20bc8bc6236a9f00b3718b7aeff5347c3022bda27323e29318f4351cb8b7f2",
+      "temp\\longsan-map-qa-v8\\fabric.pickle": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415",
+      "temp\\longsan-map-qa-v8\\network.pickle": "ebd74d5da0b6c2667ec8b8c64a5fa11d9f65e451f5a60b5505cf495da2b6b001",
+      "assets\\maps\\longsan-geographic-v8-20261012\\路网.geojson": "735570ee178862bb98aa30a8cee1e1a2b4523874d88477d5fce3446540e2e4b5",
+      "assets\\maps\\longsan-geographic-v8-20261012\\街坊.geojson": "764143684fb2908ad681b012b7d2885e264558ec7b610409fbdbdc380c09276e",
+      "assets\\maps\\longsan-geographic-v8-20261012\\建筑.geojson": "bba3a4f14d91f8133779e7be52f2fa04d33e1fc10d25afc6325f0139320d0632",
+      "assets\\maps\\longsan-geographic-v8-20261012\\临街地块.geojson": "ca541b79cf8bbe4adcac8bdb5c0bb466e756e1581997247098cf098f1b472f7a",
+      "assets\\maps\\longsan-geographic-v8-20261012\\组团通道.geojson": "00fef14480a0199bd5c3c3954a76b0ae06ccce04a941a71ebc8d675e8e96bf80",
+      "assets\\maps\\longsan-geographic-v8-20261012\\地理骨架.geojson": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+      "assets\\maps\\longsan-geographic-v8-20261012\\灾后地理.geojson": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+      "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-基础底图.svg": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-底图与地铁.svg": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+      "maintenance\\reports\\longsan-map-audit-20261012\\v8恢复环路桥独审.py": "35c433ec4ec81abb2df89703c29e7968d875d3ddc64d755e3baa892275189b21",
+      "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94",
+      "scripts\\longsan_collapse_v8.py": "dabff8828752f0ea3dafa2c7f9d86af18de0cf2dd0b2242ac81f8493160c4327",
+      "scripts\\generate_longsan_geographic_maps_v8.py": "c274221e3e88ef57dac50e3abe632b2c8f7472dc5a4431cf5ab28a1802833ff1"
+    },
+    "hard_gates": {
+      "ring_is_exact_original_380m_offset_closed_loop": true,
+      "ring_only_one_previous_river_gap": true,
+      "whole_P8810_removed_and_all_other_geometry_preserved": true,
+      "new_bridge_centerline_does_not_split_land_blocks": true,
+      "no_retained_compound_in_new_28m_road_reservation": true,
+      "new_closed_ring_reservation_outside_security": true,
+      "both_svgs_have_explicit_correct_river_bridge": true,
+      "inputs_stable": true
+    },
+    "unresolved_hard_errors": [],
+    "old_full_ring_gap_m": 280.0669079999324,
+    "new_ring_km": 33.227467183890354,
+    "retained_layers_exact": {
+      "roofs": true,
+      "lots": true,
+      "paths": true,
+      "spaces": true,
+      "details": true,
+      "trees": true,
+      "roads": true,
+      "blocks": true
+    },
+    "removed_owner_inventory": {
+      "roofs": 1,
+      "lots": 1,
+      "paths": 4,
+      "spaces": 0,
+      "details": 0,
+      "trees": 0,
+      "roads": 0,
+      "blocks": 0
+    },
+    "major_errors": [],
+    "actual_block_edge_impacts": [
+      {
+        "id": "F7911",
+        "new_centerline_interior_m": 0.0,
+        "reservation_m2": 0.0004703518753022912
+      },
+      {
+        "id": "F7972",
+        "new_centerline_interior_m": 0.0,
+        "reservation_m2": 92.59769409813487
+      },
+      {
+        "id": "F7973",
+        "new_centerline_interior_m": 0.0,
+        "reservation_m2": 9.992007221626409e-10
+      },
+      {
+        "id": "F9969",
+        "new_centerline_interior_m": 0.0,
+        "reservation_m2": 1036.5190804257095
+      }
+    ],
+    "retained_lot_hits": [],
+    "retained_path_hits": [],
+    "svg_readback": [
+      {
+        "file": "龙散市-基础底图.svg",
+        "sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "concept_bridge_paths": 3,
+        "bridge_widths": [
+          5.5,
+          4.9,
+          4.0
+        ],
+        "water_centerline_m": 120.06690819994589
+      },
+      {
+        "file": "龙散市-底图与地铁.svg",
+        "sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+        "concept_bridge_paths": 3,
+        "bridge_widths": [
+          5.5,
+          4.9,
+          4.0
+        ],
+        "water_centerline_m": 120.06690819994589
+      }
+    ],
+    "limitations": [
+      "Street-block centreline faces retain their exact pregap land geometry; the new drybank road reservation occupies only their edge setback and is not a new interior subdivision.",
+      "34m conceptual road plus11m setback gives28m half reservation; the actual120m water-centreline bridge is not certified structural span."
+    ]
+  },
+  "road_endpoints": {
+    "raw_stage_gate": false,
+    "classifier_scope": "Raw staged checker lists all open named ends; final decision is the explicit purpose review, not an all-arbitrary-ends pass.",
+    "adjudications": [
+      {
+        "name": "云麓公路",
+        "kind": "rural",
+        "xy_km": [
+          5.2,
+          7.0
+        ],
+        "decision": "purposeful_service_end",
+        "purpose": "楚墓博物馆进场路",
+        "observed_evidence": "实际近景中这条窄路抵达博物馆前庭，馆区位于山地边缘；馆场地和院内步道距末端约16m，馆屋顶约89m。",
+        "scope_limit": "馆内步道保持设施层；最后16m铺装连接和车辆回转细部需在手工POI阶段完成。",
+        "actual_geometry_metrics": {
+          "nearest_owned_entry": {
+            "lot_id": "P5887",
+            "gap_m": 3671.9858177645824
+          },
+          "nearest_unowned_site_or_farm_path": {
+            "name": "楚墓博物馆",
+            "type": "path",
+            "gap_m": 15.992374024348003
+          },
+          "nearest_roof": {
+            "type": "museum",
+            "lot_id": null,
+            "gap_m": 88.77640452282418
+          },
+          "nearest_named_site": {
+            "name": "楚墓博物馆",
+            "kind": "museum",
+            "gap_m": 15.98072729928237
+          },
+          "hill_level_at_point": 140
+        },
+        "reviewed_diagnostic_image": "maintenance\\reports\\longsan-map-audit-20261012\\v8用途端点-1-云麓公路.png",
+        "image_sha256": "b990cc07dfb11b190b992e6a19718fb4f05fb9ae20174e85817b2a00ade874d6"
+      },
+      {
+        "name": "窑湾旧道",
+        "kind": "rural",
+        "xy_km": [
+          13.9,
+          32.0
+        ],
+        "decision": "purposeful_service_end",
+        "purpose": "窑湾村入村路",
+        "observed_evidence": "实际近景中末端位于村落场地，真实村道距离0m、最近村屋约50m，可沿村道继续进入居民地。",
+        "scope_limit": "村道保持村落设施层，不冒充公共城市干支路。",
+        "actual_geometry_metrics": {
+          "nearest_owned_entry": {
+            "lot_id": "P8784",
+            "gap_m": 301.1673525507348
+          },
+          "nearest_unowned_site_or_farm_path": {
+            "name": "窑湾村",
+            "type": "village-road",
+            "gap_m": 0.0
+          },
+          "nearest_roof": {
+            "type": "village",
+            "lot_id": null,
+            "gap_m": 50.30864736802217
+          },
+          "nearest_named_site": {
+            "name": "窑湾村",
+            "kind": "town",
+            "gap_m": 0.0
+          },
+          "hill_level_at_point": 0
+        },
+        "reviewed_diagnostic_image": "maintenance\\reports\\longsan-map-audit-20261012\\v8用途端点-2-窑湾旧道.png",
+        "image_sha256": "916f15af747cd57b7b14fc7bf481f1a038820a6289036fefc45f6c0e648e6266"
+      },
+      {
+        "name": "东岭山前路",
+        "kind": "rural",
+        "xy_km": [
+          43.4,
+          25.6
+        ],
+        "decision": "purposeful_service_end",
+        "purpose": "东岭郊区工厂及农田服务支路",
+        "observed_evidence": "实际近景可见末段服务工厂院区、随后抵达农田边缘；最近现存组团入口约48m、厂屋约80m。",
+        "scope_limit": "这是郊区服务道路的末段；厂门、停车和回转设施细化仍待POI阶段，未宣称主干骨架端点。",
+        "actual_geometry_metrics": {
+          "nearest_owned_entry": {
+            "lot_id": "P7350",
+            "gap_m": 47.92078951170926
+          },
+          "nearest_unowned_site_or_farm_path": {
+            "name": "",
+            "type": "farm-track",
+            "gap_m": 243.1115534002542
+          },
+          "nearest_roof": {
+            "type": "factory-hall",
+            "lot_id": "P7350",
+            "gap_m": 80.26752640925326
+          },
+          "nearest_named_site": {
+            "name": "东郊物流村",
+            "kind": "town",
+            "gap_m": 1116.500000000002
+          },
+          "hill_level_at_point": 0
+        },
+        "reviewed_diagnostic_image": "maintenance\\reports\\longsan-map-audit-20261012\\v8用途端点-3-东岭山前路.png",
+        "image_sha256": "abfa6c7502ae5e3c7225610b26414999b3914ebe6926a3f1d71231b127d18b81"
+      },
+      {
+        "name": "南郊连接路",
+        "kind": "rural",
+        "xy_km": [
+          28.8,
+          34.0
+        ],
+        "decision": "purposeful_service_end",
+        "purpose": "南郊仓储及农田服务支路",
+        "observed_evidence": "实际近景显示道路经过现存仓储组团入口后终止在田块边缘；最近入口约94m、仓库屋顶约149m。",
+        "scope_limit": "窄乡野服务路允许保留末端；回转与场地细节尚未完成。",
+        "actual_geometry_metrics": {
+          "nearest_owned_entry": {
+            "lot_id": "P7371",
+            "gap_m": 93.86679716361972
+          },
+          "nearest_unowned_site_or_farm_path": {
+            "name": "",
+            "type": "farm-track",
+            "gap_m": 109.99999999999945
+          },
+          "nearest_roof": {
+            "type": "warehouse",
+            "lot_id": "P7373",
+            "gap_m": 148.96753789753703
+          },
+          "nearest_named_site": {
+            "name": "集装箱作业区 2",
+            "kind": "port",
+            "gap_m": 3044.7331574376108
+          },
+          "hill_level_at_point": 0
+        },
+        "reviewed_diagnostic_image": "maintenance\\reports\\longsan-map-audit-20261012\\v8用途端点-4-南郊连接路.png",
+        "image_sha256": "74e0d992427e3456e2ad6e3c410ece3d25ce6fd28a4d893848305312ee811f3a"
+      },
+      {
+        "name": "机场北郊路",
+        "kind": "rural",
+        "xy_km": [
+          20.8,
+          4.0
+        ],
+        "decision": "purposeful_service_end",
+        "purpose": "北郊住宅组团接入路",
+        "observed_evidence": "实际近景显示道路末端接本组团入口，真实入口距离0m；最近住宅屋顶约49m。",
+        "scope_limit": "内部通道仍属本组团私有路径，不提升为公共街道。",
+        "actual_geometry_metrics": {
+          "nearest_owned_entry": {
+            "lot_id": "P441",
+            "gap_m": 0.0
+          },
+          "nearest_unowned_site_or_farm_path": {
+            "name": "",
+            "type": "farm-track",
+            "gap_m": 209.99999999999997
+          },
+          "nearest_roof": {
+            "type": "residential-slab",
+            "lot_id": "P442",
+            "gap_m": 48.80616555753393
+          },
+          "nearest_named_site": {
+            "name": "龙翔天街",
+            "kind": "retail",
+            "gap_m": 5723.250824487776
+          },
+          "hill_level_at_point": 0
+        },
+        "reviewed_diagnostic_image": "maintenance\\reports\\longsan-map-audit-20261012\\v8用途端点-5-机场北郊路.png",
+        "image_sha256": "c2e7ffb6f5c8343370bbf1395f6b83ed88c5eeff3b9e494bdb721b3a9a4db89b"
+      }
+    ],
+    "known_port_service_end": [
+      {
+        "name": "南港出城国道",
+        "kind": "primary",
+        "xy_km": [
+          35.8,
+          33.75
+        ],
+        "role": "national-road",
+        "generated": true,
+        "nearby_block_density_max": 0.27795980892840033,
+        "nearby_block_ids": [
+          "F8123"
+        ],
+        "nearest_public": {
+          "name": "南港大道",
+          "kind": "primary",
+          "gap_m": 247.34218289972554,
+          "target_xy_km": [
+            35.795680271460434,
+            33.50269554110986
+          ],
+          "straight_link_crosses_water": false,
+          "straight_link_crosses_security": false,
+          "straight_link_crosses_rail_reservation": false
+        },
+        "nearest_same_or_higher": {
+          "name": "南港大道",
+          "kind": "primary",
+          "gap_m": 247.34218289972554,
+          "target_xy_km": [
+            35.795680271460434,
+            33.50269554110986
+          ],
+          "straight_link_crosses_water": false,
+          "straight_link_crosses_security": false,
+          "straight_link_crosses_rail_reservation": false
+        },
+        "last_public_junction": {
+          "name": "街坊道路",
+          "kind": "local",
+          "xy_km": [
+            35.86027693443202,
+            34.02124620494412
+          ],
+          "tail_m": 277.86293837269875
+        },
+        "basis": "root identifies existing port-yard service-road destination; not a random public-street stub"
+      }
+    ]
+  },
+  "visual_review": {
+    "status": "candidate_reviewable_with_remaining_art_issues",
+    "status_boundary": {
+      "candidate_available_for_review": true,
+      "art_complete": false,
+      "user_adopted": false,
+      "prototype_used_as_final_evidence": false,
+      "full_network_engineering_certified_by_this_visual_review": false
+    },
+    "reviewed_images": [
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/东侧恢复廊道-新.png",
+        "sha256": "9af596fad6439070b0e06dc80f5ebe073895b4c7b8fc9840b0ca284c60c0d3b9",
+        "bytes": 952961,
+        "mtime": 1791811294.2365475,
+        "actual_view_image_completed": true,
+        "window_km": [
+          38,
+          18,
+          45,
+          30
+        ],
+        "source_svg": "龙散市-底图与地铁.svg",
+        "source_svg_sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/东站-新.png",
+        "sha256": "186d076c7a9f248b193689855e8272cdafc49217144803f15e4dfbf991477460",
+        "bytes": 154438,
+        "mtime": 1791811313.8458757,
+        "actual_view_image_completed": true,
+        "window_km": [
+          37.95,
+          16.1,
+          39.05,
+          17.95
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/两座在建站塌陷区-新.png",
+        "sha256": "679ca1c770d4a34cd909812670f9c7f66a21f534cd4209bab589237356d8774e",
+        "bytes": 429396,
+        "mtime": 1791811315.1038902,
+        "actual_view_image_completed": true,
+        "window_km": [
+          37.7,
+          20.3,
+          41.7,
+          23.4
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/停工站与塌陷-地铁-新.png",
+        "sha256": "02c8eca93e50709995d56e59a2eeb8b0a10fc1433eb4401b38c90afa38d0d79f",
+        "bytes": 511007,
+        "mtime": 1791811292.8143208,
+        "actual_view_image_completed": true,
+        "window_km": [
+          37.3,
+          19.9,
+          42.4,
+          23.9
+        ],
+        "source_svg": "龙散市-底图与地铁.svg",
+        "source_svg_sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/北向枢纽-新.png",
+        "sha256": "ffaaad464681c83de6eb7c4aece4c2cd31fcffa1154fddb1ab24a3afe26cff51",
+        "bytes": 252707,
+        "mtime": 1791811312.6740708,
+        "actual_view_image_completed": true,
+        "window_km": [
+          25,
+          0.7,
+          27.8,
+          2.9
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/北岭-新.png",
+        "sha256": "2c44095713f3a86323ac0599a5149d0e25029b1941f90cab3e92a9ec195b1e56",
+        "bytes": 208255,
+        "mtime": 1791811309.2146327,
+        "actual_view_image_completed": true,
+        "window_km": [
+          29.6,
+          7.5,
+          31.9,
+          9.3
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/北苑路口-新.png",
+        "sha256": "5eea677f60d7fa2b93ebc2a631d83504ebc6db8d09a128eb940a721e3126e4d6",
+        "bytes": 44141,
+        "mtime": 1791811275.2569408,
+        "actual_view_image_completed": true,
+        "window_km": [
+          32.125,
+          6.325,
+          32.474999999999994,
+          6.675
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/南港立交-新.png",
+        "sha256": "4b62a2d2d87f59bb145d7ee04d69b836b4a3c801636b7eea169a7154fe196a8a",
+        "bytes": 185015,
+        "mtime": 1791811312.14659,
+        "actual_view_image_completed": true,
+        "window_km": [
+          41.8,
+          32.5,
+          43.6,
+          34.4
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/城市立交-新.png",
+        "sha256": "34cc0d05c4fd15ed976f2e02e6438888a3984a15171f4127c68a351bbbb59954",
+        "bytes": 277147,
+        "mtime": 1791811310.957965,
+        "actual_view_image_completed": true,
+        "window_km": [
+          31.3,
+          11.2,
+          33.3,
+          13
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/城西边缘-新.png",
+        "sha256": "182b688f103408e2eb4cbc0130476325e8384ab8031b9f34ecf02225bbee6c68",
+        "bytes": 893644,
+        "mtime": 1791811314.486717,
+        "actual_view_image_completed": true,
+        "window_km": [
+          5.3,
+          17,
+          12.8,
+          22
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/塌陷全区-新.png",
+        "sha256": "a47e94e412de4baca9e4d95f0aa23491c4098a356578b2a78f8f3ce78b260918",
+        "bytes": 1585651,
+        "mtime": 1791811303.291387,
+        "actual_view_image_completed": true,
+        "window_km": [
+          30.8,
+          19.8,
+          43,
+          29
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/废墟与断线-新.png",
+        "sha256": "7a2406e37ad5712edd3448f1f9d2bd8617bbf9bec39008ca5c49703c1eb60f79",
+        "bytes": 472774,
+        "mtime": 1791811304.6948562,
+        "actual_view_image_completed": true,
+        "window_km": [
+          33.1,
+          22.7,
+          35,
+          24.8
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/恢复环路支流桥-新.png",
+        "sha256": "4074a8abf8af2ee6646e58b92683f04f77887b7b6e3b72dbef9448413427d5c9",
+        "bytes": 65469,
+        "mtime": 1791811276.022005,
+        "actual_view_image_completed": true,
+        "window_km": [
+          41.735,
+          24.044999999999998,
+          42.084999999999994,
+          24.395
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/扩界全区-地铁-新.png",
+        "sha256": "e20919f26ffc45ec7a7e0dea6c4ac08507355f1b86565800ed29361d571e114c",
+        "bytes": 1299092,
+        "mtime": 1791811293.5647078,
+        "actual_view_image_completed": true,
+        "window_km": [
+          30.8,
+          19.8,
+          43,
+          29
+        ],
+        "source_svg": "龙散市-底图与地铁.svg",
+        "source_svg_sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/故城-新.png",
+        "sha256": "62ac876de1cb4ea9028aed16768cd80af714c0e2c672ae4c0d77c785a9da7ea6",
+        "bytes": 2072836,
+        "mtime": 1791811306.3544967,
+        "actual_view_image_completed": true,
+        "window_km": [
+          26.6,
+          21.1,
+          30.6,
+          25.1
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/文星-新.png",
+        "sha256": "62f77cc4ebfe24c3995141772a642675bebcd9c50fe83abaa18cc08452f65f07",
+        "bytes": 589715,
+        "mtime": 1791811308.6751022,
+        "actual_view_image_completed": true,
+        "window_km": [
+          11.7,
+          15.5,
+          15.7,
+          19.5
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/文星主次路口-新.png",
+        "sha256": "c6a1f4e61749060d7d05f4b16c1dd13ad3ee08dcb1ff287b873d53469ec76c77",
+        "bytes": 13860,
+        "mtime": 1791811274.1986525,
+        "actual_view_image_completed": true,
+        "window_km": [
+          13.8578804124,
+          16.2400071539,
+          14.207880412400002,
+          16.5900071539
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/文星次干路口-新.png",
+        "sha256": "a4ac421a08895833bddcf4f1eed55c7eef066b019960489747aa69a1e4937c62",
+        "bytes": 32852,
+        "mtime": 1791811274.5303087,
+        "actual_view_image_completed": true,
+        "window_km": [
+          13.0173802566,
+          17.669476702,
+          13.3673802566,
+          18.019476702000002
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/普速绕行-新.png",
+        "sha256": "1e86fc4456dac097695e842790eb67449ce989277ecf1d24ffa0a15b8c465c4a",
+        "bytes": 1822822,
+        "mtime": 1791811305.5670114,
+        "actual_view_image_completed": true,
+        "window_km": [
+          31.7,
+          18.2,
+          44.8,
+          31.2
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/望津-新.png",
+        "sha256": "a959a7e4a8170821feb25c6b14ca2e6776aede0752444cfe2504eee1331eab81",
+        "bytes": 141105,
+        "mtime": 1791811310.4393725,
+        "actual_view_image_completed": true,
+        "window_km": [
+          36.8,
+          28.7,
+          39,
+          30.4
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/楚岸-新.png",
+        "sha256": "63e86f02bb902b3fc5e00632c378bd59a922fcc3bc68b3af7fc2bc27f67041b7",
+        "bytes": 602240,
+        "mtime": 1791811306.888997,
+        "actual_view_image_completed": true,
+        "window_km": [
+          15.5,
+          14.3,
+          19.5,
+          18.3
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/楚岸街坊-新.png",
+        "sha256": "9e0110ce77d7ee3f522a8d341103ef79d05bd0975405328486fb20f01fe90478",
+        "bytes": 267577,
+        "mtime": 1791811307.5586133,
+        "actual_view_image_completed": true,
+        "window_km": [
+          16.7,
+          15.2,
+          18.4,
+          17
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/楚岸路口-新.png",
+        "sha256": "30dca780d241c61e96f8b24b65a3189b51b96e32c94d3655cdfec9f7e4a7ec16",
+        "bytes": 48010,
+        "mtime": 1791811273.491738,
+        "actual_view_image_completed": true,
+        "window_km": [
+          18.7597129692,
+          15.1728092056,
+          19.1097129692,
+          15.522809205600002
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/深中-新.png",
+        "sha256": "6b623807cec018f095101ac1a9e20b4efb2ba80fb25cf4fd3d9061daccf339ea",
+        "bytes": 447004,
+        "mtime": 1791811308.1404452,
+        "actual_view_image_completed": true,
+        "window_km": [
+          20.7,
+          17,
+          24.7,
+          21
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/深中路口-新.png",
+        "sha256": "e09661cd3cf787f20cea12bc208e04913ef04bb6a333d26f02b67a72121af47b",
+        "bytes": 18517,
+        "mtime": 1791811273.8646514,
+        "actual_view_image_completed": true,
+        "window_km": [
+          22.6220802189,
+          18.585984511499998,
+          22.9720802189,
+          18.9359845115
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/港货农机下穿-新.png",
+        "sha256": "4e0cefd588d7a1536cd649c60b8094e35f5e1e3eb409b8bd6a3017de25ff53ee",
+        "bytes": 105268,
+        "mtime": 1791811275.6338022,
+        "actual_view_image_completed": true,
+        "window_km": [
+          39.9876701571128,
+          27.5859,
+          40.3376701571128,
+          27.9359
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/火车站-新.png",
+        "sha256": "091ab7f8e605c038ffbea97d4377513c87cbd986175121c4dd4bc9450206648a",
+        "bytes": 447530,
+        "mtime": 1791811313.2816937,
+        "actual_view_image_completed": true,
+        "window_km": [
+          31.85,
+          16.25,
+          32.95,
+          17.85
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/西城学府立交-新.png",
+        "sha256": "e34b94592678e855f0b2ea3316a3a836c67251bced2ee1d51480b59320f3b251",
+        "bytes": 312708,
+        "mtime": 1791811311.5272112,
+        "actual_view_image_completed": true,
+        "window_km": [
+          12.9,
+          5.8,
+          14.9,
+          7.8
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/西管制口-新.png",
+        "sha256": "9efc13c9b1dabb6417902cd00da995a2794afb7f1e632087c2c135217cb92a1f",
+        "bytes": 1189603,
+        "mtime": 1791811304.0317495,
+        "actual_view_image_completed": true,
+        "window_km": [
+          31.1,
+          23.8,
+          32.8,
+          26
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/铁山-新.png",
+        "sha256": "e80c853276212d9dd8baad254710b0b211e7403121a520314d6a178c61bd3437",
+        "bytes": 592318,
+        "mtime": 1791811309.8578262,
+        "actual_view_image_completed": true,
+        "window_km": [
+          38.7,
+          22,
+          41.7,
+          25
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/近景/龙门吊路口-新.png",
+        "sha256": "8c1585ce35247e68c0bb459b537eb076fa4f03b2282ae80ce3c5bf7666fda57f",
+        "bytes": 42687,
+        "mtime": 1791811274.8912907,
+        "actual_view_image_completed": true,
+        "window_km": [
+          39.525000000000006,
+          28.525,
+          39.875,
+          28.875
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/龙散市-全图.png",
+        "sha256": "dea7d45027a0aad5487f22ce5679a04383c084162faacd2def45910b2ef772f8",
+        "bytes": 2593204,
+        "mtime": 1791811274.4269097,
+        "actual_view_image_completed": true,
+        "window_km": [
+          0,
+          0,
+          48,
+          36
+        ],
+        "source_svg": "龙散市-基础底图.svg",
+        "source_svg_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "role": "final_actual_render"
+      },
+      {
+        "path": "assets/maps/longsan-geographic-v8-20261012/龙散市-地铁全图.png",
+        "sha256": "ff53ea7d08c257acc895bad089bc53a21414fd013f6c0e041d0d11213da87eb2",
+        "bytes": 2652250,
+        "mtime": 1791811289.471244,
+        "actual_view_image_completed": true,
+        "window_km": [
+          0,
+          0,
+          48,
+          36
+        ],
+        "source_svg": "龙散市-底图与地铁.svg",
+        "source_svg_sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+        "role": "final_actual_render"
+      }
+    ]
+  },
+  "legacy_path_constraint_candidates": {
+    "counts": {
+      "unowned_path_reservation_intersections": 224,
+      "unowned_path_roof_contacts": 2
+    },
+    "examples": {
+      "unowned_path_reservation_intersections": [
+        {
+          "path": 23,
+          "lot": null,
+          "role": null,
+          "type": "service-road",
+          "name": "楚钢旧厂区",
+          "bounds_km": [
+            38.791,
+            20.125,
+            38.791,
+            20.329506887836796
+          ]
+        },
+        {
+          "path": 29,
+          "lot": null,
+          "role": null,
+          "type": "service-road",
+          "name": "重黎工业遗迹群",
+          "bounds_km": [
+            40.25078971036694,
+            20.56,
+            41.62,
+            20.56
+          ]
+        },
+        {
+          "path": 30,
+          "lot": null,
+          "role": null,
+          "type": "service-road",
+          "name": "重黎工业遗迹群",
+          "bounds_km": [
+            40.922463305519166,
+            20.869999999999997,
+            41.62,
+            20.869999999999997
+          ]
+        },
+        {
+          "path": 31,
+          "lot": null,
+          "role": null,
+          "type": "service-road",
+          "name": "重黎工业遗迹群",
+          "bounds_km": [
+            41.52032044837631,
+            21.179999999999996,
+            41.62,
+            21.179999999999996
+          ]
+        },
+        {
+          "path": 32,
+          "lot": null,
+          "role": null,
+          "type": "service-road",
+          "name": "重黎工业遗迹群",
+          "bounds_km": [
+            41.123,
+            20.474999999999998,
+            41.123,
+            20.9739819897308
+          ]
+        },
+        {
+          "path": 59,
+          "lot": null,
+          "role": null,
+          "type": "service-road",
+          "name": "",
+          "bounds_km": [
+            31.023,
+            29.674999999999997,
+            35.477,
+            29.674999999999997
+          ]
+        },
+        {
+          "path": 60,
+          "lot": null,
+          "role": null,
+          "type": "service-road",
+          "name": "",
+          "bounds_km": [
+            31.023,
+            29.801,
+            35.477,
+            29.801
+          ]
+        },
+        {
+          "path": 61,
+          "lot": null,
+          "role": null,
+          "type": "service-road",
+          "name": "",
+          "bounds_km": [
+            31.023,
+            29.927,
+            35.477,
+            29.927
+          ]
+        },
+        {
+          "path": 67,
+          "lot": null,
+          "role": null,
+          "type": "service-road",
+          "name": "",
+          "bounds_km": [
+            31.823,
+            33.074999999999996,
+            36.477,
+            33.074999999999996
+          ]
+        },
+        {
+          "path": 68,
+          "lot": null,
+          "role": null,
+          "type": "service-road",
+          "name": "",
+          "bounds_km": [
+            31.823,
+            33.20099999999999,
+            36.477,
+            33.20099999999999
+          ]
+        },
+        {
+          "path": 69,
+          "lot": null,
+          "role": null,
+          "type": "service-road",
+          "name": "",
+          "bounds_km": [
+            31.823,
+            33.32699999999999,
+            36.477,
+            33.32699999999999
+          ]
+        },
+        {
+          "path": 79,
+          "lot": null,
+          "role": null,
+          "type": "park-path",
+          "name": "龙散市植物园",
+          "bounds_km": [
+            6.106772316222995,
+            13.519413615390013,
+            7.238758370484601,
+            14.588602112083425
+          ]
+        },
+        {
+          "path": 81,
+          "lot": null,
+          "role": null,
+          "type": "park-path",
+          "name": "龙散市植物园",
+          "bounds_km": [
+            5.914854570857133,
+            13.99622451483454,
+            6.732059301707239,
+            14.810834090306162
+          ]
+        },
+        {
+          "path": 82,
+          "lot": null,
+          "role": null,
+          "type": "garden-path",
+          "name": "龙散市植物园",
+          "bounds_km": [
+            6.494683121841069,
+            13.95981372198998,
+            6.494683121841069,
+            14.226964826437122
+          ]
+        },
+        {
+          "path": 85,
+          "lot": null,
+          "role": null,
+          "type": "garden-path",
+          "name": "龙散市植物园",
+          "bounds_km": [
+            6.462332024073959,
+            13.912497621527296,
+            6.88289629504639,
+            13.912497621527296
+          ]
+        },
+        {
+          "path": 86,
+          "lot": null,
+          "role": null,
+          "type": "garden-path",
+          "name": "龙散市植物园",
+          "bounds_km": [
+            6.462332024073959,
+            14.19551810594614,
+            6.88289629504639,
+            14.19551810594614
+          ]
+        },
+        {
+          "path": 123,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "窑湾村",
+          "bounds_km": [
+            13.58,
+            31.8976,
+            14.22,
+            31.8976
+          ]
+        },
+        {
+          "path": 127,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "窑湾村",
+          "bounds_km": [
+            13.9,
+            31.7984,
+            13.9,
+            32.2016
+          ]
+        },
+        {
+          "path": 128,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "窑湾村",
+          "bounds_km": [
+            14.0856,
+            31.7984,
+            14.0856,
+            32.2016
+          ]
+        },
+        {
+          "path": 130,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "莲花村",
+          "bounds_km": [
+            5.75,
+            10.488,
+            6.449999999999999,
+            10.488
+          ]
+        },
+        {
+          "path": 131,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "莲花村",
+          "bounds_km": [
+            5.75,
+            10.6,
+            6.449999999999999,
+            10.6
+          ]
+        },
+        {
+          "path": 132,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "莲花村",
+          "bounds_km": [
+            5.75,
+            10.712,
+            6.449999999999999,
+            10.712
+          ]
+        },
+        {
+          "path": 134,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "莲花村",
+          "bounds_km": [
+            6.1,
+            10.3795,
+            6.1,
+            10.8205
+          ]
+        },
+        {
+          "path": 154,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "窑湾农场",
+          "bounds_km": [
+            16.3,
+            32.804,
+            16.900000000000002,
+            32.804
+          ]
+        },
+        {
+          "path": 155,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "窑湾农场",
+          "bounds_km": [
+            16.3,
+            32.9,
+            16.900000000000002,
+            32.9
+          ]
+        },
+        {
+          "path": 156,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "窑湾农场",
+          "bounds_km": [
+            16.3,
+            32.995999999999995,
+            16.900000000000002,
+            32.995999999999995
+          ]
+        },
+        {
+          "path": 157,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "窑湾农场",
+          "bounds_km": [
+            16.426000000000002,
+            32.711,
+            16.426000000000002,
+            33.089
+          ]
+        },
+        {
+          "path": 158,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "窑湾农场",
+          "bounds_km": [
+            16.6,
+            32.711,
+            16.6,
+            33.089
+          ]
+        },
+        {
+          "path": 159,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "窑湾农场",
+          "bounds_km": [
+            16.774,
+            32.711,
+            16.774,
+            33.089
+          ]
+        },
+        {
+          "path": 171,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "南郊农贸镇",
+          "bounds_km": [
+            22.38,
+            34.0836,
+            23.419999999999998,
+            34.0836
+          ]
+        },
+        {
+          "path": 174,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "南郊农贸镇",
+          "bounds_km": [
+            22.598399999999998,
+            33.9224,
+            22.598399999999998,
+            34.5776
+          ]
+        },
+        {
+          "path": 175,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "南郊农贸镇",
+          "bounds_km": [
+            22.9,
+            33.9224,
+            22.9,
+            34.5776
+          ]
+        },
+        {
+          "path": 176,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "南郊农贸镇",
+          "bounds_km": [
+            23.2016,
+            33.9224,
+            23.2016,
+            34.5776
+          ]
+        },
+        {
+          "path": 180,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "东郊物流村",
+          "bounds_km": [
+            42.65,
+            24.056,
+            43.550000000000004,
+            24.056
+          ]
+        },
+        {
+          "path": 181,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "东郊物流村",
+          "bounds_km": [
+            42.65,
+            24.2,
+            43.550000000000004,
+            24.2
+          ]
+        },
+        {
+          "path": 182,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "东郊物流村",
+          "bounds_km": [
+            42.65,
+            24.343999999999998,
+            43.550000000000004,
+            24.343999999999998
+          ]
+        },
+        {
+          "path": 183,
+          "lot": null,
+          "role": null,
+          "type": "village-road",
+          "name": "东郊物流村",
+          "bounds_km": [
+            42.839,
+            23.9165,
+            42.839,
+            24.4835
+          ]
+        },
+        {
+          "path": 190,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            8.52748779,
+            32.13086729911053,
+            9.719375770367305,
+            32.27721274
+          ]
+        },
+        {
+          "path": 193,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            5.95264369,
+            33.42738315600916,
+            7.037390196567544,
+            33.56057328
+          ]
+        },
+        {
+          "path": 235,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            5.65134872,
+            33.70874896,
+            5.75489469195271,
+            34.5520632353915
+          ]
+        },
+        {
+          "path": 238,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            6.99005485,
+            33.0418677,
+            7.037390196567544,
+            33.42738315600916
+          ]
+        },
+        {
+          "path": 242,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            8.32851687,
+            32.37299831,
+            8.436880270206219,
+            33.255547381196
+          ]
+        },
+        {
+          "path": 246,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            9.67912326,
+            31.80303691,
+            9.719375770367305,
+            32.13086729911053
+          ]
+        },
+        {
+          "path": 252,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            11.04221999,
+            31.3348011,
+            11.118865848964013,
+            31.959031525995695
+          ]
+        },
+        {
+          "path": 325,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            6.920395628289491,
+            32.30270307121674,
+            8.319885695998927,
+            32.47453884499842
+          ]
+        },
+        {
+          "path": 326,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            8.319885695998927,
+            32.30237418,
+            8.3225643,
+            32.30270307121674
+          ]
+        },
+        {
+          "path": 328,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            5.637900123506194,
+            33.58459218,
+            5.75702539,
+            33.59921892348629
+          ]
+        },
+        {
+          "path": 337,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            5.637900123506194,
+            33.59921892348629,
+            5.64290305,
+            33.63996449
+          ]
+        },
+        {
+          "path": 348,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            6.920395628289491,
+            32.47453884499842,
+            6.98151861,
+            32.97234558
+          ]
+        },
+        {
+          "path": 356,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            8.202891127502307,
+            31.349858768242544,
+            8.319885695998927,
+            32.30270307121674
+          ]
+        },
+        {
+          "path": 357,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            8.319885695998927,
+            32.30270307121674,
+            8.31999825,
+            32.30361975
+          ]
+        },
+        {
+          "path": 363,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            9.602381204550838,
+            31.17802299341898,
+            9.67088156,
+            31.73591362
+          ]
+        },
+        {
+          "path": 366,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            11.00187127848904,
+            31.006187218977317,
+            11.03399929,
+            31.26784888
+          ]
+        },
+        {
+          "path": 387,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            15.4547933,
+            32.22453273458262,
+            16.833820714482346,
+            32.39385601
+          ]
+        },
+        {
+          "path": 392,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            17.25734585,
+            33.00554126665473,
+            18.35030535355077,
+            33.13973982
+          ]
+        },
+        {
+          "path": 396,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            20.43787439,
+            33.61471402007712,
+            21.266280075832984,
+            33.71642945
+          ]
+        },
+        {
+          "path": 409,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            18.35030535355077,
+            33.00554126665473,
+            18.40449152,
+            33.44685218
+          ]
+        },
+        {
+          "path": 417,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            19.749795425172618,
+            32.833705491932456,
+            19.84858774,
+            33.63830433
+          ]
+        },
+        {
+          "path": 424,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            21.266280075832984,
+            33.61471402007712,
+            21.29268397,
+            33.82975648
+          ]
+        },
+        {
+          "path": 490,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            9.172,
+            1.06,
+            9.172,
+            1.86666606
+          ]
+        },
+        {
+          "path": 493,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            10.792,
+            1.06,
+            10.792,
+            1.90750732
+          ]
+        },
+        {
+          "path": 496,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            12.412,
+            1.06,
+            12.412,
+            1.78600732
+          ]
+        },
+        {
+          "path": 499,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            14.032,
+            1.06,
+            14.032,
+            1.66450732
+          ]
+        },
+        {
+          "path": 502,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            15.652,
+            1.06,
+            15.652,
+            1.54300732
+          ]
+        },
+        {
+          "path": 505,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            17.272,
+            1.06,
+            17.272,
+            1.42150732
+          ]
+        },
+        {
+          "path": 508,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            18.892,
+            1.06,
+            18.892,
+            1.40042681
+          ]
+        },
+        {
+          "path": 510,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            20.512,
+            1.06,
+            20.512,
+            1.46117681
+          ]
+        },
+        {
+          "path": 527,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            45.27119926,
+            14.394457613925892,
+            45.35166484465887,
+            14.967
+          ]
+        },
+        {
+          "path": 532,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            46.72535096,
+            14.59486688017011,
+            46.77765085916269,
+            14.967
+          ]
+        },
+        {
+          "path": 604,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            26.322,
+            34.56309935,
+            26.322,
+            35.16
+          ]
+        },
+        {
+          "path": 606,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            28.092,
+            34.79775844,
+            28.092,
+            35.16
+          ]
+        },
+        {
+          "path": 608,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            29.862,
+            35.03241753,
+            29.862,
+            35.16
+          ]
+        },
+        {
+          "path": 620,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            43.79624783796017,
+            14.8365193,
+            43.83538542,
+            15.114997652363682
+          ]
+        },
+        {
+          "path": 622,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            45.22223386099324,
+            15.033,
+            45.26192356,
+            15.315406918281198
+          ]
+        },
+        {
+          "path": 626,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            46.64821987915872,
+            15.033,
+            46.71607527,
+            15.51581618351462
+          ]
+        },
+        {
+          "path": 640,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            46.44969031,
+            35.16,
+            47.562,
+            35.16
+          ]
+        },
+        {
+          "path": 643,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            44.022,
+            34.11,
+            44.022,
+            34.77175046
+          ]
+        },
+        {
+          "path": 645,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            45.792,
+            34.11,
+            45.792,
+            35.07220298
+          ]
+        },
+        {
+          "path": 650,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            47.562,
+            35.16,
+            47.562,
+            35.30830796
+          ]
+        },
+        {
+          "path": 668,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            9.9462488,
+            2.11,
+            10.792,
+            2.11
+          ]
+        },
+        {
+          "path": 675,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            9.172,
+            2.66225,
+            9.172,
+            3.16
+          ]
+        },
+        {
+          "path": 677,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            10.792,
+            1.97369268,
+            10.792,
+            2.11
+          ]
+        },
+        {
+          "path": 680,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            12.412,
+            1.85219268,
+            12.412,
+            2.11
+          ]
+        },
+        {
+          "path": 682,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            14.032,
+            1.73069268,
+            14.032,
+            2.11
+          ]
+        },
+        {
+          "path": 695,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            5.932,
+            1.06,
+            5.932,
+            1.667
+          ]
+        },
+        {
+          "path": 698,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            7.552,
+            1.06,
+            7.552,
+            1.67070991
+          ]
+        },
+        {
+          "path": 704,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            36.942,
+            34.95051221,
+            36.942,
+            35.16
+          ]
+        },
+        {
+          "path": 706,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            38.712,
+            34.88125134,
+            38.712,
+            35.16
+          ]
+        },
+        {
+          "path": 708,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            40.482,
+            34.81199047,
+            40.482,
+            35.16
+          ]
+        },
+        {
+          "path": 759,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            5.932,
+            1.733,
+            5.932,
+            2.11
+          ]
+        },
+        {
+          "path": 761,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            7.552,
+            1.73674977,
+            7.552,
+            2.11
+          ]
+        },
+        {
+          "path": 763,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            7.552,
+            3.16,
+            7.552,
+            3.79475
+          ]
+        },
+        {
+          "path": 777,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            11.36893323,
+            29.881507140543533,
+            12.284366785209794,
+            29.99390825
+          ]
+        },
+        {
+          "path": 780,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            11.99558177,
+            30.834351443922756,
+            12.401361351500512,
+            30.88417491
+          ]
+        },
+        {
+          "path": 785,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            12.401361351500512,
+            30.834351443922756,
+            12.43965298,
+            31.14621174
+          ]
+        },
+        {
+          "path": 799,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            31.58842318,
+            35.16,
+            31.632,
+            35.16
+          ]
+        },
+        {
+          "path": 800,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            31.632,
+            35.16,
+            33.402,
+            35.16
+          ]
+        },
+        {
+          "path": 803,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            31.632,
+            35.15829482,
+            31.632,
+            35.16
+          ]
+        },
+        {
+          "path": 805,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            33.402,
+            35.08903395,
+            33.402,
+            35.16
+          ]
+        },
+        {
+          "path": 807,
+          "lot": null,
+          "role": null,
+          "type": "farm-track",
+          "name": "",
+          "bounds_km": [
+            35.172,
+            35.01977308,
+            35.172,
+            35.16
+          ]
+        }
+      ],
+      "unowned_path_roof_contacts": [
+        {
+          "path": 1694,
+          "lot": null,
+          "roof": null,
+          "roof_lot": null,
+          "type": "station-access",
+          "name": "龙散火车站"
+        },
+        {
+          "path": 1695,
+          "lot": null,
+          "roof": null,
+          "roof_lot": null,
+          "type": "station-access",
+          "name": "龙散东站"
+        }
+      ]
+    }
+  },
+  "verification_limits": [
+    "Facade entrances are algorithm-selected positions, not authored architectural doors.",
+    "Private compound geometry and ownership checks do not certify road/rail curve radius, slope, traffic capacity or timetable capacity.",
+    "Named station/campus/museum paths, village and farm tracks without lot ownership remain a separate facilities layer; their crossing candidates are recorded, not certified as grade-separated.",
+    "Boundary stroke/cap contacts are distinct from a private centreline traversing another owner interior; this is not parcel-law certification.",
+    "Inherited minor service road destinations are individually recorded; main-road same-or-higher terminal hierarchy was not uniformly required by the generator.",
+    "Technical passing and actual image review do not mean all visual refinement complete or user adoption.",
+    "Street-block IDs, all exported attributes and geometries were compared against the current independently hash-frozen network cache; this is a fresh v8 audit, without inherited geometry passing.",
+    "District planning and disaster recovery are design proposals; canon was not rewritten."
+  ]
+}

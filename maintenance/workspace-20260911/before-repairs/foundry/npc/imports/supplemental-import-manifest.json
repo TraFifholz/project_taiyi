@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "worldId": "taiyi",
+  "systemId": "swade",
+  "actors": [
+    {
+      "id": "LS-NPC-SUP-NISOKOTOF",
+      "canonicalName": "尼索科托夫",
+      "displayName": "尼索科托夫",
+      "aliases": [
+        "尼索科托夫",
+        "白桦树"
+      ],
+      "actorId": "OJWrqdjFqUyOqbBO",
+      "priority": "supplemental",
+      "sourceStatus": "existing-server-merchant-verified",
+      "narrativeStatus": "既定背景联系人；尚未正式出场",
+      "folder": "龙散 NPC / 城市人物",
+      "privateRole": "白桦树店主；复用商店 Actor 并保留店名及库存",
+      "publicBiography": "",
+      "approvedAsset": "discussion/npc/尼索科托夫.webp",
+      "approvedSha256": "b34715da9487c7f6aa11d8c60fcada704bff32ba17e734dc7efef577a70f5acf",
+      "approvedRun": "existing-server-asset-verified-2026-09-02",
+      "actorImage": "tokenizer/npc-avatars/Avatar.%E7%99%BD%E6%A1%A6%E6%A0%91.webp?v=1782387815597",
+      "tokenImage": "tokenizer/npc-images/Token.%E7%99%BD%E6%A1%A6%E6%A0%91.webp?v=1782387631510",
+      "fullPortrait": "assets/%E5%B0%BC%E7%B4%A2%E7%A7%91%E6%89%98%E5%A4%AB.webp",
+      "decision": "reused-existing-merchant",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 254,
+        "anchor": "**尼索科托夫先生**"
+      },
+      "actorUuid": "Actor.OJWrqdjFqUyOqbBO",
+      "verifiedAt": "2026-09-02T14:08:23.879Z"
+    }
+  ],
+  "players": [
+    {
+      "id": "LS-PC-lihao",
+      "name": "李好",
+      "aliases": [
+        "李好"
+      ],
+      "create": false,
+      "actorId": "dVY3kCrHc0WYyKEa",
+      "actorUuid": "Actor.dVY3kCrHc0WYyKEa"
+    },
+    {
+      "id": "LS-PC-yuko",
+      "name": "黑崎欲子",
+      "aliases": [
+        "黑崎欲子",
+        "黑崎玉子",
+        "玉子"
+      ],
+      "create": false,
+      "actorId": "zmeMlq5pVbbqr1rA",
+      "actorUuid": "Actor.zmeMlq5pVbbqr1rA"
+    },
+    {
+      "id": "LS-PC-tangsuo",
+      "name": "唐索",
+      "aliases": [
+        "唐索"
+      ],
+      "create": false,
+      "actorId": "ELxrslbsSHQg0cmK",
+      "actorUuid": "Actor.ELxrslbsSHQg0cmK"
+    },
+    {
+      "id": "LS-PC-lei",
+      "name": "雷武龙",
+      "aliases": [
+        "雷武龙"
+      ],
+      "create": false,
+      "actorId": "j3f9G2P4vDSmmxZw",
+      "actorUuid": "Actor.j3f9G2P4vDSmmxZw"
+    },
+    {
+      "id": "LS-PC-kevlar",
+      "name": "凯芙拉·威尔森",
+      "aliases": [
+        "凯芙拉·威尔森",
+        "凯芙拉",
+        "武士萌萌香"
+      ],
+      "create": false,
+      "actorId": "vhpt4XZxZn59dWX5",
+      "actorUuid": "Actor.vhpt4XZxZn59dWX5"
+    },
+    {
+      "id": "LS-PC-arkan",
+      "name": "阿尔坎·希耶尔",
+      "aliases": [
+        "阿尔坎·希耶尔",
+        "阿尔坎"
+      ],
+      "create": false,
+      "actorId": "nJxWvLzZvBNXObjk",
+      "actorUuid": "Actor.nJxWvLzZvBNXObjk"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "taiyi-rel-supp-nisokotof-tangsuo",
+      "sourceId": "LS-PC-tangsuo",
+      "targetId": "LS-NPC-SUP-NISOKOTOF",
+      "sourceRole": "熟识的联系人",
+      "targetRole": "熟识的黑市商人",
+      "bio": "唐索熟识尼索科托夫，后者经营地下黑市生意。",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 254,
+        "anchor": "**尼索科托夫先生**"
+      },
+      "evidenceStatus": "established-character-background",
+      "delivery": "tracker",
+      "playerBio": "唐索熟识尼索科托夫，后者经营地下黑市生意。"
+    }
+  ],
+  "heldProposals": [],
+  "supplemental": [],
+  "retired": [],
+  "sourceHashes": {
+    "records/memory/campaign-state.md": "068073e87172fdd6ab9992ee4d48e0bec9be759144f08fd4c3f8babcc8ee70b1"
+  },
+  "guardrails": {
+    "preserveSystem": true,
+    "preserveItems": true,
+    "preserveEffects": true,
+    "preserveOwnership": true,
+    "preserveSceneTokens": true,
+    "defaultOwnership": 0,
+    "noNewStatistics": true,
+    "noRankTriggers": true
+  }
+}

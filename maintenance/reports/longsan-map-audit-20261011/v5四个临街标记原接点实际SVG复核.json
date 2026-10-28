@@ -1,0 +1,86 @@
+[
+  {
+    "lot": "P42912",
+    "actual_svg_road_gap_m": 0.001546595457089065,
+    "lot_gap_m": 0.0,
+    "connector_coords_km": [
+      [
+        34.91243706686927,
+        24.292496307851682
+      ],
+      [
+        34.91342369749925,
+        24.318477581107626
+      ]
+    ],
+    "length_m": 26.00000000000056,
+    "actual_barrier_overlap_m2": 0.0,
+    "actual_water_overlap_m2": 0.0,
+    "other_roof_overlap_m2": 0,
+    "actual_svg_sha256": "1a717b75bc6b5d9a4558938608fae7ec14b258abfbf1446af9128df121345eb8",
+    "interpretation": "parallel frontage has multiple equal-distance minimizers; single nearest_points endpoint was a false negative"
+  },
+  {
+    "lot": "P43265",
+    "actual_svg_road_gap_m": 0.0015116845659158696,
+    "lot_gap_m": 0.0,
+    "connector_coords_km": [
+      [
+        35.10371831244657,
+        24.337269943566707
+      ],
+      [
+        35.10273168181659,
+        24.311288670310763
+      ]
+    ],
+    "length_m": 26.00000000000056,
+    "actual_barrier_overlap_m2": 0.0,
+    "actual_water_overlap_m2": 0.0,
+    "other_roof_overlap_m2": 0,
+    "actual_svg_sha256": "1a717b75bc6b5d9a4558938608fae7ec14b258abfbf1446af9128df121345eb8",
+    "interpretation": "parallel frontage has multiple equal-distance minimizers; single nearest_points endpoint was a false negative"
+  },
+  {
+    "lot": "P61070",
+    "actual_svg_road_gap_m": 0.002266469293577739,
+    "lot_gap_m": 0.0,
+    "connector_coords_km": [
+      [
+        34.8104394405961,
+        26.45655392841477
+      ],
+      [
+        34.80798577439718,
+        26.47741009110555
+      ]
+    ],
+    "length_m": 21.000000000000007,
+    "actual_barrier_overlap_m2": 0.0,
+    "actual_water_overlap_m2": 0.0,
+    "other_roof_overlap_m2": 0,
+    "actual_svg_sha256": "1a717b75bc6b5d9a4558938608fae7ec14b258abfbf1446af9128df121345eb8",
+    "interpretation": "parallel frontage has multiple equal-distance minimizers; single nearest_points endpoint was a false negative"
+  },
+  {
+    "lot": "P75505",
+    "actual_svg_road_gap_m": 0.002741698364395746,
+    "lot_gap_m": 0.0,
+    "connector_coords_km": [
+      [
+        33.12973318926612,
+        12.263828567388359
+      ],
+      [
+        33.15062189550663,
+        12.265987722685592
+      ]
+    ],
+    "length_m": 20.999999999999975,
+    "actual_barrier_overlap_m2": 0.0,
+    "actual_water_overlap_m2": 0.0,
+    "other_roof_overlap_m2": 0,
+    "actual_svg_sha256": "1a717b75bc6b5d9a4558938608fae7ec14b258abfbf1446af9128df121345eb8",
+    "interpretation": "parallel frontage has multiple equal-distance minimizers; single nearest_points endpoint was a false negative"
+  }
+]

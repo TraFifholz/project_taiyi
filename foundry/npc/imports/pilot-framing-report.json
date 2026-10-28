@@ -1,0 +1,157 @@
+{
+  "worldId": "taiyi",
+  "changes": [
+    {
+      "id": "LS-NPC-088",
+      "actorId": "gadGwYGyXgzgEfpp",
+      "action": "unchanged"
+    },
+    {
+      "id": "LS-NPC-089",
+      "actorId": "gBq6GwDgNfcln8lB",
+      "action": "unchanged"
+    },
+    {
+      "id": "LS-NPC-N3",
+      "actorId": "zltELu4L5KcmScNG",
+      "action": "unchanged"
+    }
+  ],
+  "relationChanges": [
+    {
+      "id": "taiyi-rel-4eff4d38c71335ec",
+      "ownerId": "LS-NPC-088",
+      "targetId": "LS-NPC-089",
+      "relationshipId": "rel_SVqoDTZH1CklSzBj",
+      "action": "updated"
+    },
+    {
+      "id": "taiyi-rel-4eff4d38c71335ec",
+      "ownerId": "LS-NPC-089",
+      "targetId": "LS-NPC-088",
+      "relationshipId": "rel_dYwbnpz6m5QYEmYH",
+      "action": "updated"
+    },
+    {
+      "id": "taiyi-rel-21b0da96fd81f653",
+      "ownerId": "LS-NPC-088",
+      "targetId": "LS-NPC-090",
+      "relationshipId": "rel_PvFIyloHVn87hlz8",
+      "action": "updated"
+    },
+    {
+      "id": "taiyi-rel-21b0da96fd81f653",
+      "ownerId": "LS-NPC-090",
+      "targetId": "LS-NPC-088",
+      "relationshipId": "rel_PRL3qjqxFQBB6cU2",
+      "action": "updated"
+    },
+    {
+      "id": "taiyi-rel-224cb868a0a92e9e",
+      "ownerId": "LS-NPC-089",
+      "targetId": "LS-NPC-090",
+      "relationshipId": "rel_3Jwc1cRLcSUAIiHv",
+      "action": "updated"
+    },
+    {
+      "id": "taiyi-rel-224cb868a0a92e9e",
+      "ownerId": "LS-NPC-090",
+      "targetId": "LS-NPC-089",
+      "relationshipId": "rel_DXyK75n2k4s6hTY9",
+      "action": "updated"
+    },
+    {
+      "id": "taiyi-rel-b42f52f034a10266",
+      "ownerId": "LS-NPC-088",
+      "targetId": "LS-NPC-100",
+      "action": "deferred-missing-actor"
+    },
+    {
+      "id": "taiyi-rel-b42f52f034a10266",
+      "ownerId": "LS-NPC-100",
+      "targetId": "LS-NPC-088",
+      "action": "deferred-missing-actor"
+    },
+    {
+      "id": "taiyi-rel-409a2076c769399e",
+      "ownerId": "LS-PC-lihao",
+      "targetId": "LS-NPC-N3",
+      "relationshipId": "rel_DNMhAeIh6nCl5o1c",
+      "action": "updated"
+    },
+    {
+      "id": "taiyi-rel-409a2076c769399e",
+      "ownerId": "LS-NPC-N3",
+      "targetId": "LS-PC-lihao",
+      "relationshipId": "rel_0ddqEzvofdJNqMfb",
+      "action": "unchanged"
+    },
+    {
+      "id": "taiyi-rel-5ba61e11e3dfc8ea",
+      "ownerId": "LS-PC-lihao",
+      "targetId": "LS-NPC-088",
+      "relationshipId": "rel_riLslW7zOH5yQ8tw",
+      "action": "updated"
+    },
+    {
+      "id": "taiyi-rel-5ba61e11e3dfc8ea",
+      "ownerId": "LS-NPC-088",
+      "targetId": "LS-PC-lihao",
+      "relationshipId": "rel_6CqsFNgsvVVioyFS",
+      "action": "unchanged"
+    }
+  ],
+  "protectedFailures": [],
+  "matches": [
+    {
+      "id": "LS-NPC-088",
+      "actorId": "gadGwYGyXgzgEfpp",
+      "name": "沈漫"
+    },
+    {
+      "id": "LS-NPC-089",
+      "actorId": "gBq6GwDgNfcln8lB",
+      "name": "沈仲秋"
+    },
+    {
+      "id": "LS-NPC-090",
+      "actorId": "a1z7lVrqv6W7wDFI",
+      "name": "朱瑶光"
+    },
+    {
+      "id": "LS-NPC-N3",
+      "actorId": "zltELu4L5KcmScNG",
+      "name": "棍木女"
+    },
+    {
+      "id": "LS-PC-lihao",
+      "actorId": "dVY3kCrHc0WYyKEa",
+      "name": "李好"
+    },
+    {
+      "id": "LS-PC-yuko",
+      "actorId": "zmeMlq5pVbbqr1rA",
+      "name": "黑崎欲子"
+    },
+    {
+      "id": "LS-PC-tangsuo",
+      "actorId": "ELxrslbsSHQg0cmK",
+      "name": "唐索"
+    },
+    {
+      "id": "LS-PC-lei",
+      "actorId": "j3f9G2P4vDSmmxZw",
+      "name": "雷武龙"
+    },
+    {
+      "id": "LS-PC-kevlar",
+      "actorId": "vhpt4XZxZn59dWX5",
+      "name": "凯芙拉·威尔森"
+    },
+    {
+      "id": "LS-PC-arkan",
+      "actorId": "nJxWvLzZvBNXObjk",
+      "name": "阿尔坎·希耶尔"
+    }
+  ]
+}

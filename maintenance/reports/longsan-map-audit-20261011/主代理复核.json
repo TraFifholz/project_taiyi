@@ -1,0 +1,15 @@
+{
+  "measurement": "SVG parks path shoelace at 125 units per km",
+  "areas": {
+    "龙散大学": {
+      "rendered_area_km2": 11.963605,
+      "source_area_km2": 0.333333,
+      "ratio": 35.891
+    },
+    "燧明科技园": {
+      "rendered_area_km2": 5.139237,
+      "source_area_km2": 0.2,
+      "ratio": 25.696
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "version": "v7",
+  "reviewer": "collapse_design_audit",
+  "status": "sample_visual_review_only; full-map pending",
+  "images": [
+    {
+      "path": "temp\\longsan-planned-model-v7-final\\楚岸-组团.png",
+      "sha256": "51c461848bfc5ed9c27c7c9e74f6a181716e1879e57a65efae0e1c908db40d0b",
+      "observed": "4km synthetic planning sample has organized street-wall courts and parallel slabs; visible repetitive motifs and broad checkerboard programme changes remain. It does not contain actual city water/retained sites and cannot establish final city aesthetics."
+    },
+    {
+      "path": "temp\\longsan-planned-model-v7-final\\真实铁山临街组团.png",
+      "sha256": "db46844037c9a2fa87b88c1c63c06acd520adbfbd5e7179b6feefa504557d580",
+      "observed": "Actual F6775 irregular remainder owns perimeter-frontage developments: rows and work halls follow public streets, entries and internal connections are visible. Only this one remainder is populated in the test; blank neighboring blocks are intentional and are not a claimed final-map failure."
+    }
+  ],
+  "sample_geojson_sha256": "eade304b5be8af70721cd19e4c50984599d2f4a59138985f9c40b36b5af3500d",
+  "actual_sample_basis_network_sha256": "2a2c94a4a150fbec95095ba5d65ddbe6f8349a0fd0549a31ce391dc4400ab3cc",
+  "final_requirements": [
+    "Full actual Chu-an crop on accepted water/geography must show coherent area transitions and street hierarchy.",
+    "Inspect historic, high-tech, industry and suburban full-map crops.",
+    "Bind all final visual assertions to final SVG and PNG hashes.",
+    "Do not mark aesthetic accepted from sample connectivity or from an image of one populated face."
+  ]
+}

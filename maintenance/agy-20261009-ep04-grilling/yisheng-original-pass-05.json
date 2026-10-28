@@ -1,0 +1,17 @@
+{
+  "model": "gemini-3.1-pro-high",
+  "mode": "plan",
+  "proxy": "http://127.0.0.1:7890",
+  "cwd": "D:\\Project Taiyi",
+  "input": "campaign/prep/agy/ep04-redesign-20261009/yisheng-original-pass-05-input.md",
+  "input_sha256": "1f79622d759f351a7a45297bb3909d51bc41fa4a9178ed295e2d11eecb6f37c3",
+  "started_at": "2026-10-09T16:36:08.061157+08:00",
+  "resumed_conversation": null,
+  "pid": 587300,
+  "exit_code": 0,
+  "ended_at": "2026-10-09T16:38:03.736358+08:00",
+  "conversation_id": "273a721a-b301-4125-b88e-dabae0892251",
+  "result_status": "SUCCESS",
+  "response_sha256": "405354ea034d8f45a81e8a434d4d0650dfae96f3bcfa3f227676bfcd837f328b",
+  "events": 407
+}

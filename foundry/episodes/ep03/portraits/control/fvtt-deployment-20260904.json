@@ -1,0 +1,41 @@
+{
+  "deployedAt": "2026-09-04T01:32:56+08:00",
+  "world": "taiyi",
+  "user": "AssistantAgent",
+  "passed": true,
+  "actorFieldsChanged": [
+    "img",
+    "prototypeToken.texture.src"
+  ],
+  "sceneTokensChanged": 0,
+  "unrelatedActorsChanged": 0,
+  "actors": [
+    {
+      "name": "罗恺",
+      "actorId": "f5cd5bab755a2027",
+      "path": "worlds/taiyi/assets/npc/avatars/EP03-LUO-KAI-%E7%BD%97%E6%81%BA-avatar.webp",
+      "sha256": "ed1ec04799ae20ebab2004819e9e70a403ae18a77fc2ecfd739b8c797db9f3ca",
+      "bytes": 130922,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "辛桦",
+      "actorId": "57cb77448d90157a",
+      "path": "worlds/taiyi/assets/npc/avatars/EP03-XIN-HUA-%E8%BE%9B%E6%A1%A6-avatar.webp",
+      "sha256": "1aba59647091435cc622898ef07634fba86334ab990d2e645d8fdddae8b322ca",
+      "bytes": 149072,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "夏磊",
+      "actorId": "f0767585fdbe1cf3",
+      "path": "worlds/taiyi/assets/npc/avatars/EP03-XIA-LEI-%E5%A4%8F%E7%A3%8A-avatar.webp",
+      "sha256": "5e8e4fab780309e0aa3a14c46fb7ba851d3fc4db02847f0230b4ce34fe4dd7e4",
+      "bytes": 171034,
+      "width": 512,
+      "height": 512
+    }
+  ]
+}

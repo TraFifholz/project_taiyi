@@ -1,0 +1,235 @@
+{
+  "code": 0,
+  "msg": "Success",
+  "data": {
+    "entities": {
+      "nodes": {
+        "CsYGfQnrWl6e3fdyctecxiaynNh": {
+          "extra": {
+            "biz_type": 1,
+            "display_tag": {
+              "ObjectTagType": 2,
+              "tag_value": "外部"
+            },
+            "template_type": 0,
+            "is_share_folder": true,
+            "is_wiki_home_page": false,
+            "size": "0",
+            "complaint": false,
+            "description": "",
+            "doubao_conversation_id": "0",
+            "is_external": true
+          },
+          "is_stared": false,
+          "name": "王座厅上午",
+          "obj_biz_type": 1,
+          "owner_id": "7637069545081081046",
+          "share_version": 0,
+          "delete_flag": 0,
+          "icon_info": "{\"type\":0,\"key\":\"\",\"obj_type\":0,\"obj_sub_type\":0,\"file_type\":null,\"token\":\"CsYGfQnrWl6e3fdyctecxiaynNh\",\"version\":125000}",
+          "obj_sub_type": 0,
+          "obj_token": "CsYGfQnrWl6e3fdyctecxiaynNh",
+          "secret_key_delete": false,
+          "thumbnail": "",
+          "type": 0,
+          "url": "https://ocnbxpxzxtqg.feishu.cn/drive/folder/CsYGfQnrWl6e3fdyctecxiaynNh",
+          "edit_time": 1782898052,
+          "delete_uid": "0",
+          "edit_uid": "7637069545081081046",
+          "get_sec_label_code": 0,
+          "security_level": 0,
+          "thumbnail_extra": {
+            "nonce": "",
+            "secret": "",
+            "type": 0,
+            "url": ""
+          },
+          "token": "CsYGfQnrWl6e3fdyctecxiaynNh",
+          "can_set_sec_label": 0,
+          "is_pined": false,
+          "node_type": 0,
+          "owner_type": 5,
+          "create_time": 1782897927
+        },
+        "DIpYfDNlnlt3oudAJg0c9HHMnwb": {
+          "can_set_sec_label": 0,
+          "edit_time": 1782898069,
+          "obj_biz_type": 1,
+          "delete_uid": "0",
+          "is_pined": false,
+          "is_stared": false,
+          "name": "王座厅下午",
+          "node_type": 0,
+          "obj_token": "DIpYfDNlnlt3oudAJg0c9HHMnwb",
+          "owner_id": "7637069545081081046",
+          "owner_type": 5,
+          "create_time": 1782897936,
+          "delete_flag": 0,
+          "extra": {
+            "biz_type": 1,
+            "description": "",
+            "is_external": true,
+            "is_share_folder": true,
+            "is_wiki_home_page": false,
+            "template_type": 0,
+            "complaint": false,
+            "display_tag": {
+              "tag_value": "外部",
+              "ObjectTagType": 2
+            },
+            "doubao_conversation_id": "0",
+            "size": "0"
+          },
+          "secret_key_delete": false,
+          "security_level": 0,
+          "type": 0,
+          "obj_sub_type": 0,
+          "share_version": 0,
+          "thumbnail": "",
+          "thumbnail_extra": {
+            "nonce": "",
+            "secret": "",
+            "type": 0,
+            "url": ""
+          },
+          "token": "DIpYfDNlnlt3oudAJg0c9HHMnwb",
+          "edit_uid": "7637069545081081046",
+          "get_sec_label_code": 0,
+          "icon_info": "{\"type\":0,\"key\":\"\",\"obj_type\":0,\"obj_sub_type\":0,\"file_type\":null,\"token\":\"DIpYfDNlnlt3oudAJg0c9HHMnwb\",\"version\":132000}",
+          "url": "https://ocnbxpxzxtqg.feishu.cn/drive/folder/DIpYfDNlnlt3oudAJg0c9HHMnwb"
+        },
+        "GOAsfKSqolAiS4ddTsIccgMpnVf": {
+          "is_stared": false,
+          "name": "社交场景地图",
+          "obj_biz_type": 1,
+          "secret_key_delete": false,
+          "delete_flag": 0,
+          "edit_uid": "7637069545081081046",
+          "get_sec_label_code": 0,
+          "is_pined": false,
+          "node_type": 0,
+          "obj_token": "GOAsfKSqolAiS4ddTsIccgMpnVf",
+          "owner_id": "7637069545081081046",
+          "security_level": 0,
+          "can_set_sec_label": 0,
+          "create_time": 1784805917,
+          "extra": {
+            "is_share_folder": true,
+            "template_type": 0,
+            "description": "",
+            "display_tag": {
+              "ObjectTagType": 2,
+              "tag_value": "外部"
+            },
+            "doubao_conversation_id": "0",
+            "is_external": true,
+            "biz_type": 1,
+            "complaint": false,
+            "is_wiki_home_page": false,
+            "size": "0"
+          },
+          "thumbnail_extra": {
+            "type": 0,
+            "url": "",
+            "nonce": "",
+            "secret": ""
+          },
+          "token": "GOAsfKSqolAiS4ddTsIccgMpnVf",
+          "edit_time": 1784805929,
+          "icon_info": "{\"type\":0,\"key\":\"\",\"obj_type\":0,\"obj_sub_type\":0,\"file_type\":null,\"token\":\"GOAsfKSqolAiS4ddTsIccgMpnVf\",\"version\":11000}",
+          "obj_sub_type": 0,
+          "thumbnail": "",
+          "type": 0,
+          "url": "https://ocnbxpxzxtqg.feishu.cn/drive/folder/GOAsfKSqolAiS4ddTsIccgMpnVf",
+          "delete_uid": "0",
+          "owner_type": 5,
+          "share_version": 0
+        },
+        "LR3nfxErzl1TN9dJjfYccW8UnNf": {
+          "delete_flag": 0,
+          "obj_token": "LR3nfxErzl1TN9dJjfYccW8UnNf",
+          "security_level": 0,
+          "share_version": 0,
+          "thumbnail_extra": {
+            "nonce": "",
+            "secret": "",
+            "type": 0,
+            "url": ""
+          },
+          "can_set_sec_label": 0,
+          "get_sec_label_code": 0,
+          "icon_info": "{\"type\":0,\"key\":\"\",\"obj_type\":0,\"obj_sub_type\":0,\"file_type\":null,\"token\":\"LR3nfxErzl1TN9dJjfYccW8UnNf\",\"version\":14000}",
+          "name": "王座厅入夜",
+          "node_type": 0,
+          "owner_id": "7637069545081081046",
+          "extra": {
+            "is_wiki_home_page": false,
+            "size": "0",
+            "template_type": 0,
+            "doubao_conversation_id": "0",
+            "is_external": true,
+            "is_share_folder": true,
+            "biz_type": 1,
+            "complaint": false,
+            "description": "",
+            "display_tag": {
+              "ObjectTagType": 2,
+              "tag_value": "外部"
+            }
+          },
+          "edit_time": 1784804157,
+          "edit_uid": "7637069545081081046",
+          "is_stared": false,
+          "obj_sub_type": 0,
+          "secret_key_delete": false,
+          "thumbnail": "",
+          "token": "LR3nfxErzl1TN9dJjfYccW8UnNf",
+          "delete_uid": "0",
+          "url": "https://ocnbxpxzxtqg.feishu.cn/drive/folder/LR3nfxErzl1TN9dJjfYccW8UnNf",
+          "type": 0,
+          "is_pined": false,
+          "obj_biz_type": 1,
+          "owner_type": 5,
+          "create_time": 1784804142
+        }
+      },
+      "users": {
+        "7637069545081081046": {
+          "email": "",
+          "id": "7637069545081081046",
+          "suid": "7637069545081081046",
+          "cn_name": "用户1756",
+          "en_name": "user 1756",
+          "name": "用户1756",
+          "tenant_id": "7637069443906768052",
+          "user_type": "1",
+          "i18n_name": {
+            "en_us": "user 1756",
+            "ja_jp": "ユーザー 1756",
+            "zh_cn": "用户1756"
+          },
+          "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/d8853c01-f8e5-44ce-b17c-1c748cb277de~?image_size=72x72&cut_type=default-face&quality=&format=jpeg&sticker_format=.webp",
+          "display_name": {
+            "i18n_value": {
+              "en_us": "user 1756",
+              "ja_jp": "ユーザー 1756",
+              "zh_cn": "用户1756"
+            },
+            "value": "用户1756"
+          },
+          "doubao_user_id": "1910332425247450",
+          "mobile": "",
+          "tenant_name": ""
+        }
+      }
+    },
+    "has_more": false,
+    "last_label": "v3|WRTCosO4wo3Ci8OkBgIdIcOhworDk8OVQC_CunBCSsKUwp5WwrzCgDptYmXCgsK5w53CoBzDgzrDn8OtwozDvTPDuMODOQDDpcKQERASwpEWw5DCsGQDbsKTL8OIfcO1Wg",
+    "node_list": [
+      "LR3nfxErzl1TN9dJjfYccW8UnNf",
+      "DIpYfDNlnlt3oudAJg0c9HHMnwb",
+      "CsYGfQnrWl6e3fdyctecxiaynNh"
+    ],
+    "total": 3
+  }
+}

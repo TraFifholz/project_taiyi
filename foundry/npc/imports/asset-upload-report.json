@@ -1,0 +1,26 @@
+﻿{
+    "world":  "taiyi",
+    "verifiedAt":  "2026-09-02T13:15:00.0245798Z",
+    "files":  186,
+    "matching":  186,
+    "mismatches":  [
+
+                   ],
+    "http":  [
+                 {
+                     "path":  "avatars/LS-NPC-088.webp",
+                     "status":  200,
+                     "contentType":  "image/webp"
+                 },
+                 {
+                     "path":  "avatars/LS-NPC-N3.webp",
+                     "status":  200,
+                     "contentType":  "image/webp"
+                 },
+                 {
+                     "path":  "portraits/LS-NPC-090.webp",
+                     "status":  200,
+                     "contentType":  "image/webp"
+                 }
+             ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": "v8",
+  "reviewer": "collapse_design_audit independent subagent",
+  "input_sha256": {
+    "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-基础底图.svg": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+    "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-底图与地铁.svg": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+    "assets\\maps\\longsan-geographic-v8-20261012\\街坊.geojson": "764143684fb2908ad681b012b7d2885e264558ec7b610409fbdbdc380c09276e",
+    "assets\\maps\\longsan-geographic-v8-20261012\\路网.geojson": "735570ee178862bb98aa30a8cee1e1a2b4523874d88477d5fce3446540e2e4b5",
+    "assets\\maps\\longsan-geographic-v8-20261012\\地理骨架.geojson": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+    "assets\\maps\\longsan-geographic-v8-20261012\\铁路.geojson": "2c7540fd4a02eed18b9f5e90c9bf9dbafeb94f84830092f6463685b2967e2530",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8符号层独立读回.py": "2f0eee6a291c1636f57c392df0d970e3a18e1db718de502bfff80c947802c732",
+    "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94",
+    "temp\\longsan-map-qa-v8\\network.pickle": "ebd74d5da0b6c2667ec8b8c64a5fa11d9f65e451f5a60b5505cf495da2b6b001",
+    "temp\\longsan-map-qa-v8\\fabric.pickle": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415",
+    "scripts\\generate_longsan_geographic_maps_v8.py": "c274221e3e88ef57dac50e3abe632b2c8f7472dc5a4431cf5ab28a1802833ff1",
+    "scripts\\longsan_collapse_v8.py": "dabff8828752f0ea3dafa2c7f9d86af18de0cf2dd0b2242ac81f8493160c4327",
+    "scripts\\longsan_planned_fabric.py": "0fb13d1e278b016d2d2f4521726449b963c27b272eeac4f366a8a245ba19d537"
+  },
+  "pairs": [
+    {
+      "file": "龙散市-基础底图.svg",
+      "after_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "final_symbol_polygon_paths": 2992,
+      "actual_nodes": 642,
+      "maximum_reconstruction_hausdorff_m": 0.010022071888551854,
+      "maximum_actual_stencil_excess_m": 0.006848973273479442,
+      "exact_rounded_ring_degeneracy_checks": [
+        {
+          "xy_km": [
+            14.770593154015,
+            8.534892323119
+          ],
+          "part": "local-casing",
+          "raw_reference_gap_m": 0.010022071888551854,
+          "independently_rounded_ring_gap_m": 0.0
+        }
+      ]
+    },
+    {
+      "file": "龙散市-底图与地铁.svg",
+      "after_sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+      "final_symbol_polygon_paths": 2992,
+      "actual_nodes": 642,
+      "maximum_reconstruction_hausdorff_m": 0.010022071888551854,
+      "maximum_actual_stencil_excess_m": 0.006848973273479442,
+      "exact_rounded_ring_degeneracy_checks": [
+        {
+          "xy_km": [
+            14.770593154015,
+            8.534892323119
+          ],
+          "part": "local-casing",
+          "raw_reference_gap_m": 0.010022071888551854,
+          "independently_rounded_ring_gap_m": 0.0
+        }
+      ]
+    }
+  ],
+  "hard_gates": {
+    "svg_metadata_correct_v8": true,
+    "all_polygon_junctions_independently_reconstructed": true,
+    "blocks_match_current_network_semantics_and_geometry": true,
+    "inputs_stable": true
+  },
+  "unresolved_hard_errors": [],
+  "block_verification": {
+    "count": 12233,
+    "method": "Exact unique ID/full attribute/geometry comparison with current independently stamped network.pickle.",
+    "errors": []
+  },
+  "quantization_limits": {
+    "svg_units_per_km": 100,
+    "decimal_places": 3,
+    "maximum_per_axis_m": 0.005,
+    "maximum_2d_m": 0.007071067811865476,
+    "reconstruction_tolerance_m": 0.008,
+    "actual_footprint_tolerance_m": 0.009,
+    "endpoint_matching_tolerance_m": 0.001,
+    "physical_public_endpoint_connectivity_tolerance_m": 0.02,
+    "round_cap_method": "Analytic stencil limits and true primary same-width joins; rare rounded-ring degeneracy must exactly match independently quantized SVG rings."
+  },
+  "review_boundary": "Fresh v8 exports are audited directly. No geometry invariance or inherited full-city audit is assumed. Every symbol polygon and actual neighbouring public primitive is independently rebuilt, including primary joint and free endpoint flags. Not road engineering or aesthetic acceptance."
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260904-ep03-extra-qingshao-nai-v1",
+  "characterId": "EP03-EXTRA-QINGSHAO",
+  "characterName": "青梢队成员",
+  "actorId": "edf233155b4144b1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "assets/candidates/EP03-EXTRA-QINGSHAO-青梢队成员-nai-avatar.webp",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=e2b32409f3c5e8c14335391e815b0c712b3c9d95c1954346d96744548bcf4e6f",
+      "成年青梢队员、深绿骑行服、头盔、耳机与安全带辨识明确；手部正常，无文字、标志、武器或能力特效。"
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "transparentPixels": 470183
+  },
+  "userApproved": false,
+  "deployedToFvtt": false
+}

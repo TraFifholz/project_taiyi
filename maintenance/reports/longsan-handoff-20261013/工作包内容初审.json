@@ -1,0 +1,59 @@
+{
+  "minimum_closure_missing": [],
+  "minimum_closure_size_difference": [],
+  "user_images": [
+    {
+      "label": "益阳资水",
+      "exists": true,
+      "sha_matches": true
+    },
+    {
+      "label": "长沙橘子洲",
+      "exists": true,
+      "sha_matches": true
+    },
+    {
+      "label": "湘江分汊江心洲",
+      "exists": true,
+      "sha_matches": true
+    },
+    {
+      "label": "武汉长江与天兴洲",
+      "exists": true,
+      "sha_matches": true
+    },
+    {
+      "label": "用户指出路网问题",
+      "exists": true,
+      "sha_matches": true
+    }
+  ],
+  "required_original_and_caches": {
+    "assets/maps/RMG/终稿.json": true,
+    "assets/maps/RMP_1778746859180.svg": true,
+    "assets/maps/RMP_1778746875450.png": true,
+    "assets/maps/地铁图.webp": true,
+    "src/地铁图.svg": true,
+    "temp/longsan-map-qa-v4/fabric.pickle": true,
+    "temp/longsan-map-qa-v8/fabric.pickle": true,
+    "temp/longsan-map-qa-v9/fabric.pickle": true
+  },
+  "missing_local_import_modules": [],
+  "actual_unrelated_file_paths": [],
+  "stage": "source snapshot rebound; ready for seal; ZIP not yet audited",
+  "source_snapshot_count": 1313,
+  "source_snapshot_bytes": 4031163969,
+  "scope_guidance_repaired": true,
+  "scope_repair_note": "初审曾发现原RUNBOOK带无关S14剧情、WORKSPACE带战役入口；root仅在包内改为地图专用派生，并删除原assets/maps/README与日常制度副本，四项从源快照清单剔除。原项目RUNBOOK仍保留原S14文本。",
+  "derived_guidance_not_falsely_claimed_original": true,
+  "user_scope_and_unfinished_art_boundary_clear": true,
+  "execution_flags_and_environment_warning_correct": true,
+  "actual_no_text_browser_checks_all_passed": true,
+  "no_text_svg_sha256": {
+    "龙散市-基础底图-无文字.svg": "043c6acee7150b2d0b535e78e84cb79999fc8fb0e07346c15d84e83cf465a6c0",
+    "龙散市-底图与地铁-无文字.svg": "69500b19b2e0c09531886b742fcbac2455267ff20fa3952347c5daf9fce7c599"
+  },
+  "no_text_png_count": 8,
+  "unresolved_content_errors": [],
+  "content_preflight_passed": true
+}

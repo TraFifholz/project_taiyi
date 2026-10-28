@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "time": "2026-09-11T11:25:58.693Z",
+  "model": "nai-diffusion-5-curated",
+  "selected": "nai/heavy-multi-v2/raw.png",
+  "remote": "worlds/taiyi/assets/npc/avatars/EP04-A-heavy-multi-v2.webp",
+  "sha256": "793eeb5400c6e0eea32377bebcfee8be03b651f6a8866b1311df78cca5f456f8",
+  "actor": "79a02db6071ff86d",
+  "prototypeUpdated": true,
+  "sceneTokensUpdated": 1,
+  "statsAndItemsUnchanged": true,
+  "previousTrackedVersion": "preserved as reusable tracked sentry"
+}

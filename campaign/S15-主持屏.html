@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>*,*::before,*::after{box-sizing:border-box}:root{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>第四话主持屏</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;900&family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: a GM screen — sticky section rail on top, then dense scan-first panels; red marks danger, jade marks player openings. */
+:root {
+  --bg: #eef0ec; --panel: #fbfbf8; --ink: #1d2320; --muted: #5d6762; --line: #d3d8d2;
+  --accent: #a3341f; --accent-soft: #f3dcd4; --jade: #2f6f5e; --jade-soft: #d8ebe3; --gold: #8a6714; --gold-soft: #f1e6c8;
+  --display: "Noto Serif SC", "Songti SC", "SimSun", serif;
+  --body: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141917; --panel: #1c2320; --ink: #e6ebe7; --muted: #9aa69f; --line: #2f3a35;
+  --accent: #e0765d; --accent-soft: #3a211b; --jade: #6cc3a6; --jade-soft: #1b3129; --gold: #d9b45a; --gold-soft: #33290f; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #141917; --panel: #1c2320; --ink: #e6ebe7; --muted: #9aa69f; --line: #2f3a35;
+  --accent: #e0765d; --accent-soft: #3a211b; --jade: #6cc3a6; --jade-soft: #1b3129; --gold: #d9b45a; --gold-soft: #33290f; color-scheme: dark; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.65 var(--body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--panel); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { padding-block: 28px 18px; }
+.kicker { font: 500 12px/1 var(--mono); letter-spacing: .12em; color: var(--accent); text-transform: uppercase; }
+h1 { font: 900 clamp(30px, 5vw, 46px)/1.15 var(--display); margin: 8px 0 6px; text-wrap: balance; }
+.lede { color: var(--muted); max-width: 62ch; margin: 0; }
+nav.rail { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--panel); border-block: 1px solid var(--line); }
+nav.rail .wrap { display: flex; gap: 4px; overflow-x: auto; padding-block: 6px; scrollbar-width: thin; }
+nav.rail a { flex: none; color: var(--ink); text-decoration: none; font-weight: 500; font-size: 14px; padding: 6px 12px; border-radius: 6px; }
+nav.rail a:hover, nav.rail a:focus-visible { background: var(--accent-soft); color: var(--accent); outline: none; }
+main { display: grid; gap: 40px; padding-block: 28px 64px; }
+section { scroll-margin-top: calc(60px + env(safe-area-inset-top, 0px)); display: grid; gap: 16px; }
+h2 { font: 900 26px/1.25 var(--display); margin: 0; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; text-wrap: balance; }
+h2 small { font: 500 13px/1 var(--mono); color: var(--muted); letter-spacing: .05em; }
+h3 { font: 700 16px/1.4 var(--body); margin: 0 0 6px; }
+p { margin: 0; }
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
+.grid.wide { grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px 18px; min-width: 0; display: grid; gap: 8px; align-content: start; }
+.panel.hot { border-color: var(--accent); }
+ul.dots { margin: 0; padding-left: 1.1em; display: grid; gap: 4px; }
+.verbs { display: flex; flex-wrap: wrap; gap: 6px; }
+.verb { font-size: 12.5px; font-weight: 500; padding: 2px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+.verb.jade { background: var(--jade-soft); color: var(--jade); }
+.trait { display: grid; gap: 2px; }
+.trait b { font-family: var(--display); font-weight: 600; }
+.q { border-left: 3px solid var(--gold); background: var(--gold-soft); padding: 8px 12px; border-radius: 0 6px 6px 0; font-size: 14px; }
+.q::before { content: "GM 问题　"; font-weight: 700; color: var(--gold); }
+.beats { counter-reset: b; display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.beats li { counter-increment: b; display: grid; grid-template-columns: 30px 1fr; gap: 8px; }
+.beats li::before { content: counter(b); font: 700 13px/26px var(--mono); text-align: center; width: 26px; height: 26px; border-radius: 50%; background: var(--ink); color: var(--panel); }
+.feat { display: grid; gap: 6px; }
+.feat div { display: grid; grid-template-columns: 7.5em 1fr; gap: 10px; font-size: 14px; }
+.feat dt, .feat div > span:first-child { font-weight: 700; color: var(--jade); }
+.net { border-top: 1px dashed var(--line); padding-top: 8px; font-size: 14px; color: var(--muted); }
+.net b { color: var(--ink); }
+.tablebox { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 700; color: var(--muted); font-size: 12.5px; letter-spacing: .04em; background: var(--bg); }
+tr:last-child td { border-bottom: 0; }
+td.n { font: 700 18px/1 var(--mono); color: var(--accent); width: 2.2em; text-align: center; font-variant-numeric: tabular-nums; }
+.stat { font: 500 13px/1.6 var(--mono); color: var(--muted); }
+.clock { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.clock div { border: 1px solid var(--line); border-radius: 6px; padding: 8px; background: var(--panel); font-size: 13px; text-align: center; }
+.clock div b { display: block; font: 700 12px/1.4 var(--mono); color: var(--muted); }
+.clock div.end { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); font-weight: 700; }
+@media (max-width: 640px) { .clock { grid-template-columns: repeat(3, 1fr); } .feat div { grid-template-columns: 1fr; gap: 0; } }
+.people { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.person { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; display: grid; gap: 6px; }
+.person h3 { margin: 0; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.person h3 span { font: 500 12px/1 var(--body); color: var(--muted); }
+.tag { font: 700 11px/1 var(--body); padding: 3px 7px; border-radius: 4px; letter-spacing: .04em; }
+.tag.foe { background: var(--accent-soft); color: var(--accent); }
+.tag.ally { background: var(--jade-soft); color: var(--jade); }
+.tag.mid { background: var(--gold-soft); color: var(--gold); }
+.final { font-family: var(--display); font-size: 18px; line-height: 1.8; padding: 16px 20px; border-left: 4px solid var(--accent); background: var(--panel); border-radius: 0 8px 8px 0; }
+.final em { font-style: normal; color: var(--accent); font-weight: 900; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <p class="kicker">龙散战记 · 第四话「特派员」 · S15</p>
+  <h1>剥皮：拆掉方泰安借来的每一层皮</h1>
+  <p class="lede">周六凌晨 5 点，欲子在私人医院醒来，梁文川刚走。周日 24:00 方泰安要在灾备演示厅交割。中间六个行动回合，路线随玩家。</p>
+</div></header>
+
+<nav class="rail" aria-label="分区"><div class="wrap">
+  <a href="#now">现场</a><a href="#fang">方泰安</a><a href="#clock">时钟与反扑</a><a href="#routes">三条路线</a>
+  <a href="#tonguo">铜锅</a><a href="#b3">B3 档案室</a><a href="#yard">车场</a><a href="#hall">灾备厅</a><a href="#end">结局</a><a href="#cast">人物</a>
+</div></nav>
+
+<main class="wrap">
+
+<section id="now">
+  <h2>开场现场 <small>周六 05:00</small></h2>
+  <div class="grid">
+    <div class="panel hot">
+      <h3>第 0 回合：汇合（不占回合）</h3>
+      <ul class="dots">
+        <li>欲子：头皮枪伤、脑震荡、额骨骨裂；梁预付了两晚，可以走也可以留。</li>
+        <li>全队还没对过情报。欲子有卫铁生、梁和濒死幻视；李好有银行和港口；阿尔坎有护卫资料。</li>
+        <li>已约好：<b>周六下午</b>铜锅（欲子替卫打拳讨债），<b>周末</b>银行查档（李好 + 何凌，借「裴组长的意思」）。</li>
+        <li>方<b>不知道</b>欲子还活着。郁垒以为她死了。</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>盟友与他们想要的</h3>
+      <div class="feat">
+        <div><span>卫铁生</span><span>车场、跑路钱、方的人头</span></div>
+        <div><span>何凌</span><span>灾备厅里陈培安的残留</span></div>
+        <div><span>梁文川</span><span>原始记录、机甲授权（暗里想拿走交割硬盘）</span></div>
+      </div>
+      <p class="stat">宏观时钟 2/12　银线 2 点　死时离阿瑶太远 = 真死</p>
+    </div>
+  </div>
+  <div class="tablebox"><table>
+    <thead><tr><th>PC</th><th>今晚最可能扣动的扳机</th></tr></thead>
+    <tbody>
+      <tr><td>李好</td><td>原件上有陈志远自己的签名；方当年也是引资银行信贷员出身，同一个系统爬出来的人。</td></tr>
+      <tr><td>欲子</td><td>卫给的「已死、未销户」身份，会不会是她没救下的司机之一？　开枪的人还会再见。</td></tr>
+      <tr><td>唐索</td><td>马铁鹰穿外骨骼想再打一场；外骨骼有故障、杨振邦递来维护账号——公平打还是作弊？</td></tr>
+      <tr><td>雷武龙</td><td>闵三元的灰账上可能就有他当年那张码头送货单。徒手打不穿重甲，就去掀升降台。</td></tr>
+      <tr><td>凯芙拉</td><td>陈培安的残留接口要有人懂神经接口才能搬；外骨骼液压管的毛病她一眼能看出来。</td></tr>
+      <tr><td>阿尔坎</td><td>方护卫队里「消失又出现、断电时发光」的随从；还有两条秘密没拿到。</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="fang">
+  <h2>方泰安 <small>旧城管委会监察专员 · 48 岁</small></h2>
+  <div class="grid wide">
+    <div class="panel hot">
+      <p>鬓角灰白，一只昂贵的机械眼，一只精密液压义手，炭灰官僚西装一尘不染。早年做引资银行信贷员，太懂账怎么平、锅怎么甩给死人。</p>
+      <div class="verbs"><span class="verb">切账</span><span class="verb">借皮</span><span class="verb">捂盖子</span><span class="verb">拿脏活换官位</span><span class="verb">狗急跳墙</span></div>
+      <div class="trait"><b>怕留名甚于怕见血</b><span>真名一和命案连上，上面会先把他当传染源清掉。</span></div>
+      <div class="trait"><b>借来的虎皮</b><span>管委会只是协调衙门。他干任何脏事都要套「市政工程」或「外包采购」的皮。</span></div>
+      <div class="trait"><b>把断头台当护身符</b><span>以为郁垒是来保命的。郁垒保的是业务，不是他。</span></div>
+      <div class="trait"><b>官威 · 净场</b><span>视线 6 格念动：掀车、拖人；义手把人按进地里。平时慢条斯理理袖口，破防时像失控的拆楼机。</span></div>
+      <p class="q">白念秋找上门那天说中了哪句实话，让一贯借刀杀人的他亲自动了手？</p>
+    </div>
+    <div class="tablebox"><table>
+      <thead><tr><th>他能做到（有成本、有延迟、留痕迹）</th><th>他做不到</th></tr></thead>
+      <tbody>
+        <tr><td>改管委会本地档案；以「燃气抢修」封一条街两小时</td><td>改追风零号库、银行总行镜像；调警局刑侦</td></tr>
+        <tr><td>罗恺约 10 人湿活组、两台追风重型自走机、玄盾金卡护卫</td><td>同时顾两头；调白鸢的正规安保</td></tr>
+        <tr><td>现钞收买打手和黑医，给陈志远施压</td><td>动裴秉钧；钱一断，雇来的人立刻散</td></tr>
+        <tr><td>让秦有邻发通稿说「瓦斯事故」；私下恐吓证人、房东、主管</td><td>全城删帖、改别人医院的病历、扣 PC 的 CPI、未卜先知</td></tr>
+        <tr><td>花大钱向「那边的客服」下单转移活人</td><td>碰兔子洞源码；客服判定越界就拒单</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <div class="panel">
+    <h3>玩家认清他的三步</h3>
+    <ol class="beats">
+      <li><span><b>抓线头</b>：撞见他的狼狈——发抖的医生、发抖的陈志远。不是教父，是冲动杀人后满头汗粘碎片的贪官。</span></li>
+      <li><span><b>剥虎皮</b>：每打通一条路线，他当场掉一层借来的皮。</span></li>
+      <li><span><b>见底色</b>：皮剥光，只剩砸墙的狂徒；他刚想卖上面，就被保镖抹掉。</span></li>
+    </ol>
+  </div>
+</section>
+
+<section id="clock">
+  <h2>时钟与方的反扑 <small>六个行动回合</small></h2>
+  <div class="clock" role="list">
+    <div role="listitem"><b>1</b>周六上午</div><div role="listitem"><b>2</b>周六下午</div><div role="listitem"><b>3</b>周六夜</div>
+    <div role="listitem"><b>4</b>周日上午</div><div role="listitem"><b>5</b>周日下午</div><div role="listitem" class="end"><b>6</b>周日夜 · 24:00 交割</div>
+  </div>
+  <p>方只在玩家<b>弄出动静</b>后反扑：一条线有进展、踩响警报时，掷 1d6 或按逻辑挑。玩家看得见痕迹，公众看不见。</p>
+  <div class="tablebox"><table>
+    <thead><tr><th>d6</th><th>反扑</th><th>玩家看到的痕迹与反制</th></tr></thead>
+    <tbody>
+      <tr><td class="n">1</td><td><b>排险封路</b>：两台封路自动机以「燃气泄漏」焊死一条街或后巷</td><td>机身喷着工程编号，于正清或梁能查签发人；破拆，或走防空通道绕</td></tr>
+      <tr><td class="n">2</td><td><b>湿活组摸门</b>：罗恺带 4 人加嗅探机械狗，盯上刚暴露的证人</td><td>附近手机掉到 2G；先转移证人或设伏，能缴获罗恺的通讯终端</td></tr>
+      <tr><td class="n">3</td><td><b>行长压单</b>：陶景衡以「合规自查」召见李好或陈志远，扣调档 4 小时</td><td>何凌越级找裴秉钧签批</td></tr>
+      <tr><td class="n">4</td><td><b>臭钱买路</b>：从跑路金箱拨现钞，买通混混或夏满弓的巡逻队设卡</td><td>拿出冻结令或筹码：「他付不出尾款了」，巡逻队收工</td></tr>
+      <tr><td class="n">5</td><td><b>客服催单</b>：向客服追加订单，把被查的账目节点拖进浅层 Sprite</td><td>屏幕闪 1970-01-01 和紫光；阿瑶有感应、木签发热；阿尔坎可反向锁定灾备厅</td></tr>
+      <tr><td class="n">6</td><td><b>提前焚炉</b>：交割时钟提前一格，往灾备厅搬铝热剂</td><td>管委会大楼夜里排烟、电力负荷激增——立刻收网</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="routes">
+  <h2>三条路线 <small>都通向灾备厅，可以混着走</small></h2>
+  <div class="grid">
+    <div class="panel">
+      <h3>江湖 · 铜锅 → 灰账 → 暗道</h3>
+      <p>在铜锅保住医生，拿灰账加证词，当着柳拂衣的面坐实方黑吃黑。</p>
+      <p><span class="verb jade">剥掉</span> 拿到人证；卫交出直通灾备厅的废弃管廊暗道；义胜盟和剑阁在外围咬住方一半私兵。</p>
+      <p><span class="verb">代价</span> 卫要见血。地面火并闹大，警方定性「帮派暴恐」，灰账单独上不了法庭。</p>
+    </div>
+    <div class="panel">
+      <h3>银行 · B3 → 28F → 冻结令</h3>
+      <p>调出原件，策反陈志远，越过陶景衡交给裴秉钧；再找于正清、玄圭签冻结令。</p>
+      <p><span class="verb jade">剥掉</span> 壳公司账户冻结，雇佣兵停摆；白鸢接到核查令撤走安保；锁定陈培安的维持舱。</p>
+      <p><span class="verb">代价</span> 正式调档触发内部告警，交割时钟 +1，灾备厅加固。</p>
+    </div>
+    <div class="panel">
+      <h3>断网 · 梁 → 客服 → 节目</h3>
+      <p>茶楼残件交给梁；阿尔坎挖剩下两条秘密；凯芙拉恢复白念秋的 SD 卡。</p>
+      <p><span class="verb jade">剥掉</span> 梁在终战远程锁死两台重机甲；客服判方违约当场停服；白念秋的遗作引爆关注。</p>
+      <p><span class="verb">代价</span> 梁借机拷走方的旧城路线资料。节目一提前播，记者、网红、各路帮派涌进旧城。</p>
+    </div>
+  </div>
+</section>
+
+<section id="tonguo">
+  <h2>铜锅 · 热汤里的活口 <small>周六下午 · 已定</small></h2>
+  <div class="grid wide">
+    <div class="panel hot">
+      <p>白茅岗废弃锅炉房改的下沉式八角铁笼，架在货运升降台上。头顶蒸汽管嘶嘶漏气，铁网外挤满挥着现钞的赌客。</p>
+      <div class="feat">
+        <div><span>高压蒸汽</span><span>阀门一爆，白雾吞掉半个场地，视野归零——欲子隐身、抢人的好机会。</span></div>
+        <div><span>拳上定债</span><span>几方争同一个欠债人：笼里打赢，或当着公证人拿出「对方坏了规矩」的铁证。</span></div>
+        <div><span>人潮</span><span>一动枪，上百赌客夺路逃，移动检定 −2，杀手也混在人群里。</span></div>
+        <div><span>升降台</span><span>钢缆被打断或控制被短接，台子可能突升，也可能急坠半层。</span></div>
+      </div>
+      <ol class="beats">
+        <li><span>笼里堂堂正正打马铁鹰；笼外，黑西装账房借赌客起哄摸向绑着吕文博的柱子。</span></li>
+        <li><span>截下杀手，当众把照片、灰账、茶楼残件拍在桌上。</span></li>
+        <li><span>卫翻脸，柳拔剑，帮众关死铁门，罗恺的人被反包围。</span></li>
+      </ol>
+      <p class="q">吕文博为了证明自己还有用，会交代白念秋的遗体是从管委会哪扇门运出来的吗？卫会把谁的身份塞给欲子？</p>
+    </div>
+    <div class="panel">
+      <h3>场上的人</h3>
+      <div class="trait"><b>吕文博 · 黑医，被绑在柱子上</b><span>替方伪造了白念秋「重度抑郁、安眠药处方」。手机加密相册里有她颈部义手挫伤的照片——想拿来敲诈方，招来了催命符。先求饶，再卖情报，一松绑就跑。</span></div>
+      <div class="trait"><b>黑西装账房 · 罗恺的人</b><span>走「讨债」的路子，因为铜锅归江湖规矩管。赢不了就冷枪或毒针。暴露后搬出「罗恺的话」威胁一次，然后撤。</span></div>
+      <div class="trait"><b>马铁鹰 · 重型外骨骼加战锤</b><span>只认赏金，不知道雇主是谁。左膝液压管漏油。得知是来灭口的，可能当场罢赛：「老子是来打拳的，不是来埋人的。」</span></div>
+      <div class="trait"><b>卫铁生</b><span>医生一说出「方专员、罗恺的人」，他就从债主变成不死不休的复仇者。</span></div>
+      <div class="trait"><b>柳拂衣 · 剑阁公证</b><span>先守中立；确认对面是来灭口的，剑就指过去。</span></div>
+      <div class="net"><b>网络层</b>：公共热点人人能连；赌档账本里，账房押了 ¥80,000 赌马铁鹰赢，付款方「穗安合规服务」（第三话罗恺的壳公司）。账房公文包里藏着便携伪基站，附近手机掉到 2G——拿下它就能监听或切断黑衣小组的通讯。维修摊终端能碰外骨骼、升降台和锅炉阀门。</div>
+    </div>
+  </div>
+</section>
+
+<section id="b3">
+  <h2>B3 旧档案室 · 纸山与喷淋 <small>周末查档</small></h2>
+  <div class="grid wide">
+    <div class="panel hot">
+      <p>引资银行地下三层，轨道密集架长廊，存着没数字化的旧城重建原件。后半层是配电房和柴油发电机。</p>
+      <div class="feat">
+        <div><span>怕水的铁证</span><span>喷淋或气体灭火一启动，纸质原件 3 轮内受损；人每轮过活力检定防缺氧。</span></div>
+        <div><span>密集架</span><span>几吨重，摇柄或念动能推；当掩体，也能把追兵夹在缝里。</span></div>
+        <div><span>出口</span><span>库区货梯只到 B1。上 28F 要换贵宾电梯，它会经过 29F——陶景衡那层。</span></div>
+      </div>
+      <ol class="beats">
+        <li><span>李好对陈志远：三轮社交冲突，裴的专项督导令是筹码。</span></li>
+        <li><span>灯灭，喷淋启动，3 轮倒计时：一边护原件，一边甩开机械警犬。</span></li>
+        <li><span>突围上 28F——贵宾电梯偏偏停在了 29F。</span></li>
+      </ol>
+      <p class="q">陈志远替李好挡门的那一刻，说了哪句藏了很久的实话？陈抽走的那几页上写的是什么？</p>
+    </div>
+    <div class="panel">
+      <h3>场上的人</h3>
+      <div class="trait"><b>陈志远 · 衬衫被冷汗浸透</b><span>保饭碗、怕坐牢、不想害死李好。被陶景衡逼下来「先抽走那几页」。</span></div>
+      <div class="trait"><b>7F 安保 4 人 + 机械警犬 2 只</b><span>名义是排查消防隐患。封货梯、拖时间、「误触」喷淋；不想杀人，真挨打就退。见到裴的授权会犹豫一轮。</span></div>
+      <div class="trait"><b>何凌</b><span>要拿到陈培安留下的原始批件，保住李好。</span></div>
+      <div class="trait"><b>陶景衡（不在场）</b><span>他不是在保方，是在<b>切割</b>：抽走牵连银行和上面的几页，方那部分留着让方顶罪。玩家会发现有人和自己同时在清理同一堆纸。</span></div>
+      <div class="net"><b>网络层</b>：李好的工牌能直接登员工无线。扫描间日志：OC-2027-09 今天 13:40 由 29F 授权抽页三页，14:02 陈志远调阅。楼宇自控网关管着灭火、货梯、照明——但它一被打动摇，7F 的值班 AI 就沿专线反击。机械警犬走无线，接管后听玩家指挥。</div>
+    </div>
+  </div>
+</section>
+
+<section id="yard">
+  <h2>铁山车场 · 拔牙 <small>可选</small></h2>
+  <div class="panel">
+    <p>锈蚀集装箱迷宫，头顶电磁龙门吊。两台重型自走机挂在地坑上方充电，2 轮后完全启动。押运车后厢三口金箱：金条、现钞、离线冷钱包。</p>
+    <div class="feat">
+      <div><span>罗恺</span><span>脸上带烧伤的退役佣兵。看住机甲和钱，拿玩家的命交差；不对劲就开装甲车自己跑。</span></div>
+      <div><span>梁 + 阿尔坎</span><span>把探针插进地坑主控台，吊销机甲的派生证书。</span></div>
+      <div><span>卫铁生</span><span>要罗恺的命祭兄弟，要金箱里的钱发抚恤。</span></div>
+      <div><span>玩法</span><span>潜入「拔牙」、开龙门吊吸集装箱砸场，或者直接抢车抢钱。</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="hall">
+  <h2>灾备演示厅 · 特派员的断头台 <small>周日夜</small></h2>
+  <div class="grid wide">
+    <div class="panel">
+      <p>管委会配电附楼地下的半圆指挥厅。中央是发光的旧城全息沙盘，一侧是「那边的客服」终端和陈培安的维持舱，二层一圈阴影观察廊。</p>
+      <div class="feat">
+        <div><span>沙盘与承重柱</span><span>方会掀沙盘基座、扯断高压母线。</span></div>
+        <div><span>维持舱</span><span>断电超过 3 轮又没接备用电源，陈培安就散了——何凌的底线。</span></div>
+        <div><span>断电显影</span><span>主电源一断，二层阴影里郁垒身边的残帧微光暴露。欲子认出他：周五晚上开枪的人。</span></div>
+      </div>
+      <h3>先兑现前面剥掉的皮</h3>
+      <ul class="dots">
+        <li>走了银行：门禁认冻结令，夏满弓带外围安保收工。</li>
+        <li>走了断网：重机甲亮绿灯，然后播放梁的语音锁死；客服终端跳出「信用破产，服务永久终止」。</li>
+        <li>走了江湖：卫和柳从管廊杀出，把罗恺残部按在走廊里。</li>
+      </ul>
+    </div>
+    <div class="panel hot">
+      <h3>郁垒</h3>
+      <p>玄盾特战、前卜府密探，30 岁，平头，宽肩便装西装，黑薄手套，手腕上一块永远快半秒的电子表。读得到活人<b>已经下定决心</b>的下一个动作。</p>
+      <div class="feat">
+        <div><span>预判</span><span>有意瞄准他的攻击 −2；范围爆炸、无人机器、狂野攻击、欲子不受影响。</span></div>
+        <div><span>跳帧</span><span>每回合瞬移 6 格，旁人眼里像剪掉了一帧。</span></div>
+        <div><span>敷衍护主</span><span>前两轮只挡致命伤；皮剥得越多，他越克制——心里已经判方死刑。</span></div>
+      </div>
+      <h3>最后一刻</h3>
+      <p class="final">方被打断义手，满脸是血跪在碎裂的沙盘上，抓住最近的 PC 的裤脚：「别杀我！我什么都招！是上面——」<br>电子表嘀了一声。郁垒在半秒前就站在他身后：<em>「不用。」</em><br>枪响。他没有开第二枪，只看了欲子一眼：<em>「难怪那一枪偏了。你的下一帧，不是你自己的。」</em>然后跳帧消失。</p>
+      <p class="q">方咽气前最后看的是谁？玩家来得及从他身上抢下哪半截没烧完的东西？卫冲进来发现方已经被别人爆了头，他的刀砍向哪里？</p>
+    </div>
+  </div>
+</section>
+
+<section id="end">
+  <h2>结局 <small>片刻安宁，一瞥深渊</small></h2>
+  <div class="grid">
+    <div class="panel">
+      <h3>安宁</h3>
+      <ul class="dots">
+        <li>吕文博的口供、转运记录、SD 卡视频戳破了「服药自杀」。李好把苏志国的工牌放在白家姐妹墓前。</li>
+        <li>欲子拿到身份；梁抹掉追风内部对她的指控，5/20 的剑落地。</li>
+        <li>故城区事务所，发电机平稳运转。阿秋架起铜锅，阿瑶踮脚往锅里下丸子，沈漫发结算。</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>三道冷汗（挑一两道）</h3>
+      <div class="trait"><b>真正的只手遮天</b><span>不到 12 小时，天穹只弹一行字：「方泰安同志因突发心源性疾病逝世」。封锁线一夜撤净，卷宗由「地下资源管理办公室」接管。卫在电话那头：「我们昨晚拆掉的，到底是个什么东西？」</span></div>
+      <div class="trait"><b>删不掉的订单</b><span>客服缓存里方的条目全灰，只剩一条：乘客 朱瑶光，起点 不存在，终点 神响之地，状态 等待接驾。阿瑶放下筷子望向东南：「叫我的声音，怎么比以前更响了？」（下单的是梁，不点破）</span></div>
+      <div class="trait"><b>副驾上的空位</b><span>暴雨夜，梁把车停在塌陷区封锁线外，插进一枚芯片，屏幕拼出 2027 年的一座水务站。他对着空副驾轻声说：「快了。」</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="cast">
+  <h2>人物速查</h2>
+  <div class="people">
+    <div class="person"><h3>方泰安 <span class="tag foe">敌</span></h3><div class="verbs"><span class="verb">切账</span><span class="verb">捂盖子</span><span class="verb">狗急跳墙</span></div><p>念动加液压义手。以为郁垒保他。</p></div>
+    <div class="person"><h3>郁垒 <span class="tag foe">敌</span></h3><div class="verbs"><span class="verb">保业务</span><span class="verb">评估</span><span class="verb">注销</span></div><p>快半秒的表。以为欲子已死。</p></div>
+    <div class="person"><h3>罗恺 <span class="tag foe">敌</span></h3><div class="verbs"><span class="verb">清理</span><span class="verb">守钱</span><span class="verb">独逃</span></div><p>约 10 人湿活组；壳公司「穗安合规服务」。</p></div>
+    <div class="person"><h3>陶景衡 <span class="tag foe">敌</span></h3><div class="verbs"><span class="verb">切割</span><span class="verb">压单</span><span class="verb">甩锅给方</span></div><p>分行行长，29F，和卜府合作。</p></div>
+    <div class="person"><h3>吕文博 <span class="tag mid">证人</span></h3><div class="verbs"><span class="verb">保命</span><span class="verb">甩锅</span><span class="verb">要路费</span></div><p>伪造处方的黑医，手里有挫伤照片。</p></div>
+    <div class="person"><h3>陈志远 <span class="tag mid">动摇</span></h3><div class="verbs"><span class="verb">保饭碗</span><span class="verb">怕坐牢</span><span class="verb">护李好</span></div><p>原件上有他的签名。</p></div>
+    <div class="person"><h3>马铁鹰 <span class="tag mid">雇佣</span></h3><div class="verbs"><span class="verb">要赏金</span><span class="verb">找唐索</span><span class="verb">不埋人</span></div><p>外骨骼左膝漏油。</p></div>
+    <div class="person"><h3>夏满弓 <span class="tag mid">雇佣</span></h3><div class="verbs"><span class="verb">收钱</span><span class="verb">保队员</span><span class="verb">见钱断就撤</span></div><p>方的外围巡逻。</p></div>
+    <div class="person"><h3>卫铁生 <span class="tag ally">盟</span></h3><div class="verbs"><span class="verb jade">护兄弟</span><span class="verb jade">讨血债</span><span class="verb jade">要面子</span></div><p>玄武分舵红衣。确认被卖后不要钱，要人。</p></div>
+    <div class="person"><h3>何凌 <span class="tag ally">盟</span></h3><div class="verbs"><span class="verb jade">救前辈</span><span class="verb jade">保同事</span><span class="verb jade">变猫</span></div><p>要陈培安的残留留下来。</p></div>
+    <div class="person"><h3>梁文川 <span class="tag ally">盟</span></h3><div class="verbs"><span class="verb jade">保记录</span><span class="verb jade">锁机甲</span><span class="verb">藏目的</span></div><p>真心帮忙；暗里想拿交割硬盘。</p></div>
+    <div class="person"><h3>柳拂衣 <span class="tag ally">公证</span></h3><div class="verbs"><span class="verb jade">守承诺</span><span class="verb jade">清败类</span></div><p>剑阁。确认对面灭口就出剑。</p></div>
+    <div class="person"><h3>闵三元 <span class="tag ally">账房</span></h3><div class="verbs"><span class="verb jade">守规矩</span><span class="verb jade">算实数</span></div><p>灰账在他手里，可能有雷武龙的码头单。</p></div>
+    <div class="person"><h3>裴秉钧 <span class="tag ally">官面</span></h3><div class="verbs"><span class="verb jade">督导</span><span class="verb jade">冻结</span></div><p>28F，总行特派。能签冻结令。</p></div>
+    <div class="person"><h3>玄圭 / 于正清 <span class="tag mid">官面</span></h3><div class="verbs"><span class="verb">算概率</span><span class="verb">核工程</span></div><p>冻结令的另两个签名。</p></div>
+    <div class="person"><h3>白鸢 <span class="tag mid">官面</span></h3><div class="verbs"><span class="verb">守辖区</span><span class="verb">守底线</span></div><p>拿到核查令就撤走安保、帮忙疏散。</p></div>
+  </div>
+</section>
+
+</main>
+</body>
+</html>

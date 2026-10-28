@@ -1,0 +1,90 @@
+{
+  "reviewer": "collapse_design_audit",
+  "version": "v9",
+  "input_sha256": {
+    "temp\\longsan-map-qa-v8\\fabric.pickle": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415",
+    "temp\\longsan-map-qa-v9\\fabric.pickle": "8f35bfd1a4f83e9e0e732047858ff5bc49b600543775bc654e53808f3d1fe303",
+    "assets\\maps\\longsan-geographic-v9-20261012\\几何校验.json": "875605ec32833977eecf9b2686a07f2dd968c425613c6cabefae3aa28c7a6db0",
+    "assets\\maps\\longsan-geographic-v9-20261012\\地图坐标与线路.json": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+    "assets\\maps\\longsan-geographic-v9-20261012\\浏览器验收.json": "e8478a990448cd0c8146a7cacf9a1382b2b4f8f3001876d6c2d4d9fba16fe72f",
+    "assets\\maps\\longsan-geographic-v9-20261012\\路网.geojson": "df98fb6f6b9d5f1c8f01abbf90ef9f1baaa5527419f283f88760233c40139497",
+    "assets\\maps\\longsan-geographic-v9-20261012\\临街地块.geojson": "dba0b790692676cc1aa7e885cf0a07dbcfb8e2056984865156a3368534369b19",
+    "assets\\maps\\longsan-geographic-v9-20261012\\街坊.geojson": "a6d12d85e6bf8fb838199c271bede6f1a873b39641d60570fb045d6dac3edc27",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v9局部继承核验.py": "c85b2bcf704339203cfda62c9fad9ef1375c65ece48ac38744080a2623d31361",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v9局部道路与来源核验.py": "9d577bc4345472c34363986775400f62f5c721e182c99c16e7d17bd799a16e59",
+    "scripts\\generate_longsan_geographic_maps_v8.py": "c274221e3e88ef57dac50e3abe632b2c8f7472dc5a4431cf5ab28a1802833ff1",
+    "scripts\\generate_longsan_geographic_maps_v9.py": "9743e20b1fcfa663688370aa0bb719f748dac3a7d835d1c1acd04d43541e79c0",
+    "scripts\\longsan_collapse_v8.py": "dabff8828752f0ea3dafa2c7f9d86af18de0cf2dd0b2242ac81f8493160c4327",
+    "scripts\\longsan_collapse_v9.py": "c205a6a735eaa75c8e558f3d9b1dc8497528ad65dfd5a9664ccfa3e5613c6115",
+    "scripts\\longsan_west_bank_facilities_v9.py": "7b7dfabdcffef6d2b60f82f0d8beb78da3be522ec338440d853af3a2bde6b118",
+    "scripts\\longsan_planned_fabric.py": "0fb13d1e278b016d2d2f4521726449b963c27b272eeac4f366a8a245ba19d537"
+  },
+  "current_svg_sha256": {
+    "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+    "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+  },
+  "hard_gates": {
+    "all_395_inherited_major_road_geometry_and_attributes_exact": true,
+    "all_unrelated_local_roads_exact_and_only_two_plot_clips_applied": true,
+    "two_added_public_perimeters_actual_20m_offset_and_20m_width": true,
+    "every_retained_original_block_id_geometry_and_properties_exact": true,
+    "all_actual_blocks_geojson_match_current_cache_geometry": true,
+    "actual_public_road_geojson_geometry_matches_current_cache_exact": true,
+    "root_fresh_verification_source_hashes_current": true,
+    "all_declared_original_sources_and_v8_snapshots_hashes_preserved": true,
+    "root_actual_all_city_roof_geometry_verification_reported_no_errors": true,
+    "browser_91_checks_all_pass_bound_current_svg": true,
+    "actual_rendered_water_disaster_rail_and_recovery_bridge_markers_exact_v8": true,
+    "road_and_provenance_inputs_stable": true
+  },
+  "unresolved_hard_errors": [],
+  "counts": {
+    "major_roads_retained_exact": 395,
+    "local_roads_retained_exact": 5181,
+    "local_road_indices_clipped_only_at_new_reservations": [
+      1350,
+      1351,
+      1352,
+      1353,
+      1357,
+      1358,
+      1359,
+      1366,
+      1367,
+      1368,
+      1369,
+      1372,
+      1373,
+      1374,
+      1375
+    ],
+    "added_public_perimeters": 2,
+    "retained_original_block_ids_exact": 12186,
+    "actual_current_blocks": 12218
+  },
+  "source_hash_mismatches": [],
+  "preserved_source_hash_mismatches": [],
+  "actual_block_export_errors": [],
+  "root_reported_error_fields": {
+    "building_water_errors": [],
+    "building_transport_errors": [],
+    "building_overlap_errors": [],
+    "local_street_rail_reservation_errors": [],
+    "major_road_endpoints_in_water": [],
+    "private_access_barrier_errors": [],
+    "facility_rail_crossing_errors": [],
+    "active_roof_security_errors": []
+  },
+  "protected_svg_markers": {
+    "v8_count": 94,
+    "v9_count": 94,
+    "v8_sha256": "715a9cc4ed69fe31b36a8dd308b9e46fd88273fc8db6ad36a78beee8178215cf",
+    "v9_sha256": "715a9cc4ed69fe31b36a8dd308b9e46fd88273fc8db6ad36a78beee8178215cf",
+    "comparison": "Exact ordered tag, all attributes including path d/stroke, and text for selected actual water/disaster/rail/bridge markers; unmarked civil engineering detail is outside this proof."
+  },
+  "verification_boundaries": [
+    "Major/local and exported block/road checks are independently recomputed here.",
+    "The all-city water/transport/roof-overlap arrays are the generator fresh verification evidence, explicitly reported as such; new facility collisions are independently recomputed in v9设施与绘制独立核验.json.",
+    "Original owner path connectivity inheritance requires v9局部继承核验.json, not this preservation counter."
+  ]
+}

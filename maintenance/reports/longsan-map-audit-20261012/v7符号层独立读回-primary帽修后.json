@@ -1,0 +1,56 @@
+{
+  "version": "v7",
+  "reviewer": "collapse_design_audit independent subagent",
+  "input_sha256": {
+    "temp\\longsan-final-symbol-audit\\白帽修前-基础.svg": "dcec4b385a68d6cee43699ce600e5db2a02d28267d5466af65c3b40c26981746",
+    "assets\\maps\\longsan-geographic-v7-20261012\\龙散市-基础底图.svg": "33eb579c7c013146038b11de7a101aaf7a1ac594a1a705a8dd48e7c8c0604674",
+    "temp\\longsan-final-symbol-audit\\白帽修前-地铁.svg": "bbfcc4606d7065b5be6c3a59dcf9c191e859d1e9f8ded713207e780706c580ad",
+    "assets\\maps\\longsan-geographic-v7-20261012\\龙散市-底图与地铁.svg": "d7d2ccdc5842d23df21e5c08d6f52b842e15a4c3454cfbdfa07ce12496c68cb2",
+    "assets\\maps\\longsan-geographic-v7-20261012\\路网.geojson": "eaec7249f8abcbd7c3509f7a74056ddbadf887e9d61f92ba784c0605aa033f4d",
+    "assets\\maps\\longsan-geographic-v7-20261012\\建筑.geojson": "46d5c4398dbff6787b2cd7312ef030c67a93a04b22c65feefab9ed136da5b17d",
+    "assets\\maps\\longsan-geographic-v7-20261012\\临街地块.geojson": "15257e205f086601639b854482464feb69d91d948d7fc0dc194665d9f2724911",
+    "assets\\maps\\longsan-geographic-v7-20261012\\组团通道.geojson": "f7b162a8e2dee86be2133f14529c61e791ff51ddd6fab3f07f9f41b6f4ac3466",
+    "assets\\maps\\longsan-geographic-v7-20261012\\地理骨架.geojson": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+    "assets\\maps\\longsan-geographic-v7-20261012\\铁路.geojson": "9a8bff95b480dd945dc523e8a8eb3d3ecece992e5a09869da32cc2e5b425fe4c",
+    "assets\\maps\\longsan-geographic-v7-20261012\\灾后地理.geojson": "129697219ef04748e96262cd19c0e3c26a4630826918c50ae79c0b03dc0763b0",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7组团独立核验.py": "2612eaffb54f02ac4ff9e1ede7ab1bce46f7f9e8a206e19275620163398a5c1c",
+    "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7组团独立核验-末次屋型白帽修前.json": "4d8f1e5c0a702b60db21dc8d2c5c4e403677d9555170179eaab7911c9e5714c4",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7符号层独立读回.py": "5aeb62ae437c1c5aabf993b53a12ff0ad5e6c15f1c39d37a0a7a5ecd80a87453"
+  },
+  "pairs": [
+    {
+      "file": "龙散市-基础底图.svg",
+      "before_sha256": "dcec4b385a68d6cee43699ce600e5db2a02d28267d5466af65c3b40c26981746",
+      "after_sha256": "33eb579c7c013146038b11de7a101aaf7a1ac594a1a705a8dd48e7c8c0604674",
+      "before_visual_strokes": 54,
+      "after_visual_strokes": 110,
+      "all_other_svg_bytes_identical": true,
+      "metadata_other_than_shared_base_digest_identical": true,
+      "maximum_off_primary_fill_length_m": 0,
+      "normalized_svg_sha256": "0a0b50b9b4061e66c9b036e12a0d77c06a009577c664236e6e9ee82987d63237"
+    },
+    {
+      "file": "龙散市-底图与地铁.svg",
+      "before_sha256": "bbfcc4606d7065b5be6c3a59dcf9c191e859d1e9f8ded713207e780706c580ad",
+      "after_sha256": "d7d2ccdc5842d23df21e5c08d6f52b842e15a4c3454cfbdfa07ce12496c68cb2",
+      "before_visual_strokes": 54,
+      "after_visual_strokes": 110,
+      "all_other_svg_bytes_identical": true,
+      "metadata_other_than_shared_base_digest_identical": true,
+      "maximum_off_primary_fill_length_m": 0,
+      "normalized_svg_sha256": "e239337066fec5d7df4dcd806f4b420978d8c9ad73abd21eea54d7708782d225"
+    }
+  ],
+  "hard_gates": {
+    "all_non_junction_svg_bytes_identical": true,
+    "metadata_except_shared_base_identical": true,
+    "all_visual_strokes_on_actual_primary": true,
+    "repaint_spans_limited_to_actual_named_junction": true,
+    "compound_geometry_and_audit_source_unchanged": true,
+    "only_declared_fill_paint_and_no_geometry_metadata": true,
+    "inputs_stable": true
+  },
+  "unresolved_hard_errors": [],
+  "review_boundary": "Full prior compound geometry and every roof/path SVG element remain audited only if strict non-junction byte identity holds. The visual-junction name identifies junction context, not necessarily each repainted road. Every stroke follows actual primary geometry and meets a true endpoint of the labelled context road within 150mm. Receiving spans limited to 100m; incoming fills limited to 45m. Image review separately decides whether caps are visually repaired."
+}

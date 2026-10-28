@@ -1,0 +1,1469 @@
+{
+  "readback_date": "2026-10-13",
+  "reviewer": "collapse_design_audit",
+  "operation": "read existing JSON and calculate current hashes only; no generator or audit script rerun; no prior report/status rewritten",
+  "current_goal": "工作包交给另一个 agent 继续绘制；最终地图无文字标注。当前v9是带标注的候选技术基线。",
+  "report_states": [
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9局部继承核验.json",
+      "sha256": "6cd7e066a78d1e306d0fab2a48c9b411313ff414f97a9c137839445d9f95a755",
+      "bytes": 3925608,
+      "mtime_local": "2026-10-12T22:21:42.283120",
+      "status": "independent_geometry_gates_pass",
+      "hard_gate_count": 16,
+      "true_hard_gates": 16,
+      "false_hard_gates": [],
+      "unresolved_hard_errors": [],
+      "unresolved_must_correct": null
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9设施与绘制独立核验.json",
+      "sha256": "0c681208d9c919aac46adacb331fce09be550ea046343bde2d914a457c375821",
+      "bytes": 8778,
+      "mtime_local": "2026-10-12T22:28:55.187462",
+      "status": null,
+      "hard_gate_count": 16,
+      "true_hard_gates": 16,
+      "false_hard_gates": [],
+      "unresolved_hard_errors": [],
+      "unresolved_must_correct": null
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9局部道路与来源核验.json",
+      "sha256": "1307406bef03b07dba6b9574ce9b9a65eacf89ea45309552cd740510dab61c68",
+      "bytes": 5214,
+      "mtime_local": "2026-10-12T22:27:47.579807",
+      "status": null,
+      "hard_gate_count": 12,
+      "true_hard_gates": 12,
+      "false_hard_gates": [],
+      "unresolved_hard_errors": [],
+      "unresolved_must_correct": null
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9独立核验.json",
+      "sha256": "f2e9160a2cf6252c2a8cd7258da449132bbe55910fcf5feb2bb3a2c46938b93c",
+      "bytes": 15249,
+      "mtime_local": "2026-10-12T22:32:09.120101",
+      "status": "independent_technical_geometry_pass_candidate_visual_acceptance_separate",
+      "hard_gate_count": 48,
+      "true_hard_gates": 48,
+      "false_hard_gates": [],
+      "unresolved_hard_errors": [],
+      "unresolved_must_correct": null
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9最终目视审查.json",
+      "sha256": "0a6de08bb37368db43e1f8e760d2b577efe3965781818308f1d24b8a7d999c58",
+      "bytes": 37946,
+      "mtime_local": "2026-10-12T22:31:01.392225",
+      "status": "candidate_reviewable_with_remaining_art_issues",
+      "hard_gate_count": 12,
+      "true_hard_gates": 12,
+      "false_hard_gates": [],
+      "unresolved_hard_errors": null,
+      "unresolved_must_correct": []
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9岸别关系审查.json",
+      "sha256": "e1dfdd200482bdf77ad5b6c7be96a30c89950406adc5ab7e86969103ac68e6fe",
+      "bytes": 99438,
+      "mtime_local": "2026-10-12T22:04:27.967254",
+      "status": "source_bank_conflicts_confirmed_for_v9_revision",
+      "hard_gate_count": 0,
+      "true_hard_gates": 0,
+      "false_hard_gates": [],
+      "unresolved_hard_errors": null,
+      "unresolved_must_correct": null
+    },
+    {
+      "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9迁建目视核对.json",
+      "sha256": "cb37c8e1042f937b7e15922cf1df703e0a24fa536b9506a8e63ec6646f76a20f",
+      "bytes": 3254,
+      "mtime_local": "2026-10-12T22:32:07.108942",
+      "status": null,
+      "hard_gate_count": 0,
+      "true_hard_gates": 0,
+      "false_hard_gates": [],
+      "unresolved_hard_errors": null,
+      "unresolved_must_correct": null
+    }
+  ],
+  "current_svg_inputs": [
+    {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-基础底图.svg",
+      "sha256": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+      "bytes": 122360786,
+      "mtime_local": "2026-10-12T22:13:03.563764",
+      "xml_text_element_counts": {
+        "text": 102
+      },
+      "currently_no_text": false
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-底图与地铁.svg",
+      "sha256": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b",
+      "bytes": 122421990,
+      "mtime_local": "2026-10-12T22:13:04.789299",
+      "xml_text_element_counts": {
+        "text": 180
+      },
+      "currently_no_text": false
+    }
+  ],
+  "current_fabric_cache": {
+    "path": "temp\\longsan-map-qa-v9\\fabric.pickle",
+    "sha256": "8f35bfd1a4f83e9e0e732047858ff5bc49b600543775bc654e53808f3d1fe303",
+    "bytes": 54449398,
+    "mtime_local": "2026-10-12T22:10:57.183673"
+  },
+  "schema_false_readback": {
+    "v9局部道路与来源核验.json": {
+      "hard_gates": {
+        "all_395_inherited_major_road_geometry_and_attributes_exact": true,
+        "all_unrelated_local_roads_exact_and_only_two_plot_clips_applied": true,
+        "two_added_public_perimeters_actual_20m_offset_and_20m_width": true,
+        "every_retained_original_block_id_geometry_and_properties_exact": true,
+        "all_actual_blocks_geojson_match_current_cache_geometry": true,
+        "actual_public_road_geojson_geometry_matches_current_cache_exact": true,
+        "root_fresh_verification_source_hashes_current": true,
+        "all_declared_original_sources_and_v8_snapshots_hashes_preserved": true,
+        "root_actual_all_city_roof_geometry_verification_reported_no_errors": true,
+        "browser_91_checks_all_pass_bound_current_svg": true,
+        "actual_rendered_water_disaster_rail_and_recovery_bridge_markers_exact_v8": true,
+        "road_and_provenance_inputs_stable": true
+      },
+      "false_count": 0,
+      "conclusion": "当前文件12/12 true，无先前 browser布尔值/缺失facility_errors 两schema false；这是现存报告的读回，未补写通过。"
+    },
+    "v9独立核验.json": {
+      "hard_gates_count": 48,
+      "true_count": 48,
+      "false_names": [],
+      "unresolved_hard_errors": [],
+      "conclusion": "当前48/48 true，未残留两schema false；汇总明确技术通过、美术候选边界。"
+    }
+  },
+  "binding_readback": {
+    "checked_binding_count": 133,
+    "mismatch_count": 0,
+    "mismatches": [],
+    "bindings": [
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "temp\\longsan-map-qa-v8\\fabric.pickle",
+        "expected_sha256": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415",
+        "actual_sha256": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "temp\\longsan-map-qa-v9\\fabric.pickle",
+        "expected_sha256": "8f35bfd1a4f83e9e0e732047858ff5bc49b600543775bc654e53808f3d1fe303",
+        "actual_sha256": "8f35bfd1a4f83e9e0e732047858ff5bc49b600543775bc654e53808f3d1fe303",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "temp\\longsan-map-qa-v9\\西岸候选落位.json",
+        "expected_sha256": "65a9da2ce0e54cd4a7278bdcdb50ed98ae53cd5f5c64fb7c29a5e28b102c57a5",
+        "actual_sha256": "65a9da2ce0e54cd4a7278bdcdb50ed98ae53cd5f5c64fb7c29a5e28b102c57a5",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8组团独立核验.json",
+        "expected_sha256": "32a156847df84d7bc1a0be65e22de3d9f5d66cf7f30f237cbb2e865781ddb465",
+        "actual_sha256": "32a156847df84d7bc1a0be65e22de3d9f5d66cf7f30f237cbb2e865781ddb465",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8独立核验.json",
+        "expected_sha256": "f8ad57acefcb3c8dd507c21abd6bc41f7fa5ce31de5eebbdc7945e051658bb61",
+        "actual_sha256": "f8ad57acefcb3c8dd507c21abd6bc41f7fa5ce31de5eebbdc7945e051658bb61",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9岸别关系审查.json",
+        "expected_sha256": "e1dfdd200482bdf77ad5b6c7be96a30c89950406adc5ab7e86969103ac68e6fe",
+        "actual_sha256": "e1dfdd200482bdf77ad5b6c7be96a30c89950406adc5ab7e86969103ac68e6fe",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9局部继承核验.py",
+        "expected_sha256": "c85b2bcf704339203cfda62c9fad9ef1375c65ece48ac38744080a2623d31361",
+        "actual_sha256": "c85b2bcf704339203cfda62c9fad9ef1375c65ece48ac38744080a2623d31361",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v8-20261012\\地理骨架.geojson",
+        "expected_sha256": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+        "actual_sha256": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v8-20261012\\地图坐标与线路.json",
+        "expected_sha256": "e09a05ff6d66b453aa6d6688884fe54ae3a246542b9ace330e5c88b40798c00a",
+        "actual_sha256": "e09a05ff6d66b453aa6d6688884fe54ae3a246542b9ace330e5c88b40798c00a",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v8-20261012\\灾后地理.geojson",
+        "expected_sha256": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+        "actual_sha256": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v8-20261012\\铁路.geojson",
+        "expected_sha256": "2c7540fd4a02eed18b9f5e90c9bf9dbafeb94f84830092f6463685b2967e2530",
+        "actual_sha256": "2c7540fd4a02eed18b9f5e90c9bf9dbafeb94f84830092f6463685b2967e2530",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\地理骨架.geojson",
+        "expected_sha256": "7833f84bc54ad6b699e8722f132d94cb1d7fbbb5da5d5fa835284b049c633265",
+        "actual_sha256": "7833f84bc54ad6b699e8722f132d94cb1d7fbbb5da5d5fa835284b049c633265",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\地图坐标与线路.json",
+        "expected_sha256": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+        "actual_sha256": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\灾后地理.geojson",
+        "expected_sha256": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+        "actual_sha256": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+        "matches": true
+      },
+      {
+        "report": "v9局部继承核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\铁路.geojson",
+        "expected_sha256": "43e78bd12389d82733d15edd91f3b56596d660c3eca307f2405b9f6c8373f8e0",
+        "actual_sha256": "43e78bd12389d82733d15edd91f3b56596d660c3eca307f2405b9f6c8373f8e0",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "temp\\longsan-map-qa-v9\\fabric.pickle",
+        "expected_sha256": "8f35bfd1a4f83e9e0e732047858ff5bc49b600543775bc654e53808f3d1fe303",
+        "actual_sha256": "8f35bfd1a4f83e9e0e732047858ff5bc49b600543775bc654e53808f3d1fe303",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "temp\\longsan-map-qa-v9\\西岸候选落位.json",
+        "expected_sha256": "65a9da2ce0e54cd4a7278bdcdb50ed98ae53cd5f5c64fb7c29a5e28b102c57a5",
+        "actual_sha256": "65a9da2ce0e54cd4a7278bdcdb50ed98ae53cd5f5c64fb7c29a5e28b102c57a5",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\地图坐标与线路.json",
+        "expected_sha256": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+        "actual_sha256": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\地理骨架.geojson",
+        "expected_sha256": "7833f84bc54ad6b699e8722f132d94cb1d7fbbb5da5d5fa835284b049c633265",
+        "actual_sha256": "7833f84bc54ad6b699e8722f132d94cb1d7fbbb5da5d5fa835284b049c633265",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\建筑.geojson",
+        "expected_sha256": "9a1c1f1ee3380fda42c8b7e479903582949b528b1bd57d6a81098b3653f43bcd",
+        "actual_sha256": "9a1c1f1ee3380fda42c8b7e479903582949b528b1bd57d6a81098b3653f43bcd",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\组团通道.geojson",
+        "expected_sha256": "f4aa064961cd33da28dab56084756c6052a23e8cf343bbc597d74889d2d8c373",
+        "actual_sha256": "f4aa064961cd33da28dab56084756c6052a23e8cf343bbc597d74889d2d8c373",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\路网.geojson",
+        "expected_sha256": "df98fb6f6b9d5f1c8f01abbf90ef9f1baaa5527419f283f88760233c40139497",
+        "actual_sha256": "df98fb6f6b9d5f1c8f01abbf90ef9f1baaa5527419f283f88760233c40139497",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\灾后地理.geojson",
+        "expected_sha256": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+        "actual_sha256": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\铁路.geojson",
+        "expected_sha256": "43e78bd12389d82733d15edd91f3b56596d660c3eca307f2405b9f6c8373f8e0",
+        "actual_sha256": "43e78bd12389d82733d15edd91f3b56596d660c3eca307f2405b9f6c8373f8e0",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-基础底图.svg",
+        "expected_sha256": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "actual_sha256": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-底图与地铁.svg",
+        "expected_sha256": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b",
+        "actual_sha256": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9设施与绘制独立核验.py",
+        "expected_sha256": "51c8e11a590ee96cdd82f15bd43abbe00c4382111ae0c422bd1c1b8a1dcaf1ca",
+        "actual_sha256": "51c8e11a590ee96cdd82f15bd43abbe00c4382111ae0c422bd1c1b8a1dcaf1ca",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9局部继承核验.py",
+        "expected_sha256": "c85b2bcf704339203cfda62c9fad9ef1375c65ece48ac38744080a2623d31361",
+        "actual_sha256": "c85b2bcf704339203cfda62c9fad9ef1375c65ece48ac38744080a2623d31361",
+        "matches": true
+      },
+      {
+        "report": "v9设施与绘制独立核验.json",
+        "field": "input_sha256",
+        "path": "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py",
+        "expected_sha256": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94",
+        "actual_sha256": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "temp\\longsan-map-qa-v8\\fabric.pickle",
+        "expected_sha256": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415",
+        "actual_sha256": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "temp\\longsan-map-qa-v9\\fabric.pickle",
+        "expected_sha256": "8f35bfd1a4f83e9e0e732047858ff5bc49b600543775bc654e53808f3d1fe303",
+        "actual_sha256": "8f35bfd1a4f83e9e0e732047858ff5bc49b600543775bc654e53808f3d1fe303",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\几何校验.json",
+        "expected_sha256": "875605ec32833977eecf9b2686a07f2dd968c425613c6cabefae3aa28c7a6db0",
+        "actual_sha256": "875605ec32833977eecf9b2686a07f2dd968c425613c6cabefae3aa28c7a6db0",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\地图坐标与线路.json",
+        "expected_sha256": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+        "actual_sha256": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\浏览器验收.json",
+        "expected_sha256": "e8478a990448cd0c8146a7cacf9a1382b2b4f8f3001876d6c2d4d9fba16fe72f",
+        "actual_sha256": "e8478a990448cd0c8146a7cacf9a1382b2b4f8f3001876d6c2d4d9fba16fe72f",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\路网.geojson",
+        "expected_sha256": "df98fb6f6b9d5f1c8f01abbf90ef9f1baaa5527419f283f88760233c40139497",
+        "actual_sha256": "df98fb6f6b9d5f1c8f01abbf90ef9f1baaa5527419f283f88760233c40139497",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\临街地块.geojson",
+        "expected_sha256": "dba0b790692676cc1aa7e885cf0a07dbcfb8e2056984865156a3368534369b19",
+        "actual_sha256": "dba0b790692676cc1aa7e885cf0a07dbcfb8e2056984865156a3368534369b19",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\街坊.geojson",
+        "expected_sha256": "a6d12d85e6bf8fb838199c271bede6f1a873b39641d60570fb045d6dac3edc27",
+        "actual_sha256": "a6d12d85e6bf8fb838199c271bede6f1a873b39641d60570fb045d6dac3edc27",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9局部继承核验.py",
+        "expected_sha256": "c85b2bcf704339203cfda62c9fad9ef1375c65ece48ac38744080a2623d31361",
+        "actual_sha256": "c85b2bcf704339203cfda62c9fad9ef1375c65ece48ac38744080a2623d31361",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9局部道路与来源核验.py",
+        "expected_sha256": "9d577bc4345472c34363986775400f62f5c721e182c99c16e7d17bd799a16e59",
+        "actual_sha256": "9d577bc4345472c34363986775400f62f5c721e182c99c16e7d17bd799a16e59",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "scripts\\generate_longsan_geographic_maps_v8.py",
+        "expected_sha256": "c274221e3e88ef57dac50e3abe632b2c8f7472dc5a4431cf5ab28a1802833ff1",
+        "actual_sha256": "c274221e3e88ef57dac50e3abe632b2c8f7472dc5a4431cf5ab28a1802833ff1",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "scripts\\generate_longsan_geographic_maps_v9.py",
+        "expected_sha256": "9743e20b1fcfa663688370aa0bb719f748dac3a7d835d1c1acd04d43541e79c0",
+        "actual_sha256": "9743e20b1fcfa663688370aa0bb719f748dac3a7d835d1c1acd04d43541e79c0",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "scripts\\longsan_collapse_v8.py",
+        "expected_sha256": "dabff8828752f0ea3dafa2c7f9d86af18de0cf2dd0b2242ac81f8493160c4327",
+        "actual_sha256": "dabff8828752f0ea3dafa2c7f9d86af18de0cf2dd0b2242ac81f8493160c4327",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "scripts\\longsan_collapse_v9.py",
+        "expected_sha256": "c205a6a735eaa75c8e558f3d9b1dc8497528ad65dfd5a9664ccfa3e5613c6115",
+        "actual_sha256": "c205a6a735eaa75c8e558f3d9b1dc8497528ad65dfd5a9664ccfa3e5613c6115",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "scripts\\longsan_west_bank_facilities_v9.py",
+        "expected_sha256": "7b7dfabdcffef6d2b60f82f0d8beb78da3be522ec338440d853af3a2bde6b118",
+        "actual_sha256": "7b7dfabdcffef6d2b60f82f0d8beb78da3be522ec338440d853af3a2bde6b118",
+        "matches": true
+      },
+      {
+        "report": "v9局部道路与来源核验.json",
+        "field": "input_sha256",
+        "path": "scripts\\longsan_planned_fabric.py",
+        "expected_sha256": "0fb13d1e278b016d2d2f4521726449b963c27b272eeac4f366a8a245ba19d537",
+        "actual_sha256": "0fb13d1e278b016d2d2f4521726449b963c27b272eeac4f366a8a245ba19d537",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-基础底图.svg",
+        "expected_sha256": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "actual_sha256": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-底图与地铁.svg",
+        "expected_sha256": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b",
+        "actual_sha256": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\地图坐标与线路.json",
+        "expected_sha256": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+        "actual_sha256": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\地理骨架.geojson",
+        "expected_sha256": "7833f84bc54ad6b699e8722f132d94cb1d7fbbb5da5d5fa835284b049c633265",
+        "actual_sha256": "7833f84bc54ad6b699e8722f132d94cb1d7fbbb5da5d5fa835284b049c633265",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\灾后地理.geojson",
+        "expected_sha256": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+        "actual_sha256": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\铁路.geojson",
+        "expected_sha256": "43e78bd12389d82733d15edd91f3b56596d660c3eca307f2405b9f6c8373f8e0",
+        "actual_sha256": "43e78bd12389d82733d15edd91f3b56596d660c3eca307f2405b9f6c8373f8e0",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\路网.geojson",
+        "expected_sha256": "df98fb6f6b9d5f1c8f01abbf90ef9f1baaa5527419f283f88760233c40139497",
+        "actual_sha256": "df98fb6f6b9d5f1c8f01abbf90ef9f1baaa5527419f283f88760233c40139497",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\建筑.geojson",
+        "expected_sha256": "9a1c1f1ee3380fda42c8b7e479903582949b528b1bd57d6a81098b3653f43bcd",
+        "actual_sha256": "9a1c1f1ee3380fda42c8b7e479903582949b528b1bd57d6a81098b3653f43bcd",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\临街地块.geojson",
+        "expected_sha256": "dba0b790692676cc1aa7e885cf0a07dbcfb8e2056984865156a3368534369b19",
+        "actual_sha256": "dba0b790692676cc1aa7e885cf0a07dbcfb8e2056984865156a3368534369b19",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\组团通道.geojson",
+        "expected_sha256": "f4aa064961cd33da28dab56084756c6052a23e8cf343bbc597d74889d2d8c373",
+        "actual_sha256": "f4aa064961cd33da28dab56084756c6052a23e8cf343bbc597d74889d2d8c373",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\街坊.geojson",
+        "expected_sha256": "a6d12d85e6bf8fb838199c271bede6f1a873b39641d60570fb045d6dac3edc27",
+        "actual_sha256": "a6d12d85e6bf8fb838199c271bede6f1a873b39641d60570fb045d6dac3edc27",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\几何校验.json",
+        "expected_sha256": "875605ec32833977eecf9b2686a07f2dd968c425613c6cabefae3aa28c7a6db0",
+        "actual_sha256": "875605ec32833977eecf9b2686a07f2dd968c425613c6cabefae3aa28c7a6db0",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\浏览器验收.json",
+        "expected_sha256": "e8478a990448cd0c8146a7cacf9a1382b2b4f8f3001876d6c2d4d9fba16fe72f",
+        "actual_sha256": "e8478a990448cd0c8146a7cacf9a1382b2b4f8f3001876d6c2d4d9fba16fe72f",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "temp\\longsan-map-qa-v8\\fabric.pickle",
+        "expected_sha256": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415",
+        "actual_sha256": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "temp\\longsan-map-qa-v9\\fabric.pickle",
+        "expected_sha256": "8f35bfd1a4f83e9e0e732047858ff5bc49b600543775bc654e53808f3d1fe303",
+        "actual_sha256": "8f35bfd1a4f83e9e0e732047858ff5bc49b600543775bc654e53808f3d1fe303",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "temp\\longsan-map-qa-v9\\西岸候选落位.json",
+        "expected_sha256": "65a9da2ce0e54cd4a7278bdcdb50ed98ae53cd5f5c64fb7c29a5e28b102c57a5",
+        "actual_sha256": "65a9da2ce0e54cd4a7278bdcdb50ed98ae53cd5f5c64fb7c29a5e28b102c57a5",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "scripts\\generate_longsan_geographic_maps_v9.py",
+        "expected_sha256": "9743e20b1fcfa663688370aa0bb719f748dac3a7d835d1c1acd04d43541e79c0",
+        "actual_sha256": "9743e20b1fcfa663688370aa0bb719f748dac3a7d835d1c1acd04d43541e79c0",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "scripts\\longsan_collapse_v9.py",
+        "expected_sha256": "c205a6a735eaa75c8e558f3d9b1dc8497528ad65dfd5a9664ccfa3e5613c6115",
+        "actual_sha256": "c205a6a735eaa75c8e558f3d9b1dc8497528ad65dfd5a9664ccfa3e5613c6115",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "scripts\\longsan_west_bank_facilities_v9.py",
+        "expected_sha256": "7b7dfabdcffef6d2b60f82f0d8beb78da3be522ec338440d853af3a2bde6b118",
+        "actual_sha256": "7b7dfabdcffef6d2b60f82f0d8beb78da3be522ec338440d853af3a2bde6b118",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "scripts\\longsan_planned_fabric.py",
+        "expected_sha256": "0fb13d1e278b016d2d2f4521726449b963c27b272eeac4f366a8a245ba19d537",
+        "actual_sha256": "0fb13d1e278b016d2d2f4521726449b963c27b272eeac4f366a8a245ba19d537",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "inputs",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9独立核验汇总.py",
+        "expected_sha256": "cd283abcb2ce22919358353276cfaf11d67d0ae108235c2eedb2efc7cc75bbc1",
+        "actual_sha256": "cd283abcb2ce22919358353276cfaf11d67d0ae108235c2eedb2efc7cc75bbc1",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "supporting_reports",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9局部继承核验.json",
+        "expected_sha256": "6cd7e066a78d1e306d0fab2a48c9b411313ff414f97a9c137839445d9f95a755",
+        "actual_sha256": "6cd7e066a78d1e306d0fab2a48c9b411313ff414f97a9c137839445d9f95a755",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "supporting_reports",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9设施与绘制独立核验.json",
+        "expected_sha256": "0c681208d9c919aac46adacb331fce09be550ea046343bde2d914a457c375821",
+        "actual_sha256": "0c681208d9c919aac46adacb331fce09be550ea046343bde2d914a457c375821",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "supporting_reports",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9局部道路与来源核验.json",
+        "expected_sha256": "1307406bef03b07dba6b9574ce9b9a65eacf89ea45309552cd740510dab61c68",
+        "actual_sha256": "1307406bef03b07dba6b9574ce9b9a65eacf89ea45309552cd740510dab61c68",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "supporting_reports",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9迁建目视核对.json",
+        "expected_sha256": "cb37c8e1042f937b7e15922cf1df703e0a24fa536b9506a8e63ec6646f76a20f",
+        "actual_sha256": "cb37c8e1042f937b7e15922cf1df703e0a24fa536b9506a8e63ec6646f76a20f",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "supporting_reports",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9岸别关系审查.json",
+        "expected_sha256": "e1dfdd200482bdf77ad5b6c7be96a30c89950406adc5ab7e86969103ac68e6fe",
+        "actual_sha256": "e1dfdd200482bdf77ad5b6c7be96a30c89950406adc5ab7e86969103ac68e6fe",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "supporting_reports",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8组团独立核验.json",
+        "expected_sha256": "32a156847df84d7bc1a0be65e22de3d9f5d66cf7f30f237cbb2e865781ddb465",
+        "actual_sha256": "32a156847df84d7bc1a0be65e22de3d9f5d66cf7f30f237cbb2e865781ddb465",
+        "matches": true
+      },
+      {
+        "report": "v9独立核验.json",
+        "field": "supporting_reports",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v8独立核验.json",
+        "expected_sha256": "f8ad57acefcb3c8dd507c21abd6bc41f7fa5ce31de5eebbdc7945e051658bb61",
+        "actual_sha256": "f8ad57acefcb3c8dd507c21abd6bc41f7fa5ce31de5eebbdc7945e051658bb61",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "input_svg_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-基础底图.svg",
+        "expected_sha256": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "actual_sha256": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "input_svg_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-底图与地铁.svg",
+        "expected_sha256": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b",
+        "actual_sha256": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "input_data_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\地图坐标与线路.json",
+        "expected_sha256": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+        "actual_sha256": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "input_data_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\岸别纠偏与跨江区间.json",
+        "expected_sha256": "d10b923f73d32e9d3b86708d262403e61678d441a2e0176533f6379445496434",
+        "actual_sha256": "d10b923f73d32e9d3b86708d262403e61678d441a2e0176533f6379445496434",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "input_data_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\地理骨架.geojson",
+        "expected_sha256": "7833f84bc54ad6b699e8722f132d94cb1d7fbbb5da5d5fa835284b049c633265",
+        "actual_sha256": "7833f84bc54ad6b699e8722f132d94cb1d7fbbb5da5d5fa835284b049c633265",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "input_data_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\迁建落位设计.json",
+        "expected_sha256": "65a9da2ce0e54cd4a7278bdcdb50ed98ae53cd5f5c64fb7c29a5e28b102c57a5",
+        "actual_sha256": "65a9da2ce0e54cd4a7278bdcdb50ed98ae53cd5f5c64fb7c29a5e28b102c57a5",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-全图.png",
+        "expected_sha256": "d901759f6a5ff9cccfc0a21b79fc0d8256bc7930747e57c7164d4d07f219de38",
+        "actual_sha256": "d901759f6a5ff9cccfc0a21b79fc0d8256bc7930747e57c7164d4d07f219de38",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-地铁全图.png",
+        "expected_sha256": "4e389009a3c1e64c6314affc8c87c3de96fa7803c4530aa2bea5ec342202a9b0",
+        "actual_sha256": "4e389009a3c1e64c6314affc8c87c3de96fa7803c4530aa2bea5ec342202a9b0",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\财经新址-新.png",
+        "expected_sha256": "705c413e736ef79536029d353c8c9c724c9c8fad18b2e6d048bd6192eeaa2194",
+        "actual_sha256": "705c413e736ef79536029d353c8c9c724c9c8fad18b2e6d048bd6192eeaa2194",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\奥体新址-新.png",
+        "expected_sha256": "d96afa735ea3830aab71924f54a676e8ff3f1a50bb0ad94754572ba5cd88e791",
+        "actual_sha256": "d96afa735ea3830aab71924f54a676e8ff3f1a50bb0ad94754572ba5cd88e791",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\财经大学-地铁-新.png",
+        "expected_sha256": "cd3305ced0cf856aa7bd2aed1e6ecff2de44e9c111f900c8722934f7aa747ab9",
+        "actual_sha256": "cd3305ced0cf856aa7bd2aed1e6ecff2de44e9c111f900c8722934f7aa747ab9",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\奥体中心-地铁-新.png",
+        "expected_sha256": "77b752836d5e12e648e00e3717fe9f01428c0dc9273671a57da7efc65ff92bac",
+        "actual_sha256": "77b752836d5e12e648e00e3717fe9f01428c0dc9273671a57da7efc65ff92bac",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\岛上旧址-新.png",
+        "expected_sha256": "cc447d32c87eb46da1d0809f9cbe3af003d0d801cd1042d656850c48e9c03039",
+        "actual_sha256": "cc447d32c87eb46da1d0809f9cbe3af003d0d801cd1042d656850c48e9c03039",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\西岸五站-新.png",
+        "expected_sha256": "b4fdfad6b1173de66ab7826c0c759afceef4bb869a5ac7c1b8a3e735900b9c9d",
+        "actual_sha256": "b4fdfad6b1173de66ab7826c0c759afceef4bb869a5ac7c1b8a3e735900b9c9d",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\西岸五站-地铁-新.png",
+        "expected_sha256": "d7f60954c96402375949140c695e3fc2ea27493e13fb0059abe38398c3ec8a5d",
+        "actual_sha256": "d7f60954c96402375949140c695e3fc2ea27493e13fb0059abe38398c3ec8a5d",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\燧明园东岸-新.png",
+        "expected_sha256": "510822258319910cdbae74d1477e581a56f8d154b60aebf1746a0cc8a0eaf4d3",
+        "actual_sha256": "510822258319910cdbae74d1477e581a56f8d154b60aebf1746a0cc8a0eaf4d3",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\燧明园-地铁-新.png",
+        "expected_sha256": "29726a89f47fffc9ef1a252e7cd98336c6114b5d7f49ac950c792cccdf3f968e",
+        "actual_sha256": "29726a89f47fffc9ef1a252e7cd98336c6114b5d7f49ac950c792cccdf3f968e",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\跨江3与6号线-地铁-新.png",
+        "expected_sha256": "7d9bc50bab87cf1c6dce6264b6fc70cb39f88ccd51989307379e0ed5f6449b10",
+        "actual_sha256": "7d9bc50bab87cf1c6dce6264b6fc70cb39f88ccd51989307379e0ed5f6449b10",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\深中-新.png",
+        "expected_sha256": "6b623807cec018f095101ac1a9e20b4efb2ba80fb25cf4fd3d9061daccf339ea",
+        "actual_sha256": "6b623807cec018f095101ac1a9e20b4efb2ba80fb25cf4fd3d9061daccf339ea",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\故城-新.png",
+        "expected_sha256": "62ac876de1cb4ea9028aed16768cd80af714c0e2c672ae4c0d77c785a9da7ea6",
+        "actual_sha256": "62ac876de1cb4ea9028aed16768cd80af714c0e2c672ae4c0d77c785a9da7ea6",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\楚岸路口-新.png",
+        "expected_sha256": "30dca780d241c61e96f8b24b65a3189b51b96e32c94d3655cdfec9f7e4a7ec16",
+        "actual_sha256": "30dca780d241c61e96f8b24b65a3189b51b96e32c94d3655cdfec9f7e4a7ec16",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\深中路口-新.png",
+        "expected_sha256": "e09661cd3cf787f20cea12bc208e04913ef04bb6a333d26f02b67a72121af47b",
+        "actual_sha256": "e09661cd3cf787f20cea12bc208e04913ef04bb6a333d26f02b67a72121af47b",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\港货农机下穿-新.png",
+        "expected_sha256": "4e0cefd588d7a1536cd649c60b8094e35f5e1e3eb409b8bd6a3017de25ff53ee",
+        "actual_sha256": "4e0cefd588d7a1536cd649c60b8094e35f5e1e3eb409b8bd6a3017de25ff53ee",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\恢复环路支流桥-新.png",
+        "expected_sha256": "4074a8abf8af2ee6646e58b92683f04f77887b7b6e3b72dbef9448413427d5c9",
+        "actual_sha256": "4074a8abf8af2ee6646e58b92683f04f77887b7b6e3b72dbef9448413427d5c9",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\停工站与塌陷-地铁-新.png",
+        "expected_sha256": "02c8eca93e50709995d56e59a2eeb8b0a10fc1433eb4401b38c90afa38d0d79f",
+        "actual_sha256": "02c8eca93e50709995d56e59a2eeb8b0a10fc1433eb4401b38c90afa38d0d79f",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\扩界全区-地铁-新.png",
+        "expected_sha256": "e20919f26ffc45ec7a7e0dea6c4ac08507355f1b86565800ed29361d571e114c",
+        "actual_sha256": "e20919f26ffc45ec7a7e0dea6c4ac08507355f1b86565800ed29361d571e114c",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "geometry_report_cross_references",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9岸别关系审查.json",
+        "expected_sha256": "e1dfdd200482bdf77ad5b6c7be96a30c89950406adc5ab7e86969103ac68e6fe",
+        "actual_sha256": "e1dfdd200482bdf77ad5b6c7be96a30c89950406adc5ab7e86969103ac68e6fe",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "geometry_report_cross_references",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9局部道路与来源核验.json",
+        "expected_sha256": "1307406bef03b07dba6b9574ce9b9a65eacf89ea45309552cd740510dab61c68",
+        "actual_sha256": "1307406bef03b07dba6b9574ce9b9a65eacf89ea45309552cd740510dab61c68",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "geometry_report_cross_references",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9局部继承核验.json",
+        "expected_sha256": "6cd7e066a78d1e306d0fab2a48c9b411313ff414f97a9c137839445d9f95a755",
+        "actual_sha256": "6cd7e066a78d1e306d0fab2a48c9b411313ff414f97a9c137839445d9f95a755",
+        "matches": true
+      },
+      {
+        "report": "v9最终目视审查.json",
+        "field": "geometry_report_cross_references",
+        "path": "maintenance\\reports\\longsan-map-audit-20261012\\v9设施与绘制独立核验.json",
+        "expected_sha256": "0c681208d9c919aac46adacb331fce09be550ea046343bde2d914a457c375821",
+        "actual_sha256": "0c681208d9c919aac46adacb331fce09be550ea046343bde2d914a457c375821",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "src\\地铁图.svg",
+        "expected_sha256": "41fa82d6cf408827f663b636ed056f39684d8cbb7c631b39f49878ed3a095cda",
+        "actual_sha256": "41fa82d6cf408827f663b636ed056f39684d8cbb7c631b39f49878ed3a095cda",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\RMG\\终稿.json",
+        "expected_sha256": "f5d2cf43a63b04542940580c0873d0900f38110f1b1f442505d1a395ab1f7ccd",
+        "actual_sha256": "f5d2cf43a63b04542940580c0873d0900f38110f1b1f442505d1a395ab1f7ccd",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\RMP_1778746875450.png",
+        "expected_sha256": "dd423d8a84746d4011cbe975ecf7d0f1b6fe8ccfb67cfa9e24f5700f2f735070",
+        "actual_sha256": "dd423d8a84746d4011cbe975ecf7d0f1b6fe8ccfb67cfa9e24f5700f2f735070",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\地铁图.webp",
+        "expected_sha256": "5dde089ed789b6894cd042e408f52be9f6e427d12366f8aa2510a490de0c57da",
+        "actual_sha256": "5dde089ed789b6894cd042e408f52be9f6e427d12366f8aa2510a490de0c57da",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "campaign\\world\\15-城区与交通网络.md",
+        "expected_sha256": "f857bda308a893f598be4cd78390621f844f807780b5670fda824a811c07121c",
+        "actual_sha256": "f857bda308a893f598be4cd78390621f844f807780b5670fda824a811c07121c",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "campaign\\world\\14-企业名录与商业生态.md",
+        "expected_sha256": "7c99a28562d7298b814899d41ee6cade76e0f9d6c59241642af9f19698b53470",
+        "actual_sha256": "7c99a28562d7298b814899d41ee6cade76e0f9d6c59241642af9f19698b53470",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "scripts\\generate_longsan_geographic_maps_v2.py",
+        "expected_sha256": "5129a5ba04625d4432aa594ec8874236f9ab20cadde34539b9552006ba0be2aa",
+        "actual_sha256": "5129a5ba04625d4432aa594ec8874236f9ab20cadde34539b9552006ba0be2aa",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v4-20261012\\地理骨架.geojson",
+        "expected_sha256": "3c0f9ddcb78bba47c3c3d27414f997bbf26a5ddf35764fbb806a16b5bc609ab1",
+        "actual_sha256": "3c0f9ddcb78bba47c3c3d27414f997bbf26a5ddf35764fbb806a16b5bc609ab1",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v8-20261012\\地理骨架.geojson",
+        "expected_sha256": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+        "actual_sha256": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v8-20261012\\地图坐标与线路.json",
+        "expected_sha256": "e09a05ff6d66b453aa6d6688884fe54ae3a246542b9ace330e5c88b40798c00a",
+        "actual_sha256": "e09a05ff6d66b453aa6d6688884fe54ae3a246542b9ace330e5c88b40798c00a",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-基础底图.svg",
+        "expected_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "actual_sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-底图与地铁.svg",
+        "expected_sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+        "actual_sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-全图.png",
+        "expected_sha256": "dea7d45027a0aad5487f22ce5679a04383c084162faacd2def45910b2ef772f8",
+        "actual_sha256": "dea7d45027a0aad5487f22ce5679a04383c084162faacd2def45910b2ef772f8",
+        "matches": true
+      },
+      {
+        "report": "v9岸别关系审查.json",
+        "field": "input_sha256",
+        "path": "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-地铁全图.png",
+        "expected_sha256": "ff53ea7d08c257acc895bad089bc53a21414fd013f6c0e041d0d11213da87eb2",
+        "actual_sha256": "ff53ea7d08c257acc895bad089bc53a21414fd013f6c0e041d0d11213da87eb2",
+        "matches": true
+      },
+      {
+        "report": "v9迁建目视核对.json",
+        "field": "input_svg_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-基础底图.svg",
+        "expected_sha256": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "actual_sha256": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "matches": true
+      },
+      {
+        "report": "v9迁建目视核对.json",
+        "field": "input_svg_sha256",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-底图与地铁.svg",
+        "expected_sha256": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b",
+        "actual_sha256": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b",
+        "matches": true
+      },
+      {
+        "report": "v9迁建目视核对.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\财经新址-新.png",
+        "expected_sha256": "705c413e736ef79536029d353c8c9c724c9c8fad18b2e6d048bd6192eeaa2194",
+        "actual_sha256": "705c413e736ef79536029d353c8c9c724c9c8fad18b2e6d048bd6192eeaa2194",
+        "matches": true
+      },
+      {
+        "report": "v9迁建目视核对.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\奥体新址-新.png",
+        "expected_sha256": "d96afa735ea3830aab71924f54a676e8ff3f1a50bb0ad94754572ba5cd88e791",
+        "actual_sha256": "d96afa735ea3830aab71924f54a676e8ff3f1a50bb0ad94754572ba5cd88e791",
+        "matches": true
+      },
+      {
+        "report": "v9迁建目视核对.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\西岸五站-地铁-新.png",
+        "expected_sha256": "d7f60954c96402375949140c695e3fc2ea27493e13fb0059abe38398c3ec8a5d",
+        "actual_sha256": "d7f60954c96402375949140c695e3fc2ea27493e13fb0059abe38398c3ec8a5d",
+        "matches": true
+      },
+      {
+        "report": "v9迁建目视核对.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\跨江3与6号线-地铁-新.png",
+        "expected_sha256": "7d9bc50bab87cf1c6dce6264b6fc70cb39f88ccd51989307379e0ed5f6449b10",
+        "actual_sha256": "7d9bc50bab87cf1c6dce6264b6fc70cb39f88ccd51989307379e0ed5f6449b10",
+        "matches": true
+      },
+      {
+        "report": "v9迁建目视核对.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\燧明园-地铁-新.png",
+        "expected_sha256": "29726a89f47fffc9ef1a252e7cd98336c6114b5d7f49ac950c792cccdf3f968e",
+        "actual_sha256": "29726a89f47fffc9ef1a252e7cd98336c6114b5d7f49ac950c792cccdf3f968e",
+        "matches": true
+      },
+      {
+        "report": "v9迁建目视核对.json",
+        "field": "actual image",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\近景\\岛上旧址-新.png",
+        "expected_sha256": "cc447d32c87eb46da1d0809f9cbe3af003d0d801cd1042d656850c48e9c03039",
+        "actual_sha256": "cc447d32c87eb46da1d0809f9cbe3af003d0d801cd1042d656850c48e9c03039",
+        "matches": true
+      },
+      {
+        "report": "浏览器验收.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-基础底图.svg",
+        "expected_sha256": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "actual_sha256": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "matches": true
+      },
+      {
+        "report": "浏览器验收.json",
+        "field": "inputs",
+        "path": "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-底图与地铁.svg",
+        "expected_sha256": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b",
+        "actual_sha256": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b",
+        "matches": true
+      },
+      {
+        "report": "几何校验.json",
+        "field": "implementation_source_sha256",
+        "path": "scripts\\generate_longsan_geographic_maps_v9.py",
+        "expected_sha256": "9743e20b1fcfa663688370aa0bb719f748dac3a7d835d1c1acd04d43541e79c0",
+        "actual_sha256": "9743e20b1fcfa663688370aa0bb719f748dac3a7d835d1c1acd04d43541e79c0",
+        "matches": true
+      },
+      {
+        "report": "几何校验.json",
+        "field": "implementation_source_sha256",
+        "path": "scripts\\longsan_planned_fabric.py",
+        "expected_sha256": "0fb13d1e278b016d2d2f4521726449b963c27b272eeac4f366a8a245ba19d537",
+        "actual_sha256": "0fb13d1e278b016d2d2f4521726449b963c27b272eeac4f366a8a245ba19d537",
+        "matches": true
+      },
+      {
+        "report": "几何校验.json",
+        "field": "implementation_source_sha256",
+        "path": "scripts\\longsan_district_fabric.py",
+        "expected_sha256": "4359bc1f00d9d3f971eac84a2bb328ff2c0d01ef6e24248fcecf6f6c1a04af07",
+        "actual_sha256": "4359bc1f00d9d3f971eac84a2bb328ff2c0d01ef6e24248fcecf6f6c1a04af07",
+        "matches": true
+      },
+      {
+        "report": "几何校验.json",
+        "field": "implementation_source_sha256",
+        "path": "scripts\\longsan_network_growth.py",
+        "expected_sha256": "e6601de6a8cfbf1d5ad5889b95af8a93e524ee6cc7e2ebb8dcab2977e7bbb932",
+        "actual_sha256": "e6601de6a8cfbf1d5ad5889b95af8a93e524ee6cc7e2ebb8dcab2977e7bbb932",
+        "matches": true
+      },
+      {
+        "report": "几何校验.json",
+        "field": "implementation_source_sha256",
+        "path": "scripts\\longsan_collapse_v9.py",
+        "expected_sha256": "c205a6a735eaa75c8e558f3d9b1dc8497528ad65dfd5a9664ccfa3e5613c6115",
+        "actual_sha256": "c205a6a735eaa75c8e558f3d9b1dc8497528ad65dfd5a9664ccfa3e5613c6115",
+        "matches": true
+      },
+      {
+        "report": "几何校验.json",
+        "field": "implementation_source_sha256",
+        "path": "scripts\\longsan_west_bank_facilities_v9.py",
+        "expected_sha256": "7b7dfabdcffef6d2b60f82f0d8beb78da3be522ec338440d853af3a2bde6b118",
+        "actual_sha256": "7b7dfabdcffef6d2b60f82f0d8beb78da3be522ec338440d853af3a2bde6b118",
+        "matches": true
+      }
+    ]
+  },
+  "generator_geometry_report": {
+    "path": "assets\\maps\\longsan-geographic-v9-20261012\\几何校验.json",
+    "sha256": "875605ec32833977eecf9b2686a07f2dd968c425613c6cabefae3aa28c7a6db0",
+    "version": "v9",
+    "reported_error_fields": {
+      "building_water_errors": [],
+      "building_transport_errors": [],
+      "building_overlap_errors": [],
+      "local_street_rail_reservation_errors": [],
+      "major_road_endpoints_in_water": [],
+      "private_access_barrier_errors": [],
+      "facility_rail_crossing_errors": [],
+      "active_roof_security_errors": []
+    },
+    "all_present_reported_error_fields_empty": true,
+    "boundary": "这是生成器已有全城检查记录的读回；本次没有重新做全城几何检查。"
+  },
+  "browser_report": {
+    "path": "assets\\maps\\longsan-geographic-v9-20261012\\浏览器验收.json",
+    "sha256": "e8478a990448cd0c8146a7cacf9a1382b2b4f8f3001876d6c2d4d9fba16fe72f",
+    "bytes": 11034,
+    "mtime_local": "2026-10-12T22:16:02.291165",
+    "passed": true,
+    "test_count": 91,
+    "all_tests_passed": true,
+    "errors": []
+  },
+  "technical_progress": {
+    "station_positions_changed": 6,
+    "original_diagram_bank_checks": 66,
+    "positions_exact_retained": 60,
+    "changed_metric_intervals": 13,
+    "exact_retained_metric_intervals": 67,
+    "original_route_order_and_19_interchanges_preserved": true,
+    "complete_facility_areas_km2": {
+      "财经政法大学": 0.4,
+      "奥体中心": 0.432
+    },
+    "full_facility_roof_records": {
+      "财经政法大学": 11,
+      "奥体中心": 3
+    },
+    "off_carriageway_station_plazas": 6,
+    "owner_counts": {
+      "prior_owners": 9898,
+      "current_owners": 9841,
+      "exact_inherited_owners": 9840,
+      "fresh_changed_owners": 1,
+      "added_owners": 0,
+      "whole_removed_owners": 57,
+      "public_components_20mm": 1
+    },
+    "public_primitive_graph_20mm_components": 1,
+    "major_roads_exact_retained": 395,
+    "local_roads_exact_retained": 5181,
+    "local_roads_clipped_at_two_new_sites": 15,
+    "new_public_perimeter_streets": 2,
+    "current_blocks": 12218,
+    "retained_original_blocks_exact": 12186,
+    "browser_checks_passed": 91
+  },
+  "inheritance_boundary": {
+    "private_owner_graph": "9840 owners retain all lots/roofs/paths/spaces/details WKB plus all attributes exactly, and each actual entrance independently contacts current public roads within20mm; P2812 has only block_id changes and actual fresh graph/facade checks. 57 full owners were removed.",
+    "geography_and_disaster": "Actual water/island feature geometry+properties exact, disaster GeoJSON byte-identical. Actual selected SVG water/disaster/rail/bridge paths and attributes ordered-exact compared with frozen v8.",
+    "railways": "Rail GeoJSON geometry and every non-basis property exact. Four basis strings record v9 instead of v8, so the file SHA is deliberately different; no rail physical geometry was revised.",
+    "whole_city_roof_checks": "Root reran actual all-city geometric checks, with all eight error arrays empty. Independent new facility physical roof/road/path collisions and ownership checked fresh.",
+    "art": "Six actual local images reviewed here. Complete final art acceptance is checked separately by v9目视审查.json/finalizer; technical gates do not declare art complete or user accepted."
+  },
+  "visual_status": {
+    "status": "candidate_reviewable",
+    "review_status": "candidate_reviewable_with_remaining_art_issues",
+    "status_boundary": {
+      "candidate_available_for_review": true,
+      "art_complete": false,
+      "user_adopted": false,
+      "prototype_used_as_final_evidence": false,
+      "full_network_engineering_certified_by_this_visual_review": false,
+      "setting_text_fully_reconciled": false
+    },
+    "unresolved_must_correct": [],
+    "actual_view_count": 20,
+    "scope": {
+      "actual_images_viewed": 20,
+      "full_maps_viewed": 2,
+      "new_near_images_viewed": 18,
+      "method": "实际view_image读取冻结v9 2全图及18张新近景；独立从实际SVG回读站circle/迁建设施屋顶/标签；用已逐站实际读原图的66站truth表核岸别。物理通道和球场尺度另引用同一冻结SVG的独立几何审。",
+      "unrelated_regions": "继承区域比例抽查深中、故城、两道路节点、塌陷和铁路桥下穿。没有把全部41张近景均视为已读。"
+    },
+    "not_viewed_near_images": [
+      "近景/东侧恢复廊道-新.png",
+      "近景/东站-新.png",
+      "近景/两座在建站塌陷区-新.png",
+      "近景/北向枢纽-新.png",
+      "近景/北岭-新.png",
+      "近景/北苑路口-新.png",
+      "近景/南港立交-新.png",
+      "近景/城市立交-新.png",
+      "近景/城西边缘-新.png",
+      "近景/塌陷全区-新.png",
+      "近景/废墟与断线-新.png",
+      "近景/文星-新.png",
+      "近景/文星主次路口-新.png",
+      "近景/文星次干路口-新.png",
+      "近景/普速绕行-新.png",
+      "近景/望津-新.png",
+      "近景/楚岸-新.png",
+      "近景/楚岸街坊-新.png",
+      "近景/火车站-新.png",
+      "近景/西城学府立交-新.png",
+      "近景/西管制口-新.png",
+      "近景/铁山-新.png",
+      "近景/龙门吊路口-新.png"
+    ],
+    "open_findings": [
+      {
+        "id": "V9-ART-01",
+        "priority": "P2",
+        "status": "open_followup",
+        "must_correct_this_iteration": false,
+        "title": "地铁细图的固定SVG文字在放大后遮蔽设施",
+        "evidence": [
+          "近景/财经大学-地铁-新.png",
+          "近景/奥体中心-地铁-新.png"
+        ],
+        "observation": "在约1.3–1.6km近景中，财经大学/奥体中心的站名和描边覆盖大部分校园或场馆，局部图边也会截断文字。基础近景能完整审阅设施，底图物理屋顶并未因此改变。",
+        "next_step": "后续采用随屏幕尺度调整的站名/线路符号，或提供近景隐藏地铁标注的开关。不得把地下线位经过设施投影解释为地面道路穿球场。"
+      },
+      {
+        "id": "V9-ART-02",
+        "priority": "P3",
+        "status": "open_followup",
+        "must_correct_this_iteration": false,
+        "title": "校园和场馆总平面仍较简略",
+        "evidence": [
+          "近景/财经新址-新.png",
+          "近景/奥体新址-新.png"
+        ],
+        "observation": "校园6座教学庭院同形、轴线对称；奥体大片绿地和两个辅馆为基础几何，停车、落客、服务入口及细部景观尚未表达。现图可以识别完整校园/体育中心，不作为设施运营或工程总平面完成证明。",
+        "next_step": "进入人工POI阶段后按具体功能补充细节，保留院区与实际道路的接驳。"
+      },
+      {
+        "id": "V9-ART-03",
+        "priority": "P3",
+        "status": "open_followup",
+        "must_correct_this_iteration": false,
+        "title": "继承城区仍有成排院落和较均匀的密度纹理",
+        "evidence": [
+          "近景/深中-新.png",
+          "近景/故城-新.png",
+          "近景/西岸五站-新.png"
+        ],
+        "observation": "深中1–3塔和L/条形屋型保持；故城街墙/深宅混合保持，但同类条楼、矩形公共路面和院落仍多次出现。没有恢复到首轮四塔方底/全闭环模板，也不能宣称生成痕迹已经消失。",
+        "next_step": "后续以中心节点、沿街功能、地块历史和人工特殊建筑再打散。"
+      },
+      {
+        "id": "V9-ART-04",
+        "priority": "P3",
+        "status": "open_followup",
+        "must_correct_this_iteration": false,
+        "title": "部分交点仍有极淡的圆形重绘接缝",
+        "evidence": [
+          "近景/楚岸路口-新.png",
+          "近景/深中路口-新.png"
+        ],
+        "observation": "放大350m节点可见同色交点补绘盘的细接缝；黄路面连续，未见原白楔或白色封闭端帽重新阻断路口。",
+        "next_step": "后续统一交点矢量布尔轮廓或抗锯齿，继续维持真实道路中心线。"
+      },
+      {
+        "id": "V9-TEXT-01",
+        "priority": "P3",
+        "status": "open_setting_reconciliation",
+        "must_correct_this_iteration": false,
+        "title": "原设定的行政归属与园区服务文字仍待统一",
+        "evidence": [
+          "岸别纠偏与跨江区间.json",
+          "原图66站岸别审查.json"
+        ],
+        "observation": "本轮按用户决定使用原图岸别。深中新区整区岛上、五西岸站归深中及L1燧明园对应岛上科技园的旧文字仍有冲突；冻结输出已披露。FR云梦科技园继续位于岛上燧明科技园南端，不将整个园区自动搬到东岸。",
+        "next_step": "另外编辑设定稿行政范围及两站服务关系，避免未经决定创建跨江双园区。"
+      }
+    ]
+  },
+  "outdated_or_incomplete_delivery_metadata": [
+    {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\修改计划.json",
+      "field": "verification_status",
+      "current_value": "等待独立最终图核查",
+      "assessment": "旧进度字样未更新；独审/目视报告后来已完成。没有改写这个文件。"
+    },
+    {
+      "path": "assets\\maps\\longsan-geographic-v9-20261012\\README.md",
+      "claim": "文件校验记录与ZIP可供离线移交",
+      "assessment": "当前目录没有v9 ZIP、文件校验.json或独立复核.json。README 的此处交付措辞领先于真实产物，不能视为封包完成。"
+    }
+  ],
+  "packaging_status": {
+    "existing_v9_package_or_finalizer_artifacts": [],
+    "v9_final_map_package_observed": false,
+    "handoff_work_package": "由root另行制作；本读回文件只是待收入的交接材料。",
+    "no_text_final_map": "未完成；两冻结SVG仍含102/180个text元素。"
+  },
+  "continuation_priorities": [
+    {
+      "priority": "P0",
+      "task": "在派生工作稿完成无文字标注最终SVG",
+      "details": "移除可见城区/道路/水系/POI/站名/线路编号/图例等文字；若仍交付地铁版，两版均无文字。保留data属性、站序、GeoJSON与独立标注参考层供后续编辑，不能把当前带文字SVG冒称最终无标注图。"
+    },
+    {
+      "priority": "P1",
+      "task": "保留已验地理交通和岸别，局部打磨城区与设施",
+      "details": "保持66站原图岸别、6迁建坐标、13调整/67保留区间；保持江形/洲形、两停工站被塌陷包住、恢复铁路和支流桥。395主路与9840完全继承owner不应因全城再生成被无端重排。"
+    },
+    {
+      "priority": "P1",
+      "task": "手工补充设施功能与不同城区的密度/形态变化",
+      "details": "大学/奥体仍概念总平面，补停车、落客、服务门、景观；中心商业、旧城、租界、高新及城郊按真实路网和功能渐变，打散重复条楼/院落。POI功能用建筑与图形表达，不在最终地图加文字。"
+    },
+    {
+      "priority": "P2",
+      "task": "修淡交点拼接缝并完成新无文字版实际图验收",
+      "details": "保留真实连通节点与公共/私有路径归属；修改后冻结新SVG哈希，重新拍无文字全图/重点近景，说明哪些几何证据仍可继承、哪些已失效。"
+    },
+    {
+      "priority": "P2",
+      "task": "在图稿之外处理设定文字冲突",
+      "details": "旧稿深中行政归属及东岸燧明园/岛上科技园服务关系仍未统一；不能自行迁整个科技园或改canonical正文。"
+    }
+  ],
+  "pending_checks": [
+    "无文字SVG 尚未导出与实际目视核验。",
+    "最终美术仅candidate_reviewable，art_complete=false、user_adopted=false；仍有5项后续问题。",
+    "完整v9地图最终封包/ZIP校验未观察到；新工作包应独立列可用源及基线哈希。",
+    "艺术报告只实际读2全图+18近景，不把所有41新近景视为已目视通过。"
+  ],
+  "read_only_preservation_check": {
+    "inspected_prior_report_hashes_before": {
+      "maintenance\\reports\\longsan-map-audit-20261012\\v9局部继承核验.json": "6cd7e066a78d1e306d0fab2a48c9b411313ff414f97a9c137839445d9f95a755",
+      "maintenance\\reports\\longsan-map-audit-20261012\\v9设施与绘制独立核验.json": "0c681208d9c919aac46adacb331fce09be550ea046343bde2d914a457c375821",
+      "maintenance\\reports\\longsan-map-audit-20261012\\v9局部道路与来源核验.json": "1307406bef03b07dba6b9574ce9b9a65eacf89ea45309552cd740510dab61c68",
+      "maintenance\\reports\\longsan-map-audit-20261012\\v9独立核验.json": "f2e9160a2cf6252c2a8cd7258da449132bbe55910fcf5feb2bb3a2c46938b93c",
+      "maintenance\\reports\\longsan-map-audit-20261012\\v9最终目视审查.json": "0a6de08bb37368db43e1f8e760d2b577efe3965781818308f1d24b8a7d999c58",
+      "maintenance\\reports\\longsan-map-audit-20261012\\v9岸别关系审查.json": "e1dfdd200482bdf77ad5b6c7be96a30c89950406adc5ab7e86969103ac68e6fe",
+      "maintenance\\reports\\longsan-map-audit-20261012\\v9迁建目视核对.json": "cb37c8e1042f937b7e15922cf1df703e0a24fa536b9506a8e63ec6646f76a20f",
+      "assets\\maps\\longsan-geographic-v9-20261012\\几何校验.json": "875605ec32833977eecf9b2686a07f2dd968c425613c6cabefae3aa28c7a6db0",
+      "assets\\maps\\longsan-geographic-v9-20261012\\浏览器验收.json": "e8478a990448cd0c8146a7cacf9a1382b2b4f8f3001876d6c2d4d9fba16fe72f",
+      "assets\\maps\\longsan-geographic-v9-20261012\\地图坐标与线路.json": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+      "assets\\maps\\longsan-geographic-v9-20261012\\修改计划.json": "8435db7ffef183490164b9fb033880bf62f9ccc04b3d38411060e144e90e1347",
+      "assets\\maps\\longsan-geographic-v9-20261012\\README.md": "2fe3ff84f1e6d84f17299107c5fd0c930c62e32c91ba273f62514d6e8e2afc13"
+    },
+    "prior_files_rewritten": false
+  }
+}

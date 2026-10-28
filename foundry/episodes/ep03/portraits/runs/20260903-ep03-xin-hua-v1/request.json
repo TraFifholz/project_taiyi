@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260903-ep03-xin-hua-v1",
+    "characterId": "EP03-XIN-HUA",
+    "characterName": "辛桦",
+    "actorId": "57cb77448d90157a",
+    "designStatus": "provisional",
+    "designAssumptions": [
+      "短棕发、棕眼、利落结实的成年人形象，带克制的自信笑意。",
+      "深绿飞行夹克、灰色高领内搭、黑工装裤、半指手套与普通耳机，手提摩托头盔。"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-09-03T15:32:20.521Z",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 1930665818,
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, watermark, signature, character name, english text, chinese text, logo, emblem, badge, text focus, hologram, heads-up display, glowing, aura, light particles, child, school uniform, weapon, gun, cleavage, midriff",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "highres, 1girl, solo, mature female, short hair, brown hair, brown eyes, swept bangs, hair behind ear, green jacket, bomber jacket, high collar, grey shirt, long sleeves, zipper, pocket, black pants, cargo pants, belt, utility belt, pouch, fingerless gloves, black gloves, earpiece, boots, holding, helmet, motorcycle helmet, hand on own hip, smirk, closed mouth, looking at viewer, standing, transparent background, shadow, flat color. A practical thirty-year-old Chinese woman street crew leader in a dark forest-green bomber jacket and a fully covered grey high-collar shirt rests one hand on her hip and holds a plain motorcycle helmet beside her thigh with the other hand, shown from head to mid-thigh under soft even frontal studio light.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, watermark, signature, character name, english text, chinese text, logo, emblem, badge, text focus, hologram, heads-up display, glowing, aura, light particles, child, school uniform, weapon, gun, cleavage, midriff",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

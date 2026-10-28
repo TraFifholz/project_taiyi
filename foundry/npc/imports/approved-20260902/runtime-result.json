@@ -1,0 +1,60 @@
+{
+  "previous": {
+    "actor": [
+      {
+        "id": "2YEzICTcbBxgNpxY",
+        "patch": {
+          "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp",
+          "prototypeToken.texture.src": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp",
+          "flags.world.taiyiNpc": {
+            "id": "LS-NPC-006",
+            "sourceSha256": "dc608b1329d7ee9a7ceecfd1d717b0ebedf5a6a154a1420063aa247e127a670a",
+            "approvedRun": "20260902-ls-npc-006-pink-v4",
+            "placeholder": true
+          },
+          "_id": "2YEzICTcbBxgNpxY"
+        }
+      }
+    ],
+    "relationships": [
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "relationshipId": "rel_UjSN96yQwxk1iqth",
+        "targetUuid": "Actor.cdESIH9b3XCTsX5K",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902.webp",
+          "listImage": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp",
+          "mapThumbnail": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp"
+        }
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "relationshipId": "rel_2jf9AD5tYtg9tOsT",
+        "targetUuid": "Actor.2YEzICTcbBxgNpxY",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-006-20260902-pink-v4.webp",
+          "listImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp",
+          "mapThumbnail": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp"
+        }
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "relationshipId": "rel_QDADgVkfrusOrx1I",
+        "targetUuid": "Actor.cdESIH9b3XCTsX5K",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902.webp",
+          "listImage": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp",
+          "mapThumbnail": "worlds/taiyi/assets/npc/utility/sh-glitch-silhouette-20260902-avatar.webp"
+        }
+      }
+    ],
+    "tokens": [],
+    "at": "2026-09-02T15:59:48.200Z"
+  },
+  "custom": {
+    "status": "complete",
+    "count": 93,
+    "verifiedAt": "2026-09-02T16:07:17.040Z",
+    "evidence": "server-after.json"
+  }
+}

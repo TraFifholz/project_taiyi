@@ -1,0 +1,15 @@
+[
+  {
+    "token": "Hm6ab8xjooC5dSxrErScJtZRnWd",
+    "block_id": "FgG9dkQByou1CrxyvybcfqNMnBh",
+    "http_status": 200,
+    "original_http_status": 403,
+    "edition": "public_preview",
+    "content_type": "image/png",
+    "status": "downloaded",
+    "local_file": "assets/01-image-preview.png",
+    "bytes": 211038,
+    "expected_original_bytes": 267950,
+    "sha256": "c41f72b9f308f1a6ed3d688de489ab0e6b1e799ce25ddc4500dc5bf0ed78bd83"
+  }
+]

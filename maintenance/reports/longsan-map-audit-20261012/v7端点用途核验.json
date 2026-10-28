@@ -1,0 +1,361 @@
+{
+  "inputs": {
+    "temp\\longsan-map-qa-v7\\fabric.pickle": "aa3819399fd564fb87e4f8f440bbfe38e000674365d48813bc48a686884563cd",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7路阶段-frozen.json": "d309a7b4b1521f08bbb1a545bf222d53c7765a9cac1badfed1ea0d84aaec079f",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7端点用途核验.py": "be59be2caa004f4dd20bdac3f948d3e2a5b1723261a70879ce7da5c425d7a298"
+  },
+  "source": "actual frozen final model, diagnostic rendering only; not aesthetic screenshots",
+  "endpoints": [
+    {
+      "name": "云麓公路",
+      "kind": "rural",
+      "xy_km": [
+        5.2,
+        7.0
+      ],
+      "role": "rural-link",
+      "generated": false,
+      "nearby_block_density_max": 0.058000078339751515,
+      "nearby_block_ids": [
+        "F1090",
+        "F1092",
+        "F6814"
+      ],
+      "nearest_public": {
+        "name": "街坊道路",
+        "kind": "local",
+        "gap_m": 129.16720855112018,
+        "target_xy_km": [
+          5.217071218795888,
+          7.128034140969163
+        ],
+        "straight_link_crosses_water": false,
+        "straight_link_crosses_security": false,
+        "straight_link_crosses_rail_reservation": false
+      },
+      "nearest_same_or_higher": {
+        "name": "街坊道路",
+        "kind": "local",
+        "gap_m": 129.16720855112018,
+        "target_xy_km": [
+          5.217071218795888,
+          7.128034140969163
+        ],
+        "straight_link_crosses_water": false,
+        "straight_link_crosses_security": false,
+        "straight_link_crosses_rail_reservation": false
+      },
+      "last_public_junction": {
+        "name": "街坊道路",
+        "kind": "local",
+        "xy_km": [
+          5.217071218795888,
+          7.128034140969163
+        ],
+        "tail_m": 129.16720855112015
+      },
+      "image": "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-1-云麓公路.png",
+      "image_sha256": "b990cc07dfb11b190b992e6a19718fb4f05fb9ae20174e85817b2a00ade874d6",
+      "nearest_unowned_site_or_farm_path": {
+        "name": "楚墓博物馆",
+        "type": "path",
+        "gap_m": 15.992374024348003
+      },
+      "nearest_roof": {
+        "type": "museum",
+        "lot_id": null,
+        "gap_m": 88.77640452282418
+      },
+      "nearest_owned_entry": {
+        "lot_id": "P5942",
+        "gap_m": 3671.9858177645824
+      },
+      "nearest_named_site": {
+        "name": "楚墓博物馆",
+        "kind": "museum",
+        "gap_m": 15.98072729928237
+      },
+      "hill_level_at_point": 140
+    },
+    {
+      "name": "窑湾旧道",
+      "kind": "rural",
+      "xy_km": [
+        13.9,
+        32.0
+      ],
+      "role": "rural-link",
+      "generated": false,
+      "nearby_block_density_max": null,
+      "nearby_block_ids": [],
+      "nearest_public": {
+        "name": "云麓公路",
+        "kind": "rural",
+        "gap_m": 10.303293783705282,
+        "target_xy_km": [
+          13.901097948044177,
+          31.989755373462852
+        ],
+        "straight_link_crosses_water": false,
+        "straight_link_crosses_security": false,
+        "straight_link_crosses_rail_reservation": false
+      },
+      "nearest_same_or_higher": {
+        "name": "云麓公路",
+        "kind": "rural",
+        "gap_m": 10.303293783705282,
+        "target_xy_km": [
+          13.901097948044177,
+          31.989755373462852
+        ],
+        "straight_link_crosses_water": false,
+        "straight_link_crosses_security": false,
+        "straight_link_crosses_rail_reservation": false
+      },
+      "last_public_junction": {
+        "name": "云麓公路",
+        "kind": "rural",
+        "xy_km": [
+          13.915831250790461,
+          31.990501249525725
+        ],
+        "tail_m": 18.462252358881326
+      },
+      "image": "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-2-窑湾旧道.png",
+      "image_sha256": "315ef6e9933a5731ea0de08e00e43b52516411754c546202fc8385a815d94a1b",
+      "nearest_unowned_site_or_farm_path": {
+        "name": "窑湾村",
+        "type": "village-road",
+        "gap_m": 0.0
+      },
+      "nearest_roof": {
+        "type": "village",
+        "lot_id": null,
+        "gap_m": 50.30864736802217
+      },
+      "nearest_owned_entry": {
+        "lot_id": "P9107",
+        "gap_m": 301.1673525507348
+      },
+      "nearest_named_site": {
+        "name": "窑湾村",
+        "kind": "town",
+        "gap_m": 0.0
+      },
+      "hill_level_at_point": 0
+    },
+    {
+      "name": "东岭山前路",
+      "kind": "rural",
+      "xy_km": [
+        43.4,
+        25.6
+      ],
+      "role": "rural-link",
+      "generated": false,
+      "nearby_block_density_max": 0.40896691105787397,
+      "nearby_block_ids": [
+        "F254",
+        "F8113"
+      ],
+      "nearest_public": {
+        "name": "街坊道路",
+        "kind": "local",
+        "gap_m": 358.11127885334315,
+        "target_xy_km": [
+          43.75811127885334,
+          25.6
+        ],
+        "straight_link_crosses_water": false,
+        "straight_link_crosses_security": false,
+        "straight_link_crosses_rail_reservation": false
+      },
+      "nearest_same_or_higher": {
+        "name": "街坊道路",
+        "kind": "local",
+        "gap_m": 358.11127885334315,
+        "target_xy_km": [
+          43.75811127885334,
+          25.6
+        ],
+        "straight_link_crosses_water": false,
+        "straight_link_crosses_security": false,
+        "straight_link_crosses_rail_reservation": false
+      },
+      "last_public_junction": {
+        "name": "街坊道路",
+        "kind": "local",
+        "xy_km": [
+          43.249388766675054,
+          24.897147577816902
+        ],
+        "tail_m": 718.808229621997
+      },
+      "image": "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-3-东岭山前路.png",
+      "image_sha256": "44a8448c3f37ba3862e22e657de06dd64943956150bb14f49e1ed57d1e06fc5a",
+      "nearest_unowned_site_or_farm_path": {
+        "name": "",
+        "type": "farm-track",
+        "gap_m": 243.1115534002542
+      },
+      "nearest_roof": {
+        "type": "factory-hall",
+        "lot_id": "P47",
+        "gap_m": 80.26752640164247
+      },
+      "nearest_owned_entry": {
+        "lot_id": "P47",
+        "gap_m": 47.92078951170926
+      },
+      "nearest_named_site": {
+        "name": "东郊物流村",
+        "kind": "town",
+        "gap_m": 1116.500000000002
+      },
+      "hill_level_at_point": 0
+    },
+    {
+      "name": "南郊连接路",
+      "kind": "rural",
+      "xy_km": [
+        28.8,
+        34.0
+      ],
+      "role": "rural-link",
+      "generated": false,
+      "nearby_block_density_max": 0.4703778682018317,
+      "nearby_block_ids": [
+        "F8259",
+        "F8261"
+      ],
+      "nearest_public": {
+        "name": "规划集散道 329",
+        "kind": "secondary",
+        "gap_m": 126.17475734948513,
+        "target_xy_km": [
+          28.926174757349486,
+          34.0
+        ],
+        "straight_link_crosses_water": false,
+        "straight_link_crosses_security": false,
+        "straight_link_crosses_rail_reservation": false
+      },
+      "nearest_same_or_higher": {
+        "name": "规划集散道 329",
+        "kind": "secondary",
+        "gap_m": 126.17475734948513,
+        "target_xy_km": [
+          28.926174757349486,
+          34.0
+        ],
+        "straight_link_crosses_water": false,
+        "straight_link_crosses_security": false,
+        "straight_link_crosses_rail_reservation": false
+      },
+      "last_public_junction": {
+        "name": "规划集散道 328",
+        "kind": "secondary",
+        "xy_km": [
+          27.86188879732297,
+          34.10423457807522
+        ],
+        "tail_m": 943.8842491824229
+      },
+      "image": "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-4-南郊连接路.png",
+      "image_sha256": "627a5f306e412d3244f201b79770bc72afd5b17fea1833e5a5d5586d15ced064",
+      "nearest_unowned_site_or_farm_path": {
+        "name": "",
+        "type": "farm-track",
+        "gap_m": 109.99999999999945
+      },
+      "nearest_roof": {
+        "type": "warehouse",
+        "lot_id": "P7684",
+        "gap_m": 148.96753789753703
+      },
+      "nearest_owned_entry": {
+        "lot_id": "P7682",
+        "gap_m": 93.86679716361972
+      },
+      "nearest_named_site": {
+        "name": "集装箱作业区 2",
+        "kind": "port",
+        "gap_m": 3044.7331574376108
+      },
+      "hill_level_at_point": 0
+    },
+    {
+      "name": "机场北郊路",
+      "kind": "rural",
+      "xy_km": [
+        20.8,
+        4.0
+      ],
+      "role": "rural-link",
+      "generated": false,
+      "nearby_block_density_max": 0.35494802179371776,
+      "nearby_block_ids": [
+        "F1338",
+        "F1458",
+        "F1548",
+        "F1544",
+        "F1229"
+      ],
+      "nearest_public": {
+        "name": "街坊道路",
+        "kind": "local",
+        "gap_m": 75.53764528073437,
+        "target_xy_km": [
+          20.8,
+          4.075537645280734
+        ],
+        "straight_link_crosses_water": false,
+        "straight_link_crosses_security": false,
+        "straight_link_crosses_rail_reservation": false
+      },
+      "nearest_same_or_higher": {
+        "name": "街坊道路",
+        "kind": "local",
+        "gap_m": 75.53764528073437,
+        "target_xy_km": [
+          20.8,
+          4.075537645280734
+        ],
+        "straight_link_crosses_water": false,
+        "straight_link_crosses_security": false,
+        "straight_link_crosses_rail_reservation": false
+      },
+      "last_public_junction": {
+        "name": "街坊道路",
+        "kind": "local",
+        "xy_km": [
+          20.59105878186817,
+          3.8806050182103826
+        ],
+        "tail_m": 240.64827926032706
+      },
+      "image": "maintenance\\reports\\longsan-map-audit-20261012\\v7用途端点-5-机场北郊路.png",
+      "image_sha256": "e5f1c9093d239019d349c9b443b14ab07ed58f1dbf567a63cf898f93799d10c0",
+      "nearest_unowned_site_or_farm_path": {
+        "name": "",
+        "type": "farm-track",
+        "gap_m": 209.99999999999997
+      },
+      "nearest_roof": {
+        "type": "residential-slab",
+        "lot_id": "P451",
+        "gap_m": 48.03529707859986
+      },
+      "nearest_owned_entry": {
+        "lot_id": "P451",
+        "gap_m": 0.0
+      },
+      "nearest_named_site": {
+        "name": "龙翔天街",
+        "kind": "retail",
+        "gap_m": 5723.250824487776
+      },
+      "hill_level_at_point": 0
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "permissions": {
+    "journalId": "Z2BCqexshCaj2mCy",
+    "users": [
+      {
+        "id": "HCLE0CbCBKM5HBDp",
+        "name": "Me",
+        "character": "李好",
+        "journalAccessible": false,
+        "gmPagesAccessible": [],
+        "visibleImportedRelations": [
+          {
+            "name": "棍木女",
+            "target": "Actor.zltELu4L5KcmScNG",
+            "bio": "S7 棍木女在面馆外主动接触李好并赠予木签。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "沈漫",
+            "target": "Actor.gadGwYGyXgzgEfpp",
+            "bio": "沈漫在高铁上把阿瑶照片交给李好；后续共同参与事务所生活。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "何凌",
+            "target": "Actor.psyMJFu6q5eG3CcD",
+            "bio": "李好与何凌曾在江城分行共事；后续有审计与调查联络。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "白念秋",
+            "target": "Actor.vqcEA8al2OfxGc0p",
+            "bio": "李好答应并完成传达白念秋姐姐托付的请求；白念秋已故。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "萨布里娜·费雷拉",
+            "target": "Actor.eubCIDi10WeO2cx5",
+            "bio": "萨布里娜在码头事件中获李好救助，S11 当面向他道谢。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "阿瑶",
+            "target": "Actor.a1z7lVrqv6W7wDFI",
+            "bio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "陈志远",
+            "target": "Actor.KwehyM2AWAaHV2ME",
+            "bio": "陈志远是李好在龙散分行的直接上级。\n\n关系数值：未评定。"
+          }
+        ],
+        "visibleGmRelations": 0,
+        "visibleNewNpcCards": []
+      },
+      {
+        "id": "VtjQ7UeZhV2oBRjw",
+        "name": "十",
+        "character": "阿尔坎·希耶尔",
+        "journalAccessible": false,
+        "gmPagesAccessible": [],
+        "visibleImportedRelations": [
+          {
+            "name": "翟明珠",
+            "target": "Actor.2YEzICTcbBxgNpxY",
+            "bio": "翟明珠委托阿尔坎修复楚钢相关节点。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "S.H.",
+            "target": "Actor.cdESIH9b3XCTsX5K",
+            "bio": "S.H. 在工云广场网吧通过 TXT 联系阿尔坎与凯芙拉。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "何夜白",
+            "target": "Actor.RJ33Y3n9CnPNI3gx",
+            "bio": "S1 月下诊所是双方交集中的接点；不额外推定手术、师承或秘密归属。\n\n关系数值：未评定。"
+          }
+        ],
+        "visibleGmRelations": 0,
+        "visibleNewNpcCards": []
+      },
+      {
+        "id": "9k3MgijXJoEujs2u",
+        "name": "咸",
+        "character": "唐索",
+        "journalAccessible": false,
+        "gmPagesAccessible": [],
+        "visibleImportedRelations": [
+          {
+            "name": "周凛",
+            "target": "Actor.RqRwsNovNTzMLxwh",
+            "bio": "唐索参与周凛的照片委托；S3 已取消。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "何夜白",
+            "target": "Actor.RJ33Y3n9CnPNI3gx",
+            "bio": "S1 月下诊所是双方交集中的接点；不额外推定手术、师承或秘密归属。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "尼索科托夫",
+            "target": "Actor.OJWrqdjFqUyOqbBO",
+            "bio": "唐索熟识尼索科托夫，后者经营地下黑市生意。\n\n关系数值：未评定。"
+          }
+        ],
+        "visibleGmRelations": 0,
+        "visibleNewNpcCards": []
+      },
+      {
+        "id": "dEneQGQVFo3Lch0s",
+        "name": "拳",
+        "character": "雷武龙",
+        "journalAccessible": false,
+        "gmPagesAccessible": [],
+        "visibleImportedRelations": [
+          {
+            "name": "阿瑶",
+            "target": "Actor.a1z7lVrqv6W7wDFI",
+            "bio": "码头事件后阿瑶修补众人，事务所中确认生命绑定。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "何夜白",
+            "target": "Actor.RJ33Y3n9CnPNI3gx",
+            "bio": "S1 月下诊所是双方交集中的接点；不额外推定手术、师承或秘密归属。\n\n关系数值：未评定。"
+          }
+        ],
+        "visibleGmRelations": 0,
+        "visibleNewNpcCards": []
+      },
+      {
+        "id": "9kVZdHl3KtKUbatb",
+        "name": "盐",
+        "character": "黑崎欲子",
+        "journalAccessible": false,
+        "gmPagesAccessible": [],
+        "visibleImportedRelations": [
+          {
+            "name": "周凛",
+            "target": "Actor.RqRwsNovNTzMLxwh",
+            "bio": "照片委托经周凛接洽；S3 已取消，不再标为进行中的交易。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "赵明芝",
+            "target": "Actor.gTmMOIwGa6flQvNZ",
+            "bio": "S11 赵明芝代表司机方委托欲子追回冻结款；其余队友当时尚未正式入局。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "梁文川",
+            "target": "Actor.c9CMnekZUT44LGED",
+            "bio": "欲子以阿玉自称结识梁文川并交换联系方式；不附加委托或内幕关系。\n\n关系数值：未评定。"
+          }
+        ],
+        "visibleGmRelations": 0,
+        "visibleNewNpcCards": []
+      },
+      {
+        "id": "TBueX2IqZZsvr2NG",
+        "name": "空",
+        "character": "凯芙拉·威尔森",
+        "journalAccessible": false,
+        "gmPagesAccessible": [],
+        "visibleImportedRelations": [
+          {
+            "name": "萨布里娜·费雷拉",
+            "target": "Actor.eubCIDi10WeO2cx5",
+            "bio": "凯芙拉与萨布里娜是朋友，S11 协助安装定制义肢与康复算法。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "宋远",
+            "target": "Actor.O7ycDu9ixwbBxy1d",
+            "bio": "凯芙拉通过宋远的港口物流线参与码头事务。\n\n关系数值：未评定。"
+          },
+          {
+            "name": "S.H.",
+            "target": "Actor.cdESIH9b3XCTsX5K",
+            "bio": "S.H. 在工云广场网吧通过 TXT 联系凯芙拉与阿尔坎。\n\n关系数值：未评定。"
+          }
+        ],
+        "visibleGmRelations": 0,
+        "visibleNewNpcCards": []
+      }
+    ]
+  },
+  "scene": {
+    "sceneId": "5oNiajsl71A14PPK",
+    "previousView": "fxshJuHmYwE3EBbr",
+    "tokens": [
+      {
+        "id": "JlFcLAWDO7YARENz",
+        "name": "沈漫",
+        "actorId": "gadGwYGyXgzgEfpp",
+        "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+        "actorLink": false
+      },
+      {
+        "id": "33QGXxOM9HJBggdh",
+        "name": "棍木女",
+        "actorId": "zltELu4L5KcmScNG",
+        "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-N3.webp",
+        "actorLink": true
+      },
+      {
+        "id": "9BKixJfikmtcLtvT",
+        "name": "沈仲秋",
+        "actorId": "gBq6GwDgNfcln8lB",
+        "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-089.webp",
+        "actorLink": true
+      }
+    ],
+    "originalSceneIds": [
+      "CkARhUCzIU5Ne7tR",
+      "sCmkZHfKQWKdtLGD",
+      "WXX7HUcbNoTCM4Yn",
+      "IZbTn3sMc3c5f0V3",
+      "fxshJuHmYwE3EBbr"
+    ]
+  }
+}

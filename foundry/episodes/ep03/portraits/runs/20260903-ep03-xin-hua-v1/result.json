@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260903-ep03-xin-hua-v1",
+  "characterId": "EP03-XIN-HUA",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "663ac1",
+  "apiSeed": 1930665818,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "c0d5e5c4bbcfddeee73710aa861cdd9a5b24f02c9df2bd24a4848e99f81ec43a",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-03T15:33:14.261Z"
+}

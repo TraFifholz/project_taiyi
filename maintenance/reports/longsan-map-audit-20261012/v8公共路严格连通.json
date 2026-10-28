@@ -1,0 +1,18 @@
+{
+  "input_sha256": {
+    "assets\\maps\\longsan-geographic-v8-20261012\\路网.geojson": "735570ee178862bb98aa30a8cee1e1a2b4523874d88477d5fce3446540e2e4b5",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8组团独立核验.py": "0c4ffc72eef3cf7d64a1f95c19674c962dfd744bc9d6912eaa6e89e4e5ec0088",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8公共路严格连通.py": "e18eacb37fd9655a9397e8775ba74c49a30fbebf09bcaea906ff0337d2e380fc"
+  },
+  "scope": "actual public centreline primitives; multipart pieces do not automatically connect",
+  "tolerance_m": 0.02,
+  "public_features": 5584,
+  "components": 1,
+  "features_per_component": [
+    5584
+  ],
+  "hard_gates": {
+    "public_primitive_network_connected_with_20mm_tolerance": true,
+    "strict_public_graph_inputs_stable": true
+  }
+}

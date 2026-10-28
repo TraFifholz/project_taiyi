@@ -1,0 +1,13 @@
+{
+  "source": "discussion\\npc\\fvtt\\assets\\portraits\\LS-NPC-037.webp",
+  "output": "discussion\\npc\\fvtt\\refresh-20260902\\LS-NPC-037-relationship-monochrome-20260902.webp",
+  "sourceSha256": "68a4234d52859ede1c13fe5ad27ecdf1c5825dd947e4d9d30a00767a13e06aff",
+  "sha256": "a3e11e2a8ce1e7e165eaa323774d481a439dc83f7e1e9a7a5a969529d8cfe476",
+  "dimensions": [
+    832,
+    1216
+  ],
+  "grayscale": true,
+  "alphaUnchanged": true,
+  "scope": "Relationship.portrait only; Actor Avatar/Token unchanged"
+}

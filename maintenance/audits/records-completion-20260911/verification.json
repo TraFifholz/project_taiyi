@@ -1,0 +1,41 @@
+{
+  "raw_transcripts_unchanged": 12,
+  "summary_files_present": 12,
+  "index_rows_resolve": 12,
+  "new_local_links_checked": 23,
+  "source_line_references_in_bounds": 67,
+  "updated": [
+    "CODEX_INDEX.md",
+    "records/README.md",
+    "records/memory/agent-guide.md",
+    "records/memory/campaign-state.md",
+    "records/memory/entities.md",
+    "records/memory/README.md",
+    "records/memory/rules-and-rewards.md",
+    "records/prep/session-13-第四话开场安排.md"
+  ],
+  "created": [
+    "records/memory/session-09.md",
+    "records/memory/session-10.md",
+    "records/memory/session-12.md"
+  ],
+  "raw_hashes": {
+    "20260521200231-mega的个人会议室-逐字稿文本-1.txt": "5BDF587BDFCE3DF90D60A8DB69A9BF2C2DD8B2D4375D53E33B52A312324F52F6",
+    "20260522202008-mega的个人会议室-逐字稿文本-1.txt": "123FA63E20EF5873F0C567DB1168175F161C4CF8D50B218A79ED4153505BC47D",
+    "20260604194551-mega的快速会议-逐字稿文本-1.txt": "2A857DA988C873DD4B82C69D8494A93DDA380A0D18C68D1D996EB5BF1D63F27E",
+    "20260611201144-1的快速会议-转写智能优化版-1.txt": "71D42F6F736962555CFEE77F1CE3659753D6C8F5F2D8AAB25B499CC4C569A8C3",
+    "20260617200726-mega的快速会议-逐字稿文本-1.txt": "A04B85481097A9157FA40DD9A7BAEC1E35D16CD9E343184BADC47F74C170B4C0",
+    "20260625200002-mega的个人会议室-逐字稿文本-1.txt": "4CBF5328A77942F4DCA450F649859C163429AB49738EAA132DF908F047774388",
+    "20260703203201-mega的个人会议室-逐字稿文本-1.txt": "1B2FC161DC1F6273CC088943042F7FAAFCFAF599127018279000368950763458",
+    "20260717195706-mega的快速会议-逐字稿文本-1.txt": "1EAB1D32699411792024EECC01503AAA117BB522745B4DB204BF569FE80BCFD1",
+    "20260724200528-mega的个人会议室-逐字稿文本-1.txt": "EC515C6751AA520316FA8B23EDDAEBE08E92609829D32051ACA302C3D6598011",
+    "20260807195439-mega的快速会议-逐字稿文本-1.txt": "03218BE0550076CFFD069DA4FCB9D03DD86246C1547A8BFDE1FFE797782B3F9F",
+    "20260828202457-mega的个人会议室-逐字稿文本-1.txt": "58D0906D485291F06349FFCF9551C4F22FB0A0046A082EA3FA29ADB81628FA8B",
+    "20260904200200-mega的快速会议-逐字稿文本-1.txt": "8B6F2611132DEA7124681C72D58BB18C6BBE2DF98B43523AB06D6388211618B8"
+  },
+  "not_verified": [
+    "Foundry character sheets, final wounds and balances",
+    "S10 clock value direct transcript attribution",
+    "remaining downtime versus epilogue timeline"
+  ]
+}

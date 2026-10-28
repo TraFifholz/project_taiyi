@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260904-ep03-extra-drone-nai-v2",
+  "characterId": "EP03-EXTRA-DRONE",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "6348d1",
+  "apiSeed": 2109974772,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "4ebbb4067e5630d8a94e8380dd627ecf849c9c24a86e1a685f8401d82fece6d5",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-04T00:24:32.753Z"
+}

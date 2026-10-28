@@ -1,0 +1,256 @@
+{
+  "status": "complete",
+  "result": {
+    "at": "2026-09-02T15:04:32.692Z",
+    "players": [
+      {
+        "id": "dVY3kCrHc0WYyKEa",
+        "name": "李好"
+      },
+      {
+        "id": "nJxWvLzZvBNXObjk",
+        "name": "阿尔坎·希耶尔"
+      },
+      {
+        "id": "ELxrslbsSHQg0cmK",
+        "name": "唐索"
+      },
+      {
+        "id": "j3f9G2P4vDSmmxZw",
+        "name": "雷武龙"
+      },
+      {
+        "id": "zmeMlq5pVbbqr1rA",
+        "name": "黑崎欲子"
+      },
+      {
+        "id": "vhpt4XZxZn59dWX5",
+        "name": "凯芙拉·威尔森"
+      }
+    ],
+    "portraits": [
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "owner": "凯芙拉·威尔森",
+        "relationshipId": "rel_10pw3nICJ24L5UXi",
+        "targetId": "LS-NPC-088",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-088.webp",
+          "listImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+          "mapThumbnail": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp",
+          "portraitScale": 0.75
+        }
+      },
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "owner": "凯芙拉·威尔森",
+        "relationshipId": "rel_ftk0BSYMVFQtMiKL",
+        "targetId": "LS-NPC-090",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-090.webp",
+          "listImage": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp",
+          "mapThumbnail": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp",
+          "portraitScale": 0.75
+        }
+      },
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "owner": "李好",
+        "relationshipId": "rel_p2qh8B9CqRzQtD2m",
+        "targetId": "LS-NPC-037",
+        "patch": {
+          "portrait": "worlds/taiyi/assets/npc/portraits/LS-NPC-037-relationship-monochrome-20260902.webp"
+        }
+      }
+    ],
+    "capacity": [
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "from": 10,
+        "to": 12
+      }
+    ],
+    "party": [
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "targetId": "nJxWvLzZvBNXObjk",
+        "relationshipId": "rel_c59pXXo6eEWKBsPL",
+        "action": "created"
+      },
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "targetId": "ELxrslbsSHQg0cmK",
+        "relationshipId": "rel_YXg8XK52gk9TC3Ul",
+        "action": "created"
+      },
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "targetId": "j3f9G2P4vDSmmxZw",
+        "relationshipId": "rel_zBk0uL7uxm0uuzq0",
+        "action": "created"
+      },
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "targetId": "zmeMlq5pVbbqr1rA",
+        "relationshipId": "rel_WBnVzxxm91DoCmIW",
+        "action": "created"
+      },
+      {
+        "ownerId": "dVY3kCrHc0WYyKEa",
+        "targetId": "vhpt4XZxZn59dWX5",
+        "relationshipId": "rel_vaoY9DCvZ0JdFwKu",
+        "action": "created"
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "targetId": "dVY3kCrHc0WYyKEa",
+        "relationshipId": "rel_yUvA8gcGuDgwUowB",
+        "action": "created"
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "targetId": "ELxrslbsSHQg0cmK",
+        "relationshipId": "rel_bkWjX8NJhzqzZYsp",
+        "action": "created"
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "targetId": "j3f9G2P4vDSmmxZw",
+        "relationshipId": "rel_HUGIjGCDN5QJi5Pn",
+        "action": "created"
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "targetId": "zmeMlq5pVbbqr1rA",
+        "relationshipId": "rel_GPjzze4vpbRid5aY",
+        "action": "created"
+      },
+      {
+        "ownerId": "nJxWvLzZvBNXObjk",
+        "targetId": "vhpt4XZxZn59dWX5",
+        "relationshipId": "rel_78Z5ijMO6O1S0GfE",
+        "action": "created"
+      },
+      {
+        "ownerId": "ELxrslbsSHQg0cmK",
+        "targetId": "dVY3kCrHc0WYyKEa",
+        "relationshipId": "rel_YatCCQ6nGAZupaZf",
+        "action": "created"
+      },
+      {
+        "ownerId": "ELxrslbsSHQg0cmK",
+        "targetId": "nJxWvLzZvBNXObjk",
+        "relationshipId": "rel_LgQJOfW1yii3mbrQ",
+        "action": "created"
+      },
+      {
+        "ownerId": "ELxrslbsSHQg0cmK",
+        "targetId": "j3f9G2P4vDSmmxZw",
+        "relationshipId": "rel_c1MtZTfKtRpC3tl5",
+        "action": "created"
+      },
+      {
+        "ownerId": "ELxrslbsSHQg0cmK",
+        "targetId": "zmeMlq5pVbbqr1rA",
+        "relationshipId": "rel_4e67940rqVgbGgb7",
+        "action": "created"
+      },
+      {
+        "ownerId": "ELxrslbsSHQg0cmK",
+        "targetId": "vhpt4XZxZn59dWX5",
+        "relationshipId": "rel_nL9ItLux321rBYS8",
+        "action": "created"
+      },
+      {
+        "ownerId": "j3f9G2P4vDSmmxZw",
+        "targetId": "dVY3kCrHc0WYyKEa",
+        "relationshipId": "rel_KryeM0P5UbQSSW0x",
+        "action": "created"
+      },
+      {
+        "ownerId": "j3f9G2P4vDSmmxZw",
+        "targetId": "nJxWvLzZvBNXObjk",
+        "relationshipId": "rel_ua2eVGtZINjm7hCd",
+        "action": "created"
+      },
+      {
+        "ownerId": "j3f9G2P4vDSmmxZw",
+        "targetId": "ELxrslbsSHQg0cmK",
+        "relationshipId": "rel_lIHWPuPhrmUIYt5g",
+        "action": "created"
+      },
+      {
+        "ownerId": "j3f9G2P4vDSmmxZw",
+        "targetId": "zmeMlq5pVbbqr1rA",
+        "relationshipId": "rel_NQdWLEzHLjliqrD1",
+        "action": "created"
+      },
+      {
+        "ownerId": "j3f9G2P4vDSmmxZw",
+        "targetId": "vhpt4XZxZn59dWX5",
+        "relationshipId": "rel_4mG79hsYOdLcO9cg",
+        "action": "created"
+      },
+      {
+        "ownerId": "zmeMlq5pVbbqr1rA",
+        "targetId": "dVY3kCrHc0WYyKEa",
+        "relationshipId": "rel_gcbq5Y5axLXVDS8k",
+        "action": "created"
+      },
+      {
+        "ownerId": "zmeMlq5pVbbqr1rA",
+        "targetId": "nJxWvLzZvBNXObjk",
+        "relationshipId": "rel_fWTPhliciwV85XcJ",
+        "action": "created"
+      },
+      {
+        "ownerId": "zmeMlq5pVbbqr1rA",
+        "targetId": "ELxrslbsSHQg0cmK",
+        "relationshipId": "rel_w8UWgBWTOYd8EHYw",
+        "action": "created"
+      },
+      {
+        "ownerId": "zmeMlq5pVbbqr1rA",
+        "targetId": "j3f9G2P4vDSmmxZw",
+        "relationshipId": "rel_3yxkHYwGKCkS02Nu",
+        "action": "created"
+      },
+      {
+        "ownerId": "zmeMlq5pVbbqr1rA",
+        "targetId": "vhpt4XZxZn59dWX5",
+        "relationshipId": "rel_9WKEu96ngqQPzhQa",
+        "action": "created"
+      },
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "targetId": "dVY3kCrHc0WYyKEa",
+        "relationshipId": "rel_cDQboZbC4ahJuDIK",
+        "action": "created"
+      },
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "targetId": "nJxWvLzZvBNXObjk",
+        "relationshipId": "rel_ZEbqQ8acbq3cEzWP",
+        "action": "created"
+      },
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "targetId": "ELxrslbsSHQg0cmK",
+        "relationshipId": "rel_HnfaDqahek0WfUGe",
+        "action": "created"
+      },
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "targetId": "j3f9G2P4vDSmmxZw",
+        "relationshipId": "rel_ZnNFrPVTjb2Z96ZU",
+        "action": "created"
+      },
+      {
+        "ownerId": "vhpt4XZxZn59dWX5",
+        "targetId": "zmeMlq5pVbbqr1rA",
+        "relationshipId": "rel_EtLzXcTV6lnszLK5",
+        "action": "created"
+      }
+    ]
+  }
+}

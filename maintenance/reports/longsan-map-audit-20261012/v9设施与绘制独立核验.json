@@ -1,0 +1,230 @@
+{
+  "reviewer": "collapse_design_audit",
+  "version": "v9",
+  "input_sha256": {
+    "temp\\longsan-map-qa-v9\\fabric.pickle": "8f35bfd1a4f83e9e0e732047858ff5bc49b600543775bc654e53808f3d1fe303",
+    "temp\\longsan-map-qa-v9\\西岸候选落位.json": "65a9da2ce0e54cd4a7278bdcdb50ed98ae53cd5f5c64fb7c29a5e28b102c57a5",
+    "assets\\maps\\longsan-geographic-v9-20261012\\地图坐标与线路.json": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+    "assets\\maps\\longsan-geographic-v9-20261012\\地理骨架.geojson": "7833f84bc54ad6b699e8722f132d94cb1d7fbbb5da5d5fa835284b049c633265",
+    "assets\\maps\\longsan-geographic-v9-20261012\\建筑.geojson": "9a1c1f1ee3380fda42c8b7e479903582949b528b1bd57d6a81098b3653f43bcd",
+    "assets\\maps\\longsan-geographic-v9-20261012\\组团通道.geojson": "f4aa064961cd33da28dab56084756c6052a23e8cf343bbc597d74889d2d8c373",
+    "assets\\maps\\longsan-geographic-v9-20261012\\路网.geojson": "df98fb6f6b9d5f1c8f01abbf90ef9f1baaa5527419f283f88760233c40139497",
+    "assets\\maps\\longsan-geographic-v9-20261012\\灾后地理.geojson": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+    "assets\\maps\\longsan-geographic-v9-20261012\\铁路.geojson": "43e78bd12389d82733d15edd91f3b56596d660c3eca307f2405b9f6c8373f8e0",
+    "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+    "assets\\maps\\longsan-geographic-v9-20261012\\龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v9设施与绘制独立核验.py": "51c8e11a590ee96cdd82f15bd43abbe00c4382111ae0c422bd1c1b8a1dcaf1ca",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v9局部继承核验.py": "c85b2bcf704339203cfda62c9fad9ef1375c65ece48ac38744080a2623d31361",
+    "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94"
+  },
+  "hard_gates": {
+    "complete_two_facility_rectangles_and_original_areas": true,
+    "complete_campus_6_courts_4_dormitories_library_and_three_sports_roofs": true,
+    "each_facility_one_private_component_with_real_public_gate_20mm": true,
+    "all_14_facility_roof_facades_within_8m_private_walk": true,
+    "new_private_physical_path_and_public_road_roof_collision_zero": true,
+    "new_facility_private_paths_do_not_borrow_retained_parcels": true,
+    "actual_sports_pitch_105m_by_68m_unscaled": true,
+    "old_island_facility_objects_removed_and_two_open_parks_present": true,
+    "all_six_actual_off_carriageway_station_forecourts_and_public_walks": true,
+    "two_actual_svg_bases_structurally_identical": true,
+    "actual_metro_svg_all_66_stations_positions_memberships_status_match_json": true,
+    "actual_metro_svg_all_80_interval_geometries_match_json": true,
+    "both_actual_svg_full_facility_roofs_and_private_paths_match_cache": true,
+    "actual_facility_geojson_roofs_paths_match_cache_exact": true,
+    "actual_svg_metadata_v9_and_generator_v9": true,
+    "facility_svg_export_input_hashes_stable": true
+  },
+  "unresolved_hard_errors": [],
+  "complete_facilities": {
+    "财经政法大学": {
+      "complete_area_km2": 0.40000000000000036,
+      "roof_types": {
+        "academic": 6,
+        "library": 1,
+        "dormitory": 4
+      },
+      "private_paths": 23,
+      "private_components": 1,
+      "full_site_geometry_type": "Polygon"
+    },
+    "奥体中心": {
+      "complete_area_km2": 0.43199999999999905,
+      "roof_types": {
+        "stadium": 1,
+        "sports-hall": 1,
+        "aquatics-hall": 1
+      },
+      "private_paths": 6,
+      "private_components": 1,
+      "full_site_geometry_type": "Polygon"
+    }
+  },
+  "building_facade_measures": [
+    {
+      "site": "财经政法大学",
+      "ordinal": 0,
+      "type": "academic",
+      "nearest_actual_private_path_gap_m": 3.9999999999995595
+    },
+    {
+      "site": "财经政法大学",
+      "ordinal": 1,
+      "type": "academic",
+      "nearest_actual_private_path_gap_m": 3.9999999999995595
+    },
+    {
+      "site": "财经政法大学",
+      "ordinal": 2,
+      "type": "academic",
+      "nearest_actual_private_path_gap_m": 3.9999999999995595
+    },
+    {
+      "site": "财经政法大学",
+      "ordinal": 3,
+      "type": "academic",
+      "nearest_actual_private_path_gap_m": 3.9999999999995595
+    },
+    {
+      "site": "财经政法大学",
+      "ordinal": 4,
+      "type": "academic",
+      "nearest_actual_private_path_gap_m": 3.9999999999995595
+    },
+    {
+      "site": "财经政法大学",
+      "ordinal": 5,
+      "type": "academic",
+      "nearest_actual_private_path_gap_m": 3.9999999999995595
+    },
+    {
+      "site": "财经政法大学",
+      "ordinal": 6,
+      "type": "library",
+      "nearest_actual_private_path_gap_m": 4.000000000001336
+    },
+    {
+      "site": "财经政法大学",
+      "ordinal": 7,
+      "type": "dormitory",
+      "nearest_actual_private_path_gap_m": 3.9999999999995595
+    },
+    {
+      "site": "财经政法大学",
+      "ordinal": 8,
+      "type": "dormitory",
+      "nearest_actual_private_path_gap_m": 3.9999999999995595
+    },
+    {
+      "site": "财经政法大学",
+      "ordinal": 9,
+      "type": "dormitory",
+      "nearest_actual_private_path_gap_m": 3.9999999999995595
+    },
+    {
+      "site": "财经政法大学",
+      "ordinal": 10,
+      "type": "dormitory",
+      "nearest_actual_private_path_gap_m": 3.9999999999995595
+    },
+    {
+      "site": "奥体中心",
+      "ordinal": 0,
+      "type": "stadium",
+      "nearest_actual_private_path_gap_m": 4.000000000001336
+    },
+    {
+      "site": "奥体中心",
+      "ordinal": 1,
+      "type": "sports-hall",
+      "nearest_actual_private_path_gap_m": 4.000000000001336
+    },
+    {
+      "site": "奥体中心",
+      "ordinal": 2,
+      "type": "aquatics-hall",
+      "nearest_actual_private_path_gap_m": 3.9999999999995595
+    }
+  ],
+  "actual_station_forecourts": [
+    {
+      "station": "财经大学",
+      "actual_plaza_area_m2": 520.000000000056,
+      "actual_public_access_gap_m": 0.0,
+      "station_centre_public_gap_m": 0.0,
+      "plaza_centre_km": [
+        17.85622901006145,
+        13.213987847030497
+      ]
+    },
+    {
+      "station": "沙尾",
+      "actual_plaza_area_m2": 520.000000000056,
+      "actual_public_access_gap_m": 0.0,
+      "station_centre_public_gap_m": 0.0,
+      "plaza_centre_km": [
+        18.488470143128207,
+        13.213987847030497
+      ]
+    },
+    {
+      "station": "奥体中心",
+      "actual_plaza_area_m2": 520.000000000056,
+      "actual_public_access_gap_m": 0.0,
+      "station_centre_public_gap_m": 0.0,
+      "plaza_centre_km": [
+        17.729568045351066,
+        15.099579189825484
+      ]
+    },
+    {
+      "station": "枫湾",
+      "actual_plaza_area_m2": 520.0000000001484,
+      "actual_public_access_gap_m": 0.0,
+      "station_centre_public_gap_m": 0.0,
+      "plaza_centre_km": [
+        17.574884967386204,
+        17.367678717264404
+      ]
+    },
+    {
+      "station": "楚江西路",
+      "actual_plaza_area_m2": 520.000000000056,
+      "actual_public_access_gap_m": 0.0,
+      "station_centre_public_gap_m": 0.0,
+      "plaza_centre_km": [
+        18.488470143128207,
+        14.195156072012745
+      ]
+    },
+    {
+      "station": "燧明园",
+      "actual_plaza_area_m2": 520.0000000001484,
+      "actual_public_access_gap_m": 0.0,
+      "station_centre_public_gap_m": 0.0,
+      "plaza_centre_km": [
+        26.451760746887633,
+        16.420603442457107
+      ]
+    }
+  ],
+  "base_svg_structural_sha256": "861b041fc17efc25c6a8001480a476ac7ffe3591d2490cbaf0cd7e9b5a917460",
+  "metro_svg_structural_base_sha256": "861b041fc17efc25c6a8001480a476ac7ffe3591d2490cbaf0cd7e9b5a917460",
+  "errors": {
+    "site": [],
+    "private_paths": [],
+    "public_roads": [],
+    "borrowed_parcels": [],
+    "old_facility_objects": [],
+    "forecourts": [],
+    "svg_stations": [],
+    "svg_sections": [],
+    "svg_facilities": [],
+    "geojson_export": []
+  },
+  "limits": [
+    "The four-metre building entrance apron is an algorithm-selected facade approach, not a manually authored architectural door.",
+    "Station pedestrian paths ending on real public road centreline represent conceptual pedestrian crossings; no civil engineering or traffic-signalling approval is implied.",
+    "Visual candidate acceptance requires the separate final actual-image review."
+  ]
+}

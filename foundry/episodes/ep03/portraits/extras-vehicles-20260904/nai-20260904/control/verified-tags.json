@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-09-04T00:23:00.517Z",
+  "policy": "Every emitted positive and additional negative tag is backed by the prior EP03 MCP pool or refreshed Danbooru MCP evidence from 2026-09-04.",
+  "tags": {
+    "highres": {
+      "source": "mcp_related",
+      "count": 8103035
+    },
+    "1boy": {
+      "source": "mcp_related",
+      "count": 2118519
+    },
+    "solo": {
+      "source": "mcp_related",
+      "count": 7029008
+    },
+    "male_focus": {
+      "source": "mcp_related",
+      "count": 1123016
+    },
+    "mature_male": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 45092
+    },
+    "short_hair": {
+      "source": "mcp_related",
+      "count": 3116816
+    },
+    "black_hair": {
+      "source": "mcp_related",
+      "count": 2190033
+    },
+    "brown_eyes": {
+      "source": "mcp_related",
+      "count": 1087362
+    },
+    "hard_hat": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 2121
+    },
+    "helmet": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 113783
+    },
+    "safety_glasses": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 1207
+    },
+    "grey_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 65218
+    },
+    "jacket": {
+      "source": "mcp_related",
+      "count": 1484831
+    },
+    "collared_shirt": {
+      "source": "mcp_related",
+      "count": 759122
+    },
+    "grey_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 106709
+    },
+    "long_sleeves": {
+      "source": "mcp_related",
+      "count": 2343641
+    },
+    "zipper": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 56832
+    },
+    "pocket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 61129
+    },
+    "black_pants": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 253791
+    },
+    "cargo_pants": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2576
+    },
+    "belt": {
+      "source": "mcp_related",
+      "count": 511291
+    },
+    "utility_belt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4339
+    },
+    "pouch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 51816
+    },
+    "black_gloves": {
+      "source": "mcp_related",
+      "count": 674202
+    },
+    "gloves": {
+      "source": "mcp_related",
+      "count": 1930805
+    },
+    "boots": {
+      "source": "mcp_related",
+      "count": 700017
+    },
+    "holding": {
+      "source": "mcp_related",
+      "count": 2190416
+    },
+    "wrench": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 6582
+    },
+    "serious": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 39703
+    },
+    "expressionless": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 180156
+    },
+    "closed_mouth": {
+      "source": "mcp_related",
+      "count": 1955677
+    },
+    "looking_at_viewer": {
+      "source": "mcp_related",
+      "count": 4888173
+    },
+    "standing": {
+      "source": "mcp_related",
+      "count": 1326417
+    },
+    "cowboy_shot": {
+      "source": "mcp_related",
+      "count": 848363
+    },
+    "transparent_background": {
+      "source": "mcp_related",
+      "count": 178221
+    },
+    "shadow": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 163776
+    },
+    "flat_color": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 13737
+    },
+    "watermark": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 243997
+    },
+    "signature": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 441016
+    },
+    "character_name": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 306596
+    },
+    "english_text": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 408777
+    },
+    "chinese_text": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 50577
+    },
+    "logo": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 90668
+    },
+    "emblem": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 22714
+    },
+    "badge": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 16203
+    },
+    "text_focus": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 19847
+    },
+    "hologram": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2059
+    },
+    "heads-up_display": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1626
+    },
+    "glowing": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 138273
+    },
+    "aura": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 18881
+    },
+    "light_particles": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 80888
+    },
+    "child": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 78780
+    },
+    "school_uniform": {
+      "source": "mcp_related",
+      "count": 1052794
+    },
+    "weapon": {
+      "source": "mcp_related",
+      "count": 810417
+    },
+    "gun": {
+      "source": "mcp_related",
+      "count": 195597
+    },
+    "facial_hair": {
+      "source": "mcp_related",
+      "count": 168284
+    },
+    "muscular_male": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 139300
+    },
+    "1girl": {
+      "source": "mcp_related",
+      "count": 8369800
+    },
+    "mature_female": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 49513
+    },
+    "brown_hair": {
+      "source": "mcp_related",
+      "count": 2079261
+    },
+    "swept_bangs": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 162067
+    },
+    "hair_behind_ear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 51340
+    },
+    "green_jacket": {
+      "source": "mcp_related",
+      "count": 64188
+    },
+    "bomber_jacket": {
+      "source": "mcp_related",
+      "count": 4190
+    },
+    "high_collar": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 64519
+    },
+    "fingerless_gloves": {
+      "source": "mcp_related",
+      "count": 372317
+    },
+    "earpiece": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9543
+    },
+    "motorcycle_helmet": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2482
+    },
+    "harness": {
+      "source": "mcp_related",
+      "count": 25248
+    },
+    "hand_on_own_hip": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 228534
+    },
+    "smirk": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 36558
+    },
+    "cleavage": {
+      "source": "mcp_related",
+      "count": 1412590
+    },
+    "midriff": {
+      "source": "mcp_related",
+      "count": 402414
+    },
+    "messy_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 91563
+    },
+    "bags_under_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 43287
+    },
+    "beanie": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 35417
+    },
+    "winter_clothes": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 27124
+    },
+    "blue_jacket": {
+      "source": "mcp_related",
+      "count": 157698
+    },
+    "shirt": {
+      "source": "mcp_related",
+      "count": 2923001
+    },
+    "pants": {
+      "source": "mcp_related",
+      "count": 703548
+    },
+    "driving": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 6449
+    },
+    "steering_wheel": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 5063
+    },
+    "car_interior": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 6144
+    },
+    "sitting": {
+      "source": "mcp_related",
+      "count": 1307602
+    },
+    "looking_away": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 34936
+    },
+    "upper_body": {
+      "source": "mcp_related",
+      "count": 1187859
+    },
+    "vehicle_focus": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 15349
+    },
+    "ponytail": {
+      "source": "mcp_related",
+      "count": 961112
+    },
+    "glasses": {
+      "source": "mcp_related",
+      "count": 501695
+    },
+    "rectangular_eyewear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 10871
+    },
+    "business_suit": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 8042
+    },
+    "formal_clothes": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 79141
+    },
+    "suit": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 106437
+    },
+    "black_jacket": {
+      "source": "mcp_related",
+      "count": 389803
+    },
+    "white_shirt": {
+      "source": "mcp_related",
+      "count": 1406702
+    },
+    "collar": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 277599
+    },
+    "necktie": {
+      "source": "mcp_related",
+      "count": 660804
+    },
+    "wristwatch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 28859
+    },
+    "tablet_pc": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9319
+    },
+    "office_lady": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 22615
+    },
+    "absurdres": {
+      "source": "mcp_related",
+      "count": 2971327
+    },
+    "no_humans": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 234614
+    },
+    "drone": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 4568
+    },
+    "robot": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 92626
+    },
+    "quadcopter": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 237
+    },
+    "propeller": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 1907
+    },
+    "rotor": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 40
+    },
+    "camera": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 32000
+    },
+    "security_camera": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 393
+    },
+    "machinery": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 9181
+    },
+    "science_fiction": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 59153
+    },
+    "industrial": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 663
+    },
+    "circuit_board": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 497
+    },
+    "flying": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 43580
+    },
+    "midair": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 11378
+    },
+    "floating": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 60676
+    },
+    "facing_viewer": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 102893
+    },
+    "from_above": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 145481
+    },
+    "blue_theme": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 39701
+    },
+    "white_theme": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 4499
+    },
+    "grey_theme": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 2263
+    },
+    "reflection": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 56226
+    },
+    "shiny": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 4817
+    },
+    "circle": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 7501
+    },
+    "surveillance": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 21
+    },
+    "outline": {
+      "source": "mcp_verified_20260904",
+      "category": "general",
+      "count": 90314
+    },
+    "simple_background": {
+      "source": "mcp_related",
+      "count": 2842821
+    },
+    "holding_weapon": {
+      "source": "mcp_related",
+      "count": 417349
+    }
+  }
+}

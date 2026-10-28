@@ -1,0 +1,141 @@
+{
+  "auditor": "city_transport_references independent ZIP reader",
+  "independent_from_builder_and_pack_verifier": true,
+  "package_directory_read_only": true,
+  "archive": "D:\\Project Taiyi\\assets\\maps\\龙散市地图工作包-20261013.zip",
+  "expected_bytes": 1248681274,
+  "expected_sha256": "8aa9f1e809f8196873a4d455aaeb43f46a5fb0a49f58e93234dbdfeda4045434",
+  "bytes": 1248681274,
+  "sha256": "8aa9f1e809f8196873a4d455aaeb43f46a5fb0a49f58e93234dbdfeda4045434",
+  "crc_bad_member": null,
+  "zip_file_count": 1351,
+  "duplicate_members": false,
+  "unsafe_paths": [],
+  "unexpected_roots": [],
+  "directory_members": [],
+  "manifest_algorithm": "SHA-256",
+  "manifest_file_count": 1350,
+  "unexpected_zip_members": [],
+  "missing_zip_members": [],
+  "undeclared_disk_files": [],
+  "missing_disk_files": [],
+  "manifest_itself_zip_equals_disk": true,
+  "size_hash_mismatches": [],
+  "original_snapshot_protection": {
+    "files": 1313,
+    "bytes": 4031163969,
+    "mismatches": [],
+    "v8_v9_and_original_metro_preserved": true
+  },
+  "minimal_dependency_closure_missing": [],
+  "user_reference_images": {
+    "count": 5,
+    "mismatches": [],
+    "original_four_river_images_present": true
+  },
+  "unrelated_private_file_paths": [],
+  "workflow_guides_are_map_specific_derivatives": true,
+  "removed_nonmap_sources_absent_from_snapshot": true,
+  "offline_navigation": {
+    "html_pages_checked": [
+      "assets/maps/longsan-geographic-v6-20261012/城市交通参考.html",
+      "assets/maps/longsan-geographic-v9-20261012/分区近景.html",
+      "assets/maps/longsan-geographic-v9-20261012/地图预览.html",
+      "assets/maps/longsan-geographic-v9-20261012/执行计划与验收.html",
+      "assets/maps/longsan-geographic-v9-20261012/路网对照.html",
+      "assets/maps/longsan-geographic-v9-20261012/路网方法参考.html",
+      "assets/maps/longsan-reference-atlas-20261012/地图审美参考图册.html",
+      "assets/maps/longsan-road-redesign-20261012/路网方法参考.html",
+      "无文字底稿/预览.html"
+    ],
+    "new_markdown_pages_checked": [
+      "README-先读.md",
+      "RUNBOOK.md",
+      "WORKSPACE.md",
+      "maintenance/reports/longsan-handoff-20261013/材料与依赖清单.md",
+      "maintenance/reports/longsan-handoff-20261013/进展与核验读回.md",
+      "交接材料/版本进展.md",
+      "交接材料/用户裁决与最终目标.md",
+      "交接材料/运行与文件入口.md",
+      "接手任务.md"
+    ],
+    "local_targets_checked": 228,
+    "fragments_checked": 86,
+    "inline_urls_skipped": 0,
+    "missing": [],
+    "external_runtime_dependencies": [],
+    "absolute_runtime_dependencies": [],
+    "external_citation_link_count": 39,
+    "archival_original_webpages_not_claimed_offline": true
+  },
+  "unlabelled_svg_structure": [
+    {
+      "file": "无文字底稿/龙散市-基础底图-无文字.svg",
+      "sha256": "043c6acee7150b2d0b535e78e84cb79999fc8fb0e07346c15d84e83cf465a6c0",
+      "sha_bound_to_announced_derived_and_browser_inputs": true,
+      "root_attributes": {
+        "viewBox": "0 0 4800 3600",
+        "width": "4800",
+        "height": "3600",
+        "class": "map-base"
+      },
+      "text": 0,
+      "textPath": 0,
+      "tspan": 0,
+      "foreignObject": 0,
+      "visible_label_groups": [],
+      "zero_visible_text": true,
+      "retained_drawing_nodes": 512091,
+      "remaining_drawing_attributes_exactly_inherited": true,
+      "station_count": 0,
+      "station_circles_exactly_preserved": true,
+      "base_preorder_sha256": "0394716dfa5da0dc8d2d577d8a7fcd3ffc849dfde47f24eae992db81afe5244c",
+      "base_nodes": 512061,
+      "external_resources": []
+    },
+    {
+      "file": "无文字底稿/龙散市-底图与地铁-无文字.svg",
+      "sha256": "69500b19b2e0c09531886b742fcbac2455267ff20fa3952347c5daf9fce7c599",
+      "sha_bound_to_announced_derived_and_browser_inputs": true,
+      "root_attributes": {
+        "viewBox": "0 0 4800 3600",
+        "width": "4800",
+        "height": "3600",
+        "class": "map-metro"
+      },
+      "text": 0,
+      "textPath": 0,
+      "tspan": 0,
+      "foreignObject": 0,
+      "visible_label_groups": [],
+      "zero_visible_text": true,
+      "retained_drawing_nodes": 512472,
+      "remaining_drawing_attributes_exactly_inherited": true,
+      "station_count": 66,
+      "station_circles_exactly_preserved": true,
+      "base_preorder_sha256": "0394716dfa5da0dc8d2d577d8a7fcd3ffc849dfde47f24eae992db81afe5244c",
+      "base_nodes": 512061,
+      "external_resources": []
+    }
+  ],
+  "both_derived_base_layers_exact_geometry_attributes_equal": true,
+  "actual_unlabelled_browser_checks_passed": true,
+  "actual_unlabelled_rendered_pngs": {
+    "count": 8,
+    "sha_mismatches": [],
+    "full_maps": 2,
+    "closeups": 6
+  },
+  "handoff_instructions": {
+    "no_visible_text_final_target": true,
+    "continued_art_candidate_boundary": true,
+    "unfinished_POI_boundary": true,
+    "source_canon_boundary": true,
+    "operational_flags_warning": true,
+    "no_claimed_other_machine_cold_start": true,
+    "unfinished_never_operational_stations": true
+  },
+  "errors": [],
+  "passed": true,
+  "elapsed_seconds": 89.422
+}

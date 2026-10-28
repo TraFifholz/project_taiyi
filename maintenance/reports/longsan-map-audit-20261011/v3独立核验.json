@@ -1,0 +1,1614 @@
+{
+  "inputs_before": {
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-基础底图.svg": {
+      "sha256": "351934eeee2c00e3461135bf1879cb1261eb37ac619d239a14406f04dc7a3deb",
+      "bytes": 25964379,
+      "mtime": 1791731903.1857991
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-底图与地铁.svg": {
+      "sha256": "9b2baae3639b557495be820c44c3c7c95d855add3b222e8e2d7a0c3967bd9da8",
+      "bytes": 26026612,
+      "mtime": 1791731903.2562244
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\地图坐标与线路.json": {
+      "sha256": "f95cf5e2eeb0f1af4e05886dfff7000537dc07212bb9bc3e30a4922d71f814cc",
+      "bytes": 128739,
+      "mtime": 1791731903.3830287
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-基础底图.svg": {
+      "sha256": "393229f3113829377e09cd614f70cb85b5e9343595f0dcd6e19457b243c0ce16",
+      "bytes": 24010365,
+      "mtime": 1791769810.8576934
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "394c7f93ff9a5959792112b32101fc763170f37e6d04aecc88c3db56d360e4e3",
+      "bytes": 24072592,
+      "mtime": 1791769810.932229
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\地图坐标与线路.json": {
+      "sha256": "ac6c4716c17dad3f4087e73caed33af40f6a6750eab102f589f50bea483c0deb",
+      "bytes": 137579,
+      "mtime": 1791769811.2375557
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\地理骨架.geojson": {
+      "sha256": "db6cd9922279008e6996fc9634fcd407a8ec08508b1e06dd7d1262c6741d55d4",
+      "bytes": 578552,
+      "mtime": 1791769811.2848785
+    },
+    "temp\\longsan-map-qa-v3\\fabric.pickle": {
+      "sha256": "fa3d443aaae6bf376310ce081441689acb67f53c2edb8c372dcff00914603f0c",
+      "bytes": 16005817,
+      "mtime": 1791769793.0701604
+    }
+  },
+  "basis": "actual exported SVG/JSON/GeoJSON, source route tables; cache only for block pattern provenance",
+  "extent_svg": "0 0 4800 3600",
+  "extent_json": [
+    48,
+    36
+  ],
+  "named_stations": 66,
+  "named_segments": 80,
+  "interchanges": 19,
+  "actual_svg_station_records_same_as_v2": true,
+  "actual_svg_segment_paths_same_as_v2": true,
+  "actual_unnamed_planned_markers_same_as_v2": true,
+  "actual_unnamed_planned_marker_count": 3,
+  "actual_two_svg_base_layers_exact": true,
+  "actual_water_path_same_as_v2": true,
+  "json_preservation": {
+    "stations": true,
+    "routes": true,
+    "segments": true,
+    "planned_unnamed_stations": true
+  },
+  "geo_preservation": {
+    "楚江主河与河汊": true,
+    "河中洲": true,
+    "全部水体": true
+  },
+  "source_table_edges_missing": [],
+  "source_table_edges_extra": [],
+  "station_water_errors": [],
+  "source_conflicts_retained": [
+    {
+      "topic": "楚岸、西岸地标",
+      "adopted": "楚岸核心、楚风传媒、引资银行在楚江西岸；采用用户明确裁决。",
+      "basis": "user"
+    },
+    {
+      "topic": "水系与站距",
+      "adopted": "原图只供站序、换乘及粗略岸别；岸线、岛形与公里站位为新设计。",
+      "basis": "user"
+    },
+    {
+      "topic": "深中相关设施",
+      "adopted": "财经大学、沙尾、奥体中心、枫湾、楚江西路和燧明园均采用设定稿的岛上归属，产生相应跨江区间。",
+      "basis": "setting; diagram conflicts recorded"
+    },
+    {
+      "topic": "北岭跨江",
+      "adopted": "湖区、云鲤路等西岸站群保留原图岸别，东岸天街、长乐街和北岭站形成对岸片区；不绘未统一的正式区界。",
+      "basis": "diagram; district text differs"
+    },
+    {
+      "topic": "楚江广场与醒钟",
+      "adopted": "保留原图东岸桥头位置；楚江广场属于跨江桥头，醒钟的文星区归属仍待统一。",
+      "basis": "diagram; district text differs"
+    },
+    {
+      "topic": "骑楼街、海关旧址、江湾",
+      "adopted": "骑楼街与海关保留原图西岸，海关在江湾以北；江湾保留岛上位置。区名与部分站表冲突在此保留，不擅改原稿。",
+      "basis": "diagram"
+    },
+    {
+      "topic": "旧城区和故城区",
+      "adopted": "分别标示；旧城区塌陷区域位于铁铺以南、龙门吊路东北、船政学堂以东。主体阶段不画塌陷边界。",
+      "basis": "user"
+    },
+    {
+      "topic": "街坊和场地",
+      "adopted": "功能决定街坊与建筑占地；平地采用稳定正交网格，曲线用于地形、滨江和既有主路转弯。",
+      "basis": "user; reference atlas"
+    },
+    {
+      "topic": "停用站和塌陷区域",
+      "adopted": "继承三个站的停用状态；故城中心停用站与塌陷区域的因果关系留待源设定统一。撤销 v2 的灰区面积、边界和隔离墙解释。",
+      "basis": "user"
+    },
+    {
+      "topic": "面积与园区道路",
+      "adopted": "大学完整地块 500 亩，科技园完整地块 300 亩。科技园同面积地块向南平移 70 m，深中大道从西侧、南侧绕行；不以道路扣除前面积冒充可用地块面积。塌陷区面积未定。",
+      "basis": "setting + current design"
+    },
+    {
+      "topic": "v2 模型沿用范围",
+      "adopted": "水系、江心洲、站点、线路区间保持原公里几何；重建城市建筑与公共空间，恢复原误置灰区内的街道。学府大道从校园东边绕行；传媒与银行落在西岸邻近完整地块。",
+      "basis": "user"
+    }
+  ],
+  "grey_drawn_marker_attributes": [],
+  "obsolete_grey_decision_descriptions": [],
+  "piers_water_land": [
+    {
+      "center_km": [
+        27.999999999999996,
+        30.845
+      ],
+      "water_m2": 2759.31805558995,
+      "land_m2": 760.6819444098074
+    },
+    {
+      "center_km": [
+        30.199999999999996,
+        31.192740000000004
+      ],
+      "water_m2": 2749.966693226895,
+      "land_m2": 770.0333067728624
+    },
+    {
+      "center_km": [
+        33.300000000000004,
+        31.21575
+      ],
+      "water_m2": 2750.02132862754,
+      "land_m2": 769.9786713722178
+    },
+    {
+      "center_km": [
+        35.0,
+        31.19231
+      ],
+      "water_m2": 2749.99318761283,
+      "land_m2": 770.0068123857907
+    },
+    {
+      "center_km": [
+        39.2,
+        30.41024
+      ],
+      "water_m2": 2749.9043617795173,
+      "land_m2": 770.0956382202403
+    }
+  ],
+  "river_inner_domain_50m_components_for_trials": [
+    0,
+    0,
+    0
+  ],
+  "river_inner_domain_50m_trials": [
+    [
+      24.2,
+      3.0
+    ],
+    [
+      24.3,
+      29.55
+    ],
+    [
+      34.0,
+      32.0
+    ]
+  ],
+  "building_count": 53482,
+  "roof_detail_count": 299,
+  "building_water_errors": [],
+  "overlapping_roofs_over_1m2": [],
+  "road_building_overlap_over_1m2": [],
+  "path_building_overlap_over_1m2": [],
+  "site_measurements": [
+    {
+      "name": "龙散大学",
+      "kind": "university",
+      "design_plot_km2": 0.3333333333333341,
+      "actual_site_ground_km2": 0.3333359999999997,
+      "footprints": 30,
+      "roof_area_km2": 0.03682486399999957,
+      "station_distance_m": 34.44444444444272
+    },
+    {
+      "name": "燧明科技园",
+      "kind": "research",
+      "design_plot_km2": 0.1999999999999993,
+      "actual_site_ground_km2": 0.1999999999999993,
+      "footprints": 9,
+      "roof_area_km2": 0.026103999999998944,
+      "station_distance_m": null
+    },
+    {
+      "name": "财经政法大学",
+      "kind": "university-new",
+      "design_plot_km2": 0.3389025115109051,
+      "actual_site_ground_km2": 0.33890399040000047,
+      "footprints": 3,
+      "roof_area_km2": 0.013862720000001482,
+      "station_distance_m": null
+    },
+    {
+      "name": "楚风中心",
+      "kind": "headquarters",
+      "design_plot_km2": 0.06479999999999995,
+      "actual_site_ground_km2": 0.06479999999999995,
+      "footprints": 1,
+      "roof_area_km2": 0.010786500000000379,
+      "station_distance_m": null
+    },
+    {
+      "name": "引资银行",
+      "kind": "bank",
+      "design_plot_km2": 0.07039520910304616,
+      "actual_site_ground_km2": 0.0703952203999997,
+      "footprints": 4,
+      "roof_area_km2": 0.01282000000000014,
+      "station_distance_m": 165.5294535724673
+    },
+    {
+      "name": "云梦科技总部",
+      "kind": "headquarters",
+      "design_plot_km2": 0.07840000000000064,
+      "actual_site_ground_km2": 0.07840000000000064,
+      "footprints": 1,
+      "roof_area_km2": 0.010786500000000379,
+      "station_distance_m": null
+    },
+    {
+      "name": "燧明集团总部",
+      "kind": "headquarters",
+      "design_plot_km2": 0.03500000000000014,
+      "actual_site_ground_km2": 0.03500000000000014,
+      "footprints": 1,
+      "roof_area_km2": 0.006810299999999911,
+      "station_distance_m": null
+    },
+    {
+      "name": "奥体中心",
+      "kind": "sports",
+      "design_plot_km2": 0.37149191101569784,
+      "actual_site_ground_km2": 0.3714916594999994,
+      "footprints": 2,
+      "roof_area_km2": 0.01770932700000009,
+      "station_distance_m": 0.0
+    },
+    {
+      "name": "楚钢旧厂区",
+      "kind": "factory",
+      "design_plot_km2": 2.1440995640536,
+      "actual_site_ground_km2": 2.144100750000001,
+      "footprints": 7,
+      "roof_area_km2": 0.17135499999999895,
+      "station_distance_m": null
+    },
+    {
+      "name": "铁山机车厂",
+      "kind": "factory",
+      "design_plot_km2": 1.8826414258588298,
+      "actual_site_ground_km2": 1.8826437500000053,
+      "footprints": 8,
+      "roof_area_km2": 0.1751250000000012,
+      "station_distance_m": null
+    },
+    {
+      "name": "重黎工业遗迹群",
+      "kind": "factory-legacy",
+      "design_plot_km2": 2.2164999999999955,
+      "actual_site_ground_km2": 2.2164999999999955,
+      "footprints": 13,
+      "roof_area_km2": 0.2983199999999963,
+      "station_distance_m": null
+    },
+    {
+      "name": "龙散火车站",
+      "kind": "station",
+      "design_plot_km2": 0.20137395527668508,
+      "actual_site_ground_km2": 0.20137464140000172,
+      "footprints": 2,
+      "roof_area_km2": 0.017596006399999288,
+      "station_distance_m": 43.17302571897905
+    },
+    {
+      "name": "龙散东站",
+      "kind": "station",
+      "design_plot_km2": 0.283768613121981,
+      "actual_site_ground_km2": 0.28376989999999946,
+      "footprints": 1,
+      "roof_area_km2": 0.012187369599999446,
+      "station_distance_m": 60.00000000000228
+    },
+    {
+      "name": "船政学堂",
+      "kind": "academy",
+      "design_plot_km2": 0.11020000000000074,
+      "actual_site_ground_km2": 0.11020000000000074,
+      "footprints": 1,
+      "roof_area_km2": 0.00380999999999966,
+      "station_distance_m": 79.9999999999983
+    },
+    {
+      "name": "楚墓博物馆",
+      "kind": "museum",
+      "design_plot_km2": 0.11612766239911063,
+      "actual_site_ground_km2": 0.11612760954999984,
+      "footprints": 1,
+      "roof_area_km2": 0.010439999999999883,
+      "station_distance_m": 13.983136386872008
+    },
+    {
+      "name": "龙翔天街",
+      "kind": "retail",
+      "design_plot_km2": 0.11757507231500267,
+      "actual_site_ground_km2": 0.11757480000000003,
+      "footprints": 2,
+      "roof_area_km2": 0.012600000000000094,
+      "station_distance_m": 59.99999999999961
+    },
+    {
+      "name": "文侯庙",
+      "kind": "temple",
+      "design_plot_km2": 0.046136843938745536,
+      "actual_site_ground_km2": 0.046136731900000436,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": 50.45441470007589
+    },
+    {
+      "name": "长乐街",
+      "kind": "historic-street",
+      "design_plot_km2": 0.14988960244079239,
+      "actual_site_ground_km2": 0.14989232260000018,
+      "footprints": 36,
+      "roof_area_km2": 0.028159000000000746,
+      "station_distance_m": 22.592440340903718
+    },
+    {
+      "name": "云鲤互娱旧厂",
+      "kind": "creative",
+      "design_plot_km2": 0.12390191715451293,
+      "actual_site_ground_km2": 0.12390390000000065,
+      "footprints": 2,
+      "roof_area_km2": 0.020424000000000695,
+      "station_distance_m": null
+    },
+    {
+      "name": "影视基地",
+      "kind": "studios",
+      "design_plot_km2": 0.5352388556351748,
+      "actual_site_ground_km2": 0.5352353999999959,
+      "footprints": 9,
+      "roof_area_km2": 0.09190800000000263,
+      "station_distance_m": 53.40200559627464
+    },
+    {
+      "name": "文星科研组团",
+      "kind": "research-quarter",
+      "design_plot_km2": 0.32400000000000023,
+      "actual_site_ground_km2": 0.32400000000000023,
+      "footprints": 9,
+      "roof_area_km2": 0.02610399999999993,
+      "station_distance_m": null
+    },
+    {
+      "name": "望津旧港街坊",
+      "kind": "port-historic",
+      "design_plot_km2": 0.5931787441896137,
+      "actual_site_ground_km2": 0.5931784311000003,
+      "footprints": 54,
+      "roof_area_km2": 0.07379299999999941,
+      "station_distance_m": null
+    },
+    {
+      "name": "楚江广场",
+      "kind": "civic-square",
+      "design_plot_km2": 0.030119077090940905,
+      "actual_site_ground_km2": 0.030118424749999886,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": 22.317076339637495
+    },
+    {
+      "name": "醒钟广场",
+      "kind": "civic-square",
+      "design_plot_km2": 0.10075955465741077,
+      "actual_site_ground_km2": 0.10075913659999917,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": 22.410248760669308
+    },
+    {
+      "name": "工运广场",
+      "kind": "civic-square",
+      "design_plot_km2": 0.08409999999999951,
+      "actual_site_ground_km2": 0.08409999999999951,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": 0.0
+    },
+    {
+      "name": "开埠广场",
+      "kind": "civic-square",
+      "design_plot_km2": 0.08952119517126768,
+      "actual_site_ground_km2": 0.08952137629999908,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": 0.0
+    },
+    {
+      "name": "龙散国际机场",
+      "kind": "airport",
+      "design_plot_km2": 8.610000000000003,
+      "actual_site_ground_km2": null,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": null
+    },
+    {
+      "name": "集装箱作业区 1",
+      "kind": "port",
+      "design_plot_km2": 4.620000000000009,
+      "actual_site_ground_km2": null,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": null
+    },
+    {
+      "name": "集装箱作业区 2",
+      "kind": "port",
+      "design_plot_km2": 1.9760782826290397,
+      "actual_site_ground_km2": null,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": null
+    }
+  ],
+  "institute_buildings": 15,
+  "old_city_identical_pattern_runs": [
+    {
+      "y_km": 22.8375,
+      "first_x_km": 33.050000000000004,
+      "blocks": 7,
+      "pattern": "slab-garden",
+      "ids": [
+        1945,
+        1981,
+        2017,
+        2052,
+        2088,
+        2124,
+        2159
+      ]
+    },
+    {
+      "y_km": 23.9625,
+      "first_x_km": 33.330000000000005,
+      "blocks": 5,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1986,
+        2022,
+        2057,
+        2093,
+        2129
+      ]
+    },
+    {
+      "y_km": 23.7375,
+      "first_x_km": 35.01000000000001,
+      "blocks": 5,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2197,
+        2230,
+        2266,
+        2298,
+        2331
+      ]
+    },
+    {
+      "y_km": 26.8875,
+      "first_x_km": 34.17000000000001,
+      "blocks": 5,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2108,
+        2143,
+        2178,
+        2211,
+        2246
+      ]
+    },
+    {
+      "y_km": 20.595,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        1774,
+        1773,
+        1772,
+        1771
+      ]
+    },
+    {
+      "y_km": 20.595,
+      "first_x_km": 34.17000000000001,
+      "blocks": 4,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1770,
+        1769,
+        1768,
+        1767
+      ]
+    },
+    {
+      "y_km": 27.5625,
+      "first_x_km": 32.21,
+      "blocks": 4,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1881,
+        1912,
+        1938,
+        1968
+      ]
+    },
+    {
+      "y_km": 28.0125,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        1970,
+        2006,
+        2041,
+        2077
+      ]
+    },
+    {
+      "y_km": 27.3375,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1967,
+        2003,
+        2038,
+        2074
+      ]
+    },
+    {
+      "y_km": 27.3375,
+      "first_x_km": 35.01000000000001,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        2213,
+        2248,
+        2282,
+        2315
+      ]
+    },
+    {
+      "y_km": 25.9875,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1960,
+        1996,
+        2032,
+        2067
+      ]
+    },
+    {
+      "y_km": 25.9875,
+      "first_x_km": 36.69000000000002,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        2409,
+        2438,
+        2463,
+        1727
+      ]
+    },
+    {
+      "y_km": 25.5375,
+      "first_x_km": 33.330000000000005,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        1994,
+        2030,
+        2065,
+        2101
+      ]
+    },
+    {
+      "y_km": 25.5375,
+      "first_x_km": 36.69000000000002,
+      "blocks": 4,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2407,
+        2436,
+        2461,
+        2481
+      ]
+    },
+    {
+      "y_km": 22.1625,
+      "first_x_km": 36.69000000000002,
+      "blocks": 4,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2391,
+        2420,
+        2445,
+        2465
+      ]
+    },
+    {
+      "y_km": 21.7125,
+      "first_x_km": 35.01000000000001,
+      "blocks": 4,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2188,
+        2221,
+        2255,
+        2288
+      ]
+    },
+    {
+      "y_km": 21.7125,
+      "first_x_km": 36.69000000000002,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        2389,
+        2418,
+        2443,
+        1753
+      ]
+    },
+    {
+      "y_km": 23.9625,
+      "first_x_km": 36.69000000000002,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        2399,
+        2428,
+        2453,
+        2473
+      ]
+    },
+    {
+      "y_km": 24.6375,
+      "first_x_km": 32.21,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        1867,
+        1898,
+        1924,
+        1954
+      ]
+    },
+    {
+      "y_km": 24.6375,
+      "first_x_km": 36.69000000000002,
+      "blocks": 4,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2403,
+        2432,
+        2457,
+        2477
+      ]
+    },
+    {
+      "y_km": 24.8625,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1955,
+        1991,
+        2027,
+        2062
+      ]
+    },
+    {
+      "y_km": 24.8625,
+      "first_x_km": 36.69000000000002,
+      "blocks": 4,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2404,
+        2433,
+        2458,
+        2478
+      ]
+    },
+    {
+      "y_km": 25.7625,
+      "first_x_km": 35.01000000000001,
+      "blocks": 4,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2206,
+        2241,
+        2275,
+        2307
+      ]
+    },
+    {
+      "y_km": 23.7375,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1949,
+        1985,
+        2021,
+        2056
+      ]
+    },
+    {
+      "y_km": 26.6625,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1964,
+        2000,
+        2035,
+        2071
+      ]
+    },
+    {
+      "y_km": 26.8875,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1965,
+        2001,
+        2036,
+        2072
+      ]
+    },
+    {
+      "y_km": 23.5125,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        1948,
+        1984,
+        2020,
+        2055
+      ]
+    },
+    {
+      "y_km": 23.2875,
+      "first_x_km": 33.050000000000004,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        1947,
+        1983,
+        2019,
+        2054
+      ]
+    },
+    {
+      "y_km": 20.8125,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2079,
+        2115,
+        2150
+      ]
+    },
+    {
+      "y_km": 20.8125,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2184,
+        2217,
+        2251
+      ]
+    },
+    {
+      "y_km": 21.0375,
+      "first_x_km": 31.370000000000005,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1667,
+        1801,
+        1824
+      ]
+    },
+    {
+      "y_km": 21.0375,
+      "first_x_km": 33.330000000000005,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1973,
+        2009,
+        2044
+      ]
+    },
+    {
+      "y_km": 21.0375,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2080,
+        2116,
+        2151
+      ]
+    },
+    {
+      "y_km": 21.0375,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2185,
+        2218,
+        2252
+      ]
+    },
+    {
+      "y_km": 27.5625,
+      "first_x_km": 33.330000000000005,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2004,
+        2039,
+        2075
+      ]
+    },
+    {
+      "y_km": 27.5625,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2111,
+        2146,
+        2181
+      ]
+    },
+    {
+      "y_km": 28.0125,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1696,
+        1914,
+        1940
+      ]
+    },
+    {
+      "y_km": 28.0125,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2113,
+        2148,
+        2183
+      ]
+    },
+    {
+      "y_km": 28.2375,
+      "first_x_km": 33.61000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2042,
+        2078,
+        2114
+      ]
+    },
+    {
+      "y_km": 27.7875,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1882,
+        1913,
+        1939
+      ]
+    },
+    {
+      "y_km": 27.7875,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2112,
+        2147,
+        2182
+      ]
+    },
+    {
+      "y_km": 27.3375,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1880,
+        1911,
+        1937
+      ]
+    },
+    {
+      "y_km": 27.3375,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2110,
+        2145,
+        2180
+      ]
+    },
+    {
+      "y_km": 26.4375,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1876,
+        1907,
+        1933
+      ]
+    },
+    {
+      "y_km": 26.4375,
+      "first_x_km": 36.69000000000002,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2411,
+        2440,
+        1724
+      ]
+    },
+    {
+      "y_km": 26.2125,
+      "first_x_km": 31.650000000000006,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1822,
+        1846,
+        1875
+      ]
+    },
+    {
+      "y_km": 26.2125,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2104,
+        2139,
+        2174
+      ]
+    },
+    {
+      "y_km": 26.2125,
+      "first_x_km": 36.69000000000002,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2410,
+        2439,
+        1725
+      ]
+    },
+    {
+      "y_km": 25.5375,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2205,
+        2240,
+        2274
+      ]
+    },
+    {
+      "y_km": 25.5375,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2306,
+        2339,
+        2376
+      ]
+    },
+    {
+      "y_km": 25.0875,
+      "first_x_km": 31.650000000000006,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1817,
+        1840,
+        1869
+      ]
+    },
+    {
+      "y_km": 25.0875,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2099,
+        2134,
+        2169
+      ]
+    },
+    {
+      "y_km": 22.1625,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2190,
+        2223,
+        2257
+      ]
+    },
+    {
+      "y_km": 21.7125,
+      "first_x_km": 33.330000000000005,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1976,
+        2012,
+        2047
+      ]
+    },
+    {
+      "y_km": 21.7125,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2083,
+        2119,
+        2154
+      ]
+    },
+    {
+      "y_km": 21.4875,
+      "first_x_km": 31.370000000000005,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1798,
+        1803,
+        1826
+      ]
+    },
+    {
+      "y_km": 21.4875,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2082,
+        2118,
+        2153
+      ]
+    },
+    {
+      "y_km": 21.4875,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2187,
+        2220,
+        2254
+      ]
+    },
+    {
+      "y_km": 21.4875,
+      "first_x_km": 36.69000000000002,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2388,
+        2417,
+        1755
+      ]
+    },
+    {
+      "y_km": 21.2625,
+      "first_x_km": 31.370000000000005,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1797,
+        1802,
+        1825
+      ]
+    },
+    {
+      "y_km": 21.9375,
+      "first_x_km": 33.330000000000005,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1977,
+        2013,
+        2048
+      ]
+    },
+    {
+      "y_km": 21.9375,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2084,
+        2120,
+        2155
+      ]
+    },
+    {
+      "y_km": 21.9375,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2289,
+        2321,
+        2358
+      ]
+    },
+    {
+      "y_km": 22.3875,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2086,
+        2122,
+        2157
+      ]
+    },
+    {
+      "y_km": 23.0625,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2089,
+        2125,
+        2160
+      ]
+    },
+    {
+      "y_km": 23.0625,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2294,
+        2328,
+        2364
+      ]
+    },
+    {
+      "y_km": 23.0625,
+      "first_x_km": 37.53000000000002,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2469,
+        2486,
+        2498
+      ]
+    },
+    {
+      "y_km": 23.9625,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2299,
+        2332,
+        2368
+      ]
+    },
+    {
+      "y_km": 24.6375,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2097,
+        2132,
+        2167
+      ]
+    },
+    {
+      "y_km": 24.6375,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2201,
+        2236,
+        2270
+      ]
+    },
+    {
+      "y_km": 24.6375,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2302,
+        2335,
+        2372
+      ]
+    },
+    {
+      "y_km": 24.8625,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2202,
+        2237,
+        2271
+      ]
+    },
+    {
+      "y_km": 24.8625,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2303,
+        2336,
+        2373
+      ]
+    },
+    {
+      "y_km": 25.3125,
+      "first_x_km": 33.330000000000005,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1993,
+        2029,
+        2064
+      ]
+    },
+    {
+      "y_km": 25.3125,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2100,
+        2135,
+        2170
+      ]
+    },
+    {
+      "y_km": 25.3125,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        2204,
+        2239,
+        2273
+      ]
+    },
+    {
+      "y_km": 25.3125,
+      "first_x_km": 36.69000000000002,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2406,
+        2435,
+        2460
+      ]
+    },
+    {
+      "y_km": 25.7625,
+      "first_x_km": 36.69000000000002,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2408,
+        2437,
+        2462
+      ]
+    },
+    {
+      "y_km": 23.7375,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2092,
+        2128,
+        2163
+      ]
+    },
+    {
+      "y_km": 26.6625,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1877,
+        1908,
+        1934
+      ]
+    },
+    {
+      "y_km": 26.8875,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1878,
+        1909,
+        1935
+      ]
+    },
+    {
+      "y_km": 27.1125,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        1879,
+        1910,
+        1936
+      ]
+    },
+    {
+      "y_km": 27.1125,
+      "first_x_km": 35.29000000000001,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2247,
+        2281,
+        2314
+      ]
+    },
+    {
+      "y_km": 23.5125,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1861,
+        1892,
+        1918
+      ]
+    },
+    {
+      "y_km": 23.5125,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2297,
+        2330,
+        2366
+      ]
+    },
+    {
+      "y_km": 23.2875,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2090,
+        2126,
+        2161
+      ]
+    },
+    {
+      "y_km": 24.4125,
+      "first_x_km": 35.850000000000016,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        2301,
+        2334,
+        2371
+      ]
+    }
+  ],
+  "total_old_city_blocks": 870,
+  "old_city_unique_layout_signatures": 106,
+  "old_city_identical_roof_layout_runs": [
+    {
+      "center_y_km": 26.8875,
+      "first_x_km": 34.17000000000001,
+      "blocks": 4,
+      "ids": [
+        2108,
+        2143,
+        2178,
+        2211
+      ]
+    },
+    {
+      "center_y_km": 22.8375,
+      "first_x_km": 33.89000000000001,
+      "blocks": 3,
+      "ids": [
+        2052,
+        2088,
+        2124
+      ]
+    },
+    {
+      "center_y_km": 24.6375,
+      "first_x_km": 32.21,
+      "blocks": 3,
+      "ids": [
+        1867,
+        1898,
+        1924
+      ]
+    },
+    {
+      "center_y_km": 24.6375,
+      "first_x_km": 34.17000000000001,
+      "blocks": 3,
+      "ids": [
+        2097,
+        2132,
+        2167
+      ]
+    },
+    {
+      "center_y_km": 24.6375,
+      "first_x_km": 35.01000000000001,
+      "blocks": 3,
+      "ids": [
+        2201,
+        2236,
+        2270
+      ]
+    }
+  ],
+  "empty_residential_blocks_over_25000m2": [],
+  "rectangular_residential_blocks_with_less_than_two_roofs": [],
+  "generator_validation_read": false,
+  "inputs_after": {
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-基础底图.svg": {
+      "sha256": "351934eeee2c00e3461135bf1879cb1261eb37ac619d239a14406f04dc7a3deb",
+      "bytes": 25964379,
+      "mtime": 1791731903.1857991
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-底图与地铁.svg": {
+      "sha256": "9b2baae3639b557495be820c44c3c7c95d855add3b222e8e2d7a0c3967bd9da8",
+      "bytes": 26026612,
+      "mtime": 1791731903.2562244
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\地图坐标与线路.json": {
+      "sha256": "f95cf5e2eeb0f1af4e05886dfff7000537dc07212bb9bc3e30a4922d71f814cc",
+      "bytes": 128739,
+      "mtime": 1791731903.3830287
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-基础底图.svg": {
+      "sha256": "393229f3113829377e09cd614f70cb85b5e9343595f0dcd6e19457b243c0ce16",
+      "bytes": 24010365,
+      "mtime": 1791769810.8576934
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "394c7f93ff9a5959792112b32101fc763170f37e6d04aecc88c3db56d360e4e3",
+      "bytes": 24072592,
+      "mtime": 1791769810.932229
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\地图坐标与线路.json": {
+      "sha256": "ac6c4716c17dad3f4087e73caed33af40f6a6750eab102f589f50bea483c0deb",
+      "bytes": 137579,
+      "mtime": 1791769811.2375557
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\地理骨架.geojson": {
+      "sha256": "db6cd9922279008e6996fc9634fcd407a8ec08508b1e06dd7d1262c6741d55d4",
+      "bytes": 578552,
+      "mtime": 1791769811.2848785
+    },
+    "temp\\longsan-map-qa-v3\\fabric.pickle": {
+      "sha256": "fa3d443aaae6bf376310ce081441689acb67f53c2edb8c372dcff00914603f0c",
+      "bytes": 16005817,
+      "mtime": 1791769793.0701604
+    }
+  },
+  "inputs_unchanged_during_audit": true,
+  "independent_review_closure": {
+    "reviewed_at": "2026-10-12T09:58:24.778811+08:00",
+    "existing_defects_passed": true,
+    "final_delivery_accepted": false,
+    "reason": "用户新增的水系地理、城郊设计与城区过渡要求尚未完成，v3保留为已审查中间底稿。",
+    "next_priorities": [
+      "按地形排水、汇流和洪泛低地重塑水系与江心洲",
+      "建立村镇、道路、水渠与农田联系及城市外缘",
+      "以共享干道和混合用途街坊形成城区过渡"
+    ],
+    "visual_reviewed_files": [
+      {
+        "file": "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-全图.png",
+        "sha256": "406bd3a2a7c9aad573bfc2a9527f09eca48692498e7e800231f8d0b9856dc16f",
+        "bytes": 1300705,
+        "mtime": 1791769829.1015403
+      },
+      {
+        "file": "assets\\maps\\longsan-geographic-v3-20261012\\近景\\大学-新.png",
+        "sha256": "b1891954a8189a39015110aa44e2e16956fa04e962486e13ef59b8a9a0f92e19",
+        "bytes": 119530,
+        "mtime": 1791769833.875728
+      },
+      {
+        "file": "assets\\maps\\longsan-geographic-v3-20261012\\近景\\深中-新.png",
+        "sha256": "ba953f4ac8764643c49a967ef7e71f18c486bf04508c97c14ed72fbf9662bc44",
+        "bytes": 84914,
+        "mtime": 1791769834.2808802
+      },
+      {
+        "file": "assets\\maps\\longsan-geographic-v3-20261012\\近景\\银行-新.png",
+        "sha256": "e27696b4e1ae2f3913184a3285872ec08c16e9455f9fe0aedb18692f280e7e8a",
+        "bytes": 92323,
+        "mtime": 1791769833.6893947
+      },
+      {
+        "file": "assets\\maps\\longsan-geographic-v3-20261012\\近景\\旧城-新.png",
+        "sha256": "d3ee4b50b02f269717a538ea5532dd60f2334104aafcced56496a23f9733e8b3",
+        "bytes": 130280,
+        "mtime": 1791769835.473408
+      }
+    ],
+    "current_files_still_match_audit": {
+      "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-基础底图.svg": true,
+      "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-底图与地铁.svg": true,
+      "assets\\maps\\longsan-geographic-v2-20261011\\地图坐标与线路.json": true,
+      "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-基础底图.svg": true,
+      "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-底图与地铁.svg": true,
+      "assets\\maps\\longsan-geographic-v3-20261012\\地图坐标与线路.json": true,
+      "assets\\maps\\longsan-geographic-v3-20261012\\地理骨架.geojson": true,
+      "temp\\longsan-map-qa-v3\\fabric.pickle": true
+    },
+    "svg_geometry_commands_supported": true,
+    "collision_area_threshold_m2": 1,
+    "source_conflicts_all_unified": false,
+    "report": "v3最终独立复审.md"
+  }
+}

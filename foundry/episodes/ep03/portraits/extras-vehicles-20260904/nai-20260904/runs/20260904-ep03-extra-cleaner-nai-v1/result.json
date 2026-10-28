@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260904-ep03-extra-cleaner-nai-v1",
+  "characterId": "EP03-EXTRA-CLEANER",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "d1c20e",
+  "apiSeed": 1823720714,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "41ab90e1697e9134022dfeb497ef5bff86e86467e88fb73cc9df46f6aef08524",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-04T00:23:17.353Z"
+}

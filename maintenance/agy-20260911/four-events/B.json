@@ -1,0 +1,11 @@
+{
+  "event": "B",
+  "proxy": "http://127.0.0.1:7890",
+  "new_conversation": true,
+  "started_at": "2026-09-11T17:14:58.081011+08:00",
+  "pid": 30264,
+  "exit_code": 0,
+  "conversation_id": "f8c3dd04-72ab-477f-9742-a210c9d39161",
+  "status": "SUCCESS",
+  "ended_at": "2026-09-11T17:17:17.396745+08:00"
+}

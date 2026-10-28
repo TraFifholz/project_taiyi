@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260911-ep04-A-hound",
+  "characterId": "EP04-A-hound",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "b2dcf0",
+  "apiSeed": 11092029,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "6af3c491704316eb6bf579668c014553e0c08b76e4f8de587a2784b65717109f",
+  "width": 1024,
+  "height": 1024,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-11T10:25:09.310Z"
+}

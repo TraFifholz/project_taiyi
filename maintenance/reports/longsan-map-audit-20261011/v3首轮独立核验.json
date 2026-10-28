@@ -1,0 +1,6402 @@
+{
+  "inputs_before": {
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-基础底图.svg": {
+      "sha256": "351934eeee2c00e3461135bf1879cb1261eb37ac619d239a14406f04dc7a3deb",
+      "bytes": 25964379,
+      "mtime": 1791731903.1857991
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-底图与地铁.svg": {
+      "sha256": "9b2baae3639b557495be820c44c3c7c95d855add3b222e8e2d7a0c3967bd9da8",
+      "bytes": 26026612,
+      "mtime": 1791731903.2562244
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\地图坐标与线路.json": {
+      "sha256": "f95cf5e2eeb0f1af4e05886dfff7000537dc07212bb9bc3e30a4922d71f814cc",
+      "bytes": 128739,
+      "mtime": 1791731903.3830287
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-基础底图.svg": {
+      "sha256": "ad685fed855b6f6b836a4566da2eca3c22bd843a32e4d3c39befaa7237700858",
+      "bytes": 24974233,
+      "mtime": 1791768125.982289
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "05417d735c63c1bf61cd2dc48e2a1e91ac19d420d29c4eb8e3fcf1d9554e9ab6",
+      "bytes": 25036460,
+      "mtime": 1791768126.054112
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\地图坐标与线路.json": {
+      "sha256": "1ad5bf365f7f88277280ed0a5021228fea366d6a453e2268e1c7b6c6602a0209",
+      "bytes": 136632,
+      "mtime": 1791768126.3167822
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\地理骨架.geojson": {
+      "sha256": "0c8341963e161ab3ec3e71f7681342c52f0045b68dc47f3a945d818a33501cee",
+      "bytes": 579568,
+      "mtime": 1791768126.3624682
+    },
+    "temp\\longsan-map-qa-v3\\fabric.pickle": {
+      "sha256": "4966e0870536d68a98c26513aaf6a82aa78e09ec9a92c12dc182a572713ed65c",
+      "bytes": 16212380,
+      "mtime": 1791768113.142248
+    }
+  },
+  "basis": "actual exported SVG/JSON/GeoJSON, source route tables; cache only for block pattern provenance",
+  "extent_svg": "0 0 4800 3600",
+  "extent_json": [
+    48,
+    36
+  ],
+  "named_stations": 66,
+  "named_segments": 80,
+  "interchanges": 19,
+  "actual_svg_station_records_same_as_v2": true,
+  "actual_svg_segment_paths_same_as_v2": true,
+  "actual_water_path_same_as_v2": true,
+  "json_preservation": {
+    "stations": true,
+    "routes": true,
+    "segments": true,
+    "planned_unnamed_stations": true
+  },
+  "geo_preservation": {
+    "楚江主河与河汊": true,
+    "河中洲": true,
+    "全部水体": true
+  },
+  "source_table_edges_missing": [],
+  "source_table_edges_extra": [],
+  "station_water_errors": [],
+  "source_conflicts_retained": [
+    {
+      "topic": "楚岸、西岸地标",
+      "adopted": "楚岸核心、楚风传媒、引资银行在楚江西岸；采用用户明确裁决。",
+      "basis": "user"
+    },
+    {
+      "topic": "水系与站距",
+      "adopted": "原图只供站序、换乘及粗略岸别；岸线、岛形与公里站位为新设计。",
+      "basis": "user"
+    },
+    {
+      "topic": "深中相关设施",
+      "adopted": "财经大学、沙尾、奥体中心、枫湾、楚江西路和燧明园均采用设定稿的岛上归属，产生相应跨江区间。",
+      "basis": "setting; diagram conflicts recorded"
+    },
+    {
+      "topic": "北岭跨江",
+      "adopted": "湖区、云鲤路等西岸站群保留原图岸别，东岸天街、长乐街和北岭站形成对岸片区；不绘未统一的正式区界。",
+      "basis": "diagram; district text differs"
+    },
+    {
+      "topic": "楚江广场与醒钟",
+      "adopted": "保留原图东岸桥头位置；楚江广场属于跨江桥头，醒钟的文星区归属仍待统一。",
+      "basis": "diagram; district text differs"
+    },
+    {
+      "topic": "骑楼街、海关旧址、江湾",
+      "adopted": "骑楼街与海关保留原图西岸，海关在江湾以北；江湾保留岛上位置。区名与部分站表冲突在此保留，不擅改原稿。",
+      "basis": "diagram"
+    },
+    {
+      "topic": "楚钢厂区与旧总部",
+      "adopted": "楚钢停用站保留东部厂区；灰区事故遗迹另在故城东北。此图不把总部遗址与远处厂区站强行合为同址。",
+      "basis": "provisional interpretation"
+    },
+    {
+      "topic": "灰区运营",
+      "adopted": "灰区只包故城中心停用站；冷水坪位于隔离墙外望津联络带，L1穿行且不停车。",
+      "basis": "setting"
+    },
+    {
+      "topic": "面积与长度",
+      "adopted": "大学500亩、科技园300亩、灰区3.5平方公里是源约束；其余河宽、建筑、道路、机场和线路实长均为设计尺寸。",
+      "basis": "setting + design"
+    },
+    {
+      "topic": "旧城区和故城区",
+      "adopted": "分别标示；旧城区塌陷区域位于铁铺以南、龙门吊路东北、船政学堂以东。主体阶段不画塌陷边界。",
+      "basis": "user"
+    },
+    {
+      "topic": "街坊和场地",
+      "adopted": "功能决定街坊与建筑占地；平地采用稳定正交网格，曲线用于地形、滨江和既有主路转弯。",
+      "basis": "user; reference atlas"
+    },
+    {
+      "topic": "v2 模型沿用范围",
+      "adopted": "水系、江心洲、站点、线路区间保持原公里几何；重建城市建筑与公共空间，恢复原误置灰区内的街道。学府大道从校园东边绕行；传媒与银行落在西岸邻近完整地块。",
+      "basis": "user"
+    }
+  ],
+  "grey_drawn_marker_attributes": [],
+  "piers_water_land": [
+    {
+      "center_km": [
+        27.999999999999996,
+        30.845
+      ],
+      "water_m2": 2759.31805558995,
+      "land_m2": 760.6819444098074
+    },
+    {
+      "center_km": [
+        30.199999999999996,
+        31.192740000000004
+      ],
+      "water_m2": 2749.966693226895,
+      "land_m2": 770.0333067728624
+    },
+    {
+      "center_km": [
+        33.300000000000004,
+        31.21575
+      ],
+      "water_m2": 2750.02132862754,
+      "land_m2": 769.9786713722178
+    },
+    {
+      "center_km": [
+        35.0,
+        31.19231
+      ],
+      "water_m2": 2749.99318761283,
+      "land_m2": 770.0068123857907
+    },
+    {
+      "center_km": [
+        39.2,
+        30.41024
+      ],
+      "water_m2": 2749.9043617795173,
+      "land_m2": 770.0956382202403
+    }
+  ],
+  "river_inner_domain_50m_components_for_trials": [
+    0,
+    0,
+    0
+  ],
+  "river_inner_domain_50m_trials": [
+    [
+      24.2,
+      3.0
+    ],
+    [
+      24.3,
+      29.55
+    ],
+    [
+      34.0,
+      32.0
+    ]
+  ],
+  "building_count": 58230,
+  "roof_detail_count": 296,
+  "building_water_errors": [],
+  "overlapping_roofs_over_1m2": [],
+  "road_building_overlap_over_1m2": [
+    {
+      "name": "故城老街",
+      "building": 338,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 73.49999999994961,
+      "building_bounds_km": [
+        26.6235,
+        20.0,
+        26.644499999999997,
+        20.014
+      ],
+      "building_center_km": [
+        26.634,
+        20.006999999999998
+      ],
+      "collision_center_km": [
+        26.641875,
+        20.007
+      ],
+      "block": "29"
+    },
+    {
+      "name": "故城老街",
+      "building": 1208,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 77.99999999992598,
+      "building_bounds_km": [
+        27.089499999999997,
+        25.043000000000003,
+        27.104499999999998,
+        25.066999999999997
+      ],
+      "building_center_km": [
+        27.096999999999994,
+        25.055
+      ],
+      "collision_center_km": [
+        27.102874999999997,
+        25.055
+      ],
+      "block": "98"
+    },
+    {
+      "name": "故城老街",
+      "building": 487,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.00000000003433,
+      "building_bounds_km": [
+        27.3975,
+        26.845,
+        27.4125,
+        26.869
+      ],
+      "building_center_km": [
+        27.405,
+        26.857000000000003
+      ],
+      "collision_center_km": [
+        27.410874999999994,
+        26.857000000000003
+      ],
+      "block": "41"
+    },
+    {
+      "name": "故城老街",
+      "building": 509,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 73.49999999994961,
+      "building_bounds_km": [
+        27.3935,
+        26.92,
+        27.414499999999997,
+        26.934
+      ],
+      "building_center_km": [
+        27.403999999999996,
+        26.926999999999996
+      ],
+      "collision_center_km": [
+        27.411875,
+        26.927
+      ],
+      "block": "41"
+    },
+    {
+      "name": "故城老街",
+      "building": 1170,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 73.49999999999935,
+      "building_bounds_km": [
+        27.7015,
+        25.03,
+        27.7225,
+        25.044
+      ],
+      "building_center_km": [
+        27.712,
+        25.037
+      ],
+      "collision_center_km": [
+        27.719875000000002,
+        25.037
+      ],
+      "block": "95"
+    },
+    {
+      "name": "故城老街",
+      "building": 1135,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 131.99999999995316,
+      "building_bounds_km": [
+        28.021900000000002,
+        24.791,
+        28.0369,
+        24.815
+      ],
+      "building_center_km": [
+        28.029400000000003,
+        24.803
+      ],
+      "collision_center_km": [
+        28.028000000000002,
+        24.803000000000004
+      ],
+      "block": "94"
+    },
+    {
+      "name": "故城老街",
+      "building": 1104,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 38.92000000002678,
+      "building_bounds_km": [
+        28.64397,
+        24.031999999999996,
+        28.664969999999997,
+        24.046
+      ],
+      "building_center_km": [
+        28.654469999999996,
+        24.038999999999998
+      ],
+      "collision_center_km": [
+        28.645360000000004,
+        24.038999999999998
+      ],
+      "block": "91"
+    },
+    {
+      "name": "故城老街",
+      "building": 518,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 131.99999999995316,
+      "building_bounds_km": [
+        28.789499999999997,
+        26.845,
+        28.804499999999997,
+        26.869
+      ],
+      "building_center_km": [
+        28.796999999999993,
+        26.857000000000003
+      ],
+      "collision_center_km": [
+        28.798,
+        26.857
+      ],
+      "block": "45"
+    },
+    {
+      "name": "故城老街",
+      "building": 540,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 76.99999999996616,
+      "building_bounds_km": [
+        28.785500000000003,
+        26.885,
+        28.8065,
+        26.899
+      ],
+      "building_center_km": [
+        28.796,
+        26.892000000000003
+      ],
+      "collision_center_km": [
+        28.798000000000002,
+        26.892000000000003
+      ],
+      "block": "45"
+    },
+    {
+      "name": "故城老街",
+      "building": 527,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 77.99999999994907,
+      "building_bounds_km": [
+        28.9515,
+        26.845,
+        28.9665,
+        26.869
+      ],
+      "building_center_km": [
+        28.959000000000003,
+        26.857000000000003
+      ],
+      "collision_center_km": [
+        28.953124999999996,
+        26.857
+      ],
+      "block": "45"
+    },
+    {
+      "name": "故城老街",
+      "building": 546,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 76.99999999996616,
+      "building_bounds_km": [
+        28.9415,
+        26.885,
+        28.9625,
+        26.899
+      ],
+      "building_center_km": [
+        28.951999999999998,
+        26.892000000000003
+      ],
+      "collision_center_km": [
+        28.951999999999995,
+        26.892000000000003
+      ],
+      "block": "45"
+    },
+    {
+      "name": "故城老街",
+      "building": 884,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 68.1849999998834,
+      "building_bounds_km": [
+        29.3995,
+        20.00602,
+        29.414499999999997,
+        20.027
+      ],
+      "building_center_km": [
+        29.406999999999996,
+        20.01651
+      ],
+      "collision_center_km": [
+        29.412875,
+        20.016509999999997
+      ],
+      "block": "75"
+    },
+    {
+      "name": "故城老街",
+      "building": 876,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 73.500000000018,
+      "building_bounds_km": [
+        29.5495,
+        20.063,
+        29.570500000000003,
+        20.077
+      ],
+      "building_center_km": [
+        29.560000000000002,
+        20.069999999999997
+      ],
+      "collision_center_km": [
+        29.567875,
+        20.07
+      ],
+      "block": "74"
+    },
+    {
+      "name": "故城老街",
+      "building": 865,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 77.99999999993751,
+      "building_bounds_km": [
+        29.5535,
+        20.129,
+        29.5685,
+        20.153
+      ],
+      "building_center_km": [
+        29.560999999999996,
+        20.141
+      ],
+      "collision_center_km": [
+        29.566875,
+        20.141000000000002
+      ],
+      "block": "74"
+    },
+    {
+      "name": "故城老街",
+      "building": 594,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 77.99999999992598,
+      "building_bounds_km": [
+        29.5535,
+        26.593000000000004,
+        29.5685,
+        26.616999999999997
+      ],
+      "building_center_km": [
+        29.560999999999996,
+        26.604999999999997
+      ],
+      "collision_center_km": [
+        29.566875000000007,
+        26.604999999999997
+      ],
+      "block": "49"
+    },
+    {
+      "name": "故城老街",
+      "building": 846,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.00000000003433,
+      "building_bounds_km": [
+        29.8615,
+        20.255,
+        29.8765,
+        20.279
+      ],
+      "building_center_km": [
+        29.868999999999996,
+        20.267000000000003
+      ],
+      "collision_center_km": [
+        29.874875,
+        20.266999999999996
+      ],
+      "block": "73"
+    },
+    {
+      "name": "故城老街",
+      "building": 648,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 73.49999999996827,
+      "building_bounds_km": [
+        30.0115,
+        26.383609999999997,
+        30.0325,
+        26.39761
+      ],
+      "building_center_km": [
+        30.022,
+        26.39061
+      ],
+      "collision_center_km": [
+        30.029875,
+        26.39061
+      ],
+      "block": "51"
+    },
+    {
+      "name": "故城老街",
+      "building": 813,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 77.99999999994907,
+      "building_bounds_km": [
+        30.1695,
+        20.506999999999998,
+        30.1845,
+        20.531
+      ],
+      "building_center_km": [
+        30.177000000000003,
+        20.518999999999995
+      ],
+      "collision_center_km": [
+        30.182875000000003,
+        20.519
+      ],
+      "block": "70"
+    },
+    {
+      "name": "故城老街",
+      "building": 784,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 77.99999999994907,
+      "building_bounds_km": [
+        30.3235,
+        20.759,
+        30.3385,
+        20.783
+      ],
+      "building_center_km": [
+        30.331,
+        20.771
+      ],
+      "collision_center_km": [
+        30.336875,
+        20.770999999999997
+      ],
+      "block": "69"
+    },
+    {
+      "name": "故城老街",
+      "building": 369,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        26.4635,
+        19.90074,
+        26.4785,
+        19.92374
+      ],
+      "building_center_km": [
+        26.470999999999997,
+        19.912239999999997
+      ],
+      "collision_center_km": [
+        26.471,
+        19.908000000000005
+      ],
+      "block": "32"
+    },
+    {
+      "name": "故城老街",
+      "building": 373,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 7.3499999999351875,
+      "building_bounds_km": [
+        26.4635,
+        20.00874,
+        26.4785,
+        20.03174
+      ],
+      "building_center_km": [
+        26.470999999999997,
+        20.02024
+      ],
+      "collision_center_km": [
+        26.471,
+        20.031495
+      ],
+      "block": "32"
+    },
+    {
+      "name": "故城老街",
+      "building": 374,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 15.150000000013227,
+      "building_bounds_km": [
+        26.4635,
+        20.03574,
+        26.4785,
+        20.05874
+      ],
+      "building_center_km": [
+        26.470999999999997,
+        20.047240000000002
+      ],
+      "collision_center_km": [
+        26.471,
+        20.036245
+      ],
+      "block": "32"
+    },
+    {
+      "name": "故城老街",
+      "building": 892,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 75.74999999995956,
+      "building_bounds_km": [
+        29.235500000000002,
+        20.0133,
+        29.250500000000002,
+        20.0363
+      ],
+      "building_center_km": [
+        29.243000000000002,
+        20.0248
+      ],
+      "collision_center_km": [
+        29.243000000000002,
+        20.033775000000002
+      ],
+      "block": "76"
+    },
+    {
+      "name": "故城老街",
+      "building": 378,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        26.4635,
+        20.14374,
+        26.4785,
+        20.16674
+      ],
+      "building_center_km": [
+        26.470999999999997,
+        20.155240000000003
+      ],
+      "collision_center_km": [
+        26.471,
+        20.159999999999997
+      ],
+      "block": "32"
+    },
+    {
+      "name": "故城老街",
+      "building": 908,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 87.15000000000146,
+      "building_bounds_km": [
+        29.16247,
+        20.1474,
+        29.183470000000003,
+        20.1614
+      ],
+      "building_center_km": [
+        29.17297,
+        20.1544
+      ],
+      "collision_center_km": [
+        29.17297,
+        20.159325000000003
+      ],
+      "block": "76"
+    },
+    {
+      "name": "故城老街",
+      "building": 909,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 87.14999999997197,
+      "building_bounds_km": [
+        29.188470000000002,
+        20.1474,
+        29.20947,
+        20.1614
+      ],
+      "building_center_km": [
+        29.198970000000003,
+        20.154400000000003
+      ],
+      "collision_center_km": [
+        29.19897,
+        20.159325000000003
+      ],
+      "block": "76"
+    },
+    {
+      "name": "故城老街",
+      "building": 897,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        29.235500000000002,
+        20.1483,
+        29.250500000000002,
+        20.171300000000002
+      ],
+      "building_center_km": [
+        29.243,
+        20.159799999999997
+      ],
+      "collision_center_km": [
+        29.243000000000002,
+        20.159999999999997
+      ],
+      "block": "76"
+    },
+    {
+      "name": "故城老街",
+      "building": 383,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        26.4635,
+        20.27874,
+        26.4785,
+        20.30174
+      ],
+      "building_center_km": [
+        26.470999999999997,
+        20.290239999999997
+      ],
+      "collision_center_km": [
+        26.471,
+        20.285999999999998
+      ],
+      "block": "32"
+    },
+    {
+      "name": "故城老街",
+      "building": 902,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 81.7499999999458,
+      "building_bounds_km": [
+        29.235500000000002,
+        20.2833,
+        29.250500000000002,
+        20.3063
+      ],
+      "building_center_km": [
+        29.243000000000002,
+        20.2948
+      ],
+      "collision_center_km": [
+        29.243000000000002,
+        20.286025000000002
+      ],
+      "block": "76"
+    },
+    {
+      "name": "故城老街",
+      "building": 387,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 7.349999999988477,
+      "building_bounds_km": [
+        26.4635,
+        20.38674,
+        26.4785,
+        20.40974
+      ],
+      "building_center_km": [
+        26.470999999999997,
+        20.39824
+      ],
+      "collision_center_km": [
+        26.471,
+        20.409495
+      ],
+      "block": "32"
+    },
+    {
+      "name": "故城老街",
+      "building": 388,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 15.149999999959936,
+      "building_bounds_km": [
+        26.4635,
+        20.41374,
+        26.4785,
+        20.43674
+      ],
+      "building_center_km": [
+        26.470999999999997,
+        20.425240000000002
+      ],
+      "collision_center_km": [
+        26.471,
+        20.414244999999998
+      ],
+      "block": "32"
+    },
+    {
+      "name": "故城老街",
+      "building": 296,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        26.651500000000002,
+        20.526500000000002,
+        26.6665,
+        20.5495
+      ],
+      "building_center_km": [
+        26.659,
+        20.538
+      ],
+      "collision_center_km": [
+        26.659000000000002,
+        20.538000000000004
+      ],
+      "block": "26"
+    },
+    {
+      "name": "故城老街",
+      "building": 301,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999998732,
+      "building_bounds_km": [
+        26.651500000000002,
+        20.6615,
+        26.6665,
+        20.6845
+      ],
+      "building_center_km": [
+        26.659,
+        20.673
+      ],
+      "collision_center_km": [
+        26.659,
+        20.664125
+      ],
+      "block": "26"
+    },
+    {
+      "name": "故城老街",
+      "building": 790,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        30.1935,
+        20.6525,
+        30.2085,
+        20.675500000000003
+      ],
+      "building_center_km": [
+        30.201,
+        20.664
+      ],
+      "collision_center_km": [
+        30.201,
+        20.664
+      ],
+      "block": "69"
+    },
+    {
+      "name": "故城老街",
+      "building": 305,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999998732,
+      "building_bounds_km": [
+        26.651500000000002,
+        20.769499999999997,
+        26.6665,
+        20.7925
+      ],
+      "building_center_km": [
+        26.659,
+        20.781
+      ],
+      "collision_center_km": [
+        26.659,
+        20.789875000000002
+      ],
+      "block": "26"
+    },
+    {
+      "name": "故城老街",
+      "building": 944,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        29.389499999999998,
+        20.9045,
+        29.4045,
+        20.9275
+      ],
+      "building_center_km": [
+        29.397,
+        20.915999999999997
+      ],
+      "collision_center_km": [
+        29.396999999999995,
+        20.915999999999997
+      ],
+      "block": "79"
+    },
+    {
+      "name": "故城老街",
+      "building": 759,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        30.3475,
+        21.030500000000004,
+        30.3625,
+        21.0535
+      ],
+      "building_center_km": [
+        30.355,
+        21.042000000000005
+      ],
+      "collision_center_km": [
+        30.355,
+        21.041999999999998
+      ],
+      "block": "67"
+    },
+    {
+      "name": "故城老街",
+      "building": 949,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.75000000000597,
+      "building_bounds_km": [
+        29.389499999999998,
+        21.039499999999997,
+        29.4045,
+        21.0625
+      ],
+      "building_center_km": [
+        29.397,
+        21.051
+      ],
+      "collision_center_km": [
+        29.397000000000002,
+        21.042125
+      ],
+      "block": "79"
+    },
+    {
+      "name": "故城老街",
+      "building": 22,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        26.3095,
+        21.2825,
+        26.324499999999997,
+        21.305500000000002
+      ],
+      "building_center_km": [
+        26.317,
+        21.294
+      ],
+      "collision_center_km": [
+        26.316999999999997,
+        21.293999999999997
+      ],
+      "block": "5"
+    },
+    {
+      "name": "故城老街",
+      "building": 266,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        26.805500000000002,
+        21.2825,
+        26.820500000000003,
+        21.305500000000002
+      ],
+      "building_center_km": [
+        26.813000000000002,
+        21.294
+      ],
+      "collision_center_km": [
+        26.813,
+        21.294
+      ],
+      "block": "24"
+    },
+    {
+      "name": "故城老街",
+      "building": 974,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        29.389499999999998,
+        21.2825,
+        29.4045,
+        21.305500000000002
+      ],
+      "building_center_km": [
+        29.397,
+        21.294
+      ],
+      "collision_center_km": [
+        29.396999999999995,
+        21.294
+      ],
+      "block": "80"
+    },
+    {
+      "name": "故城老街",
+      "building": 27,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999998732,
+      "building_bounds_km": [
+        26.3095,
+        21.4175,
+        26.324499999999997,
+        21.4405
+      ],
+      "building_center_km": [
+        26.316999999999997,
+        21.429000000000002
+      ],
+      "collision_center_km": [
+        26.317,
+        21.420125000000002
+      ],
+      "block": "5"
+    },
+    {
+      "name": "故城老街",
+      "building": 247,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        26.805500000000002,
+        21.534499999999998,
+        26.820500000000003,
+        21.5575
+      ],
+      "building_center_km": [
+        26.813000000000002,
+        21.546000000000003
+      ],
+      "collision_center_km": [
+        26.813,
+        21.546000000000003
+      ],
+      "block": "23"
+    },
+    {
+      "name": "故城老街",
+      "building": 746,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        30.5015,
+        21.534499999999998,
+        30.5165,
+        21.5575
+      ],
+      "building_center_km": [
+        30.508999999999997,
+        21.546000000000003
+      ],
+      "collision_center_km": [
+        30.509,
+        21.546000000000003
+      ],
+      "block": "66"
+    },
+    {
+      "name": "故城老街",
+      "building": 40,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        26.3095,
+        21.660500000000003,
+        26.324499999999997,
+        21.6835
+      ],
+      "building_center_km": [
+        26.317,
+        21.672000000000004
+      ],
+      "collision_center_km": [
+        26.316999999999997,
+        21.671999999999997
+      ],
+      "block": "6"
+    },
+    {
+      "name": "故城老街",
+      "building": 252,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999995268,
+      "building_bounds_km": [
+        26.805500000000002,
+        21.6695,
+        26.820500000000003,
+        21.6925
+      ],
+      "building_center_km": [
+        26.813,
+        21.680999999999997
+      ],
+      "collision_center_km": [
+        26.813000000000006,
+        21.672124999999998
+      ],
+      "block": "23"
+    },
+    {
+      "name": "故城老街",
+      "building": 256,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.75000000000597,
+      "building_bounds_km": [
+        26.805500000000002,
+        21.7775,
+        26.820500000000003,
+        21.800500000000003
+      ],
+      "building_center_km": [
+        26.813000000000002,
+        21.789
+      ],
+      "collision_center_km": [
+        26.813000000000002,
+        21.797875000000005
+      ],
+      "block": "23"
+    },
+    {
+      "name": "故城老街",
+      "building": 725,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        30.5015,
+        21.7865,
+        30.5165,
+        21.8095
+      ],
+      "building_center_km": [
+        30.509000000000004,
+        21.798
+      ],
+      "collision_center_km": [
+        30.509,
+        21.798000000000002
+      ],
+      "block": "65"
+    },
+    {
+      "name": "故城老街",
+      "building": 736,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        30.5255,
+        21.7865,
+        30.5405,
+        21.8095
+      ],
+      "building_center_km": [
+        30.533,
+        21.798
+      ],
+      "collision_center_km": [
+        30.533,
+        21.798000000000002
+      ],
+      "block": "65"
+    },
+    {
+      "name": "故城老街",
+      "building": 59,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        26.3095,
+        21.9125,
+        26.324499999999997,
+        21.9355
+      ],
+      "building_center_km": [
+        26.316999999999997,
+        21.924000000000003
+      ],
+      "collision_center_km": [
+        26.316999999999997,
+        21.924000000000003
+      ],
+      "block": "7"
+    },
+    {
+      "name": "故城老街",
+      "building": 730,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999995268,
+      "building_bounds_km": [
+        30.5015,
+        21.9215,
+        30.5165,
+        21.944499999999998
+      ],
+      "building_center_km": [
+        30.508999999999993,
+        21.932999999999996
+      ],
+      "collision_center_km": [
+        30.508999999999997,
+        21.924125
+      ],
+      "block": "65"
+    },
+    {
+      "name": "故城老街",
+      "building": 64,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999998732,
+      "building_bounds_km": [
+        26.3095,
+        22.0475,
+        26.324499999999997,
+        22.070500000000003
+      ],
+      "building_center_km": [
+        26.317,
+        22.059000000000005
+      ],
+      "collision_center_km": [
+        26.317,
+        22.050125000000005
+      ],
+      "block": "7"
+    },
+    {
+      "name": "故城老街",
+      "building": 1022,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        29.235500000000002,
+        22.0385,
+        29.250500000000002,
+        22.061500000000002
+      ],
+      "building_center_km": [
+        29.243,
+        22.05
+      ],
+      "collision_center_km": [
+        29.243000000000002,
+        22.049999999999997
+      ],
+      "block": "84"
+    },
+    {
+      "name": "故城老街",
+      "building": 68,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999998732,
+      "building_bounds_km": [
+        26.3095,
+        22.155500000000004,
+        26.324499999999997,
+        22.1785
+      ],
+      "building_center_km": [
+        26.317,
+        22.167
+      ],
+      "collision_center_km": [
+        26.317,
+        22.175874999999998
+      ],
+      "block": "7"
+    },
+    {
+      "name": "故城老街",
+      "building": 223,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        26.863519999999998,
+        22.164499999999997,
+        26.878519999999998,
+        22.1875
+      ],
+      "building_center_km": [
+        26.871019999999998,
+        22.176
+      ],
+      "collision_center_km": [
+        26.871019999999994,
+        22.176
+      ],
+      "block": "21"
+    },
+    {
+      "name": "故城老街",
+      "building": 216,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        26.805500000000002,
+        22.164499999999997,
+        26.820500000000003,
+        22.1875
+      ],
+      "building_center_km": [
+        26.813000000000002,
+        22.176
+      ],
+      "collision_center_km": [
+        26.813,
+        22.176
+      ],
+      "block": "21"
+    },
+    {
+      "name": "故城老街",
+      "building": 710,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        30.5015,
+        22.164499999999997,
+        30.5165,
+        22.1875
+      ],
+      "building_center_km": [
+        30.508999999999997,
+        22.176
+      ],
+      "collision_center_km": [
+        30.509,
+        22.176
+      ],
+      "block": "64"
+    },
+    {
+      "name": "故城老街",
+      "building": 1027,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999995268,
+      "building_bounds_km": [
+        29.235500000000002,
+        22.1735,
+        29.250500000000002,
+        22.1965
+      ],
+      "building_center_km": [
+        29.243000000000002,
+        22.185000000000002
+      ],
+      "collision_center_km": [
+        29.243000000000006,
+        22.176125
+      ],
+      "block": "84"
+    },
+    {
+      "name": "故城老街",
+      "building": 715,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.75000000000597,
+      "building_bounds_km": [
+        30.5015,
+        22.2995,
+        30.5165,
+        22.3225
+      ],
+      "building_center_km": [
+        30.508999999999997,
+        22.311
+      ],
+      "collision_center_km": [
+        30.509,
+        22.302124999999997
+      ],
+      "block": "64"
+    },
+    {
+      "name": "故城老街",
+      "building": 1031,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999995268,
+      "building_bounds_km": [
+        29.235500000000002,
+        22.2815,
+        29.250500000000002,
+        22.304499999999997
+      ],
+      "building_center_km": [
+        29.243000000000002,
+        22.293
+      ],
+      "collision_center_km": [
+        29.243000000000006,
+        22.301875
+      ],
+      "block": "84"
+    },
+    {
+      "name": "故城老街",
+      "building": 93,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        26.3095,
+        22.4165,
+        26.324499999999997,
+        22.4395
+      ],
+      "building_center_km": [
+        26.316999999999997,
+        22.428
+      ],
+      "collision_center_km": [
+        26.316999999999997,
+        22.428
+      ],
+      "block": "8"
+    },
+    {
+      "name": "故城老街",
+      "building": 1036,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        29.235500000000002,
+        22.4165,
+        29.250500000000002,
+        22.4395
+      ],
+      "building_center_km": [
+        29.243000000000002,
+        22.427999999999997
+      ],
+      "collision_center_km": [
+        29.243000000000002,
+        22.428
+      ],
+      "block": "84"
+    },
+    {
+      "name": "故城老街",
+      "building": 194,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        26.805500000000002,
+        22.5425,
+        26.820500000000003,
+        22.5655
+      ],
+      "building_center_km": [
+        26.813,
+        22.554
+      ],
+      "collision_center_km": [
+        26.813,
+        22.554
+      ],
+      "block": "19"
+    },
+    {
+      "name": "故城老街",
+      "building": 121,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        26.3095,
+        22.668499999999998,
+        26.324499999999997,
+        22.6915
+      ],
+      "building_center_km": [
+        26.317,
+        22.679999999999996
+      ],
+      "collision_center_km": [
+        26.316999999999997,
+        22.68
+      ],
+      "block": "9"
+    },
+    {
+      "name": "故城老街",
+      "building": 1052,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        29.235500000000002,
+        22.668499999999998,
+        29.250500000000002,
+        22.6915
+      ],
+      "building_center_km": [
+        29.243,
+        22.679999999999996
+      ],
+      "collision_center_km": [
+        29.243000000000002,
+        22.68
+      ],
+      "block": "85"
+    },
+    {
+      "name": "故城老街",
+      "building": 175,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        26.651500000000002,
+        22.9205,
+        26.6665,
+        22.9435
+      ],
+      "building_center_km": [
+        26.659,
+        22.932000000000006
+      ],
+      "collision_center_km": [
+        26.659000000000002,
+        22.932000000000002
+      ],
+      "block": "18"
+    },
+    {
+      "name": "故城老街",
+      "building": 180,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999998732,
+      "building_bounds_km": [
+        26.651500000000002,
+        23.055500000000002,
+        26.6665,
+        23.0785
+      ],
+      "building_center_km": [
+        26.659,
+        23.067
+      ],
+      "collision_center_km": [
+        26.659,
+        23.058125
+      ],
+      "block": "18"
+    },
+    {
+      "name": "故城老街",
+      "building": 158,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        26.651500000000002,
+        23.2985,
+        26.6665,
+        23.3215
+      ],
+      "building_center_km": [
+        26.659,
+        23.310000000000002
+      ],
+      "collision_center_km": [
+        26.659000000000002,
+        23.31
+      ],
+      "block": "17"
+    },
+    {
+      "name": "故城老街",
+      "building": 1270,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 115.49999999995902,
+      "building_bounds_km": [
+        26.55089,
+        23.93222,
+        26.57189,
+        23.946219999999997
+      ],
+      "building_center_km": [
+        26.561389999999996,
+        23.93922
+      ],
+      "collision_center_km": [
+        26.56139,
+        23.94
+      ],
+      "block": "103"
+    },
+    {
+      "name": "故城老街",
+      "building": 1268,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 115.49999999993948,
+      "building_bounds_km": [
+        26.498890000000003,
+        23.93222,
+        26.51989,
+        23.946219999999997
+      ],
+      "building_center_km": [
+        26.509390000000003,
+        23.93922
+      ],
+      "collision_center_km": [
+        26.509390000000003,
+        23.94
+      ],
+      "block": "103"
+    },
+    {
+      "name": "故城老街",
+      "building": 1269,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 115.49999999995902,
+      "building_bounds_km": [
+        26.52489,
+        23.93222,
+        26.54589,
+        23.946219999999997
+      ],
+      "building_center_km": [
+        26.53539,
+        23.93922
+      ],
+      "collision_center_km": [
+        26.53539,
+        23.94
+      ],
+      "block": "103"
+    },
+    {
+      "name": "故城老街",
+      "building": 1271,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 115.49999999997856,
+      "building_bounds_km": [
+        26.57689,
+        23.93222,
+        26.597890000000003,
+        23.946219999999997
+      ],
+      "building_center_km": [
+        26.58739,
+        23.93922
+      ],
+      "collision_center_km": [
+        26.58739,
+        23.939999999999998
+      ],
+      "block": "103"
+    },
+    {
+      "name": "故城老街",
+      "building": 1099,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        28.7735,
+        23.9285,
+        28.7885,
+        23.9515
+      ],
+      "building_center_km": [
+        28.780999999999995,
+        23.939999999999998
+      ],
+      "collision_center_km": [
+        28.780999999999995,
+        23.940000000000005
+      ],
+      "block": "91"
+    },
+    {
+      "name": "故城老街",
+      "building": 1247,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        26.651500000000002,
+        24.17817,
+        26.6665,
+        24.20117
+      ],
+      "building_center_km": [
+        26.659,
+        24.18967
+      ],
+      "collision_center_km": [
+        26.659000000000002,
+        24.191999999999997
+      ],
+      "block": "102"
+    },
+    {
+      "name": "故城老街",
+      "building": 1259,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 61.949999999959395,
+      "building_bounds_km": [
+        26.6735,
+        24.3042,
+        26.694499999999998,
+        24.3182
+      ],
+      "building_center_km": [
+        26.683999999999997,
+        24.311200000000003
+      ],
+      "collision_center_km": [
+        26.683999999999997,
+        24.316725
+      ],
+      "block": "102"
+    },
+    {
+      "name": "故城老街",
+      "building": 1252,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        26.651500000000002,
+        24.31317,
+        26.6665,
+        24.336170000000003
+      ],
+      "building_center_km": [
+        26.659,
+        24.324669999999998
+      ],
+      "collision_center_km": [
+        26.659000000000002,
+        24.318
+      ],
+      "block": "102"
+    },
+    {
+      "name": "故城老街",
+      "building": 1256,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 43.799999999931835,
+      "building_bounds_km": [
+        26.651500000000002,
+        24.421170000000004,
+        26.6665,
+        24.44417
+      ],
+      "building_center_km": [
+        26.659,
+        24.43267
+      ],
+      "collision_center_km": [
+        26.659,
+        24.44271
+      ],
+      "block": "102"
+    },
+    {
+      "name": "故城老街",
+      "building": 1145,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        28.1575,
+        24.68689,
+        28.1725,
+        24.70989
+      ],
+      "building_center_km": [
+        28.164999999999996,
+        24.698390000000003
+      ],
+      "collision_center_km": [
+        28.165,
+        24.695999999999998
+      ],
+      "block": "94"
+    },
+    {
+      "name": "故城老街",
+      "building": 704,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 139.09499999995532,
+      "building_bounds_km": [
+        30.50523,
+        24.57347,
+        30.530520000000003,
+        24.758339999999997
+      ],
+      "building_center_km": [
+        30.517875000000004,
+        24.665904999999995
+      ],
+      "collision_center_km": [
+        30.517875,
+        24.695999999999998
+      ],
+      "block": "57"
+    },
+    {
+      "name": "故城老街",
+      "building": 1221,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 37.19999999997866,
+      "building_bounds_km": [
+        26.9595,
+        24.82227,
+        26.9745,
+        24.84527
+      ],
+      "building_center_km": [
+        26.966999999999995,
+        24.833770000000005
+      ],
+      "collision_center_km": [
+        26.967000000000002,
+        24.823510000000002
+      ],
+      "block": "99"
+    },
+    {
+      "name": "故城老街",
+      "building": 1308,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        26.3095,
+        24.8105,
+        26.324499999999997,
+        24.8335
+      ],
+      "building_center_km": [
+        26.316999999999997,
+        24.822
+      ],
+      "collision_center_km": [
+        26.316999999999997,
+        24.822000000000003
+      ],
+      "block": "107"
+    },
+    {
+      "name": "故城老街",
+      "building": 679,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        30.3475,
+        25.6925,
+        30.3625,
+        25.715500000000002
+      ],
+      "building_center_km": [
+        30.355000000000004,
+        25.704
+      ],
+      "collision_center_km": [
+        30.355,
+        25.704
+      ],
+      "block": "53"
+    },
+    {
+      "name": "故城老街",
+      "building": 400,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        26.3095,
+        25.6925,
+        26.324499999999997,
+        25.715500000000002
+      ],
+      "building_center_km": [
+        26.317,
+        25.704000000000004
+      ],
+      "collision_center_km": [
+        26.316999999999997,
+        25.703999999999997
+      ],
+      "block": "33"
+    },
+    {
+      "name": "故城老街",
+      "building": 684,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999995268,
+      "building_bounds_km": [
+        30.3475,
+        25.8275,
+        30.3625,
+        25.8505
+      ],
+      "building_center_km": [
+        30.354999999999997,
+        25.839
+      ],
+      "collision_center_km": [
+        30.355000000000004,
+        25.830125
+      ],
+      "block": "53"
+    },
+    {
+      "name": "故城老街",
+      "building": 405,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999993403,
+      "building_bounds_km": [
+        26.3095,
+        25.8275,
+        26.324499999999997,
+        25.8505
+      ],
+      "building_center_km": [
+        26.316999999999997,
+        25.839
+      ],
+      "collision_center_km": [
+        26.316999999999997,
+        25.830125000000002
+      ],
+      "block": "33"
+    },
+    {
+      "name": "故城老街",
+      "building": 659,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        30.1935,
+        26.070500000000003,
+        30.2085,
+        26.0935
+      ],
+      "building_center_km": [
+        30.201000000000004,
+        26.081999999999997
+      ],
+      "collision_center_km": [
+        30.201,
+        26.081999999999997
+      ],
+      "block": "52"
+    },
+    {
+      "name": "故城老街",
+      "building": 422,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        26.4635,
+        26.070500000000003,
+        26.4785,
+        26.0935
+      ],
+      "building_center_km": [
+        26.471,
+        26.081999999999997
+      ],
+      "collision_center_km": [
+        26.471,
+        26.081999999999997
+      ],
+      "block": "34"
+    },
+    {
+      "name": "故城老街",
+      "building": 642,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 115.49999999993948,
+      "building_bounds_km": [
+        30.0375,
+        26.33061,
+        30.0585,
+        26.34461
+      ],
+      "building_center_km": [
+        30.048000000000002,
+        26.33761
+      ],
+      "collision_center_km": [
+        30.048,
+        26.334000000000003
+      ],
+      "block": "51"
+    },
+    {
+      "name": "故城老街",
+      "building": 643,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 115.49999999995902,
+      "building_bounds_km": [
+        30.063499999999998,
+        26.33061,
+        30.0845,
+        26.34461
+      ],
+      "building_center_km": [
+        30.073999999999998,
+        26.337609999999998
+      ],
+      "collision_center_km": [
+        30.073999999999998,
+        26.334000000000003
+      ],
+      "block": "51"
+    },
+    {
+      "name": "故城老街",
+      "building": 641,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.75000000000597,
+      "building_bounds_km": [
+        29.8855,
+        26.4575,
+        29.9005,
+        26.480500000000003
+      ],
+      "building_center_km": [
+        29.893,
+        26.468999999999998
+      ],
+      "collision_center_km": [
+        29.893000000000004,
+        26.460124999999998
+      ],
+      "block": "51"
+    },
+    {
+      "name": "故城老街",
+      "building": 623,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        29.7315,
+        26.574499999999997,
+        29.7465,
+        26.5975
+      ],
+      "building_center_km": [
+        29.739,
+        26.586
+      ],
+      "collision_center_km": [
+        29.739000000000004,
+        26.586
+      ],
+      "block": "50"
+    },
+    {
+      "name": "故城老街",
+      "building": 562,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        29.1155,
+        26.8265,
+        29.1305,
+        26.8495
+      ],
+      "building_center_km": [
+        29.123,
+        26.837999999999997
+      ],
+      "collision_center_km": [
+        29.123,
+        26.838
+      ],
+      "block": "46"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15373,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 74.8799999999818,
+      "building_bounds_km": [
+        16.93963,
+        22.649,
+        16.954629999999998,
+        22.673000000000002
+      ],
+      "building_center_km": [
+        16.94713,
+        22.661000000000005
+      ],
+      "collision_center_km": [
+        16.941190000000002,
+        22.661000000000005
+      ],
+      "block": "925"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15361,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 76.99999999996616,
+      "building_bounds_km": [
+        17.0819,
+        22.394000000000002,
+        17.102899999999998,
+        22.408
+      ],
+      "building_center_km": [
+        17.092399999999998,
+        22.401000000000003
+      ],
+      "collision_center_km": [
+        17.093999999999998,
+        22.401000000000003
+      ],
+      "block": "924"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15302,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 131.99999999993364,
+      "building_bounds_km": [
+        17.55109,
+        21.893,
+        17.56609,
+        21.916999999999998
+      ],
+      "building_center_km": [
+        17.55859,
+        21.905
+      ],
+      "collision_center_km": [
+        17.555999999999997,
+        21.905
+      ],
+      "block": "920"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15277,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 120.61499999995877,
+      "building_bounds_km": [
+        18.16847,
+        21.51707,
+        18.18347,
+        21.539
+      ],
+      "building_center_km": [
+        18.17597,
+        21.528035000000003
+      ],
+      "collision_center_km": [
+        18.172,
+        21.528035
+      ],
+      "block": "918"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15580,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 131.99999999995316,
+      "building_bounds_km": [
+        18.319280000000003,
+        25.585,
+        18.33428,
+        25.609
+      ],
+      "building_center_km": [
+        18.32678,
+        25.596999999999998
+      ],
+      "collision_center_km": [
+        18.326,
+        25.596999999999998
+      ],
+      "block": "945"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15602,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 48.47999999995706,
+      "building_bounds_km": [
+        18.48073,
+        25.711,
+        18.495730000000002,
+        25.735
+      ],
+      "building_center_km": [
+        18.488230000000005,
+        25.723
+      ],
+      "collision_center_km": [
+        18.48174,
+        25.722999999999995
+      ],
+      "block": "946"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15601,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 11.519999999905377,
+      "building_bounds_km": [
+        18.46273,
+        25.711,
+        18.477729999999998,
+        25.735
+      ],
+      "building_center_km": [
+        18.470229999999997,
+        25.723000000000003
+      ],
+      "collision_center_km": [
+        18.47749,
+        25.723
+      ],
+      "block": "946"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15618,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 76.9999999999857,
+      "building_bounds_km": [
+        18.47673,
+        25.785999999999998,
+        18.49773,
+        25.8
+      ],
+      "building_center_km": [
+        18.487229999999997,
+        25.793
+      ],
+      "collision_center_km": [
+        18.480000000000004,
+        25.793
+      ],
+      "block": "946"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15645,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 77.99999999993751,
+      "building_bounds_km": [
+        18.9275,
+        25.963,
+        18.9425,
+        25.987
+      ],
+      "building_center_km": [
+        18.935000000000002,
+        25.975
+      ],
+      "collision_center_km": [
+        18.940875,
+        25.975
+      ],
+      "block": "949"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15657,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 73.49999999999935,
+      "building_bounds_km": [
+        18.9235,
+        25.99437,
+        18.9445,
+        26.00837
+      ],
+      "building_center_km": [
+        18.934000000000005,
+        26.001369999999998
+      ],
+      "collision_center_km": [
+        18.941875000000003,
+        26.001369999999998
+      ],
+      "block": "949"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15226,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 73.49999999999935,
+      "building_bounds_km": [
+        19.3855,
+        21.323,
+        19.4065,
+        21.337
+      ],
+      "building_center_km": [
+        19.395999999999997,
+        21.33
+      ],
+      "collision_center_km": [
+        19.403875,
+        21.33
+      ],
+      "block": "910"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15218,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 77.99999999994907,
+      "building_bounds_km": [
+        19.3895,
+        21.389,
+        19.4045,
+        21.413
+      ],
+      "building_center_km": [
+        19.397,
+        21.401
+      ],
+      "collision_center_km": [
+        19.402875000000005,
+        21.401000000000003
+      ],
+      "block": "910"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15673,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 77.99999999993751,
+      "building_bounds_km": [
+        19.3895,
+        25.963,
+        19.4045,
+        25.987
+      ],
+      "building_center_km": [
+        19.397,
+        25.975
+      ],
+      "collision_center_km": [
+        19.402874999999998,
+        25.975
+      ],
+      "block": "950"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15201,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 73.500000000018,
+      "building_bounds_km": [
+        19.5395,
+        21.511999999999997,
+        19.5605,
+        21.526
+      ],
+      "building_center_km": [
+        19.549999999999997,
+        21.519
+      ],
+      "collision_center_km": [
+        19.557875000000003,
+        21.519
+      ],
+      "block": "909"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15840,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 77.99999999994907,
+      "building_bounds_km": [
+        19.6975,
+        22.019000000000002,
+        19.7125,
+        22.043000000000003
+      ],
+      "building_center_km": [
+        19.705,
+        22.031000000000002
+      ],
+      "collision_center_km": [
+        19.710874999999998,
+        22.031000000000002
+      ],
+      "block": "968"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15267,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        18.4555,
+        21.40371,
+        18.4705,
+        21.42671
+      ],
+      "building_center_km": [
+        18.463,
+        21.415210000000002
+      ],
+      "collision_center_km": [
+        18.463,
+        21.42
+      ],
+      "block": "917"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15806,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        19.721500000000002,
+        22.668499999999998,
+        19.7365,
+        22.6915
+      ],
+      "building_center_km": [
+        19.729000000000003,
+        22.679999999999996
+      ],
+      "collision_center_km": [
+        19.729000000000003,
+        22.68
+      ],
+      "block": "963"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15393,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        16.915499999999998,
+        22.7945,
+        16.9305,
+        22.8175
+      ],
+      "building_center_km": [
+        16.923,
+        22.805999999999997
+      ],
+      "collision_center_km": [
+        16.923000000000002,
+        22.805999999999997
+      ],
+      "block": "926"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15811,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999993403,
+      "building_bounds_km": [
+        19.721500000000002,
+        22.8035,
+        19.7365,
+        22.8265
+      ],
+      "building_center_km": [
+        19.729000000000003,
+        22.814999999999998
+      ],
+      "collision_center_km": [
+        19.729000000000003,
+        22.806124999999998
+      ],
+      "block": "963"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15398,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.75000000000597,
+      "building_bounds_km": [
+        16.915499999999998,
+        22.929499999999997,
+        16.9305,
+        22.9525
+      ],
+      "building_center_km": [
+        16.923000000000002,
+        22.940999999999995
+      ],
+      "collision_center_km": [
+        16.923,
+        22.932124999999996
+      ],
+      "block": "926"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15791,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        19.721500000000002,
+        23.0465,
+        19.7365,
+        23.069499999999998
+      ],
+      "building_center_km": [
+        19.729000000000003,
+        23.057999999999993
+      ],
+      "collision_center_km": [
+        19.729000000000003,
+        23.058000000000007
+      ],
+      "block": "962"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15409,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        16.7615,
+        23.175569999999997,
+        16.776500000000002,
+        23.19857
+      ],
+      "building_center_km": [
+        16.769000000000005,
+        23.18707
+      ],
+      "collision_center_km": [
+        16.769000000000002,
+        23.183999999999997
+      ],
+      "block": "927"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15414,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 32.699999999988975,
+      "building_bounds_km": [
+        16.7615,
+        23.31057,
+        16.776500000000002,
+        23.333569999999998
+      ],
+      "building_center_km": [
+        16.769,
+        23.322069999999997
+      ],
+      "collision_center_km": [
+        16.769000000000002,
+        23.31166
+      ],
+      "block": "927"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15780,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        19.77514,
+        23.2985,
+        19.790139999999997,
+        23.3215
+      ],
+      "building_center_km": [
+        19.782639999999997,
+        23.310000000000002
+      ],
+      "collision_center_km": [
+        19.782639999999997,
+        23.31
+      ],
+      "block": "961"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15764,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        19.721500000000002,
+        23.2985,
+        19.7365,
+        23.3215
+      ],
+      "building_center_km": [
+        19.729000000000003,
+        23.310000000000002
+      ],
+      "collision_center_km": [
+        19.729000000000003,
+        23.31
+      ],
+      "block": "961"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15769,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999998732,
+      "building_bounds_km": [
+        19.721500000000002,
+        23.4335,
+        19.7365,
+        23.456500000000002
+      ],
+      "building_center_km": [
+        19.729000000000003,
+        23.445
+      ],
+      "collision_center_km": [
+        19.729000000000003,
+        23.436125
+      ],
+      "block": "961"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15773,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.74999999998732,
+      "building_bounds_km": [
+        19.721500000000002,
+        23.5415,
+        19.7365,
+        23.5645
+      ],
+      "building_center_km": [
+        19.729000000000003,
+        23.553
+      ],
+      "collision_center_km": [
+        19.729000000000003,
+        23.561874999999997
+      ],
+      "block": "961"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15427,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        16.7615,
+        23.67859,
+        16.776500000000002,
+        23.70159
+      ],
+      "building_center_km": [
+        16.769,
+        23.690089999999994
+      ],
+      "collision_center_km": [
+        16.769000000000002,
+        23.688000000000002
+      ],
+      "block": "929"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15465,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        17.0695,
+        24.3065,
+        17.084500000000002,
+        24.3295
+      ],
+      "building_center_km": [
+        17.076999999999998,
+        24.317999999999998
+      ],
+      "collision_center_km": [
+        17.076999999999998,
+        24.317999999999994
+      ],
+      "block": "933"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15488,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999997073,
+      "building_bounds_km": [
+        17.223499999999998,
+        24.5585,
+        17.2385,
+        24.581500000000002
+      ],
+      "building_center_km": [
+        17.230999999999998,
+        24.57
+      ],
+      "collision_center_km": [
+        17.230999999999998,
+        24.569999999999997
+      ],
+      "block": "935"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15507,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 82.49999999995119,
+      "building_bounds_km": [
+        17.3775,
+        24.8105,
+        17.3925,
+        24.8335
+      ],
+      "building_center_km": [
+        17.384999999999998,
+        24.822
+      ],
+      "collision_center_km": [
+        17.384999999999998,
+        24.822000000000003
+      ],
+      "block": "936"
+    },
+    {
+      "name": "西岸骑楼",
+      "building": 15686,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 78.75000000000597,
+      "building_bounds_km": [
+        19.4135,
+        25.8095,
+        19.4285,
+        25.8325
+      ],
+      "building_center_km": [
+        19.421,
+        25.820999999999998
+      ],
+      "collision_center_km": [
+        19.420999999999996,
+        25.829874999999998
+      ],
+      "block": "951"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 25782,
+      "building_type": "workers",
+      "site": "",
+      "area_m2": 237.99999999999199,
+      "building_bounds_km": [
+        31.89417,
+        23.581500000000002,
+        31.976170000000003,
+        23.598499999999998
+      ],
+      "building_center_km": [
+        31.935170000000003,
+        23.59
+      ],
+      "collision_center_km": [
+        31.919999999999998,
+        23.589999999999996
+      ],
+      "block": "1644"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 24763,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 363.99999999988785,
+      "building_bounds_km": [
+        31.9865,
+        22.971,
+        32.32503,
+        22.997
+      ],
+      "building_center_km": [
+        32.155765,
+        22.984000000000005
+      ],
+      "collision_center_km": [
+        32.2,
+        22.983999999999998
+      ],
+      "block": "1519"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 25776,
+      "building_type": "workers",
+      "site": "",
+      "area_m2": 251.9999999999338,
+      "building_bounds_km": [
+        32.43097,
+        23.096999999999998,
+        32.49197,
+        23.115
+      ],
+      "building_center_km": [
+        32.46147,
+        23.106
+      ],
+      "collision_center_km": [
+        32.48,
+        23.106
+      ],
+      "block": "1643"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 25758,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 260.59999999986314,
+      "building_bounds_km": [
+        32.47397,
+        23.14,
+        32.49297,
+        23.16
+      ],
+      "building_center_km": [
+        32.48347,
+        23.15
+      ],
+      "collision_center_km": [
+        32.48048500000001,
+        23.15
+      ],
+      "block": "1643"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 25497,
+      "building_type": "neighborhood-retail",
+      "site": "",
+      "area_m2": 237.99999999992093,
+      "building_bounds_km": [
+        37.4575,
+        21.5665,
+        37.5325,
+        21.5835
+      ],
+      "building_center_km": [
+        37.495,
+        21.575000000000003
+      ],
+      "collision_center_km": [
+        37.52,
+        21.575
+      ],
+      "block": "1617"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 25278,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 90.00000000001748,
+      "building_bounds_km": [
+        37.5225,
+        26.115,
+        37.5415,
+        26.135
+      ],
+      "building_center_km": [
+        37.532,
+        26.125000000000004
+      ],
+      "collision_center_km": [
+        37.52475,
+        26.125000000000004
+      ],
+      "block": "1589"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 25277,
+      "building_type": "historic",
+      "site": "",
+      "area_m2": 129.9999999999305,
+      "building_bounds_km": [
+        37.5005,
+        26.115,
+        37.5195,
+        26.135
+      ],
+      "building_center_km": [
+        37.51,
+        26.125000000000004
+      ],
+      "collision_center_km": [
+        37.51625,
+        26.124999999999996
+      ],
+      "block": "1589"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 25300,
+      "building_type": "workers",
+      "site": "",
+      "area_m2": 251.9999999999338,
+      "building_bounds_km": [
+        37.5075,
+        26.155,
+        37.5685,
+        26.173000000000002
+      ],
+      "building_center_km": [
+        37.538,
+        26.164
+      ],
+      "collision_center_km": [
+        37.52,
+        26.164
+      ],
+      "block": "1589"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 25306,
+      "building_type": "workers",
+      "site": "",
+      "area_m2": 251.9999999999338,
+      "building_bounds_km": [
+        37.5075,
+        26.201,
+        37.5685,
+        26.219
+      ],
+      "building_center_km": [
+        37.538,
+        26.210000000000004
+      ],
+      "collision_center_km": [
+        37.52,
+        26.21
+      ],
+      "block": "1589"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 25695,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 364.00000000002285,
+      "building_bounds_km": [
+        33.273,
+        21.02958,
+        33.299,
+        21.49542
+      ],
+      "building_center_km": [
+        33.286,
+        21.262500000000003
+      ],
+      "collision_center_km": [
+        33.286,
+        21.15
+      ],
+      "block": "1639"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 25695,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 364.00000000002285,
+      "building_bounds_km": [
+        33.273,
+        21.02958,
+        33.299,
+        21.49542
+      ],
+      "building_center_km": [
+        33.286,
+        21.262500000000003
+      ],
+      "collision_center_km": [
+        33.286,
+        21.375
+      ],
+      "block": "1639"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 25738,
+      "building_type": "workers",
+      "site": "",
+      "area_m2": 434.64960000013673,
+      "building_bounds_km": [
+        32.943000000000005,
+        22.50161,
+        33.02364,
+        22.51861
+      ],
+      "building_center_km": [
+        32.98332,
+        22.510109999999997
+      ],
+      "collision_center_km": [
+        32.98332,
+        22.504305000000002
+      ],
+      "block": "1641"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 24795,
+      "building_type": "workers",
+      "site": "",
+      "area_m2": 666.6550000003741,
+      "building_bounds_km": [
+        32.49512,
+        22.723499999999998,
+        32.57355,
+        22.7405
+      ],
+      "building_center_km": [
+        32.534335,
+        22.731999999999996
+      ],
+      "collision_center_km": [
+        32.534335,
+        22.72775
+      ],
+      "block": "1521"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 24762,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 364.0000000000726,
+      "building_bounds_km": [
+        31.941,
+        23.019569999999998,
+        31.967,
+        23.30536
+      ],
+      "building_center_km": [
+        31.953999999999997,
+        23.162465
+      ],
+      "collision_center_km": [
+        31.953999999999997,
+        23.175000000000004
+      ],
+      "block": "1519"
+    },
+    {
+      "name": "旧城区街坊",
+      "building": 24761,
+      "building_type": "workers",
+      "site": "",
+      "area_m2": 697.0000000001298,
+      "building_bounds_km": [
+        31.753,
+        23.3985,
+        31.835,
+        23.4155
+      ],
+      "building_center_km": [
+        31.794,
+        23.407
+      ],
+      "collision_center_km": [
+        31.794,
+        23.402749999999997
+      ],
+      "block": "1518"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34887,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 527.3800000000639,
+      "building_bounds_km": [
+        16.81828,
+        15.494000000000002,
+        17.18172,
+        15.531669999999998
+      ],
+      "building_center_km": [
+        17.0,
+        15.512835
+      ],
+      "collision_center_km": [
+        17.0,
+        15.512835
+      ],
+      "block": "2393"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34971,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 560.000000000104,
+      "building_bounds_km": [
+        16.93825,
+        18.289,
+        17.19731,
+        18.329
+      ],
+      "building_center_km": [
+        17.06778,
+        18.309
+      ],
+      "collision_center_km": [
+        17.0,
+        18.309
+      ],
+      "block": "2432"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34816,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 420.28000000009234,
+      "building_bounds_km": [
+        18.06828,
+        9.20098,
+        18.43172,
+        9.231
+      ],
+      "building_center_km": [
+        18.25,
+        9.21599
+      ],
+      "collision_center_km": [
+        18.25,
+        9.21599
+      ],
+      "block": "2369"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34890,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 466.06000000008464,
+      "building_bounds_km": [
+        18.0527,
+        15.709000000000001,
+        18.4297,
+        15.74229
+      ],
+      "building_center_km": [
+        18.2412,
+        15.725645
+      ],
+      "collision_center_km": [
+        18.25,
+        15.725645
+      ],
+      "block": "2396"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34994,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 371.38200000000586,
+      "building_bounds_km": [
+        18.74707,
+        21.084,
+        18.95495,
+        21.121399999999998
+      ],
+      "building_center_km": [
+        18.85101,
+        21.1027
+      ],
+      "collision_center_km": [
+        18.752035000000003,
+        21.1027
+      ],
+      "block": "2441"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34806,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 270.0000000001004,
+      "building_bounds_km": [
+        18.982,
+        9.07603,
+        19.016,
+        9.10303
+      ],
+      "building_center_km": [
+        18.996166666666664,
+        9.08728
+      ],
+      "collision_center_km": [
+        18.9988,
+        9.086830000000003
+      ],
+      "block": "2367"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34807,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 270.0000000001004,
+      "building_bounds_km": [
+        18.982,
+        9.15603,
+        19.016,
+        9.18303
+      ],
+      "building_center_km": [
+        18.996166666666664,
+        9.16728
+      ],
+      "collision_center_km": [
+        18.9988,
+        9.16683
+      ],
+      "block": "2367"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34999,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 378.00000000004286,
+      "building_bounds_km": [
+        19.232,
+        21.1155,
+        19.266,
+        21.1425
+      ],
+      "building_center_km": [
+        19.249,
+        21.128999999999998
+      ],
+      "collision_center_km": [
+        19.25,
+        21.128999999999998
+      ],
+      "block": "2442"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 35000,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 378.00000000004286,
+      "building_bounds_km": [
+        19.232,
+        21.195500000000003,
+        19.266,
+        21.2225
+      ],
+      "building_center_km": [
+        19.249,
+        21.209
+      ],
+      "collision_center_km": [
+        19.25,
+        21.209000000000003
+      ],
+      "block": "2442"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34949,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 434.4200000000822,
+      "building_bounds_km": [
+        19.56828,
+        9.19997,
+        19.93172,
+        9.231
+      ],
+      "building_center_km": [
+        19.75,
+        9.215485000000001
+      ],
+      "collision_center_km": [
+        19.75,
+        9.215485000000003
+      ],
+      "block": "2420"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34824,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 587.9999999999451,
+      "building_bounds_km": [
+        17.194000000000003,
+        9.57592,
+        17.236,
+        9.825
+      ],
+      "building_center_km": [
+        17.215000000000003,
+        9.700460000000001
+      ],
+      "collision_center_km": [
+        17.215000000000003,
+        9.675
+      ],
+      "block": "2374"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34836,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 424.99999999999255,
+      "building_bounds_km": [
+        16.63988,
+        11.170499999999999,
+        16.67388,
+        11.1975
+      ],
+      "building_center_km": [
+        16.654046666666666,
+        11.181750000000001
+      ],
+      "collision_center_km": [
+        16.655860000000004,
+        11.17934
+      ],
+      "block": "2379"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34936,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 587.9999999999451,
+      "building_bounds_km": [
+        18.764,
+        11.46,
+        18.805999999999997,
+        11.76
+      ],
+      "building_center_km": [
+        18.784999999999997,
+        11.61
+      ],
+      "collision_center_km": [
+        18.784999999999997,
+        11.61
+      ],
+      "block": "2408"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34846,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 551.040000000003,
+      "building_bounds_km": [
+        16.69664,
+        11.89,
+        16.736,
+        12.19
+      ],
+      "building_center_km": [
+        16.71632,
+        12.04
+      ],
+      "collision_center_km": [
+        16.71632,
+        12.04
+      ],
+      "block": "2380"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34934,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 546.9800000000077,
+      "building_bounds_km": [
+        18.764,
+        11.89,
+        18.80307,
+        12.19
+      ],
+      "building_center_km": [
+        18.783535,
+        12.040000000000001
+      ],
+      "collision_center_km": [
+        18.783535000000004,
+        12.04
+      ],
+      "block": "2407"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34872,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 573.5799999999944,
+      "building_bounds_km": [
+        16.69503,
+        13.61,
+        16.736,
+        13.91
+      ],
+      "building_center_km": [
+        16.715515,
+        13.76
+      ],
+      "collision_center_km": [
+        16.715515,
+        13.760000000000002
+      ],
+      "block": "2384"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34920,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 475.99999999996265,
+      "building_bounds_km": [
+        18.852,
+        14.1805,
+        18.886,
+        14.2075
+      ],
+      "building_center_km": [
+        18.868999999999996,
+        14.194
+      ],
+      "collision_center_km": [
+        18.869,
+        14.19
+      ],
+      "block": "2400"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34915,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 475.99999999996265,
+      "building_bounds_km": [
+        18.787,
+        14.1805,
+        18.820999999999998,
+        14.2075
+      ],
+      "building_center_km": [
+        18.803999999999995,
+        14.194
+      ],
+      "collision_center_km": [
+        18.804,
+        14.19
+      ],
+      "block": "2400"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34894,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 324.70000000001806,
+      "building_bounds_km": [
+        18.537,
+        15.47745,
+        18.570999999999998,
+        15.504449999999999
+      ],
+      "building_center_km": [
+        18.551166666666667,
+        15.488699999999998
+      ],
+      "collision_center_km": [
+        18.554,
+        15.482225000000001
+      ],
+      "block": "2397"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34901,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 324.70000000001806,
+      "building_bounds_km": [
+        18.602,
+        15.47745,
+        18.636,
+        15.504449999999999
+      ],
+      "building_center_km": [
+        18.61616666666666,
+        15.488699999999998
+      ],
+      "collision_center_km": [
+        18.619,
+        15.482225000000001
+      ],
+      "block": "2397"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34907,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 324.70000000001806,
+      "building_bounds_km": [
+        18.667,
+        15.47745,
+        18.701,
+        15.504449999999999
+      ],
+      "building_center_km": [
+        18.681166666666666,
+        15.488699999999998
+      ],
+      "collision_center_km": [
+        18.684,
+        15.482225000000001
+      ],
+      "block": "2397"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34963,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 210.56000000003036,
+      "building_bounds_km": [
+        16.47096,
+        16.19,
+        16.486,
+        16.92
+      ],
+      "building_center_km": [
+        16.47848,
+        16.555
+      ],
+      "collision_center_km": [
+        16.47848,
+        16.340000000000003
+      ],
+      "block": "2426"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34963,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 210.56000000003036,
+      "building_bounds_km": [
+        16.47096,
+        16.19,
+        16.486,
+        16.92
+      ],
+      "building_center_km": [
+        16.47848,
+        16.555
+      ],
+      "collision_center_km": [
+        16.47848,
+        16.555
+      ],
+      "block": "2426"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34963,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 210.56000000003036,
+      "building_bounds_km": [
+        16.47096,
+        16.19,
+        16.486,
+        16.92
+      ],
+      "building_center_km": [
+        16.47848,
+        16.555
+      ],
+      "collision_center_km": [
+        16.47848,
+        16.770000000000003
+      ],
+      "block": "2426"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34969,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 588.0000000000944,
+      "building_bounds_km": [
+        16.694000000000003,
+        17.48,
+        16.736,
+        17.7893
+      ],
+      "building_center_km": [
+        16.715000000000003,
+        17.634649999999997
+      ],
+      "collision_center_km": [
+        16.715000000000003,
+        17.63
+      ],
+      "block": "2429"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 35036,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 384.44000000009885,
+      "building_bounds_km": [
+        18.764,
+        17.71172,
+        18.79146,
+        17.995
+      ],
+      "building_center_km": [
+        18.77773,
+        17.853360000000002
+      ],
+      "collision_center_km": [
+        18.77773,
+        17.845
+      ],
+      "block": "2455"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34970,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 588.0000000000944,
+      "building_bounds_km": [
+        16.944000000000003,
+        17.92268,
+        16.986,
+        18.21
+      ],
+      "building_center_km": [
+        16.965000000000003,
+        18.066340000000004
+      ],
+      "collision_center_km": [
+        16.965000000000003,
+        18.06
+      ],
+      "block": "2431"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 35030,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 476.00000000008345,
+      "building_bounds_km": [
+        18.852,
+        18.2655,
+        18.886,
+        18.2925
+      ],
+      "building_center_km": [
+        18.869000000000003,
+        18.279
+      ],
+      "collision_center_km": [
+        18.869,
+        18.275
+      ],
+      "block": "2454"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 35026,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 476.00000000008345,
+      "building_bounds_km": [
+        18.787,
+        18.2655,
+        18.820999999999998,
+        18.2925
+      ],
+      "building_center_km": [
+        18.804,
+        18.279
+      ],
+      "collision_center_km": [
+        18.804,
+        18.275
+      ],
+      "block": "2454"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34972,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 588.0000000000944,
+      "building_bounds_km": [
+        17.194000000000003,
+        18.34,
+        17.236,
+        18.64
+      ],
+      "building_center_km": [
+        17.215,
+        18.490000000000002
+      ],
+      "collision_center_km": [
+        17.215000000000003,
+        18.49
+      ],
+      "block": "2432"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 35008,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 476.00000000008345,
+      "building_bounds_km": [
+        19.037,
+        19.5555,
+        19.070999999999998,
+        19.5825
+      ],
+      "building_center_km": [
+        19.054,
+        19.569
+      ],
+      "collision_center_km": [
+        19.054,
+        19.565000000000005
+      ],
+      "block": "2448"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 35013,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 476.00000000008345,
+      "building_bounds_km": [
+        19.102,
+        19.5555,
+        19.136,
+        19.5825
+      ],
+      "building_center_km": [
+        19.119,
+        19.569
+      ],
+      "collision_center_km": [
+        19.119,
+        19.565000000000005
+      ],
+      "block": "2448"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 35016,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 476.00000000008345,
+      "building_bounds_km": [
+        19.167,
+        19.5555,
+        19.201,
+        19.5825
+      ],
+      "building_center_km": [
+        19.183999999999997,
+        19.569
+      ],
+      "collision_center_km": [
+        19.184,
+        19.565000000000005
+      ],
+      "block": "2448"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34977,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 588.0000000000944,
+      "building_bounds_km": [
+        17.694000000000003,
+        20.705,
+        17.736,
+        21.22
+      ],
+      "building_center_km": [
+        17.715000000000003,
+        20.9625
+      ],
+      "collision_center_km": [
+        17.715000000000003,
+        20.854999999999997
+      ],
+      "block": "2437"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34977,
+      "building_type": "historic-office",
+      "site": "",
+      "area_m2": 588.0000000000944,
+      "building_bounds_km": [
+        17.694000000000003,
+        20.705,
+        17.736,
+        21.22
+      ],
+      "building_center_km": [
+        17.715000000000003,
+        20.9625
+      ],
+      "collision_center_km": [
+        17.715000000000003,
+        21.07
+      ],
+      "block": "2437"
+    },
+    {
+      "name": "楚岸租界",
+      "building": 34988,
+      "building_type": "villa",
+      "site": "",
+      "area_m2": 425.00000000004405,
+      "building_bounds_km": [
+        18.057000000000002,
+        21.4905,
+        18.090999999999998,
+        21.5175
+      ],
+      "building_center_km": [
+        18.071166666666663,
+        21.501749999999998
+      ],
+      "collision_center_km": [
+        18.072979999999998,
+        21.49934
+      ],
+      "block": "2439"
+    },
+    {
+      "name": "河中洲",
+      "building": 36863,
+      "building_type": "tower",
+      "site": "",
+      "area_m2": 470.880000000097,
+      "building_bounds_km": [
+        20.814,
+        17.97392,
+        20.85,
+        18.00092
+      ],
+      "building_center_km": [
+        20.828999999999997,
+        17.985170000000004
+      ],
+      "collision_center_km": [
+        20.832,
+        17.98046
+      ],
+      "block": "2975"
+    },
+    {
+      "name": "河中洲",
+      "building": 36918,
+      "building_type": "mixed-use",
+      "site": "",
+      "area_m2": 546.0000000001337,
+      "building_bounds_km": [
+        24.854,
+        21.766,
+        24.893,
+        22.564
+      ],
+      "building_center_km": [
+        24.873500000000003,
+        22.165
+      ],
+      "collision_center_km": [
+        24.8735,
+        22.01
+      ],
+      "block": "3005"
+    },
+    {
+      "name": "河中洲",
+      "building": 36918,
+      "building_type": "mixed-use",
+      "site": "",
+      "area_m2": 546.0000000001337,
+      "building_bounds_km": [
+        24.854,
+        21.766,
+        24.893,
+        22.564
+      ],
+      "building_center_km": [
+        24.873500000000003,
+        22.165
+      ],
+      "collision_center_km": [
+        24.8735,
+        22.319999999999997
+      ],
+      "block": "3005"
+    },
+    {
+      "name": "河中洲",
+      "building": 36869,
+      "building_type": "office-podium",
+      "site": "",
+      "area_m2": 551.600000000187,
+      "building_bounds_km": [
+        21.783079999999998,
+        22.58279,
+        21.86308,
+        22.63679
+      ],
+      "building_center_km": [
+        21.81641333333333,
+        22.605290000000004
+      ],
+      "collision_center_km": [
+        21.80308,
+        22.629894999999998
+      ],
+      "block": "2982"
+    },
+    {
+      "name": "河中洲",
+      "building": 36878,
+      "building_type": "office-podium",
+      "site": "",
+      "area_m2": 224.42000000005564,
+      "building_bounds_km": [
+        21.18083,
+        23.828580000000002,
+        21.21289,
+        23.882579999999997
+      ],
+      "building_center_km": [
+        21.194188333333337,
+        23.85108
+      ],
+      "collision_center_km": [
+        21.188845,
+        23.87
+      ],
+      "block": "2986"
+    },
+    {
+      "name": "河中洲",
+      "building": 36876,
+      "building_type": "office-podium",
+      "site": "",
+      "area_m2": 224.42000000005564,
+      "building_bounds_km": [
+        21.14198,
+        23.828580000000002,
+        21.17404,
+        23.882579999999997
+      ],
+      "building_center_km": [
+        21.155338333333333,
+        23.85108
+      ],
+      "collision_center_km": [
+        21.149994999999997,
+        23.87
+      ],
+      "block": "2986"
+    },
+    {
+      "name": "河中洲",
+      "building": 36890,
+      "building_type": "mixed-use",
+      "site": "",
+      "area_m2": 546.000000000084,
+      "building_bounds_km": [
+        22.267,
+        26.105999999999998,
+        22.305999999999997,
+        26.824
+      ],
+      "building_center_km": [
+        22.2865,
+        26.464999999999996
+      ],
+      "collision_center_km": [
+        22.286500000000004,
+        26.35
+      ],
+      "block": "2993"
+    },
+    {
+      "name": "河中洲",
+      "building": 36890,
+      "building_type": "mixed-use",
+      "site": "",
+      "area_m2": 546.000000000084,
+      "building_bounds_km": [
+        22.267,
+        26.105999999999998,
+        22.305999999999997,
+        26.824
+      ],
+      "building_center_km": [
+        22.2865,
+        26.464999999999996
+      ],
+      "collision_center_km": [
+        22.286500000000004,
+        26.66
+      ],
+      "block": "2993"
+    },
+    {
+      "name": "西岸北岭",
+      "building": 38884,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 363.9999999999802,
+      "building_bounds_km": [
+        12.3665,
+        2.471,
+        14.283499999999998,
+        2.497
+      ],
+      "building_center_km": [
+        13.325,
+        2.4839999999999995
+      ],
+      "collision_center_km": [
+        12.71,
+        2.484
+      ],
+      "block": "3550"
+    },
+    {
+      "name": "西岸北岭",
+      "building": 38884,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 363.9999999999802,
+      "building_bounds_km": [
+        12.3665,
+        2.471,
+        14.283499999999998,
+        2.497
+      ],
+      "building_center_km": [
+        13.325,
+        2.4839999999999995
+      ],
+      "collision_center_km": [
+        13.119999999999997,
+        2.484
+      ],
+      "block": "3550"
+    },
+    {
+      "name": "西岸北岭",
+      "building": 38884,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 363.9999999999802,
+      "building_bounds_km": [
+        12.3665,
+        2.471,
+        14.283499999999998,
+        2.497
+      ],
+      "building_center_km": [
+        13.325,
+        2.4839999999999995
+      ],
+      "collision_center_km": [
+        13.53,
+        2.484
+      ],
+      "block": "3550"
+    },
+    {
+      "name": "西岸北岭",
+      "building": 38884,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 363.9999999999802,
+      "building_bounds_km": [
+        12.3665,
+        2.471,
+        14.283499999999998,
+        2.497
+      ],
+      "building_center_km": [
+        13.325,
+        2.4839999999999995
+      ],
+      "collision_center_km": [
+        13.940000000000001,
+        2.484
+      ],
+      "block": "3550"
+    },
+    {
+      "name": "西岸北岭",
+      "building": 38602,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 280.000000000052,
+      "building_bounds_km": [
+        17.56126,
+        9.139,
+        17.64326,
+        9.158999999999999
+      ],
+      "building_center_km": [
+        17.60226,
+        9.149
+      ],
+      "collision_center_km": [
+        17.63,
+        9.149
+      ],
+      "block": "3475"
+    },
+    {
+      "name": "西岸北岭",
+      "building": 38604,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 280.000000000052,
+      "building_bounds_km": [
+        17.56126,
+        9.215,
+        17.64326,
+        9.235
+      ],
+      "building_center_km": [
+        17.60226,
+        9.225
+      ],
+      "collision_center_km": [
+        17.63,
+        9.224999999999998
+      ],
+      "block": "3475"
+    },
+    {
+      "name": "西岸北岭",
+      "building": 38621,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 364.0000000000726,
+      "building_bounds_km": [
+        18.9265,
+        8.771,
+        19.6135,
+        8.797
+      ],
+      "building_center_km": [
+        19.27,
+        8.784
+      ],
+      "collision_center_km": [
+        19.27,
+        8.784
+      ],
+      "block": "3478"
+    },
+    {
+      "name": "西岸北岭",
+      "building": 38883,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 364.0000000000282,
+      "building_bounds_km": [
+        14.302999999999999,
+        2.55808,
+        14.329,
+        3.04192
+      ],
+      "building_center_km": [
+        14.316,
+        2.8
+      ],
+      "collision_center_km": [
+        14.316,
+        2.7999999999999994
+      ],
+      "block": "3550"
+    },
+    {
+      "name": "西岸北岭",
+      "building": 38725,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 158.07999999999524,
+      "building_bounds_km": [
+        17.651,
+        4.9685500000000005,
+        17.677,
+        5.24908
+      ],
+      "building_center_km": [
+        17.663999999999998,
+        5.108815
+      ],
+      "collision_center_km": [
+        17.664,
+        5.246040000000001
+      ],
+      "block": "3506"
+    },
+    {
+      "name": "西岸北岭",
+      "building": 41150,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 1147.9999999999568,
+      "building_bounds_km": [
+        14.18916,
+        6.643,
+        14.27116,
+        6.662999999999999
+      ],
+      "building_center_km": [
+        14.230160000000001,
+        6.652999999999999
+      ],
+      "collision_center_km": [
+        14.230159999999998,
+        6.65
+      ],
+      "block": "3931"
+    },
+    {
+      "name": "西岸北岭",
+      "building": 38680,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 601.0599999999478,
+      "building_bounds_km": [
+        16.5392,
+        6.99967,
+        16.621199999999998,
+        7.01967
+      ],
+      "building_center_km": [
+        16.580199999999998,
+        7.009670000000001
+      ],
+      "collision_center_km": [
+        16.5802,
+        7.003335
+      ],
+      "block": "3495"
+    },
+    {
+      "name": "西岸北岭",
+      "building": 38649,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 363.9999999999802,
+      "building_bounds_km": [
+        20.111,
+        7.10808,
+        20.137,
+        7.59192
+      ],
+      "building_center_km": [
+        20.124,
+        7.349999999999999
+      ],
+      "collision_center_km": [
+        20.124000000000002,
+        7.35
+      ],
+      "block": "3486"
+    },
+    {
+      "name": "西岸北岭",
+      "building": 38586,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 1147.9999999999568,
+      "building_bounds_km": [
+        16.46265,
+        10.493,
+        16.54465,
+        10.513
+      ],
+      "building_center_km": [
+        16.50365,
+        10.502999999999998
+      ],
+      "collision_center_km": [
+        16.50365,
+        10.5
+      ],
+      "block": "3471"
+    },
+    {
+      "name": "文星大学城",
+      "building": 42393,
+      "building_type": "academic",
+      "site": "",
+      "area_m2": 100.7999999999842,
+      "building_bounds_km": [
+        11.00828,
+        14.866,
+        11.43172,
+        14.902000000000001
+      ],
+      "building_center_km": [
+        11.219999999999997,
+        14.883999999999997
+      ],
+      "collision_center_km": [
+        11.22,
+        14.883999999999999
+      ],
+      "block": "4174"
+    },
+    {
+      "name": "文星大学城",
+      "building": 42917,
+      "building_type": "academic",
+      "site": "",
+      "area_m2": 100.80000000000906,
+      "building_bounds_km": [
+        12.65828,
+        15.898,
+        13.08172,
+        15.934000000000001
+      ],
+      "building_center_km": [
+        12.87,
+        15.916
+      ],
+      "collision_center_km": [
+        12.87,
+        15.916
+      ],
+      "block": "4342"
+    },
+    {
+      "name": "文星大学城",
+      "building": 42412,
+      "building_type": "research-public",
+      "site": "",
+      "area_m2": 335.99999999999704,
+      "building_bounds_km": [
+        14.489,
+        15.427999999999999,
+        14.550999999999998,
+        15.452
+      ],
+      "building_center_km": [
+        14.519999999999998,
+        15.440000000000001
+      ],
+      "collision_center_km": [
+        14.52,
+        15.439999999999998
+      ],
+      "block": "4180"
+    },
+    {
+      "name": "文星大学城",
+      "building": 42912,
+      "building_type": "academic",
+      "site": "",
+      "area_m2": 503.99999999999557,
+      "building_bounds_km": [
+        15.10988,
+        15.898,
+        15.68449,
+        15.934000000000001
+      ],
+      "building_center_km": [
+        15.397184999999999,
+        15.915999999999997
+      ],
+      "collision_center_km": [
+        15.180000000000001,
+        15.916000000000002
+      ],
+      "block": "4338"
+    },
+    {
+      "name": "文星大学城",
+      "building": 42912,
+      "building_type": "academic",
+      "site": "",
+      "area_m2": 100.80000000000906,
+      "building_bounds_km": [
+        15.10988,
+        15.898,
+        15.68449,
+        15.934000000000001
+      ],
+      "building_center_km": [
+        15.397184999999999,
+        15.915999999999997
+      ],
+      "collision_center_km": [
+        15.509999999999998,
+        15.916
+      ],
+      "block": "4338"
+    },
+    {
+      "name": "文星大学城",
+      "building": 42377,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 806.000000000009,
+      "building_bounds_km": [
+        7.502999999999999,
+        14.554,
+        7.565,
+        14.572000000000001
+      ],
+      "building_center_km": [
+        7.534000000000001,
+        14.563
+      ],
+      "collision_center_km": [
+        7.533999999999999,
+        14.5605
+      ],
+      "block": "4167"
+    },
+    {
+      "name": "文星大学城",
+      "building": 42903,
+      "building_type": "research",
+      "site": "",
+      "area_m2": 793.0000000002099,
+      "building_bounds_km": [
+        16.31277,
+        16.227999999999998,
+        16.37377,
+        16.262
+      ],
+      "building_center_km": [
+        16.33818666666667,
+        16.242166666666666
+      ],
+      "collision_center_km": [
+        16.342096923076927,
+        16.23953846153846
+      ],
+      "block": "4336"
+    },
+    {
+      "name": "文星大学城",
+      "building": 42896,
+      "building_type": "research",
+      "site": "",
+      "area_m2": 793.0000000002099,
+      "building_bounds_km": [
+        16.2015,
+        16.227999999999998,
+        16.2625,
+        16.262
+      ],
+      "building_center_km": [
+        16.226916666666668,
+        16.242166666666666
+      ],
+      "collision_center_km": [
+        16.230826923076926,
+        16.23953846153846
+      ],
+      "block": "4336"
+    },
+    {
+      "name": "文星大学城",
+      "building": 42889,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 62.00000000007694,
+      "building_bounds_km": [
+        16.195,
+        17.366,
+        16.257,
+        17.384
+      ],
+      "building_center_km": [
+        16.226,
+        17.375
+      ],
+      "collision_center_km": [
+        16.226000000000003,
+        17.366500000000002
+      ],
+      "block": "4335"
+    },
+    {
+      "name": "文星大学城",
+      "building": 42868,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 520.1800000001411,
+      "building_bounds_km": [
+        16.855,
+        18.47861,
+        16.917,
+        18.49661
+      ],
+      "building_center_km": [
+        16.886000000000003,
+        18.48761
+      ],
+      "collision_center_km": [
+        16.886000000000003,
+        18.482805
+      ],
+      "block": "4331"
+    },
+    {
+      "name": "文星大学城",
+      "building": 42848,
+      "building_type": "research",
+      "site": "",
+      "area_m2": 427.000000000088,
+      "building_bounds_km": [
+        17.5215,
+        20.135180000000002,
+        17.5825,
+        20.169179999999997
+      ],
+      "building_center_km": [
+        17.546916666666664,
+        20.14934666666667
+      ],
+      "collision_center_km": [
+        17.536749999999998,
+        20.16
+      ],
+      "block": "4328"
+    },
+    {
+      "name": "文星大学城",
+      "building": 42852,
+      "building_type": "research",
+      "site": "",
+      "area_m2": 477.02000000014476,
+      "building_bounds_km": [
+        17.5215,
+        20.43918,
+        17.5825,
+        20.47318
+      ],
+      "building_center_km": [
+        17.546916666666664,
+        20.45334666666666
+      ],
+      "collision_center_km": [
+        17.552,
+        20.44309
+      ],
+      "block": "4328"
+    },
+    {
+      "name": "文星大学城",
+      "building": 42826,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 514.600000000132,
+      "building_bounds_km": [
+        17.185,
+        24.903299999999998,
+        17.247,
+        24.921300000000002
+      ],
+      "building_center_km": [
+        17.216,
+        24.9123
+      ],
+      "collision_center_km": [
+        17.216,
+        24.91715
+      ],
+      "block": "4321"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49215,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 364.0000000000726,
+      "building_bounds_km": [
+        25.399189999999997,
+        4.853,
+        25.7635,
+        4.879
+      ],
+      "building_center_km": [
+        25.581345,
+        4.866
+      ],
+      "collision_center_km": [
+        25.42,
+        4.866
+      ],
+      "block": "5722"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49538,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 280.00000000005826,
+      "building_bounds_km": [
+        26.60303,
+        3.417,
+        26.68503,
+        3.437
+      ],
+      "building_center_km": [
+        26.644030000000004,
+        3.4269999999999996
+      ],
+      "collision_center_km": [
+        26.65,
+        3.426999999999999
+      ],
+      "block": "5804"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49309,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 364.0000000000975,
+      "building_bounds_km": [
+        27.1265,
+        11.921,
+        27.813499999999998,
+        11.947000000000001
+      ],
+      "building_center_km": [
+        27.469999999999995,
+        11.934000000000001
+      ],
+      "collision_center_km": [
+        27.47,
+        11.934000000000003
+      ],
+      "block": "5750"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49592,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 364.0000000000975,
+      "building_bounds_km": [
+        29.1765,
+        9.052999999999999,
+        29.8635,
+        9.079
+      ],
+      "building_center_km": [
+        29.519999999999996,
+        9.065999999999999
+      ],
+      "collision_center_km": [
+        29.52,
+        9.065999999999999
+      ],
+      "block": "5818"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49579,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 280.0000000000644,
+      "building_bounds_km": [
+        30.33237,
+        7.388999999999999,
+        30.414369999999998,
+        7.409
+      ],
+      "building_center_km": [
+        30.37337,
+        7.399
+      ],
+      "collision_center_km": [
+        30.340000000000007,
+        7.398999999999999
+      ],
+      "block": "5816"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49581,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 280.0000000000644,
+      "building_bounds_km": [
+        30.33237,
+        7.465,
+        30.414369999999998,
+        7.485
+      ],
+      "building_center_km": [
+        30.37337,
+        7.475
+      ],
+      "collision_center_km": [
+        30.340000000000007,
+        7.475
+      ],
+      "block": "5816"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49582,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 280.000000000052,
+      "building_bounds_km": [
+        30.33237,
+        7.541,
+        30.414369999999998,
+        7.561
+      ],
+      "building_center_km": [
+        30.373370000000005,
+        7.551000000000001
+      ],
+      "collision_center_km": [
+        30.34,
+        7.551000000000001
+      ],
+      "block": "5816"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49440,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 363.99999999995356,
+      "building_bounds_km": [
+        32.411,
+        3.34408,
+        32.437,
+        3.7559199999999997
+      ],
+      "building_center_km": [
+        32.424,
+        3.55
+      ],
+      "collision_center_km": [
+        32.424,
+        3.5000000000000004
+      ],
+      "block": "5782"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49214,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 363.9999999999802,
+      "building_bounds_km": [
+        25.783,
+        4.30808,
+        25.809,
+        4.79192
+      ],
+      "building_center_km": [
+        25.796000000000003,
+        4.550000000000001
+      ],
+      "collision_center_km": [
+        25.796,
+        4.55
+      ],
+      "block": "5722"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49852,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 329.9999999999895,
+      "building_bounds_km": [
+        32.70966,
+        4.546,
+        32.73966,
+        4.572
+      ],
+      "building_center_km": [
+        32.72466,
+        4.559
+      ],
+      "collision_center_km": [
+        32.72466,
+        4.5515
+      ],
+      "block": "5886"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49410,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 1147.9999999999568,
+      "building_bounds_km": [
+        32.02688,
+        6.992999999999999,
+        32.10888,
+        7.013
+      ],
+      "building_center_km": [
+        32.067879999999995,
+        7.003
+      ],
+      "collision_center_km": [
+        32.067879999999995,
+        7.0
+      ],
+      "block": "5772"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49707,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 1147.9999999999568,
+      "building_bounds_km": [
+        38.16388,
+        7.693,
+        38.24588,
+        7.712999999999999
+      ],
+      "building_center_km": [
+        38.20488000000001,
+        7.703
+      ],
+      "collision_center_km": [
+        38.204879999999996,
+        7.700000000000001
+      ],
+      "block": "5856"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49597,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 1147.999999999907,
+      "building_bounds_km": [
+        28.78,
+        8.043,
+        28.862,
+        8.062999999999999
+      ],
+      "building_center_km": [
+        28.820999999999998,
+        8.052999999999999
+      ],
+      "collision_center_km": [
+        28.820999999999998,
+        8.050000000000002
+      ],
+      "block": "5819"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49878,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 363.9999999999305,
+      "building_bounds_km": [
+        32.343,
+        7.80808,
+        32.369,
+        8.29192
+      ],
+      "building_center_km": [
+        32.356,
+        8.05
+      ],
+      "collision_center_km": [
+        32.356,
+        8.05
+      ],
+      "block": "5894"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49716,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 327.9999999999668,
+      "building_bounds_km": [
+        38.16388,
+        8.377,
+        38.24588,
+        8.397
+      ],
+      "building_center_km": [
+        38.20488000000001,
+        8.387
+      ],
+      "collision_center_km": [
+        38.204879999999996,
+        8.395
+      ],
+      "block": "5856"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49717,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 327.9999999999668,
+      "building_bounds_km": [
+        38.33188,
+        8.377,
+        38.41388,
+        8.397
+      ],
+      "building_center_km": [
+        38.37288,
+        8.387
+      ],
+      "collision_center_km": [
+        38.37288,
+        8.395
+      ],
+      "block": "5856"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49587,
+      "building_type": "tower",
+      "site": "",
+      "area_m2": 24.505000000002482,
+      "building_bounds_km": [
+        30.2795,
+        8.71869,
+        30.3085,
+        8.74469
+      ],
+      "building_center_km": [
+        30.29158333333333,
+        8.729523333333335
+      ],
+      "collision_center_km": [
+        30.286749999999994,
+        8.743845
+      ],
+      "block": "5817"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49884,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 1147.9999999999568,
+      "building_bounds_km": [
+        32.28205,
+        8.743,
+        32.36405,
+        8.763
+      ],
+      "building_center_km": [
+        32.323049999999995,
+        8.752999999999998
+      ],
+      "collision_center_km": [
+        32.32305,
+        8.75
+      ],
+      "block": "5895"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49900,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 1147.9999999999568,
+      "building_bounds_km": [
+        32.26289,
+        9.443,
+        32.34489,
+        9.463
+      ],
+      "building_center_km": [
+        32.303889999999996,
+        9.453
+      ],
+      "collision_center_km": [
+        32.30389,
+        9.45
+      ],
+      "block": "5896"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49899,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 1147.9999999999568,
+      "building_bounds_km": [
+        32.09489,
+        9.443,
+        32.17689,
+        9.463
+      ],
+      "building_center_km": [
+        32.13589,
+        9.453
+      ],
+      "collision_center_km": [
+        32.13589,
+        9.45
+      ],
+      "block": "5896"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49370,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 363.9999999999802,
+      "building_bounds_km": [
+        31.590999999999998,
+        10.65708,
+        31.616999999999997,
+        11.392919999999998
+      ],
+      "building_center_km": [
+        31.603999999999996,
+        11.024999999999999
+      ],
+      "collision_center_km": [
+        31.603999999999996,
+        10.850000000000001
+      ],
+      "block": "5766"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49370,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 363.9999999999802,
+      "building_bounds_km": [
+        31.590999999999998,
+        10.65708,
+        31.616999999999997,
+        11.392919999999998
+      ],
+      "building_center_km": [
+        31.603999999999996,
+        11.024999999999999
+      ],
+      "collision_center_km": [
+        31.603999999999996,
+        11.200000000000001
+      ],
+      "block": "5766"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49939,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 1147.9999999999568,
+      "building_bounds_km": [
+        32.09247,
+        11.193,
+        32.17447,
+        11.213
+      ],
+      "building_center_km": [
+        32.13347,
+        11.203000000000001
+      ],
+      "collision_center_km": [
+        32.133469999999996,
+        11.200000000000001
+      ],
+      "block": "5900"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49940,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 1147.9999999999568,
+      "building_bounds_km": [
+        32.26047,
+        11.193,
+        32.34247,
+        11.213
+      ],
+      "building_center_km": [
+        32.301469999999995,
+        11.203000000000001
+      ],
+      "collision_center_km": [
+        32.301469999999995,
+        11.200000000000001
+      ],
+      "block": "5900"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49327,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 1147.9999999999568,
+      "building_bounds_km": [
+        28.538,
+        12.243,
+        28.62,
+        12.263
+      ],
+      "building_center_km": [
+        28.579,
+        12.253
+      ],
+      "collision_center_km": [
+        28.579,
+        12.25
+      ],
+      "block": "5752"
+    },
+    {
+      "name": "东岸北岭",
+      "building": 49945,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 364.00000000002996,
+      "building_bounds_km": [
+        32.23542,
+        12.19083,
+        32.26142,
+        12.43795
+      ],
+      "building_center_km": [
+        32.24842,
+        12.31439
+      ],
+      "collision_center_km": [
+        32.24842,
+        12.249999999999998
+      ],
+      "block": "5902"
+    },
+    {
+      "name": "望津北港",
+      "building": 56820,
+      "building_type": "warehouse",
+      "site": "",
+      "area_m2": 1302.0000000002194,
+      "building_bounds_km": [
+        27.274520000000003,
+        27.099140000000002,
+        27.54952,
+        27.19214
+      ],
+      "building_center_km": [
+        27.412020000000002,
+        27.14564
+      ],
+      "collision_center_km": [
+        27.359999999999996,
+        27.145639999999997
+      ],
+      "block": "7352"
+    },
+    {
+      "name": "望津北港",
+      "building": 56821,
+      "building_type": "warehouse",
+      "site": "",
+      "area_m2": 1302.0000000002194,
+      "building_bounds_km": [
+        27.274520000000003,
+        27.245140000000003,
+        27.54952,
+        27.33814
+      ],
+      "building_center_km": [
+        27.412020000000002,
+        27.29164
+      ],
+      "collision_center_km": [
+        27.359999999999996,
+        27.29164
+      ],
+      "block": "7352"
+    },
+    {
+      "name": "望津北港",
+      "building": 56822,
+      "building_type": "warehouse",
+      "site": "",
+      "area_m2": 1302.000000000319,
+      "building_bounds_km": [
+        27.274520000000003,
+        27.39114,
+        27.54952,
+        27.484140000000004
+      ],
+      "building_center_km": [
+        27.41202,
+        27.437640000000002
+      ],
+      "collision_center_km": [
+        27.36,
+        27.437640000000002
+      ],
+      "block": "7352"
+    },
+    {
+      "name": "望津北港",
+      "building": 56812,
+      "building_type": "warehouse",
+      "site": "",
+      "area_m2": 2337.500000000402,
+      "building_bounds_km": [
+        30.548270000000002,
+        24.1085,
+        30.82327,
+        24.2015
+      ],
+      "building_center_km": [
+        30.68577,
+        24.155
+      ],
+      "collision_center_km": [
+        30.68577,
+        24.19725
+      ],
+      "block": "7344"
+    },
+    {
+      "name": "望津北港",
+      "building": 56903,
+      "building_type": "warehouse",
+      "site": "",
+      "area_m2": 2337.500000000402,
+      "building_bounds_km": [
+        41.077,
+        26.8585,
+        41.352,
+        26.9515
+      ],
+      "building_center_km": [
+        41.2145,
+        26.905000000000005
+      ],
+      "collision_center_km": [
+        41.2145,
+        26.947249999999993
+      ],
+      "block": "7405"
+    },
+    {
+      "name": "望津北港",
+      "building": 56802,
+      "building_type": "warehouse",
+      "site": "",
+      "area_m2": 1542.0700000002971,
+      "building_bounds_km": [
+        31.197,
+        27.4085,
+        31.378420000000002,
+        27.5015
+      ],
+      "building_center_km": [
+        31.287709999999997,
+        27.454999999999995
+      ],
+      "collision_center_km": [
+        31.287710000000004,
+        27.497250000000005
+      ],
+      "block": "7340"
+    },
+    {
+      "name": "望津北港",
+      "building": 56742,
+      "building_type": "warehouse",
+      "site": "",
+      "area_m2": 3137.7499999994125,
+      "building_bounds_km": [
+        41.077,
+        28.51141,
+        41.352,
+        28.604409999999998
+      ],
+      "building_center_km": [
+        41.214499999999994,
+        28.55791
+      ],
+      "collision_center_km": [
+        41.2145,
+        28.598705000000002
+      ],
+      "block": "7301"
+    },
+    {
+      "name": "望津北港",
+      "building": 56746,
+      "building_type": "warehouse",
+      "site": "",
+      "area_m2": 3850.000000000777,
+      "building_bounds_km": [
+        41.077,
+        29.09541,
+        41.352,
+        29.188409999999998
+      ],
+      "building_center_km": [
+        41.214499999999994,
+        29.141910000000003
+      ],
+      "collision_center_km": [
+        41.2145,
+        29.149999999999995
+      ],
+      "block": "7301"
+    },
+    {
+      "name": "望津北港",
+      "building": 56732,
+      "building_type": "warehouse",
+      "site": "",
+      "area_m2": 2337.500000000402,
+      "building_bounds_km": [
+        37.277,
+        30.7085,
+        37.552,
+        30.8015
+      ],
+      "building_center_km": [
+        37.4145,
+        30.755
+      ],
+      "collision_center_km": [
+        37.414500000000004,
+        30.79725
+      ],
+      "block": "7296"
+    },
+    {
+      "name": "港务住宅",
+      "building": 57590,
+      "building_type": "residential",
+      "site": "",
+      "area_m2": 363.9999999998381,
+      "building_bounds_km": [
+        43.003,
+        33.48814,
+        43.028999999999996,
+        33.86309
+      ],
+      "building_center_km": [
+        43.016,
+        33.675615
+      ],
+      "collision_center_km": [
+        43.016,
+        33.6
+      ],
+      "block": "7690"
+    }
+  ],
+  "path_building_overlap_over_1m2": [],
+  "site_measurements": [
+    {
+      "name": "龙散大学",
+      "kind": "university",
+      "design_plot_km2": 0.3333333333333341,
+      "actual_site_ground_km2": 0.3333359999999997,
+      "footprints": 30,
+      "roof_area_km2": 0.03682486399999957,
+      "station_distance_m": 34.44444444444272
+    },
+    {
+      "name": "燧明科技园",
+      "kind": "research",
+      "design_plot_km2": 0.17894808974283127,
+      "actual_site_ground_km2": 0.17894863409999953,
+      "footprints": 8,
+      "roof_area_km2": 0.02405899999999985,
+      "station_distance_m": null
+    },
+    {
+      "name": "财经政法大学",
+      "kind": "university-new",
+      "design_plot_km2": 0.3389025115109051,
+      "actual_site_ground_km2": 0.33890399040000047,
+      "footprints": 3,
+      "roof_area_km2": 0.013862720000001482,
+      "station_distance_m": null
+    },
+    {
+      "name": "楚风中心",
+      "kind": "headquarters",
+      "design_plot_km2": 0.06479999999999995,
+      "actual_site_ground_km2": 0.06479999999999995,
+      "footprints": 1,
+      "roof_area_km2": 0.010786500000000379,
+      "station_distance_m": null
+    },
+    {
+      "name": "引资银行",
+      "kind": "bank",
+      "design_plot_km2": 0.07039520910304616,
+      "actual_site_ground_km2": 0.0703952203999997,
+      "footprints": 4,
+      "roof_area_km2": 0.012820000000000227,
+      "station_distance_m": 165.5294535724673
+    },
+    {
+      "name": "云梦科技总部",
+      "kind": "headquarters",
+      "design_plot_km2": 0.07840000000000064,
+      "actual_site_ground_km2": 0.07840000000000064,
+      "footprints": 1,
+      "roof_area_km2": 0.010786500000000379,
+      "station_distance_m": null
+    },
+    {
+      "name": "燧明集团总部",
+      "kind": "headquarters",
+      "design_plot_km2": 0.03500000000000014,
+      "actual_site_ground_km2": 0.03500000000000014,
+      "footprints": 1,
+      "roof_area_km2": 0.006810299999999911,
+      "station_distance_m": null
+    },
+    {
+      "name": "奥体中心",
+      "kind": "sports",
+      "design_plot_km2": 0.37149191101569784,
+      "actual_site_ground_km2": 0.3714916594999994,
+      "footprints": 2,
+      "roof_area_km2": 0.01770932700000009,
+      "station_distance_m": 0.0
+    },
+    {
+      "name": "楚钢旧厂区",
+      "kind": "factory",
+      "design_plot_km2": 2.1440995640536,
+      "actual_site_ground_km2": 2.144100750000001,
+      "footprints": 7,
+      "roof_area_km2": 0.17135499999999895,
+      "station_distance_m": null
+    },
+    {
+      "name": "铁山机车厂",
+      "kind": "factory",
+      "design_plot_km2": 1.8826414258588298,
+      "actual_site_ground_km2": 1.8826437500000053,
+      "footprints": 8,
+      "roof_area_km2": 0.1751250000000012,
+      "station_distance_m": null
+    },
+    {
+      "name": "重黎工业遗迹群",
+      "kind": "factory-legacy",
+      "design_plot_km2": 2.2164999999999955,
+      "actual_site_ground_km2": 2.2164999999999955,
+      "footprints": 13,
+      "roof_area_km2": 0.2983199999999963,
+      "station_distance_m": null
+    },
+    {
+      "name": "龙散火车站",
+      "kind": "station",
+      "design_plot_km2": 0.20137395527668508,
+      "actual_site_ground_km2": 0.20137464140000172,
+      "footprints": 2,
+      "roof_area_km2": 0.017596006399999288,
+      "station_distance_m": 43.17302571897905
+    },
+    {
+      "name": "龙散东站",
+      "kind": "station",
+      "design_plot_km2": 0.283768613121981,
+      "actual_site_ground_km2": 0.28376989999999946,
+      "footprints": 1,
+      "roof_area_km2": 0.012187369599999446,
+      "station_distance_m": 60.00000000000228
+    },
+    {
+      "name": "船政学堂",
+      "kind": "academy",
+      "design_plot_km2": 0.11020000000000074,
+      "actual_site_ground_km2": 0.11020000000000074,
+      "footprints": 1,
+      "roof_area_km2": 0.00380999999999966,
+      "station_distance_m": 79.9999999999983
+    },
+    {
+      "name": "楚墓博物馆",
+      "kind": "museum",
+      "design_plot_km2": 0.11612766239911063,
+      "actual_site_ground_km2": 0.11612760954999984,
+      "footprints": 1,
+      "roof_area_km2": 0.010439999999999883,
+      "station_distance_m": 13.983136386872008
+    },
+    {
+      "name": "龙翔天街",
+      "kind": "retail",
+      "design_plot_km2": 0.11757507231500267,
+      "actual_site_ground_km2": 0.11757480000000003,
+      "footprints": 2,
+      "roof_area_km2": 0.012600000000000094,
+      "station_distance_m": 59.99999999999961
+    },
+    {
+      "name": "文侯庙",
+      "kind": "temple",
+      "design_plot_km2": 0.046136843938745536,
+      "actual_site_ground_km2": 0.046136731900000436,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": 50.45441470007589
+    },
+    {
+      "name": "长乐街",
+      "kind": "historic-street",
+      "design_plot_km2": 0.14988960244079239,
+      "actual_site_ground_km2": 0.14989232260000018,
+      "footprints": 36,
+      "roof_area_km2": 0.028159000000000746,
+      "station_distance_m": 22.592440340903718
+    },
+    {
+      "name": "云鲤互娱旧厂",
+      "kind": "creative",
+      "design_plot_km2": 0.12390191715451293,
+      "actual_site_ground_km2": 0.12390390000000065,
+      "footprints": 2,
+      "roof_area_km2": 0.020424000000000695,
+      "station_distance_m": null
+    },
+    {
+      "name": "影视基地",
+      "kind": "studios",
+      "design_plot_km2": 0.5352388556351748,
+      "actual_site_ground_km2": 0.5352353999999959,
+      "footprints": 9,
+      "roof_area_km2": 0.09190800000000263,
+      "station_distance_m": 53.40200559627464
+    },
+    {
+      "name": "文星科研组团",
+      "kind": "research-quarter",
+      "design_plot_km2": 0.32400000000000023,
+      "actual_site_ground_km2": 0.32400000000000023,
+      "footprints": 9,
+      "roof_area_km2": 0.02702600000000012,
+      "station_distance_m": null
+    },
+    {
+      "name": "望津旧港街坊",
+      "kind": "port-historic",
+      "design_plot_km2": 0.5931787441896137,
+      "actual_site_ground_km2": 0.5931784311000003,
+      "footprints": 54,
+      "roof_area_km2": 0.07379299999999941,
+      "station_distance_m": null
+    },
+    {
+      "name": "楚江广场",
+      "kind": "civic-square",
+      "design_plot_km2": 0.030119077090940905,
+      "actual_site_ground_km2": 0.030118424749999886,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": 22.317076339637495
+    },
+    {
+      "name": "醒钟广场",
+      "kind": "civic-square",
+      "design_plot_km2": 0.10075955465741077,
+      "actual_site_ground_km2": 0.10075913659999917,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": 22.410248760669308
+    },
+    {
+      "name": "工运广场",
+      "kind": "civic-square",
+      "design_plot_km2": 0.08409999999999951,
+      "actual_site_ground_km2": 0.08409999999999951,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": 0.0
+    },
+    {
+      "name": "开埠广场",
+      "kind": "civic-square",
+      "design_plot_km2": 0.08952119517126768,
+      "actual_site_ground_km2": 0.08952137629999908,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": 0.0
+    },
+    {
+      "name": "龙散国际机场",
+      "kind": "airport",
+      "design_plot_km2": 8.610000000000003,
+      "actual_site_ground_km2": null,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": null
+    },
+    {
+      "name": "集装箱作业区 1",
+      "kind": "port",
+      "design_plot_km2": 4.620000000000009,
+      "actual_site_ground_km2": null,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": null
+    },
+    {
+      "name": "集装箱作业区 2",
+      "kind": "port",
+      "design_plot_km2": 1.9760782826290397,
+      "actual_site_ground_km2": null,
+      "footprints": 0,
+      "roof_area_km2": 0,
+      "station_distance_m": null
+    }
+  ],
+  "institute_buildings": 15,
+  "old_city_identical_pattern_runs": [
+    {
+      "y_km": 22.725,
+      "first_x_km": 32.760000000000005,
+      "blocks": 8,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1766,
+        1796,
+        1832,
+        1868,
+        1904,
+        1940,
+        1976,
+        2012
+      ]
+    },
+    {
+      "y_km": 28.125,
+      "first_x_km": 32.480000000000004,
+      "blocks": 8,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1561,
+        1792,
+        1822,
+        1858,
+        1894,
+        1930,
+        1966,
+        2002
+      ]
+    },
+    {
+      "y_km": 22.95,
+      "first_x_km": 32.760000000000005,
+      "blocks": 8,
+      "pattern": "slab-garden",
+      "ids": [
+        1767,
+        1797,
+        1833,
+        1869,
+        1905,
+        1941,
+        1977,
+        2013
+      ]
+    },
+    {
+      "y_km": 23.85,
+      "first_x_km": 32.760000000000005,
+      "blocks": 8,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1771,
+        1801,
+        1837,
+        1873,
+        1909,
+        1945,
+        1981,
+        2017
+      ]
+    },
+    {
+      "y_km": 24.075,
+      "first_x_km": 32.760000000000005,
+      "blocks": 8,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1772,
+        1802,
+        1838,
+        1874,
+        1910,
+        1946,
+        1982,
+        2018
+      ]
+    },
+    {
+      "y_km": 23.625,
+      "first_x_km": 32.760000000000005,
+      "blocks": 8,
+      "pattern": "slab-garden",
+      "ids": [
+        1770,
+        1800,
+        1836,
+        1872,
+        1908,
+        1944,
+        1980,
+        2016
+      ]
+    },
+    {
+      "y_km": 23.4,
+      "first_x_km": 32.760000000000005,
+      "blocks": 8,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1769,
+        1799,
+        1835,
+        1871,
+        1907,
+        1943,
+        1979,
+        2015
+      ]
+    },
+    {
+      "y_km": 23.175,
+      "first_x_km": 32.760000000000005,
+      "blocks": 8,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1768,
+        1798,
+        1834,
+        1870,
+        1906,
+        1942,
+        1978,
+        2014
+      ]
+    },
+    {
+      "y_km": 22.05,
+      "first_x_km": 33.040000000000006,
+      "blocks": 7,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1793,
+        1829,
+        1865,
+        1901,
+        1937,
+        1973,
+        2009
+      ]
+    },
+    {
+      "y_km": 27.45,
+      "first_x_km": 32.760000000000005,
+      "blocks": 7,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1789,
+        1819,
+        1855,
+        1891,
+        1927,
+        1963,
+        1999
+      ]
+    },
+    {
+      "y_km": 27.9,
+      "first_x_km": 32.760000000000005,
+      "blocks": 7,
+      "pattern": "slab-garden",
+      "ids": [
+        1791,
+        1821,
+        1857,
+        1893,
+        1929,
+        1965,
+        2001
+      ]
+    },
+    {
+      "y_km": 27.675,
+      "first_x_km": 32.760000000000005,
+      "blocks": 7,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1790,
+        1820,
+        1856,
+        1892,
+        1928,
+        1964,
+        2000
+      ]
+    },
+    {
+      "y_km": 27.225,
+      "first_x_km": 32.760000000000005,
+      "blocks": 7,
+      "pattern": "slab-garden",
+      "ids": [
+        1788,
+        1818,
+        1854,
+        1890,
+        1926,
+        1962,
+        1998
+      ]
+    },
+    {
+      "y_km": 26.775,
+      "first_x_km": 32.760000000000005,
+      "blocks": 7,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1786,
+        1816,
+        1852,
+        1888,
+        1924,
+        1960,
+        1996
+      ]
+    },
+    {
+      "y_km": 25.425,
+      "first_x_km": 32.760000000000005,
+      "blocks": 7,
+      "pattern": "slab-garden",
+      "ids": [
+        1779,
+        1809,
+        1845,
+        1881,
+        1917,
+        1953,
+        1989
+      ]
+    },
+    {
+      "y_km": 24.975,
+      "first_x_km": 32.760000000000005,
+      "blocks": 7,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1777,
+        1807,
+        1843,
+        1879,
+        1915,
+        1951,
+        1987
+      ]
+    },
+    {
+      "y_km": 22.275,
+      "first_x_km": 33.040000000000006,
+      "blocks": 7,
+      "pattern": "slab-garden",
+      "ids": [
+        1794,
+        1830,
+        1866,
+        1902,
+        1938,
+        1974,
+        2010
+      ]
+    },
+    {
+      "y_km": 22.5,
+      "first_x_km": 33.040000000000006,
+      "blocks": 7,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1795,
+        1831,
+        1867,
+        1903,
+        1939,
+        1975,
+        2011
+      ]
+    },
+    {
+      "y_km": 24.525,
+      "first_x_km": 32.760000000000005,
+      "blocks": 7,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1775,
+        1805,
+        1841,
+        1877,
+        1913,
+        1949,
+        1985
+      ]
+    },
+    {
+      "y_km": 24.75,
+      "first_x_km": 32.760000000000005,
+      "blocks": 7,
+      "pattern": "slab-garden",
+      "ids": [
+        1776,
+        1806,
+        1842,
+        1878,
+        1914,
+        1950,
+        1986
+      ]
+    },
+    {
+      "y_km": 25.2,
+      "first_x_km": 32.760000000000005,
+      "blocks": 7,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1778,
+        1808,
+        1844,
+        1880,
+        1916,
+        1952,
+        1988
+      ]
+    },
+    {
+      "y_km": 25.65,
+      "first_x_km": 32.760000000000005,
+      "blocks": 7,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1780,
+        1810,
+        1846,
+        1882,
+        1918,
+        1954,
+        1990
+      ]
+    },
+    {
+      "y_km": 26.55,
+      "first_x_km": 32.760000000000005,
+      "blocks": 7,
+      "pattern": "slab-garden",
+      "ids": [
+        1785,
+        1815,
+        1851,
+        1887,
+        1923,
+        1959,
+        1995
+      ]
+    },
+    {
+      "y_km": 27.0,
+      "first_x_km": 32.760000000000005,
+      "blocks": 7,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1787,
+        1817,
+        1853,
+        1889,
+        1925,
+        1961,
+        1997
+      ]
+    },
+    {
+      "y_km": 20.7,
+      "first_x_km": 33.32000000000001,
+      "blocks": 6,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1823,
+        1859,
+        1895,
+        1931,
+        1967,
+        2003
+      ]
+    },
+    {
+      "y_km": 20.925,
+      "first_x_km": 33.32000000000001,
+      "blocks": 6,
+      "pattern": "slab-garden",
+      "ids": [
+        1824,
+        1860,
+        1896,
+        1932,
+        1968,
+        2004
+      ]
+    },
+    {
+      "y_km": 25.875,
+      "first_x_km": 33.040000000000006,
+      "blocks": 6,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1811,
+        1847,
+        1883,
+        1919,
+        1955,
+        1991
+      ]
+    },
+    {
+      "y_km": 21.6,
+      "first_x_km": 33.32000000000001,
+      "blocks": 6,
+      "pattern": "slab-garden",
+      "ids": [
+        1827,
+        1863,
+        1899,
+        1935,
+        1971,
+        2007
+      ]
+    },
+    {
+      "y_km": 21.15,
+      "first_x_km": 33.32000000000001,
+      "blocks": 6,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1825,
+        1861,
+        1897,
+        1933,
+        1969,
+        2005
+      ]
+    },
+    {
+      "y_km": 21.375,
+      "first_x_km": 33.32000000000001,
+      "blocks": 6,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1826,
+        1862,
+        1898,
+        1934,
+        1970,
+        2006
+      ]
+    },
+    {
+      "y_km": 21.825,
+      "first_x_km": 33.32000000000001,
+      "blocks": 6,
+      "pattern": "courtyard-housing",
+      "ids": [
+        1828,
+        1864,
+        1900,
+        1936,
+        1972,
+        2008
+      ]
+    },
+    {
+      "y_km": 26.1,
+      "first_x_km": 33.60000000000001,
+      "blocks": 4,
+      "pattern": "slab-garden",
+      "ids": [
+        1884,
+        1920,
+        1956,
+        1992
+      ]
+    },
+    {
+      "y_km": 26.325,
+      "first_x_km": 32.760000000000005,
+      "blocks": 3,
+      "pattern": "mixed-old-street",
+      "ids": [
+        1784,
+        1814,
+        1850
+      ]
+    },
+    {
+      "y_km": 23.4,
+      "first_x_km": 35.56000000000002,
+      "blocks": 3,
+      "pattern": "slab-garden",
+      "ids": [
+        2118,
+        2154,
+        2187
+      ]
+    }
+  ],
+  "total_old_city_blocks": 854,
+  "generator_validation_read": false,
+  "inputs_after": {
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-基础底图.svg": {
+      "sha256": "351934eeee2c00e3461135bf1879cb1261eb37ac619d239a14406f04dc7a3deb",
+      "bytes": 25964379,
+      "mtime": 1791731903.1857991
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\龙散市-底图与地铁.svg": {
+      "sha256": "9b2baae3639b557495be820c44c3c7c95d855add3b222e8e2d7a0c3967bd9da8",
+      "bytes": 26026612,
+      "mtime": 1791731903.2562244
+    },
+    "assets\\maps\\longsan-geographic-v2-20261011\\地图坐标与线路.json": {
+      "sha256": "f95cf5e2eeb0f1af4e05886dfff7000537dc07212bb9bc3e30a4922d71f814cc",
+      "bytes": 128739,
+      "mtime": 1791731903.3830287
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-基础底图.svg": {
+      "sha256": "ad685fed855b6f6b836a4566da2eca3c22bd843a32e4d3c39befaa7237700858",
+      "bytes": 24974233,
+      "mtime": 1791768125.982289
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\龙散市-底图与地铁.svg": {
+      "sha256": "05417d735c63c1bf61cd2dc48e2a1e91ac19d420d29c4eb8e3fcf1d9554e9ab6",
+      "bytes": 25036460,
+      "mtime": 1791768126.054112
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\地图坐标与线路.json": {
+      "sha256": "1ad5bf365f7f88277280ed0a5021228fea366d6a453e2268e1c7b6c6602a0209",
+      "bytes": 136632,
+      "mtime": 1791768126.3167822
+    },
+    "assets\\maps\\longsan-geographic-v3-20261012\\地理骨架.geojson": {
+      "sha256": "0c8341963e161ab3ec3e71f7681342c52f0045b68dc47f3a945d818a33501cee",
+      "bytes": 579568,
+      "mtime": 1791768126.3624682
+    },
+    "temp\\longsan-map-qa-v3\\fabric.pickle": {
+      "sha256": "4966e0870536d68a98c26513aaf6a82aa78e09ec9a92c12dc182a572713ed65c",
+      "bytes": 16212380,
+      "mtime": 1791768113.142248
+    }
+  },
+  "inputs_unchanged_during_audit": true
+}

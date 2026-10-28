@@ -1,0 +1,748 @@
+{
+  "worldId": "taiyi",
+  "conflicts": [],
+  "missingPlayers": [],
+  "actors": [
+    {
+      "id": "LS-NPC-001",
+      "name": "陆文青",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-002",
+      "name": "万祁连",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-003",
+      "name": "苗铁城",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-004",
+      "name": "党怀沙",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-005",
+      "name": "燕尺素",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-006",
+      "name": "翟明珠",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-008",
+      "name": "苗可栗",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-009",
+      "name": "郜白",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-011",
+      "name": "沈丹青",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-012",
+      "name": "罗弈",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-013",
+      "name": "曲阿七",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-014",
+      "name": "田进财",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-015",
+      "name": "单小鹿",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-017",
+      "name": "方见",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-018",
+      "name": "卓近火",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-019",
+      "name": "甘采蓝",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-021",
+      "name": "周清梅",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-022",
+      "name": "霍云骧",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-024",
+      "name": "雷小鼓",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-025",
+      "name": "葛兆康（老葛）",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-026",
+      "name": "甘棠",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-027",
+      "name": "邢九重",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-029",
+      "name": "秦时雨",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-030",
+      "name": "钟月台",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-031",
+      "name": "童司南",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-033",
+      "name": "赵明芝",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-034",
+      "name": "苏小晚",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-035",
+      "name": "顾全有",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-037",
+      "name": "白念秋",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-038",
+      "name": "何问舟",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-039",
+      "name": "纪清商",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-040",
+      "name": "向柳",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-041",
+      "name": "冯宁汐",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-043",
+      "name": "阿岛俊",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-044",
+      "name": "陈志远",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-045",
+      "name": "金舸",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-046",
+      "name": "何凌",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-048",
+      "name": "沈折琼",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-049",
+      "name": "白鸢",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-050",
+      "name": "艾德礼·霍华德",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-051",
+      "name": "夏满弓",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-052",
+      "name": "巫明烛",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-053",
+      "name": "郁垒",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-054",
+      "name": "白鹤年",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-055",
+      "name": "伊莱恩·莫罗",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-056",
+      "name": "卫铁生",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-057",
+      "name": "铁手（李铁牙）",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-058",
+      "name": "闵三元",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-059",
+      "name": "柳拂衣",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-060",
+      "name": "纪小刀",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-061",
+      "name": "何夜白",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-062",
+      "name": "九条千寻",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-063",
+      "name": "鹿岛绫",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-065",
+      "name": "宋远",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-066",
+      "name": "卢卡·阿奎拉",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-067",
+      "name": "马铁鹰",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-068",
+      "name": "西尔维娅",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-069",
+      "name": "贺梦琪",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-070",
+      "name": "老井（井叔）",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-072",
+      "name": "S.H.",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-073",
+      "name": "LR-07",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-074",
+      "name": "薄晚",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-075",
+      "name": "罗鸣谦",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-076",
+      "name": "玄圭",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-077",
+      "name": "方泰安",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-078",
+      "name": "于正清",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-079",
+      "name": "秦有邻",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-080",
+      "name": "朱见微",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-081",
+      "name": "苏碧城",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-082",
+      "name": "杜若",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-083",
+      "name": "纪慎微",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-085",
+      "name": "凌渡",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-086",
+      "name": "文小篆",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-088",
+      "name": "沈漫",
+      "actorId": "gadGwYGyXgzgEfpp",
+      "action": "update",
+      "fields": [
+        "img",
+        "prototypeToken.texture.src",
+        "flags.world.taiyiNpc"
+      ]
+    },
+    {
+      "id": "LS-NPC-089",
+      "name": "沈仲秋",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-090",
+      "name": "阿瑶",
+      "actorId": "a1z7lVrqv6W7wDFI",
+      "action": "update",
+      "fields": [
+        "img",
+        "prototypeToken.texture.src",
+        "flags.world.taiyiNpc"
+      ]
+    },
+    {
+      "id": "LS-NPC-091",
+      "name": "林彬",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-092",
+      "name": "谢翠莲",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-093",
+      "name": "宋光明",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-094",
+      "name": "杨振邦",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-095",
+      "name": "萨布里娜·费雷拉",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-096",
+      "name": "周凛",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-098",
+      "name": "贾红",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-100",
+      "name": "陈斌",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-101",
+      "name": "梁文川",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-103",
+      "name": "朱恒（身份待核）",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-104",
+      "name": "林鹤",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-105",
+      "name": "黑川",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-106",
+      "name": "红皇后",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-107",
+      "name": "男偶像",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-N1",
+      "name": "周敏",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-N2",
+      "name": "程雯",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    },
+    {
+      "id": "LS-NPC-N3",
+      "name": "棍木女",
+      "actorId": null,
+      "action": "create",
+      "fields": []
+    }
+  ],
+  "matches": [
+    {
+      "id": "LS-NPC-088",
+      "actorId": "gadGwYGyXgzgEfpp",
+      "name": "沈漫",
+      "type": "npc"
+    },
+    {
+      "id": "LS-NPC-090",
+      "actorId": "a1z7lVrqv6W7wDFI",
+      "name": "朱瑶光",
+      "type": "npc"
+    },
+    {
+      "id": "LS-PC-lihao",
+      "actorId": "dVY3kCrHc0WYyKEa",
+      "name": "李好",
+      "type": "character"
+    },
+    {
+      "id": "LS-PC-yuko",
+      "actorId": "zmeMlq5pVbbqr1rA",
+      "name": "黑崎欲子",
+      "type": "character"
+    },
+    {
+      "id": "LS-PC-tangsuo",
+      "actorId": "ELxrslbsSHQg0cmK",
+      "name": "唐索",
+      "type": "character"
+    },
+    {
+      "id": "LS-PC-lei",
+      "actorId": "j3f9G2P4vDSmmxZw",
+      "name": "雷武龙",
+      "type": "character"
+    },
+    {
+      "id": "LS-PC-kevlar",
+      "actorId": "vhpt4XZxZn59dWX5",
+      "name": "凯芙拉·威尔森",
+      "type": "character"
+    },
+    {
+      "id": "LS-PC-arkan",
+      "actorId": "nJxWvLzZvBNXObjk",
+      "name": "阿尔坎·希耶尔",
+      "type": "character"
+    }
+  ],
+  "supplemental": [
+    {
+      "name": "尼索科托夫",
+      "decision": "check-existing-merchant",
+      "matches": []
+    },
+    {
+      "name": "李文亚",
+      "decision": "archival-existing-only-until-image-found",
+      "matches": []
+    },
+    {
+      "name": "苏志国",
+      "decision": "archival-existing-only-until-image-found",
+      "matches": []
+    },
+    {
+      "name": "黑骑士",
+      "decision": "encounter-entity-check-existing",
+      "matches": []
+    },
+    {
+      "name": "死灵术士",
+      "decision": "encounter-entity-check-existing",
+      "matches": []
+    },
+    {
+      "name": "交管7号",
+      "decision": "chapter-design-no-premature-reveal",
+      "matches": []
+    }
+  ]
+}

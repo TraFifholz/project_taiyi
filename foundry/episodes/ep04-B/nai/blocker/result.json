@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260911-ep04-B-blocker",
+  "characterId": "EP04-B-blocker",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "528447",
+  "apiSeed": 411092002,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "f9bfb3667a8288d20440ddfeac53f8050ed2e195f7a55dc1b8ce83e9165491f8",
+  "width": 1024,
+  "height": 1024,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-11T11:26:26.644Z"
+}

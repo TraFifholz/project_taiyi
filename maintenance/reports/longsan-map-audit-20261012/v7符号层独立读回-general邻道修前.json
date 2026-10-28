@@ -1,0 +1,81 @@
+{
+  "version": "v7",
+  "reviewer": "collapse_design_audit independent subagent",
+  "input_sha256": {
+    "temp\\longsan-general-junction-audit\\33eb579c7c013146038b11de7a101aaf7a1ac594a1a705a8dd48e7c8c0604674-龙散市-基础底图.svg": "33eb579c7c013146038b11de7a101aaf7a1ac594a1a705a8dd48e7c8c0604674",
+    "assets\\maps\\longsan-geographic-v7-20261012\\龙散市-基础底图.svg": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+    "temp\\longsan-final-symbol-audit\\白帽修前-基础.svg": "dcec4b385a68d6cee43699ce600e5db2a02d28267d5466af65c3b40c26981746",
+    "temp\\longsan-general-junction-audit\\d7d2ccdc5842d23df21e5c08d6f52b842e15a4c3454cfbdfa07ce12496c68cb2-龙散市-底图与地铁.svg": "d7d2ccdc5842d23df21e5c08d6f52b842e15a4c3454cfbdfa07ce12496c68cb2",
+    "assets\\maps\\longsan-geographic-v7-20261012\\龙散市-底图与地铁.svg": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7",
+    "temp\\longsan-final-symbol-audit\\白帽修前-地铁.svg": "bbfcc4606d7065b5be6c3a59dcf9c191e859d1e9f8ded713207e780706c580ad",
+    "assets\\maps\\longsan-geographic-v7-20261012\\路网.geojson": "eaec7249f8abcbd7c3509f7a74056ddbadf887e9d61f92ba784c0605aa033f4d",
+    "assets\\maps\\longsan-geographic-v7-20261012\\建筑.geojson": "46d5c4398dbff6787b2cd7312ef030c67a93a04b22c65feefab9ed136da5b17d",
+    "assets\\maps\\longsan-geographic-v7-20261012\\临街地块.geojson": "15257e205f086601639b854482464feb69d91d948d7fc0dc194665d9f2724911",
+    "assets\\maps\\longsan-geographic-v7-20261012\\组团通道.geojson": "f7b162a8e2dee86be2133f14529c61e791ff51ddd6fab3f07f9f41b6f4ac3466",
+    "assets\\maps\\longsan-geographic-v7-20261012\\地理骨架.geojson": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+    "assets\\maps\\longsan-geographic-v7-20261012\\铁路.geojson": "9a8bff95b480dd945dc523e8a8eb3d3ecece992e5a09869da32cc2e5b425fe4c",
+    "assets\\maps\\longsan-geographic-v7-20261012\\灾后地理.geojson": "129697219ef04748e96262cd19c0e3c26a4630826918c50ae79c0b03dc0763b0",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7组团独立核验.py": "2612eaffb54f02ac4ff9e1ede7ab1bce46f7f9e8a206e19275620163398a5c1c",
+    "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94",
+    "assets\\maps\\longsan-geographic-v7-20261012\\城区规划.geojson": "f411859e2343990e536193bea7f099ffeb57694e825728de89d37823522b14e2",
+    "assets\\maps\\longsan-geographic-v7-20261012\\立交匝道.geojson": "f2dadad27cf411efaa5375ce5bfc4d5a4b78a758197febf991ca8c2c16225445",
+    "assets\\maps\\longsan-geographic-v5-20261012\\铁路.geojson": "a80c94c989ba2b3198c88fcb67d48eac56c82062fed4bd407dc4ed036e34e416",
+    "assets\\maps\\longsan-geographic-v5-20261012\\路网.geojson": "66b61d8cf1ed0cdcfd32224f8d65150df98e0767fdc25ccd89cd6c3259a71e6e",
+    "assets\\maps\\longsan-geographic-v5-20261012\\地理骨架.geojson": "aacc5142aeec4288af55546a63586dfb57828b1e8e91cc0b3a4792ac2f92f42e",
+    "assets\\maps\\longsan-geographic-v6-20261012\\铁路.geojson": "9a8bff95b480dd945dc523e8a8eb3d3ecece992e5a09869da32cc2e5b425fe4c",
+    "assets\\maps\\longsan-geographic-v6-20261012\\地理骨架.geojson": "71934501e72bcd2dd149e0294182e3daa1f2b499f39a397dd0839127b2cd1573",
+    "assets\\maps\\longsan-geographic-v6-20261012\\灾后地理.geojson": "129697219ef04748e96262cd19c0e3c26a4630826918c50ae79c0b03dc0763b0",
+    "scripts\\generate_longsan_geographic_maps_v6.py": "3ceddbf5832e6a287e97b6a828dc57a33e77e1459038540436246fc29b8a5152",
+    "scripts\\longsan_planned_fabric.py": "0fb13d1e278b016d2d2f4521726449b963c27b272eeac4f366a8a245ba19d537",
+    "temp\\longsan-map-qa-v7\\fabric.pickle": "aa3819399fd564fb87e4f8f440bbfe38e000674365d48813bc48a686884563cd",
+    "temp\\longsan-map-qa-v7\\network.pickle": "e14e787b9694c854923c7f9b0ba628db4390f67482193cc0e5c9fb93540da7d7",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7基础独立核验-primary帽修后.json": "b94849ac69d81e39447e6bf594990847ccffa33f39dde21ebc48e7a50aaddfaf",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7组团独立核验-末次屋型白帽修前.json": "4d8f1e5c0a702b60db21dc8d2c5c4e403677d9555170179eaab7911c9e5714c4",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7端点用途核验.json": "cd0eb5efeedc0a7e5cb619e741bc211a10eed8c960425d2f7e7eafe17c7d18db",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7路阶段-frozen.json": "d309a7b4b1521f08bbb1a545bf222d53c7765a9cac1badfed1ea0d84aaec079f",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7符号层独立读回.py": "74c0f90b5db84a0f604c26a402b439e6853659c324e9a4169077d2219a906cdc",
+    "assets\\maps\\longsan-geographic-v7-20261012\\街坊.geojson": "cfb9eac7a528c5855d60bce01eafd0848910c3be119df9422f80c649fa6653a7",
+    "scripts\\generate_longsan_geographic_maps_v7.py": "23975d6604b8ec8db40ac35ee465f5bd1382f636f4ec433826c48708e74a2fe7"
+  },
+  "pairs": [
+    {
+      "file": "龙散市-基础底图.svg",
+      "before_sha256": "33eb579c7c013146038b11de7a101aaf7a1ac594a1a705a8dd48e7c8c0604674",
+      "after_sha256": "e452cb40c7eae2d5b2b22efb2466b06b882aaf4f50cf5dfdd77b61aed58b29c8",
+      "final_symbol_polygon_paths": 2771,
+      "actual_nodes": 637,
+      "all_other_svg_bytes_identical": true,
+      "full_geometry_audited_svg_other_bytes_identical": true,
+      "metadata_other_than_shared_base_digest_identical": true,
+      "maximum_reconstruction_hausdorff_m": 0.007009723963933237,
+      "normalized_svg_sha256": "0a0b50b9b4061e66c9b036e12a0d77c06a009577c664236e6e9ee82987d63237"
+    },
+    {
+      "file": "龙散市-底图与地铁.svg",
+      "before_sha256": "d7d2ccdc5842d23df21e5c08d6f52b842e15a4c3454cfbdfa07ce12496c68cb2",
+      "after_sha256": "e40ccf6eeb1c1cf2712b533b2094b172157b1c5b91d28cfefd0ca7fc87d676a7",
+      "final_symbol_polygon_paths": 2771,
+      "actual_nodes": 637,
+      "all_other_svg_bytes_identical": true,
+      "full_geometry_audited_svg_other_bytes_identical": true,
+      "metadata_other_than_shared_base_digest_identical": true,
+      "maximum_reconstruction_hausdorff_m": 0.007009723963933237,
+      "normalized_svg_sha256": "e239337066fec5d7df4dcd806f4b420978d8c9ad73abd21eea54d7708782d225"
+    }
+  ],
+  "hard_gates": {
+    "non_symbol_svg_bytes_identical_to_latest_baseline_and_full_audit": true,
+    "metadata_except_shared_base_identical": true,
+    "all_polygon_junctions_independently_reconstructed": true,
+    "nine_geojson_and_fabric_network_other_generator_hashes_unchanged": true,
+    "blocks_match_unchanged_network_semantics_and_geometry": true,
+    "inputs_stable": true
+  },
+  "unresolved_hard_errors": [],
+  "block_verification": {
+    "count": 12532,
+    "method": "Exact ID/property/geometry comparison with independently SHA-frozen network.pickle; no pre-symbol file SHA was captured for 街坊.geojson.",
+    "errors": []
+  },
+  "review_boundary": "Nine exported GeoJSONs and both physical caches bind earlier hashes. Street-block export uses exact cache semantics/geometry, not an invented earlier byte hash. Every new polygon is rebuilt from actual exported road spans and SVG-level widths. No claim of road engineering capacity or final aesthetic perfection."
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260911-ep04-B-agent",
+  "characterId": "EP04-B-agent",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "c8980c",
+  "apiSeed": 411092003,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "8a4ff0adef7c18811d95023bd93aaf23520110004e47f5bb53b8d60c6841f619",
+  "width": 1024,
+  "height": 1024,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-11T11:26:30.157Z"
+}

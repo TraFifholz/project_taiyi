@@ -1,0 +1,133 @@
+{
+  "verifiedAt": "2026-09-02T15:11:02.327Z",
+  "actorCount": 118,
+  "players": 6,
+  "partyPairs": 15,
+  "partyDirections": 30,
+  "createdDirections": 30,
+  "relationshipImageChanges": [
+    {
+      "actor": "凯芙拉·威尔森",
+      "relationship": "rel_10pw3nICJ24L5UXi",
+      "fields": [
+        "listImage",
+        "mapThumbnail",
+        "portrait",
+        "portraitScale",
+        "sync.appliedRevision"
+      ]
+    },
+    {
+      "actor": "凯芙拉·威尔森",
+      "relationship": "rel_ftk0BSYMVFQtMiKL",
+      "fields": [
+        "listImage",
+        "mapThumbnail",
+        "portrait",
+        "portraitScale",
+        "sync.appliedRevision"
+      ]
+    },
+    {
+      "actor": "唐索",
+      "relationship": "rel_IPiYW1fXjoLkhtko",
+      "fields": [
+        "listImage",
+        "mapThumbnail",
+        "portrait",
+        "portraitScale",
+        "sync.appliedRevision"
+      ]
+    },
+    {
+      "actor": "唐索",
+      "relationship": "rel_uwQOA0xZy3xNmOI7",
+      "fields": [
+        "listImage",
+        "mapThumbnail",
+        "portrait",
+        "portraitScale",
+        "sync.appliedRevision"
+      ]
+    },
+    {
+      "actor": "李好",
+      "relationship": "rel_p2qh8B9CqRzQtD2m",
+      "fields": [
+        "portrait"
+      ]
+    },
+    {
+      "actor": "阿尔坎·希耶尔",
+      "relationship": "rel_uY7oZ0YZ6wPDtZpV",
+      "fields": [
+        "listImage",
+        "mapThumbnail",
+        "portrait",
+        "portraitScale",
+        "sync.appliedRevision"
+      ]
+    },
+    {
+      "actor": "阿尔坎·希耶尔",
+      "relationship": "rel_aUW46zeGgaln8rQ2",
+      "fields": [
+        "listImage",
+        "mapThumbnail",
+        "portrait",
+        "portraitScale",
+        "sync.appliedRevision"
+      ]
+    },
+    {
+      "actor": "黑崎欲子",
+      "relationship": "rel_X8vzkfFs8AWHYhif",
+      "fields": [
+        "listImage",
+        "mapThumbnail",
+        "portrait",
+        "portraitScale",
+        "sync.appliedRevision"
+      ]
+    },
+    {
+      "actor": "黑崎欲子",
+      "relationship": "rel_f6b6AgiqhZToFycc",
+      "fields": [
+        "listImage",
+        "mapThumbnail",
+        "portrait",
+        "portraitScale",
+        "sync.appliedRevision"
+      ]
+    }
+  ],
+  "syncRegistryChanges": [
+    {
+      "id": "sync_mgHDKKYVfdoGWdRF",
+      "members": 4,
+      "fields": [
+        "portrait",
+        "listImage",
+        "mapThumbnail",
+        "portraitScale"
+      ],
+      "expectedRevision": 3
+    },
+    {
+      "id": "sync_kzzu5up9zbenf2Kb",
+      "members": 4,
+      "fields": [
+        "portrait",
+        "listImage",
+        "mapThumbnail",
+        "portraitScale"
+      ],
+      "expectedRevision": 2
+    }
+  ],
+  "whiteAvatarUnchanged": true,
+  "whitePrototypeTokenUnchanged": true,
+  "sceneTokensUnchanged": true,
+  "failures": []
+}

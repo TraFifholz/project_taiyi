@@ -1,0 +1,108 @@
+{
+  "version": "v8",
+  "reviewer": "collapse_design_audit",
+  "input_sha256": {
+    "temp\\longsan-map-qa-v8\\pre-ring-bridge-eb20bc8bc6236a9f00b3718b7aeff5347c3022bda27323e29318f4351cb8b7f2.pickle": "eb20bc8bc6236a9f00b3718b7aeff5347c3022bda27323e29318f4351cb8b7f2",
+    "temp\\longsan-map-qa-v8\\fabric.pickle": "d02d428b4decf6012aa71ec96ef2c85e2d13dbfe1804bd9b36bdc3ff4712b415",
+    "temp\\longsan-map-qa-v8\\network.pickle": "ebd74d5da0b6c2667ec8b8c64a5fa11d9f65e451f5a60b5505cf495da2b6b001",
+    "assets\\maps\\longsan-geographic-v8-20261012\\路网.geojson": "735570ee178862bb98aa30a8cee1e1a2b4523874d88477d5fce3446540e2e4b5",
+    "assets\\maps\\longsan-geographic-v8-20261012\\街坊.geojson": "764143684fb2908ad681b012b7d2885e264558ec7b610409fbdbdc380c09276e",
+    "assets\\maps\\longsan-geographic-v8-20261012\\建筑.geojson": "bba3a4f14d91f8133779e7be52f2fa04d33e1fc10d25afc6325f0139320d0632",
+    "assets\\maps\\longsan-geographic-v8-20261012\\临街地块.geojson": "ca541b79cf8bbe4adcac8bdb5c0bb466e756e1581997247098cf098f1b472f7a",
+    "assets\\maps\\longsan-geographic-v8-20261012\\组团通道.geojson": "00fef14480a0199bd5c3c3954a76b0ae06ccce04a941a71ebc8d675e8e96bf80",
+    "assets\\maps\\longsan-geographic-v8-20261012\\地理骨架.geojson": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+    "assets\\maps\\longsan-geographic-v8-20261012\\灾后地理.geojson": "265dfc8da9216d199637d1cdab15dfbdf4cff9d428f230caa7c235307e9d4b50",
+    "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-基础底图.svg": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+    "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-底图与地铁.svg": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8恢复环路桥独审.py": "35c433ec4ec81abb2df89703c29e7968d875d3ddc64d755e3baa892275189b21",
+    "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94",
+    "scripts\\longsan_collapse_v8.py": "dabff8828752f0ea3dafa2c7f9d86af18de0cf2dd0b2242ac81f8493160c4327",
+    "scripts\\generate_longsan_geographic_maps_v8.py": "c274221e3e88ef57dac50e3abe632b2c8f7472dc5a4431cf5ab28a1802833ff1"
+  },
+  "hard_gates": {
+    "ring_is_exact_original_380m_offset_closed_loop": true,
+    "ring_only_one_previous_river_gap": true,
+    "whole_P8810_removed_and_all_other_geometry_preserved": true,
+    "new_bridge_centerline_does_not_split_land_blocks": true,
+    "no_retained_compound_in_new_28m_road_reservation": true,
+    "new_closed_ring_reservation_outside_security": true,
+    "both_svgs_have_explicit_correct_river_bridge": true,
+    "inputs_stable": true
+  },
+  "unresolved_hard_errors": [],
+  "old_full_ring_gap_m": 280.0669079999324,
+  "new_ring_km": 33.227467183890354,
+  "retained_layers_exact": {
+    "roofs": true,
+    "lots": true,
+    "paths": true,
+    "spaces": true,
+    "details": true,
+    "trees": true,
+    "roads": true,
+    "blocks": true
+  },
+  "removed_owner_inventory": {
+    "roofs": 1,
+    "lots": 1,
+    "paths": 4,
+    "spaces": 0,
+    "details": 0,
+    "trees": 0,
+    "roads": 0,
+    "blocks": 0
+  },
+  "major_errors": [],
+  "actual_block_edge_impacts": [
+    {
+      "id": "F7911",
+      "new_centerline_interior_m": 0.0,
+      "reservation_m2": 0.0004703518753022912
+    },
+    {
+      "id": "F7972",
+      "new_centerline_interior_m": 0.0,
+      "reservation_m2": 92.59769409813487
+    },
+    {
+      "id": "F7973",
+      "new_centerline_interior_m": 0.0,
+      "reservation_m2": 9.992007221626409e-10
+    },
+    {
+      "id": "F9969",
+      "new_centerline_interior_m": 0.0,
+      "reservation_m2": 1036.5190804257095
+    }
+  ],
+  "retained_lot_hits": [],
+  "retained_path_hits": [],
+  "svg_readback": [
+    {
+      "file": "龙散市-基础底图.svg",
+      "sha256": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+      "concept_bridge_paths": 3,
+      "bridge_widths": [
+        5.5,
+        4.9,
+        4.0
+      ],
+      "water_centerline_m": 120.06690819994589
+    },
+    {
+      "file": "龙散市-底图与地铁.svg",
+      "sha256": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+      "concept_bridge_paths": 3,
+      "bridge_widths": [
+        5.5,
+        4.9,
+        4.0
+      ],
+      "water_centerline_m": 120.06690819994589
+    }
+  ],
+  "limitations": [
+    "Street-block centreline faces retain their exact pregap land geometry; the new drybank road reservation occupies only their edge setback and is not a new interior subdivision.",
+    "34m conceptual road plus11m setback gives28m half reservation; the actual120m water-centreline bridge is not certified structural span."
+  ]
+}

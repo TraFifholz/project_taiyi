@@ -1,0 +1,6678 @@
+{
+  "id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+  "block_map": {
+    "AI5UdIrgAo9SQPxS1JGcjY9knyb": {
+      "id": "AI5UdIrgAo9SQPxS1JGcjY9knyb",
+      "version": 3,
+      "data": {
+        "type": "grid_column",
+        "parent_id": "LQxBdgEuSorOgMx9WNWcpB04nWc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "RQswdADmEoLTb2xtuMZcyYMWnJ9",
+          "FXlgdqU5ZoFMZ0xOVPRcXaVdnqc"
+        ],
+        "width_ratio": 0.5
+      }
+    },
+    "AJRSdX13Oo7GQQx6UMuc7HK7nZf": {
+      "id": "AJRSdX13Oo7GQQx6UMuc7HK7nZf",
+      "version": 2,
+      "data": {
+        "type": "text",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+s"
+            },
+            "text": {
+              "0": "每位干员都穿着BCA的防风夹克。他们面前放着BCA手册。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "AKE2dQTNOosLdsx80KEcGNXCnug": {
+      "id": "AKE2dQTNOosLdsx80KEcGNXCnug",
+      "version": 4,
+      "data": {
+        "type": "text",
+        "parent_id": "E7aYdgMieoKLx1xNzQZcizbdnEh",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+18"
+            },
+            "text": {
+              "0": "饮水机中的内容物，是由于洗手间内并合入侵的接近所产生的副产物，并混合了被吸收的心灵残留。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "AWq1dsHUOoPBEIxCOywc1EdSnEf": {
+      "id": "AWq1dsHUOoPBEIxCOywc1EdSnEf",
+      "version": 7,
+      "data": {
+        "type": "text",
+        "parent_id": "JxqEd1zkWoY9rPx3agpc6TXznCb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1u"
+            },
+            "text": {
+              "0": "在与“普通人”奥尔的旅途中，如果干员们发现一把品质优良的手风琴并将其赠予他，他将返回自己的原生位面，并获得成为其命中注定之人的能力。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "AkWid4WQMo1ON3xfSmKcxclGnzf": {
+      "id": "AkWid4WQMo1ON3xfSmKcxclGnzf",
+      "version": 12,
+      "data": {
+        "type": "bullet",
+        "parent_id": "MCtOdOQXpoWILXxyjkJc1t4Jnrg",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+13"
+            },
+            "text": {
+              "0": " 该干员必须标记 1d3 压力点，或在达成一次关键成功之前，所有掷骰承受劣势。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "AlKGdcJNqomDI5xENi4czsrEn9d": {
+      "id": "AlKGdcJNqomDI5xENi4czsrEn9d",
+      "version": 1,
+      "data": {
+        "type": "bullet",
+        "parent_id": "E7aYdgMieoKLx1xNzQZcizbdnEh",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+f"
+            },
+            "text": {
+              "0": "启动一个进度倒计时（1d6）。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "ArSid3m5ZoqLkkx5Os4cufHBnxf": {
+      "id": "ArSid3m5ZoqLkkx5Os4cufHBnxf",
+      "version": 3,
+      "data": {
+        "type": "text",
+        "parent_id": "QMUwd0C3koGA4uxzGtUcYh3Hn6e",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+8"
+            },
+            "text": {
+              "0": "阈值：1 / 2"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "B3nLdW7z6oIgENxPzHTcmKUIn9f": {
+      "id": "B3nLdW7z6oIgENxPzHTcmKUIn9f",
+      "version": 1,
+      "data": {
+        "type": "heading3",
+        "parent_id": "QMUwd0C3koGA4uxzGtUcYh3Hn6e",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+3"
+            },
+            "text": {
+              "0": "特性："
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "B8smdFv1moS881x1VT5cCHiGnrn": {
+      "id": "B8smdFv1moS881x1VT5cCHiGnrn",
+      "version": 11,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1i"
+            },
+            "text": {
+              "0": "该行动结算后，干员的真身进入场景（此前与团队分离），获得 1 希望点，并获得聚焦。该映像随后恢复为破碎形态。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "BE5md6R9IoDmANxkAhecWyRmnig": {
+      "id": "BE5md6R9IoDmANxkAhecWyRmnig",
+      "version": 7,
+      "data": {
+        "type": "text",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 4,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "link",
+                "https%3A%2F%2Flcnw6r5edbf2.feishu.cn%2Fwiki%2FYmvuwW6GPiyzGMkzFiIc2f1xnmc%23share-LX04d53z9oyqB7xz6AscAer2nZe"
+              ],
+              "3": [
+                "underline",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+d*0*1*2*3+z*0+1"
+            },
+            "text": {
+              "0": "眨眼之间，格子间农场转变为服务器机房和终端 THE SERVER ROOM & TERMINAL。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "BEqsdF1h8oUkJzxE2Tjc6vARnhc": {
+      "id": "BEqsdF1h8oUkJzxE2Tjc6vARnhc",
+      "version": 5,
+      "data": {
+        "type": "bullet",
+        "parent_id": "KEGYddRPioM7W4xkY6vcsmWKnJ7",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+h"
+            },
+            "text": {
+              "0": "饮用该液体会立即触发一次死亡行动。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "BOamd2XZlooZFJxspgycCiEtnsb": {
+      "id": "BOamd2XZlooZFJxspgycCiEtnsb",
+      "version": 3,
+      "data": {
+        "type": "image",
+        "parent_id": "X2kIdRoMEokTt7xZkBQcYeDRnP4",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "align": "center",
+        "image": {
+          "token": "QTmWbQ8pkovj0JxqqUEczuRmnWe",
+          "mimeType": "image/png",
+          "size": 1324079,
+          "scale": 1,
+          "width": 751,
+          "height": 979,
+          "name": "image.png",
+          "crop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotation": 0,
+          "caption": {
+            "text": {
+              "apool": {
+                "nextNum": 0,
+                "numToAttrib": null
+              },
+              "initialAttributedTexts": {
+                "attribs": null,
+                "text": null
+              }
+            }
+          }
+        },
+        "area_comments": {}
+      }
+    },
+    "Bj0PdU4Avouskfx4KRBcidjEnob": {
+      "id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+      "version": 5,
+      "data": {
+        "type": "callout",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "Ifc8dmOzyoAR9rxKNnOc0CK2nSe",
+          "WSjfdu2DYoX7emxaVkKcc1Wtnzd",
+          "V1AEd1E5DopkvrxdzUxccoklnGg",
+          "SA9AdegjGozVeMxfifbcvpxcn2d",
+          "RJBFdzxzIoJhoYxT54vciPe4nxc",
+          "Rr4vdbHmTooWQvxxoywcXJ92nXc",
+          "UGtNdBGWqoiTFJxtB3mcjh92nug",
+          "QHaTdwohNoxGHWxsDL1cqHj8nKg",
+          "XI5odk4ekoubYVx14grcx1QBnUD",
+          "VApodtT7soHVAGxFI4AcUM8WnGk",
+          "HGYKd3DMqovPTqxmY6Pcayuuntf",
+          "JbKpdRZJyogP7CxJeeNcmA9onJb",
+          "PMLKdnvSVohlcQxsYm5cDh5nnpe"
+        ],
+        "background_color": "rgb(255,245,235)",
+        "border_color": "rgb(254,212,164)",
+        "text_color": "",
+        "align": "left",
+        "emoji_id": "briefcase",
+        "emoji_value": "1f4bc"
+      }
+    },
+    "Bl9WdOj5xoxzj8xgEc2c4f0unQp": {
+      "id": "Bl9WdOj5xoxzj8xgEc2c4f0unQp",
+      "version": 7,
+      "data": {
+        "type": "heading3",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "textHighlight",
+                "rgb(222,120,2)"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+i"
+            },
+            "text": {
+              "0": "办公室傀儡 OFFICE DRONE"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "BnAud7HGeoj7smxHGdFc9Q8znZf": {
+      "id": "BnAud7HGeoj7smxHGdFc9Q8znZf",
+      "version": 1,
+      "data": {
+        "type": "bullet",
+        "parent_id": "MNccdpWeqouGH1xX2cScNwjan2f",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+26"
+            },
+            "text": {
+              "0": "一扇锁着的门。门上贴着纵横交错的黄色胶带，上面写着“已完成”。一次成功的灵巧或知识动作掷骰即可解锁这扇门。掷骰失败则需花费时间才能打开——末日钟增加 1 。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "BpsZdBtOYodRzSxlbsycOvFpnjb": {
+      "id": "BpsZdBtOYodRzSxlbsycOvFpnjb",
+      "version": 11,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+k"
+            },
+            "text": {
+              "0": "攻击：+2 镜像武器 近距离 1d8+5"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "BrnZdlyHpoP00Ix5AlEcSpJrn3b": {
+      "id": "BrnZdlyHpoP00Ix5AlEcSpJrn3b",
+      "version": 2,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+5"
+            },
+            "text": {
+              "0": "压力点：3"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "BvChdIeCUovmHCxGJAhcgdqjnVb": {
+      "id": "BvChdIeCUovmHCxGJAhcgdqjnVb",
+      "version": 6,
+      "data": {
+        "type": "text",
+        "parent_id": "VRk6dhXP2oHgMTxt2rFcGOImneg",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+o"
+            },
+            "text": {
+              "0": " 倒置的替身从镜中涌现，汇聚成扭曲的干员并合体。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "C24Md34fxo6yisxz3PucUhZrn7g": {
+      "id": "C24Md34fxo6yisxz3PucUhZrn7g",
+      "version": 1,
+      "data": {
+        "type": "heading2",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+g"
+            },
+            "text": {
+              "0": "游戏主持人行动 GM MOVES"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "C2iPdDldKoIiK6xVhLdcZhCLn2f": {
+      "id": "C2iPdDldKoIiK6xVhLdcZhCLn2f",
+      "version": 6,
+      "data": {
+        "type": "heading1",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+9"
+            },
+            "text": {
+              "0": "场景2：格子间农场"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "CFngdfaYxo87uOxEIzoc2LOtnFh": {
+      "id": "CFngdfaYxo87uOxEIzoc2LOtnFh",
+      "version": 3,
+      "data": {
+        "type": "text",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+s"
+            },
+            "text": {
+              "0": "他们彼此都不认识，但却对身旁的陌生人感到一种莫名的信任。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "CLaldH4BQoju8mxslbpcWnjpnRd": {
+      "id": "CLaldH4BQoju8mxslbpcWnjpnRd",
+      "version": 14,
+      "data": {
+        "type": "bullet",
+        "parent_id": "TJsId4mPyopF3jxeVmucwSA1nKb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "V3GxdHS2XojOQgxhtXXca2phnlb",
+          "KiGwdTkGCoXoepxoeQfcvdlqnMe"
+        ],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+19"
+            },
+            "text": {
+              "0": "一个跟正常人类尺寸差不多大小的洞口。位于入口对面。其表面显得湿润，周围瓷砖被深色液体涂抹。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "CWDGdVDiBo5wgoxnrGNcJUkknfe": {
+      "id": "CWDGdVDiBo5wgoxnrGNcJUkknfe",
+      "version": 6,
+      "data": {
+        "type": "bullet",
+        "parent_id": "E7aYdgMieoKLx1xNzQZcizbdnEh",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+s"
+            },
+            "text": {
+              "0": "干员必须采取行动以逃离循环的楼梯，并找到最初的阈点入口。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "CieVd1IrSo3sqRx0B5ucXXqFnJg": {
+      "id": "CieVd1IrSo3sqRx0B5ucXXqFnJg",
+      "version": 10,
+      "data": {
+        "type": "text",
+        "parent_id": "QMUwd0C3koGA4uxzGtUcYh3Hn6e",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 4,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "textHighlight",
+                "rgb(216,57,49)"
+              ],
+              "3": [
+                "underline",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1*2*3+b"
+            },
+            "text": {
+              "0": "与干员结成友好关系时："
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "CsVmdE1MPo8SNdxSqzQcOCu3nPg": {
+      "id": "CsVmdE1MPo8SNdxSqzQcOCu3nPg",
+      "version": 1,
+      "data": {
+        "type": "bullet",
+        "parent_id": "Z5Wpdg1Nsoo8jpx7BY8cScexnwc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+38"
+            },
+            "text": {
+              "0": "翻阅这些书籍的干员可以标记 1 压力点进行一次知识掷骰。掷骰成功后，其可以向GM提出一个问题，并得到一个真实但含糊的答案。每次后续使用都需要额外标记 1 压力点（例如，第二次使用标记 2 压力点，第三次标记 3 压力点，以此类推）。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "CuCid5I6To3UzKxxaDuc8gIAnib": {
+      "id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+      "version": 6,
+      "data": {
+        "type": "callout",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "DdRedTIbYo6eOwxMcEdcgHHenag",
+          "G2eCdu0qwo6KbXxuiiLc77Aln9c",
+          "WihmdCoSxo582bxhLK9cKc75nbf",
+          "YgXfdEXVCoRwIwxinp5cRri6nte",
+          "EMaHdG4Suoqo0qxEnPXcKEDrnif",
+          "IJV3dsL5PoXwhGxje8jc2xcOnWo",
+          "BrnZdlyHpoP00Ix5AlEcSpJrn3b",
+          "BpsZdBtOYodRzSxlbsycOvFpnjb",
+          "QtA4dsDH4oJORCxs6ojcT5NDnsh",
+          "QtHvdpPYloPukXxkCQrcdX13nug",
+          "TL8CdhPJ7oJFwuxukkAcmfTun9b",
+          "QlEudR4TNoWCgExeICpcVF1TnJb",
+          "Txkzd4jmvoMbRjxn3PvcnSEgnTf",
+          "Hq79dlFdtoxuoRxuxskcvfUknPg",
+          "B8smdFv1moS881x1VT5cCHiGnrn",
+          "YDwpd9MMQoMe7bxpMhUcxBcZnzc",
+          "MaLcdNuS4olRWIxCUoIcyCxlnvd"
+        ],
+        "background_color": "rgb(255,245,235)",
+        "border_color": "rgb(254,212,164)",
+        "text_color": "",
+        "align": "left",
+        "emoji_id": "briefcase",
+        "emoji_value": "1f4bc"
+      }
+    },
+    "CvHkd7f1RoHhhmxPQ7AcbLWSn3d": {
+      "id": "CvHkd7f1RoHhhmxPQ7AcbLWSn3d",
+      "version": 14,
+      "data": {
+        "type": "heading3",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "textHighlight",
+                "rgb(222,120,2)"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+o"
+            },
+            "text": {
+              "0": "“塑料绿植” GREENJEANS —— 异常体"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "CyQXdvyqVofd6nxpeD5cNPFKnkb": {
+      "id": "CyQXdvyqVofd6nxpeD5cNPFKnkb",
+      "version": 30,
+      "data": {
+        "type": "bullet",
+        "parent_id": "ZYtXddzYJowjXlx8pJgcFaeQnrf",
+        "comments": [
+          "7623226878211493055"
+        ],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "comment-id-7623226878211493055",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+h*0*1*2+4"
+            },
+            "text": {
+              "0": "唱针落下 Needle Drop 团队能力"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "DRk8dIMGaoCnAvxAvDgcuPjLn6e": {
+      "id": "DRk8dIMGaoCnAvxAvDgcuPjLn6e",
+      "version": 13,
+      "data": {
+        "type": "bullet",
+        "parent_id": "IJ9Dd52lqoo3BDxKAdNcz079n6g",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+q"
+            },
+            "text": {
+              "0": "每次成功的动作掷骰，或掷出希望结果，使倒计时减少1。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "DSPDdeRPVo6BJhxdgiCcDEAnn9c": {
+      "id": "DSPDdeRPVo6BJhxdgiCcDEAnn9c",
+      "version": 7,
+      "data": {
+        "type": "bullet",
+        "parent_id": "FKWldnLRdoVWq0xLVpLcuD15nFb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+w"
+            },
+            "text": {
+              "0": "后方悬挂着一个尸体袋，当干员接近时会蠕动，像幼虫试图从蛹中破出。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "DdRedTIbYo6eOwxMcEdcgHHenag": {
+      "id": "DdRedTIbYo6eOwxMcEdcgHHenag",
+      "version": 6,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+5"
+            },
+            "text": {
+              "0": "T1 潜伏"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "DyjJdlJ2EoSJX2xMu49c6B1unUb": {
+      "id": "DyjJdlJ2EoSJX2xMu49c6B1unUb",
+      "version": 8,
+      "data": {
+        "type": "heading2",
+        "parent_id": "JfEkd0s0oo1Vzbxkn1ecawO6n3e",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+c"
+            },
+            "text": {
+              "0": "会议室 P-1 （枢纽）"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "E7aYdgMieoKLx1xNzQZcizbdnEh": {
+      "id": "E7aYdgMieoKLx1xNzQZcizbdnEh",
+      "version": 8,
+      "data": {
+        "type": "callout",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "TzB8dceuQocBJIxut4Uc4EK1n4f",
+          "AKE2dQTNOosLdsx80KEcGNXCnug",
+          "ROIYdGT3joZQZtxfBswcfItCnAh",
+          "T380dfYPho339mxPY3wcePOznRh",
+          "PZendkN7MolC6mxIQqEc3lxRn0b",
+          "WssxdZDYyosKXMxXF1icjBZ3nlh",
+          "AlKGdcJNqomDI5xENi4czsrEn9d",
+          "CWDGdVDiBo5wgoxnrGNcJUkknfe",
+          "EGogdKP8FocXMwxV7gmcVniPnLK"
+        ],
+        "background_color": "rgb(255,245,235)",
+        "border_color": "rgb(254,212,164)",
+        "text_color": "",
+        "align": "left",
+        "emoji_id": "fearful",
+        "emoji_value": "1f628"
+      }
+    },
+    "E9P1dnN1BoHwKNxP3WecwM3Knke": {
+      "id": "E9P1dnN1BoHwKNxP3WecwM3Knke",
+      "version": 7,
+      "data": {
+        "type": "bullet",
+        "parent_id": "URAOdb4B8oDTh5xqielcC4n7n6d",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+15"
+            },
+            "text": {
+              "0": "修复该终端是首要任务，以重新获取对BCA系统的访问权限，并恢复其他功能设施的运作。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "EBkbd2JQsoxyKWxWBKAc8wTined": {
+      "id": "EBkbd2JQsoxyKWxWBKAc8wTined",
+      "version": 2,
+      "data": {
+        "type": "text",
+        "parent_id": "QMUwd0C3koGA4uxzGtUcYh3Hn6e",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+h"
+            },
+            "text": {
+              "0": "动机与战术：躲藏、跟随、观察、协助"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "EGogdKP8FocXMwxV7gmcVniPnLK": {
+      "id": "EGogdKP8FocXMwxV7gmcVniPnLK",
+      "version": 2,
+      "data": {
+        "type": "bullet",
+        "parent_id": "E7aYdgMieoKLx1xNzQZcizbdnEh",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+i"
+            },
+            "text": {
+              "0": "相关的特性、法术或能力视为自动成功。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "EMaHdG4Suoqo0qxEnPXcKEDrnif": {
+      "id": "EMaHdG4Suoqo0qxEnPXcKEDrnif",
+      "version": 7,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+9"
+            },
+            "text": {
+              "0": "阈值：6 / 10"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "EOApd4cjzoSK5mxcOqlcZL8InUh": {
+      "id": "EOApd4cjzoSK5mxcOqlcZL8InUh",
+      "version": 2,
+      "data": {
+        "type": "bullet",
+        "parent_id": "MNccdpWeqouGH1xX2cScNwjan2f",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1d"
+            },
+            "text": {
+              "0": "一台对讲机。它的线被剪断了。它发出低沉的嘶嘶声。旁边是一个文件夹，里面装着BCA手册的第5-6页。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "EWRgd0yiFooUApxvEOvcgf2unZ5": {
+      "id": "EWRgd0yiFooUApxvEOvcgf2unZ5",
+      "version": 4,
+      "data": {
+        "type": "text",
+        "parent_id": "ODTadIK3FoVJKOx98hzcVj5jnyg",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+20"
+            },
+            "text": {
+              "0": "洗手间内部被一场恶性的时间线并合所扭曲。荧光灯闪烁不定，勉强阻挡着不断侵蚀的阴影。地铁风格的瓷砖泛着病态的绿色，而镜子上的裂纹如蛛网般蔓延开来。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Eo5ldscNwo1TrJx4Vcqce77enCc": {
+      "id": "Eo5ldscNwo1TrJx4Vcqce77enCc",
+      "version": 1,
+      "data": {
+        "type": "heading3",
+        "parent_id": "JxqEd1zkWoY9rPx3agpc6TXznCb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+3"
+            },
+            "text": {
+              "0": "特性："
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Es8tdcUrjox0b9xwaiUcWfaJnvh": {
+      "id": "Es8tdcUrjox0b9xwaiUcWfaJnvh",
+      "version": 3,
+      "data": {
+        "type": "bullet",
+        "parent_id": "TJsId4mPyopF3jxeVmucwSA1nKb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "SB56duKgIoYwJUxlhGxczCYInBb"
+        ],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+n"
+            },
+            "text": {
+              "0": "破裂的镜子。横贯左侧墙面，映像呈现出碎裂状态。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "FKWldnLRdoVWq0xLVpLcuD15nFb": {
+      "id": "FKWldnLRdoVWq0xLVpLcuD15nFb",
+      "version": 5,
+      "data": {
+        "type": "bullet",
+        "parent_id": "IINcd8vsiohK9KxyGFHc2mHan6g",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "DSPDdeRPVo6BJhxdgiCcDEAnn9c",
+          "KDJIdmy42oby1tx8ogTcFiymnhf",
+          "MY8xdqpb4orIHjxIk53ci54onOc"
+        ],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+m"
+            },
+            "text": {
+              "0": "一个储物间。内有各种被部分使用过的办公用品。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "FXX8dzB4ZonrI7xc624cYPljnIb": {
+      "id": "FXX8dzB4ZonrI7xc624cYPljnIb",
+      "version": 44,
+      "data": {
+        "type": "text",
+        "parent_id": "S29vdJ1V8ombQjx2nAfcdaj5nte",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+27"
+            },
+            "text": {
+              "0": "（译者注：看到图里厕所这个红三角吗，我强烈建议靠近的时候改成掷出6d4，然后让玩家选择标记数量等同于掷骰中不为3的骰子数的压力点，或者让gm获得等量恐惧点。）"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "FXlgdqU5ZoFMZ0xOVPRcXaVdnqc": {
+      "id": "FXlgdqU5ZoFMZ0xOVPRcXaVdnqc",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "AI5UdIrgAo9SQPxS1JGcjY9knyb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 0,
+            "numToAttrib": {}
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": ""
+            },
+            "text": {
+              "0": ""
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "FkDCddk68o7aB8xs9CKcu9osngU": {
+      "id": "FkDCddk68o7aB8xs9CKcu9osngU",
+      "version": 7,
+      "data": {
+        "type": "heading1",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+7"
+            },
+            "text": {
+              "0": "场景1：会议室"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "FzCVdDcK7obxHWxrZvsc0fS5nXg": {
+      "id": "FzCVdDcK7obxHWxrZvsc0fS5nXg",
+      "version": 21,
+      "data": {
+        "type": "text",
+        "parent_id": "JxqEd1zkWoY9rPx3agpc6TXznCb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+4a"
+            },
+            "text": {
+              "0": "当 “普通人”奥尔加入队伍时，启动一个倒计时（6）。每当一名干员与他发生一次重要互动（例如拯救他的生命、帮助他达成目标），倒计时减少 1。归零时，他不再对事务局与队伍抱有愤怒。他获得3枚普通人指示物，在每次长休后恢复。玩家可以花费1枚普通人指示物，声明某个物体“如他所见”，前提是此前叙事中对其已有不同描述。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "G2eCdu0qwo6KbXxuiiLc77Aln9c": {
+      "id": "G2eCdu0qwo6KbXxuiiLc77Aln9c",
+      "version": 1,
+      "data": {
+        "type": "quote_container",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "OQ6hdGQjpoEYwnxdSZfcoYRJn1b"
+        ]
+      }
+    },
+    "G7AtdVNG8ossHhxWpAJcxjYInQd": {
+      "id": "G7AtdVNG8ossHhxWpAJcxjYInQd",
+      "version": 1,
+      "data": {
+        "type": "bullet",
+        "parent_id": "MNccdpWeqouGH1xX2cScNwjan2f",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+11"
+            },
+            "text": {
+              "0": "一张海报，上面画着一根空树枝。写着：“坚持住，小猫咪。” 海报上并没有猫。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "GDCBdwA9qoReJpxrI6vc6Feqn5d": {
+      "id": "GDCBdwA9qoReJpxrI6vc6Feqn5d",
+      "version": 7,
+      "data": {
+        "type": "text",
+        "parent_id": "VFnEdj9nAotY1Gx0HjdcaQSTnjb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1i"
+            },
+            "text": {
+              "0": "除了在安全区域“枢纽”内，干员们无法在其他地方进行休息。（目前仅限P-1会议室，待其他区域解锁后方可进入）。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "GZmydTO6Wok7r7xR5FJcC588nDd": {
+      "id": "GZmydTO6Wok7r7xR5FJcC588nDd",
+      "version": 10,
+      "data": {
+        "type": "text",
+        "parent_id": "WSjfdu2DYoX7emxaVkKcc1Wtnzd",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "italic",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+2x"
+            },
+            "text": {
+              "0": "一种苍白、瘦削的生物，面部没有任何特征，唯有一张滴落黑色黏液的嘴，内里排列着如鲨鱼般的利齿。它的身体完全被自身分泌的液体覆盖，形成对商务休闲着装的粗糙模仿。它不断喋喋不休，念叨着逾期报告、绩效评估以及强制会议。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Gq2LdOaV7oaKQzxkTmGcUxfHnkb": {
+      "id": "Gq2LdOaV7oaKQzxkTmGcUxfHnkb",
+      "version": 8,
+      "data": {
+        "type": "heading2",
+        "parent_id": "ODTadIK3FoVJKOx98hzcVj5jnyg",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+c"
+            },
+            "text": {
+              "0": "无性别洗手间（并合入侵）"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "HGYKd3DMqovPTqxmY6Pcayuuntf": {
+      "id": "HGYKd3DMqovPTqxmY6Pcayuuntf",
+      "version": 5,
+      "data": {
+        "type": "text",
+        "parent_id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+q"
+            },
+            "text": {
+              "0": "企业文化 Corporate Culture  动作"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "HToRdvGOkoJj0FxPfrDcdNWMn9f": {
+      "id": "HToRdvGOkoJj0FxPfrDcdNWMn9f",
+      "version": 12,
+      "data": {
+        "type": "text",
+        "parent_id": "TUuoddtdNo6mkBxNhcycWDpjnKf",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1a"
+            },
+            "text": {
+              "0": "突然，会议室的门被猛地撞开。干员们必须成功通过一次风度反应掷骰，否则将标记 1d4 压力点。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "HZ9qdf3TtoQcdux4R0rcgtnbn1e": {
+      "id": "HZ9qdf3TtoQcdux4R0rcgtnbn1e",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 0,
+            "numToAttrib": {}
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": ""
+            },
+            "text": {
+              "0": ""
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "HiBzdhECiosPm6x5seUc9BYpnyb": {
+      "id": "HiBzdhECiosPm6x5seUc9BYpnyb",
+      "version": 9,
+      "data": {
+        "type": "bullet",
+        "parent_id": "TJsId4mPyopF3jxeVmucwSA1nKb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "LVSedxIFAozbFfxGbFcchPjcnHb",
+          "IJBZdqtyaoHyD8xGdsqctrxBnSd"
+        ],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1n"
+            },
+            "text": {
+              "0": "隔间。右侧排列着六个隔间；只有最后一个保留着门。门内传出轻微的抽泣声。干员可以标记 1 压力点以尝试进行一次风度掷骰："
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "HoRqdBrwIopAeTxR4l9cjPDNngc": {
+      "id": "HoRqdBrwIopAeTxR4l9cjPDNngc",
+      "version": 3,
+      "data": {
+        "type": "text",
+        "parent_id": "VFnEdj9nAotY1Gx0HjdcaQSTnjb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+20"
+            },
+            "text": {
+              "0": "干员们进入这间几乎废弃的隔间式办公区，发现房间与会议室截然相反：地板是绿色的人造草坪，而天花板则铺着深红色的地毯。走出房间后，他们不禁脊背发凉。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Hq79dlFdtoxuoRxuxskcvfUknPg": {
+      "id": "Hq79dlFdtoxuoRxuxskcvfUknPg",
+      "version": 7,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+18"
+            },
+            "text": {
+              "0": "你可以再花费 1 恐惧点，接管被伪装干员的真身的控制权，并使用其属性与能力执行一次行动。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "HqOxdoETnotg5LxUvZOcSe3fnPf": {
+      "id": "HqOxdoETnotg5LxUvZOcSe3fnPf",
+      "version": 2,
+      "data": {
+        "type": "quote_container",
+        "parent_id": "JxqEd1zkWoY9rPx3agpc6TXznCb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "QSQ9dbMIFoK0ADxUDtYc3m8EnKe",
+          "LfHrd6d0XosATUx17ZocFdCsngf"
+        ]
+      }
+    },
+    "HyIzdXve0o62gfxUcI9ccJpSn0c": {
+      "id": "HyIzdXve0o62gfxUcI9ccJpSn0c",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+u"
+            },
+            "text": {
+              "0": "他们围坐在一张巨大的圆形红木会议桌旁，仿佛从……虚无中醒来。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "IINcd8vsiohK9KxyGFHc2mHan6g": {
+      "id": "IINcd8vsiohK9KxyGFHc2mHan6g",
+      "version": 14,
+      "data": {
+        "type": "grid_column",
+        "parent_id": "V6fgdSFYQogapQx5jtxc66HtnWd",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "JriUd9l0povH3GxWhcacXvxunCe",
+          "IJ9Dd52lqoo3BDxKAdNcz079n6g",
+          "IdFEdiO4RoSCpOxADRacQU1Un7g",
+          "URAOdb4B8oDTh5xqielcC4n7n6d",
+          "KEGYddRPioM7W4xkY6vcsmWKnJ7",
+          "FKWldnLRdoVWq0xLVpLcuD15nFb",
+          "ZraydjdxnoRvfBxkIfacqZ0QnJd",
+          "MCtOdOQXpoWILXxyjkJc1t4Jnrg"
+        ],
+        "width_ratio": 0.5
+      }
+    },
+    "IJ9Dd52lqoo3BDxKAdNcz079n6g": {
+      "id": "IJ9Dd52lqoo3BDxKAdNcz079n6g",
+      "version": 9,
+      "data": {
+        "type": "bullet",
+        "parent_id": "IINcd8vsiohK9KxyGFHc2mHan6g",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "XywidzFn5o7Z1hxG0ClclccTnun",
+          "DRk8dIMGaoCnAvxAvDgcuPjLn6e",
+          "NNaBdvH4copCIoxTFnmcUPtQn7d"
+        ],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+15"
+            },
+            "text": {
+              "0": "一个由格子间组成的迷宫。在该空间中的移动被视为“处于压力之下”，需要进行动作掷骰。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "IJBZdqtyaoHyD8xGdsqctrxBnSd": {
+      "id": "IJBZdqtyaoHyD8xGdsqctrxBnSd",
+      "version": 4,
+      "data": {
+        "type": "bullet",
+        "parent_id": "HiBzdhECiosPm6x5seUc9BYpnyb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+12"
+            },
+            "text": {
+              "0": "失败：一个办公室傀儡蜷缩在里面。它不会攻击，并会在有机会时通过墙上的洞逃离。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "IJV3dsL5PoXwhGxje8jc2xcOnWo": {
+      "id": "IJV3dsL5PoXwhGxje8jc2xcOnWo",
+      "version": 2,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+5"
+            },
+            "text": {
+              "0": "生命点：4"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "IWWsdWfHjoYj63xss9lc13j9n8d": {
+      "id": "IWWsdWfHjoYj63xss9lc13j9n8d",
+      "version": 10,
+      "data": {
+        "type": "heading1",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+c"
+            },
+            "text": {
+              "0": "开场设置 THE SET"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "IdFEdiO4RoSCpOxADRacQU1Un7g": {
+      "id": "IdFEdiO4RoSCpOxADRacQU1Un7g",
+      "version": 4,
+      "data": {
+        "type": "bullet",
+        "parent_id": "IINcd8vsiohK9KxyGFHc2mHan6g",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+14"
+            },
+            "text": {
+              "0": "办公室环境音。房间各处隐藏的扬声器中播放着打字机的敲击声与难以辨识的办公室对话。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Ifc8dmOzyoAR9rxKNnOc0CK2nSe": {
+      "id": "Ifc8dmOzyoAR9rxKNnOc0CK2nSe",
+      "version": 3,
+      "data": {
+        "type": "text",
+        "parent_id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+5"
+            },
+            "text": {
+              "0": "T1 标准"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "JSZCdue98ooUPvx3yLDclFeHni6": {
+      "id": "JSZCdue98ooUPvx3yLDclFeHni6",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "JxqEd1zkWoY9rPx3agpc6TXznCb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+h"
+            },
+            "text": {
+              "0": "动机与战术：躲藏、跟随、观察、协助"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "JbKpdRZJyogP7CxJeeNcmA9onJb": {
+      "id": "JbKpdRZJyogP7CxJeeNcmA9onJb",
+      "version": 17,
+      "data": {
+        "type": "text",
+        "parent_id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+32"
+            },
+            "text": {
+              "0": "当傀儡用牙齿成功命中目标时，你可以标记 1 压力点，向目标注入黑色黏液。被黏液感染期间，目标会将所有生物视为办公室傀儡。目标无法进行攻击，除非其先标记 1 压力点。目标可以花费 1 希望点或进行一次休整行动来移除该黏液。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "JcAgdbzG5ofKa7xSutacElcLnpf": {
+      "id": "JcAgdbzG5ofKa7xSutacElcLnpf",
+      "version": 1,
+      "data": {
+        "type": "bullet",
+        "parent_id": "MNccdpWeqouGH1xX2cScNwjan2f",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+q"
+            },
+            "text": {
+              "0": "一个咖啡台。咖啡壶很烫，但空了。它散发着难闻的气味。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "JfEkd0s0oo1Vzbxkn1ecawO6n3e": {
+      "id": "JfEkd0s0oo1Vzbxkn1ecawO6n3e",
+      "version": 3,
+      "data": {
+        "type": "callout",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "DyjJdlJ2EoSJX2xMu49c6B1unUb",
+          "S1zLdjEFAoukiBxfGsscz8JQnhf"
+        ],
+        "background_color": "rgb(255,245,235)",
+        "border_color": "rgb(254,212,164)",
+        "text_color": "",
+        "align": "left",
+        "emoji_id": "door",
+        "emoji_value": "1f6aa"
+      }
+    },
+    "JriUd9l0povH3GxWhcacXvxunCe": {
+      "id": "JriUd9l0povH3GxWhcacXvxunCe",
+      "version": 2,
+      "data": {
+        "type": "heading2",
+        "parent_id": "IINcd8vsiohK9KxyGFHc2mHan6g",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+i"
+            },
+            "text": {
+              "0": "房间里的摆设 IN THE ROOM"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "JxqEd1zkWoY9rPx3agpc6TXznCb": {
+      "id": "JxqEd1zkWoY9rPx3agpc6TXznCb",
+      "version": 15,
+      "data": {
+        "type": "callout",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "HqOxdoETnotg5LxUvZOcSe3fnPf",
+          "JSZCdue98ooUPvx3yLDclFeHni6",
+          "NidUd3CSHot1OTxbD0fcheL4nSb",
+          "UdTzdvaBkoVM3yxtj7Fc4Jodnng",
+          "Eo5ldscNwo1TrJx4Vcqce77enCc",
+          "NXWNdvxz9orSM3x6T5qcSwnEnjc",
+          "FzCVdDcK7obxHWxrZvsc0fS5nXg",
+          "TNkXdVht9oza09xYLFEc9i3Rn2d",
+          "SBAudSjhpokrjOxEkoTcaeDInxc",
+          "AWq1dsHUOoPBEIxCOywc1EdSnEf",
+          "ZYtXddzYJowjXlx8pJgcFaeQnrf"
+        ],
+        "background_color": "rgb(255,245,235)",
+        "border_color": "rgb(254,212,164)",
+        "text_color": "",
+        "align": "left",
+        "emoji_id": "guitar",
+        "emoji_value": "1f3b8"
+      }
+    },
+    "K3TBd67e9ov5qXxU0D6c8zndneh": {
+      "id": "K3TBd67e9ov5qXxU0D6c8zndneh",
+      "version": 8,
+      "data": {
+        "type": "text",
+        "parent_id": "TUuoddtdNo6mkBxNhcycWDpjnKf",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "italic",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1*2+16"
+            },
+            "text": {
+              "0": "来自局长的消息 Message from the Director（ 1 恐惧点 ）"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "K7Btd2tZ7oj8eLxSRfac66Egn5f": {
+      "id": "K7Btd2tZ7oj8eLxSRfac66Egn5f",
+      "version": 15,
+      "data": {
+        "type": "heading3",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "textHighlight",
+                "rgb(222,120,2)"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+p"
+            },
+            "text": {
+              "0": "“普通人”奥尔 NORMAL AL —— 量子路人"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "KDJIdmy42oby1tx8ogTcFiymnhf": {
+      "id": "KDJIdmy42oby1tx8ogTcFiymnhf",
+      "version": 19,
+      "data": {
+        "type": "bullet",
+        "parent_id": "FKWldnLRdoVWq0xLVpLcuD15nFb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "underline",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+k*0*1*2+h*0+1"
+            },
+            "text": {
+              "0": "若立即打开，里面是一个时间错位的人形体：“普通人”奥尔 Normal AL。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "KEGYddRPioM7W4xkY6vcsmWKnJ7": {
+      "id": "KEGYddRPioM7W4xkY6vcsmWKnJ7",
+      "version": 6,
+      "data": {
+        "type": "bullet",
+        "parent_id": "IINcd8vsiohK9KxyGFHc2mHan6g",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "BEqsdF1h8oUkJzxE2Tjc6vARnhc",
+          "Yl7Adn0DFoMCgVx8mugcjw9JnTb"
+        ],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+q"
+            },
+            "text": {
+              "0": "饮水（？）机。内部充满黑色黏液，并从出水口缓慢渗出。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "KInEdRWyWoAnraxvBPKc1q95n4b": {
+      "id": "KInEdRWyWoAnraxvBPKc1q95n4b",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "TUuoddtdNo6mkBxNhcycWDpjnKf",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+z"
+            },
+            "text": {
+              "0": "咖啡机发出嘶嘶声，一种浓稠的深红色粘稠液体开始流入壶中。气味令人作呕。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "KiGwdTkGCoXoepxoeQfcvdlqnMe": {
+      "id": "KiGwdTkGCoXoepxoeQfcvdlqnMe",
+      "version": 6,
+      "data": {
+        "type": "bullet",
+        "parent_id": "CLaldH4BQoju8mxslbpcWnjpnRd",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+m"
+            },
+            "text": {
+              "0": "任何被强行推进该洞口的异常体都会立即被抹除。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "KtCCd9J5CoPyR4xBHJYcgR64n2b": {
+      "id": "KtCCd9J5CoPyR4xBHJYcgR64n2b",
+      "version": 3,
+      "data": {
+        "type": "image",
+        "parent_id": "S29vdJ1V8ombQjx2nAfcdaj5nte",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "align": "center",
+        "image": {
+          "token": "RGkobgxBMo1mixx0a1OcavT2nKb",
+          "mimeType": "image/png",
+          "size": 1203994,
+          "scale": 1,
+          "width": 737,
+          "height": 953,
+          "name": "image.png",
+          "crop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotation": 0,
+          "caption": {
+            "text": {
+              "apool": {
+                "nextNum": 0,
+                "numToAttrib": null
+              },
+              "initialAttributedTexts": {
+                "attribs": null,
+                "text": null
+              }
+            }
+          }
+        },
+        "area_comments": {}
+      }
+    },
+    "L7y2dHUGhosE8NxgSFXcrAuYnye": {
+      "id": "L7y2dHUGhosE8NxgSFXcrAuYnye",
+      "version": 21,
+      "data": {
+        "type": "heading2",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+g"
+            },
+            "text": {
+              "0": "游戏主持人行动 GM MOVES"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "LQxBdgEuSorOgMx9WNWcpB04nWc": {
+      "id": "LQxBdgEuSorOgMx9WNWcpB04nWc",
+      "version": 1,
+      "data": {
+        "type": "grid",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "TJsId4mPyopF3jxeVmucwSA1nKb",
+          "AI5UdIrgAo9SQPxS1JGcjY9knyb"
+        ]
+      }
+    },
+    "LVSedxIFAozbFfxGbFcchPjcnHb": {
+      "id": "LVSedxIFAozbFfxGbFcchPjcnHb",
+      "version": 9,
+      "data": {
+        "type": "bullet",
+        "parent_id": "HiBzdhECiosPm6x5seUc9BYpnyb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+29"
+            },
+            "text": {
+              "0": "成功：隔间内空无一物。声音来自一台晶体管收音机。花费 1 希望点可将其激活，并启动一个倒计时（1d6）。异常体会被收音机吸引，直到其关闭。每次聚焦使倒计时减少1。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "LfHrd6d0XosATUx17ZocFdCsngf": {
+      "id": "LfHrd6d0XosATUx17ZocFdCsngf",
+      "version": 25,
+      "data": {
+        "type": "text",
+        "parent_id": "HqOxdoETnotg5LxUvZOcSe3fnPf",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+55"
+            },
+            "text": {
+              "0": "有时，像他这样的宇宙“卡顿”会被困在时/空走廊之中。由于需要事务局的帮助才能返回原本的现实，“普通人”奥尔在事件发生、BCA 被封锁之前，正与自己的案件负责人会面。他已经被困在这里漫长到“感觉上是”近乎永恒的时间里，努力忍受时/空的诡异，不过他显然已经濒临极限。他的态度就像一位因航班延误而抱怨的乘客——只不过这一次，他完全有理由如此。无论干员如何反应，他都会跟随他们。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "M12cdXLV8oGFkRxQJ1pc0dKVntO": {
+      "id": "M12cdXLV8oGFkRxQJ1pc0dKVntO",
+      "version": 1,
+      "data": {
+        "type": "grid",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "MNccdpWeqouGH1xX2cScNwjan2f",
+          "X2kIdRoMEokTt7xZkBQcYeDRnP4"
+        ]
+      }
+    },
+    "MCtOdOQXpoWILXxyjkJc1t4Jnrg": {
+      "id": "MCtOdOQXpoWILXxyjkJc1t4Jnrg",
+      "version": 16,
+      "data": {
+        "type": "bullet",
+        "parent_id": "IINcd8vsiohK9KxyGFHc2mHan6g",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "AkWid4WQMo1ON3xfSmKcxclGnzf"
+        ],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "underline",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+2*0*1*2+m*0+m"
+            },
+            "text": {
+              "0": "一间无性别洗手间 UNISEX WASHROOM。干员第一次接近门时，门内会有某物猛烈撞击。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "MHoXdPfOzokldMxUYKrcZnDXnre": {
+      "id": "MHoXdPfOzokldMxUYKrcZnDXnre",
+      "version": 2,
+      "data": {
+        "type": "text",
+        "parent_id": "QMUwd0C3koGA4uxzGtUcYh3Hn6e",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+5"
+            },
+            "text": {
+              "0": "生命点：1"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "MNccdpWeqouGH1xX2cScNwjan2f": {
+      "id": "MNccdpWeqouGH1xX2cScNwjan2f",
+      "version": 3,
+      "data": {
+        "type": "grid_column",
+        "parent_id": "M12cdXLV8oGFkRxQJ1pc0dKVntO",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "UD5ndfQfson42Vxh3WAcJlB7ngf",
+          "EOApd4cjzoSK5mxcOqlcZL8InUh",
+          "Qp6ldkMNIoOPFOxMlWZc10WcnFb",
+          "JcAgdbzG5ofKa7xSutacElcLnpf",
+          "G7AtdVNG8ossHhxWpAJcxjYInQd",
+          "Z5Wpdg1Nsoo8jpx7BY8cScexnwc",
+          "BnAud7HGeoj7smxHGdFc9Q8znZf",
+          "QhKCd3aSYoruExxQkrGcZqWcnqe"
+        ],
+        "width_ratio": 0.6
+      }
+    },
+    "MQVOddv1HonKY9x8LSOcd8Cjnmd": {
+      "id": "MQVOddv1HonKY9x8LSOcd8Cjnmd",
+      "version": 11,
+      "data": {
+        "type": "text",
+        "parent_id": "ShF0dieMuonwE3xfDKqcUDcmnKe",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+22"
+            },
+            "text": {
+              "0": "该项目最初用于在一晚之内完成新任干员的入职引导，从未打算对公众开放。由于一次（目前尚未解决的）行政管理异常，它现已可自由获取，并适用于启动长期战役。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "MY8xdqpb4orIHjxIk53ci54onOc": {
+      "id": "MY8xdqpb4orIHjxIk53ci54onOc",
+      "version": 18,
+      "data": {
+        "type": "bullet",
+        "parent_id": "FKWldnLRdoVWq0xLVpLcuD15nFb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "underline",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+12*0*1*2+i*0+b"
+            },
+            "text": {
+              "0": "若无视之，则启动一个隐藏倒计时（3），每当掷出恐惧结果时减少1。归零时，一只办公室傀儡 Office Drone 破袋而出并发动攻击。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "MaLcdNuS4olRWIxCUoIcyCxlnvd": {
+      "id": "MaLcdNuS4olRWIxCUoIcyCxlnvd",
+      "version": 8,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+2e"
+            },
+            "text": {
+              "0": "该映像可以在反射表面之间（如镜子、反光的金属表面）移动，如同通过传送门，只要这些表面彼此处于远距范围内。若产生反射的光源被移除，则该映像会被困在该表面中，直到新的光源出现。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "MiPsdDGsLo85qFxHoeVc7sfTnsc": {
+      "id": "MiPsdDGsLo85qFxHoeVc7sfTnsc",
+      "version": 1,
+      "data": {
+        "type": "heading2",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+g"
+            },
+            "text": {
+              "0": "游戏主持人行动 GM MOVES"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Mji4d2O3GoaNFTxTZyYcjvmoneh": {
+      "id": "Mji4d2O3GoaNFTxTZyYcjvmoneh",
+      "version": 6,
+      "data": {
+        "type": "bullet",
+        "parent_id": "VRk6dhXP2oHgMTxt2rFcGOImneg",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+l"
+            },
+            "text": {
+              "0": " 每有一个映像成功逃脱，末日钟增加 1 。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "MmOndOYVhoZtxYxfiuocAwnQnGh": {
+      "id": "MmOndOYVhoZtxYxfiuocAwnQnGh",
+      "version": 8,
+      "data": {
+        "type": "text",
+        "parent_id": "QMUwd0C3koGA4uxzGtUcYh3Hn6e",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+p*0|1+1*0+16"
+            },
+            "text": {
+              "0": "暗中移动 Unobserved Motion 反应\n塑料绿植只能在未被感知时移动。在未被观察的状态下，它可以在远距离范围内瞬间转移位置。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "MwSudSNyYoT5WxxTEGwcmxadnzc": {
+      "id": "MwSudSNyYoT5WxxTEGwcmxadnzc",
+      "version": 2,
+      "data": {
+        "type": "quote_container",
+        "parent_id": "QMUwd0C3koGA4uxzGtUcYh3Hn6e",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "RZlfdMNLDoIwiQxTIShcDdBpnce",
+          "UUqndc9Suo0g6BxWw5VcKdCVnec"
+        ]
+      }
+    },
+    "NMfYdliwIoulNrxTSxMcvCBsnef": {
+      "id": "NMfYdliwIoulNrxTSxMcvCBsnef",
+      "version": 5,
+      "data": {
+        "type": "heading3",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "textHighlight",
+                "rgb(222,120,2)"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+m"
+            },
+            "text": {
+              "0": "破碎映像 BROKEN REFLECTION"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "NNaBdvH4copCIoxTFnmcUPtQn7d": {
+      "id": "NNaBdvH4copCIoxTFnmcUPtQn7d",
+      "version": 9,
+      "data": {
+        "type": "bullet",
+        "parent_id": "IJ9Dd52lqoo3BDxKAdNcz079n6g",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+t"
+            },
+            "text": {
+              "0": "当倒计时归零时，干员们可以自由行动，不再需要进行动作掷骰。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "NXWNdvxz9orSM3x6T5qcSwnEnjc": {
+      "id": "NXWNdvxz9orSM3x6T5qcSwnEnjc",
+      "version": 9,
+      "data": {
+        "type": "text",
+        "parent_id": "JxqEd1zkWoY9rPx3agpc6TXznCb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+u"
+            },
+            "text": {
+              "0": "你好，好好先生 Hello, Mr. Nice Guy 被动"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "NXi1dcfyuoUu5Pxsty3cehPUnDh": {
+      "id": "NXi1dcfyuoUu5Pxsty3cehPUnDh",
+      "version": 9,
+      "data": {
+        "type": "text",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+t"
+            },
+            "text": {
+              "0": "一旦所有映像被抹除，并合入侵即宣告结束。末日钟减少 1 。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "NbY8diwQFo1uFHxYROJczh8jnTe": {
+      "id": "NbY8diwQFo1uFHxYROJczh8jnTe",
+      "version": 6,
+      "data": {
+        "type": "bullet",
+        "parent_id": "URAOdb4B8oDTh5xqielcC4n7n6d",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+s"
+            },
+            "text": {
+              "0": " 一次成功的知识掷骰可发现，附近的并合入侵正在造成干扰。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "NidUd3CSHot1OTxbD0fcheL4nSb": {
+      "id": "NidUd3CSHot1OTxbD0fcheL4nSb",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "JxqEd1zkWoY9rPx3agpc6TXznCb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+8"
+            },
+            "text": {
+              "0": "阈值：1 / 2"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Nm5UdcSnnossa0xHinWcMT0jnzh": {
+      "id": "Nm5UdcSnnossa0xHinWcMT0jnzh",
+      "version": 6,
+      "data": {
+        "type": "heading1",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+5"
+            },
+            "text": {
+              "0": "敌人数据块"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "NwTPdFlyOogtZrxY6tXcOecxn3f": {
+      "id": "NwTPdFlyOogtZrxY6tXcOecxn3f",
+      "version": 10,
+      "data": {
+        "type": "text",
+        "parent_id": "ShF0dieMuonwE3xfDKqcUDcmnKe",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+17"
+            },
+            "text": {
+              "0": "【一次为期一到两次团期的冒险，旨在帮助你的团队顺利完成对时序事务局新成员的入职培训。】"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "ODTadIK3FoVJKOx98hzcVj5jnyg": {
+      "id": "ODTadIK3FoVJKOx98hzcVj5jnyg",
+      "version": 4,
+      "data": {
+        "type": "callout",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "Gq2LdOaV7oaKQzxkTmGcUxfHnkb",
+          "EWRgd0yiFooUApxvEOvcgf2unZ5"
+        ],
+        "background_color": "rgb(255,245,235)",
+        "border_color": "rgb(254,212,164)",
+        "text_color": "",
+        "align": "left",
+        "emoji_id": "door",
+        "emoji_value": "1f6aa"
+      }
+    },
+    "OK9KdwgwWosjWCxH1MzcORign7f": {
+      "id": "OK9KdwgwWosjWCxH1MzcORign7f",
+      "version": 5,
+      "data": {
+        "type": "heading2",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+6"
+            },
+            "text": {
+              "0": "敌对 Foe"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "OQ6hdGQjpoEYwnxdSZfcoYRJn1b": {
+      "id": "OQ6hdGQjpoEYwnxdSZfcoYRJn1b",
+      "version": 9,
+      "data": {
+        "type": "text",
+        "parent_id": "G2eCdu0qwo6KbXxuiiLc77Aln9c",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "italic",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+1m"
+            },
+            "text": {
+              "0": "在并合入侵期间，通过破碎镜面进入物理世界的意识碎裂拼合体。它们试图取代干员，接管其角色与职责——即使代价是自身毁灭。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "OZpydZiIyo2WlrxMXn3cH0Eqnob": {
+      "id": "OZpydZiIyo2WlrxMXn3cH0Eqnob",
+      "version": 7,
+      "data": {
+        "type": "bullet",
+        "parent_id": "VRk6dhXP2oHgMTxt2rFcGOImneg",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+o"
+            },
+            "text": {
+              "0": "除非通过某种能力缓解，否则所有掷骰均以劣势进行。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "OlFEd18o5o9pj3xc94Vc9UUjnSd": {
+      "id": "OlFEd18o5o9pj3xc94Vc9UUjnSd",
+      "version": 7,
+      "data": {
+        "type": "text",
+        "parent_id": "ShF0dieMuonwE3xfDKqcUDcmnKe",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1p"
+            },
+            "text": {
+              "0": "里面详细介绍了时序事务局向新雇员介绍时/空的具体流程：不稳定的环境、缺失的身份、不可能的建筑，以及逐渐意识到事情已经失控。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "PEGzd2PPHoeSX2xT8NmcZNQqnph": {
+      "id": "PEGzd2PPHoeSX2xT8NmcZNQqnph",
+      "version": 6,
+      "data": {
+        "type": "text",
+        "parent_id": "ShF0dieMuonwE3xfDKqcUDcmnKe",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+h"
+            },
+            "text": {
+              "0": "无需任何经验。已严格执行合规要求。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "PJandxupqoSGGXxSZ39cHTcMnge": {
+      "id": "PJandxupqoSGGXxSZ39cHTcMnge",
+      "version": 2,
+      "data": {
+        "type": "heading2",
+        "parent_id": "TJsId4mPyopF3jxeVmucwSA1nKb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+i"
+            },
+            "text": {
+              "0": "房间里的摆设 IN THE ROOM"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "PMLKdnvSVohlcQxsYm5cDh5nnpe": {
+      "id": "PMLKdnvSVohlcQxsYm5cDh5nnpe",
+      "version": 5,
+      "data": {
+        "type": "text",
+        "parent_id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+12"
+            },
+            "text": {
+              "0": "如果目标对包含盟友的群体目标发动攻击，则掷一枚幸运骰以判定命中友方还是敌方。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "PVaGddqY2ocalJxVOsvcceZgnKe": {
+      "id": "PVaGddqY2ocalJxVOsvcceZgnKe",
+      "version": 3,
+      "data": {
+        "type": "heading2",
+        "parent_id": "VFnEdj9nAotY1Gx0HjdcaQSTnjb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+a"
+            },
+            "text": {
+              "0": "格子间农场（时/空）"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "PZendkN7MolC6mxIQqEc3lxRn0b": {
+      "id": "PZendkN7MolC6mxIQqEc3lxRn0b",
+      "version": 5,
+      "data": {
+        "type": "text",
+        "parent_id": "E7aYdgMieoKLx1xNzQZcizbdnEh",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "italic",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1*2+w"
+            },
+            "text": {
+              "0": "无尽楼梯 Endless Staircase （ 1 恐惧点 ）"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "QBqddU3zMo4pRexOjRmca3FHnyL": {
+      "id": "QBqddU3zMo4pRexOjRmca3FHnyL",
+      "version": 10,
+      "data": {
+        "type": "text",
+        "parent_id": "QMUwd0C3koGA4uxzGtUcYh3Hn6e",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+g*0|1+1*0+l"
+            },
+            "text": {
+              "0": "人畜无害 Harmless 被动\n塑料绿植无法攻击、防御或采取任何敌对行动。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "QHaTdwohNoxGHWxsDL1cqHj8nKg": {
+      "id": "QHaTdwohNoxGHWxsDL1cqHj8nKg",
+      "version": 8,
+      "data": {
+        "type": "text",
+        "parent_id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+i"
+            },
+            "text": {
+              "0": "攻击：-1 牙齿 近距离 1d6+2"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "QMUwd0C3koGA4uxzGtUcYh3Hn6e": {
+      "id": "QMUwd0C3koGA4uxzGtUcYh3Hn6e",
+      "version": 14,
+      "data": {
+        "type": "callout",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "MwSudSNyYoT5WxxTEGwcmxadnzc",
+          "EBkbd2JQsoxyKWxWBKAc8wTined",
+          "ArSid3m5ZoqLkkx5Os4cufHBnxf",
+          "MHoXdPfOzokldMxUYKrcZnDXnre",
+          "B3nLdW7z6oIgENxPzHTcmKUIn9f",
+          "MmOndOYVhoZtxYxfiuocAwnQnGh",
+          "QBqddU3zMo4pRexOjRmca3FHnyL",
+          "CieVd1IrSo3sqRx0B5ucXXqFnJg",
+          "Sz6Gd4qDOoXuVfxpdnQc0koyn5g",
+          "Seqydaiu5ogSP7xzeDkcjCq3nUf"
+        ],
+        "background_color": "rgb(255,245,235)",
+        "border_color": "rgb(254,212,164)",
+        "text_color": "",
+        "align": "left",
+        "emoji_id": "bamboo",
+        "emoji_value": "1f38d"
+      }
+    },
+    "QMnhdKmrGou9BGxgkcNcURrQnPd": {
+      "id": "QMnhdKmrGou9BGxgkcNcURrQnPd",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "TUuoddtdNo6mkBxNhcycWDpjnKf",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+f"
+            },
+            "text": {
+              "0": "一段录音通过对讲机传来嘶嘶声："
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "QSQ9dbMIFoK0ADxUDtYc3m8EnKe": {
+      "id": "QSQ9dbMIFoK0ADxUDtYc3m8EnKe",
+      "version": 25,
+      "data": {
+        "type": "text",
+        "parent_id": "HqOxdoETnotg5LxUvZOcSe3fnPf",
+        "comments": [
+          "7623003603887803596",
+          "7623003201310084300"
+        ],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 5,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "comment-id-7623003201310084300",
+                "true"
+              ],
+              "3": [
+                "underline",
+                "true"
+              ],
+              "4": [
+                "comment-id-7623003603887803596",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+m*0*1*2*3+t*0+16*0*4+m*0+6"
+            },
+            "text": {
+              "0": "“普通人”奥尔是多元宇宙中最高产的音乐人——“怪人奥尔”·扬科维奇 Weird Al Yankovic——唯一一个从未成为世界级巨星的版本。相反，他成为了位于新墨西哥州阿尔伯克基的一家 BEEFY BOIS BURGER BARN 的副经理。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "QhKCd3aSYoruExxQkrGcZqWcnqe": {
+      "id": "QhKCd3aSYoruExxQkrGcZqWcnqe",
+      "version": 10,
+      "data": {
+        "type": "bullet",
+        "parent_id": "MNccdpWeqouGH1xX2cScNwjan2f",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "underline",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1*2+i*0+16"
+            },
+            "text": {
+              "0": "一盆塑料盆栽？Greenjeans 无人注意时，它会移动到房间内的另一个位置。它会持续跟随干员们，贯穿整个时/空复合体。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "QhqldyMLFoD0QYxyCzxcXYyBnUf": {
+      "id": "QhqldyMLFoD0QYxyCzxcXYyBnUf",
+      "version": 14,
+      "data": {
+        "type": "text",
+        "parent_id": "ShF0dieMuonwE3xfDKqcUDcmnKe",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+13"
+            },
+            "text": {
+              "0": "时序事务局史上首次公开了一份内部培训档案——完整未删节，并向整个多元宇宙开放。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "QlEudR4TNoWCgExeICpcVF1TnJb": {
+      "id": "QlEudR4TNoWCgExeICpcVF1TnJb",
+      "version": 6,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+k"
+            },
+            "text": {
+              "0": "二重身 Doppelganger  动作"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Qp6ldkMNIoOPFOxMlWZc10WcnFb": {
+      "id": "Qp6ldkMNIoOPFOxMlWZc10WcnFb",
+      "version": 2,
+      "data": {
+        "type": "bullet",
+        "parent_id": "MNccdpWeqouGH1xX2cScNwjan2f",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+g"
+            },
+            "text": {
+              "0": "末日钟。挂在墙上，目前指向13。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "QqCpddIRpopEEBxJGSpc9HiJnZc": {
+      "id": "QqCpddIRpopEEBxJGSpc9HiJnZc",
+      "version": 3,
+      "data": {
+        "type": "image",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "align": "center",
+        "image": {
+          "token": "GsQkbR0eBogeTNxzTEfcGqDInQe",
+          "mimeType": "image/png",
+          "size": 1839231,
+          "scale": 1,
+          "width": 1080,
+          "height": 1397,
+          "name": "image.png",
+          "crop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotation": 0,
+          "caption": {
+            "text": {
+              "apool": {
+                "nextNum": 0,
+                "numToAttrib": null
+              },
+              "initialAttributedTexts": {
+                "attribs": null,
+                "text": null
+              }
+            }
+          }
+        },
+        "area_comments": {}
+      }
+    },
+    "QtA4dsDH4oJORCxs6ojcT5NDnsh": {
+      "id": "QtA4dsDH4oJORCxs6ojcT5NDnsh",
+      "version": 1,
+      "data": {
+        "type": "heading3",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+3"
+            },
+            "text": {
+              "0": "特性："
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "QtHvdpPYloPukXxkCQrcdX13nug": {
+      "id": "QtHvdpPYloPukXxkCQrcdX13nug",
+      "version": 23,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+l*0|1+1*0+31"
+            },
+            "text": {
+              "0": "镜像行动 Mirror Action 反应\n当近距离范围内的一名干员使用能力、特性或领域卡时，你可以花费 1 恐惧点来复制该效果，掷1d4，该映像获得等量的镜像指示物。作为一次行动，你可以消耗一个镜像指示物来使用该复制能力，使用被复制干员的属性，并无视相关消耗。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "R02gdKF9CoFMwxxJDPycjWofneg": {
+      "id": "R02gdKF9CoFMwxxJDPycjWofneg",
+      "version": 4,
+      "data": {
+        "type": "bullet",
+        "parent_id": "VRk6dhXP2oHgMTxt2rFcGOImneg",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+f"
+            },
+            "text": {
+              "0": " 其会试图逃入会议室 P-1。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "RIkFdw310oBcAExhC9gc0W5Kn4g": {
+      "id": "RIkFdw310oBcAExhC9gc0W5Kn4g",
+      "version": 11,
+      "data": {
+        "type": "heading1",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+a"
+            },
+            "text": {
+              "0": "场景3：无性别洗手间"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "RJBFdzxzIoJhoYxT54vciPe4nxc": {
+      "id": "RJBFdzxzIoJhoYxT54vciPe4nxc",
+      "version": 5,
+      "data": {
+        "type": "text",
+        "parent_id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+8"
+            },
+            "text": {
+              "0": "阈值：5 / 9"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "ROIYdGT3joZQZtxfBswcfItCnAh": {
+      "id": "ROIYdGT3joZQZtxfBswcfItCnAh",
+      "version": 6,
+      "data": {
+        "type": "text",
+        "parent_id": "E7aYdgMieoKLx1xNzQZcizbdnEh",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+k"
+            },
+            "text": {
+              "0": "每花费 1 恐惧点会生成一个办公室傀儡。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "RQswdADmEoLTb2xtuMZcyYMWnJ9": {
+      "id": "RQswdADmEoLTb2xtuMZcyYMWnJ9",
+      "version": 3,
+      "data": {
+        "type": "image",
+        "parent_id": "AI5UdIrgAo9SQPxS1JGcjY9knyb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "align": "center",
+        "image": {
+          "token": "Ysoqbzq3poO9dhxIGIucllcxnYe",
+          "mimeType": "image/png",
+          "size": 706822,
+          "scale": 1,
+          "width": 930,
+          "height": 733,
+          "name": "image.png",
+          "crop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotation": 0,
+          "caption": {
+            "text": {
+              "apool": {
+                "nextNum": 0,
+                "numToAttrib": null
+              },
+              "initialAttributedTexts": {
+                "attribs": null,
+                "text": null
+              }
+            }
+          }
+        },
+        "area_comments": {}
+      }
+    },
+    "RZlfdMNLDoIwiQxTIShcDdBpnce": {
+      "id": "RZlfdMNLDoIwiQxTIShcDdBpnce",
+      "version": 44,
+      "data": {
+        "type": "text",
+        "parent_id": "MwSudSNyYoT5WxxTEGwcmxadnzc",
+        "comments": [
+          "7623086861673581762"
+        ],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "comment-id-7623086861673581762",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+20*0*1+1t*0+d"
+            },
+            "text": {
+              "0": "“塑料绿植”外形类似一株用塑料仿制的龟背竹，栽种在陶瓷花盆中。它是枢纽叠加在时/空之上的“振动感知场”的产物，该机制用于维持一座无限巨构的表象。这种高维位面产物通常被用于“重新校准”，使得凡人心智能够在时/空中的移动，因此一些具有善意的异常体实际上对枢纽本身是“不可见”的。“塑料绿植”即是其中之一。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "RmZGdpBjFodcHVxx5kecVcqYntf": {
+      "id": "RmZGdpBjFodcHVxx5kecVcqYntf",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+s"
+            },
+            "text": {
+              "0": "他们也不认识自己，尽管他们的身份识别牌上印着他们的名字。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Rr4vdbHmTooWQvxxoywcXJ92nXc": {
+      "id": "Rr4vdbHmTooWQvxxoywcXJ92nXc",
+      "version": 2,
+      "data": {
+        "type": "text",
+        "parent_id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+5"
+            },
+            "text": {
+              "0": "生命点：3"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Rw1jdYj0to02LBxNfI1cTsMXnKE": {
+      "id": "Rw1jdYj0to02LBxNfI1cTsMXnKE",
+      "version": 18,
+      "data": {
+        "type": "text",
+        "parent_id": "ZYtXddzYJowjXlx8pJgcFaeQnrf",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1p"
+            },
+            "text": {
+              "0": "每场游戏一次，团队可以选择一首歌曲并触发“唱针落下”。在歌曲持续期间，所有掷骰均以优势进行，且任意希望成功均视为关键成功。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "RwfHdokVnodQtQxnle0cIkhCnKg": {
+      "id": "RwfHdokVnodQtQxnle0cIkhCnKg",
+      "version": 5,
+      "data": {
+        "type": "heading2",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+b"
+            },
+            "text": {
+              "0": "友好 Friendly"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "S1zLdjEFAoukiBxfGsscz8JQnhf": {
+      "id": "S1zLdjEFAoukiBxfGsscz8JQnhf",
+      "version": 56,
+      "data": {
+        "type": "text",
+        "parent_id": "JfEkd0s0oo1Vzbxkn1ecawO6n3e",
+        "comments": [
+          "7622975146986327230",
+          "7622974890093776068"
+        ],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "comment-id-7622974890093776068",
+                "true"
+              ],
+              "2": [
+                "comment-id-7622975146986327230",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+m*0*1+5*0+k*0*2+4*0+9"
+            },
+            "text": {
+              "0": "房间四周环绕着深棕色的木板墙。地板铺着栗色的柏柏尔地毯；天花板则覆盖着深绿色的人造草坪。柔和的电梯音乐不知道从何处传来。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "S29vdJ1V8ombQjx2nAfcdaj5nte": {
+      "id": "S29vdJ1V8ombQjx2nAfcdaj5nte",
+      "version": 3,
+      "data": {
+        "type": "grid_column",
+        "parent_id": "V6fgdSFYQogapQx5jtxc66HtnWd",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "KtCCd9J5CoPyR4xBHJYcgR64n2b",
+          "FXX8dzB4ZonrI7xc624cYPljnIb"
+        ],
+        "width_ratio": 0.5
+      }
+    },
+    "SA9AdegjGozVeMxfifbcvpxcn2d": {
+      "id": "SA9AdegjGozVeMxfifbcvpxcn2d",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+6"
+            },
+            "text": {
+              "0": "难度：11 "
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "SB56duKgIoYwJUxlhGxczCYInBb": {
+      "id": "SB56duKgIoYwJUxlhGxczCYInBb",
+      "version": 7,
+      "data": {
+        "type": "bullet",
+        "parent_id": "Es8tdcUrjox0b9xwaiUcWfaJnvh",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+18"
+            },
+            "text": {
+              "0": " 一次成功的知识掷骰或本能掷骰可发现，这些倒影并不会移动——它们始终凝固在痛苦的表情中。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "SBAudSjhpokrjOxEkoTcaeDInxc": {
+      "id": "SBAudSjhpokrjOxEkoTcaeDInxc",
+      "version": 9,
+      "data": {
+        "type": "text",
+        "parent_id": "JxqEd1zkWoY9rPx3agpc6TXznCb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+l"
+            },
+            "text": {
+              "0": "奥尔，有点怪？AL, WEIRD?  反应"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "SQR5dQljQo1h0dxyOIacrbhsnPf": {
+      "id": "SQR5dQljQo1h0dxyOIacrbhsnPf",
+      "version": 11,
+      "data": {
+        "type": "text",
+        "parent_id": "VRk6dhXP2oHgMTxt2rFcGOImneg",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "italic",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1*2+15"
+            },
+            "text": {
+              "0": "破碎映像 Broken Reflections （ 每名干员 1 恐惧点，仅一次）"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Seqydaiu5ogSP7xzeDkcjCq3nUf": {
+      "id": "Seqydaiu5ogSP7xzeDkcjCq3nUf",
+      "version": 16,
+      "data": {
+        "type": "text",
+        "parent_id": "QMUwd0C3koGA4uxzGtUcYh3Hn6e",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+j*0|1+1*0+1v"
+            },
+            "text": {
+              "0": "良好氛围 Good Vibes  被动\n塑料绿植在近距离范围内散发出舒适与稳定的气场。处于该范围内的干员，在适用的掷骰中可加入其经历加值的一半（向下取整），且无需花费希望点。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "ShF0dieMuonwE3xfDKqcUDcmnKe": {
+      "id": "ShF0dieMuonwE3xfDKqcUDcmnKe",
+      "version": 6,
+      "data": {
+        "type": "callout",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "QhqldyMLFoD0QYxyCzxcXYyBnUf",
+          "MQVOddv1HonKY9x8LSOcd8Cjnmd",
+          "OlFEd18o5o9pj3xc94Vc9UUjnSd",
+          "PEGzd2PPHoeSX2xT8NmcZNQqnph",
+          "NwTPdFlyOogtZrxY6tXcOecxn3f"
+        ],
+        "background_color": "rgb(255,245,235)",
+        "border_color": "rgb(254,212,164)",
+        "text_color": "",
+        "align": "left",
+        "emoji_id": "new",
+        "emoji_value": "1f195"
+      }
+    },
+    "Sz6Gd4qDOoXuVfxpdnQc0koyn5g": {
+      "id": "Sz6Gd4qDOoXuVfxpdnQc0koyn5g",
+      "version": 8,
+      "data": {
+        "type": "text",
+        "parent_id": "QMUwd0C3koGA4uxzGtUcYh3Hn6e",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+h*0|1+1*0+1r"
+            },
+            "text": {
+              "0": "怪异宠物 Weird Pet 被动\n塑料绿植可以进入三维生物无法到达的空间。虽然它无法主动操纵物体，但其重量可用于按下按钮、制造干扰、充当信使或实现其他巧妙互动。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "T380dfYPho339mxPY3wcePOznRh": {
+      "id": "T380dfYPho339mxPY3wcePOznRh",
+      "version": 8,
+      "data": {
+        "type": "text",
+        "parent_id": "E7aYdgMieoKLx1xNzQZcizbdnEh",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+j"
+            },
+            "text": {
+              "0": "这些傀儡为杂兵（3），并具有其他特性。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "TJsId4mPyopF3jxeVmucwSA1nKb": {
+      "id": "TJsId4mPyopF3jxeVmucwSA1nKb",
+      "version": 7,
+      "data": {
+        "type": "grid_column",
+        "parent_id": "LQxBdgEuSorOgMx9WNWcpB04nWc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "PJandxupqoSGGXxSZ39cHTcMnge",
+          "Es8tdcUrjox0b9xwaiUcWfaJnvh",
+          "HiBzdhECiosPm6x5seUc9BYpnyb",
+          "CLaldH4BQoju8mxslbpcWnjpnRd"
+        ],
+        "width_ratio": 0.5
+      }
+    },
+    "TL8CdhPJ7oJFwuxukkAcmfTun9b": {
+      "id": "TL8CdhPJ7oJFwuxukkAcmfTun9b",
+      "version": 18,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+r*0|1+1*0+2m"
+            },
+            "text": {
+              "0": "反射反弹 Reflective Ricochet 反应\n当该映像被攻击命中时，你可以标记 1 压力点以忽略该伤害，并将其转移。为远距离范围内的每个生物编号（不包括该映像），掷一个最接近的、合适的骰子（向上取整），然后将伤害施加给对应编号的目标。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "TNkXdVht9oza09xYLFEc9i3Rn2d": {
+      "id": "TNkXdVht9oza09xYLFEc9i3Rn2d",
+      "version": 10,
+      "data": {
+        "type": "text",
+        "parent_id": "JxqEd1zkWoY9rPx3agpc6TXznCb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+27"
+            },
+            "text": {
+              "0": " 示例：“普通人”奥尔接起一部正在响铃的电话。GM 花费 1 恐惧点；作为回应，队伍花费 1 枚普通人指示物。此时，GM 必须将该场景描述为普通、日常的状态。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "TUuoddtdNo6mkBxNhcycWDpjnKf": {
+      "id": "TUuoddtdNo6mkBxNhcycWDpjnKf",
+      "version": 14,
+      "data": {
+        "type": "callout",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "K3TBd67e9ov5qXxU0D6c8zndneh",
+          "QMnhdKmrGou9BGxgkcNcURrQnPd",
+          "Tlt6d6f1DovxskxXGaMcqXx4nzb",
+          "HToRdvGOkoJj0FxPfrDcdNWMn9f",
+          "Z7YZdsl41olFBwxXGtkcnNuSn3c",
+          "KInEdRWyWoAnraxvBPKc1q95n4b",
+          "XhbBdohR4ogd3txPjHrcINyEn2e",
+          "WQtfdxuJXo85yrx2mzSczpYtnud"
+        ],
+        "background_color": "rgb(255,245,235)",
+        "border_color": "rgb(254,212,164)",
+        "text_color": "",
+        "align": "left",
+        "emoji_id": "fearful",
+        "emoji_value": "1f628"
+      }
+    },
+    "Tiu2dVEq6owPsoxVmKqcHeP9nZg": {
+      "id": "Tiu2dVEq6owPsoxVmKqcHeP9nZg",
+      "version": 4,
+      "data": {
+        "type": "text",
+        "parent_id": "VRk6dhXP2oHgMTxt2rFcGOImneg",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "italic",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1*2+o"
+            },
+            "text": {
+              "0": "灯光熄灭 Lights Out（ 1 恐惧点 ）"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Tlt6d6f1DovxskxXGaMcqXx4nzb": {
+      "id": "Tlt6d6f1DovxskxXGaMcqXx4nzb",
+      "version": 19,
+      "data": {
+        "type": "text",
+        "parent_id": "TUuoddtdNo6mkBxNhcycWDpjnKf",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+3d"
+            },
+            "text": {
+              "0": "“欢迎，新雇员们。今天，你们将正式成为时序事务局的干员……你们必须……夺回……嘶……末日将至……找到异常……守护枢纽……你们可以做到，干员们。我们知道……嘶……死亡并非终结。时序事务局一直存在。时序事务局将永远存在。你们的服从将确保其延续。”"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Txkzd4jmvoMbRjxn3PvcnSEgnTf": {
+      "id": "Txkzd4jmvoMbRjxn3PvcnSEgnTf",
+      "version": 18,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1s"
+            },
+            "text": {
+              "0": "花费 1 恐惧点，变为一名当前不在其视线内的干员外形。在伪装期间，该映像与该干员的真身处于量子重叠状态，干员的真身仍可正常行动。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "TzB8dceuQocBJIxut4Uc4EK1n4f": {
+      "id": "TzB8dceuQocBJIxut4Uc4EK1n4f",
+      "version": 10,
+      "data": {
+        "type": "text",
+        "parent_id": "E7aYdgMieoKLx1xNzQZcizbdnEh",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "italic",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1*2+x"
+            },
+            "text": {
+              "0": "液态恐惧 Liquid Fear（ 每个办公室傀儡 1 恐惧点 ）"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "UD5ndfQfson42Vxh3WAcJlB7ngf": {
+      "id": "UD5ndfQfson42Vxh3WAcJlB7ngf",
+      "version": 5,
+      "data": {
+        "type": "heading2",
+        "parent_id": "MNccdpWeqouGH1xX2cScNwjan2f",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+i"
+            },
+            "text": {
+              "0": "房间里的摆设 IN THE ROOM"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "UGtNdBGWqoiTFJxtB3mcjh92nug": {
+      "id": "UGtNdBGWqoiTFJxtB3mcjh92nug",
+      "version": 2,
+      "data": {
+        "type": "text",
+        "parent_id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+5"
+            },
+            "text": {
+              "0": "压力点：1"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "URAOdb4B8oDTh5xqielcC4n7n6d": {
+      "id": "URAOdb4B8oDTh5xqielcC4n7n6d",
+      "version": 4,
+      "data": {
+        "type": "bullet",
+        "parent_id": "IINcd8vsiohK9KxyGFHc2mHan6g",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "NbY8diwQFo1uFHxYROJczh8jnTe",
+          "E9P1dnN1BoHwKNxP3WecwM3Knke"
+        ],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+u"
+            },
+            "text": {
+              "0": "主计算机终端。一个超大的黑绿显示界面，卡在不断重启的循环中。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "UUqndc9Suo0g6BxWw5VcKdCVnec": {
+      "id": "UUqndc9Suo0g6BxWw5VcKdCVnec",
+      "version": 9,
+      "data": {
+        "type": "text",
+        "parent_id": "MwSudSNyYoT5WxxTEGwcmxadnzc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "underline",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1y*0*1*2+1k"
+            },
+            "text": {
+              "0": "“塑料绿植”拥有高度智能，并对干员抱有恐惧。它只能在未被感知时移动，其移动速度如同思维一般迅捷。它没有任何肢体，一旦被察觉，便无法进行防御。“塑料绿植”会一直跟随干员，直到干员对其采取攻击性行为，或某名干员尝试进行风度掷骰以与其建立友好关系但失败为止。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "UdTzdvaBkoVM3yxtj7Fc4Jodnng": {
+      "id": "UdTzdvaBkoVM3yxtj7Fc4Jodnng",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "JxqEd1zkWoY9rPx3agpc6TXznCb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+5"
+            },
+            "text": {
+              "0": "生命点：1"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "UrGodaTI5o1goLx6iNRclYabnCf": {
+      "id": "UrGodaTI5o1goLx6iNRclYabnCf",
+      "version": 30,
+      "data": {
+        "type": "text",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [
+          "7622991067834682586"
+        ],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 4,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "underline",
+                "true"
+              ],
+              "3": [
+                "comment-id-7622991067834682586",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+o*0*1*2+e*0+s*0*3+6*0+1"
+            },
+            "text": {
+              "0": "此后，干员们可以从 C.L.O.C. 以及他们的指时器 Timepieces——作为时/空中超自然活动指引罗盘的腕表——接收关于新的兴趣点的情报。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "V1AEd1E5DopkvrxdzUxccoklnGg": {
+      "id": "V1AEd1E5DopkvrxdzUxccoklnGg",
+      "version": 3,
+      "data": {
+        "type": "text",
+        "parent_id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+k"
+            },
+            "text": {
+              "0": "动机与战术：潜行、喃喃、惊吓、窃取、哭泣"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "V1IOdyF9XosDTDx5lgvcP5yhnAb": {
+      "id": "V1IOdyF9XosDTDx5lgvcP5yhnAb",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "X2kIdRoMEokTt7xZkBQcYeDRnP4",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 0,
+            "numToAttrib": {}
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": ""
+            },
+            "text": {
+              "0": ""
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "V3GxdHS2XojOQgxhtXXca2phnlb": {
+      "id": "V3GxdHS2XojOQgxhtXXca2phnlb",
+      "version": 12,
+      "data": {
+        "type": "bullet",
+        "parent_id": "CLaldH4BQoju8mxslbpcWnjpnRd",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1c"
+            },
+            "text": {
+              "0": "进入其中会使干员失去意识，并在会议室 P-1 中重新出现，毫发无伤，但其恐惧骰降低 1d3 级。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "V6fgdSFYQogapQx5jtxc66HtnWd": {
+      "id": "V6fgdSFYQogapQx5jtxc66HtnWd",
+      "version": 1,
+      "data": {
+        "type": "grid",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "IINcd8vsiohK9KxyGFHc2mHan6g",
+          "S29vdJ1V8ombQjx2nAfcdaj5nte"
+        ]
+      }
+    },
+    "VApodtT7soHVAGxFI4AcUM8WnGk": {
+      "id": "VApodtT7soHVAGxFI4AcUM8WnGk",
+      "version": 19,
+      "data": {
+        "type": "text",
+        "parent_id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+n*0|1+1*0+11"
+            },
+            "text": {
+              "0": "你不干有的是人干 Replaceable 反应\n当傀儡被抹除时，掷1d6。若结果为1，则立即在其位置生成另一个办公室傀儡。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "VFnEdj9nAotY1Gx0HjdcaQSTnjb": {
+      "id": "VFnEdj9nAotY1Gx0HjdcaQSTnjb",
+      "version": 8,
+      "data": {
+        "type": "callout",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "PVaGddqY2ocalJxVOsvcceZgnKe",
+          "HoRqdBrwIopAeTxR4l9cjPDNngc",
+          "WqxydnNMDo5B9yx8M2FcZee4ncb",
+          "GDCBdwA9qoReJpxrI6vc6Feqn5d",
+          "VUSMdinXGoxVrlxoZmPc42eunJf"
+        ],
+        "background_color": "rgb(255,245,235)",
+        "border_color": "rgb(254,212,164)",
+        "text_color": "",
+        "align": "left",
+        "emoji_id": "door",
+        "emoji_value": "1f6aa"
+      }
+    },
+    "VIood4H7CooGg1xvNtfcc6t8nsb": {
+      "id": "VIood4H7CooGg1xvNtfcc6t8nsb",
+      "version": 20,
+      "data": {
+        "type": "text",
+        "parent_id": "ZYtXddzYJowjXlx8pJgcFaeQnrf",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1j"
+            },
+            "text": {
+              "0": " 一旦某首歌曲播放过，之后的选择必须来自同一张专辑（不得使用合辑或播放列表），直到该专辑中的所有歌曲都被播放。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "VRk6dhXP2oHgMTxt2rFcGOImneg": {
+      "id": "VRk6dhXP2oHgMTxt2rFcGOImneg",
+      "version": 4,
+      "data": {
+        "type": "callout",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "SQR5dQljQo1h0dxyOIacrbhsnPf",
+          "BvChdIeCUovmHCxGJAhcgdqjnVb",
+          "R02gdKF9CoFMwxxJDPycjWofneg",
+          "Mji4d2O3GoaNFTxTZyYcjvmoneh",
+          "Tiu2dVEq6owPsoxVmKqcHeP9nZg",
+          "Zvwddo32SoYphrxFwdwc7BTGnxd",
+          "OZpydZiIyo2WlrxMXn3cH0Eqnob",
+          "Ve7FdB2HMoFVSTxOTVwckPj2nTf"
+        ],
+        "background_color": "rgb(255,245,235)",
+        "border_color": "rgb(254,212,164)",
+        "text_color": "",
+        "align": "left",
+        "emoji_id": "fearful",
+        "emoji_value": "1f628"
+      }
+    },
+    "VUSMdinXGoxVrlxoZmPc42eunJf": {
+      "id": "VUSMdinXGoxVrlxoZmPc42eunJf",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "VFnEdj9nAotY1Gx0HjdcaQSTnjb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+y"
+            },
+            "text": {
+              "0": "这间大型办公区的天花板很低，尽管房间面积不大，却给人一种压抑的感觉。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Ve7FdB2HMoFVSTxOTVwckPj2nTf": {
+      "id": "Ve7FdB2HMoFVSTxOTVwckPj2nTf",
+      "version": 10,
+      "data": {
+        "type": "bullet",
+        "parent_id": "VRk6dhXP2oHgMTxt2rFcGOImneg",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+y"
+            },
+            "text": {
+              "0": "当一次攻击掷骰掷出恐惧失败时，伤害将转移至另一名干员（由GM选择）。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "WQtfdxuJXo85yrx2mzSczpYtnud": {
+      "id": "WQtfdxuJXo85yrx2mzSczpYtnud",
+      "version": 7,
+      "data": {
+        "type": "text",
+        "parent_id": "TUuoddtdNo6mkBxNhcycWDpjnKf",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+18"
+            },
+            "text": {
+              "0": "一次成功的知识动作掷骰可以将这种物质转化为类似咖啡的东西。食用后，干员获得 1 希望点。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "WSjfdu2DYoX7emxaVkKcc1Wtnzd": {
+      "id": "WSjfdu2DYoX7emxaVkKcc1Wtnzd",
+      "version": 1,
+      "data": {
+        "type": "quote_container",
+        "parent_id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "GZmydTO6Wok7r7xR5FJcC588nDd"
+        ]
+      }
+    },
+    "WihmdCoSxo582bxhLK9cKc75nbf": {
+      "id": "WihmdCoSxo582bxhLK9cKc75nbf",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+h"
+            },
+            "text": {
+              "0": "动机与战术：替代、反抗、篡夺、伪装"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "WqxydnNMDo5B9yx8M2FcZee4ncb": {
+      "id": "WqxydnNMDo5B9yx8M2FcZee4ncb",
+      "version": 2,
+      "data": {
+        "type": "text",
+        "parent_id": "VFnEdj9nAotY1Gx0HjdcaQSTnjb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+23"
+            },
+            "text": {
+              "0": "这间房间连接着无尽无垠的时空。虽然它并非主动攻击干员，但却是一个充满敌意的环境。无数奇异的异常现象在走廊中游荡，而其非欧几里得式的走廊也毫无安全可言。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "WssxdZDYyosKXMxXF1icjBZ3nlh": {
+      "id": "WssxdZDYyosKXMxXF1icjBZ3nlh",
+      "version": 17,
+      "data": {
+        "type": "text",
+        "parent_id": "E7aYdgMieoKLx1xNzQZcizbdnEh",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "underline",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+i*0*1*2+h*0+1"
+            },
+            "text": {
+              "0": "当干员进入紧急出口时，你可以创建一个阈限循环 Liminal Loop。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "X2kIdRoMEokTt7xZkBQcYeDRnP4": {
+      "id": "X2kIdRoMEokTt7xZkBQcYeDRnP4",
+      "version": 4,
+      "data": {
+        "type": "grid_column",
+        "parent_id": "M12cdXLV8oGFkRxQJ1pc0dKVntO",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "BOamd2XZlooZFJxspgycCiEtnsb",
+          "V1IOdyF9XosDTDx5lgvcP5yhnAb"
+        ],
+        "width_ratio": 0.4
+      }
+    },
+    "XI5odk4ekoubYVx14grcx1QBnUD": {
+      "id": "XI5odk4ekoubYVx14grcx1QBnUD",
+      "version": 1,
+      "data": {
+        "type": "heading3",
+        "parent_id": "Bj0PdU4Avouskfx4KRBcidjEnob",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+3"
+            },
+            "text": {
+              "0": "特性："
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "XYlUdTcbnodPdvxQ9hPcq9JwnSD": {
+      "id": "XYlUdTcbnodPdvxQ9hPcq9JwnSD",
+      "version": 5,
+      "data": {
+        "type": "heading1",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+6"
+            },
+            "text": {
+              "0": "并和处理方案"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "XhbBdohR4ogd3txPjHrcINyEn2e": {
+      "id": "XhbBdohR4ogd3txPjHrcINyEn2e",
+      "version": 2,
+      "data": {
+        "type": "text",
+        "parent_id": "TUuoddtdNo6mkBxNhcycWDpjnKf",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+n"
+            },
+            "text": {
+              "0": "接触或饮用这种液体会导致干员的希望骰降低一级。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "XywidzFn5o7Z1hxG0ClclccTnun": {
+      "id": "XywidzFn5o7Z1hxG0ClclccTnun",
+      "version": 3,
+      "data": {
+        "type": "bullet",
+        "parent_id": "IJ9Dd52lqoo3BDxKAdNcz079n6g",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+z"
+            },
+            "text": {
+              "0": "进入后，启动一个倒计时（6），代表在办公桌与断电终端构成的迷宫中导航。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "YDwpd9MMQoMe7bxpMhUcxBcZnzc": {
+      "id": "YDwpd9MMQoMe7bxpMhUcxBcZnzc",
+      "version": 5,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 2,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1+m"
+            },
+            "text": {
+              "0": "闪亮潜行 Shiny Stealth  被动"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "YgXfdEXVCoRwIwxinp5cRri6nte": {
+      "id": "YgXfdEXVCoRwIwxinp5cRri6nte",
+      "version": 1,
+      "data": {
+        "type": "text",
+        "parent_id": "CuCid5I6To3UzKxxaDuc8gIAnib",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+6"
+            },
+            "text": {
+              "0": "难度：11 "
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Yl7Adn0DFoMCgVx8mugcjw9JnTb": {
+      "id": "Yl7Adn0DFoMCgVx8mugcjw9JnTb",
+      "version": 9,
+      "data": {
+        "type": "bullet",
+        "parent_id": "KEGYddRPioM7W4xkY6vcsmWKnJ7",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+17"
+            },
+            "text": {
+              "0": "干员可以花费 1 希望点来倾听过去对话的回声，这在他们迷失或不确定方向时可能提供指引。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Z5Wpdg1Nsoo8jpx7BY8cScexnwc": {
+      "id": "Z5Wpdg1Nsoo8jpx7BY8cScexnwc",
+      "version": 1,
+      "data": {
+        "type": "bullet",
+        "parent_id": "MNccdpWeqouGH1xX2cScNwjan2f",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "CsVmdE1MPo8SNdxSqzQcOCu3nPg"
+        ],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+18"
+            },
+            "text": {
+              "0": "一摞教科书和技术手册，包括《多元宇宙全史》、《宇宙热寂时的生命》、《傻瓜量子现实》等等。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Z6WUdw4aqoJYUzxLDUZcx3tqnhc": {
+      "id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+      "version": 68,
+      "data": {
+        "type": "page",
+        "parent_id": "",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "QqCpddIRpopEEBxJGSpc9HiJnZc",
+          "ShF0dieMuonwE3xfDKqcUDcmnKe",
+          "IWWsdWfHjoYj63xss9lc13j9n8d",
+          "ZCBudlfmXozMK9xXlvBcUQ7bnwe",
+          "CFngdfaYxo87uOxEIzoc2LOtnFh",
+          "RmZGdpBjFodcHVxx5kecVcqYntf",
+          "AJRSdX13Oo7GQQx6UMuc7HK7nZf",
+          "HyIzdXve0o62gfxUcI9ccJpSn0c",
+          "FkDCddk68o7aB8xs9CKcu9osngU",
+          "JfEkd0s0oo1Vzbxkn1ecawO6n3e",
+          "M12cdXLV8oGFkRxQJ1pc0dKVntO",
+          "L7y2dHUGhosE8NxgSFXcrAuYnye",
+          "TUuoddtdNo6mkBxNhcycWDpjnKf",
+          "C2iPdDldKoIiK6xVhLdcZhCLn2f",
+          "VFnEdj9nAotY1Gx0HjdcaQSTnjb",
+          "V6fgdSFYQogapQx5jtxc66HtnWd",
+          "C24Md34fxo6yisxz3PucUhZrn7g",
+          "E7aYdgMieoKLx1xNzQZcizbdnEh",
+          "RIkFdw310oBcAExhC9gc0W5Kn4g",
+          "ODTadIK3FoVJKOx98hzcVj5jnyg",
+          "LQxBdgEuSorOgMx9WNWcpB04nWc",
+          "MiPsdDGsLo85qFxHoeVc7sfTnsc",
+          "VRk6dhXP2oHgMTxt2rFcGOImneg",
+          "XYlUdTcbnodPdvxQ9hPcq9JwnSD",
+          "NXi1dcfyuoUu5Pxsty3cehPUnDh",
+          "BE5md6R9IoDmANxkAhecWyRmnig",
+          "UrGodaTI5o1goLx6iNRclYabnCf",
+          "Nm5UdcSnnossa0xHinWcMT0jnzh",
+          "OK9KdwgwWosjWCxH1MzcORign7f",
+          "Bl9WdOj5xoxzj8xgEc2c4f0unQp",
+          "Bj0PdU4Avouskfx4KRBcidjEnob",
+          "NMfYdliwIoulNrxTSxMcvCBsnef",
+          "CuCid5I6To3UzKxxaDuc8gIAnib",
+          "RwfHdokVnodQtQxnle0cIkhCnKg",
+          "CvHkd7f1RoHhhmxPQ7AcbLWSn3d",
+          "QMUwd0C3koGA4uxzGtUcYh3Hn6e",
+          "K7Btd2tZ7oj8eLxSRfac66Egn5f",
+          "JxqEd1zkWoY9rPx3agpc6TXznCb",
+          "HZ9qdf3TtoQcdux4R0rcgtnbn1e"
+        ],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+z"
+            },
+            "text": {
+              "0": "新员工离职指导 NEW EMPLOYEE DISORIENTATION"
+            }
+          }
+        },
+        "align": "",
+        "doc_info": {
+          "editors": [
+            "7489424151241981956"
+          ],
+          "options": [
+            "editors",
+            "edit_time"
+          ],
+          "deleted_editors": null,
+          "option_modified": null
+        }
+      }
+    },
+    "Z7YZdsl41olFBwxXGtkcnNuSn3c": {
+      "id": "Z7YZdsl41olFBwxXGtkcnNuSn3c",
+      "version": 6,
+      "data": {
+        "type": "text",
+        "parent_id": "TUuoddtdNo6mkBxNhcycWDpjnKf",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 3,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ],
+              "1": [
+                "bold",
+                "true"
+              ],
+              "2": [
+                "italic",
+                "true"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0*1*2+p"
+            },
+            "text": {
+              "0": "沸点 Boiling Point（ 1 恐惧点 ）"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "ZCBudlfmXozMK9xXlvBcUQ7bnwe": {
+      "id": "ZCBudlfmXozMK9xXlvBcUQ7bnwe",
+      "version": 5,
+      "data": {
+        "type": "text",
+        "parent_id": "Z6WUdw4aqoJYUzxLDUZcx3tqnhc",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+f"
+            },
+            "text": {
+              "0": "干员们在 P-1 会议室醒来。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "ZYtXddzYJowjXlx8pJgcFaeQnrf": {
+      "id": "ZYtXddzYJowjXlx8pJgcFaeQnrf",
+      "version": 13,
+      "data": {
+        "type": "text",
+        "parent_id": "JxqEd1zkWoY9rPx3agpc6TXznCb",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [
+          "CyQXdvyqVofd6nxpeD5cNPFKnkb",
+          "Rw1jdYj0to02LBxNfI1cTsMXnKE",
+          "VIood4H7CooGg1xvNtfcc6t8nsb"
+        ],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1j"
+            },
+            "text": {
+              "0": " 一旦他返回，队伍可以在游戏内以“情境内”的方式播放任意 “怪人”奥尔·扬科维奇的歌曲（例如通过晶体管收音机）"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "ZraydjdxnoRvfBxkIfacqZ0QnJd": {
+      "id": "ZraydjdxnoRvfBxkIfacqZ0QnJd",
+      "version": 2,
+      "data": {
+        "type": "bullet",
+        "parent_id": "IINcd8vsiohK9KxyGFHc2mHan6g",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+1j"
+            },
+            "text": {
+              "0": "一个紧急出口。在主计算机终端修复前，穿过楼梯间会不断循环回到同一楼层。修复后，它将连接至分支的时间/空间现实。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    },
+    "Zvwddo32SoYphrxFwdwc7BTGnxd": {
+      "id": "Zvwddo32SoYphrxFwdwc7BTGnxd",
+      "version": 4,
+      "data": {
+        "type": "text",
+        "parent_id": "VRk6dhXP2oHgMTxt2rFcGOImneg",
+        "comments": [],
+        "revisions": [],
+        "locked": false,
+        "hidden": false,
+        "author": "7489424151241981956",
+        "children": [],
+        "text": {
+          "apool": {
+            "nextNum": 1,
+            "numToAttrib": {
+              "0": [
+                "author",
+                "7489424151241981956"
+              ]
+            }
+          },
+          "initialAttributedTexts": {
+            "attribs": {
+              "0": "*0+9"
+            },
+            "text": {
+              "0": "室内灯光永久熄灭。"
+            }
+          }
+        },
+        "align": "",
+        "folded": false
+      }
+    }
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "items": [
+    {
+      "_id": "c0f6079410a14560",
+      "name": "运动",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "description": "",
+        "source": "第四话 A · 本场预备数值",
+        "swid": "athletics",
+        "attribute": "agility",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "isCoreSkill": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1789122548286,
+        "modifiedTime": 1789122548286,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "3a8bbfb0e69cb1db",
+      "name": "格斗",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "description": "",
+        "source": "第四话 A · 本场预备数值",
+        "swid": "fighting",
+        "attribute": "agility",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "isCoreSkill": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1789122548286,
+        "modifiedTime": 1789122548286,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "8036a49aae72d2a2",
+      "name": "射击",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "description": "",
+        "source": "第四话 A · 本场预备数值",
+        "swid": "shooting",
+        "attribute": "agility",
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "isCoreSkill": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1789122548286,
+        "modifiedTime": 1789122548286,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "a413cba8f3d9d1dc",
+      "name": "察觉",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "description": "",
+        "source": "第四话 A · 本场预备数值",
+        "swid": "notice",
+        "attribute": "smarts",
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "isCoreSkill": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1789122548286,
+        "modifiedTime": 1789122548286,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "39aa7c16cb0fb3d4",
+      "name": "臂载机枪",
+      "type": "weapon",
+      "img": "systems/swade/assets/icons/weapon.svg",
+      "system": {
+        "description": "<p>同一台机器的三种武装共用正常动作；同轮多动作照常累积减值，不因装了三种武器而免费开火三次。远程武器保留提前一轮预瞄：先公开射界或榴弹落点，下一轮才开火；离开射界/爆炸范围即规避。 机枪使用射击，伤害2d8，AP2，射速3；正常计算后坐力与弹药。</p>",
+        "source": "第四话 A · 本场预备数值",
+        "damage": "2d8",
+        "range": "24/48/96",
+        "rangeType": 1,
+        "ap": 2,
+        "rof": 3,
+        "shots": 60,
+        "currentShots": 60,
+        "reloadType": "magazine",
+        "equipStatus": 3,
+        "equippable": true,
+        "favorite": true,
+        "quantity": 1,
+        "actions": {
+          "trait": "射击",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1789122548286,
+        "modifiedTime": 1789125961876,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "8875f6f3a2f2c351",
+      "name": "机壳装甲",
+      "type": "armor",
+      "img": "systems/swade/assets/icons/armor.svg",
+      "system": {
+        "description": "",
+        "source": "第四话 A · 本场预备数值",
+        "armor": 4,
+        "equipStatus": 3,
+        "equippable": true,
+        "quantity": 1,
+        "locations": {
+          "torso": true,
+          "arms": false,
+          "legs": false,
+          "head": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1789122548286,
+        "modifiedTime": 1789122548286,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "7cb2665fecd0f01c",
+      "name": "本场行动与弱点",
+      "type": "ability",
+      "img": "systems/swade/assets/icons/ability.svg",
+      "system": {
+        "description": "<p>本场强化龙套，可承受2损伤。机炮开火前必须上一轮用动作预瞄，并公开指出射界；下一轮仅向该射界射击，目标脱离则落空或重新预瞄。不开火轮可慢速移动。正面装甲厚；侧面维护口/顶部镜头的瞄准攻击−2，命中忽略本卡4点装甲，玩家必须确实取得对应射线。维护口接入成功的电子学/修理检定使其停机，梁在接触接口并得到掩护时可用权限直接停机。构装体动摇恢复+2，免疫毒病，无呼吸。</p>",
+        "source": "第四话 A · 本场预备数值",
+        "favorite": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1789122548286,
+        "modifiedTime": 1789122548286,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "45e3001d476c1d6b",
+      "name": "液压破拆钳",
+      "type": "weapon",
+      "img": "systems/swade/assets/icons/weapon.svg",
+      "system": {
+        "description": "<p>同一台机器的三种武装共用正常动作；同轮多动作照常累积减值，不因装了三种武器而免费开火三次。远程武器保留提前一轮预瞄：先公开射界或榴弹落点，下一轮才开火；离开射界/爆炸范围即规避。 近战攻击造成力量+d8、AP2；夹住目标按擒抱另行处理，不附送自动擒抱或额外伤害。</p>",
+        "source": "第四话 A · 本场预备数值",
+        "damage": "@str+d8",
+        "range": "",
+        "rangeType": 0,
+        "ap": 2,
+        "rof": 1,
+        "shots": 0,
+        "currentShots": 0,
+        "reloadType": "none",
+        "equipStatus": 3,
+        "equippable": true,
+        "favorite": true,
+        "quantity": 1,
+        "actions": {
+          "trait": "格斗",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1789125961898,
+        "modifiedTime": 1789125961898,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "fd12acd2a2a7f7a6",
+      "name": "肩载榴弹炮",
+      "type": "weapon",
+      "img": "systems/swade/assets/icons/weapon.svg",
+      "system": {
+        "description": "<p>同一台机器的三种武装共用正常动作；同轮多动作照常累积减值，不因装了三种武器而免费开火三次。远程武器保留提前一轮预瞄：先公开射界或榴弹落点，下一轮才开火；离开射界/爆炸范围即规避。 本场用中型爆炸模板，3d6、AP2，6发；需要可见目标或同伴提供的实际落点，不能隔楼精确追踪玩家。爆炸、失手偏移与遮蔽照常结算。本场武器数值，非现实口径换算。</p>",
+        "source": "第四话 A · 本场预备数值",
+        "damage": "3d6",
+        "range": "24/48/96",
+        "rangeType": 1,
+        "ap": 2,
+        "rof": 1,
+        "shots": 6,
+        "currentShots": 6,
+        "reloadType": "single",
+        "equipStatus": 3,
+        "equippable": true,
+        "favorite": true,
+        "quantity": 1,
+        "actions": {
+          "trait": "射击",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "isHeavyWeapon": true,
+        "templates": {
+          "small": false,
+          "medium": true,
+          "large": false,
+          "cone": false,
+          "scone": false,
+          "stream": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZLyjAZl8wgUWm0mg": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "swade",
+        "systemVersion": "6.0.3",
+        "createdTime": 1789125961917,
+        "modifiedTime": 1789125961917,
+        "lastModifiedBy": "ZLyjAZl8wgUWm0mg",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "notes": "<p>本场强化龙套，可承受2损伤。机炮开火前必须上一轮用动作预瞄，并公开指出射界；下一轮仅向该射界射击，目标脱离则落空或重新预瞄。不开火轮可慢速移动。正面装甲厚；侧面维护口/顶部镜头的瞄准攻击−2，命中忽略本卡4点装甲，玩家必须确实取得对应射线。维护口接入成功的电子学/修理检定使其停机，梁在接触接口并得到掩护时可用权限直接停机。构装体动摇恢复+2，免疫毒病，无呼吸。</p><p>同一台机器的三种武装共用正常动作；同轮多动作照常累积减值，不因装了三种武器而免费开火三次。远程武器保留提前一轮预瞄：先公开射界或榴弹落点，下一轮才开火；离开射界/爆炸范围即规避。</p>"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "swade-StylishActionHud-integration",
+  "title": "太一 SWADE 超能动作 HUD",
+  "description": "本地自用的 SWADE、超能伙伴与 Stylish Action HUD 集成模块，用超能奇能菜单替代原奇能菜单，并提供中文动作目录。",
+  "version": "1.0.0-taiyi.1",
+  "library": false,
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.1.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "stylish-action-hud",
+        "type": "module"
+      },
+      {
+        "id": "swade-supers-companion",
+        "type": "module"
+      },
+      {
+        "id": "stylish-shop",
+        "type": "module"
+      },
+      {
+        "id": "betterrolls-swade2",
+        "type": "module"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/swade-StylishActionHud-main.mjs"
+  ],
+  "styles": [
+    "styles/swade-StylishActionHud-styles.css"
+  ],
+  "packFolders": [
+    {
+      "name": "太一 SWADE",
+      "color": "#6b7c93",
+      "packs": [
+        "taiyi-shop-items-compact",
+        "taiyi-shop-actors-compact"
+      ],
+      "sorting": "m"
+    }
+  ],
+  "packs": [
+    {
+      "name": "taiyi-shop-items-compact",
+      "label": "太一商店物品",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "path": "packs/taiyi-shop-items-compact"
+    },
+    {
+      "name": "taiyi-shop-actors-compact",
+      "label": "太一商人",
+      "type": "Actor",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "path": "packs/taiyi-shop-actors-compact"
+    }
+  ]
+}

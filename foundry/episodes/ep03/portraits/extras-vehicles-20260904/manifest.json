@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-04T02:00:00+08:00",
+  "generator": "built-in imagegen",
+  "status": "deployed_to_fvtt",
+  "deployedToFvtt": true,
+  "deployedAt": "2026-09-04T22:48:33+08:00",
+  "assets": [
+    {"key":"cleaner","name":"合规清理员","actorId":"3b235949f8822316","file":"generated/EP03-EXTRA-CLEANER.png","width":1254,"height":1254,"sha256":"ead07fc16df0f28b3e7bd03b2e08f2c12a71074fe640184b281959542612b602","qa":"passed","deployedFile":"nai-20260904/assets/candidates/EP03-EXTRA-CLEANER-合规清理员-nai-avatar.webp","deployedPath":"worlds/taiyi/assets/npc/avatars/EP03-EXTRA-CLEANER-nai-avatar.webp"},
+    {"key":"qingshao","name":"青梢队成员","actorId":"edf233155b4144b1","file":"generated/EP03-EXTRA-QINGSHAO.png","width":1254,"height":1254,"sha256":"8eb978f62bc09a73149ae5bdd09ab6a43fa3adb2a38d15473308505960abc1b8","qa":"passed","deployedFile":"nai-20260904/assets/candidates/EP03-EXTRA-QINGSHAO-青梢队成员-nai-avatar.webp","deployedPath":"worlds/taiyi/assets/npc/avatars/EP03-EXTRA-QINGSHAO-nai-avatar.webp"},
+    {"key":"drone","name":"追风警戒无人机","actorId":"f4202ab0f6698a33","file":"generated/EP03-EXTRA-DRONE.png","width":1254,"height":1254,"sha256":"23d1d0bfc8b39acc34d911681ad9ea5679bb1cc65d4dfb31979a8885d071fb67","qa":"passed","deployedFile":"nai-20260904/assets/candidates/EP03-EXTRA-DRONE-追风警戒无人机-nai-avatar.webp","deployedPath":"worlds/taiyi/assets/npc/avatars/EP03-EXTRA-DRONE-nai-avatar.webp"},
+    {"key":"ma-driver","name":"冷藏车司机","actorId":"58225f08c387421e","file":"generated/EP03-EXTRA-MA-DRIVER.png","width":1254,"height":1254,"sha256":"8dedeefd75f2c65b2e0f39691b38962a053b4700a7915331df3bd51650a25571","qa":"passed","deployedFile":"nai-20260904/assets/candidates/EP03-EXTRA-MA-DRIVER-冷藏车司机-nai-avatar.webp","deployedPath":"worlds/taiyi/assets/npc/avatars/EP03-EXTRA-MA-DRIVER-nai-avatar.webp"},
+    {"key":"auditor","name":"M-3 随车审计员","actorId":"c97aece17d9be1cc","file":"generated/EP03-EXTRA-AUDITOR.png","width":1254,"height":1254,"sha256":"c6da45fefcfd83dc477708468e212c7c5cc2f2c6ff50e8bc9eb41ab7c0a8249d","qa":"passed","deployedFile":"nai-20260904/assets/candidates/EP03-EXTRA-AUDITOR-M-3 随车审计员-nai-avatar.webp","deployedPath":"worlds/taiyi/assets/npc/avatars/EP03-EXTRA-AUDITOR-nai-avatar.webp"},
+    {"key":"m3","name":"中继车 M-3","actorId":"298635cb754b5aea","file":"generated/EP03-VEHICLE-M3.png","width":1254,"height":1254,"sha256":"ffe62ef94e2fb036f437d68da074ed7ac08e7a5025b86095727634ab90861394","qa":"passed","deployedPath":"worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-M3.png"},
+    {"key":"z0","name":"零号库载车 Z-0","actorId":"afe354e8fe5faec3","file":"generated/EP03-VEHICLE-Z0.png","width":1254,"height":1254,"sha256":"c464d46cdb9ba804d6ab2fccdfb0947e73e306a4e48687f172e46a2b78e4135d","qa":"passed","deployedPath":"worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-Z0.png"},
+    {"key":"passenger","name":"追风载客轿车／空诱饵车","actorId":"e259aa8a691ed14b","file":"generated/EP03-VEHICLE-PASSENGER.png","width":1254,"height":1254,"sha256":"b5147fbd45f3d6813b962ee3d308ce69b6cc01aff0dedc849b7d54dde3a72066","qa":"passed","deployedPath":"worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-PASSENGER.png"},
+    {"key":"cold-truck","name":"马铁鹰的短轴冷藏厢车","actorId":"3a333216b680256b","file":"generated/EP03-VEHICLE-COLD-TRUCK.png","width":1254,"height":1254,"sha256":"767936ae3c506934ecc607a9c6ce51c061cbccda6ec2d6b5b1779ed2fe4e0887","qa":"passed","deployedPath":"worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-COLD-TRUCK.png"},
+    {"key":"white-suv","name":"罗恺的白色 SUV","actorId":"698ef8d10a6b1491","file":"generated/EP03-VEHICLE-WHITE-SUV.png","width":1254,"height":1254,"sha256":"3997fd2c53359ac19bbe141362cd103988c3fd44dd4d2c16a28ef3933103fd0b","qa":"passed","deployedPath":"worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-WHITE-SUV.png"},
+    {"key":"qing-vehicle","name":"青梢队行动车","actorId":"389b4cc35538b135","file":"generated/EP03-VEHICLE-QINGSHAO.png","width":1254,"height":1254,"sha256":"0852519af0d4f4ebf6aed7c45530ebf46016515ad4b1339805919014538e790e","qa":"passed","deployedPath":"worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-QINGSHAO.png"},
+    {"key":"patrol-suv","name":"欲子的退役玄盾巡逻越野车","actorId":"864f29cc4b5e420c","file":"generated/EP03-VEHICLE-PATROL-SUV.png","width":1254,"height":1254,"sha256":"bab8bef51d7871c1a226c16e528164473dfca024d8b0f882724980cc3b172ab2","qa":"passed","deployedPath":"worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-PATROL-SUV.png"}
+  ]
+}

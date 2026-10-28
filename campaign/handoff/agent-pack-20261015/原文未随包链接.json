@@ -1,0 +1,467 @@
+[
+  {
+    "document": "sources/campaign/decisions/README.md",
+    "href": "../archive/reviews-20260903/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/decisions/二十话重整-设计定案.md",
+    "href": "../archive/reviews-20260903/二十话重整-现状核对.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/decisions/二十话重整-设计定案.md",
+    "href": "../archive/reviews-20260903/二十话重整-审阅记录.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/episodes/20-episode-outline.md",
+    "href": "../archive/reviews-20260903/二十话重整-审阅记录.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/guides/场景梗概样板.md",
+    "href": "../prep/agy/ep04-redesign-20261009/copper-user-sample-before-recast-08.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/guides/模组写作规范.md",
+    "href": "../../maintenance/research/module-writing-20261009/daggerheart-feishu/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/guides/模组写作规范.md",
+    "href": "../../maintenance/research/module-writing-20261009/the-hole-in-the-oak-preview.pdf",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/guides/模组写作规范.md",
+    "href": "../../maintenance/research/module-writing-20261009/the-incandescent-grottoes-preview.pdf",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/index.md",
+    "href": "../../assets/npc/production/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/index.md",
+    "href": "../../assets/npc/production/control/portrait-master.json",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/index.md",
+    "href": "../../foundry/npc/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/index.md",
+    "href": "archive/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/NPC工作总控.md",
+    "href": "../../assets/npc/production/control/portrait-master.json",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/NPC工作总控.md",
+    "href": "../archive/reviews-20260903/二十话大纲与NPC故事重整计划.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/NPC工作总控.md",
+    "href": "../archive/reviews-20260903/二十话重整-审阅记录.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/reference/NPC最终意见版.md",
+    "href": "../../archive/reviews-20260903/二十话大纲与NPC故事重整计划.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/roster/NPC出场安排.md",
+    "href": "../../archive/reviews-20260903/二十话重整-审阅记录.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/stories/朱瑶光.md",
+    "href": "../../archive/reviews-20260903/二十话重整-现状核对.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/stories/朱瑶光.md",
+    "href": "../../archive/reviews-20260903/二十话重整-审阅记录.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/stories/朱蘅.md",
+    "href": "../../archive/reviews-20260903/二十话重整-现状核对.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/stories/朱蘅.md",
+    "href": "../../archive/reviews-20260903/二十话重整-审阅记录.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/stories/沈漫.md",
+    "href": "../../archive/reviews-20260903/二十话重整-现状核对.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/stories/沈漫.md",
+    "href": "../../archive/reviews-20260903/二十话重整-审阅记录.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/stories/许承钧.md",
+    "href": "../../archive/reviews-20260903/二十话重整-现状核对.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/stories/许承钧.md",
+    "href": "../../archive/reviews-20260903/二十话重整-审阅记录.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/重要NPC故事.md",
+    "href": "../archive/reviews-20260903/二十话大纲与NPC故事重整计划.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/npcs/重要NPC故事.md",
+    "href": "../archive/reviews-20260903/二十话重整-审阅记录.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/modules/ep03-追风大劫案-module.md",
+    "href": "ep03-追风大劫案-白话主持版.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/modules/ep03-追风大劫案-module.md",
+    "href": "../../../foundry/episodes/ep03/构筑清单.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/modules/ep03-追风大劫案-module.md",
+    "href": "../../../foundry/episodes/ep03/battlemaps/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/modules/ep03-追风大劫案-module.md",
+    "href": "../../../foundry/episodes/ep03/rebuild-ma-xia-l5/重车说明.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/modules/ep03-追风大劫案-module.md",
+    "href": "../../npcs/archive/扩充NPC-企业篇.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/modules/ep03-追风大劫案-module.md",
+    "href": "../../npcs/archive/扩充NPC-帮派与机构篇.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "sessions/ep04-events/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "agy/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "sessions/ep04-events/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "agy/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "sessions/session-13-第四话开场安排.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "sessions/s13-现场手册.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "sessions/s13-遭遇与道具.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "playtests/s13-20260911.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "modules/ep03-追风大劫案-白话主持版.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "modules/ep03-欲子双线大纲.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "modules/ep02-地铁幽灵-module.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "modules/ep02-地铁幽灵-scenario.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "sessions/session-04-foundry-prep.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "sessions/session-06-follow-up.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "sessions/session-08-prep.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "sessions/session-09-prep.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "sessions/session-10-prep.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "sessions/session-13-第四话开场安排.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "../../foundry/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "../../assets/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/README.md",
+    "href": "playtests/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+    "href": "ep04-events/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+    "href": "ep04-events/A-PMC猎杀欲子.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+    "href": "ep04-events/B-管委会围捕李好.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+    "href": "ep04-events/C-义胜盟开战.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+    "href": "ep04-events/D-灾备厅决战.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep03尾声-ep04-流程与事件卡.md",
+    "href": "../agy/20260911-事件卡-AGY完整草案.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-paladin-summary.md",
+    "href": "../agy/20260911-圣骑士蝙蝠侠-AGY原稿.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-义胜盟-新故事.md",
+    "href": "../agy/ep04-redesign-20261009/copper-user-sample-before-recast-08.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-义胜盟-铜锅旧稿.md",
+    "href": "../agy/ep04-redesign-20261009/yisheng-original-pass-05-AGY回复原文.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-义胜盟-铜锅旧稿.md",
+    "href": "../agy/ep04-redesign-20261009/yisheng-original-pass-05-AGY场景原文.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-场景梗概.md",
+    "href": "ep04-events/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-场景梗概.md",
+    "href": "../agy/ep04-redesign-20261009/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-新设计.md",
+    "href": "../agy/ep04-redesign-20261009/创作取舍.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-新设计.md",
+    "href": "../agy/ep04-redesign-20261009/creative-pass-03-AGY场景原文.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-新设计.md",
+    "href": "../agy/ep04-redesign-20261009/yisheng-original-pass-05-input.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-新设计.md",
+    "href": "ep04-events/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-暴力重构-事件卡.md",
+    "href": "../agy/20260911-事件卡-AGY完整草案.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-最终框架复审.md",
+    "href": "../agy/20260911-final-framework-input.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-最终框架复审.md",
+    "href": "../agy/20260911-第四话最终框架-AGY复审.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-最终框架复审.md",
+    "href": "../../../maintenance/agy-20260911/final-framework-run.json",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-梁文川过渡.md",
+    "href": "../agy/20260911-final-framework-input.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-融合骨架.md",
+    "href": "../agy/20260911-final-framework-input.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-融合骨架.md",
+    "href": "../agy/20260911-AGY原稿.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/prep/sessions/ep04-融合骨架.md",
+    "href": "../agy/20260911-liang-input.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/README.md",
+    "href": "handoff/agent-pack-20261015/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/README.md",
+    "href": "rules/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/README.md",
+    "href": "archive/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/campaign/world/20-地下空间形态与示意图设定稿.md",
+    "href": "../../assets/maps/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/src/核心规则/龙散市/城区与地点.md",
+    "href": "/地铁图.svg",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/WORKSPACE.md",
+    "href": "assets/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/WORKSPACE.md",
+    "href": "foundry/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/WORKSPACE.md",
+    "href": "maintenance/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/WORKSPACE.md",
+    "href": "campaign/archive/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/WORKSPACE.md",
+    "href": "archive/wiki-design/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/WORKSPACE.md",
+    "href": "src/index.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/WORKSPACE.md",
+    "href": "character_sheet/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/WORKSPACE.md",
+    "href": "assets/inbox/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/WORKSPACE.md",
+    "href": "assets/group-portraits/README.md",
+    "status": "not_bundled"
+  },
+  {
+    "document": "sources/WORKSPACE.md",
+    "href": "maintenance/workspace-20260911/README.md",
+    "status": "not_bundled"
+  }
+]

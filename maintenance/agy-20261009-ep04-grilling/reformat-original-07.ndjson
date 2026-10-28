@@ -1,0 +1,827 @@
+{"event":"init","conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","init":{"model":"gemini-3.1-pro-high","cwd":"D:\\Project Taiyi","tools":["ask_custom_permission","ask_permission","ask_question","browser_click_element","browser_drag_pixel_to_pixel","browser_get_dom","browser_get_network_request","browser_input","browser_list_network_requests","browser_mouse_down","browser_mouse_up","browser_move_mouse","browser_press_key","browser_refresh_page","browser_resize_window","browser_scroll","browser_scroll_dom","browser_select_option","browser_subagent","call_mcp_tool","capture_browser_console_logs","capture_browser_screenshot","click_browser_pixel","command_status","define_subagent","delete_knowledge","execute_browser_javascript","find_by_name","finish","generate_image","grep_search","invoke_subagent","list_browser_pages","list_dir","list_permissions","list_plugin_accounts","list_resources","manage_inbox","manage_subagents","manage_task","multi_replace_file_content","notebook_edit","notebook_execution","open_browser_url","read_browser_page","read_resource","read_url_content","replace_file_content","run_command","run_workflow","schedule","search_marketplace","search_web","sed_file","send_command_input","send_message","view_file","wait","wait_5_seconds","write_to_file"],"permission_mode":"request-review","expanded_commands":[{"name":"plan","type":"system"}]}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":0,"state":"DONE","step_type":"user_input"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"我已阅读并确认所有相关材"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"料。依照您的要求"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，这里是直接整理"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"出的全本"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"内容（不"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"使用任何工具，不附带设计评论与待"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"问清单），共计 7 "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"场（6 场"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"正文，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"1 场备选），并已"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"在开头结"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"清了第三话的休整"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"与固定基线。\n\n***"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n### 开场说明与固定基线\n\n"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"第四话未"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"正式开始前，先结"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"算 S13 第"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"三话余波"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"与休整。李好已清醒，目前"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"处于重伤状态，并"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"正与何凌在信息空间"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"交流（回"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"到现实与后续治疗尚未结算"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"）。欲子"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"唐索此时正在红区"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"避险，当"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"晚无法返回住处或"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"事务所。先前的交货报酬已"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"转账，后"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"续不再有尾款。李"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"好的车四"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"胎爆"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"裂但车体健康，数据可暂存约一周；"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"欲子的玄"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"盾坏车是另一辆，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"注意"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"区分。\n\n第一批黑帮已经撤"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"退。第二"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"批出场的是 PMC 与"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"机器猎手，目前未"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"被打败，且雇主未"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"点名；出场的机器"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"型号不能"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"作为证明雇主的直"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"接证据，梁文川也"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"尚未"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"露面。何凌已向李"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"好指认了“方”，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"并建议联"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"络陈志远与义"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"胜盟；她是否转告其余人，需照现场"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"交流决定"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，且第一话的坦白"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"不重演"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。她预期正式拘押是 NPC 的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"意见，并非作者设"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"定的绝对"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"结尾。\n\n本话固定"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"基线：玩家若"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"使方败局成立，上级派来的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"超级特工"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"会先保护方，在确"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"认无可挽回后"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"灭口撤离"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"；玩家的真实战果保留，但"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"上游秘密"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"会随方之死断线。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"梁文"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"川是真心帮忙，本话他会先展露技术"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"与权限，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"后续再显露高管职"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"位，但"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"绝不公开他与方的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"间接采购关系。陈"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"培安的“"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"残留”仅是受损的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"人格延续"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，不能恢复完整肉身"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，也无法解释全案。\n\n***\n\n##"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":" 1. 城市"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"追猎\n\n引擎轰鸣与"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"激光交织"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，重型自走机碾碎街道掩体"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，在商铺街与工地"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"间上演生"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"死极速追"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"击！\n\n**事件**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"城市追猎。\n\n**地点**：改"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"管线的商"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"铺街、工地"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"与相邻停"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"车场。\n\n**环境**：连续作战"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的混乱街"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"区。无牌厢车封死"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"前路"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，外包枪"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"手躲在围挡后倾泻"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"火力。重型机器强"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"行压开路面车辆和"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"砖墙，炮"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"火无差别扫开掩体。\n\n### 参"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"与人员\n\n- **敌领队"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：指挥"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"作战，想"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"带指挥车撤退，若遭受重挫"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"也会考虑"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"谈判放行。\n- **外"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"包枪"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"手**：拿钱办事，火力受挫"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"后会退到"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"机器后寻找掩护，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"不敢拼命"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"混混（三"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"名）**：拿钱带路并封锁小"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"巷，但贪"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"生怕死。\n"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"- **梁文"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"川**：偶遇阿玉。熟知追风"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"机器，愿保住原始"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"记录并"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"一起对付方，隐藏"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"高管身份，展现顶"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"级技术能"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"力。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"阿玉**：在混乱"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"中偶遇梁文川。\n\n### 可能的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"发展\n\n敌领队会指"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"挥重型自走机与机"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"械"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"猎犬进行压制，外"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"包枪手借围挡开火。梁文川"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"可能会指导队伍中"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的技术 PC"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":" 接入系"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"统，或亲自"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"动手停住具体机器。玩家需"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"要配合并保护他，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"以此拉近双方距离"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。若 PC 已摧"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"毁机器，梁会检查残件并切"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"断定位，战果保留"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。敌领队"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"见势不妙可能求和"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"撤"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"离。\n\n### "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"要点\n\n- 机械猎犬"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"主要攻击车轮或队"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"伍尾部。\n- 激光锁"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"定、"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"光学头、液压腿、维护接口"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"均为既有"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"可用要素"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，可被玩家利用反"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"制。\n- 玩家"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"保护梁文川完成操"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"作是拉近关系的关"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"键。\n- 缴获的指挥"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"车、武器、残件和"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"本地通信"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"记录可带"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"入后续剧情。\n\n### "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"危险\n\n战斗引发大"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"规模破坏，重机碾"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"压与火网"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"交织，各方应对如"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"下：\n\n- **敌领队**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：指挥重机压制，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"见势"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"不妙准备"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"带车撤离或谈判求"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"生。\n- **外包枪手"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：依托机器掩护"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"射击，惜"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"命退缩。\n- **混混*"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*：见识到重火力"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"后吓破胆"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，尝试逃跑保命"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n- **梁"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"文川**：专注于技"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"术接入或残件检查"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，将后背交给 PC "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"保护。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n**场景"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"标签**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"街头追车、机甲战"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、黑客骇入、梁文"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"川登场。\n\n---\n\n## 2."}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":" 档案室突围\n\n银"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"行地下的秘密交锋"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，烟雾与喷淋系统"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"警铃大作，在倒塌"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的货架间抢夺决定"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"命运的记"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"录！\n\n**事件**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"档案室突围。\n\n**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"地点**：银行地下"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"旧档案室"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n**环境**：包"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"含货架、"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"内库、搬"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"运车与装"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"卸口。烟雾、喷淋"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"系统被触发，货架"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"倒塌"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"改变战场地形，大"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"批材料正被推往出"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"口。\n\n### 参与人员"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n- **陈志远**：想"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"保工作"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、同事和"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"自我评价，害怕公"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"开自己曾"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"配合。退缩在内库"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"中。\n- **何凌"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：想保同事、追"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"查方、救"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"前辈。\n- **方的清"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"理队**：奉命带"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"走陈志远"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"和记录，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"封锁出口、搬运设"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"备、毁掉来不及运"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"走的留底"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- **特工*"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*：保护"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"方的利益，掩护清"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"理队撤离"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、抢回关键记录。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"执行"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"短距位移与精确射"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"击。\n\n### "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"可能的发展\n\n清理"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"队正在将材料推往"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"出口并破"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"坏留底。特工利用"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"短距位移与精确射"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"击掩护他们。何凌"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"可变猫穿"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"过隔断找人"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"开路。PC "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"可以尝试救人、夺"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"取留底、强开出口"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。陈志远"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"可被劝说转交资料"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"并作证。\n\n### 要点"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n- 已带"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"出的记录不会随"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"陈志远的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"退缩而消失。\n- 资"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"料明确指向工程款"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"转付异常"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"服务、方干预"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"审批、陈"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"培安提出核查后业"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"务变化。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- 银行或官方经手"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"人可据材料"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"和抓人行"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"为撤掉这次私活的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"掩护，但"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"方仍有自己的武装"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n- 特工"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"有受伤"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"与被迫放"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"弃目标的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"可能。\n\n#"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"## 危险\n\n"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"货架倒塌、烟雾弥"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"漫与特工"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"火力"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"压制，各方应对如"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"下：\n\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"陈志远**：躲避交"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"火，死守"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"内库，内心"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"充满挣扎"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n- **何凌**：变"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"身寻路，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"优先保护同事撤离"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n- **清"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"理"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"队**：加速搬运或"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"销毁记录"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，不顾一切封锁现"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"场。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"特工**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：冷酷狙"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"击掩护撤"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"退，必要时受伤或"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"放弃次要"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"目标以保"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"核心利益。\n\n**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"场景标签"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：室内"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"突围、潜"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"行与强攻、证据争"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"夺、特工"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"交锋。\n\n"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"---\n\n## 3. 堂口保卫"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n怒火中"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"烧的旧城据点，燃"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"烧的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"厢车撞破大门，在"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"狭窄回廊"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"与火海中"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"死守兄弟与信誉！"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**事件**：堂口保"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"卫。\n\n**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"地点**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"黄区三层堂口。\n\n*"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*环境**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"包含"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"正门、二楼回廊与"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"狭窄后门"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。加固厢车撞击正"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"门，机枪"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"封锁正面"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，烈火封"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"住后门并逼迫楼上"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"人员。\n\n#"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"## 参与人"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"员\n\n- **卫铁生**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"愤怒于方"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"拖欠清退"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"尾款、出卖旧帮手"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，要保"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"黄区生意与手下信"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"誉。他是"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"白虎堂黄"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"区分点负"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"责人（红"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"衣），手"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"下十来个蓝衣。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**铁手**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：誓死护"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"着手下的兄弟。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**阿三、"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"阿七**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"既有帮众"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，誓死跟随。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"周凛**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"可作介绍"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"人，保护"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"接"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"头信用，但不掌握"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"全案。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**方的枪"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"手**：意"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"图灭口毁账，纵"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"火逼人。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- **敌领"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"队**：见势不妙随"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"时准备带"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"钱箱跑路"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n### 可能的发展"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n方的枪手用撞门"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、机枪和"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"纵火发起"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"立体攻势"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。卫铁生"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"在二楼指挥反击，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"铁手带人"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"苦撑。若"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"敌领队受"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"挫，会带钱箱弃手"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"下逃回车"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"场。留下"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的枪手可"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"能投降并"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"交出车场"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"地点。\n\n### 要点\n\n-"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":" 周凛不"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"掌握全案"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，仅作牵"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"线。\n- 卫铁生可拿"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"出清退尾"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"账说明旧"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"差事，证"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"明本次遇"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"袭为灭口"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"清理。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"灰账性质"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"决定了私兵不会自"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"动投降；"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"保下的人"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"和实际承"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"诺将在后"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"续延续。\n- 敌方车"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"载导航无"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"密码门槛"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，可直接"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"提供位置"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n### 危"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"险\n\n火势"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"蔓延、机枪压制、"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"据点面临"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"倾覆，各"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"方应对如"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"下：\n\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"卫铁生**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：在二楼倾泻火力"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"还击，誓"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"死捍卫堂"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"口尊严与"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"信誉。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**铁手**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：顶在最"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"前线，掩护阿三、"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"阿七等兄"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"弟。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"方的枪手"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：无情"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"纵火，执"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"行灭口。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- **敌领队**：评"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"估战损，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"一旦不利"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"立刻抛弃"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"手下带钱"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"箱回撤。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n**场景"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"标签**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"阵地防守"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、黑帮火"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"拼、烈火"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"突围、信"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"誉之战。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n---\n\n## 4. 车场反"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"攻\n\n废工"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"业区的钢"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"铁斗兽场"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，机械臂将轿车砸"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"作飞弹，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"在轰鸣与"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"火光中夺"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"回属于地"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"下世界的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"正义！\n\n*"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*事件**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"车场反攻"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n**地"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"点**：废工业区调"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"度车场。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n**环境**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：钢板与"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"铁网院墙"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、屋顶/"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"冷却塔、"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"维修地坑"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、二楼调"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"度室、车"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"库与装甲"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"运输车。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"装卸重机"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"疯狂挥舞"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n### 参"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"与人员\n\n-"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":" **敌领队"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：如果"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"从堂口逃"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"脱，会带"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"着钱箱躲"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"在调度室"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，指挥看"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"守死守装"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"备与退路"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n- **看"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"守**：守"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"卫车场资"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"产。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"卫铁生**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：要填补"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"堂口损失"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、安抚兄"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"弟。\n\n### "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"可能的发"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"展\n\n装卸"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"重机会把"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"废弃轿车"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"当作投射"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"物砸向掩"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"体。PC 可"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"以选择潜"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"入、夺取"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"重机控制"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"权或正面"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"强攻。液"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"压关节和"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"工业控制"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"模块是突"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"破口，夺"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"取后可用其掀开车"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"库或调度"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"室的防护。\n\n### 要"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"点\n\n- 钱"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"箱、未损"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"毁的车辆"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"与武器归"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"属按真正"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"占有物结"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"算。\n- 双"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"方可协商"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"分现金或"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"装备/车"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"场资产，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"以换取两"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"组帮众牵制接应。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- 领队可"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"能投降、"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"战死或逃"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"跑，PC 不"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"会自动获"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"得钱车。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- 漏网的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"残兵会增"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"援方；PC "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"抢到的装"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"备将改变"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"最终决战"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的局势。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n### 危险"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n机械臂"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"狂挥、重"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"物坠落、"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"火力网交"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"织，各方"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"应对如下"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：\n\n- **敌"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"领队**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"死守调度"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"室，抓紧"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"钱箱寻找"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"退路。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**看守**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：依托装"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"甲车与围"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"墙殊死反"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"击。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"卫铁生**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：冲锋在"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"前，抢夺"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"物资以弥"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"补手下损"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"失。\n\n**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"场景标签"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：据点"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"攻坚、环"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"境杀、重"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"型机械操"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"控、战利"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"品瓜分。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n---\n\n## 5."}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":" 灾备厅"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"决战\n\n地"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"下堡垒的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"极压对决"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，失控的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"念动力撕"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"裂机柜，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"在管委会"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的最深处"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"直面穷途"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"末路的幕"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"后黑手！"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n**事件**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：灾备厅"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"决战。\n\n*"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*地点**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"管委会配"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"电附楼地"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"下堡垒，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"包含车库"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、维护走"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"廊、机房"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、演示厅"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，及旁侧"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的人员隔"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"离间、冷"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"却区和卸"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"货坡道。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n**环境**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：封闭坚"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"固。有守"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"卫、重装"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"私兵、炮"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"塔、待启"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"自动机，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"以及可能"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"破裂的冷"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"却管。\n\n#"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"## 参与人"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"员\n\n- **方"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：凶恶"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"觉醒者。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"要保钱权"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、毁本地"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"罪证并撤"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"离。视线内短距暴"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"力念动，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"狂妄且对"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"特工颐气"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"指使。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**特工**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：阻击玩"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"家保护方"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，利用短"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"距位移精"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"确射击。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- **何凌*"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*：要保"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"陈培安残"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"留，指出"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"接口需留"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"供能。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**梁文川*"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*：保原"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"始资料、"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"协助稳设"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"备。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"工作人员"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：被方"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"逼迫过载"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"操作，待"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"救援。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**陈培安"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"（残留）"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：受损"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的人格延"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"续，只认"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"自身经历"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n### 可"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"能的发展"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n特工先"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"发制人阻"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"击 PC。方"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"使用念动"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"力掀翻机"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"柜、车辆"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，拖人压"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"人，甚至"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"抓旁人作"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"盾。PC 可"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"接手技术"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"工作，救"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"出工作人"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"员。冷却"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"管破裂会"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"喷出高压"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"蒸汽。PC "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"可夺门禁"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"分开敌人"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、夺炮塔"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、搬接口"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"和备用电"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"源，最终"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"重创方。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"特工见方"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"败局已定"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，为保上"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"级秘密将"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"方灭口后"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"撤离。\n\n#"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"## 要点\n\n-"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":" 方的念"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"动力需要"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"专注，可"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"被打断。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- 获救的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"工作人员"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"会帮忙搬"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"设备、指"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"引终端，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"并指认方"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"扣押转移"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"白念秋尸"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"体、伪造"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"服药记录"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的罪行。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n- 本地记"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"录及陈培"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"安接口具"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"有真实救"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"援/取证"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"价值，但"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"不包含梁"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的采购名"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"和上级地"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"址簿。\n- "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"特工会照"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"常受伤、"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"丢弃武器"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"或放弃毁"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"证。撤离"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"时的火势"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、失控设"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"备及带出"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"成果均属"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"于本场结"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"算。\n\n### "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"危险\n\n念"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"动力肆虐"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、高温蒸"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"汽喷发、"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"特工冷酷"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"狙击，各"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"方应对如"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"下：\n\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"方**：疯"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"狂破坏，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"拿人当盾"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，不顾一"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"切毁灭证"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"据。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"特工**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"精准掩护"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，败局时"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"果断杀方"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"灭口撤退"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n- **何"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"凌**：死"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"守接口，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"维持供能"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n- **梁"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"文川**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"顶着火力"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"稳定设备"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，保护资"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"料。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"工作人员"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：恐慌"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"求生，获"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"救后积极"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"协助。\n\n*"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"*场景标"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"签**：Boss"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":" 战、超"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"能力对抗"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"、要员保"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"护、证据"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"抢救、毁"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"灭性清场"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n---\n\n##"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":" 6. 胜利"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"余波\n\n硝"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"烟散尽后"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"的微光，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"在战利品"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"与伤痕之"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"间，这座"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"城市的暗"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"流迎来了"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"短暂的喘"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"息与清算"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n**事"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"件**：胜"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"利余波。"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n**地点**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：临时休"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"息/安置"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"处。\n\n**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"环境**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"堆放着伤"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"员、抢救"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"出来的接"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"口与战利"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"品，空气"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"中残留着"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"战火的余"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"温。\n\n### "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"参与人员"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n- **卫铁"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"生、铁手"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：兑现"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"分成，安"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"排受伤兄"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"弟。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"何凌**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"悉心照料"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"陈培安的"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"前辈残留"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n- **梁"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"文川**："}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"参与修复"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"设备或进"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"行普通相"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"处，自然"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"展露其技"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"术高管身"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"份；按约"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"定分享资"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"料。\n- **"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"陈志远与"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"获救职员"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"**：面对"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"劫后余生"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，准备应"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"对后续审"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"查与作证"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n- **PC**"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"：清点收"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"获，庆祝"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"胜利，或"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"纪念逝者"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n### 可"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"能的发展"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"\n\n众人在"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"此包扎伤"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"口、清点"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"物资。梁"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"文川不会"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"独吞全队"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"成果。PC "}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"与各方兑"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"现承诺，"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"告别白家"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"姐妹、老"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"王与司机"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"，为本章"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"划上句号"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"ACTIVE","step_type":"agent_response","text_delta":"。\n\n### 要"}}
+{"event":"step_update","step_update":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","step_index":1,"state":"DONE","step_type":"agent_response","text_delta":"点\n\n- 实际救下的人、带出的证据和物资在此落实结算。\n- 上游私人联系随方断线，梁的追杀剧情不会立刻开启。\n- 欲子的身份限制照原实际状态另结；胜利不自动改变全城系统。\n\n### 危险\n\n本场无直接战斗危险，侧重于伤痛平复与利益交割：\n\n- **卫铁生**：江湖信义，按功论赏。\n- **何凌**：情绪复杂，守护前辈。\n- **梁文川**：冷静理智，遵守契约分享资料。\n\n**场景标签**：休整、利益结算、真相揭露、告别与缅怀。\n\n---\n\n## 7. 围捕李好（原版 B，备选场景）\n\n银行大堂的突发危机，封路自动机横冲直撞，私人抓人队在众目睽睽下撒下罗网！\n\n**事件**：围捕李好（备选）。\n\n**地点**：银行/办公楼大堂、楼梯、后巷押送车。\n\n**环境**：大堂被强制冲入的封路自动机破坏，外围与行人受伤，一片混乱。\n\n### 参与人员\n\n- **方的私人抓人队**：借协助调查之名，要捉李好、何凌并夺取通讯。\n- **普通执勤人员**：被蒙在鼓里，维持外围秩序。\n- **何凌**：寻找退路，保护同事。\n- **陈志远**：想安排同事离开。\n- **方**：以为大局已定亲自来接收；见败局暴怒打人。\n- **特工**：护送方转移。\n\n### 可能的发展\n\n抓人队在大堂制造混乱并抓捕目标。PC 可截停押送车救人。若抓人队受挫，方亲自出面，使用念动力掀车砸人殴打手下。外围执勤人员若目睹方的暴行或被说服，会撤除封锁。方与特工负伤后可能退回灾备厅，若直接被追上则沿当前战场接终战，伤势延续。\n\n### 要点\n\n- 仅作为新版档案室的旧版替换场景，不能默认两场都跑。\n- 何凌不再重演坦白。\n- 散热格栅/控制器可被 PC 利用来对付自动机。\n- 抓人队只有在真正抓到人时才会带人上车。\n\n### 危险\n\n自动机冲撞、念动暴走、人群骚乱，各方应对如下：\n\n- **抓人队**：强硬抓人，遇挫则死守押送车。\n- **方**：高高在上，一旦失败便无能狂怒，残害手下。\n- **特工**：冷静判断，优先确警方安全撤离。\n- **何凌与陈志远**：在混乱中保护无辜者撤退。\n\n**场景标签**：公共场所袭击、备选场景、拦截押送、反转。\n","duration_seconds":79.3302248,"usage":{"input_tokens":17310,"output_tokens":9806,"thinking_tokens":5557,"cache_read_tokens":0,"total_tokens":27116}}}
+{"event":"result","result":{"conversation_id":"46ccf652-5298-456a-b3f4-c69be6ba3f77","status":"SUCCESS","response":"我已阅读并确认所有相关材料。依照您的要求，这里是直接整理出的全本内容（不使用任何工具，不附带设计评论与待问清单），共计 7 场（6 场正文，1 场备选），并已在开头结清了第三话的休整与固定基线。\n\n***\n\n### 开场说明与固定基线\n\n第四话未正式开始前，先结算 S13 第三话余波与休整。李好已清醒，目前处于重伤状态，并正与何凌在信息空间交流（回到现实与后续治疗尚未结算）。欲子唐索此时正在红区避险，当晚无法返回住处或事务所。先前的交货报酬已转账，后续不再有尾款。李好的车四胎爆裂但车体健康，数据可暂存约一周；欲子的玄盾坏车是另一辆，注意区分。\n\n第一批黑帮已经撤退。第二批出场的是 PMC 与机器猎手，目前未被打败，且雇主未点名；出场的机器型号不能作为证明雇主的直接证据，梁文川也尚未露面。何凌已向李好指认了“方”，并建议联络陈志远与义胜盟；她是否转告其余人，需照现场交流决定，且第一话的坦白不重演。她预期正式拘押是 NPC 的意见，并非作者设定的绝对结尾。\n\n本话固定基线：玩家若使方败局成立，上级派来的超级特工会先保护方，在确认无可挽回后灭口撤离；玩家的真实战果保留，但上游秘密会随方之死断线。梁文川是真心帮忙，本话他会先展露技术与权限，后续再显露高管职位，但绝不公开他与方的间接采购关系。陈培安的“残留”仅是受损的人格延续，不能恢复完整肉身，也无法解释全案。\n\n***\n\n## 1. 城市追猎\n\n引擎轰鸣与激光交织，重型自走机碾碎街道掩体，在商铺街与工地间上演生死极速追击！\n\n**事件**：城市追猎。\n\n**地点**：改管线的商铺街、工地与相邻停车场。\n\n**环境**：连续作战的混乱街区。无牌厢车封死前路，外包枪手躲在围挡后倾泻火力。重型机器强行压开路面车辆和砖墙，炮火无差别扫开掩体。\n\n### 参与人员\n\n- **敌领队**：指挥作战，想带指挥车撤退，若遭受重挫也会考虑谈判放行。\n- **外包枪手**：拿钱办事，火力受挫后会退到机器后寻找掩护，不敢拼命。\n- **混混（三名）**：拿钱带路并封锁小巷，但贪生怕死。\n- **梁文川**：偶遇阿玉。熟知追风机器，愿保住原始记录并一起对付方，隐藏高管身份，展现顶级技术能力。\n- **阿玉**：在混乱中偶遇梁文川。\n\n### 可能的发展\n\n敌领队会指挥重型自走机与机械猎犬进行压制，外包枪手借围挡开火。梁文川可能会指导队伍中的技术 PC 接入系统，或亲自动手停住具体机器。玩家需要配合并保护他，以此拉近双方距离。若 PC 已摧毁机器，梁会检查残件并切断定位，战果保留。敌领队见势不妙可能求和撤离。\n\n### 要点\n\n- 机械猎犬主要攻击车轮或队伍尾部。\n- 激光锁定、光学头、液压腿、维护接口均为既有可用要素，可被玩家利用反制。\n- 玩家保护梁文川完成操作是拉近关系的关键。\n- 缴获的指挥车、武器、残件和本地通信记录可带入后续剧情。\n\n### 危险\n\n战斗引发大规模破坏，重机碾压与火网交织，各方应对如下：\n\n- **敌领队**：指挥重机压制，见势不妙准备带车撤离或谈判求生。\n- **外包枪手**：依托机器掩护射击，惜命退缩。\n- **混混**：见识到重火力后吓破胆，尝试逃跑保命。\n- **梁文川**：专注于技术接入或残件检查，将后背交给 PC 保护。\n\n**场景标签**：街头追车、机甲战、黑客骇入、梁文川登场。\n\n---\n\n## 2. 档案室突围\n\n银行地下的秘密交锋，烟雾与喷淋系统警铃大作，在倒塌的货架间抢夺决定命运的记录！\n\n**事件**：档案室突围。\n\n**地点**：银行地下旧档案室。\n\n**环境**：包含货架、内库、搬运车与装卸口。烟雾、喷淋系统被触发，货架倒塌改变战场地形，大批材料正被推往出口。\n\n### 参与人员\n\n- **陈志远**：想保工作、同事和自我评价，害怕公开自己曾配合。退缩在内库中。\n- **何凌**：想保同事、追查方、救前辈。\n- **方的清理队**：奉命带走陈志远和记录，封锁出口、搬运设备、毁掉来不及运走的留底。\n- **特工**：保护方的利益，掩护清理队撤离、抢回关键记录。执行短距位移与精确射击。\n\n### 可能的发展\n\n清理队正在将材料推往出口并破坏留底。特工利用短距位移与精确射击掩护他们。何凌可变猫穿过隔断找人开路。PC 可以尝试救人、夺取留底、强开出口。陈志远可被劝说转交资料并作证。\n\n### 要点\n\n- 已带出的记录不会随陈志远的退缩而消失。\n- 资料明确指向工程款转付异常服务、方干预审批、陈培安提出核查后业务变化。\n- 银行或官方经手人可据材料和抓人行为撤掉这次私活的掩护，但方仍有自己的武装。\n- 特工有受伤与被迫放弃目标的可能。\n\n### 危险\n\n货架倒塌、烟雾弥漫与特工火力压制，各方应对如下：\n\n- **陈志远**：躲避交火，死守内库，内心充满挣扎。\n- **何凌**：变身寻路，优先保护同事撤离。\n- **清理队**：加速搬运或销毁记录，不顾一切封锁现场。\n- **特工**：冷酷狙击掩护撤退，必要时受伤或放弃次要目标以保核心利益。\n\n**场景标签**：室内突围、潜行与强攻、证据争夺、特工交锋。\n\n---\n\n## 3. 堂口保卫\n\n怒火中烧的旧城据点，燃烧的厢车撞破大门，在狭窄回廊与火海中死守兄弟与信誉！\n\n**事件**：堂口保卫。\n\n**地点**：黄区三层堂口。\n\n**环境**：包含正门、二楼回廊与狭窄后门。加固厢车撞击正门，机枪封锁正面，烈火封住后门并逼迫楼上人员。\n\n### 参与人员\n\n- **卫铁生**：愤怒于方拖欠清退尾款、出卖旧帮手，要保黄区生意与手下信誉。他是白虎堂黄区分点负责人（红衣），手下十来个蓝衣。\n- **铁手**：誓死护着手下的兄弟。\n- **阿三、阿七**：既有帮众，誓死跟随。\n- **周凛**：可作介绍人，保护接头信用，但不掌握全案。\n- **方的枪手**：意图灭口毁账，纵火逼人。\n- **敌领队**：见势不妙随时准备带钱箱跑路。\n\n### 可能的发展\n\n方的枪手用撞门、机枪和纵火发起立体攻势。卫铁生在二楼指挥反击，铁手带人苦撑。若敌领队受挫，会带钱箱弃手下逃回车场。留下的枪手可能投降并交出车场地点。\n\n### 要点\n\n- 周凛不掌握全案，仅作牵线。\n- 卫铁生可拿出清退尾账说明旧差事，证明本次遇袭为灭口清理。\n- 灰账性质决定了私兵不会自动投降；保下的人和实际承诺将在后续延续。\n- 敌方车载导航无密码门槛，可直接提供位置。\n\n### 危险\n\n火势蔓延、机枪压制、据点面临倾覆，各方应对如下：\n\n- **卫铁生**：在二楼倾泻火力还击，誓死捍卫堂口尊严与信誉。\n- **铁手**：顶在最前线，掩护阿三、阿七等兄弟。\n- **方的枪手**：无情纵火，执行灭口。\n- **敌领队**：评估战损，一旦不利立刻抛弃手下带钱箱回撤。\n\n**场景标签**：阵地防守、黑帮火拼、烈火突围、信誉之战。\n\n---\n\n## 4. 车场反攻\n\n废工业区的钢铁斗兽场，机械臂将轿车砸作飞弹，在轰鸣与火光中夺回属于地下世界的正义！\n\n**事件**：车场反攻。\n\n**地点**：废工业区调度车场。\n\n**环境**：钢板与铁网院墙、屋顶/冷却塔、维修地坑、二楼调度室、车库与装甲运输车。装卸重机疯狂挥舞。\n\n### 参与人员\n\n- **敌领队**：如果从堂口逃脱，会带着钱箱躲在调度室，指挥看守死守装备与退路。\n- **看守**：守卫车场资产。\n- **卫铁生**：要填补堂口损失、安抚兄弟。\n\n### 可能的发展\n\n装卸重机会把废弃轿车当作投射物砸向掩体。PC 可以选择潜入、夺取重机控制权或正面强攻。液压关节和工业控制模块是突破口，夺取后可用其掀开车库或调度室的防护。\n\n### 要点\n\n- 钱箱、未损毁的车辆与武器归属按真正占有物结算。\n- 双方可协商分现金或装备/车场资产，以换取两组帮众牵制接应。\n- 领队可能投降、战死或逃跑，PC 不会自动获得钱车。\n- 漏网的残兵会增援方；PC 抢到的装备将改变最终决战的局势。\n\n### 危险\n\n机械臂狂挥、重物坠落、火力网交织，各方应对如下：\n\n- **敌领队**：死守调度室，抓紧钱箱寻找退路。\n- **看守**：依托装甲车与围墙殊死反击。\n- **卫铁生**：冲锋在前，抢夺物资以弥补手下损失。\n\n**场景标签**：据点攻坚、环境杀、重型机械操控、战利品瓜分。\n\n---\n\n## 5. 灾备厅决战\n\n地下堡垒的极压对决，失控的念动力撕裂机柜，在管委会的最深处直面穷途末路的幕后黑手！\n\n**事件**：灾备厅决战。\n\n**地点**：管委会配电附楼地下堡垒，包含车库、维护走廊、机房、演示厅，及旁侧的人员隔离间、冷却区和卸货坡道。\n\n**环境**：封闭坚固。有守卫、重装私兵、炮塔、待启自动机，以及可能破裂的冷却管。\n\n### 参与人员\n\n- **方**：凶恶觉醒者。要保钱权、毁本地罪证并撤离。视线内短距暴力念动，狂妄且对特工颐气指使。\n- **特工**：阻击玩家保护方，利用短距位移精确射击。\n- **何凌**：要保陈培安残留，指出接口需留供能。\n- **梁文川**：保原始资料、协助稳设备。\n- **工作人员**：被方逼迫过载操作，待救援。\n- **陈培安（残留）**：受损的人格延续，只认自身经历。\n\n### 可能的发展\n\n特工先发制人阻击 PC。方使用念动力掀翻机柜、车辆，拖人压人，甚至抓旁人作盾。PC 可接手技术工作，救出工作人员。冷却管破裂会喷出高压蒸汽。PC 可夺门禁分开敌人、夺炮塔、搬接口和备用电源，最终重创方。特工见方败局已定，为保上级秘密将方灭口后撤离。\n\n### 要点\n\n- 方的念动力需要专注，可被打断。\n- 获救的工作人员会帮忙搬设备、指引终端，并指认方扣押转移白念秋尸体、伪造服药记录的罪行。\n- 本地记录及陈培安接口具有真实救援/取证价值，但不包含梁的采购名和上级地址簿。\n- 特工会照常受伤、丢弃武器或放弃毁证。撤离时的火势、失控设备及带出成果均属于本场结算。\n\n### 危险\n\n念动力肆虐、高温蒸汽喷发、特工冷酷狙击，各方应对如下：\n\n- **方**：疯狂破坏，拿人当盾，不顾一切毁灭证据。\n- **特工**：精准掩护，败局时果断杀方灭口撤退。\n- **何凌**：死守接口，维持供能。\n- **梁文川**：顶着火力稳定设备，保护资料。\n- **工作人员**：恐慌求生，获救后积极协助。\n\n**场景标签**：Boss 战、超能力对抗、要员保护、证据抢救、毁灭性清场。\n\n---\n\n## 6. 胜利余波\n\n硝烟散尽后的微光，在战利品与伤痕之间，这座城市的暗流迎来了短暂的喘息与清算。\n\n**事件**：胜利余波。\n\n**地点**：临时休息/安置处。\n\n**环境**：堆放着伤员、抢救出来的接口与战利品，空气中残留着战火的余温。\n\n### 参与人员\n\n- **卫铁生、铁手**：兑现分成，安排受伤兄弟。\n- **何凌**：悉心照料陈培安的前辈残留。\n- **梁文川**：参与修复设备或进行普通相处，自然展露其技术高管身份；按约定分享资料。\n- **陈志远与获救职员**：面对劫后余生，准备应对后续审查与作证。\n- **PC**：清点收获，庆祝胜利，或纪念逝者。\n\n### 可能的发展\n\n众人在此包扎伤口、清点物资。梁文川不会独吞全队成果。PC 与各方兑现承诺，告别白家姐妹、老王与司机，为本章划上句号。\n\n### 要点\n\n- 实际救下的人、带出的证据和物资在此落实结算。\n- 上游私人联系随方断线，梁的追杀剧情不会立刻开启。\n- 欲子的身份限制照原实际状态另结；胜利不自动改变全城系统。\n\n### 危险\n\n本场无直接战斗危险，侧重于伤痛平复与利益交割：\n\n- **卫铁生**：江湖信义，按功论赏。\n- **何凌**：情绪复杂，守护前辈。\n- **梁文川**：冷静理智，遵守契约分享资料。\n\n**场景标签**：休整、利益结算、真相揭露、告别与缅怀。\n\n---\n\n## 7. 围捕李好（原版 B，备选场景）\n\n银行大堂的突发危机，封路自动机横冲直撞，私人抓人队在众目睽睽下撒下罗网！\n\n**事件**：围捕李好（备选）。\n\n**地点**：银行/办公楼大堂、楼梯、后巷押送车。\n\n**环境**：大堂被强制冲入的封路自动机破坏，外围与行人受伤，一片混乱。\n\n### 参与人员\n\n- **方的私人抓人队**：借协助调查之名，要捉李好、何凌并夺取通讯。\n- **普通执勤人员**：被蒙在鼓里，维持外围秩序。\n- **何凌**：寻找退路，保护同事。\n- **陈志远**：想安排同事离开。\n- **方**：以为大局已定亲自来接收；见败局暴怒打人。\n- **特工**：护送方转移。\n\n### 可能的发展\n\n抓人队在大堂制造混乱并抓捕目标。PC 可截停押送车救人。若抓人队受挫，方亲自出面，使用念动力掀车砸人殴打手下。外围执勤人员若目睹方的暴行或被说服，会撤除封锁。方与特工负伤后可能退回灾备厅，若直接被追上则沿当前战场接终战，伤势延续。\n\n### 要点\n\n- 仅作为新版档案室的旧版替换场景，不能默认两场都跑。\n- 何凌不再重演坦白。\n- 散热格栅/控制器可被 PC 利用来对付自动机。\n- 抓人队只有在真正抓到人时才会带人上车。\n\n### 危险\n\n自动机冲撞、念动暴走、人群骚乱，各方应对如下：\n\n- **抓人队**：强硬抓人，遇挫则死守押送车。\n- **方**：高高在上，一旦失败便无能狂怒，残害手下。\n- **特工**：冷静判断，优先确警方安全撤离。\n- **何凌与陈志远**：在混乱中保护无辜者撤退。\n\n**场景标签**：公共场所袭击、备选场景、拦截押送、反转。\n","duration_seconds":79.6701948,"num_turns":1,"usage":{"input_tokens":17310,"output_tokens":9806,"thinking_tokens":5557,"cache_read_tokens":0,"total_tokens":27116}}}

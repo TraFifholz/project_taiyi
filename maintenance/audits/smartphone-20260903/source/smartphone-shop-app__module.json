@@ -1,0 +1,54 @@
+{
+  "id": "smartphone-shop-app",
+  "title": "Smartphone - Shop App",
+  "description": "Adds a full Stylish Shop marketplace to Smartphone Widget. Browse visible shops by department, search and filter products, compare relationship-aware prices, manage a cart and wishlist, and buy from the phone.",
+  "version": "1.0.0",
+  "protected": true,
+  "manifest": "https://r2.foundryvtt.com/packages-public/smartphone-shop-app/module.json",
+  "authors": [
+    {
+      "name": "rlavkvmflzk",
+      "discord": "sarangi"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "esmodules": [
+    "main.js"
+  ],
+  "styles": [
+    "styles/ShopApp.css"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "smartphone-widget",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "stylish-shop",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.7.0"
+        }
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "langs/en.json"
+    },
+    {
+      "lang": "ko",
+      "name": "Korean",
+      "path": "langs/ko.json"
+    }
+  ],
+  "url": "https://www.patreon.com/cw/glitchsmith"
+}

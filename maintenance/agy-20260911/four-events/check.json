@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "independent_conversations": [
+    "2b38b0af-f3c3-4cff-a6fe-ddb6dbd4b8f3",
+    "0e41888e-3a10-41b9-8eb0-fd49aae5effb",
+    "f8c3dd04-72ab-477f-9742-a210c9d39161",
+    "afc336de-8992-47c9-a238-d2e3b8083a49"
+  ],
+  "cards": [
+    {
+      "file": "A-PMC猎杀欲子.md",
+      "characters": 3583,
+      "items": {
+        "事件前五项": 5,
+        "事件后五项": 5
+      }
+    },
+    {
+      "file": "B-管委会围捕李好.md",
+      "characters": 3387,
+      "items": {
+        "事件前五项": 5,
+        "事件后五项": 5
+      }
+    },
+    {
+      "file": "C-义胜盟开战.md",
+      "characters": 3128,
+      "items": {
+        "事件前五项": 5,
+        "事件后五项": 5
+      }
+    },
+    {
+      "file": "D-灾备厅决战.md",
+      "characters": 3629,
+      "items": {
+        "事件前五项": 5,
+        "事件后五项": 5
+      }
+    }
+  ],
+  "total_one_sentence_items": 40,
+  "raw_drafts_preserved": true
+}

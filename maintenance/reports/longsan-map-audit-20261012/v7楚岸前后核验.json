@@ -1,0 +1,193 @@
+{
+  "window_km": [
+    16.7,
+    15.2,
+    18.4,
+    17.0
+  ],
+  "input_sha256": {
+    "maintenance\\reports\\longsan-map-audit-20261012\\v6楚岸组织诊断.json": "39e741bfe47492324145d28c4b367354d817647814196f9ef424590b01bc7d53",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7组团独立核验.json": "7140aef167af5ddf66ea0bfd98dc2e54aadecc7c9c0fc16abe3f27addc5f968c",
+    "assets\\maps\\longsan-geographic-v7-20261012\\路网.geojson": "eaec7249f8abcbd7c3509f7a74056ddbadf887e9d61f92ba784c0605aa033f4d",
+    "assets\\maps\\longsan-geographic-v7-20261012\\建筑.geojson": "46d5c4398dbff6787b2cd7312ef030c67a93a04b22c65feefab9ed136da5b17d",
+    "assets\\maps\\longsan-geographic-v7-20261012\\临街地块.geojson": "15257e205f086601639b854482464feb69d91d948d7fc0dc194665d9f2724911",
+    "assets\\maps\\longsan-geographic-v7-20261012\\组团通道.geojson": "f7b162a8e2dee86be2133f14529c61e791ff51ddd6fab3f07f9f41b6f4ac3466",
+    "assets\\maps\\longsan-geographic-v7-20261012\\地理骨架.geojson": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+    "assets\\maps\\longsan-geographic-v7-20261012\\铁路.geojson": "9a8bff95b480dd945dc523e8a8eb3d3ecece992e5a09869da32cc2e5b425fe4c",
+    "assets\\maps\\longsan-geographic-v7-20261012\\灾后地理.geojson": "129697219ef04748e96262cd19c0e3c26a4630826918c50ae79c0b03dc0763b0",
+    "assets\\maps\\longsan-geographic-v7-20261012\\龙散市-基础底图.svg": "1b36809b417d59435bfbc6627f800a1b8b9521d7f56b2a7d00fe6d14f39b5840",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7组团独立核验.py": "2612eaffb54f02ac4ff9e1ede7ab1bce46f7f9e8a206e19275620163398a5c1c",
+    "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7符号层独立读回.json": "c7112ccb455047bc9ae21f9b5d91be1ffc39a69d07506c67442aca1a7c066665",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7路口邻道擦除核验.json": "9089eba1bb333e9180d0d411fc3de60c27c51a800c620fce7b7590bc83d66d82",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7组团独立核验-末次屋型白帽修前.json": "4d8f1e5c0a702b60db21dc8d2c5c4e403677d9555170179eaab7911c9e5714c4",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v7符号修订绑定.py": "2c1c6167dc800adbd08a56ea2007aab75d870e202f1d657819002993841a9d3e"
+  },
+  "metrics": [
+    {
+      "metric": "内部无邻接公共道路端点",
+      "v6": 8,
+      "v7": 0,
+      "unit": "个"
+    },
+    {
+      "metric": "主路终点未接同级或更高等级候选",
+      "v6": 2,
+      "v7": 0,
+      "unit": "个"
+    },
+    {
+      "metric": "原公共local特征不足100m",
+      "v6": 4,
+      "v7": 1,
+      "unit": "条"
+    },
+    {
+      "metric": "完整窗口内部街坊",
+      "v6": 27,
+      "v7": 28,
+      "unit": "个"
+    },
+    {
+      "metric": "完整内部街坊中位面积",
+      "v6": 23083.519591342687,
+      "v7": 36726.10188664094,
+      "unit": "m²"
+    },
+    {
+      "metric": "完整内部街坊最大面积",
+      "v6": 168629.70766003543,
+      "v7": 66696.91282393428,
+      "unit": "m²"
+    },
+    {
+      "metric": "窗口内屋顶",
+      "v6": 208,
+      "v7": 465,
+      "unit": "栋"
+    },
+    {
+      "metric": "窗口内有建筑地块",
+      "v6": 201,
+      "v7": 56,
+      "unit": "块"
+    },
+    {
+      "metric": "窗内干燥陆地屋顶覆盖",
+      "v6": 11.174473221949862,
+      "v7": 13.795505963979632,
+      "unit": "%"
+    }
+  ],
+  "v6_roads_by_class": {
+    "primary": 5,
+    "secondary": 1,
+    "local": 45
+  },
+  "v7_roads_by_class": {
+    "primary": 2,
+    "secondary": 2,
+    "local": 43
+  },
+  "v6_road_direction_length_km": {
+    "75": 1.8771572346587866,
+    "15": 3.5837625675337694,
+    "5": 9.042964007690008,
+    "0": 2.0520888417784713
+  },
+  "v7_road_direction_length_km": {
+    "75": 1.8771572346587866,
+    "15": 0.0771723947561378,
+    "0": 21.23767214391028
+  },
+  "v7_roofs_per_compound": {
+    "0": 1.0,
+    "25": 3.0,
+    "50": 8.0,
+    "75": 11.0,
+    "90": 15.0,
+    "100": 37.0
+  },
+  "v7_programmes": {
+    "historic": {
+      "compounds": 4,
+      "roofs": 48,
+      "lot_area_km2": 0.09001043666663348,
+      "weighted_roof_coverage": 0.3246638324080434,
+      "roofs_per_compound_quantiles": {
+        "0": 8.0,
+        "25": 8.0,
+        "50": 11.5,
+        "75": 15.5,
+        "90": 16.4,
+        "100": 17.0
+      }
+    },
+    "housing": {
+      "compounds": 22,
+      "roofs": 201,
+      "lot_area_km2": 0.8526262893654748,
+      "weighted_roof_coverage": 0.20159787509058494,
+      "roofs_per_compound_quantiles": {
+        "0": 2.0,
+        "25": 6.0,
+        "50": 6.0,
+        "75": 12.0,
+        "90": 15.0,
+        "100": 29.0
+      }
+    },
+    "mixed": {
+      "compounds": 19,
+      "roofs": 196,
+      "lot_area_km2": 0.5433510585178792,
+      "weighted_roof_coverage": 0.19809500406948413,
+      "roofs_per_compound_quantiles": {
+        "0": 3.0,
+        "25": 8.0,
+        "50": 9.0,
+        "75": 10.5,
+        "90": 11.0,
+        "100": 37.0
+      }
+    },
+    "office": {
+      "compounds": 11,
+      "roofs": 17,
+      "lot_area_km2": 0.37982047572732036,
+      "weighted_roof_coverage": 0.22152454709933758,
+      "roofs_per_compound_quantiles": {
+        "0": 1.0,
+        "25": 1.0,
+        "50": 1.0,
+        "75": 2.0,
+        "90": 2.0,
+        "100": 3.0
+      }
+    }
+  },
+  "v7_complete_block_short_side_m": {
+    "0": 38.96844948636158,
+    "25": 178.14155793715614,
+    "50": 191.6278544731398,
+    "75": 255.5038059641852,
+    "90": 255.50380596418628,
+    "100": 255.50380596418876
+  },
+  "v7_complete_block_long_side_m": {
+    "0": 131.6864519996237,
+    "25": 191.65325410345702,
+    "50": 199.97491638585174,
+    "75": 261.04078008639317,
+    "90": 261.04078008639317,
+    "100": 261.04078008639317
+  },
+  "assessment": "原公共碎片端点减少，窗口街坊形态和多栋组团采用实际公路/内部通道组织；技术指标与图像美术需分别判断。",
+  "limits": [
+    "仅同一楚岸窗口，不能将数字外推到全城。",
+    "道路数量为导出特征计数，非车行道或交叉口计数。",
+    "窗边裁切街坊不参加完整街坊面积。",
+    "v6屋顶直接临路41m门槛不适用于v7多栋内部组团；v7逐栋接入口和自有路线另经整城审查。",
+    "屋顶数量及覆盖率提高不单独证明美观或真实人口容量。"
+  ]
+}

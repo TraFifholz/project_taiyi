@@ -1,0 +1,239 @@
+{
+  "code": 0,
+  "msg": "Success",
+  "data": {
+    "has_more": false,
+    "last_label": "v3|RnV7McKPXVbCon0HJMKAw6USEl_DunFNQcOoBCjCuHoxwr5cPcObwqhYP2zCicK3w79HB8OoCsO6w4PCsy3DgmIzW8OnCgdvEH3CmDfDqcOKwqzCrsKKG0A",
+    "node_list": [
+      "Gdj1fjPFflM5oTdQdMZc7RLlnQg",
+      "GOAsfKSqolAiS4ddTsIccgMpnVf",
+      "nodcnH1ieu67jiTO3Os7aYFQ1Bb"
+    ],
+    "total": 3,
+    "entities": {
+      "nodes": {
+        "E3D6fthvhlmFl3dUjJmcwWOpned": {
+          "url": "https://ocnbxpxzxtqg.feishu.cn/drive/folder/E3D6fthvhlmFl3dUjJmcwWOpned",
+          "delete_flag": 0,
+          "icon_info": "{\"type\":0,\"key\":\"\",\"obj_type\":0,\"obj_sub_type\":0,\"file_type\":null,\"token\":\"E3D6fthvhlmFl3dUjJmcwWOpned\",\"version\":1908013000}",
+          "obj_sub_type": 0,
+          "owner_id": "7637069545081081046",
+          "owner_type": 5,
+          "name": "愿望窃贼-地图",
+          "obj_biz_type": 1,
+          "secret_key_delete": false,
+          "can_set_sec_label": 0,
+          "edit_time": 1784805937,
+          "edit_uid": "7637069545081081046",
+          "extra": {
+            "complaint": false,
+            "description": "",
+            "display_tag": {
+              "ObjectTagType": 2,
+              "tag_value": "外部"
+            },
+            "template_type": 0,
+            "biz_type": 1,
+            "doubao_conversation_id": "0",
+            "is_external": true,
+            "is_share_folder": true,
+            "is_wiki_home_page": false,
+            "size": "0"
+          },
+          "get_sec_label_code": 0,
+          "share_version": 0,
+          "delete_uid": "0",
+          "node_type": 0,
+          "thumbnail_extra": {
+            "nonce": "",
+            "secret": "",
+            "type": 0,
+            "url": ""
+          },
+          "token": "E3D6fthvhlmFl3dUjJmcwWOpned",
+          "thumbnail": "",
+          "type": 0,
+          "create_time": 1782897924,
+          "is_pined": false,
+          "is_stared": false,
+          "obj_token": "E3D6fthvhlmFl3dUjJmcwWOpned",
+          "security_level": 0
+        },
+        "GOAsfKSqolAiS4ddTsIccgMpnVf": {
+          "is_stared": false,
+          "obj_sub_type": 0,
+          "thumbnail": "",
+          "get_sec_label_code": 0,
+          "icon_info": "{\"type\":0,\"key\":\"\",\"obj_type\":0,\"obj_sub_type\":0,\"file_type\":null,\"token\":\"GOAsfKSqolAiS4ddTsIccgMpnVf\",\"version\":11000}",
+          "node_type": 0,
+          "obj_biz_type": 1,
+          "security_level": 0,
+          "share_version": 0,
+          "type": 0,
+          "url": "https://ocnbxpxzxtqg.feishu.cn/drive/folder/GOAsfKSqolAiS4ddTsIccgMpnVf",
+          "delete_flag": 0,
+          "is_pined": false,
+          "name": "社交场景地图",
+          "owner_id": "7637069545081081046",
+          "secret_key_delete": false,
+          "token": "GOAsfKSqolAiS4ddTsIccgMpnVf",
+          "create_time": 1784805917,
+          "delete_uid": "0",
+          "edit_uid": "7637069545081081046",
+          "extra": {
+            "is_external": true,
+            "is_share_folder": true,
+            "is_wiki_home_page": false,
+            "display_tag": {
+              "ObjectTagType": 2,
+              "tag_value": "外部"
+            },
+            "complaint": false,
+            "description": "",
+            "doubao_conversation_id": "0",
+            "size": "0",
+            "template_type": 0,
+            "biz_type": 1
+          },
+          "obj_token": "GOAsfKSqolAiS4ddTsIccgMpnVf",
+          "owner_type": 5,
+          "thumbnail_extra": {
+            "secret": "",
+            "type": 0,
+            "url": "",
+            "nonce": ""
+          },
+          "can_set_sec_label": 0,
+          "edit_time": 1784805929
+        },
+        "Gdj1fjPFflM5oTdQdMZc7RLlnQg": {
+          "can_set_sec_label": 0,
+          "create_time": 1784804199,
+          "name": "战斗场景地图",
+          "node_type": 0,
+          "obj_token": "Gdj1fjPFflM5oTdQdMZc7RLlnQg",
+          "thumbnail_extra": {
+            "nonce": "",
+            "secret": "",
+            "type": 0,
+            "url": ""
+          },
+          "type": 0,
+          "delete_flag": 0,
+          "edit_uid": "7637069545081081046",
+          "extra": {
+            "complaint": false,
+            "is_external": true,
+            "is_share_folder": true,
+            "is_wiki_home_page": false,
+            "biz_type": 1,
+            "description": "",
+            "display_tag": {
+              "ObjectTagType": 2,
+              "tag_value": "外部"
+            },
+            "doubao_conversation_id": "0",
+            "size": "0",
+            "template_type": 0
+          },
+          "get_sec_label_code": 0,
+          "is_pined": false,
+          "obj_biz_type": 1,
+          "obj_sub_type": 0,
+          "delete_uid": "0",
+          "edit_time": 1784805937,
+          "share_version": 0,
+          "icon_info": "{\"type\":0,\"key\":\"\",\"obj_type\":0,\"obj_sub_type\":0,\"file_type\":null,\"token\":\"Gdj1fjPFflM5oTdQdMZc7RLlnQg\",\"version\":1738000}",
+          "is_stared": false,
+          "owner_id": "7637069545081081046",
+          "owner_type": 5,
+          "secret_key_delete": false,
+          "security_level": 0,
+          "thumbnail": "",
+          "token": "Gdj1fjPFflM5oTdQdMZc7RLlnQg",
+          "url": "https://ocnbxpxzxtqg.feishu.cn/drive/folder/Gdj1fjPFflM5oTdQdMZc7RLlnQg"
+        },
+        "nodcnH1ieu67jiTO3Os7aYFQ1Bb": {
+          "type": 12,
+          "delete_uid": "0",
+          "edit_uid": "7637069545081081046",
+          "extra": {
+            "copiable": true,
+            "display_tag": {
+              "ObjectTagType": 0,
+              "tag_value": ""
+            },
+            "doubao_conversation_id": "0",
+            "complaint": false,
+            "size": "1989",
+            "subtype": "md",
+            "biz_type": 1,
+            "data_version": "7665675358066248632",
+            "is_external": false,
+            "version": "7665675358066248632",
+            "description": "",
+            "file_risk_tag": false,
+            "is_wiki_home_page": false,
+            "template_type": 0
+          },
+          "icon_info": "{\"type\":0,\"key\":\"\",\"obj_type\":12,\"obj_sub_type\":0,\"file_type\":\"md\",\"token\":\"SeQ2bX0Arog122xFBKscUUQfneg\",\"version\":1}",
+          "node_type": 0,
+          "thumbnail": "https://ocnbxpxzxtqg.feishu.cn/space/api/box/stream/download/v2/cover/SeQ2bX0Arog122xFBKscUUQfneg?heigh=850&policy=equal&width=850",
+          "share_version": 0,
+          "can_set_sec_label": 0,
+          "edit_time": 1784804127,
+          "is_stared": false,
+          "name": "简单介绍.md",
+          "obj_sub_type": 0,
+          "security_level": 0,
+          "get_sec_label_code": 3,
+          "is_pined": false,
+          "owner_id": "7637069545081081046",
+          "owner_type": 5,
+          "token": "nodcnH1ieu67jiTO3Os7aYFQ1Bb",
+          "url": "https://ocnbxpxzxtqg.feishu.cn/file/SeQ2bX0Arog122xFBKscUUQfneg",
+          "create_time": 1784804127,
+          "delete_flag": 0,
+          "obj_biz_type": 1,
+          "obj_token": "SeQ2bX0Arog122xFBKscUUQfneg",
+          "secret_key_delete": false,
+          "thumbnail_extra": {
+            "nonce": "",
+            "secret": "",
+            "type": 0,
+            "url": ""
+          }
+        }
+      },
+      "users": {
+        "7637069545081081046": {
+          "i18n_name": {
+            "en_us": "user 1756",
+            "ja_jp": "ユーザー 1756",
+            "zh_cn": "用户1756"
+          },
+          "mobile": "",
+          "tenant_id": "7637069443906768052",
+          "cn_name": "用户1756",
+          "doubao_user_id": "1910332425247450",
+          "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/d8853c01-f8e5-44ce-b17c-1c748cb277de~?image_size=72x72&cut_type=default-face&quality=&format=jpeg&sticker_format=.webp",
+          "suid": "7637069545081081046",
+          "id": "7637069545081081046",
+          "tenant_name": "",
+          "display_name": {
+            "i18n_value": {
+              "ja_jp": "ユーザー 1756",
+              "zh_cn": "用户1756",
+              "en_us": "user 1756"
+            },
+            "value": "用户1756"
+          },
+          "email": "",
+          "user_type": "1",
+          "en_name": "user 1756",
+          "name": "用户1756"
+        }
+      }
+    }
+  }
+}

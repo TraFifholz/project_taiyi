@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260904-ep03-extra-ma-driver-nai-v1",
+  "characterId": "EP03-EXTRA-MA-DRIVER",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "35f4e8",
+  "apiSeed": 79331627,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "f01dd1e81e1f8a9c002207ee75bc0215d6dd8781b9a8964736e670a04632e9a8",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-04T00:23:23.039Z"
+}

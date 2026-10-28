@@ -1,0 +1,1213 @@
+{
+  "version": "v9",
+  "reviewer": "final_art_review independent subagent",
+  "review_date": "2026-10-12T22:31:01.095788+08:00",
+  "status": "candidate_reviewable",
+  "review_status": "candidate_reviewable_with_remaining_art_issues",
+  "final_v9_map_reviewed": true,
+  "unresolved_must_correct": [],
+  "status_boundary": {
+    "candidate_available_for_review": true,
+    "art_complete": false,
+    "user_adopted": false,
+    "prototype_used_as_final_evidence": false,
+    "full_network_engineering_certified_by_this_visual_review": false,
+    "setting_text_fully_reconciled": false
+  },
+  "scope": {
+    "actual_images_viewed": 20,
+    "full_maps_viewed": 2,
+    "new_near_images_viewed": 18,
+    "method": "实际view_image读取冻结v9 2全图及18张新近景；独立从实际SVG回读站circle/迁建设施屋顶/标签；用已逐站实际读原图的66站truth表核岸别。物理通道和球场尺度另引用同一冻结SVG的独立几何审。",
+    "unrelated_regions": "继承区域比例抽查深中、故城、两道路节点、塌陷和铁路桥下穿。没有把全部41张近景均视为已读。"
+  },
+  "hard_gates": {
+    "current_two_svg_sha_match_parent_freeze": true,
+    "actual_final_pngs_viewed_and_hash_bound": true,
+    "all_66_actual_station_banks_match_original": true,
+    "five_west_stations_and_sui_east_confirmed_visually": true,
+    "five_original_island_stations_retained": true,
+    "complete_campus_and_three_sports_roofs_visible": true,
+    "old_island_facilities_and_labels_removed": true,
+    "west_road_facility_integration_readable": true,
+    "underground_station_projection_not_confused_with_ground_entrance": true,
+    "changed_cross_river_intervals_have_no_island_backtracking": true,
+    "inherited_collapse_two_unfinished_stations_and_transport_repairs_visible": true,
+    "no_new_must_correct_visual_defect_in_reviewed_scope": true
+  },
+  "hard_gate_evidence": {
+    "actual_station_count": 66,
+    "actual_station_coordinate_max_serialization_delta_mm": 5.130334912557128,
+    "actual_banks": {
+      "东岸": 27,
+      "西岸": 31,
+      "岛": 5,
+      "其他": 3
+    },
+    "bank_mismatch_count": 0,
+    "actual_svg_facility_roofs": {
+      "财经政法大学": {
+        "academic": 6,
+        "library": 1,
+        "dormitory": 4
+      },
+      "奥体中心": {
+        "stadium": 1,
+        "sports-hall": 1,
+        "aquatics-hall": 1
+      }
+    },
+    "actual_west_facility_labels": [
+      {
+        "text": "奥体中心",
+        "attributes": {
+          "x": "1821",
+          "y": "1465",
+          "font-size": "23",
+          "text-anchor": "middle",
+          "class": "poi-label",
+          "data-geo-label": "奥体中心"
+        }
+      },
+      {
+        "text": "财经政法大学",
+        "attributes": {
+          "x": "1820",
+          "y": "1280",
+          "font-size": "22",
+          "text-anchor": "middle",
+          "class": "poi-label",
+          "data-geo-label": "财经政法大学"
+        }
+      }
+    ],
+    "pitch_scale_boundary": "独立设施审核的 actual_sports_pitch_105m_by_68m_unscaled=true；本目视报告确认场内轮廓完整，不用图片估算毫米尺寸。",
+    "ground_entrances": "6站小地面前場/35–50m步行接入由设施独审确认；基础图小比例下符号较弱，地下线/站circle覆盖不代表地面建筑物。",
+    "water_island_exactly_unchanged": true,
+    "browser_checks": 91,
+    "browser_errors": [],
+    "supplemental_input_sha_match": true
+  },
+  "station_bank_table": [
+    {
+      "station": "烈士陵园",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        26.4,
+        3.0
+      ],
+      "matches": true
+    },
+    {
+      "station": "龙翔天街",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        26.4,
+        6.5
+      ],
+      "matches": true
+    },
+    {
+      "station": "长乐街",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        26.0,
+        9.7
+      ],
+      "matches": true
+    },
+    {
+      "station": "工运广场",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        26.7,
+        12.4
+      ],
+      "matches": true
+    },
+    {
+      "station": "燧明园",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        26.43837,
+        16.38827
+      ],
+      "matches": true
+    },
+    {
+      "station": "楚江广场",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        26.4,
+        18.75
+      ],
+      "matches": true
+    },
+    {
+      "station": "文侯庙",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        27.3,
+        21.1
+      ],
+      "matches": true
+    },
+    {
+      "station": "故城中心",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        29.2,
+        22.9
+      ],
+      "matches": true
+    },
+    {
+      "station": "南门早市",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        27.5,
+        24.6
+      ],
+      "matches": true
+    },
+    {
+      "station": "开埠广场",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        27.4,
+        26.5
+      ],
+      "matches": true
+    },
+    {
+      "station": "望津港",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        27.2,
+        28.4
+      ],
+      "matches": true
+    },
+    {
+      "station": "云麓东",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        5.5,
+        21.0
+      ],
+      "matches": true
+    },
+    {
+      "station": "山麓路口",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        10.0,
+        18.8
+      ],
+      "matches": true
+    },
+    {
+      "station": "龙散大学",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        14.3,
+        18.77
+      ],
+      "matches": true
+    },
+    {
+      "station": "楚江西岸",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        18.9,
+        18.9
+      ],
+      "matches": true
+    },
+    {
+      "station": "深中中心",
+      "source_bank": "岛",
+      "v9_actual_svg_bank": "岛",
+      "xy_km": [
+        22.4,
+        18.65
+      ],
+      "matches": true
+    },
+    {
+      "station": "醒钟广场",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        28.8,
+        17.8
+      ],
+      "matches": true
+    },
+    {
+      "station": "龙散火车站",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        32.4,
+        17.3
+      ],
+      "matches": true
+    },
+    {
+      "station": "钢阳街",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        35.4,
+        17.4
+      ],
+      "matches": true
+    },
+    {
+      "station": "龙散东站",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        38.5,
+        17.3
+      ],
+      "matches": true
+    },
+    {
+      "station": "楚墓博物馆",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        5.2,
+        7.0
+      ],
+      "matches": true
+    },
+    {
+      "station": "黄泥塘",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        9.1,
+        6.5
+      ],
+      "matches": true
+    },
+    {
+      "station": "云鲤路",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        13.9,
+        6.8
+      ],
+      "matches": true
+    },
+    {
+      "station": "财经大学",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        17.88098,
+        13.18924
+      ],
+      "matches": true
+    },
+    {
+      "station": "沙尾",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        18.51322,
+        13.18924
+      ],
+      "matches": true
+    },
+    {
+      "station": "影视基地",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        32.3,
+        12.1
+      ],
+      "matches": true
+    },
+    {
+      "station": "铁山北",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        38.4,
+        12.4
+      ],
+      "matches": true
+    },
+    {
+      "station": "铁山大道",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        41.9,
+        13.3
+      ],
+      "matches": true
+    },
+    {
+      "station": "龙散机场",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        5.2,
+        4.3
+      ],
+      "matches": true
+    },
+    {
+      "station": "机场新城",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        8.3,
+        3.9
+      ],
+      "matches": true
+    },
+    {
+      "station": "双柏公园",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        13.6,
+        3.5
+      ],
+      "matches": true
+    },
+    {
+      "station": "楚风传媒",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        17.8,
+        12.2
+      ],
+      "matches": true
+    },
+    {
+      "station": "奥体中心",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        17.76492,
+        15.06422
+      ],
+      "matches": true
+    },
+    {
+      "station": "枫湾",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        17.57488,
+        17.33268
+      ],
+      "matches": true
+    },
+    {
+      "station": "石鼓",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        14.0,
+        21.3
+      ],
+      "matches": true
+    },
+    {
+      "station": "回龙",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        10.9,
+        21.8
+      ],
+      "matches": true
+    },
+    {
+      "station": "窑湾",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        16.0,
+        29.7
+      ],
+      "matches": true
+    },
+    {
+      "station": "窑湾北",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        17.8,
+        27.5
+      ],
+      "matches": true
+    },
+    {
+      "station": "江声路",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        18.2,
+        25.6
+      ],
+      "matches": true
+    },
+    {
+      "station": "骑楼街",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        18.5,
+        23.7
+      ],
+      "matches": true
+    },
+    {
+      "station": "江湾",
+      "source_bank": "岛",
+      "v9_actual_svg_bank": "岛",
+      "xy_km": [
+        22.4,
+        24.1
+      ],
+      "matches": true
+    },
+    {
+      "station": "船政学堂",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        31.1,
+        24.5
+      ],
+      "matches": true
+    },
+    {
+      "station": "白茅岗",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        31.1,
+        21.1
+      ],
+      "matches": true
+    },
+    {
+      "station": "冷水坪",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        31.4,
+        18.7
+      ],
+      "matches": true
+    },
+    {
+      "station": "莲花路",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        6.8,
+        11.2
+      ],
+      "matches": true
+    },
+    {
+      "station": "植物园",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        6.7,
+        14.3
+      ],
+      "matches": true
+    },
+    {
+      "station": "黑石坳",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        9.4,
+        16.3
+      ],
+      "matches": true
+    },
+    {
+      "station": "书院路",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        14.3,
+        18.145
+      ],
+      "matches": true
+    },
+    {
+      "station": "楚江西路",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        18.51322,
+        14.170409999999999
+      ],
+      "matches": true
+    },
+    {
+      "station": "望桥",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        32.2,
+        15.0
+      ],
+      "matches": true
+    },
+    {
+      "station": "铁铺",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        35.8,
+        20.0
+      ],
+      "matches": true
+    },
+    {
+      "station": "港务新村",
+      "source_bank": "其他",
+      "v9_actual_svg_bank": "其他",
+      "xy_km": [
+        40.7,
+        33.4
+      ],
+      "matches": true
+    },
+    {
+      "station": "屏南",
+      "source_bank": "其他",
+      "v9_actual_svg_bank": "其他",
+      "xy_km": [
+        35.8,
+        33.75
+      ],
+      "matches": true
+    },
+    {
+      "station": "码东",
+      "source_bank": "其他",
+      "v9_actual_svg_bank": "其他",
+      "xy_km": [
+        31.2,
+        33.7
+      ],
+      "matches": true
+    },
+    {
+      "station": "龙门吊路",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        31.7,
+        29.2
+      ],
+      "matches": true
+    },
+    {
+      "station": "海关旧址",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        18.4,
+        21.6
+      ],
+      "matches": true
+    },
+    {
+      "station": "引资银行",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        18.2,
+        16.4
+      ],
+      "matches": true
+    },
+    {
+      "station": "文星",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        13.2,
+        13.1
+      ],
+      "matches": true
+    },
+    {
+      "station": "胧月湖",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        16.2,
+        7.2
+      ],
+      "matches": true
+    },
+    {
+      "station": "月华州",
+      "source_bank": "西岸",
+      "v9_actual_svg_bank": "西岸",
+      "xy_km": [
+        20.7,
+        6.6
+      ],
+      "matches": true
+    },
+    {
+      "station": "北岭",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        32.3,
+        6.5
+      ],
+      "matches": true
+    },
+    {
+      "station": "楚钢集团",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        38.6,
+        21.1
+      ],
+      "matches": true
+    },
+    {
+      "station": "铁山",
+      "source_bank": "东岸",
+      "v9_actual_svg_bank": "东岸",
+      "xy_km": [
+        41.0,
+        22.3
+      ],
+      "matches": true
+    },
+    {
+      "station": "天门",
+      "source_bank": "岛",
+      "v9_actual_svg_bank": "岛",
+      "xy_km": [
+        22.3,
+        16.5
+      ],
+      "matches": true
+    },
+    {
+      "station": "云梦科技园",
+      "source_bank": "岛",
+      "v9_actual_svg_bank": "岛",
+      "xy_km": [
+        23.5,
+        19.275
+      ],
+      "matches": true
+    },
+    {
+      "station": "楚江新城",
+      "source_bank": "岛",
+      "v9_actual_svg_bank": "岛",
+      "xy_km": [
+        23.0,
+        26.5
+      ],
+      "matches": true
+    }
+  ],
+  "closed_findings": [
+    {
+      "id": "V9-CLOSED-BANK",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "description": "已授权五站西岸及燧明园东岸全部恢复；实际66站岸别和原图逐站一致，原岛上5站保持。"
+    },
+    {
+      "id": "V9-CLOSED-FACILITY",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "description": "新址完整0.40km²校园11组屋顶、0.432km²奥体3场馆，实际成图无旧v8裁切碎片。"
+    },
+    {
+      "id": "V9-CLOSED-OLD-ISLAND",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "description": "旧岛址转绿地，实际成图无财大/奥体重复屋型；基础SVG两设施标签均只存在西岸新址。"
+    },
+    {
+      "id": "V9-CLOSED-METRO",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "description": "3/6跨江连续到工运，4/7迁站段留西岸，1号线工运—燧明园—楚江广场留东岸，不作岛屿往返。"
+    },
+    {
+      "id": "V9-CLOSED-INHERITED-TRANSPORT",
+      "status": "verified_fixed",
+      "must_correct_this_iteration": true,
+      "description": "实际复读下穿无港院门杆、恢复环路支流桥连续，塌陷内两停工站/外围绕行及旧线失效表达保留。"
+    }
+  ],
+  "confirmed_p1_structural_findings": [],
+  "findings": [
+    {
+      "id": "V9-ART-01",
+      "priority": "P2",
+      "status": "open_followup",
+      "must_correct_this_iteration": false,
+      "title": "地铁细图的固定SVG文字在放大后遮蔽设施",
+      "evidence": [
+        "近景/财经大学-地铁-新.png",
+        "近景/奥体中心-地铁-新.png"
+      ],
+      "observation": "在约1.3–1.6km近景中，财经大学/奥体中心的站名和描边覆盖大部分校园或场馆，局部图边也会截断文字。基础近景能完整审阅设施，底图物理屋顶并未因此改变。",
+      "next_step": "后续采用随屏幕尺度调整的站名/线路符号，或提供近景隐藏地铁标注的开关。不得把地下线位经过设施投影解释为地面道路穿球场。"
+    },
+    {
+      "id": "V9-ART-02",
+      "priority": "P3",
+      "status": "open_followup",
+      "must_correct_this_iteration": false,
+      "title": "校园和场馆总平面仍较简略",
+      "evidence": [
+        "近景/财经新址-新.png",
+        "近景/奥体新址-新.png"
+      ],
+      "observation": "校园6座教学庭院同形、轴线对称；奥体大片绿地和两个辅馆为基础几何，停车、落客、服务入口及细部景观尚未表达。现图可以识别完整校园/体育中心，不作为设施运营或工程总平面完成证明。",
+      "next_step": "进入人工POI阶段后按具体功能补充细节，保留院区与实际道路的接驳。"
+    },
+    {
+      "id": "V9-ART-03",
+      "priority": "P3",
+      "status": "open_followup",
+      "must_correct_this_iteration": false,
+      "title": "继承城区仍有成排院落和较均匀的密度纹理",
+      "evidence": [
+        "近景/深中-新.png",
+        "近景/故城-新.png",
+        "近景/西岸五站-新.png"
+      ],
+      "observation": "深中1–3塔和L/条形屋型保持；故城街墙/深宅混合保持，但同类条楼、矩形公共路面和院落仍多次出现。没有恢复到首轮四塔方底/全闭环模板，也不能宣称生成痕迹已经消失。",
+      "next_step": "后续以中心节点、沿街功能、地块历史和人工特殊建筑再打散。"
+    },
+    {
+      "id": "V9-ART-04",
+      "priority": "P3",
+      "status": "open_followup",
+      "must_correct_this_iteration": false,
+      "title": "部分交点仍有极淡的圆形重绘接缝",
+      "evidence": [
+        "近景/楚岸路口-新.png",
+        "近景/深中路口-新.png"
+      ],
+      "observation": "放大350m节点可见同色交点补绘盘的细接缝；黄路面连续，未见原白楔或白色封闭端帽重新阻断路口。",
+      "next_step": "后续统一交点矢量布尔轮廓或抗锯齿，继续维持真实道路中心线。"
+    },
+    {
+      "id": "V9-TEXT-01",
+      "priority": "P3",
+      "status": "open_setting_reconciliation",
+      "must_correct_this_iteration": false,
+      "title": "原设定的行政归属与园区服务文字仍待统一",
+      "evidence": [
+        "岸别纠偏与跨江区间.json",
+        "原图66站岸别审查.json"
+      ],
+      "observation": "本轮按用户决定使用原图岸别。深中新区整区岛上、五西岸站归深中及L1燧明园对应岛上科技园的旧文字仍有冲突；冻结输出已披露。FR云梦科技园继续位于岛上燧明科技园南端，不将整个园区自动搬到东岸。",
+      "next_step": "另外编辑设定稿行政范围及两站服务关系，避免未经决定创建跨江双园区。"
+    }
+  ],
+  "input_svg_sha256": {
+    "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+    "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+  },
+  "input_data_sha256": {
+    "地图坐标与线路.json": "4441d4a59a208a6eadf059f2fdc87b79101e334f0063ff773ed5ded813b3b587",
+    "岸别纠偏与跨江区间.json": "d10b923f73d32e9d3b86708d262403e61678d441a2e0176533f6379445496434",
+    "地理骨架.geojson": "7833f84bc54ad6b699e8722f132d94cb1d7fbbb5da5d5fa835284b049c633265",
+    "迁建落位设计.json": "65a9da2ce0e54cd4a7278bdcdb50ed98ae53cd5f5c64fb7c29a5e28b102c57a5"
+  },
+  "reviewed_images": [
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/龙散市-全图.png",
+      "sha256": "d901759f6a5ff9cccfc0a21b79fc0d8256bc7930747e57c7164d4d07f219de38",
+      "dimensions_px": [
+        1800,
+        1350
+      ],
+      "mtime_local": "2026-10-12T22:14:03.173500+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "浏览器验收.json / qa.cjs"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/龙散市-地铁全图.png",
+      "sha256": "4e389009a3c1e64c6314affc8c87c3de96fa7803c4530aa2bea5ec342202a9b0",
+      "dimensions_px": [
+        1800,
+        1350
+      ],
+      "mtime_local": "2026-10-12T22:14:19.218953+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "浏览器验收.json / qa.cjs"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/财经新址-新.png",
+      "sha256": "705c413e736ef79536029d353c8c9c724c9c8fad18b2e6d048bd6192eeaa2194",
+      "dimensions_px": [
+        1800,
+        1350
+      ],
+      "mtime_local": "2026-10-12T22:14:32.054176+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "浏览器验收.json / qa.cjs"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/奥体新址-新.png",
+      "sha256": "d96afa735ea3830aab71924f54a676e8ff3f1a50bb0ad94754572ba5cd88e791",
+      "dimensions_px": [
+        1800,
+        1350
+      ],
+      "mtime_local": "2026-10-12T22:14:32.588751+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "浏览器验收.json / qa.cjs"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/财经大学-地铁-新.png",
+      "sha256": "cd3305ced0cf856aa7bd2aed1e6ecff2de44e9c111f900c8722934f7aa747ab9",
+      "dimensions_px": [
+        1500,
+        1050
+      ],
+      "mtime_local": "2026-10-12T22:20:56.332532+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "补充近景读回.json"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/奥体中心-地铁-新.png",
+      "sha256": "77b752836d5e12e648e00e3717fe9f01428c0dc9273671a57da7efc65ff92bac",
+      "dimensions_px": [
+        1500,
+        1050
+      ],
+      "mtime_local": "2026-10-12T22:20:56.893313+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "补充近景读回.json"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/岛上旧址-新.png",
+      "sha256": "cc447d32c87eb46da1d0809f9cbe3af003d0d801cd1042d656850c48e9c03039",
+      "dimensions_px": [
+        1800,
+        1350
+      ],
+      "mtime_local": "2026-10-12T22:14:33.180840+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "浏览器验收.json / qa.cjs"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/西岸五站-新.png",
+      "sha256": "b4fdfad6b1173de66ab7826c0c759afceef4bb869a5ac7c1b8a3e735900b9c9d",
+      "dimensions_px": [
+        1800,
+        1350
+      ],
+      "mtime_local": "2026-10-12T22:14:31.487571+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "浏览器验收.json / qa.cjs"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/西岸五站-地铁-新.png",
+      "sha256": "d7f60954c96402375949140c695e3fc2ea27493e13fb0059abe38398c3ec8a5d",
+      "dimensions_px": [
+        1500,
+        1050
+      ],
+      "mtime_local": "2026-10-12T22:20:55.720551+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "补充近景读回.json"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/燧明园东岸-新.png",
+      "sha256": "510822258319910cdbae74d1477e581a56f8d154b60aebf1746a0cc8a0eaf4d3",
+      "dimensions_px": [
+        1800,
+        1350
+      ],
+      "mtime_local": "2026-10-12T22:14:33.809984+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "浏览器验收.json / qa.cjs"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/燧明园-地铁-新.png",
+      "sha256": "29726a89f47fffc9ef1a252e7cd98336c6114b5d7f49ac950c792cccdf3f968e",
+      "dimensions_px": [
+        1500,
+        1050
+      ],
+      "mtime_local": "2026-10-12T22:20:57.628770+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "补充近景读回.json"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/跨江3与6号线-地铁-新.png",
+      "sha256": "7d9bc50bab87cf1c6dce6264b6fc70cb39f88ccd51989307379e0ed5f6449b10",
+      "dimensions_px": [
+        1500,
+        1050
+      ],
+      "mtime_local": "2026-10-12T22:20:58.233201+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "补充近景读回.json"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/深中-新.png",
+      "sha256": "6b623807cec018f095101ac1a9e20b4efb2ba80fb25cf4fd3d9061daccf339ea",
+      "dimensions_px": [
+        1800,
+        1350
+      ],
+      "mtime_local": "2026-10-12T22:14:38.779757+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "浏览器验收.json / qa.cjs"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/故城-新.png",
+      "sha256": "62ac876de1cb4ea9028aed16768cd80af714c0e2c672ae4c0d77c785a9da7ea6",
+      "dimensions_px": [
+        1800,
+        1350
+      ],
+      "mtime_local": "2026-10-12T22:14:37.291039+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "浏览器验收.json / qa.cjs"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/楚岸路口-新.png",
+      "sha256": "30dca780d241c61e96f8b24b65a3189b51b96e32c94d3655cdfec9f7e4a7ec16",
+      "dimensions_px": [
+        900,
+        900
+      ],
+      "mtime_local": "2026-10-12T22:20:38.955336+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "补充近景读回.json"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/深中路口-新.png",
+      "sha256": "e09661cd3cf787f20cea12bc208e04913ef04bb6a333d26f02b67a72121af47b",
+      "dimensions_px": [
+        900,
+        900
+      ],
+      "mtime_local": "2026-10-12T22:20:39.284706+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "补充近景读回.json"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/港货农机下穿-新.png",
+      "sha256": "4e0cefd588d7a1536cd649c60b8094e35f5e1e3eb409b8bd6a3017de25ff53ee",
+      "dimensions_px": [
+        900,
+        900
+      ],
+      "mtime_local": "2026-10-12T22:20:41.007409+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "补充近景读回.json"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/恢复环路支流桥-新.png",
+      "sha256": "4074a8abf8af2ee6646e58b92683f04f77887b7b6e3b72dbef9448413427d5c9",
+      "dimensions_px": [
+        900,
+        900
+      ],
+      "mtime_local": "2026-10-12T22:20:41.385553+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "补充近景读回.json"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/停工站与塌陷-地铁-新.png",
+      "sha256": "02c8eca93e50709995d56e59a2eeb8b0a10fc1433eb4401b38c90afa38d0d79f",
+      "dimensions_px": [
+        1500,
+        1050
+      ],
+      "mtime_local": "2026-10-12T22:20:58.773733+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "补充近景读回.json"
+    },
+    {
+      "path": "assets/maps/longsan-geographic-v9-20261012/近景/扩界全区-地铁-新.png",
+      "sha256": "e20919f26ffc45ec7a7e0dea6c4ac08507355f1b86565800ed29361d571e114c",
+      "dimensions_px": [
+        1500,
+        1050
+      ],
+      "mtime_local": "2026-10-12T22:20:59.468759+08:00",
+      "actual_view_image": true,
+      "rendered_from_svg_sha256": {
+        "龙散市-基础底图.svg": "43ed9cd9c42cd83848d4ee545ef39ecf0f0c6c35e2e6532a7c497d25c222e149",
+        "龙散市-底图与地铁.svg": "18268bb62c5a7e72c34802ee0490c446bdc9e0a6e0f7d040130af57eb0ccd30b"
+      },
+      "source_record": "补充近景读回.json"
+    }
+  ],
+  "completed_actual_view_count": 20,
+  "unreviewed_scope": {
+    "current_41_near_total": 41,
+    "current_near_not_viewed": [
+      "近景/东侧恢复廊道-新.png",
+      "近景/东站-新.png",
+      "近景/两座在建站塌陷区-新.png",
+      "近景/北向枢纽-新.png",
+      "近景/北岭-新.png",
+      "近景/北苑路口-新.png",
+      "近景/南港立交-新.png",
+      "近景/城市立交-新.png",
+      "近景/城西边缘-新.png",
+      "近景/塌陷全区-新.png",
+      "近景/废墟与断线-新.png",
+      "近景/文星-新.png",
+      "近景/文星主次路口-新.png",
+      "近景/文星次干路口-新.png",
+      "近景/普速绕行-新.png",
+      "近景/望津-新.png",
+      "近景/楚岸-新.png",
+      "近景/楚岸街坊-新.png",
+      "近景/火车站-新.png",
+      "近景/西城学府立交-新.png",
+      "近景/西管制口-新.png",
+      "近景/铁山-新.png",
+      "近景/龙门吊路口-新.png"
+    ],
+    "limits": [
+      "没有逐栋审核整城建筑或对道路交通容量/防洪/工程施工作认证。",
+      "静态SVG局部文字大小、校园景观和密度纹理仍有后续美术项；候选可审阅不等于用户采纳。",
+      "未编辑已封存v8输出或其终审报告。"
+    ]
+  },
+  "geometry_report_cross_references": {
+    "v9岸别关系审查.json": "e1dfdd200482bdf77ad5b6c7be96a30c89950406adc5ab7e86969103ac68e6fe",
+    "v9局部道路与来源核验.json": "1307406bef03b07dba6b9574ce9b9a65eacf89ea45309552cd740510dab61c68",
+    "v9局部继承核验.json": "6cd7e066a78d1e306d0fab2a48c9b411313ff414f97a9c137839445d9f95a755",
+    "v9设施与绘制独立核验.json": "0c681208d9c919aac46adacb331fce09be550ea046343bde2d914a457c375821"
+  },
+  "evidence_integrity": {
+    "all_svg_hashes_verified_before_review_and_after_report_construction": true,
+    "all_reviewed_image_hashes_stable_during_report_construction": true,
+    "original_source_bank_truth_sha256": "e1dfdd200482bdf77ad5b6c7be96a30c89950406adc5ab7e86969103ac68e6fe",
+    "actual_review_uses_final_v9_images_only": true,
+    "old/prototype_images_used_as_final_evidence": false
+  }
+}

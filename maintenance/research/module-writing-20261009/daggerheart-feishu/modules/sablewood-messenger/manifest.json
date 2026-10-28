@@ -1,0 +1,15 @@
+{
+  "source": "https://my.feishu.cn/file/EsTQbXuiFoCS5cxA17PcZleinch",
+  "name": "檀木林信使_匕首之心快速入门冒险_汉化嵌字_V1.6.pdf",
+  "token": "EsTQbXuiFoCS5cxA17PcZleinch",
+  "format": "pdf",
+  "http_status": 200,
+  "content_type": "existing verified file",
+  "status": "downloaded",
+  "bytes": 47128154,
+  "sha256": "71a87d5b575627396dad4bba77e44d061ba525e54772dd42b9de5978b16feaa8",
+  "local_file": "檀木林信使_匕首之心快速入门冒险_汉化嵌字_V1.6.pdf",
+  "pages": 39,
+  "text_layer_chars": 0,
+  "text_extraction": "image-only PDF; not OCRed"
+}

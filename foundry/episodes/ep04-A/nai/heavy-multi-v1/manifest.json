@@ -1,0 +1,9 @@
+{
+  "status": "downloaded-not-selected",
+  "selectedSuccessor": "../heavy-multi-v2/raw.png",
+  "requestRecovery": "PNG metadata, see request.json recoveryNote",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ]
+}

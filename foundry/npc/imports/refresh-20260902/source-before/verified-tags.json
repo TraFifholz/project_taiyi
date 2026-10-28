@@ -1,0 +1,4083 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-29",
+  "policy": "Every emitted tag must be listed here or added with evidence before use.",
+  "tags": {
+    "twintails": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1228188
+    },
+    "shorts": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 655396
+    },
+    "black_bag": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 15928
+    },
+    "ribbon": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1452774
+    },
+    "skirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2164422
+    },
+    "asymmetrical_clothes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 15383
+    },
+    "pink_sleeves": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8567
+    },
+    "grey_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 106121
+    },
+    "purple_theme": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 13682
+    },
+    "black_theme": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2343
+    },
+    "streetwear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2330
+    },
+    "punk": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2232
+    },
+    "cyberpunk": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4364
+    },
+    "mechanical_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3063
+    },
+    "robot_joints": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 13744
+    },
+    "science_fiction": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 58982
+    },
+    "snap-fit_buckle": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3261
+    },
+    "buckle": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 73160
+    },
+    "thigh_strap": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 248545
+    },
+    "crop_top": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 283024
+    },
+    "oven_mitts": {
+      "source": "mcp_search",
+      "category": "general",
+      "count": 2427
+    },
+    "white_background": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 2320539
+    },
+    "miv4t": {
+      "source": "mcp_verified",
+      "category": "artist",
+      "count": 277,
+      "lockedByUser": true
+    },
+    "cookie": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 15332
+    },
+    "earth_(element)": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 25
+    },
+    "scales": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 28872
+    },
+    "gavel": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 387
+    },
+    "plaid_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 12514
+    },
+    "checkered_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1655
+    },
+    "key": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 21498
+    },
+    "circuit_board": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 495
+    },
+    "straight_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 101233
+    },
+    "open_cardigan": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 28503
+    },
+    "writing": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6534
+    },
+    "cage": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6892
+    },
+    "green_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 56874
+    },
+    "child": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 78510
+    },
+    "petite": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 30065
+    },
+    "red_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1765453
+    },
+    "blue_hoodie": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 18036
+    },
+    "large_breasts": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2240546
+    },
+    "cleavage": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1407757
+    },
+    "robot": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 92379
+    },
+    "apron": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 306319
+    },
+    "red_apron": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3643
+    },
+    "teapot": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 20238
+    },
+    "holding_teapot": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2633
+    },
+    "calling": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 405
+    },
+    "shouting": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 12924
+    },
+    "ghost": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 36916
+    },
+    "origami": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2786
+    },
+    "paper_flower": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 83
+    },
+    "scar_on_face": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 106937
+    },
+    "boxing": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1132
+    },
+    "fighting_stance": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 33678
+    },
+    "dark_skin": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 404664
+    },
+    "prosthetic_leg": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3499
+    },
+    "mechanical_legs": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 7500
+    },
+    "back_brace": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11
+    },
+    "crutch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 958
+    },
+    "full_body": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1270784
+    },
+    "bodysuit": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 181937
+    },
+    "spine": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3158
+    },
+    "brace": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 72
+    },
+    "yellow_coat": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 5581
+    },
+    "exoskeleton": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1120
+    },
+    "power_armor": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8612,
+      "note": "Negative-only for LS-NPC-057 standard portrait; the right-hand prosthesis is not full-body armor."
+    },
+    "armor": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 304443
+    },
+    "high_heels": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 289008
+    },
+    "receding_hairline": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 368
+    },
+    "balding": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1851
+    },
+    "mustache": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 40136
+    },
+    "black_apron": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 7104
+    },
+    "bowl": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 43365
+    },
+    "holding_bowl": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11632
+    },
+    "ladle": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8625
+    },
+    "holding_ladle": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3992
+    },
+    "towel": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 75933
+    },
+    "sweet_potato": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3493
+    },
+    "roasted_sweet_potato": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1427
+    },
+    "food": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 619164
+    },
+    "holding_food": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 153477
+    },
+    "paper_bag": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 7000
+    },
+    "holding_bag": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 38181
+    },
+    "winter_clothes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 27054
+    },
+    "scarf": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 281411
+    },
+    "beanie": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 35297
+    },
+    "doctor": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2724
+    },
+    "stethoscope": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 5292
+    },
+    "hospital": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1689
+    },
+    "lily_(flower)": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11833
+    },
+    "white_flower": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 149246
+    },
+    "holding_flower": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 42161
+    },
+    "sad": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 17795
+    },
+    "mourning": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 245
+    },
+    "no_humans": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 233632
+    },
+    "object_focus": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3014
+    },
+    "still_life": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9815
+    },
+    "maintenance": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 163
+    },
+    "server": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 127
+    },
+    "power_cord": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 138
+    },
+    "electrical_outlet": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1808
+    },
+    "usb_cable": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 121
+    },
+    "screw": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2873
+    },
+    "mechanical": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 64
+    },
+    "machine": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2431
+    },
+    "pliers": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 704
+    },
+    "hammer": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 15136
+    },
+    "flashlight": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2955
+    },
+    "duct_tape": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1050
+    },
+    "tape": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 13227
+    },
+    "keycard": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 29
+    },
+    "card": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 37788
+    },
+    "battery": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 708
+    },
+    "red_theme": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 14631
+    },
+    "from_above": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 144954
+    },
+    "close-up": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 63307
+    },
+    "crown": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 98665
+    },
+    "rabbit_ears": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 323760
+    },
+    "red_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 730697
+    },
+    "idol": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 19377
+    },
+    "bishounen": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 36422
+    },
+    "white_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 195107
+    },
+    "fashion": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 10450
+    },
+    "police": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 16958
+    },
+    "policewoman": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 10144
+    },
+    "police_uniform": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 15285
+    },
+    "mochizuki_kei": {
+      "source": "mcp_verified",
+      "category": "artist",
+      "count": 708,
+      "lockedByUser": true
+    },
+    "ashima_(roro046)": {
+      "source": "mcp_verified",
+      "category": "artist",
+      "count": 223,
+      "lockedByUser": true
+    },
+    "akinashi_yuu": {
+      "source": "mcp_verified",
+      "category": "artist",
+      "count": 298,
+      "lockedByUser": true
+    },
+    "akakura": {
+      "source": "mcp_verified",
+      "category": "artist",
+      "count": 390,
+      "lockedByUser": true
+    },
+    "lm7_(op-center)": {
+      "source": "mcp_verified",
+      "category": "artist",
+      "count": 480,
+      "lockedByUser": true
+    },
+    "tachi-e": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 79289,
+      "lockedByUser": true
+    },
+    "simple_background": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2830345,
+      "lockedByUser": true
+    },
+    "cowboy_shot": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 845834,
+      "lockedByUser": true
+    },
+    "techwear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 621,
+      "lockedByUser": true
+    },
+    "best_quality": {
+      "source": "user_locked",
+      "category": "novelai_quality",
+      "count": 0,
+      "note": "Danbooru MCP returned count 0; retained because the user explicitly fixed the NovelAI style block."
+    },
+    "very_aesthetic": {
+      "source": "user_locked",
+      "category": "novelai_quality",
+      "found": false,
+      "note": "Not returned by Danbooru MCP; retained only as an explicit user-locked NovelAI quality term."
+    },
+    "absurdres": {
+      "source": "mcp_verified",
+      "category": "meta",
+      "count": 2957357,
+      "lockedByUser": true
+    },
+    "highres": {
+      "source": "mcp_related",
+      "category": "meta",
+      "count": 8072044
+    },
+    "1girl": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 8344744
+    },
+    "solo": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 7008548
+    },
+    "mature_female": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 49552
+    },
+    "short_hair": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 3107700
+    },
+    "black_hair": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 2182666
+    },
+    "brown_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1085013
+    },
+    "jumpsuit": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 15163
+    },
+    "mechanic": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1054
+    },
+    "long_sleeves": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2335571
+    },
+    "sleeves_rolled_up": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 58382
+    },
+    "pants": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 700479
+    },
+    "belt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 509676
+    },
+    "utility_belt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4323
+    },
+    "tool_belt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 556
+    },
+    "work_gloves": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 265
+    },
+    "boots": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 697982
+    },
+    "serious": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 39591
+    },
+    "closed_mouth": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1947115
+    },
+    "looking_at_viewer": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4871138
+    },
+    "standing": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 1322305
+    },
+    "holding": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2181611
+    },
+    "wrench": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 6563
+    },
+    "holding_wrench": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 2514
+    },
+    "scar": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 169044
+    },
+    "burn_scar": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6950
+    },
+    "scar_on_arm": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 13689
+    },
+    "transparent_background": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 177599
+    },
+    "backlighting": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 45358
+    },
+    "overlighting": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 500,
+      "note": "Used only in negative prompts to suppress excessive rim reflections."
+    },
+    "1boy": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2111090
+    },
+    "male_focus": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1118771
+    },
+    "solo_focus": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 499992
+    },
+    "parted_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11153
+    },
+    "side_part": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4645
+    },
+    "suit": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 106072
+    },
+    "business_suit": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8024
+    },
+    "formal_clothes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 79012
+    },
+    "black_suit": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 20417
+    },
+    "white_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1400779
+    },
+    "dress_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 165283
+    },
+    "collared_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 755703
+    },
+    "necktie": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 658324
+    },
+    "black_necktie": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 105467
+    },
+    "jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1479477
+    },
+    "black_pants": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 252619
+    },
+    "prosthetic_hand": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 341
+    },
+    "prosthetic_arm": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8712,
+      "note": "Negative-only for LS-NPC-001, whose confirmed prosthesis stops at the left hand."
+    },
+    "amputee": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 10755,
+      "note": "Negative-only for LS-NPC-001 to prevent expansion of the prosthesis beyond the hand."
+    },
+    "cyborg": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 12966
+    },
+    "open_hand": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 25298
+    },
+    "outstretched_hand": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 32457
+    },
+    "hand_up": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 555785
+    },
+    "gesture": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 667
+    },
+    "smile": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4137280
+    },
+    "one_eye_closed": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 616192
+    },
+    "confident": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 680
+    },
+    "glasses": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 500245
+    },
+    "black-framed_eyewear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 56551
+    },
+    "rectangular_eyewear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 10832
+    },
+    "cardigan": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 126827
+    },
+    "blue_cardigan": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 7916
+    },
+    "shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2911546
+    },
+    "lanyard": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 14796
+    },
+    "id_card": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 28168
+    },
+    "name_tag": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 29148
+    },
+    "salaryman": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2244
+    },
+    "expressionless": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 179614
+    },
+    "clipboard": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 12952
+    },
+    "holding_clipboard": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 7044
+    },
+    "paper": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 44337
+    },
+    "adjusting_eyewear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 31391
+    },
+    "english_text": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 406940,
+      "note": "Negative-only in standard portraits."
+    },
+    "chinese_text": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 50278,
+      "note": "Negative-only in standard portraits."
+    },
+    "character_name": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 305677,
+      "note": "Negative-only in standard portraits."
+    },
+    "signature": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 439503,
+      "note": "Negative-only in standard portraits."
+    },
+    "watermark": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 242906,
+      "note": "Negative-only in standard portraits."
+    },
+    "blank_page": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 312
+    },
+    "mature_male": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 44963
+    },
+    "grey_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1019202
+    },
+    "stubble": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 42709
+    },
+    "facial_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 167660
+    },
+    "bags_under_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 43153
+    },
+    "thick_eyebrows": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 140236
+    },
+    "broad_shoulders": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2000
+    },
+    "grey_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 64977
+    },
+    "breast_pocket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 32145
+    },
+    "pocket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 61002
+    },
+    "frown": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 153235
+    },
+    "caliper": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 77
+    },
+    "holding_tool": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 322
+    },
+    "tools": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 1756
+    },
+    "dirty_hands": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 356
+    },
+    "measuring": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 1315
+    },
+    "body_armor": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2250
+    },
+    "tactical_clothes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4401
+    },
+    "military_uniform": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 115610
+    },
+    "bulletproof_vest": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6658
+    },
+    "shoulder_armor": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 103001
+    },
+    "black_armor": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11328
+    },
+    "single_glove": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 58224
+    },
+    "outstretched_arm": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 93688
+    },
+    "pointing": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 93240
+    },
+    "pointing_forward": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1923
+    },
+    "prosthesis": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 12837
+    },
+    "single_mechanical_arm": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 11296
+    },
+    "black_jacket": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 388295
+    },
+    "pouch": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 51648
+    },
+    "hair_bun": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 369572
+    },
+    "updo": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 10665
+    },
+    "single_hair_bun": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 92257
+    },
+    "hair_pulled_back": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11656
+    },
+    "half-closed_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 143098
+    },
+    "lab_coat": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 41074,
+      "note": "Negative-only for technical staff who are not physicians."
+    },
+    "white_coat": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 71405
+    },
+    "coat": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 376002
+    },
+    "open_coat": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 78919
+    },
+    "long_coat": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11985
+    },
+    "blue_jumpsuit": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1965
+    },
+    "hand_on_own_ear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1810
+    },
+    "listening": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 277
+    },
+    "looking_to_the_side": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 279206
+    },
+    "head_tilt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 172702
+    },
+    "wristwatch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 28751
+    },
+    "own_hands_together": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 115727
+    },
+    "interlocked_fingers": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 68121
+    },
+    "light_smile": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 108359
+    },
+    "headphones": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 136523,
+      "note": "Negative-only for LS-NPC-005 standard portrait."
+    },
+    "earphones": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 14992,
+      "note": "Negative-only for LS-NPC-005 standard portrait."
+    },
+    "headset": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 52162,
+      "note": "Negative-only for LS-NPC-005 standard portrait."
+    },
+    "earpiece": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9514,
+      "note": "Negative-only for LS-NPC-005 standard portrait."
+    },
+    "office_lady": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 22556
+    },
+    "engineer": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 137
+    },
+    "brown_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2073836
+    },
+    "bob_cut": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 138065
+    },
+    "parted_bangs": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 310098
+    },
+    "hair_between_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1769714
+    },
+    "blue_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 157153
+    },
+    "open_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 377617
+    },
+    "turtleneck": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 179065
+    },
+    "turtleneck_sweater": {
+      "source": "mcp_related",
+      "category": "general",
+      "count": 57895
+    },
+    "black_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 368374
+    },
+    "cargo_pants": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2558
+    },
+    "hard_drive": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 90
+    },
+    "external_hard_drive": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6
+    },
+    "inspecting": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 82
+    },
+    "looking_down": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 138312
+    },
+    "long_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6157620
+    },
+    "low_ponytail": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 81661
+    },
+    "ponytail": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 958050
+    },
+    "sleepy": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 13244
+    },
+    "microphone": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 72396
+    },
+    "adjusting_headphones": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 351
+    },
+    "hand_on_headphones": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1699
+    },
+    "sidelocks": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 930927
+    },
+    "shirt_tucked_in": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 57147
+    },
+    "pale_skin": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 73103
+    },
+    "white_skin": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 63228
+    },
+    "medium_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 634256
+    },
+    "messy_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 91318
+    },
+    "grey_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 286815
+    },
+    "blank_stare": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2456
+    },
+    "dazed": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 433
+    },
+    "typing": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 988
+    },
+    "spread_fingers": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 5592
+    },
+    "computer": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 20271,
+      "note": "Negative-only for LS-NPC-009 standard portrait."
+    },
+    "computer_keyboard": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9460,
+      "note": "Negative-only for LS-NPC-009 standard portrait."
+    },
+    "laptop": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11583,
+      "note": "Negative-only for LS-NPC-009 standard portrait."
+    },
+    "monitor": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 18211,
+      "note": "Negative-only for LS-NPC-009 standard portrait."
+    },
+    "screen": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3552,
+      "note": "Negative-only for LS-NPC-009 standard portrait."
+    },
+    "hologram": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2050,
+      "note": "Negative-only for standard portraits unless explicitly required."
+    },
+    "code": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 87,
+      "note": "Negative-only for LS-NPC-009 standard portrait."
+    },
+    "blue_suit": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2364
+    },
+    "loose_clothes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3875
+    },
+    "blue_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 164252
+    },
+    "candy": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 74754
+    },
+    "holding_candy": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 17470
+    },
+    "black_shoes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 269504
+    },
+    "hair_gel": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 21
+    },
+    "spiked_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 106675
+    },
+    "undercut": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 22599
+    },
+    "raised_eyebrow": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11677
+    },
+    "smirk": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 36472
+    },
+    "smartphone": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 116667
+    },
+    "holding_phone": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 101580
+    },
+    "phone": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 151115
+    },
+    "cellphone": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 134656
+    },
+    "messenger_bag": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2035
+    },
+    "shoulder_bag": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 49807
+    },
+    "crossbody_bag": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 547
+    },
+    "looking_at_phone": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8952
+    },
+    "hand_in_pocket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 52588
+    },
+    "bag": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 327585
+    },
+    "green_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 63975
+    },
+    "work_boots": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 82
+    },
+    "cable": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 28793
+    },
+    "wire": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4106
+    },
+    "screwdriver": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2060
+    },
+    "holding_screwdriver": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 578
+    },
+    "leaning_forward": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 161881
+    },
+    "grin": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 354362
+    },
+    "open_mouth": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3483463
+    },
+    "talking": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 29281
+    },
+    "tan": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 78416
+    },
+    "watch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 42577
+    },
+    "helmet": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 113409
+    },
+    "motorcycle_helmet": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2475
+    },
+    "orange_vest": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3412
+    },
+    "map": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6308,
+      "note": "Negative-only for LS-NPC-014 standard portrait."
+    },
+    "road": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 23985,
+      "note": "Negative-only for LS-NPC-014 standard portrait."
+    },
+    "light_trail": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6357,
+      "note": "Negative-only for LS-NPC-014 standard portrait."
+    },
+    "smartwatch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 450
+    },
+    "analog_clock": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2930,
+      "note": "Negative-only for LS-NPC-014, whose watch is a rectangular LCD device."
+    },
+    "clock": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 27193,
+      "note": "Negative-only for LS-NPC-014 to suppress round clock faces."
+    },
+    "pocket_watch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8357,
+      "note": "Negative-only for LS-NPC-014."
+    },
+    "high_ponytail": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 125856
+    },
+    "walkie-talkie": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4240
+    },
+    "radio": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2343
+    },
+    "holding_radio": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 92
+    },
+    "orange_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 13703
+    },
+    "hoodie": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 197210
+    },
+    "black_hoodie": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 29208
+    },
+    "rimless_eyewear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11916
+    },
+    "microchip": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 29
+    },
+    "computer_chip": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 341
+    },
+    "tweezers": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 364
+    },
+    "holding_tweezers": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 91
+    },
+    "pen": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 29823
+    },
+    "holding_pen": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 14821
+    },
+    "pen_spinning": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 95
+    },
+    "spinning": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4047
+    },
+    "scar_on_hand": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2536
+    },
+    "tall_male": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 684
+    },
+    "fingernails": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 273165
+    },
+    "blazer": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 97690
+    },
+    "tareme": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 58094
+    },
+    "hand_on_own_chest": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 89065
+    },
+    "ear_protection": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1895
+    },
+    "earmuffs": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 17728
+    },
+    "headphones_around_neck": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 20975
+    },
+    "looking_up": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 99847
+    },
+    "looking_away": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 34940
+    },
+    "arms_at_sides": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 38833
+    },
+    "arm_at_side": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 65394
+    },
+    "drone": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4552,
+      "note": "Negative-only for LS-NPC-022 standard portrait."
+    },
+    "unmanned_aerial_vehicle": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 162,
+      "note": "Negative-only for LS-NPC-022 standard portrait."
+    },
+    "aircraft": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 25128,
+      "note": "Negative-only for standard transparent portraits unless explicitly required."
+    },
+    "airplane": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 17379,
+      "note": "Negative-only for LS-NPC-022 standard portrait."
+    },
+    "heads-up_display": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1624,
+      "note": "Negative-only for standard portraits."
+    },
+    "buzz_cut": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4480
+    },
+    "crew_cut": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 416
+    },
+    "very_short_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 37722
+    },
+    "scar_on_neck": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 5324
+    },
+    "nape": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4479
+    },
+    "from_behind": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 327428
+    },
+    "looking_back": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 362953
+    },
+    "over_shoulder": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 16948
+    },
+    "flight_suit": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 956
+    },
+    "pilot_suit": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 931
+    },
+    "pilot": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1554
+    },
+    "harness": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 25181
+    },
+    "chest_harness": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 18661
+    },
+    "open_collar": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 14875
+    },
+    "collar": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 276653
+    },
+    "lightning": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9276,
+      "note": "Negative-only for LS-NPC-024 standard portrait."
+    },
+    "electricity": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 27280,
+      "note": "Negative-only for LS-NPC-024 standard portrait."
+    },
+    "sparks": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4023,
+      "note": "Negative-only for LS-NPC-024 standard portrait."
+    },
+    "glowing_scar": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 90,
+      "note": "Negative-only for LS-NPC-024 standard portrait."
+    },
+    "shoulder_patch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1007,
+      "note": "Negative-only for unmarked standard uniforms."
+    },
+    "patch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 5013,
+      "note": "Negative-only for LS-NPC-024 standard portrait."
+    },
+    "emblem": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 22686,
+      "note": "Negative-only for unmarked standard uniforms."
+    },
+    "insignia": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4116,
+      "note": "Negative-only for unmarked standard uniforms."
+    },
+    "badge": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 16151,
+      "note": "Negative-only for unmarked standard uniforms."
+    },
+    "logo": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 90249,
+      "note": "Negative-only in standard portraits."
+    },
+    "glowing": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 137956,
+      "note": "Negative-only for standard portraits without persistent light effects."
+    },
+    "aura": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 18838,
+      "note": "Negative-only for standard portraits without persistent effects."
+    },
+    "neon_lights": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3548,
+      "note": "Negative-only for LS-NPC-024 standard portrait."
+    },
+    "blue_light": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 518,
+      "note": "Negative-only for LS-NPC-024 standard portrait."
+    },
+    "light_particles": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 80654,
+      "note": "Negative-only for standard portraits."
+    },
+    "hard_hat": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2112
+    },
+    "construction_worker": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 239
+    },
+    "holding_unworn_helmet": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4582
+    },
+    "round_eyewear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 76681
+    },
+    "paper_cut": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11
+    },
+    "bandaged_hand": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 12710
+    },
+    "folder": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1573
+    },
+    "holding_paper": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 16032
+    },
+    "muscular_male": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 138979
+    },
+    "muscular": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 196776
+    },
+    "thick_neck": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 579
+    },
+    "train_driver": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6
+    },
+    "train_conductor": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1330
+    },
+    "uniform": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 26625
+    },
+    "peaked_cap": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 61166
+    },
+    "bottle": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 100617
+    },
+    "holding_bottle": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 32422
+    },
+    "tea": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 16237
+    },
+    "plastic_bottle": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2136
+    },
+    "slouching": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1049
+    },
+    "short_sleeves": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 904571
+    },
+    "unbuttoned_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 7548
+    },
+    "open_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 150101
+    },
+    "epaulettes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 44910
+    },
+    "thermos": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1689
+    },
+    "holding_thermos": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 215
+    },
+    "button_gap": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 12020
+    },
+    "unbuttoned": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 21278
+    },
+    "walking": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 54217
+    },
+    "tablet_pc": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9287
+    },
+    "stylus": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6225
+    },
+    "holding_stylus": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3239
+    },
+    "sweater_vest": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 66233
+    },
+    "grey_vest": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 13684
+    },
+    "vest": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 320557
+    },
+    "nervous": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 18124
+    },
+    "sweatdrop": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 325778
+    },
+    "crossed_arms": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 121675
+    },
+    "holding_folder": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 609
+    },
+    "red_sweater": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 16086
+    },
+    "brown_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 63174
+    },
+    "determined": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2798
+    },
+    "car": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 29458,
+      "note": "Negative-only for standard transparent portraits unless explicitly required."
+    },
+    "stuffed_toy": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 119821
+    },
+    "doll": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 57863
+    },
+    "holding_doll": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8663
+    },
+    "holding_stuffed_toy": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 24933
+    },
+    "handmade": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6
+    },
+    "video_camera": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3570
+    },
+    "camcorder": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2041
+    },
+    "camera": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 31873
+    },
+    "holding_camera": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 15179
+    },
+    "wavy_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 148407
+    },
+    "ankle_boots": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 24776
+    },
+    "hair_behind_ear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 51210
+    },
+    "earrings": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 848079
+    },
+    "stud_earrings": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 43545
+    },
+    "trench_coat": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8198
+    },
+    "flower": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 879145,
+      "note": "Negative-only for LS-NPC-037 standard living portrait."
+    },
+    "bouquet": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 42257,
+      "note": "Negative-only for LS-NPC-037 standard living portrait."
+    },
+    "yellow_flower": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 54041,
+      "note": "Negative-only for LS-NPC-037 standard living portrait."
+    },
+    "text_focus": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 19827,
+      "note": "Negative-only in standard portraits."
+    },
+    "teacher": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6559
+    },
+    "index_finger_raised": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 74536
+    },
+    "sticker": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 12692
+    },
+    "sweater": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 302987
+    },
+    "brown_cardigan": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 21995
+    },
+    "brown_pants": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 34913
+    },
+    "nail_polish": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 342377
+    },
+    "purple_nails": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 42487
+    },
+    "purple_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 31673
+    },
+    "purple_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 61941
+    },
+    "silk": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8373
+    },
+    "makeup": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 187717
+    },
+    "lipstick": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 74426
+    },
+    "half_mask": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3107
+    },
+    "white_mask": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 7257
+    },
+    "mask": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 198880
+    },
+    "covering_one_eye": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2122
+    },
+    "microphone_stand": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9812
+    },
+    "studio_microphone": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 638
+    },
+    "boom_microphone": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 176
+    },
+    "recording": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 13581
+    },
+    "pop_filter": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 530
+    },
+    "black_gloves": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 671922
+    },
+    "fingerless_gloves": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 371199
+    },
+    "sound_wave": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 469,
+      "note": "Negative-only for standard portraits without visible audio powers."
+    },
+    "sound_effects": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 52281,
+      "note": "Negative-only for standard portraits without visible audio powers."
+    },
+    "musical_note": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 76162,
+      "note": "Negative-only for LS-NPC-040 standard portrait."
+    },
+    "singing": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 16330,
+      "note": "Negative-only for LS-NPC-040 standard portrait."
+    },
+    "asymmetrical_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 37193
+    },
+    "surgical_mask": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 7276,
+      "note": "Negative-only for LS-NPC-040 theatrical half-mask portrait."
+    },
+    "mouth_mask": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 45848,
+      "note": "Negative-only for LS-NPC-040 theatrical half-mask portrait."
+    },
+    "backpack": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 99593
+    },
+    "button_badge": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6997
+    },
+    "thinking": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8245
+    },
+    "ornament": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 679,
+      "note": "Negative-only for LS-NPC-041 fixed backpack pins."
+    },
+    "key_ring": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 930,
+      "note": "Negative-only for LS-NPC-041 fixed backpack pins."
+    },
+    "hanging": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2852,
+      "note": "Negative-only for LS-NPC-041 fixed backpack pins."
+    },
+    "skinny": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11408
+    },
+    "oversized_clothes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 18399
+    },
+    "grey_hoodie": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 12754
+    },
+    "hands_in_pockets": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 34358
+    },
+    "sneakers": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 96083
+    },
+    "tie_clip": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9836
+    },
+    "pocket_square": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 683
+    },
+    "arms_behind_back": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 123829
+    },
+    "double-breasted": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 41121
+    },
+    "cat": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 117950,
+      "note": "Negative-only for LS-NPC-046 standard human portrait; cat form requires a separate variant."
+    },
+    "animal": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 145314,
+      "note": "Negative-only for LS-NPC-046 standard human portrait."
+    },
+    "fog": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 7669,
+      "note": "Negative-only for LS-NPC-046 standard portrait."
+    },
+    "smoke": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 58332,
+      "note": "Negative-only for LS-NPC-046 standard portrait."
+    },
+    "transformation": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8424,
+      "note": "Negative-only for LS-NPC-046 standard human portrait."
+    },
+    "animal_ears": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1744490,
+      "note": "Negative-only for LS-NPC-046 standard human portrait."
+    },
+    "cat_ears": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 405676,
+      "note": "Negative-only for LS-NPC-046 standard human portrait."
+    },
+    "closed_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1050445
+    },
+    "security_guard": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 252
+    },
+    "guard": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 191
+    },
+    "standing_at_attention": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 82
+    },
+    "gun": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 195057,
+      "note": "Negative-only for unarmed standard portraits unless explicitly required."
+    },
+    "rifle": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 55725,
+      "note": "Negative-only for unarmed standard portraits unless explicitly required."
+    },
+    "weapon": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 808152,
+      "note": "Negative-only for unarmed standard portraits unless explicitly required."
+    },
+    "muscular_female": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 37909
+    },
+    "tall_female": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6209
+    },
+    "shield": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 38072,
+      "note": "Negative-only for LS-NPC-049 standard portrait; defensive field is an action variant."
+    },
+    "energy_shield": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 289,
+      "note": "Negative-only for LS-NPC-049 standard portrait."
+    },
+    "blue_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2452432
+    },
+    "drill_instructor": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 25
+    },
+    "teacup": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 44095
+    },
+    "holding_cup": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 110434
+    },
+    "cup": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 263455
+    },
+    "disposable_cup": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 25722
+    },
+    "drinking": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 26437
+    },
+    "holding_drink": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 10275
+    },
+    "eyepatch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 103564
+    },
+    "one-eyed": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 17548
+    },
+    "high_collar": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 64268
+    },
+    "gloves": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1925225
+    },
+    "combat_boots": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2136
+    },
+    "afterimage": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 18259,
+      "note": "Negative-only for LS-NPC-053 standard portrait; action prediction is not a visible trail."
+    },
+    "motion_blur": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 34733,
+      "note": "Negative-only for standard static portraits unless motion is explicitly required."
+    },
+    "white_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1034753
+    },
+    "old_man": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 14914
+    },
+    "neck": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3268
+    },
+    "headgear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 100916
+    },
+    "metal_collar": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 10190
+    },
+    "blonde_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2154563
+    },
+    "green_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1186367
+    },
+    "pencil_skirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 54776
+    },
+    "black_skirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 464055
+    },
+    "pantyhose": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 733125
+    },
+    "brooch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 92715
+    },
+    "lapel_pin": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3977
+    },
+    "jewelry": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1587326
+    },
+    "own_hands_clasped": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 22323
+    },
+    "blouse": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 50197
+    },
+    "scar_on_cheek": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 25359
+    },
+    "bomber_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4185
+    },
+    "t-shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 99067
+    },
+    "jeans": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 44731
+    },
+    "goatee": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 30698
+    },
+    "scratches": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 5641
+    },
+    "damaged": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8485
+    },
+    "clenched_hand": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 87047
+    },
+    "worried": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6054
+    },
+    "holding_own_wrist": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1022
+    },
+    "hand_on_own_wrist": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 777
+    },
+    "hand_on_own_arm": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 21329
+    },
+    "red_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 94337
+    },
+    "hood_down": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 143733
+    },
+    "full_armor": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11066,
+      "note": "Negative-only when a character has only a localized prosthesis or light protection."
+    },
+    "semi-rimless_eyewear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 64309
+    },
+    "looking_over_eyewear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6074
+    },
+    "calculator": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 270
+    },
+    "holographic_interface": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3235
+    },
+    "raised_eyebrows": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 44155
+    },
+    "digits": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9,
+      "note": "Negative-only when a generated equipment display must remain text-free."
+    },
+    "spreadsheet": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 15
+    },
+    "chart": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2339,
+      "note": "Negative-only for LS-NPC-058 blank accounting interface."
+    },
+    "graph": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 726,
+      "note": "Negative-only for LS-NPC-058 blank accounting interface."
+    },
+    "folding_fan": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 27857,
+      "note": "Negative-only for LS-NPC-058; White-Paper-Fan is an office, not a prop."
+    },
+    "very_long_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1403138
+    },
+    "hair_tie": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 33207
+    },
+    "red_ribbon": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 265184
+    },
+    "hair_ribbon": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 792263
+    },
+    "red_hairband": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 40427
+    },
+    "long_fingers": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 882
+    },
+    "chinese_clothes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 161837
+    },
+    "mandarin_collar": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 18497
+    },
+    "sword": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 370870,
+      "note": "Negative-only where the standard portrait must not fix an unconfirmed sword design."
+    },
+    "katana": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 82905,
+      "note": "Negative-only to avoid ungrounded Japanese weapon styling."
+    },
+    "energy_sword": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9053,
+      "note": "Negative-only for standard portraits without active weapon effects."
+    },
+    "magic": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 23291,
+      "note": "Negative-only for grounded standard portraits."
+    },
+    "short_male": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 973
+    },
+    "track_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 55987
+    },
+    "sportswear": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 33435
+    },
+    "sweatpants": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4571
+    },
+    "zipper": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 56673
+    },
+    "boxing_gloves": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4614
+    },
+    "hand_wraps": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1643
+    },
+    "bandages": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 130017
+    },
+    "trembling": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 107782
+    },
+    "shaking": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2482
+    },
+    "knife": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 89757,
+      "note": "Negative-only for LS-NPC-060 standard portrait because blade type is unconfirmed."
+    },
+    "dagger": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 20894,
+      "note": "Negative-only for LS-NPC-060 standard portrait because blade type is unconfirmed."
+    },
+    "claws": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 80883,
+      "note": "Negative-only for LS-NPC-060; awakened cutting ability is not permanent anatomy."
+    },
+    "sharp_fingernails": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 34421,
+      "note": "Negative-only for LS-NPC-060 standard portrait."
+    },
+    "track_pants": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9883
+    },
+    "shoes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 847073
+    },
+    "striped_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11354
+    },
+    "wrist_wrap": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2111
+    },
+    "open_clothes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 748318
+    },
+    "pixie_cut": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1775
+    },
+    "multiple_earrings": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9575
+    },
+    "ear_piercing": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 107790
+    },
+    "piercing": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 174037
+    },
+    "androgynous": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 61074
+    },
+    "tomboy": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 13785
+    },
+    "nurse": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 22495,
+      "note": "Negative-only for LS-NPC-061; she is a calibration technician."
+    },
+    "syringe": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 14455
+    },
+    "scalpel": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1256
+    },
+    "ears_visible_through_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1492
+    },
+    "facing_viewer": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 102372
+    },
+    "symmetrical_pose": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1030
+    },
+    "symmetry": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2977
+    },
+    "old_woman": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3645
+    },
+    "kimono": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 340798
+    },
+    "obi": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 107035
+    },
+    "sash": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 198251
+    },
+    "haori": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 27990
+    },
+    "black_coat": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 99169
+    },
+    "japanese_clothes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 527220
+    },
+    "wide_sleeves": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 357781
+    },
+    "geisha": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 288,
+      "note": "Negative-only for LS-NPC-063; regional identity must not become a geisha costume."
+    },
+    "samurai": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3867,
+      "note": "Negative-only for contemporary civilian portraits."
+    },
+    "floral_print": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 128294,
+      "note": "Negative-only for LS-NPC-063 plain business kimono."
+    },
+    "patterned_clothing": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 5804,
+      "note": "Negative-only for LS-NPC-063 restrained solid-color clothing."
+    },
+    "grey_kimono": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 5770
+    },
+    "black_kimono": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 31483
+    },
+    "tattoo": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 208959,
+      "note": "Negative-only for LS-NPC-065 standard visible-light portrait; UV mark remains hidden."
+    },
+    "eagle": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2599,
+      "note": "Negative-only for LS-NPC-065 standard portrait."
+    },
+    "bird": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 149778,
+      "note": "Negative-only when hidden Aquila symbolism must not become a visible logo."
+    },
+    "eagle_tattoo": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1,
+      "note": "Negative-only for LS-NPC-065 standard visible-light portrait."
+    },
+    "chest_tattoo": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 19413,
+      "note": "Negative-only for LS-NPC-065 standard visible-light portrait."
+    },
+    "no_necktie": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 68
+    },
+    "brown_shoes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 91167
+    },
+    "waistcoat": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 10421
+    },
+    "arm_tattoo": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 41401
+    },
+    "paperwork": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 249
+    },
+    "barcode": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 10989,
+      "note": "Negative-only for blank documents and unlabeled props."
+    },
+    "qr_code": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3855,
+      "note": "Negative-only for blank documents and unlabeled props."
+    },
+    "sleeveless": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 630162
+    },
+    "sleeveless_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 227086
+    },
+    "tank_top": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 122054
+    },
+    "black_tank_top": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 27704
+    },
+    "text_tattoo": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 239
+    },
+    "body_writing": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 15408
+    },
+    "staring": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6307
+    },
+    "black_dress": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 374822
+    },
+    "long_dress": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 51006
+    },
+    "dress": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1936564
+    },
+    "necklace": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 373815
+    },
+    "pendant": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 47774
+    },
+    "praying": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6026
+    },
+    "cross": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 103893,
+      "note": "Negative-only for LS-NPC-068; her required symbol is an eagle pendant."
+    },
+    "storm": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1658,
+      "note": "Negative-only for LS-NPC-068 standard portrait; electromagnetic sensing is not weather control."
+    },
+    "cloud": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 396324
+    },
+    "wings": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 621876,
+      "note": "Negative-only to keep eagle symbolism as a small pendant."
+    },
+    "angel_wings": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 57704
+    },
+    "long_skirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 54912
+    },
+    "multicolored_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1175590
+    },
+    "two-tone_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 398760
+    },
+    "gradient_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 223599
+    },
+    "curly_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 47161
+    },
+    "pink_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1052678
+    },
+    "blue_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1192717
+    },
+    "purple_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 909832
+    },
+    "streaked_hair": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 431107
+    },
+    "hand_gesture": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 710
+    },
+    "open_hands": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11687
+    },
+    "spread_arms": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 28341
+    },
+    "v": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 235657
+    },
+    "multicolored_clothes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 5586
+    },
+    "colorful": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 7809
+    },
+    "game_controller": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 18574
+    },
+    "hunched_over": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2026
+    },
+    "hunchback": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 73
+    },
+    "bent_over": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 84123
+    },
+    "dirty_clothes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 5217
+    },
+    "mud": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1138
+    },
+    "dirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2014
+    },
+    "stain": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1604
+    },
+    "crack": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 12398,
+      "note": "Negative-only for LS-NPC-070 standard portrait; future vibration sense does not crack the ground."
+    },
+    "earthquake": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 118,
+      "note": "Negative-only for LS-NPC-070 standard portrait."
+    },
+    "x-ray": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 17309,
+      "note": "Negative-only for latent perception abilities."
+    },
+    "x-ray_vision": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 764,
+      "note": "Negative-only for LS-NPC-070 standard portrait."
+    },
+    "cupping_hand": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 573
+    },
+    "toolbox": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 802
+    },
+    "holding_box": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 11422
+    },
+    "box": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 78396
+    },
+    "briefcase": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6733
+    },
+    "holding_briefcase": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2071
+    },
+    "vial": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4107
+    },
+    "test_tube": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8530
+    },
+    "holding_case": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 457
+    },
+    "utility_vest": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 204
+    },
+    "holding_vial": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 413
+    },
+    "holding_test_tube": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2390
+    },
+    "grey_cardigan": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 10793
+    },
+    "grey_sweater": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 20643
+    },
+    "book": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 189622
+    },
+    "holding_book": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 72953
+    },
+    "monochrome": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 847951
+    },
+    "loafers": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 83407
+    },
+    "saucer": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 13573
+    },
+    "holding_saucer": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3212
+    },
+    "rock": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 37154
+    },
+    "stone": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1473
+    },
+    "holding_rock": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 489
+    },
+    "gem": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 116966
+    },
+    "black_gem": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 622
+    },
+    "holding_gem": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1546
+    },
+    "between_fingers": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 12509
+    },
+    "money": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9335,
+      "note": "Negative-only for LS-NPC-077 public portrait; corruption is not a visual prop."
+    },
+    "fat_man": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 14690
+    },
+    "untucked_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 5604
+    },
+    "plump": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 43811
+    },
+    "holding_laptop": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 513
+    },
+    "beard": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 67254
+    },
+    "pencil": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 15868
+    },
+    "holding_pencil": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 5476
+    },
+    "circle": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 7485
+    },
+    "sketch": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 194536
+    },
+    "windbreaker": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 171
+    },
+    "multicolored_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 27849
+    },
+    "two-tone_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 17843
+    },
+    "mechanical_arms": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 24680
+    },
+    "mechanical_ears": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 3762
+    },
+    "mechanical_neck": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 156
+    },
+    "purple_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1190439
+    },
+    "hooded_jacket": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 88518
+    },
+    "cigarette": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 49787
+    },
+    "pleated_skirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 705517
+    },
+    "hair_bow": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 755788
+    },
+    "red_bow": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 329497
+    },
+    "striped_sleeves": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 6476
+    },
+    "black_shorts": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 195041
+    },
+    "short_shorts": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 192615
+    },
+    "hair_ornament": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 2052734
+    },
+    "white_dress": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 449086
+    },
+    "off_shoulder": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 343681
+    },
+    "red_trim": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9300
+    },
+    "jirai_kei": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 8039
+    },
+    "black_mask": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 15163
+    },
+    "black_nails": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 120752
+    },
+    "yellow_eyes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1014067
+    },
+    "frilled_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 37305
+    },
+    "pink_shirt": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 72670
+    },
+    "black_bow": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 225020
+    },
+    "black_ribbon": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 192674
+    },
+    "choker": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 615788
+    },
+    "hair_over_one_eye": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 367663
+    },
+    "talisman": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 4601
+    },
+    "frills": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 767259
+    },
+    "bow": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 1716512
+    },
+    "long_bangs": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 47331
+    },
+    "layered_clothes": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 9346
+    },
+    "one_eye_covered": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 72501
+    },
+    "hand_on_own_hip": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 227838
+    },
+    "hand_on_own_face": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 72697
+    },
+    "sideways_glance": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 49121
+    },
+    "handbag": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 35166
+    },
+    "pinstripe_pattern": {
+      "source": "mcp_verified",
+      "category": "general",
+      "count": 17785
+    }
+  }
+}

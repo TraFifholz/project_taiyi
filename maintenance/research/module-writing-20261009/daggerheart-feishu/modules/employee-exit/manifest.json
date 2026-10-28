@@ -1,0 +1,21 @@
+{
+  "source": "https://lcnw6r5edbf2.feishu.cn/wiki/AjcHwGviwihlX9kZFtocGm15n9c",
+  "http_status": 200,
+  "final_host": "lcnw6r5edbf2.feishu.cn",
+  "final_path": "/wiki/AjcHwGviwihlX9kZFtocGm15n9c",
+  "status": "downloaded",
+  "title": "新员工离职指导 NEW EMPLOYEE DISORIENTATION",
+  "blocks": 188,
+  "pagination_requests": 0,
+  "missing_blocks": 0,
+  "attachment_count": 4,
+  "references": 1,
+  "source_sha256": "9c87b81a5739766249098cf498b9ddb51812f7db5510c208d4d219de26f93d5d",
+  "reachable_blocks": 188,
+  "unvisited_blocks": 0,
+  "conversion_notes": "本地阅读副本。正文、表格、配图和主要文字强调保留；原页分栏、字体与分页不作精确复刻。其中 4 张配图为公开预览图。",
+  "local_reader": "content.html",
+  "local_markdown": "content.md",
+  "assets_downloaded": 4,
+  "assets_unavailable": 0
+}

@@ -1,0 +1,3437 @@
+{
+  "input_sha256": {
+    "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-基础底图.svg": "e686c8e4be2320f55fe82a5e32d518dcda23005e9f7619fdaa4f3379b281372c",
+    "assets\\maps\\longsan-geographic-v8-20261012\\龙散市-底图与地铁.svg": "8fb5abfff9e620d3aa7c17623ed5d59aaae2f89336278624f3769a2c2b2908d9",
+    "assets\\maps\\longsan-geographic-v8-20261012\\路网.geojson": "735570ee178862bb98aa30a8cee1e1a2b4523874d88477d5fce3446540e2e4b5",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8路口邻道擦除核验.py": "5e0c0f24613c4f135168b39ef6cf674a384f5b797df622f04ada1b39e5d48e6d",
+    "maintenance\\reports\\longsan-map-audit-20261011\\v5骨架独立核验.py": "c98e7cf7cf794a82dd7db1770fb19d47844f88fa031a84864888858071b8bb94"
+  },
+  "actual_symbol_nodes": 642,
+  "touching_nonincident_public_fill": [
+    {
+      "xy_km": [
+        15.7,
+        31.5
+      ],
+      "road_index": 2345,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 19.181629873816775,
+      "erase_radius_m": 28.752949413929873,
+      "original_fill_in_circle_m2": 777.7995593745817,
+      "original_fill_in_complete_patch_m2": 777.7995593745817
+    },
+    {
+      "xy_km": [
+        5.5,
+        21.0
+      ],
+      "road_index": 19,
+      "name": "云麓公路",
+      "kind": "rural",
+      "centerline_distance_m": 8.023740166550857,
+      "erase_radius_m": 28.75294941392914,
+      "original_fill_in_circle_m2": 586.4820758844193,
+      "original_fill_in_complete_patch_m2": 586.4820758844193
+    },
+    {
+      "xy_km": [
+        6.8,
+        11.2
+      ],
+      "road_index": 3324,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 23.295275390973206,
+      "erase_radius_m": 22.005163030526326,
+      "original_fill_in_circle_m2": 123.51737196233172,
+      "original_fill_in_complete_patch_m2": 123.51837196233171
+    },
+    {
+      "xy_km": [
+        6.8,
+        11.2
+      ],
+      "road_index": 19,
+      "name": "云麓公路",
+      "kind": "rural",
+      "centerline_distance_m": 12.12689986082633,
+      "erase_radius_m": 22.005163030526326,
+      "original_fill_in_circle_m2": 378.1237667524152,
+      "original_fill_in_complete_patch_m2": 378.12995785598366
+    },
+    {
+      "xy_km": [
+        18.207685980628,
+        12.01183723971
+      ],
+      "road_index": 1743,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 10.706790544224631,
+      "erase_radius_m": 22.00598971465137,
+      "original_fill_in_circle_m2": 225.2763795148752,
+      "original_fill_in_complete_patch_m2": 225.2763795148752
+    },
+    {
+      "xy_km": [
+        18.207685980628,
+        12.01183723971
+      ],
+      "road_index": 1692,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.410858320346836,
+      "erase_radius_m": 22.00598971465137,
+      "original_fill_in_circle_m2": 159.50987540698296,
+      "original_fill_in_complete_patch_m2": 159.50987540698296
+    },
+    {
+      "xy_km": [
+        9.330501958548,
+        16.318288958277
+      ],
+      "road_index": 2879,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.8909043407013826,
+      "erase_radius_m": 28.75579311630258,
+      "original_fill_in_circle_m2": 561.4152356161211,
+      "original_fill_in_complete_patch_m2": 561.4152356161211
+    },
+    {
+      "xy_km": [
+        32.279664107834,
+        14.992339989631
+      ],
+      "road_index": 3488,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 32.13441686280838,
+      "erase_radius_m": 28.755735746662115,
+      "original_fill_in_circle_m2": 127.20765780897982,
+      "original_fill_in_complete_patch_m2": 127.21595780897712
+    },
+    {
+      "xy_km": [
+        32.279664107834,
+        14.992339989631
+      ],
+      "road_index": 6,
+      "name": "书院路",
+      "kind": "secondary",
+      "centerline_distance_m": 12.436507565683153,
+      "erase_radius_m": 28.755735746662115,
+      "original_fill_in_circle_m2": 1290.2964751326524,
+      "original_fill_in_complete_patch_m2": 1290.2964751326524
+    },
+    {
+      "xy_km": [
+        26.557815731732,
+        26.79453932933
+      ],
+      "road_index": 1590,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 30.234216707911163,
+      "erase_radius_m": 28.755521789443495,
+      "original_fill_in_circle_m2": 46.95979434911003,
+      "original_fill_in_complete_patch_m2": 46.95979434911003
+    },
+    {
+      "xy_km": [
+        30.991370097336,
+        34.284163727458
+      ],
+      "road_index": 3756,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.367454387706914,
+      "erase_radius_m": 28.75599176040016,
+      "original_fill_in_circle_m2": 558.5215851280125,
+      "original_fill_in_complete_patch_m2": 558.5215851280125
+    },
+    {
+      "xy_km": [
+        39.7,
+        28.7
+      ],
+      "road_index": 3692,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 32.06281311159387,
+      "erase_radius_m": 28.752949413936246,
+      "original_fill_in_circle_m2": 167.1221607010638,
+      "original_fill_in_complete_patch_m2": 167.12896765471766
+    },
+    {
+      "xy_km": [
+        39.7,
+        28.7
+      ],
+      "road_index": 11,
+      "name": "龙门吊路",
+      "kind": "primary",
+      "centerline_distance_m": 3.4378966804837803,
+      "erase_radius_m": 28.752949413936246,
+      "original_fill_in_circle_m2": 2065.2093897467958,
+      "original_fill_in_complete_patch_m2": 2065.2290897467947
+    },
+    {
+      "xy_km": [
+        32.3,
+        6.5
+      ],
+      "road_index": 18,
+      "name": "北苑路",
+      "kind": "secondary",
+      "centerline_distance_m": 1.5366963986261426,
+      "erase_radius_m": 28.75294941393541,
+      "original_fill_in_circle_m2": 1460.274511323262,
+      "original_fill_in_complete_patch_m2": 1460.274511323262
+    },
+    {
+      "xy_km": [
+        31.421157538758,
+        24.861079570806
+      ],
+      "road_index": 15,
+      "name": "站前大道",
+      "kind": "primary",
+      "centerline_distance_m": 42.44277025138744,
+      "erase_radius_m": 28.7567265329437,
+      "original_fill_in_circle_m2": 153.82777120904697,
+      "original_fill_in_complete_patch_m2": 153.82777120904697
+    },
+    {
+      "xy_km": [
+        37.390255306922,
+        27.141556742941
+      ],
+      "road_index": 22,
+      "name": "码头联络路",
+      "kind": "secondary",
+      "centerline_distance_m": 15.48733626421949,
+      "erase_radius_m": 28.75524164442754,
+      "original_fill_in_circle_m2": 1167.9216414249859,
+      "original_fill_in_complete_patch_m2": 1167.9216414249859
+    },
+    {
+      "xy_km": [
+        36.120554298827,
+        20.416275397316
+      ],
+      "road_index": 23,
+      "name": "钢阳街",
+      "kind": "secondary",
+      "centerline_distance_m": 8.367052648340886,
+      "erase_radius_m": 28.75509083442488,
+      "original_fill_in_circle_m2": 1391.181866276779,
+      "original_fill_in_complete_patch_m2": 1391.181866276779
+    },
+    {
+      "xy_km": [
+        36.120554298827,
+        20.416275397316
+      ],
+      "road_index": 4380,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 13.103373869534765,
+      "erase_radius_m": 28.75509083442488,
+      "original_fill_in_circle_m2": 229.7709016387097,
+      "original_fill_in_complete_patch_m2": 229.7709016387097
+    },
+    {
+      "xy_km": [
+        19.059359763056,
+        17.6000533079
+      ],
+      "road_index": 1833,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 6.127005220695967,
+      "erase_radius_m": 22.00615028071377,
+      "original_fill_in_circle_m2": 241.34206026800044,
+      "original_fill_in_complete_patch_m2": 241.34206026800044
+    },
+    {
+      "xy_km": [
+        25.513862775585,
+        18.752701642546
+      ],
+      "road_index": 1385,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 30.595793690129767,
+      "erase_radius_m": 28.755846990610397,
+      "original_fill_in_circle_m2": 82.89613211686768,
+      "original_fill_in_complete_patch_m2": 82.89613211686768
+    },
+    {
+      "xy_km": [
+        24.861058681997,
+        3.963470568688
+      ],
+      "road_index": 998,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 8.942481014521775,
+      "erase_radius_m": 28.754697866357585,
+      "original_fill_in_circle_m2": 555.1905970825909,
+      "original_fill_in_complete_patch_m2": 555.1905970825909
+    },
+    {
+      "xy_km": [
+        32.720641218735,
+        3.639639709737
+      ],
+      "road_index": 107,
+      "name": "规划集散道 56",
+      "kind": "secondary",
+      "centerline_distance_m": 15.101505210405985,
+      "erase_radius_m": 28.754597987203393,
+      "original_fill_in_circle_m2": 652.6719866306261,
+      "original_fill_in_complete_patch_m2": 652.6719866306261
+    },
+    {
+      "xy_km": [
+        32.276948506669,
+        15.004635449189
+      ],
+      "road_index": 9,
+      "name": "奥体大道",
+      "kind": "primary",
+      "centerline_distance_m": 11.97909473763737,
+      "erase_radius_m": 22.004811704061428,
+      "original_fill_in_circle_m2": 667.8144857732152,
+      "original_fill_in_complete_patch_m2": 667.8187857732171
+    },
+    {
+      "xy_km": [
+        39.751521422575,
+        27.927178639105
+      ],
+      "road_index": 3891,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 35.94239902235743,
+      "erase_radius_m": 28.755206381109915,
+      "original_fill_in_circle_m2": 17.362959638546037,
+      "original_fill_in_complete_patch_m2": 17.362959638546037
+    },
+    {
+      "xy_km": [
+        32.39,
+        17.263679990641
+      ],
+      "road_index": 5,
+      "name": "楚江大道",
+      "kind": "primary",
+      "centerline_distance_m": 37.94023289271764,
+      "erase_radius_m": 28.752957668537487,
+      "original_fill_in_circle_m2": 327.4994034790239,
+      "original_fill_in_complete_patch_m2": 327.50575347901895
+    },
+    {
+      "xy_km": [
+        38.811446541569,
+        5.747412063799
+      ],
+      "road_index": 1175,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 5.407974733008914,
+      "erase_radius_m": 28.755954570826923,
+      "original_fill_in_circle_m2": 968.9112679083415,
+      "original_fill_in_complete_patch_m2": 968.9112679083415
+    },
+    {
+      "xy_km": [
+        36.688218406569,
+        0.854827532596
+      ],
+      "road_index": 4481,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.7053025658242402e-10,
+      "erase_radius_m": 22.005258860610382,
+      "original_fill_in_circle_m2": 423.9296581675038,
+      "original_fill_in_complete_patch_m2": 423.9296581675038
+    },
+    {
+      "xy_km": [
+        36.688218406569,
+        1.709655065192
+      ],
+      "road_index": 4481,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.8270809632600687e-10,
+      "erase_radius_m": 22.004934865692142,
+      "original_fill_in_circle_m2": 423.9600639172207,
+      "original_fill_in_complete_patch_m2": 423.9600639172207
+    },
+    {
+      "xy_km": [
+        36.688218406569,
+        1.709655065192
+      ],
+      "road_index": 4482,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.7053025658242402e-10,
+      "erase_radius_m": 22.004934865692142,
+      "original_fill_in_circle_m2": 423.9790062509266,
+      "original_fill_in_complete_patch_m2": 423.9790062509266
+    },
+    {
+      "xy_km": [
+        37.636393424689,
+        0.854827532596
+      ],
+      "road_index": 733,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 30.326591252304524,
+      "erase_radius_m": 22.0062995866532,
+      "original_fill_in_circle_m2": 18.63628154914115,
+      "original_fill_in_complete_patch_m2": 18.63628154914115
+    },
+    {
+      "xy_km": [
+        37.636393424689,
+        2.272736438366
+      ],
+      "road_index": 733,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 30.326591252304524,
+      "erase_radius_m": 22.005691609874216,
+      "original_fill_in_circle_m2": 18.64048154914153,
+      "original_fill_in_complete_patch_m2": 18.64048154914153
+    },
+    {
+      "xy_km": [
+        37.636393424689,
+        2.272736438366
+      ],
+      "road_index": 742,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 22.07561264514002,
+      "erase_radius_m": 22.005691609874216,
+      "original_fill_in_circle_m2": 128.1396730481549,
+      "original_fill_in_complete_patch_m2": 128.1396730481549
+    },
+    {
+      "xy_km": [
+        37.636393424689,
+        2.272736438366
+      ],
+      "road_index": 4517,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 0.22720789861807592,
+      "erase_radius_m": 22.005691609874216,
+      "original_fill_in_circle_m2": 425.33031943816974,
+      "original_fill_in_complete_patch_m2": 425.33031943816974
+    },
+    {
+      "xy_km": [
+        32.954266568638,
+        0.854827532596
+      ],
+      "road_index": 38,
+      "name": "北岭出城国道",
+      "kind": "primary",
+      "centerline_distance_m": 9.397195221797096,
+      "erase_radius_m": 22.006294038547942,
+      "original_fill_in_circle_m2": 1206.4547808721964,
+      "original_fill_in_complete_patch_m2": 1206.4547808721964
+    },
+    {
+      "xy_km": [
+        37.636393424689,
+        1.709655065192
+      ],
+      "road_index": 733,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 30.326591252304524,
+      "erase_radius_m": 22.00584338397099,
+      "original_fill_in_circle_m2": 18.636831708552602,
+      "original_fill_in_complete_patch_m2": 18.636831708552602
+    },
+    {
+      "xy_km": [
+        9.615062400557,
+        6.532191400035
+      ],
+      "road_index": 80,
+      "name": "规划集散道 29",
+      "kind": "secondary",
+      "centerline_distance_m": 40.73319007056675,
+      "erase_radius_m": 28.75595305753911,
+      "original_fill_in_circle_m2": 6.975368870296095,
+      "original_fill_in_complete_patch_m2": 6.975368870296095
+    },
+    {
+      "xy_km": [
+        9.615062400557,
+        6.491458209964
+      ],
+      "road_index": 7,
+      "name": "工运大道",
+      "kind": "primary",
+      "centerline_distance_m": 40.65386538000839,
+      "erase_radius_m": 22.00526575267892,
+      "original_fill_in_circle_m2": 13.418027648183658,
+      "original_fill_in_complete_patch_m2": 13.418027648183658
+    },
+    {
+      "xy_km": [
+        19.044252806135,
+        7.126188811893
+      ],
+      "road_index": 931,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.09383224132443,
+      "erase_radius_m": 22.00574240709267,
+      "original_fill_in_circle_m2": 494.5676270639086,
+      "original_fill_in_complete_patch_m2": 494.5676270639086
+    },
+    {
+      "xy_km": [
+        19.044252806135,
+        7.49499848317
+      ],
+      "road_index": 931,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.09383224132443,
+      "erase_radius_m": 22.00495695705002,
+      "original_fill_in_circle_m2": 380.36193516609194,
+      "original_fill_in_complete_patch_m2": 380.36193516609194
+    },
+    {
+      "xy_km": [
+        19.044252806135,
+        7.49499848317
+      ],
+      "road_index": 970,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 20.502190974652557,
+      "erase_radius_m": 22.00495695705002,
+      "original_fill_in_circle_m2": 157.75379188690061,
+      "original_fill_in_complete_patch_m2": 157.75379188690061
+    },
+    {
+      "xy_km": [
+        31.86834394149,
+        2.749076409053
+      ],
+      "road_index": 1024,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 28.14198841948112,
+      "erase_radius_m": 22.005342326912803,
+      "original_fill_in_circle_m2": 32.383850964932286,
+      "original_fill_in_complete_patch_m2": 32.383850964932286
+    },
+    {
+      "xy_km": [
+        27.253976138722,
+        3.624538204527
+      ],
+      "road_index": 1032,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 27.012662416103783,
+      "erase_radius_m": 22.00524264254065,
+      "original_fill_in_circle_m2": 47.26653107678468,
+      "original_fill_in_complete_patch_m2": 47.26653107678468
+    },
+    {
+      "xy_km": [
+        32.722862028746,
+        3.624538204527
+      ],
+      "road_index": 58,
+      "name": "铁路沿线集散道 7",
+      "kind": "secondary",
+      "centerline_distance_m": 15.263926648428724,
+      "erase_radius_m": 28.755254985203994,
+      "original_fill_in_circle_m2": 331.011554983913,
+      "original_fill_in_complete_patch_m2": 331.011554983913
+    },
+    {
+      "xy_km": [
+        30.763769483076,
+        6.513243366525
+      ],
+      "road_index": 147,
+      "name": "规划集散道 96",
+      "kind": "secondary",
+      "centerline_distance_m": 19.843241769198272,
+      "erase_radius_m": 22.00547626732711,
+      "original_fill_in_circle_m2": 239.44442172233164,
+      "original_fill_in_complete_patch_m2": 239.44442172233164
+    },
+    {
+      "xy_km": [
+        31.678943565068,
+        5.753137622051
+      ],
+      "road_index": 1095,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 5.139482027251674,
+      "erase_radius_m": 22.004772154772162,
+      "original_fill_in_circle_m2": 820.3392456583102,
+      "original_fill_in_complete_patch_m2": 820.3392456583102
+    },
+    {
+      "xy_km": [
+        27.103073155112,
+        4.95358471887
+      ],
+      "road_index": 1039,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 5.722413005557779e-10,
+      "erase_radius_m": 22.00618292738224,
+      "original_fill_in_circle_m2": 423.94254454347947,
+      "original_fill_in_complete_patch_m2": 423.94254454347947
+    },
+    {
+      "xy_km": [
+        33.85326128201,
+        3.643513488309
+      ],
+      "road_index": 1109,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 15.1661695544405,
+      "erase_radius_m": 22.00481607304868,
+      "original_fill_in_circle_m2": 534.0258939272654,
+      "original_fill_in_complete_patch_m2": 534.0258939272654
+    },
+    {
+      "xy_km": [
+        33.85326128201,
+        4.5
+      ],
+      "road_index": 1109,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 15.1661695544405,
+      "erase_radius_m": 28.754364946540043,
+      "original_fill_in_circle_m2": 467.18771014819123,
+      "original_fill_in_complete_patch_m2": 467.1940601481923
+    },
+    {
+      "xy_km": [
+        33.85326128201,
+        4.5
+      ],
+      "road_index": 1129,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 26.758558585116884,
+      "erase_radius_m": 28.754364946540043,
+      "original_fill_in_circle_m2": 195.59932543920013,
+      "original_fill_in_complete_patch_m2": 195.60567543920124
+    },
+    {
+      "xy_km": [
+        34.801856396532,
+        3.643513488309
+      ],
+      "road_index": 1112,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 7.1280591930360515,
+      "erase_radius_m": 22.005615470070587,
+      "original_fill_in_circle_m2": 396.78850934338317,
+      "original_fill_in_complete_patch_m2": 396.78850934338317
+    },
+    {
+      "xy_km": [
+        34.801856396532,
+        4.707888695397
+      ],
+      "road_index": 121,
+      "name": "规划集散道 70",
+      "kind": "secondary",
+      "centerline_distance_m": 40.323470088178105,
+      "erase_radius_m": 28.756633435614276,
+      "original_fill_in_circle_m2": 21.27158939866887,
+      "original_fill_in_complete_patch_m2": 21.27158939866887
+    },
+    {
+      "xy_km": [
+        35.750451511053,
+        3.643513488309
+      ],
+      "road_index": 1115,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 0.9100511693773684,
+      "erase_radius_m": 22.005036515345132,
+      "original_fill_in_circle_m2": 847.1173995018553,
+      "original_fill_in_complete_patch_m2": 847.1173995018553
+    },
+    {
+      "xy_km": [
+        35.750451511053,
+        4.667565225309
+      ],
+      "road_index": 1115,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 0.9100511693773683,
+      "erase_radius_m": 22.004785383771484,
+      "original_fill_in_circle_m2": 423.5524309273662,
+      "original_fill_in_complete_patch_m2": 423.5524309273662
+    },
+    {
+      "xy_km": [
+        37.647641740096,
+        5.44568489558
+      ],
+      "road_index": 1119,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.986271893195237,
+      "erase_radius_m": 28.754895632651305,
+      "original_fill_in_circle_m2": 526.0285109603975,
+      "original_fill_in_complete_patch_m2": 526.0285109603975
+    },
+    {
+      "xy_km": [
+        37.647641740096,
+        5.44568489558
+      ],
+      "road_index": 126,
+      "name": "规划集散道 75",
+      "kind": "secondary",
+      "centerline_distance_m": 26.855601471012847,
+      "erase_radius_m": 28.754895632651305,
+      "original_fill_in_circle_m2": 375.7520383057752,
+      "original_fill_in_complete_patch_m2": 375.7520383057752
+    },
+    {
+      "xy_km": [
+        34.857326714512,
+        5.377990012083
+      ],
+      "road_index": 1144,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.412559027082929e-10,
+      "erase_radius_m": 22.005933965803607,
+      "original_fill_in_circle_m2": 423.9661957423437,
+      "original_fill_in_complete_patch_m2": 423.9661957423437
+    },
+    {
+      "xy_km": [
+        36.699632997254,
+        5.377990012083
+      ],
+      "road_index": 1148,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.0004532555519122e-10,
+      "erase_radius_m": 22.005823639115967,
+      "original_fill_in_circle_m2": 423.96199660602605,
+      "original_fill_in_complete_patch_m2": 423.96199660602605
+    },
+    {
+      "xy_km": [
+        36.699632997254,
+        5.377990012083
+      ],
+      "road_index": 1149,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 9.947598300641403e-11,
+      "erase_radius_m": 22.005823639115967,
+      "original_fill_in_circle_m2": 423.96151328645266,
+      "original_fill_in_complete_patch_m2": 423.96151328645266
+    },
+    {
+      "xy_km": [
+        37.620786138625,
+        5.438722332236
+      ],
+      "road_index": 119,
+      "name": "规划集散道 68",
+      "kind": "secondary",
+      "centerline_distance_m": 26.85560147089916,
+      "erase_radius_m": 28.755341287712117,
+      "original_fill_in_circle_m2": 375.757404698941,
+      "original_fill_in_complete_patch_m2": 375.757404698941
+    },
+    {
+      "xy_km": [
+        33.936173573141,
+        10.645930084581
+      ],
+      "road_index": 3282,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 25.853740139243797,
+      "erase_radius_m": 22.006111049714203,
+      "original_fill_in_circle_m2": 64.18371841013716,
+      "original_fill_in_complete_patch_m2": 64.18371841013716
+    },
+    {
+      "xy_km": [
+        38.4,
+        11.523920096664
+      ],
+      "road_index": 3314,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 10.611017852156124,
+      "erase_radius_m": 28.753034671274325,
+      "original_fill_in_circle_m2": 518.8176421591542,
+      "original_fill_in_complete_patch_m2": 518.8176421591542
+    },
+    {
+      "xy_km": [
+        39.849063420921,
+        8.291042347909
+      ],
+      "road_index": 3831,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 4.3698378249246156e-10,
+      "erase_radius_m": 22.004842737859565,
+      "original_fill_in_circle_m2": 423.9487271041641,
+      "original_fill_in_complete_patch_m2": 423.9487271041641
+    },
+    {
+      "xy_km": [
+        26.958199023219,
+        6.546050008421
+      ],
+      "road_index": 1207,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 14.135502542300582,
+      "erase_radius_m": 28.754606247850134,
+      "original_fill_in_circle_m2": 478.7935080460091,
+      "original_fill_in_complete_patch_m2": 478.7968484650651
+    },
+    {
+      "xy_km": [
+        30.783612724845,
+        6.513072304096
+      ],
+      "road_index": 112,
+      "name": "规划集散道 61",
+      "kind": "secondary",
+      "centerline_distance_m": 19.843241768555227,
+      "erase_radius_m": 22.004806200360818,
+      "original_fill_in_circle_m2": 239.37362131595373,
+      "original_fill_in_complete_patch_m2": 239.37362131595373
+    },
+    {
+      "xy_km": [
+        26.958199023219,
+        7.378251496901
+      ],
+      "road_index": 1218,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 32.28998854051479,
+      "erase_radius_m": 28.755550463518045,
+      "original_fill_in_circle_m2": 79.6717203299633,
+      "original_fill_in_complete_patch_m2": 79.6717203299633
+    },
+    {
+      "xy_km": [
+        31.739966150252,
+        9.134305948852
+      ],
+      "road_index": 3924,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.5757174171303637e-10,
+      "erase_radius_m": 28.756548500538297,
+      "original_fill_in_circle_m2": 562.7152714304295,
+      "original_fill_in_complete_patch_m2": 562.7152714304295
+    },
+    {
+      "xy_km": [
+        24.095015940534,
+        8.334972189929
+      ],
+      "road_index": 4653,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.3803181647963356e-10,
+      "erase_radius_m": 22.005590816950534,
+      "original_fill_in_circle_m2": 423.9625204921093,
+      "original_fill_in_complete_patch_m2": 423.9625204921093
+    },
+    {
+      "xy_km": [
+        24.095015940534,
+        8.334972189929
+      ],
+      "road_index": 4654,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.6612766122810767e-10,
+      "erase_radius_m": 22.005590816950534,
+      "original_fill_in_circle_m2": 423.95702302205467,
+      "original_fill_in_complete_patch_m2": 423.95702302205467
+    },
+    {
+      "xy_km": [
+        24.095015940534,
+        9.226113022278
+      ],
+      "road_index": 4654,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.0022532709708686e-10,
+      "erase_radius_m": 22.005749605508356,
+      "original_fill_in_circle_m2": 423.9368674660865,
+      "original_fill_in_complete_patch_m2": 423.9368674660865
+    },
+    {
+      "xy_km": [
+        24.095015940534,
+        9.226113022278
+      ],
+      "road_index": 4655,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.3803181647963356e-10,
+      "erase_radius_m": 22.005749605508356,
+      "original_fill_in_circle_m2": 423.9944263534243,
+      "original_fill_in_complete_patch_m2": 423.9944263534243
+    },
+    {
+      "xy_km": [
+        24.899344813963,
+        8.334972189929
+      ],
+      "road_index": 4660,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.517186542012496e-10,
+      "erase_radius_m": 22.005443536175726,
+      "original_fill_in_circle_m2": 423.9655409131155,
+      "original_fill_in_complete_patch_m2": 423.9655409131155
+    },
+    {
+      "xy_km": [
+        24.879339692486,
+        11.899535519324
+      ],
+      "road_index": 158,
+      "name": "规划集散道 107",
+      "kind": "secondary",
+      "centerline_distance_m": 20.00512147665034,
+      "erase_radius_m": 22.004480678148123,
+      "original_fill_in_circle_m2": 466.8369937056857,
+      "original_fill_in_complete_patch_m2": 466.8369937056857
+    },
+    {
+      "xy_km": [
+        32.349120288724,
+        14.654255013634
+      ],
+      "road_index": 58,
+      "name": "铁路沿线集散道 7",
+      "kind": "secondary",
+      "centerline_distance_m": 10.472514953545113,
+      "erase_radius_m": 28.75544042278012,
+      "original_fill_in_circle_m2": 1345.5286742215685,
+      "original_fill_in_complete_patch_m2": 1345.5286742215685
+    },
+    {
+      "xy_km": [
+        26.994273489959,
+        15.505370612027
+      ],
+      "road_index": 9,
+      "name": "奥体大道",
+      "kind": "primary",
+      "centerline_distance_m": 8.695608847189298,
+      "erase_radius_m": 28.756002961706194,
+      "original_fill_in_circle_m2": 1912.0315238997928,
+      "original_fill_in_complete_patch_m2": 1912.03787389979
+    },
+    {
+      "xy_km": [
+        26.835617583472,
+        14.546581984135
+      ],
+      "road_index": 1275,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 30.334463687971436,
+      "erase_radius_m": 28.755458546261845,
+      "original_fill_in_circle_m2": 160.39604600590178,
+      "original_fill_in_complete_patch_m2": 160.39604600590178
+    },
+    {
+      "xy_km": [
+        25.490367483073,
+        16.698641143526
+      ],
+      "road_index": 190,
+      "name": "规划集散道 139",
+      "kind": "secondary",
+      "centerline_distance_m": 29.712943092951715,
+      "erase_radius_m": 22.00600620148255,
+      "original_fill_in_circle_m2": 110.21277478732897,
+      "original_fill_in_complete_patch_m2": 110.21277478732897
+    },
+    {
+      "xy_km": [
+        28.87095873466,
+        16.122281394486
+      ],
+      "road_index": 2986,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 7.228787205143306,
+      "erase_radius_m": 22.00507179089032,
+      "original_fill_in_circle_m2": 791.9611823256588,
+      "original_fill_in_complete_patch_m2": 791.9633192408545
+    },
+    {
+      "xy_km": [
+        28.87095873466,
+        16.122281394486
+      ],
+      "road_index": 2980,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.5099409528787078,
+      "erase_radius_m": 22.00507179089032,
+      "original_fill_in_circle_m2": 845.6053943113527,
+      "original_fill_in_complete_patch_m2": 845.6075312265483
+    },
+    {
+      "xy_km": [
+        28.521391603161,
+        16.871930527168
+      ],
+      "road_index": 2970,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 30.428194277419337,
+      "erase_radius_m": 22.00646262711361,
+      "original_fill_in_circle_m2": 0.03902952070754508,
+      "original_fill_in_complete_patch_m2": 0.03902952070754508
+    },
+    {
+      "xy_km": [
+        28.521391603161,
+        16.871930527168
+      ],
+      "road_index": 1345,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 14.87885584562844,
+      "erase_radius_m": 22.00646262711361,
+      "original_fill_in_circle_m2": 369.3839044843586,
+      "original_fill_in_complete_patch_m2": 369.3839044843586
+    },
+    {
+      "xy_km": [
+        30.092181543566,
+        17.620530341171
+      ],
+      "road_index": 1345,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 0.4813898882478152,
+      "erase_radius_m": 28.754379170358774,
+      "original_fill_in_circle_m2": 337.31135745824014,
+      "original_fill_in_complete_patch_m2": 337.31135745824014
+    },
+    {
+      "xy_km": [
+        31.019511182358,
+        15.298857928517
+      ],
+      "road_index": 3006,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 7.591965817835208,
+      "erase_radius_m": 22.0048828581765,
+      "original_fill_in_circle_m2": 357.64471877472187,
+      "original_fill_in_complete_patch_m2": 357.64471877472187
+    },
+    {
+      "xy_km": [
+        27.213992592634,
+        16.262280356295
+      ],
+      "road_index": 1345,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 14.878855845620802,
+      "erase_radius_m": 22.005705136504346,
+      "original_fill_in_circle_m2": 365.99442484841734,
+      "original_fill_in_complete_patch_m2": 365.99442484841734
+    },
+    {
+      "xy_km": [
+        26.299655640904,
+        16.493758065594
+      ],
+      "road_index": 1372,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 10.829464870621951,
+      "erase_radius_m": 22.005281717829003,
+      "original_fill_in_circle_m2": 224.3437079328508,
+      "original_fill_in_complete_patch_m2": 224.3437079328508
+    },
+    {
+      "xy_km": [
+        26.064079758218,
+        16.99895217632
+      ],
+      "road_index": 1374,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.8545709872538207e-10,
+      "erase_radius_m": 22.005721639602715,
+      "original_fill_in_circle_m2": 260.4787455163438,
+      "original_fill_in_complete_patch_m2": 260.4787455163438
+    },
+    {
+      "xy_km": [
+        26.064079758218,
+        16.99895217632
+      ],
+      "road_index": 1365,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.711474667010036e-11,
+      "erase_radius_m": 22.005721639602715,
+      "original_fill_in_circle_m2": 260.4635898215084,
+      "original_fill_in_complete_patch_m2": 260.466252906314
+    },
+    {
+      "xy_km": [
+        25.444799906414,
+        16.710177238883
+      ],
+      "road_index": 1374,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 4.557002132597083e-10,
+      "erase_radius_m": 22.005808552503797,
+      "original_fill_in_circle_m2": 260.48535687529295,
+      "original_fill_in_complete_patch_m2": 260.48535687529295
+    },
+    {
+      "xy_km": [
+        25.444799906414,
+        16.710177238883
+      ],
+      "road_index": 1361,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 23.57825934713178,
+      "erase_radius_m": 22.005808552503797,
+      "original_fill_in_circle_m2": 6.997155888881844,
+      "original_fill_in_complete_patch_m2": 6.997155888881844
+    },
+    {
+      "xy_km": [
+        28.336003566587,
+        24.993815317188
+      ],
+      "road_index": 1462,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.7910394809339483,
+      "erase_radius_m": 22.005837056675244,
+      "original_fill_in_circle_m2": 516.5107252205969,
+      "original_fill_in_complete_patch_m2": 516.5109744920794
+    },
+    {
+      "xy_km": [
+        27.963576183142,
+        25.792488418372
+      ],
+      "road_index": 1517,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.3039409520868986e-10,
+      "erase_radius_m": 22.00504158495766,
+      "original_fill_in_circle_m2": 260.49655605375006,
+      "original_fill_in_complete_patch_m2": 260.4968053252315
+    },
+    {
+      "xy_km": [
+        27.963576183142,
+        25.792488418372
+      ],
+      "road_index": 1462,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.7910394804840433,
+      "erase_radius_m": 22.00504158495766,
+      "original_fill_in_circle_m2": 516.4781718582448,
+      "original_fill_in_complete_patch_m2": 516.4783725867445
+    },
+    {
+      "xy_km": [
+        29.569870475473,
+        24.596838063755
+      ],
+      "road_index": 1475,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 5.968995508075981,
+      "erase_radius_m": 22.004967112192514,
+      "original_fill_in_circle_m2": 250.13443718281658,
+      "original_fill_in_complete_patch_m2": 250.13710026762362
+    },
+    {
+      "xy_km": [
+        28.741270949086,
+        28.622834354085
+      ],
+      "road_index": 1557,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 4.617053143900691,
+      "erase_radius_m": 28.755242617819423,
+      "original_fill_in_circle_m2": 354.3330641032877,
+      "original_fill_in_complete_patch_m2": 354.3330641032877
+    },
+    {
+      "xy_km": [
+        31.292749526357,
+        25.400229759256
+      ],
+      "road_index": 42,
+      "name": "旧城外围恢复环路",
+      "kind": "primary",
+      "centerline_distance_m": 21.629065737901975,
+      "erase_radius_m": 22.005668179036686,
+      "original_fill_in_circle_m2": 687.5028410288556,
+      "original_fill_in_complete_patch_m2": 687.5028410288556
+    },
+    {
+      "xy_km": [
+        31.409334284909,
+        27.399271809376
+      ],
+      "road_index": 5162,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.7217151148516576,
+      "erase_radius_m": 22.00517357543699,
+      "original_fill_in_circle_m2": 355.2486603296313,
+      "original_fill_in_complete_patch_m2": 355.2486603296313
+    },
+    {
+      "xy_km": [
+        31.314037849317,
+        25.410156667282
+      ],
+      "road_index": 194,
+      "name": "规划集散道 143",
+      "kind": "secondary",
+      "centerline_distance_m": 23.489065486285295,
+      "erase_radius_m": 28.75580765547799,
+      "original_fill_in_circle_m2": 360.32256822470185,
+      "original_fill_in_complete_patch_m2": 360.33181514851464
+    },
+    {
+      "xy_km": [
+        30.175467376023,
+        27.796249062809
+      ],
+      "road_index": 5163,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.7217151144751863,
+      "erase_radius_m": 22.005843840975626,
+      "original_fill_in_circle_m2": 355.2224140343301,
+      "original_fill_in_complete_patch_m2": 355.2224140343301
+    },
+    {
+      "xy_km": [
+        27.242094538455,
+        25.327098692754
+      ],
+      "road_index": 1581,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 10.678632858374556,
+      "erase_radius_m": 28.754842388383633,
+      "original_fill_in_circle_m2": 268.7083873207609,
+      "original_fill_in_complete_patch_m2": 268.7083873207609
+    },
+    {
+      "xy_km": [
+        27.242094538455,
+        25.327098692754
+      ],
+      "road_index": 1453,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 9.049605586667981,
+      "erase_radius_m": 28.754842388383633,
+      "original_fill_in_circle_m2": 287.12492356363185,
+      "original_fill_in_complete_patch_m2": 287.12492356363185
+    },
+    {
+      "xy_km": [
+        27.242094538455,
+        25.327098692754
+      ],
+      "road_index": 1516,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.293840445780288,
+      "erase_radius_m": 28.754842388383633,
+      "original_fill_in_circle_m2": 357.66387101930263,
+      "original_fill_in_complete_patch_m2": 357.66387101930263
+    },
+    {
+      "xy_km": [
+        19.852605460231,
+        8.698873454221
+      ],
+      "road_index": 3,
+      "name": "楚岸滨江大道",
+      "kind": "primary",
+      "centerline_distance_m": 30.458221401599175,
+      "erase_radius_m": 22.00600359169078,
+      "original_fill_in_circle_m2": 317.2728725043896,
+      "original_fill_in_complete_patch_m2": 317.2728725043896
+    },
+    {
+      "xy_km": [
+        18.207685980628,
+        12.418784698809
+      ],
+      "road_index": 1751,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 14.480169105832275,
+      "erase_radius_m": 22.00543021479683,
+      "original_fill_in_circle_m2": 189.80426463851322,
+      "original_fill_in_complete_patch_m2": 189.80426463851322
+    },
+    {
+      "xy_km": [
+        15.932453288598,
+        12.469506662647
+      ],
+      "road_index": 2119,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 15.879977421525027,
+      "erase_radius_m": 22.005929373958484,
+      "original_fill_in_circle_m2": 251.84968110502402,
+      "original_fill_in_complete_patch_m2": 251.84968110502402
+    },
+    {
+      "xy_km": [
+        14.670736290529,
+        11.547577016853
+      ],
+      "road_index": 2101,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 29.124298611505665,
+      "erase_radius_m": 28.75625518862812,
+      "original_fill_in_circle_m2": 4.499606961300894,
+      "original_fill_in_complete_patch_m2": 4.499606961300894
+    },
+    {
+      "xy_km": [
+        15.933594454731,
+        13.06141794397
+      ],
+      "road_index": 2119,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.23289713175444,
+      "erase_radius_m": 22.00538233342253,
+      "original_fill_in_circle_m2": 161.2743448552246,
+      "original_fill_in_complete_patch_m2": 161.2743448552246
+    },
+    {
+      "xy_km": [
+        15.933594454731,
+        15.109284107809
+      ],
+      "road_index": 1815,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 24.32319159204965,
+      "erase_radius_m": 28.75532393439258,
+      "original_fill_in_circle_m2": 177.67124960796463,
+      "original_fill_in_complete_patch_m2": 177.67124960796463
+    },
+    {
+      "xy_km": [
+        17.597045727896,
+        13.197932393296
+      ],
+      "road_index": 1779,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 23.845223588814694,
+      "erase_radius_m": 28.75567490327439,
+      "original_fill_in_circle_m2": 170.740272752581,
+      "original_fill_in_complete_patch_m2": 170.74662275257995
+    },
+    {
+      "xy_km": [
+        17.597045727896,
+        13.197932393296
+      ],
+      "road_index": 1755,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 8.83817166710158,
+      "erase_radius_m": 28.75567490327439,
+      "original_fill_in_circle_m2": 306.51675133237836,
+      "original_fill_in_complete_patch_m2": 306.51675133237836
+    },
+    {
+      "xy_km": [
+        17.597045727896,
+        13.197932393296
+      ],
+      "road_index": 1787,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 13.932448844158785,
+      "erase_radius_m": 28.75567490327439,
+      "original_fill_in_circle_m2": 297.63762599857125,
+      "original_fill_in_complete_patch_m2": 297.63762599857125
+    },
+    {
+      "xy_km": [
+        15.933594454731,
+        14.185780752979
+      ],
+      "road_index": 2132,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.5631940186722204e-10,
+      "erase_radius_m": 22.004454743883567,
+      "original_fill_in_circle_m2": 423.97780563543597,
+      "original_fill_in_complete_patch_m2": 423.97780563543597
+    },
+    {
+      "xy_km": [
+        15.658352426352,
+        16.566167299372
+      ],
+      "road_index": 1862,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.5987211554602254e-10,
+      "erase_radius_m": 22.00497673728721,
+      "original_fill_in_circle_m2": 423.9974287195567,
+      "original_fill_in_complete_patch_m2": 423.9974287195567
+    },
+    {
+      "xy_km": [
+        15.658352426352,
+        16.566167299372
+      ],
+      "road_index": 1861,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.8958546965271006e-10,
+      "erase_radius_m": 22.00497673728721,
+      "original_fill_in_circle_m2": 423.92883487400894,
+      "original_fill_in_complete_patch_m2": 423.92883487400894
+    },
+    {
+      "xy_km": [
+        16.616618696869,
+        16.566167299372
+      ],
+      "road_index": 1852,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 7.703312568978049,
+      "erase_radius_m": 22.005119961637018,
+      "original_fill_in_circle_m2": 391.9803036083787,
+      "original_fill_in_complete_patch_m2": 391.9803036083787
+    },
+    {
+      "xy_km": [
+        16.616618696869,
+        16.566167299372
+      ],
+      "road_index": 1862,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.7795514091813223e-10,
+      "erase_radius_m": 22.005119961637018,
+      "original_fill_in_circle_m2": 423.97859313091493,
+      "original_fill_in_complete_patch_m2": 423.97859313091493
+    },
+    {
+      "xy_km": [
+        16.616618696869,
+        16.566167299372
+      ],
+      "road_index": 1863,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.5987211554602257e-10,
+      "erase_radius_m": 22.005119961637018,
+      "original_fill_in_circle_m2": 423.94867046266853,
+      "original_fill_in_complete_patch_m2": 423.94867046266853
+    },
+    {
+      "xy_km": [
+        17.574884967386,
+        16.566167299372
+      ],
+      "road_index": 1864,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.580062763309642e-10,
+      "erase_radius_m": 22.005512643925154,
+      "original_fill_in_circle_m2": 423.95941011705526,
+      "original_fill_in_complete_patch_m2": 423.95941011705526
+    },
+    {
+      "xy_km": [
+        17.574884967386,
+        16.566167299372
+      ],
+      "road_index": 1863,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.5987211554602257e-10,
+      "erase_radius_m": 22.005512643925154,
+      "original_fill_in_circle_m2": 423.9796555652001,
+      "original_fill_in_complete_patch_m2": 423.9796555652001
+    },
+    {
+      "xy_km": [
+        14.781629923695,
+        17.332678717264
+      ],
+      "road_index": 2190,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 4.0552550314761096,
+      "erase_radius_m": 28.75441278856263,
+      "original_fill_in_circle_m2": 548.0643152690877,
+      "original_fill_in_complete_patch_m2": 548.0643152690877
+    },
+    {
+      "xy_km": [
+        18.436200844905,
+        17.332678717264
+      ],
+      "road_index": 1830,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 6.160536862843457,
+      "erase_radius_m": 28.754900348480053,
+      "original_fill_in_circle_m2": 583.7878525015719,
+      "original_fill_in_complete_patch_m2": 583.7878525015719
+    },
+    {
+      "xy_km": [
+        17.056656622351,
+        17.829362816741
+      ],
+      "road_index": 1902,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 17.30496980581364,
+      "erase_radius_m": 22.006299310140175,
+      "original_fill_in_circle_m2": 142.48511989838258,
+      "original_fill_in_complete_patch_m2": 142.48511989838258
+    },
+    {
+      "xy_km": [
+        18.672434903097,
+        21.317879154597
+      ],
+      "road_index": 1954,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 34.18744966990838,
+      "erase_radius_m": 28.755023815041483,
+      "original_fill_in_circle_m2": 0.870397947154963,
+      "original_fill_in_complete_patch_m2": 0.870397947154963
+    },
+    {
+      "xy_km": [
+        18.592553251733,
+        22.166621700334
+      ],
+      "road_index": 1958,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 21.186828256286816,
+      "erase_radius_m": 28.75610439254862,
+      "original_fill_in_circle_m2": 247.4907275023779,
+      "original_fill_in_complete_patch_m2": 247.4907275023779
+    },
+    {
+      "xy_km": [
+        19.791722331733,
+        22.166621700334
+      ],
+      "road_index": 1977,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 21.688511514511788,
+      "erase_radius_m": 22.005357653663697,
+      "original_fill_in_circle_m2": 66.68273875657951,
+      "original_fill_in_complete_patch_m2": 66.68273875657951
+    },
+    {
+      "xy_km": [
+        18.51267160037,
+        23.015364246072
+      ],
+      "road_index": 1940,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 9.18460255510567,
+      "erase_radius_m": 28.75509584268539,
+      "original_fill_in_circle_m2": 647.2939483846476,
+      "original_fill_in_complete_patch_m2": 647.2939483846476
+    },
+    {
+      "xy_km": [
+        14.979018912568,
+        19.599562415777
+      ],
+      "road_index": 2210,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 24.64103600915557,
+      "erase_radius_m": 22.00608670054988,
+      "original_fill_in_circle_m2": 83.37706196568713,
+      "original_fill_in_complete_patch_m2": 83.37706196568713
+    },
+    {
+      "xy_km": [
+        15.958037825137,
+        18.781835250533
+      ],
+      "road_index": 2195,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 15.165291917802174,
+      "erase_radius_m": 28.754749549249304,
+      "original_fill_in_circle_m2": 466.3141699525105,
+      "original_fill_in_complete_patch_m2": 466.3141699525105
+    },
+    {
+      "xy_km": [
+        17.916075650274,
+        18.775865623017
+      ],
+      "road_index": 1932,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 4.928165831343375e-10,
+      "erase_radius_m": 28.755130193978612,
+      "original_fill_in_circle_m2": 342.2243021527174,
+      "original_fill_in_complete_patch_m2": 342.2243021527174
+    },
+    {
+      "xy_km": [
+        17.916075650274,
+        22.905890281103
+      ],
+      "road_index": 1936,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.5827844827391317e-10,
+      "erase_radius_m": 22.0043497277956,
+      "original_fill_in_circle_m2": 260.4627349671935,
+      "original_fill_in_complete_patch_m2": 260.4627349671935
+    },
+    {
+      "xy_km": [
+        17.916075650274,
+        22.905890281103
+      ],
+      "road_index": 1937,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.8118839761882555e-10,
+      "erase_radius_m": 22.0043497277956,
+      "original_fill_in_circle_m2": 260.45598850256624,
+      "original_fill_in_complete_patch_m2": 260.45598850256624
+    },
+    {
+      "xy_km": [
+        17.916075650274,
+        19.599562415777
+      ],
+      "road_index": 1932,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.613478338556658e-10,
+      "erase_radius_m": 22.00450823650599,
+      "original_fill_in_circle_m2": 260.44676026768366,
+      "original_fill_in_complete_patch_m2": 260.44676026768366
+    },
+    {
+      "xy_km": [
+        17.916075650274,
+        19.599562415777
+      ],
+      "road_index": 1933,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.8118839761882552e-10,
+      "erase_radius_m": 22.00450823650599,
+      "original_fill_in_circle_m2": 260.4872316271673,
+      "original_fill_in_complete_patch_m2": 260.4872316271673
+    },
+    {
+      "xy_km": [
+        17.916075650274,
+        20.426144382108
+      ],
+      "road_index": 1933,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.8118839761882552e-10,
+      "erase_radius_m": 22.00528820982798,
+      "original_fill_in_circle_m2": 260.47035624572675,
+      "original_fill_in_complete_patch_m2": 260.47035624572675
+    },
+    {
+      "xy_km": [
+        17.916075650274,
+        20.426144382108
+      ],
+      "road_index": 1934,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.6388317457857966e-10,
+      "erase_radius_m": 22.00528820982798,
+      "original_fill_in_circle_m2": 260.4636356491548,
+      "original_fill_in_complete_patch_m2": 260.4636356491548
+    },
+    {
+      "xy_km": [
+        17.916075650274,
+        21.25272634844
+      ],
+      "road_index": 1934,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.5521807317746556e-10,
+      "erase_radius_m": 22.005919166966404,
+      "original_fill_in_circle_m2": 260.47240222376917,
+      "original_fill_in_complete_patch_m2": 260.47240222376917
+    },
+    {
+      "xy_km": [
+        17.916075650274,
+        21.25272634844
+      ],
+      "road_index": 1935,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.8118839761882552e-10,
+      "erase_radius_m": 22.005919166966404,
+      "original_fill_in_circle_m2": 260.46158967108795,
+      "original_fill_in_complete_patch_m2": 260.46158967108795
+    },
+    {
+      "xy_km": [
+        14.979018912568,
+        22.079308314771
+      ],
+      "road_index": 2236,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 12.72286302834047,
+      "erase_radius_m": 22.005015208166043,
+      "original_fill_in_circle_m2": 319.788033905776,
+      "original_fill_in_complete_patch_m2": 319.788033905776
+    },
+    {
+      "xy_km": [
+        17.916075650274,
+        22.079308314771
+      ],
+      "road_index": 1935,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.8118839761882552e-10,
+      "erase_radius_m": 22.005039163793157,
+      "original_fill_in_circle_m2": 260.4820889891824,
+      "original_fill_in_complete_patch_m2": 260.4820889891824
+    },
+    {
+      "xy_km": [
+        17.916075650274,
+        22.079308314771
+      ],
+      "road_index": 1936,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.6388317457857966e-10,
+      "erase_radius_m": 22.005039163793157,
+      "original_fill_in_circle_m2": 260.47958448055437,
+      "original_fill_in_complete_patch_m2": 260.47958448055437
+    },
+    {
+      "xy_km": [
+        15.218261592561,
+        22.905890281103
+      ],
+      "road_index": 2271,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 5.512048149569182,
+      "erase_radius_m": 28.754303190841064,
+      "original_fill_in_circle_m2": 551.2551045513674,
+      "original_fill_in_complete_patch_m2": 551.2551045513674
+    },
+    {
+      "xy_km": [
+        15.218261592561,
+        22.905890281103
+      ],
+      "road_index": 2263,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 23.443091808605487,
+      "erase_radius_m": 28.754303190841064,
+      "original_fill_in_circle_m2": 513.5189216497447,
+      "original_fill_in_complete_patch_m2": 513.5189216497447
+    },
+    {
+      "xy_km": [
+        16.576092871664,
+        24.278111595156
+      ],
+      "road_index": 2283,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.359012583644077e-10,
+      "erase_radius_m": 22.00487151086382,
+      "original_fill_in_circle_m2": 423.95451050860385,
+      "original_fill_in_complete_patch_m2": 423.95451050860385
+    },
+    {
+      "xy_km": [
+        17.510635977129,
+        25.906612674579
+      ],
+      "road_index": 2018,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.2079226507921706e-10,
+      "erase_radius_m": 22.006059036564086,
+      "original_fill_in_circle_m2": 423.9783004933466,
+      "original_fill_in_complete_patch_m2": 423.9783004933466
+    },
+    {
+      "xy_km": [
+        17.510635977129,
+        25.906612674579
+      ],
+      "road_index": 2019,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.3185084355603686e-10,
+      "erase_radius_m": 22.006059036564086,
+      "original_fill_in_circle_m2": 423.9607653210257,
+      "original_fill_in_complete_patch_m2": 423.9607653210257
+    },
+    {
+      "xy_km": [
+        16.23787228856,
+        24.278111595156
+      ],
+      "road_index": 2282,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 26.706214615813906,
+      "erase_radius_m": 28.755574656320633,
+      "original_fill_in_circle_m2": 196.81644929305273,
+      "original_fill_in_complete_patch_m2": 196.82279929305474
+    },
+    {
+      "xy_km": [
+        16.23787228856,
+        24.278111595156
+      ],
+      "road_index": 313,
+      "name": "规划集散道 262",
+      "kind": "secondary",
+      "centerline_distance_m": 31.69201644262858,
+      "erase_radius_m": 28.755574656320633,
+      "original_fill_in_circle_m2": 60.99942905984824,
+      "original_fill_in_complete_patch_m2": 60.99942905984824
+    },
+    {
+      "xy_km": [
+        18.393824791044,
+        24.278111595156
+      ],
+      "road_index": 1984,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 38.30148704808422,
+      "erase_radius_m": 28.754791088246332,
+      "original_fill_in_circle_m2": 2.7897910965090134,
+      "original_fill_in_complete_patch_m2": 2.7897910965090134
+    },
+    {
+      "xy_km": [
+        17.027448569493,
+        25.906612674579
+      ],
+      "road_index": 2018,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.2079226507921706e-10,
+      "erase_radius_m": 28.755946819756055,
+      "original_fill_in_circle_m2": 562.7285944752963,
+      "original_fill_in_complete_patch_m2": 562.7285944752963
+    },
+    {
+      "xy_km": [
+        14.770593154015,
+        8.534892323119
+      ],
+      "road_index": 3152,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 30.898940275392306,
+      "erase_radius_m": 22.00494392769076,
+      "original_fill_in_circle_m2": 4.941147759016729,
+      "original_fill_in_complete_patch_m2": 4.941147759016729
+    },
+    {
+      "xy_km": [
+        14.770593154015,
+        8.534892323119
+      ],
+      "road_index": 2054,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 29.894811410384747,
+      "erase_radius_m": 22.00494392769076,
+      "original_fill_in_circle_m2": 13.15311049571013,
+      "original_fill_in_complete_patch_m2": 13.15311049571013
+    },
+    {
+      "xy_km": [
+        15.56211776906,
+        8.534892323119
+      ],
+      "road_index": 3152,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 30.898940275392306,
+      "erase_radius_m": 22.005211864205457,
+      "original_fill_in_circle_m2": 9.8747324934187,
+      "original_fill_in_complete_patch_m2": 9.8747324934187
+    },
+    {
+      "xy_km": [
+        15.56211776906,
+        8.534892323119
+      ],
+      "road_index": 3146,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.286260152890464e-10,
+      "erase_radius_m": 22.005211864205457,
+      "original_fill_in_circle_m2": 847.9262657909566,
+      "original_fill_in_complete_patch_m2": 847.9262657909566
+    },
+    {
+      "xy_km": [
+        15.56211776906,
+        9.004404377452
+      ],
+      "road_index": 3146,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.9365045507149445e-10,
+      "erase_radius_m": 22.005568963839597,
+      "original_fill_in_circle_m2": 423.9678579695353,
+      "original_fill_in_complete_patch_m2": 423.9678579695353
+    },
+    {
+      "xy_km": [
+        13.403243002504,
+        7.497079662905
+      ],
+      "road_index": 2076,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 27.1611724376477,
+      "erase_radius_m": 22.00612591027222,
+      "original_fill_in_circle_m2": 90.420294248147,
+      "original_fill_in_complete_patch_m2": 90.420294248147
+    },
+    {
+      "xy_km": [
+        13.403243002504,
+        9.246750852662
+      ],
+      "road_index": 2083,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.09271579921767,
+      "erase_radius_m": 22.005457079869206,
+      "original_fill_in_circle_m2": 247.36120319810638,
+      "original_fill_in_complete_patch_m2": 247.36120319810638
+    },
+    {
+      "xy_km": [
+        13.403243002504,
+        9.246750852662
+      ],
+      "road_index": 261,
+      "name": "规划集散道 210",
+      "kind": "secondary",
+      "centerline_distance_m": 8.641264386719527,
+      "erase_radius_m": 22.005457079869206,
+      "original_fill_in_circle_m2": 625.178327930623,
+      "original_fill_in_complete_patch_m2": 545.0444751808743
+    },
+    {
+      "xy_km": [
+        12.217096427391,
+        8.489636017484
+      ],
+      "road_index": 4051,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 6.047522136068295,
+      "erase_radius_m": 22.005334780304143,
+      "original_fill_in_circle_m2": 594.1959526496972,
+      "original_fill_in_complete_patch_m2": 594.1959526496972
+    },
+    {
+      "xy_km": [
+        12.217096427391,
+        8.489636017484
+      ],
+      "road_index": 4048,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 21.021261011215483,
+      "erase_radius_m": 22.005334780304143,
+      "original_fill_in_circle_m2": 275.43319556233365,
+      "original_fill_in_complete_patch_m2": 275.43319556233365
+    },
+    {
+      "xy_km": [
+        13.403243002504,
+        8.489636017484
+      ],
+      "road_index": 2080,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 13.58058621925906,
+      "erase_radius_m": 22.005808798763695,
+      "original_fill_in_circle_m2": 301.2109830491928,
+      "original_fill_in_complete_patch_m2": 301.2109830491928
+    },
+    {
+      "xy_km": [
+        10.697916951708,
+        7.519946990452
+      ],
+      "road_index": 255,
+      "name": "规划集散道 204",
+      "kind": "secondary",
+      "centerline_distance_m": 22.86732754654519,
+      "erase_radius_m": 22.00632199324556,
+      "original_fill_in_circle_m2": 350.21626347050363,
+      "original_fill_in_complete_patch_m2": 350.21626347050363
+    },
+    {
+      "xy_km": [
+        11.596811880511,
+        8.266731441073
+      ],
+      "road_index": 4045,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.730349362740526e-11,
+      "erase_radius_m": 22.004644119097453,
+      "original_fill_in_circle_m2": 423.95143108347713,
+      "original_fill_in_complete_patch_m2": 423.95143108347713
+    },
+    {
+      "xy_km": [
+        11.596811880511,
+        8.266731441073
+      ],
+      "road_index": 4046,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 4.934628498920887e-10,
+      "erase_radius_m": 22.004644119097453,
+      "original_fill_in_circle_m2": 423.9758360743705,
+      "original_fill_in_complete_patch_m2": 423.9758360743705
+    },
+    {
+      "xy_km": [
+        13.394601738117,
+        9.24123515199
+      ],
+      "road_index": 254,
+      "name": "规划集散道 203",
+      "kind": "secondary",
+      "centerline_distance_m": 8.641264386969993,
+      "erase_radius_m": 22.00499376887111,
+      "original_fill_in_circle_m2": 625.2252188793195,
+      "original_fill_in_complete_patch_m2": 625.2252188793195
+    },
+    {
+      "xy_km": [
+        13.394601738117,
+        9.24123515199
+      ],
+      "road_index": 2083,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 13.658136739940725,
+      "erase_radius_m": 22.00499376887111,
+      "original_fill_in_circle_m2": 186.8781329805549,
+      "original_fill_in_complete_patch_m2": 186.8781329805549
+    },
+    {
+      "xy_km": [
+        13.394601738117,
+        13.129190260718
+      ],
+      "road_index": 3397,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 20.6109265255936,
+      "erase_radius_m": 22.005571425736232,
+      "original_fill_in_circle_m2": 311.3080877204464,
+      "original_fill_in_complete_patch_m2": 311.3080877204464
+    },
+    {
+      "xy_km": [
+        14.29349666692,
+        10.025617703724
+      ],
+      "road_index": 4,
+      "name": "学府大道",
+      "kind": "primary",
+      "centerline_distance_m": 41.52145642171732,
+      "erase_radius_m": 22.004618855614687,
+      "original_fill_in_circle_m2": 2.755936938482895,
+      "original_fill_in_complete_patch_m2": 2.755936938482895
+    },
+    {
+      "xy_km": [
+        14.29349666692,
+        12.6639470977
+      ],
+      "road_index": 2109,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 17.500176259311218,
+      "erase_radius_m": 22.006252934472045,
+      "original_fill_in_circle_m2": 217.93798123377817,
+      "original_fill_in_complete_patch_m2": 217.93798123377817
+    },
+    {
+      "xy_km": [
+        14.335280868025,
+        10.025617703724
+      ],
+      "road_index": 262,
+      "name": "规划集散道 211",
+      "kind": "secondary",
+      "centerline_distance_m": 41.784201104597685,
+      "erase_radius_m": 28.755023130458948,
+      "original_fill_in_circle_m2": 0.43409702450605464,
+      "original_fill_in_complete_patch_m2": 0.43409702450605464
+    },
+    {
+      "xy_km": [
+        6.50506083505,
+        10.90506083505
+      ],
+      "road_index": 4175,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.0215866126725,
+      "erase_radius_m": 22.006343969560067,
+      "original_fill_in_circle_m2": 248.8280661330157,
+      "original_fill_in_complete_patch_m2": 248.8280661330157
+    },
+    {
+      "xy_km": [
+        6.50506083505,
+        10.90506083505
+      ],
+      "road_index": 4187,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 13.488975702425245,
+      "erase_radius_m": 22.006343969560067,
+      "original_fill_in_circle_m2": 532.7658602816059,
+      "original_fill_in_complete_patch_m2": 532.7658602816059
+    },
+    {
+      "xy_km": [
+        12.409654114582,
+        12.6639470977
+      ],
+      "road_index": 272,
+      "name": "规划集散道 221",
+      "kind": "secondary",
+      "centerline_distance_m": 13.235770813015078,
+      "erase_radius_m": 22.00585591377466,
+      "original_fill_in_circle_m2": 537.4330440138202,
+      "original_fill_in_complete_patch_m2": 537.4330440138202
+    },
+    {
+      "xy_km": [
+        9.598209171884,
+        12.053038019419
+      ],
+      "road_index": 3430,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 21.538246753010526,
+      "erase_radius_m": 22.004658288551227,
+      "original_fill_in_circle_m2": 138.0393369649103,
+      "original_fill_in_complete_patch_m2": 138.0393369649103
+    },
+    {
+      "xy_km": [
+        10.530945562513,
+        14.612152077676
+      ],
+      "road_index": 3431,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.15368506547199,
+      "erase_radius_m": 22.00540692911731,
+      "original_fill_in_circle_m2": 246.03617344325335,
+      "original_fill_in_complete_patch_m2": 246.03617344325335
+    },
+    {
+      "xy_km": [
+        11.463681953141,
+        14.612152077676
+      ],
+      "road_index": 3434,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 10.769123376929812,
+      "erase_radius_m": 22.004702646877142,
+      "original_fill_in_circle_m2": 356.71303361206776,
+      "original_fill_in_complete_patch_m2": 356.71303361206776
+    },
+    {
+      "xy_km": [
+        12.396418343769,
+        12.656644603459
+      ],
+      "road_index": 268,
+      "name": "规划集散道 217",
+      "kind": "secondary",
+      "centerline_distance_m": 15.116615069485853,
+      "erase_radius_m": 22.004961193273644,
+      "original_fill_in_circle_m2": 157.64280336558633,
+      "original_fill_in_complete_patch_m2": 157.64280336558633
+    },
+    {
+      "xy_km": [
+        12.396418343769,
+        14.612152077676
+      ],
+      "road_index": 3437,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 5.384561688391187,
+      "erase_radius_m": 22.00464473737348,
+      "original_fill_in_circle_m2": 408.7781376733759,
+      "original_fill_in_complete_patch_m2": 408.7781376733759
+    },
+    {
+      "xy_km": [
+        9.598209171884,
+        12.906076038838
+      ],
+      "road_index": 3430,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 21.538246753010526,
+      "erase_radius_m": 22.005416404786768,
+      "original_fill_in_circle_m2": 276.12284596329414,
+      "original_fill_in_complete_patch_m2": 276.12284596329414
+    },
+    {
+      "xy_km": [
+        12.848512820394,
+        12.906076038838
+      ],
+      "road_index": 3389,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 9.507359629006729,
+      "erase_radius_m": 22.005972080382083,
+      "original_fill_in_circle_m2": 700.3333061551263,
+      "original_fill_in_complete_patch_m2": 700.3333061551263
+    },
+    {
+      "xy_km": [
+        9.598209171884,
+        13.759114058257
+      ],
+      "road_index": 3430,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 21.538246753010526,
+      "erase_radius_m": 22.00443970413453,
+      "original_fill_in_circle_m2": 276.11459596328905,
+      "original_fill_in_complete_patch_m2": 276.11459596328905
+    },
+    {
+      "xy_km": [
+        14.261891125025,
+        13.759114058257
+      ],
+      "road_index": 2143,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 8.095994452583355,
+      "erase_radius_m": 22.004745169391576,
+      "original_fill_in_circle_m2": 388.3737726368626,
+      "original_fill_in_complete_patch_m2": 388.3737726368626
+    },
+    {
+      "xy_km": [
+        11.323522535327,
+        15.793809859125
+      ],
+      "road_index": 2174,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.870994818116714,
+      "erase_radius_m": 28.7565921756995,
+      "original_fill_in_circle_m2": 439.99590156421453,
+      "original_fill_in_complete_patch_m2": 439.99590156421453
+    },
+    {
+      "xy_km": [
+        11.323522535327,
+        17.33741162907
+      ],
+      "road_index": 2899,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 21.925566186460795,
+      "erase_radius_m": 22.0051835164803,
+      "original_fill_in_circle_m2": 261.72183828938466,
+      "original_fill_in_complete_patch_m2": 261.72183828938466
+    },
+    {
+      "xy_km": [
+        11.323522535327,
+        17.33741162907
+      ],
+      "road_index": 288,
+      "name": "规划集散道 237",
+      "kind": "secondary",
+      "centerline_distance_m": 25.635756457372562,
+      "erase_radius_m": 22.0051835164803,
+      "original_fill_in_circle_m2": 70.84178104163855,
+      "original_fill_in_complete_patch_m2": 545.0550408578436
+    },
+    {
+      "xy_km": [
+        13.129761120037,
+        16.415007153904
+      ],
+      "road_index": 2163,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 5.198629004280617e-10,
+      "erase_radius_m": 28.756295625339895,
+      "original_fill_in_circle_m2": 562.6430624251575,
+      "original_fill_in_complete_patch_m2": 562.6430624251575
+    },
+    {
+      "xy_km": [
+        13.129761120037,
+        17.827486656833
+      ],
+      "road_index": 290,
+      "name": "规划集散道 239",
+      "kind": "secondary",
+      "centerline_distance_m": 16.99004513387692,
+      "erase_radius_m": 22.00520875406712,
+      "original_fill_in_circle_m2": 595.4027555837862,
+      "original_fill_in_complete_patch_m2": 595.4027555837862
+    },
+    {
+      "xy_km": [
+        10.510308186953,
+        17.116767441901
+      ],
+      "road_index": 2896,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 9.956931622312482,
+      "erase_radius_m": 22.005108315127085,
+      "original_fill_in_circle_m2": 735.7509383353063,
+      "original_fill_in_complete_patch_m2": 735.7509383353063
+    },
+    {
+      "xy_km": [
+        11.348263780729,
+        17.344124511095
+      ],
+      "road_index": 281,
+      "name": "规划集散道 230",
+      "kind": "secondary",
+      "centerline_distance_m": 25.635756457033636,
+      "erase_radius_m": 22.005729172466165,
+      "original_fill_in_circle_m2": 70.83700722681287,
+      "original_fill_in_complete_patch_m2": 70.83700722681287
+    },
+    {
+      "xy_km": [
+        11.348263780729,
+        17.344124511095
+      ],
+      "road_index": 2899,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 15.212684161461707,
+      "erase_radius_m": 22.005729172466165,
+      "original_fill_in_circle_m2": 266.02945198430365,
+      "original_fill_in_complete_patch_m2": 266.02945198430365
+    },
+    {
+      "xy_km": [
+        11.980440427271,
+        23.083023007384
+      ],
+      "road_index": 10,
+      "name": "南门大道",
+      "kind": "primary",
+      "centerline_distance_m": 29.936000352836913,
+      "erase_radius_m": 22.005421621376897,
+      "original_fill_in_circle_m2": 337.6739317170404,
+      "original_fill_in_complete_patch_m2": 337.6739317170404
+    },
+    {
+      "xy_km": [
+        13.810995096735,
+        22.528437611012
+      ],
+      "road_index": 2251,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.0835776720341528e-10,
+      "erase_radius_m": 22.004903394681232,
+      "original_fill_in_circle_m2": 423.9972951108011,
+      "original_fill_in_complete_patch_m2": 423.9972951108011
+    },
+    {
+      "xy_km": [
+        13.810995096735,
+        22.528437611012
+      ],
+      "road_index": 2252,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.7870714839358678e-10,
+      "erase_radius_m": 22.004903394681232,
+      "original_fill_in_circle_m2": 423.9272220997314,
+      "original_fill_in_complete_patch_m2": 423.9272220997314
+    },
+    {
+      "xy_km": [
+        10.380541819429,
+        19.722167277716
+      ],
+      "road_index": 2513,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 30.85174830100179,
+      "erase_radius_m": 22.004949348191104,
+      "original_fill_in_circle_m2": 5.276676491994481,
+      "original_fill_in_complete_patch_m2": 5.276676491994481
+    },
+    {
+      "xy_km": [
+        10.380541819429,
+        19.722167277716
+      ],
+      "road_index": 308,
+      "name": "规划集散道 257",
+      "kind": "secondary",
+      "centerline_distance_m": 14.721864481581688,
+      "erase_radius_m": 22.004949348191104,
+      "original_fill_in_circle_m2": 282.3740757635699,
+      "original_fill_in_complete_patch_m2": 282.3740757635699
+    },
+    {
+      "xy_km": [
+        10.848253541645,
+        21.59301416658
+      ],
+      "road_index": 4438,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 15.395637638398794,
+      "erase_radius_m": 22.005316587451063,
+      "original_fill_in_circle_m2": 524.2251588900791,
+      "original_fill_in_complete_patch_m2": 524.2251588900791
+    },
+    {
+      "xy_km": [
+        14.22228660913,
+        21.59301416658
+      ],
+      "road_index": 2224,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 22.468119012113874,
+      "erase_radius_m": 28.756305652418458,
+      "original_fill_in_circle_m2": 310.08774480386734,
+      "original_fill_in_complete_patch_m2": 310.08774480386734
+    },
+    {
+      "xy_km": [
+        14.22228660913,
+        21.59301416658
+      ],
+      "road_index": 2234,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 0.6567899432994508,
+      "erase_radius_m": 28.756305652418458,
+      "original_fill_in_circle_m2": 554.669520543097,
+      "original_fill_in_complete_patch_m2": 554.669520543097
+    },
+    {
+      "xy_km": [
+        10.23273829936,
+        26.377147189034
+      ],
+      "road_index": 4581,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 22.624503913380774,
+      "erase_radius_m": 22.004898971063746,
+      "original_fill_in_circle_m2": 236.15732402687976,
+      "original_fill_in_complete_patch_m2": 236.15915604096708
+    },
+    {
+      "xy_km": [
+        13.986592392373,
+        23.305302265138
+      ],
+      "road_index": 312,
+      "name": "规划集散道 261",
+      "kind": "secondary",
+      "centerline_distance_m": 35.950466462395525,
+      "erase_radius_m": 28.755390025868966,
+      "original_fill_in_circle_m2": 144.67954362888347,
+      "original_fill_in_complete_patch_m2": 144.67954362888347
+    },
+    {
+      "xy_km": [
+        14.925055915626,
+        24.249594671675
+      ],
+      "road_index": 2290,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 20.445123480733685,
+      "erase_radius_m": 22.005385684757997,
+      "original_fill_in_circle_m2": 158.87105445140804,
+      "original_fill_in_complete_patch_m2": 158.87105445140804
+    },
+    {
+      "xy_km": [
+        10.376971242825,
+        19.707884971301
+      ],
+      "road_index": 295,
+      "name": "规划集散道 244",
+      "kind": "secondary",
+      "centerline_distance_m": 14.721864481576088,
+      "erase_radius_m": 22.004971336094698,
+      "original_fill_in_circle_m2": 282.3938460954193,
+      "original_fill_in_complete_patch_m2": 282.3938460954193
+    },
+    {
+      "xy_km": [
+        10.23273829936,
+        20.616226911376
+      ],
+      "road_index": 4431,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.603549502403468e-10,
+      "erase_radius_m": 22.005300495284924,
+      "original_fill_in_circle_m2": 423.96081957935536,
+      "original_fill_in_complete_patch_m2": 423.96081957935536
+    },
+    {
+      "xy_km": [
+        10.831142212863,
+        21.524568851451
+      ],
+      "road_index": 4438,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 7.073975806978999,
+      "erase_radius_m": 22.004902640131544,
+      "original_fill_in_circle_m2": 285.18255157879736,
+      "original_fill_in_complete_patch_m2": 285.18255157879736
+    },
+    {
+      "xy_km": [
+        11.432977508653,
+        22.432910791526
+      ],
+      "road_index": 3489,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 26.629365087023007,
+      "erase_radius_m": 22.005928451214434,
+      "original_fill_in_circle_m2": 0.23604464952046653,
+      "original_fill_in_complete_patch_m2": 0.23604464952046653
+    },
+    {
+      "xy_km": [
+        16.224045901418,
+        24.249594671675
+      ],
+      "road_index": 245,
+      "name": "规划集散道 194",
+      "kind": "secondary",
+      "centerline_distance_m": 31.69201644302644,
+      "erase_radius_m": 28.755249428442728,
+      "original_fill_in_circle_m2": 61.0009384423524,
+      "original_fill_in_complete_patch_m2": 61.0009384423524
+    },
+    {
+      "xy_km": [
+        10.23273829936,
+        26.066278551825
+      ],
+      "road_index": 4590,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 6.065992888260042,
+      "erase_radius_m": 22.004654693032343,
+      "original_fill_in_circle_m2": 404.5601132075809,
+      "original_fill_in_complete_patch_m2": 404.5601132075809
+    },
+    {
+      "xy_km": [
+        8.511118159289,
+        15.744418303195
+      ],
+      "road_index": 3407,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 14.315770135741701,
+      "erase_radius_m": 22.00442023642218,
+      "original_fill_in_circle_m2": 285.22346588782574,
+      "original_fill_in_complete_patch_m2": 285.22346588782574
+    },
+    {
+      "xy_km": [
+        10.033836330149,
+        18.335345320595
+      ],
+      "road_index": 2511,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 13.335453998461587,
+      "erase_radius_m": 22.005747596958845,
+      "original_fill_in_circle_m2": 368.36696187390095,
+      "original_fill_in_complete_patch_m2": 368.36696187390095
+    },
+    {
+      "xy_km": [
+        21.994883961468,
+        19.614529453563
+      ],
+      "road_index": 2569,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.7408297026122455e-10,
+      "erase_radius_m": 22.005676744524518,
+      "original_fill_in_circle_m2": 423.9550230127171,
+      "original_fill_in_complete_patch_m2": 423.9550230127171
+    },
+    {
+      "xy_km": [
+        21.994883961468,
+        23.559845281958
+      ],
+      "road_index": 3494,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 1.8229396389131125,
+      "erase_radius_m": 22.005472210649543,
+      "original_fill_in_circle_m2": 470.89819467001234,
+      "original_fill_in_complete_patch_m2": 470.89819467001234
+    },
+    {
+      "xy_km": [
+        22.79708021891,
+        23.032866203512
+      ],
+      "road_index": 4007,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.6930413324417975e-10,
+      "erase_radius_m": 28.756066435133334,
+      "original_fill_in_circle_m2": 562.7480796540926,
+      "original_fill_in_complete_patch_m2": 562.7480796540926
+    },
+    {
+      "xy_km": [
+        22.79708021891,
+        23.032866203512
+      ],
+      "road_index": 4008,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.309263891220325e-10,
+      "erase_radius_m": 28.756066435133334,
+      "original_fill_in_circle_m2": 562.7281391796425,
+      "original_fill_in_complete_patch_m2": 562.7281391796425
+    },
+    {
+      "xy_km": [
+        22.79708021891,
+        22.178282016025
+      ],
+      "road_index": 4006,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.579965057173414e-10,
+      "erase_radius_m": 28.754621612752914,
+      "original_fill_in_circle_m2": 562.7478299114149,
+      "original_fill_in_complete_patch_m2": 562.7478299114149
+    },
+    {
+      "xy_km": [
+        22.79708021891,
+        22.178282016025
+      ],
+      "road_index": 4007,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.3092638912203256e-10,
+      "erase_radius_m": 28.754621612752914,
+      "original_fill_in_circle_m2": 562.6671889223162,
+      "original_fill_in_complete_patch_m2": 562.6671889223162
+    },
+    {
+      "xy_km": [
+        29.140981748096,
+        19.967740020888
+      ],
+      "road_index": 2697,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 7.962061524178946,
+      "erase_radius_m": 22.005353673572856,
+      "original_fill_in_circle_m2": 483.4754692853834,
+      "original_fill_in_complete_patch_m2": 483.4754692853834
+    },
+    {
+      "xy_km": [
+        29.637655582934,
+        21.207622851259
+      ],
+      "road_index": 2664,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 25.059894428503124,
+      "erase_radius_m": 22.006593181943703,
+      "original_fill_in_circle_m2": 21.640218604370784,
+      "original_fill_in_complete_patch_m2": 21.640218604370784
+    },
+    {
+      "xy_km": [
+        29.159999921949,
+        24.53696202828
+      ],
+      "road_index": 2727,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 30.41893761192362,
+      "erase_radius_m": 28.75460615004441,
+      "original_fill_in_circle_m2": 44.18465907700691,
+      "original_fill_in_complete_patch_m2": 44.18465907700691
+    },
+    {
+      "xy_km": [
+        31.244931513584,
+        19.940547891328
+      ],
+      "road_index": 3968,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 4.714904077526179,
+      "erase_radius_m": 28.755523593693557,
+      "original_fill_in_circle_m2": 355.64098174550224,
+      "original_fill_in_complete_patch_m2": 355.64098174550224
+    },
+    {
+      "xy_km": [
+        31.12583827267,
+        20.893293818636
+      ],
+      "road_index": 3992,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 6.367227855028829,
+      "erase_radius_m": 28.755041020203183,
+      "original_fill_in_circle_m2": 333.41382742039315,
+      "original_fill_in_complete_patch_m2": 333.41382742039315
+    },
+    {
+      "xy_km": [
+        36.622243302906,
+        18.244321192053
+      ],
+      "road_index": 2812,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 4.481491666644353e-10,
+      "erase_radius_m": 22.00526819574515,
+      "original_fill_in_circle_m2": 423.95476872272906,
+      "original_fill_in_complete_patch_m2": 423.95476872272906
+    },
+    {
+      "xy_km": [
+        37.693824354155,
+        18.244321192053
+      ],
+      "road_index": 2833,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 9.74164592043536,
+      "erase_radius_m": 22.0046494747966,
+      "original_fill_in_circle_m2": 370.6209016819646,
+      "original_fill_in_complete_patch_m2": 370.6209016819646
+    },
+    {
+      "xy_km": [
+        39.89807242532,
+        15.437490946322
+      ],
+      "road_index": 6,
+      "name": "书院路",
+      "kind": "secondary",
+      "centerline_distance_m": 26.20085834812279,
+      "erase_radius_m": 28.75631653102515,
+      "original_fill_in_circle_m2": 578.2048873164844,
+      "original_fill_in_complete_patch_m2": 578.2048873164844
+    },
+    {
+      "xy_km": [
+        39.89807242532,
+        16.418198466496
+      ],
+      "road_index": 2843,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 26.580756326215038,
+      "erase_radius_m": 22.00531652974648,
+      "original_fill_in_circle_m2": 53.397676616241014,
+      "original_fill_in_complete_patch_m2": 53.397676616241014
+    },
+    {
+      "xy_km": [
+        41.025267794744,
+        14.456783426149
+      ],
+      "road_index": 3064,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.1442557224940733,
+      "erase_radius_m": 22.005729494141374,
+      "original_fill_in_circle_m2": 843.230480786845,
+      "original_fill_in_complete_patch_m2": 843.230480786845
+    },
+    {
+      "xy_km": [
+        42.152463164167,
+        14.456783426149
+      ],
+      "road_index": 3064,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 2.144255722494969,
+      "erase_radius_m": 28.75562178077954,
+      "original_fill_in_circle_m2": 1121.9656578971455,
+      "original_fill_in_complete_patch_m2": 1121.9656578971455
+    },
+    {
+      "xy_km": [
+        42.152463164167,
+        15.437490946322
+      ],
+      "road_index": 2865,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.650877894284648e-10,
+      "erase_radius_m": 28.7559060196715,
+      "original_fill_in_circle_m2": 562.6868344158788,
+      "original_fill_in_complete_patch_m2": 562.6868344158788
+    },
+    {
+      "xy_km": [
+        42.152463164167,
+        16.418198466496
+      ],
+      "road_index": 2867,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 4.77493177197955e-10,
+      "erase_radius_m": 28.756177798660307,
+      "original_fill_in_circle_m2": 562.6868346891525,
+      "original_fill_in_complete_patch_m2": 562.6868346891525
+    },
+    {
+      "xy_km": [
+        21.660118855901,
+        15.881738026637
+      ],
+      "road_index": 2922,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 4.96583088242509e-10,
+      "erase_radius_m": 22.0049305551907,
+      "original_fill_in_circle_m2": 423.9817753896511,
+      "original_fill_in_complete_patch_m2": 423.9817753896511
+    },
+    {
+      "xy_km": [
+        21.660118855901,
+        15.881738026637
+      ],
+      "road_index": 2923,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 4.5652370772586437e-10,
+      "erase_radius_m": 22.0049305551907,
+      "original_fill_in_circle_m2": 423.9454914287016,
+      "original_fill_in_complete_patch_m2": 423.9454914287016
+    },
+    {
+      "xy_km": [
+        21.660118855901,
+        15.881738026637
+      ],
+      "road_index": 2917,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 0.3870967743893061,
+      "erase_radius_m": 22.0049305551907,
+      "original_fill_in_circle_m2": 847.8009775263233,
+      "original_fill_in_complete_patch_m2": 847.8009775263233
+    },
+    {
+      "xy_km": [
+        21.660118855901,
+        17.302266390999
+      ],
+      "road_index": 2917,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 0.3870967743893061,
+      "erase_radius_m": 22.00498968064855,
+      "original_fill_in_circle_m2": 424.8102474520187,
+      "original_fill_in_complete_patch_m2": 424.8102474520187
+    },
+    {
+      "xy_km": [
+        21.660118855901,
+        17.302266390999
+      ],
+      "road_index": 2554,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 14.33371235105049,
+      "erase_radius_m": 22.00498968064855,
+      "original_fill_in_circle_m2": 257.98817814719774,
+      "original_fill_in_complete_patch_m2": 257.98817814719774
+    },
+    {
+      "xy_km": [
+        22.450793797676,
+        15.881738026637
+      ],
+      "road_index": 2946,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 4.088891347359168,
+      "erase_radius_m": 28.756239702330443,
+      "original_fill_in_circle_m2": 558.0093962394226,
+      "original_fill_in_complete_patch_m2": 558.0093962394226
+    },
+    {
+      "xy_km": [
+        22.450793797676,
+        15.881738026637
+      ],
+      "road_index": 2923,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 4.5652370772586437e-10,
+      "erase_radius_m": 28.756239702330443,
+      "original_fill_in_circle_m2": 562.7206880823896,
+      "original_fill_in_complete_patch_m2": 562.7206880823896
+    },
+    {
+      "xy_km": [
+        23.191984758594,
+        16.116395144312
+      ],
+      "road_index": 2940,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 24.5392598578249,
+      "erase_radius_m": 22.004856202527204,
+      "original_fill_in_circle_m2": 85.06000925889434,
+      "original_fill_in_complete_patch_m2": 85.06000925889434
+    },
+    {
+      "xy_km": [
+        33.441696333808,
+        13.218913351769
+      ],
+      "road_index": 3027,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.714470102682455,
+      "erase_radius_m": 22.005694146593754,
+      "original_fill_in_circle_m2": 468.4857906579302,
+      "original_fill_in_complete_patch_m2": 468.4857906579302
+    },
+    {
+      "xy_km": [
+        33.441696333808,
+        13.218913351769
+      ],
+      "road_index": 3021,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.56447987551246,
+      "erase_radius_m": 22.005694146593754,
+      "original_fill_in_circle_m2": 474.8412815576948,
+      "original_fill_in_complete_patch_m2": 474.8412815576948
+    },
+    {
+      "xy_km": [
+        33.441696333808,
+        14.200164640486
+      ],
+      "road_index": 3021,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.56447987551246,
+      "erase_radius_m": 22.005769173385442,
+      "original_fill_in_circle_m2": 474.8431815577063,
+      "original_fill_in_complete_patch_m2": 474.8431815577063
+    },
+    {
+      "xy_km": [
+        33.441696333808,
+        14.200164640486
+      ],
+      "road_index": 3030,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 8.357235051070335,
+      "erase_radius_m": 22.005769173385442,
+      "original_fill_in_circle_m2": 385.8754217507713,
+      "original_fill_in_complete_patch_m2": 385.8754217507713
+    },
+    {
+      "xy_km": [
+        34.403302917368,
+        13.218913351769
+      ],
+      "road_index": 3024,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 7.862635840659493,
+      "erase_radius_m": 22.006230022579803,
+      "original_fill_in_circle_m2": 390.4969021237666,
+      "original_fill_in_complete_patch_m2": 390.4969021237666
+    },
+    {
+      "xy_km": [
+        34.403302917368,
+        13.218913351769
+      ],
+      "road_index": 3035,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.714470102682455,
+      "erase_radius_m": 22.006230022579803,
+      "original_fill_in_circle_m2": 350.5363271282835,
+      "original_fill_in_complete_patch_m2": 350.5363271282835
+    },
+    {
+      "xy_km": [
+        34.403302917368,
+        13.218913351769
+      ],
+      "road_index": 3027,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 18.471452384051688,
+      "erase_radius_m": 22.006230022579803,
+      "original_fill_in_circle_m2": 117.94526352964375,
+      "original_fill_in_complete_patch_m2": 117.94526352964375
+    },
+    {
+      "xy_km": [
+        34.403302917368,
+        15.132729091408
+      ],
+      "road_index": 3025,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 7.876889570227585,
+      "erase_radius_m": 22.00555478969085,
+      "original_fill_in_circle_m2": 381.02462205405885,
+      "original_fill_in_complete_patch_m2": 381.02462205405885
+    },
+    {
+      "xy_km": [
+        34.403302917368,
+        14.200164640486
+      ],
+      "road_index": 3033,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 8.357235051070333,
+      "erase_radius_m": 22.0064295452506,
+      "original_fill_in_circle_m2": 385.8903983274038,
+      "original_fill_in_complete_patch_m2": 385.8903983274038
+    },
+    {
+      "xy_km": [
+        34.403302917368,
+        14.200164640486
+      ],
+      "road_index": 3025,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 7.862635840659493,
+      "erase_radius_m": 22.0064295452506,
+      "original_fill_in_circle_m2": 390.51550790520076,
+      "original_fill_in_complete_patch_m2": 390.51550790520076
+    },
+    {
+      "xy_km": [
+        37.557798392665,
+        12.35858024882
+      ],
+      "road_index": 3306,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 7.8971747180026695,
+      "erase_radius_m": 28.75427129114617,
+      "original_fill_in_circle_m2": 531.197878301251,
+      "original_fill_in_complete_patch_m2": 531.197878301251
+    },
+    {
+      "xy_km": [
+        37.557798392665,
+        13.487206868847
+      ],
+      "road_index": 3298,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 19.97346865922367,
+      "erase_radius_m": 22.005200681895907,
+      "original_fill_in_circle_m2": 336.11813413722075,
+      "original_fill_in_complete_patch_m2": 336.11813413722075
+    },
+    {
+      "xy_km": [
+        34.736599771266,
+        19.434814668329
+      ],
+      "road_index": 4691,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 14.9105657696566,
+      "erase_radius_m": 22.004668330188878,
+      "original_fill_in_circle_m2": 188.18554598820754,
+      "original_fill_in_complete_patch_m2": 188.18554598820754
+    },
+    {
+      "xy_km": [
+        34.557213256023,
+        19.819510291716
+      ],
+      "road_index": 4693,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 18.47668604255189,
+      "erase_radius_m": 22.006181024582236,
+      "original_fill_in_circle_m2": 118.34326244384494,
+      "original_fill_in_complete_patch_m2": 118.34326244384494
+    },
+    {
+      "xy_km": [
+        35.651111625754,
+        19.44
+      ],
+      "road_index": 3940,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 18.915631022785817,
+      "erase_radius_m": 22.00606947400742,
+      "original_fill_in_circle_m2": 62.80621008437707,
+      "original_fill_in_complete_patch_m2": 62.80621008437707
+    },
+    {
+      "xy_km": [
+        31.320975182721,
+        19.332198538233
+      ],
+      "road_index": 2770,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 16.240047940272405,
+      "erase_radius_m": 28.754817316155954,
+      "original_fill_in_circle_m2": 226.4654968709127,
+      "original_fill_in_complete_patch_m2": 226.4654968709127
+    },
+    {
+      "xy_km": [
+        31.515009972095,
+        20.444449290176
+      ],
+      "road_index": 3606,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 23.744586467740483,
+      "erase_radius_m": 22.00568468898504,
+      "original_fill_in_circle_m2": 37.417092823071464,
+      "original_fill_in_complete_patch_m2": 37.417092823071464
+    },
+    {
+      "xy_km": [
+        37.099111094437,
+        28.360485564262
+      ],
+      "road_index": 3680,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 14.22418710838258,
+      "erase_radius_m": 22.00473862932138,
+      "original_fill_in_circle_m2": 287.2455352397561,
+      "original_fill_in_complete_patch_m2": 287.2455352397561
+    },
+    {
+      "xy_km": [
+        27.861888797323,
+        33.641277051575
+      ],
+      "road_index": 2389,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 25.197046512339224,
+      "erase_radius_m": 28.756296661153282,
+      "original_fill_in_circle_m2": 465.72793396800984,
+      "original_fill_in_complete_patch_m2": 465.72793396800984
+    },
+    {
+      "xy_km": [
+        28.926174757349,
+        33.622686903802
+      ],
+      "road_index": 2389,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 6.606898739335065,
+      "erase_radius_m": 28.755243842000947,
+      "original_fill_in_circle_m2": 1092.5365008430833,
+      "original_fill_in_complete_patch_m2": 1092.5365008430833
+    },
+    {
+      "xy_km": [
+        40.646166295058,
+        31.459816549865
+      ],
+      "road_index": 3777,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.603183907692653,
+      "erase_radius_m": 22.00559083069202,
+      "original_fill_in_circle_m2": 834.5481137426403,
+      "original_fill_in_complete_patch_m2": 834.5481137426403
+    },
+    {
+      "xy_km": [
+        40.646166295058,
+        32.476975372739
+      ],
+      "road_index": 3777,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.603183907692653,
+      "erase_radius_m": 22.005741236129577,
+      "original_fill_in_circle_m2": 417.27073665927566,
+      "original_fill_in_complete_patch_m2": 417.27073665927566
+    },
+    {
+      "xy_km": [
+        40.787080198951,
+        25.274774099293
+      ],
+      "road_index": 3879,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 9.176972574490351,
+      "erase_radius_m": 22.004217714258445,
+      "original_fill_in_circle_m2": 377.24527576607505,
+      "original_fill_in_complete_patch_m2": 377.24527576607505
+    },
+    {
+      "xy_km": [
+        40.787080198951,
+        26.197550578811
+      ],
+      "road_index": 3881,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 18.353945148906092,
+      "erase_radius_m": 22.00571299295036,
+      "original_fill_in_circle_m2": 400.82247634223353,
+      "original_fill_in_complete_patch_m2": 400.82247634223353
+    },
+    {
+      "xy_km": [
+        6.013964087837,
+        19.715089780407
+      ],
+      "road_index": 4191,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 6.53046732490381,
+      "erase_radius_m": 22.004234671142378,
+      "original_fill_in_circle_m2": 401.3263230620439,
+      "original_fill_in_complete_patch_m2": 401.3298230620455
+    },
+    {
+      "xy_km": [
+        6.013964087837,
+        19.715089780407
+      ],
+      "road_index": 2427,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 8.689309478198666,
+      "erase_radius_m": 22.004234671142378,
+      "original_fill_in_circle_m2": 324.113120541769,
+      "original_fill_in_complete_patch_m2": 324.113120541769
+    },
+    {
+      "xy_km": [
+        33.840235454343,
+        1.672689321371
+      ],
+      "road_index": 4474,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 3.4578978650685595,
+      "erase_radius_m": 22.004545667462313,
+      "original_fill_in_circle_m2": 421.67580621092185,
+      "original_fill_in_complete_patch_m2": 421.67580621092185
+    },
+    {
+      "xy_km": [
+        33.840235454343,
+        1.672689321371
+      ],
+      "road_index": 4487,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 13.949496508916267,
+      "erase_radius_m": 22.004545667462313,
+      "original_fill_in_circle_m2": 239.06396059549223,
+      "original_fill_in_complete_patch_m2": 239.06571349676892
+    },
+    {
+      "xy_km": [
+        33.840235454343,
+        2.467329644266
+      ],
+      "road_index": 4492,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 12.381920906875619,
+      "erase_radius_m": 22.004545659873187,
+      "original_fill_in_circle_m2": 654.5577732739004,
+      "original_fill_in_complete_patch_m2": 654.5577732739004
+    },
+    {
+      "xy_km": [
+        38.268821343865,
+        2.467329644266
+      ],
+      "road_index": 735,
+      "name": "街坊道路",
+      "kind": "local",
+      "centerline_distance_m": 26.483563233753667,
+      "erase_radius_m": 22.00636483959726,
+      "original_fill_in_circle_m2": 95.43442281569013,
+      "original_fill_in_complete_patch_m2": 95.43492045556224
+    }
+  ],
+  "unrepainted_nonincident_public_fill": [],
+  "hard_gates": {
+    "junction_symbols_preserve_nonincident_public_road_fill": true,
+    "inputs_stable": true
+  },
+  "method": "Actual SVG disk masks and fills applied in actual group order to exported public road fill widths. True public endpoints are independently classified at20mm: connected ends use flat caps and genuine free service ends retain round caps. Minor white and primary yellow count as road paint; colour-specific hierarchy is separately reviewed. The restored painted surface is expanded by8mm only for SVG3-decimal coordinate quantization, and remaining loss above0.01m2 fails."
+}

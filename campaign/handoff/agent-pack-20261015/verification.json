@@ -1,0 +1,11 @@
+{
+  "source_count": 156,
+  "raw_transcripts": 14,
+  "source_copies_match_sha256": true,
+  "original_sources_unchanged_during_packaging": true,
+  "authored_markdown_local_links": "passed",
+  "authored_markdown_files": 8,
+  "original_link_references_not_in_package": 93,
+  "original_links_already_missing": 0,
+  "scope": "text handoff package; original image/map/runtime links catalogued separately"
+}

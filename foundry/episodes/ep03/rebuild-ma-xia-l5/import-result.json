@@ -1,0 +1,195 @@
+{
+  "status": "complete",
+  "log": [
+    {
+      "name": "马铁鹰",
+      "action": "rebuilt-in-place",
+      "createdItems": 3,
+      "updatedItems": 24,
+      "deletedItems": 0
+    },
+    {
+      "name": "夏满弓",
+      "action": "rebuilt-in-place",
+      "createdItems": 2,
+      "updatedItems": 24,
+      "deletedItems": 0
+    }
+  ],
+  "verification": {
+    "passed": true,
+    "reports": [
+      {
+        "id": "7aQZVS47M2oWodIk",
+        "name": "马铁鹰",
+        "advances": 5,
+        "rank": "行家",
+        "advanceRows": 5,
+        "attributes": {
+          "agility": 8,
+          "smarts": 4,
+          "spirit": 6,
+          "strength": 12,
+          "vigor": 8
+        },
+        "skills": {
+          "athletics": {
+            "sides": 8,
+            "modifier": 0
+          },
+          "fighting": {
+            "sides": 10,
+            "modifier": 0
+          },
+          "shooting": {
+            "sides": 6,
+            "modifier": 0
+          },
+          "notice": {
+            "sides": 4,
+            "modifier": 0
+          },
+          "intimidation": {
+            "sides": 6,
+            "modifier": 0
+          },
+          "persuasion": {
+            "sides": 4,
+            "modifier": 0
+          },
+          "driving": {
+            "sides": 6,
+            "modifier": 0
+          },
+          "stealth": {
+            "sides": 4,
+            "modifier": 0
+          },
+          "common-knowledge": {
+            "sides": 4,
+            "modifier": 0
+          }
+        },
+        "parry": 9,
+        "toughness": 14,
+        "armor": 2,
+        "pace": 8,
+        "running": 8,
+        "soak": 2,
+        "woundsIgnored": 1,
+        "hardy": true,
+        "powerCount": 6,
+        "spent": 24,
+        "weapons": [
+          {
+            "name": "重型手枪",
+            "swid": "ep03-pistol",
+            "damage": "2d6+1",
+            "traitMod": "",
+            "ap": 0
+          },
+          {
+            "name": "短柄破拆锤",
+            "swid": "ep03-hammer",
+            "damage": "@str+d6+2d6",
+            "traitMod": "",
+            "ap": 0
+          },
+          {
+            "name": "拳脚 · 破门重拳",
+            "swid": "ep03-fists",
+            "damage": "@str+d6+2d6",
+            "traitMod": "1",
+            "ap": 0
+          }
+        ],
+        "items": 27,
+        "failures": []
+      },
+      {
+        "id": "WLZGos0f2rJ17PVL",
+        "name": "夏满弓",
+        "advances": 5,
+        "rank": "行家",
+        "advanceRows": 5,
+        "attributes": {
+          "agility": 8,
+          "smarts": 6,
+          "spirit": 6,
+          "strength": 6,
+          "vigor": 8
+        },
+        "skills": {
+          "athletics": {
+            "sides": 6,
+            "modifier": 0
+          },
+          "fighting": {
+            "sides": 8,
+            "modifier": 0
+          },
+          "shooting": {
+            "sides": 6,
+            "modifier": 0
+          },
+          "notice": {
+            "sides": 8,
+            "modifier": 2
+          },
+          "driving": {
+            "sides": 6,
+            "modifier": 0
+          },
+          "persuasion": {
+            "sides": 6,
+            "modifier": 0
+          },
+          "repair": {
+            "sides": 4,
+            "modifier": 0
+          },
+          "stealth": {
+            "sides": 6,
+            "modifier": 0
+          },
+          "common-knowledge": {
+            "sides": 6,
+            "modifier": 0
+          },
+          "focus": {
+            "sides": 6,
+            "modifier": 0
+          }
+        },
+        "parry": 10,
+        "toughness": 8,
+        "armor": 2,
+        "pace": 6,
+        "running": 6,
+        "soak": 0,
+        "woundsIgnored": 0,
+        "hardy": false,
+        "powerCount": 5,
+        "spent": 18,
+        "weapons": [
+          {
+            "name": "手枪",
+            "swid": "ep03-pistol",
+            "damage": "2d6",
+            "traitMod": "",
+            "ap": 0
+          },
+          {
+            "name": "电击棍 · 贴身截击",
+            "swid": "ep03-baton",
+            "damage": "@str+d4+2d6",
+            "traitMod": "",
+            "ap": 0
+          }
+        ],
+        "items": 26,
+        "failures": []
+      }
+    ]
+  }
+}

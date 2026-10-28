@@ -1,0 +1,15 @@
+{
+  "name": "S.H. 男性 Glitch 剪影",
+  "output": "discussion\\npc\\立绘生产\\assets\\utility\\sh-glitch-silhouette-20260902.png",
+  "source": "discussion\\npc\\立绘生产\\assets\\utility\\npc-male-silhouette-20260902.png",
+  "sourceRun": "20260902-utility-male-silhouette-v1",
+  "sourceProvider": "NovelAI",
+  "effects": "Reproducible RGB split (cyan/magenta) and displaced horizontal slices; pure black interior; original anonymous male NAI outline",
+  "sha256": "9efcf4f5259047090955d342b69dbd59c1b43ad95ee9970c558eee5304862c71",
+  "dimensions": [
+    832,
+    1216
+  ],
+  "trueAlpha": true,
+  "identity": "Anonymous presentation only; no physical identity or supernatural ability assertion"
+}

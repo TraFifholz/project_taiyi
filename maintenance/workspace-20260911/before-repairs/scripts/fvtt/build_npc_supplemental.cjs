@@ -1,0 +1,22 @@
+const fs=require('node:fs'),crypto=require('node:crypto');
+const base='discussion/npc/fvtt/';
+const initial=JSON.parse(fs.readFileSync(base+'server-before-2026-09-02T13-34-20-607Z.json','utf8'));
+const main=JSON.parse(fs.readFileSync(base+'npc-import-manifest.json','utf8'));
+const shop=initial.actors.find(a=>a.flags?.['stylish-shop']?.shopConfig?.owner==='尼索科托夫');
+if(!shop||shop.name!=='白桦树')throw new Error('Expected verified existing merchant owner');
+const sourceFile='records/memory/campaign-state.md';
+const sourceText=fs.readFileSync(sourceFile,'utf8');
+const anchor='**尼索科托夫先生**';
+const line=sourceText.split(/\r?\n/).findIndex(s=>s.includes(anchor))+1;
+if(!line)throw new Error('Missing supplemental source');
+const source={file:sourceFile,line,anchor};
+const sourceAsset='discussion/npc/尼索科托夫.webp';
+const hash=crypto.createHash('sha256').update(fs.readFileSync(sourceAsset)).digest('hex');
+const spec={id:'LS-NPC-SUP-NISOKOTOF',canonicalName:'尼索科托夫',displayName:'尼索科托夫',aliases:['尼索科托夫','白桦树'],actorId:shop._id,priority:'supplemental',sourceStatus:'existing-server-merchant-verified',narrativeStatus:'既定背景联系人；尚未正式出场',folder:'龙散 NPC / 城市人物',privateRole:'白桦树店主；复用商店 Actor 并保留店名及库存',publicBiography:'',approvedAsset:sourceAsset,approvedSha256:hash,approvedRun:'existing-server-asset-verified-2026-09-02',actorImage:shop.img,tokenImage:shop.prototypeToken.texture.src,fullPortrait:shop.flags['stylish-shop'].shopConfig.npcArt,decision:'reuse-existing-merchant-preserve-stock',source};
+const manifest={schemaVersion:main.schemaVersion,worldId:'taiyi',systemId:'swade',actors:[spec],players:main.players,relationships:[{id:'taiyi-rel-supp-nisokotof-tangsuo',sourceId:'LS-PC-tangsuo',targetId:spec.id,sourceRole:'熟识的联系人',targetRole:'熟识的黑市商人',bio:'唐索熟识尼索科托夫，后者经营地下黑市生意。',source,evidenceStatus:'established-character-background',delivery:'tracker'}],heldProposals:[],supplemental:[],retired:[],sourceHashes:{[sourceFile]:crypto.createHash('sha256').update(sourceText).digest('hex')},guardrails:main.guardrails};
+const playerBios=JSON.parse(fs.readFileSync(base+'relationship-player-bios.json','utf8'));
+for(const r of manifest.relationships){if(typeof playerBios[r.id]!=='string')throw Error('Missing reviewed player biography: '+r.id);r.playerBio=playerBios[r.id];}
+fs.writeFileSync(base+'supplemental-import-manifest.json',JSON.stringify(manifest,null,2)+'\n');
+const dispositions=main.supplemental.map(s=>({...s,status:s.name==='尼索科托夫'?'matched-existing-merchant':'deferred',actorId:s.name==='尼索科托夫'?shop._id:null,reason:s.name==='尼索科托夫'?'商店配置 owner 明确为尼索科托夫；头像与 Token 已读取并核对，同名本地立绘一致。':s.name==='死灵术士'?'世界存在英文 Necromancer，但卡内履历为 Jean-Paul DuPois 海地巫毒背景，不能认定为 Green Hollow 数据实体；保留原战斗卡。':s.name==='交管7号'?'未找到对应世界 Actor；身份涉及后续章节，保留 GM 设计，不用无人黑车替代。':'未找到对应世界 Actor 或已确认头像；保留来源与档案需求，不挪用他人立绘。'}));
+fs.writeFileSync(base+'supplemental-dispositions.json',JSON.stringify({worldId:'taiyi',checkedAgainst:base+'server-before-2026-09-02T13-34-20-607Z.json',entries:dispositions},null,2)+'\n');
+console.log(JSON.stringify({actors:1,relationships:1,supplementalChecked:dispositions.length}));

@@ -1,0 +1,139 @@
+{
+  "version": "v8",
+  "review_status": "transport_draft_geometry_passed_not_final_city",
+  "input_sha256": {
+    "temp\\longsan-map-qa-v8\\塌陷与交通独审输入.geojson": "f098cd2f2b8fb972ea502df0313ddaeac4a49a25f66b73f876aa8c3c7a27449d",
+    "temp\\longsan-map-qa-v8\\塌陷扩界与交通验证.json": "a16939c8ff366e3c7ce47719a6fe3d0bab2684aa4425ad35d88f2579ff6c3d47",
+    "assets\\maps\\longsan-geographic-v7-20261012\\地图坐标与线路.json": "7df81f14958e36533d520ad6102eb31bb48247772151a7115124e30ba8af8f09",
+    "assets\\maps\\longsan-geographic-v7-20261012\\地理骨架.geojson": "7a728ec37b8c4ede4d08a05209f7596cde22d7bef5297a83e9eaafd27916bb37",
+    "assets\\maps\\longsan-geographic-v7-20261012\\灾后地理.geojson": "129697219ef04748e96262cd19c0e3c26a4630826918c50ae79c0b03dc0763b0",
+    "assets\\maps\\longsan-geographic-v5-20261012\\铁路.geojson": "a80c94c989ba2b3198c88fcb67d48eac56c82062fed4bd407dc4ed036e34e416",
+    "scripts\\longsan_collapse_v8.py": "2eb1cba07c6e320ea874e088c075574d4e425bebc59bab9b4a7dde3c77a80c5d",
+    "maintenance\\reports\\longsan-map-audit-20261012\\v8扩界交通预审.py": "bf159e1787dd63e80deede951571baed6ca34fd49177370b5b316806f546df13"
+  },
+  "hard_gates": {
+    "new_core_retains_previous_core": true,
+    "core_actual_dry_valid_polygon": true,
+    "clear_wall_patrol_reconstructed_from_actual_core": true,
+    "unfinished_stations_have_real_core_margins_and_never_opened_status": true,
+    "three_landmark_directions_and_gucheng_separation": true,
+    "actual_damaged_highspeed_is_recovered_outside_clear": true,
+    "all_freight_branches_join_conventional": true,
+    "operational_metro_avoids_expanded_clear": true,
+    "two_unfinished_l8_sections_correctly_halted": true,
+    "planned_l6_clear_of_security_and_active_rail_reservations": true,
+    "draft_module_sha_matches_actual_source": true,
+    "inputs_stable": true
+  },
+  "unresolved_hard_errors": [],
+  "core_area_km2": 58.6375,
+  "unfinished_stations": [
+    {
+      "name": "楚钢集团",
+      "xy_km": [
+        38.6,
+        21.1
+      ],
+      "inside_core": true,
+      "boundary_margin_m": 610.8534127692942,
+      "status": "construction-halted",
+      "ever_opened": false,
+      "same_source_coordinate": true
+    },
+    {
+      "name": "铁山",
+      "xy_km": [
+        41.0,
+        22.3
+      ],
+      "inside_core": true,
+      "boundary_margin_m": 864.693853498118,
+      "status": "construction-halted",
+      "ever_opened": false,
+      "same_source_coordinate": true
+    }
+  ],
+  "railways": [
+    {
+      "name": "龙散普速干线",
+      "system": "conventional",
+      "status": "restored-bypass",
+      "original_core_damage_km": 7.76463647424484,
+      "original_clear_damage_km": 8.130212344532671,
+      "current_reserved_width_in_clear_m2": 0.0,
+      "current_clear_distance_m": 719.3930642699335,
+      "water_crossing_km": 3.2401447607918565,
+      "frame_endpoint_gaps_m": [
+        0.0,
+        0.0
+      ],
+      "original_endpoints_preserved": true
+    },
+    {
+      "name": "龙散高铁干线",
+      "system": "high-speed",
+      "status": "restored-bypass",
+      "original_core_damage_km": 4.752118732342094,
+      "original_clear_damage_km": 5.122353254174001,
+      "current_reserved_width_in_clear_m2": 0.0,
+      "current_clear_distance_m": 1923.1267313554265,
+      "water_crossing_km": 1.6601531245434438,
+      "frame_endpoint_gaps_m": [
+        0.0,
+        0.0
+      ],
+      "original_endpoints_preserved": true
+    },
+    {
+      "name": "望津港货运支线",
+      "system": "freight",
+      "status": "restored-bypass",
+      "original_core_damage_km": 8.242781259382166,
+      "original_clear_damage_km": 8.46741819377369,
+      "current_reserved_width_in_clear_m2": 0.0,
+      "current_clear_distance_m": 1035.544906501749,
+      "water_crossing_km": 0.0,
+      "frame_endpoint_gaps_m": [
+        7697.772477312946,
+        6100.000000000002
+      ],
+      "original_endpoints_preserved": false
+    },
+    {
+      "name": "铁山厂区货运联络线",
+      "system": "freight",
+      "status": "unaffected",
+      "original_core_damage_km": 0.0,
+      "original_clear_damage_km": 0.0,
+      "current_reserved_width_in_clear_m2": 0.0,
+      "current_clear_distance_m": 5513.454969529015,
+      "water_crossing_km": 0.0,
+      "frame_endpoint_gaps_m": [
+        12191.48225630413,
+        7759.999999999997
+      ],
+      "original_endpoints_preserved": true
+    }
+  ],
+  "rail_errors": [],
+  "freight_connection_gaps": [
+    {
+      "name": "望津港货运支线",
+      "gap_m": 0.0
+    },
+    {
+      "name": "铁山厂区货运联络线",
+      "gap_m": 3.443531499639769e-12
+    }
+  ],
+  "planned_l6": {
+    "clear_gap_m": 158.54045828501725,
+    "rail_reservation_gap_m": 233.8696723556632,
+    "water_crossing_km": 0.6433899609442885
+  },
+  "limits": [
+    "This examines actual transport-draft vectors; it is not final SVG, public-road, building/compound or image acceptance.",
+    "Water crossings are scenario bridge/tunnel alignments; engineering radius/slope/capacity are not certified.",
+    "Geography and reconstruction are map proposals, with canon unchanged."
+  ]
+}

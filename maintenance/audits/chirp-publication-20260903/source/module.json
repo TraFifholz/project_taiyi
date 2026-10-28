@@ -1,0 +1,48 @@
+{
+  "id": "smartphone-chirp-app",
+  "title": "Smartphone Chirp App",
+  "description": "A Twitter-style SNS app for the Smartphone Widget.",
+  "version": "1.1.1",
+  "protected": true,
+  "authors": [
+    {
+      "name": "GlitchSmith"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "esmodules": [
+    "main.js"
+  ],
+  "styles": [
+    "styles/ChirpApp.css"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "smartphone-widget",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.0.0"
+        }
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "ko",
+      "name": "한국어",
+      "path": "langs/ko.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "langs/en.json"
+    }
+  ],
+  "socket": true,
+  "manifest": "https://r2.foundryvtt.com/packages-public/smartphone-chirp-app/module.json"
+}

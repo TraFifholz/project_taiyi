@@ -1,0 +1,79 @@
+{
+  "worldId": "taiyi",
+  "checkedAgainst": "discussion/npc/fvtt/server-before-2026-09-02T13-34-20-607Z.json",
+  "entries": [
+    {
+      "name": "尼索科托夫",
+      "decision": "check-existing-merchant",
+      "image": "discussion/npc/尼索科托夫.webp",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 254,
+        "anchor": "**尼索科托夫先生**"
+      },
+      "status": "matched-existing-merchant",
+      "actorId": "OJWrqdjFqUyOqbBO",
+      "reason": "商店配置 owner 明确为尼索科托夫；头像与 Token 已读取并核对，同名本地立绘一致。"
+    },
+    {
+      "name": "李文亚",
+      "decision": "archival-existing-only-until-image-found",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 251,
+        "anchor": "**李文亚教授**"
+      },
+      "status": "deferred",
+      "actorId": null,
+      "reason": "未找到对应世界 Actor 或已确认头像；保留来源与档案需求，不挪用他人立绘。"
+    },
+    {
+      "name": "苏志国",
+      "decision": "archival-existing-only-until-image-found",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 167,
+        "anchor": "名字苏志国"
+      },
+      "status": "deferred",
+      "actorId": null,
+      "reason": "未找到对应世界 Actor 或已确认头像；保留来源与档案需求，不挪用他人立绘。"
+    },
+    {
+      "name": "黑骑士",
+      "decision": "encounter-entity-check-existing",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 82,
+        "anchor": "| 黑骑士 |"
+      },
+      "status": "deferred",
+      "actorId": null,
+      "reason": "未找到对应世界 Actor 或已确认头像；保留来源与档案需求，不挪用他人立绘。"
+    },
+    {
+      "name": "死灵术士",
+      "decision": "encounter-entity-check-existing",
+      "source": {
+        "file": "records/memory/entities.md",
+        "line": 34,
+        "anchor": "| 死灵术士 |"
+      },
+      "status": "deferred",
+      "actorId": null,
+      "reason": "世界存在英文 Necromancer，但卡内履历为 Jean-Paul DuPois 海地巫毒背景，不能认定为 Green Hollow 数据实体；保留原战斗卡。"
+    },
+    {
+      "name": "交管7号",
+      "decision": "chapter-design-no-premature-reveal",
+      "source": {
+        "file": "records/memory/campaign-state.md",
+        "line": 220,
+        "anchor": "交管7号"
+      },
+      "status": "deferred",
+      "actorId": null,
+      "reason": "未找到对应世界 Actor；身份涉及后续章节，保留 GM 设计，不用无人黑车替代。"
+    }
+  ]
+}

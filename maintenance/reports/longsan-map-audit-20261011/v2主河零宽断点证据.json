@@ -1,0 +1,16 @@
+{
+  "scope": "22:40:39候选的只读地理骨架复核留痕；不冻结输入，不暗示后续版本仍然如此。",
+  "feature": "楚江主河与河汊",
+  "source_output_modified_time_local": "2026-10-11 22:40:39",
+  "geometry_type": "MultiPolygon",
+  "is_valid": true,
+  "components": [
+    {"area_km2":72.69342761138924,"bounds_km":[18.85,0,26.00925,29.58365535512395]},
+    {"area_km2":35.16061432113017,"bounds_km":[24.278775459408386,29.58365535512395,48,32.753975]}
+  ],
+  "component_distance_km": 0,
+  "intersection_type": "Point",
+  "intersection_xy_km": [24.278775459408386,29.58365535512395],
+  "intersection_area_km2": 0,
+  "conclusion": "主河内域在拐弯处断为北南两块，仅零宽点接触。is_valid与distance=0不能证明可通航的有限宽水路连通。"
+}
