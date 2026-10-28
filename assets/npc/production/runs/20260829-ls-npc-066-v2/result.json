@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-066-v2",
+  "characterId": "LS-NPC-066",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "a3b6f2",
+  "apiSeed": 708315492,
+  "imageIndex": 0,
+  "output": "LS-NPC-066-卢卡·阿奎拉-v2.png",
+  "sha256": "85323d2b841077c1509f517e7b1407b361ba1e332316d24f6b2950beecc6040f",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:33:14.178Z"
+}

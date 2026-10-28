@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-035-v1",
+  "characterId": "LS-NPC-035",
+  "characterName": "顾全有",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-035-顾全有-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-035-顾全有-20260829-ls-npc-035-v1-seed-153620884.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=509314f4b010bd5b8c445b6f050668a60cf9e7d0bf42305492bb3318a4f9363f",
+      "透明背景有效；整洁侧分、半阖眼礼貌微笑、精确西装与无可读界面的深色平板形成客气而笃定的运营主管身份；无公司标识、车辆、信用图形或能力效果，手部可接受，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

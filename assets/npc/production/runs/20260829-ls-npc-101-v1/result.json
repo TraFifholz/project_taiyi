@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-101-v1",
+  "characterId": "LS-NPC-101",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "02a460",
+  "apiSeed": 101528463,
+  "imageIndex": 0,
+  "output": "LS-NPC-101-梁文川-v1.png",
+  "sha256": "1532e0df8ce4b0ed9f774a1ab200126685cc1492d0215e57fbd77ea50f6eb8c7",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:35:07.177Z"
+}

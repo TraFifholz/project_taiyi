@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-081-v1",
+  "characterId": "LS-NPC-081",
+  "characterName": "苏碧城",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-081-苏碧城-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=8bcc33240ae50561ba44ae353676f377fbaedde27d7ab41433088be10c9dc1cd",
+      "素颜、松披白大褂、铅笔与多页纸成立，但所有纸页都是空白背面，未显示确定的连续画圈动作。保留原图，不登记候选；v2将最前纸页转向观者并明确三个可见石墨圆圈。"
+    ]
+  }
+}

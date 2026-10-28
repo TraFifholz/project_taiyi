@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-044-v1",
+  "characterId": "LS-NPC-044",
+  "characterName": "陈志远",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-044-陈志远-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-044-陈志远-20260829-ls-npc-044-v1-seed-214783659.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=8804458d2b23b412e11549a0754653ea772d084376fd9d6d428b7ac6621e6601",
+      "透明背景有效；偏年长的灰鬓、矩形眼镜、交握双手和未达眼底的职业微笑准确表达稳重但不安的分行主管；无文字、共谋符号或超能力效果，手部可接受，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

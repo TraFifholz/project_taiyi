@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-062-v1",
+    "characterId": "LS-NPC-062",
+    "characterName": "九条千寻",
+    "promptVersion": 1,
+    "designStatus": "portrait-design-v1",
+    "designAssumptions": [
+      "lean Japanese man with short side-parted black undercut hair, cool grey eyes and a narrow low-expression face",
+      "wears an immaculate but deliberately anonymous black suit, white collared shirt, narrow black tie, straight black trousers and plain black shoes",
+      "stands with both arms held quietly behind his back; a slim matte black rectangular retention clip at the left cuff suggests the concealed data tool without displaying a blade"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T06:26:19+08:00",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-062.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 875206431,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, knife, dagger, sword, weapon, computer, laptop, hologram, heads-up display, glowing, aura, light particles",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1boy, solo, male focus, solo focus, mature male, skinny, short hair, black hair, undercut, parted hair, grey eyes, serious, expressionless, closed mouth, looking at viewer, black suit, business suit, suit, black jacket, jacket, white shirt, collared shirt, collar, necktie, black necktie, long sleeves, black pants, pants, belt, black shoes, shoes, earpiece, wristwatch, arms behind back, standing, pocket, transparent background. A lean twenty-six-year-old Japanese covert hacker with short side-parted black undercut hair and cool grey eyes stands quietly with both arms behind his back in an immaculate anonymous black suit, white shirt and narrow black tie, with a slim matte black rectangular retention clip visible at his left cuff under soft even frontal studio light.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, knife, dagger, sword, weapon, computer, laptop, hologram, heads-up display, glowing, aura, light particles",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-098-v1",
+  "characterId": "LS-NPC-098",
+  "characterName": "贾红",
+  "designStatus": "portrait-design-v1-provisional-gender-age",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-098-贾红-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-098-贾红-20260829-ls-npc-098-v1-seed-984315726.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=9b9e8c50a60014aed2df8c18cfa8b5bc900fa31a8b54a9727cfc330d1a23eb94",
+      "临时设计中的废品站女老板形象成立：灰棕乱发、深绿工具背心、工装裤、手套和活动扳手清楚；未出现机械狗、组织标识或超自然效果。性别年龄仍为可替换假设。"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-085-v2",
+  "characterId": "LS-NPC-085",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "e37d70",
+  "apiSeed": 852914630,
+  "imageIndex": 0,
+  "output": "LS-NPC-085-凌渡-v2.png",
+  "sha256": "664e67cfc1f970735faaa9e37c0765743fa8c74ca56fa541be22f9e6be90c2b2",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:07:23.270Z"
+}

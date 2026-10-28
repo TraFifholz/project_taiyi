@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-052-v1",
+  "characterId": "LS-NPC-052",
+  "characterName": "巫明烛",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-052-巫明烛-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-052-巫明烛-20260829-ls-npc-052-v1-seed-649207318.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=c190d132bb0a70b6170bdeb4222862e69de503e1ea6740dc66d3517d946cb136",
+      "右眼由素面黑色眼罩覆盖，方向与身份事实一致；黑灰高领特战装备层次清晰、无标识无武器，静止压迫感成立。未出现静默域、声波、HUD、强烈轮廓光或伪文字；透明边缘和双手结构可接受。"
+    ]
+  }
+}

@@ -1,0 +1,1340 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-29T07:53:45.609Z",
+  "targetPopulation": 93,
+  "policy": {
+    "cyberpunkSignalTarget": "45/93 = 48.4% after adding the actual-play Gunmu measurer",
+    "remainderTarget": "48/93 = 51.6%, preserving varied non-cyber silhouettes",
+    "bodyModificationPolicy": "Permanent replacements and interfaces are visible but role-specific; they do not imply supernatural powers.",
+    "tagPolicy": "Every addTags entry must exist in control/verified-tags.json before prompt application."
+  },
+  "counts": {
+    "cyberpunkSignal": 45,
+    "diverseCivic": 48,
+    "refresh": 73,
+    "retain": 20
+  },
+  "entries": [
+    {
+      "id": "LS-NPC-001",
+      "name": "陆文青",
+      "organization": "重黎工业；义体销售",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "corporate-prosthesis",
+      "refresh": true,
+      "designDirective": "polished modular left-hand prosthesis and asymmetric smart tailoring",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "science_fiction",
+        "buckle"
+      ]
+    },
+    {
+      "id": "LS-NPC-002",
+      "name": "万祁连",
+      "organization": "重黎工业；泥人计划文档管理员",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-003",
+      "name": "苗铁城",
+      "organization": "重黎工业；夜班维护组长",
+      "layer": "diverse-civic",
+      "targetStyle": "blue-jumpsuit",
+      "refresh": true,
+      "designDirective": "a faded blue maintenance jumpsuit with rolled sleeves, caliper pocket and heavy work boots",
+      "addTags": [
+        "blue_jumpsuit",
+        "sleeves_rolled_up",
+        "tool_belt",
+        "work_boots"
+      ]
+    },
+    {
+      "id": "LS-NPC-004",
+      "name": "党怀沙",
+      "organization": "重黎工业焰卫；泥人计划外勤",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "industrial-prosthesis",
+      "refresh": true,
+      "designDirective": "exposed military right arm and a fitted five-fingered dark heat-resistant glove on the normal left hand",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "science_fiction",
+        "robot_joints"
+      ]
+    },
+    {
+      "id": "LS-NPC-005",
+      "name": "燕尺素",
+      "organization": "重黎工业；心理建模师",
+      "layer": "diverse-civic",
+      "targetStyle": "layered-lab-workwear",
+      "refresh": true,
+      "designDirective": "a pale lab coat layered over a grey-blue industrial jumpsuit with restrained metal fasteners",
+      "addTags": [
+        "lab_coat",
+        "blue_jumpsuit",
+        "buckle",
+        "work_boots"
+      ]
+    },
+    {
+      "id": "LS-NPC-006",
+      "name": "翟明珠",
+      "organization": "云梦科技；TAIYI 运维",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "corporate-interface",
+      "refresh": true,
+      "designDirective": "a visible behind-ear maintenance jack and layered slate technical workwear",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "science_fiction",
+        "snap-fit_buckle"
+      ]
+    },
+    {
+      "id": "LS-NPC-008",
+      "name": "苗可栗",
+      "organization": "云梦科技；夜班客服",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "integrated-service-cyborg",
+      "refresh": true,
+      "designDirective": "integrated mechanical ears and a segmented synthetic voice module",
+      "addTags": [
+        "cyberpunk",
+        "streetwear",
+        "headset",
+        "oversized_clothes"
+      ]
+    },
+    {
+      "id": "LS-NPC-009",
+      "name": "郜白",
+      "organization": "云梦科技；数字安防",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "data-security-cyborg",
+      "refresh": true,
+      "designDirective": "one full mechanical eye, exposed temple plate and articulated prosthetic hand",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "mechanical_eyes",
+        "science_fiction"
+      ]
+    },
+    {
+      "id": "LS-NPC-011",
+      "name": "沈丹青",
+      "organization": "河图科技；政府事务经理",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-012",
+      "name": "罗弈",
+      "organization": "河图科技；《九域》运营",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "street-tech",
+      "refresh": true,
+      "designDirective": "a sharp cropped jacket, cargo trousers and an aftermarket test-device harness",
+      "addTags": [
+        "cyberpunk",
+        "streetwear",
+        "punk",
+        "cargo_pants",
+        "harness"
+      ]
+    },
+    {
+      "id": "LS-NPC-013",
+      "name": "曲阿七",
+      "organization": "河图科技；渠道维护与黄区私活",
+      "layer": "diverse-civic",
+      "targetStyle": "patched-field-repair",
+      "refresh": true,
+      "designDirective": "a sun-faded orange utility vest over patched work clothes and a visibly overstuffed cable bag",
+      "addTags": [
+        "orange_vest",
+        "cargo_pants",
+        "tool_belt",
+        "work_boots"
+      ]
+    },
+    {
+      "id": "LS-NPC-014",
+      "name": "田进财",
+      "organization": "飞廉速运；资深骑手与互助站联络",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "courier-prosthesis",
+      "refresh": true,
+      "designDirective": "a weathered below-knee courier prosthesis integrated with bright reflective riding gear",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "cyborg",
+        "prosthetic_leg",
+        "sportswear"
+      ]
+    },
+    {
+      "id": "LS-NPC-015",
+      "name": "单小鹿",
+      "organization": "飞廉速运；AGV 夜班调度",
+      "layer": "diverse-civic",
+      "targetStyle": "night-shift-sportswear",
+      "refresh": true,
+      "designDirective": "a bright track jacket over a loose shirt and practical sneakers, with a dispatch headset",
+      "addTags": [
+        "sportswear",
+        "track_jacket",
+        "t-shirt",
+        "sneakers",
+        "headset"
+      ]
+    },
+    {
+      "id": "LS-NPC-017",
+      "name": "方见",
+      "organization": "燧明科技；芯片质检",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "corporate-interface",
+      "refresh": true,
+      "designDirective": "a precision inspection ocular implant paired with a clean short technical jacket",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "mechanical_eyes",
+        "science_fiction"
+      ]
+    },
+    {
+      "id": "LS-NPC-018",
+      "name": "卓近火",
+      "organization": "燧明科技；燧人·零助理工程师",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "industrial-prosthesis",
+      "refresh": true,
+      "designDirective": "two articulated conductive prosthetic fingertips visible around the pen and an asymmetric lab jacket",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "cyborg",
+        "prosthetic_hand",
+        "science_fiction"
+      ]
+    },
+    {
+      "id": "LS-NPC-019",
+      "name": "甘采蓝",
+      "organization": "燧明科技；体验顾问、前康复护士",
+      "layer": "diverse-civic",
+      "targetStyle": "medical-retail-knit",
+      "refresh": true,
+      "designDirective": "a soft blue cardigan over a clean clinic shirt with a small blank badge",
+      "addTags": [
+        "blue_cardigan",
+        "cardigan",
+        "blue_shirt",
+        "long_sleeves"
+      ]
+    },
+    {
+      "id": "LS-NPC-021",
+      "name": "周清梅",
+      "organization": "丰隆工业；退役维护技师、回收铺主",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-022",
+      "name": "霍云骧",
+      "organization": "丰隆工业；无人机试飞站地勤",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "industrial-interface",
+      "refresh": true,
+      "designDirective": "a rugged drone-control port behind one ear and layered airfield utility gear",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "cyborg",
+        "utility_vest",
+        "cargo_pants"
+      ]
+    },
+    {
+      "id": "LS-NPC-024",
+      "name": "雷小鼓",
+      "organization": "丰隆工业；羿项目试飞员",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "flight-interface",
+      "refresh": true,
+      "designDirective": "the old neck synchronization interface rendered as a deliberate segmented port beneath a fitted flight harness",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "science_fiction",
+        "harness",
+        "chest_harness"
+      ]
+    },
+    {
+      "id": "LS-NPC-025",
+      "name": "葛兆康（老葛）",
+      "organization": "九渊建设；楚钢缓冲区工头",
+      "layer": "diverse-civic",
+      "targetStyle": "high-visibility-construction",
+      "refresh": true,
+      "designDirective": "a dusty high-visibility vest, blue work shirt, helmet and mismatched construction gloves",
+      "addTags": [
+        "orange_vest",
+        "blue_shirt",
+        "work_gloves",
+        "work_boots"
+      ]
+    },
+    {
+      "id": "LS-NPC-026",
+      "name": "甘棠",
+      "organization": "九渊建设；地下工程档案员",
+      "layer": "diverse-civic",
+      "targetStyle": "archive-knit",
+      "refresh": true,
+      "designDirective": "a brown sweater vest over rolled shirt sleeves with a long practical skirt",
+      "addTags": [
+        "brown_cardigan",
+        "sweater_vest",
+        "long_skirt",
+        "sleeves_rolled_up"
+      ]
+    },
+    {
+      "id": "LS-NPC-027",
+      "name": "邢九重",
+      "organization": "九渊建设；陵寝层夜班掘进队长",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "industrial-prosthesis",
+      "refresh": true,
+      "designDirective": "a scarred industrial lower-leg prosthesis beneath high-visibility tunneling equipment",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "cyborg",
+        "prosthetic_leg",
+        "orange_vest"
+      ]
+    },
+    {
+      "id": "LS-NPC-029",
+      "name": "秦时雨",
+      "organization": "龙腾轨交；末班车司机",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-030",
+      "name": "钟月台",
+      "organization": "龙腾轨交；故城中心站站务",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-031",
+      "name": "童司南",
+      "organization": "龙腾轨交；见习调度",
+      "layer": "diverse-civic",
+      "targetStyle": "young-trainee-knit",
+      "refresh": true,
+      "designDirective": "a neat blue sweater vest over a pale shirt with comfortable trousers and a trainee badge",
+      "addTags": [
+        "blue_cardigan",
+        "sweater_vest",
+        "blue_shirt",
+        "pants"
+      ]
+    },
+    {
+      "id": "LS-NPC-033",
+      "name": "赵明芝",
+      "organization": "追风出行；前司机、十七名司机代表",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "driver-prosthesis",
+      "refresh": true,
+      "designDirective": "a rugged exposed forearm prosthesis crossed over the drivers' appeal folder",
+      "addTags": [
+        "bomber_jacket",
+        "sportswear",
+        "t-shirt",
+        "sneakers"
+      ]
+    },
+    {
+      "id": "LS-NPC-034",
+      "name": "苏小晚",
+      "organization": "追风出行；夜班司机、电台主播",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "driver-interface",
+      "refresh": true,
+      "designDirective": "a compact auditory driving interface behind the ear and a vivid night-driver bomber jacket",
+      "addTags": [
+        "cyberpunk",
+        "streetwear",
+        "cyborg",
+        "bomber_jacket",
+        "headset"
+      ]
+    },
+    {
+      "id": "LS-NPC-035",
+      "name": "顾全有",
+      "organization": "追风出行；车辆运营主管",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-037",
+      "name": "白念秋",
+      "organization": "楚风传媒；艺人、地铁线死者档案",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-038",
+      "name": "何问舟",
+      "organization": "楚风传媒；编剧、前卜府实习",
+      "layer": "diverse-civic",
+      "targetStyle": "lecturer-knit",
+      "refresh": true,
+      "designDirective": "a grey turtleneck sweater and soft long coat with a worn phone in hand",
+      "addTags": [
+        "turtleneck_sweater",
+        "grey_sweater",
+        "long_coat",
+        "pants"
+      ]
+    },
+    {
+      "id": "LS-NPC-039",
+      "name": "纪清商",
+      "organization": "楚风传媒；主播经纪与九歌少女运营",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "media-cyborg-fashion",
+      "refresh": true,
+      "designDirective": "matched mechanical irises, polished ear implants and a visible voice interface",
+      "addTags": [
+        "purple_jacket",
+        "pencil_skirt",
+        "jewelry",
+        "earrings"
+      ]
+    },
+    {
+      "id": "LS-NPC-040",
+      "name": "向柳",
+      "organization": "楚风传媒；加密频道主播",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "media-tech",
+      "refresh": true,
+      "designDirective": "a half mask, audio harness and asymmetrical underground broadcast streetwear",
+      "addTags": [
+        "cyberpunk",
+        "streetwear",
+        "punk",
+        "half_mask",
+        "harness"
+      ]
+    },
+    {
+      "id": "LS-NPC-041",
+      "name": "冯宁汐",
+      "organization": "云鲤互娱；隐藏内容开发",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "creative-tech",
+      "refresh": true,
+      "designDirective": "layered game-studio streetwear with metal badges, thigh strap and portable coordinate terminal",
+      "addTags": [
+        "cyberpunk",
+        "streetwear",
+        "techwear",
+        "thigh_strap",
+        "multiple_earrings"
+      ]
+    },
+    {
+      "id": "LS-NPC-043",
+      "name": "阿岛俊",
+      "organization": "云鲤互娱；社群管理员",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "street-tech",
+      "refresh": true,
+      "designDirective": "a loose hoodie under a bright track jacket with large noise-cancelling headphones",
+      "addTags": [
+        "cyberpunk",
+        "streetwear",
+        "hoodie",
+        "track_jacket",
+        "headset"
+      ]
+    },
+    {
+      "id": "LS-NPC-044",
+      "name": "陈志远",
+      "organization": "引资银行；龙散分行主管",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-045",
+      "name": "金舸",
+      "organization": "引资银行；资深业务员",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-046",
+      "name": "何凌",
+      "organization": "引资银行；江城审计员",
+      "layer": "diverse-civic",
+      "targetStyle": "minimalist-auditor",
+      "refresh": true,
+      "designDirective": "an oversized pale coat with asymmetrical fasteners and a compact document case",
+      "addTags": [
+        "oversized_clothes",
+        "white_coat",
+        "buckle",
+        "asymmetrical_hair"
+      ]
+    },
+    {
+      "id": "LS-NPC-048",
+      "name": "沈折琼",
+      "organization": "引资银行；金库守库人",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "security-interface",
+      "refresh": true,
+      "designDirective": "a visible subdermal vault-authentication port at the temple and angular security armor",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "cyborg",
+        "body_armor",
+        "science_fiction"
+      ]
+    },
+    {
+      "id": "LS-NPC-049",
+      "name": "白鸢",
+      "organization": "玄盾国际；旧城安保大队长",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "tactical-tech",
+      "refresh": true,
+      "designDirective": "modular matte armor with contrasting straps and a compact command interface",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "body_armor",
+        "thigh_strap",
+        "snap-fit_buckle"
+      ]
+    },
+    {
+      "id": "LS-NPC-050",
+      "name": "艾德礼·霍华德",
+      "organization": "玄盾国际；训练教官",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-051",
+      "name": "夏满弓",
+      "organization": "玄盾国际；旧城巡逻队长",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-052",
+      "name": "巫明烛",
+      "organization": "玄盾国际；直辖特殊战术队长",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "tactical-tech",
+      "refresh": true,
+      "designDirective": "an austere sensor eyepatch integrated into asymmetrical special-action armor",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "body_armor",
+        "half_mask",
+        "science_fiction"
+      ]
+    },
+    {
+      "id": "LS-NPC-053",
+      "name": "郁垒",
+      "organization": "玄盾国际；特战队员、前卜府密探",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "tactical-tech",
+      "refresh": true,
+      "designDirective": "lean segmented armor with a predictive sensor collar and offset harness",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "body_armor",
+        "harness",
+        "snap-fit_buckle"
+      ]
+    },
+    {
+      "id": "LS-NPC-054",
+      "name": "白鹤年",
+      "organization": "玄盾国际；黑狱典狱长",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "institutional-interface",
+      "refresh": true,
+      "designDirective": "the restraint-network connector made clearly visible behind the ear above an old severe long coat",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "cyborg",
+        "science_fiction",
+        "long_coat"
+      ]
+    },
+    {
+      "id": "LS-NPC-055",
+      "name": "伊莱恩·莫罗",
+      "organization": "玄盾国际；情报分析官、野心派文职核心",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "corporate-interface",
+      "refresh": true,
+      "designDirective": "a discreet memory-assist temple port beneath an immaculate asymmetric intelligence uniform",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "cyborg",
+        "buckle",
+        "science_fiction"
+      ]
+    },
+    {
+      "id": "LS-NPC-056",
+      "name": "卫铁生",
+      "organization": "义胜盟；黄区分舵红衣",
+      "layer": "diverse-civic",
+      "targetStyle": "hall-embroidered-jacket",
+      "refresh": true,
+      "designDirective": "a restrained red jacket with the white-tiger hall embroidery visible only at one rolled cuff",
+      "addTags": [
+        "red_jacket",
+        "sleeves_rolled_up",
+        "black_shirt",
+        "brown_pants"
+      ]
+    },
+    {
+      "id": "LS-NPC-057",
+      "name": "铁手（李铁牙）",
+      "organization": "义胜盟；堂口执行人",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "street-prosthesis",
+      "refresh": true,
+      "designDirective": "only the right hand below the wrist replaced by a battered old prosthesis, paired with layered red streetwear",
+      "addTags": [
+        "cyberpunk",
+        "streetwear",
+        "punk",
+        "prosthetic_hand",
+        "cyborg"
+      ]
+    },
+    {
+      "id": "LS-NPC-058",
+      "name": "闵三元",
+      "organization": "义胜盟；总舵账房",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "accountant-cyborg",
+      "refresh": true,
+      "designDirective": "one mechanical eye and an articulated accounting hand inside worn old knitwear",
+      "addTags": [
+        "brown_cardigan",
+        "sweater_vest",
+        "brown_pants",
+        "glasses"
+      ]
+    },
+    {
+      "id": "LS-NPC-059",
+      "name": "柳拂衣",
+      "organization": "义胜盟剑阁；行动者",
+      "layer": "diverse-civic",
+      "targetStyle": "swordsman-hybrid",
+      "refresh": true,
+      "designDirective": "a charcoal kimono beneath a weathered black long coat, tied with the old red hair cord",
+      "addTags": [
+        "grey_kimono",
+        "kimono",
+        "black_coat",
+        "long_coat"
+      ]
+    },
+    {
+      "id": "LS-NPC-060",
+      "name": "纪小刀",
+      "organization": "义胜盟剑阁；预备成员",
+      "layer": "diverse-civic",
+      "targetStyle": "young-fighter-street",
+      "refresh": true,
+      "designDirective": "a red hoodie under a short jacket with loose cargo trousers and worn sneakers",
+      "addTags": [
+        "hoodie",
+        "red_jacket",
+        "cargo_pants",
+        "sneakers"
+      ]
+    },
+    {
+      "id": "LS-NPC-061",
+      "name": "何夜白",
+      "organization": "霜月会；神经接口校准技师",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "clinic-punk",
+      "refresh": true,
+      "designDirective": "seven matte ear studs, a calibration headset and dense pocketed clinic techwear",
+      "addTags": [
+        "cyberpunk",
+        "punk",
+        "techwear",
+        "ear_piercing",
+        "multiple_earrings"
+      ]
+    },
+    {
+      "id": "LS-NPC-062",
+      "name": "九条千寻",
+      "organization": "霜月会影手组；骇客",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "hacker-punk",
+      "refresh": true,
+      "designDirective": "a fitted black suit broken by a data-knife harness, multiple ear piercings and street-tech buckles",
+      "addTags": [
+        "cyberpunk",
+        "punk",
+        "techwear",
+        "multiple_earrings",
+        "harness"
+      ]
+    },
+    {
+      "id": "LS-NPC-063",
+      "name": "鹿岛绫",
+      "organization": "霜月会三人众；娱乐区与药物生意",
+      "layer": "diverse-civic",
+      "targetStyle": "matriarch-kimono-coat",
+      "refresh": true,
+      "designDirective": "a formal black kimono beneath a severe long coat with one restrained metal ornament",
+      "addTags": [
+        "black_kimono",
+        "kimono",
+        "long_coat",
+        "jewelry"
+      ]
+    },
+    {
+      "id": "LS-NPC-065",
+      "name": "宋远",
+      "organization": "阿奎拉家族；港口物流接口",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "port-street-tech",
+      "refresh": true,
+      "designDirective": "a tailored bomber jacket over port utility streetwear with the hidden eagle mark retained",
+      "addTags": [
+        "cyberpunk",
+        "streetwear",
+        "bomber_jacket",
+        "cargo_pants",
+        "buckle"
+      ]
+    },
+    {
+      "id": "LS-NPC-066",
+      "name": "卢卡·阿奎拉",
+      "organization": "阿奎拉家族；仓储家顾问",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "port-punk",
+      "refresh": true,
+      "designDirective": "refined dockside streetwear that exposes the forearm tattoo through asymmetrical rolled sleeves",
+      "addTags": [
+        "cyberpunk",
+        "streetwear",
+        "punk",
+        "arm_tattoo",
+        "multiple_earrings"
+      ]
+    },
+    {
+      "id": "LS-NPC-067",
+      "name": "马铁鹰",
+      "organization": "阿奎拉家族军团；武力执行",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "dock-punk",
+      "refresh": true,
+      "designDirective": "a sleeveless armored dock jacket, heavy cargo trousers and the full right-arm tattoo",
+      "addTags": [
+        "cyberpunk",
+        "punk",
+        "streetwear",
+        "body_armor",
+        "arm_tattoo"
+      ]
+    },
+    {
+      "id": "LS-NPC-068",
+      "name": "西尔维娅",
+      "organization": "阿奎拉神选小队；祭司",
+      "layer": "diverse-civic",
+      "targetStyle": "port-religious-dress",
+      "refresh": true,
+      "designDirective": "a severe long black dress with an eagle pendant and a weathered port coat",
+      "addTags": [
+        "black_dress",
+        "long_dress",
+        "black_coat",
+        "necklace"
+      ]
+    },
+    {
+      "id": "LS-NPC-069",
+      "name": "贺梦琪",
+      "organization": "棍木会外围；电竞馆掌柜",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "arcade-punk",
+      "refresh": true,
+      "designDirective": "bright layered arcade streetwear with a crop top, bomber jacket and multiple ear piercings",
+      "addTags": [
+        "cyberpunk",
+        "punk",
+        "streetwear",
+        "crop_top",
+        "bomber_jacket"
+      ]
+    },
+    {
+      "id": "LS-NPC-070",
+      "name": "老井（井叔）",
+      "organization": "棍木会；物理中继维护",
+      "layer": "diverse-civic",
+      "targetStyle": "muddy-rural-workwear",
+      "refresh": true,
+      "designDirective": "a moss-green field jacket over mud-stained work clothes with an old canvas tool belt",
+      "addTags": [
+        "green_jacket",
+        "cargo_pants",
+        "tool_belt",
+        "work_boots"
+      ]
+    },
+    {
+      "id": "LS-NPC-072",
+      "name": "苏晦（S.H.）",
+      "organization": "卜府离叛者；测量者主事",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "fugitive-tech",
+      "refresh": true,
+      "designDirective": "anonymous layered technical clothing with a mouth mask and isolated terminal harness",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "mouth_mask",
+        "hoodie",
+        "harness"
+      ]
+    },
+    {
+      "id": "LS-NPC-073",
+      "name": "LR-07",
+      "organization": "卜府；驻场采样员",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "institutional-tech",
+      "refresh": true,
+      "designDirective": "numbered sampling gear built from a utility vest, sealed pouches and snap-fit buckles",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "utility_vest",
+        "pouch",
+        "snap-fit_buckle"
+      ]
+    },
+    {
+      "id": "LS-NPC-074",
+      "name": "薄晚",
+      "organization": "卜府；神策分析员",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-075",
+      "name": "罗鸣谦",
+      "organization": "卜府；特别面试校园联络",
+      "layer": "diverse-civic",
+      "targetStyle": "teacher-cardigan",
+      "refresh": true,
+      "designDirective": "a warm brown cardigan over a pale shirt with relaxed trousers and a tea cup",
+      "addTags": [
+        "brown_cardigan",
+        "cardigan",
+        "brown_pants",
+        "long_sleeves"
+      ]
+    },
+    {
+      "id": "LS-NPC-076",
+      "name": "玄圭",
+      "organization": "卜府；中级裁量官、管委会借调",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-077",
+      "name": "方泰安",
+      "organization": "旧城管委会；监察专员",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "bureaucrat-cyborg",
+      "refresh": true,
+      "designDirective": "an expensive mechanical eye and impeccably articulated prosthetic hand behind a cold public image",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-078",
+      "name": "于正清",
+      "organization": "旧城管委会；工程科科长",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-079",
+      "name": "秦有邻",
+      "organization": "旧城管委会；宣传舆情专员",
+      "layer": "diverse-civic",
+      "targetStyle": "optimistic-civic-casual",
+      "refresh": true,
+      "designDirective": "a vivid blue track jacket and clean sneakers instead of another office suit",
+      "addTags": [
+        "track_jacket",
+        "sportswear",
+        "blue_jacket",
+        "sneakers"
+      ]
+    },
+    {
+      "id": "LS-NPC-080",
+      "name": "许承钧",
+      "organization": "龙散大学；客座教授、ARP首席",
+      "layer": "diverse-civic",
+      "targetStyle": "professor-modernist",
+      "refresh": true,
+      "designDirective": "a dark turtleneck sweater under a long structured coat with understated jewelry",
+      "addTags": [
+        "turtleneck_sweater",
+        "long_coat",
+        "jewelry",
+        "boots"
+      ]
+    },
+    {
+      "id": "LS-NPC-081",
+      "name": "苏碧城",
+      "organization": "龙散大学；神经信号博士生",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "lab-interface",
+      "refresh": true,
+      "designDirective": "a small experimental neural port at the nape beneath a carelessly layered laboratory outfit",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "cyborg",
+        "science_fiction",
+        "lab_coat"
+      ]
+    },
+    {
+      "id": "LS-NPC-082",
+      "name": "杜若",
+      "organization": "龙散大学；土木研究生、未名会",
+      "layer": "diverse-civic",
+      "targetStyle": "field-student-color",
+      "refresh": true,
+      "designDirective": "an orange field vest over a blue hoodie with a safety helmet and folded plans",
+      "addTags": [
+        "orange_vest",
+        "blue_hoodie",
+        "hoodie",
+        "work_boots"
+      ]
+    },
+    {
+      "id": "LS-NPC-083",
+      "name": "纪慎微",
+      "organization": "龙散财大；法学院讲师、前裁量官",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-085",
+      "name": "凌渡",
+      "organization": "21-35所；网络架构研究员",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "research-tech",
+      "refresh": true,
+      "designDirective": "a server-room harness and dense technical layers replacing the generic checked-shirt silhouette",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "harness",
+        "utility_vest",
+        "snap-fit_buckle"
+      ]
+    },
+    {
+      "id": "LS-NPC-086",
+      "name": "文小篆",
+      "organization": "21-35所；牢笼夜班值守",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "containment-tech",
+      "refresh": true,
+      "designDirective": "a severe high-collar technical uniform with a biometric wrist connector and modular buckles",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "science_fiction",
+        "buckle",
+        "snap-fit_buckle"
+      ]
+    },
+    {
+      "id": "LS-NPC-088",
+      "name": "沈漫",
+      "organization": "随缘事务所；老板、主线导师",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "anomalous-prosthesis",
+      "refresh": true,
+      "designDirective": "the reconstructed right hand clearly visible against a loose asymmetrical long coat",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "prosthetic_hand",
+        "cyborg",
+        "long_coat"
+      ]
+    },
+    {
+      "id": "LS-NPC-089",
+      "name": "沈仲秋",
+      "organization": "随缘事务所；电竞房与发电机管理",
+      "layer": "diverse-civic",
+      "targetStyle": "family-work-casual",
+      "refresh": true,
+      "designDirective": "a loose green T-shirt, utility trousers and fingerless work gloves",
+      "addTags": [
+        "t-shirt",
+        "green_shirt",
+        "cargo_pants",
+        "fingerless_gloves"
+      ]
+    },
+    {
+      "id": "LS-NPC-090",
+      "name": "阿瑶（朱瑶光）",
+      "organization": "随缘事务所；PC生命绑定／锚点候选",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-091",
+      "name": "林彬",
+      "organization": "日常接点；短租公寓前台",
+      "layer": "diverse-civic",
+      "targetStyle": "slouchy-front-desk",
+      "refresh": true,
+      "designDirective": "an oversized hoodie beneath an unbuttoned work shirt with casual sneakers",
+      "addTags": [
+        "hoodie",
+        "oversized_clothes",
+        "open_clothes",
+        "sneakers"
+      ]
+    },
+    {
+      "id": "LS-NPC-092",
+      "name": "谢翠莲",
+      "organization": "日常接点；顺风茶馆老板娘",
+      "layer": "diverse-civic",
+      "targetStyle": "tea-house-warm",
+      "refresh": true,
+      "designDirective": "a warm red apron over a soft brown cardigan with practical dark skirt",
+      "addTags": [
+        "red_apron",
+        "brown_cardigan",
+        "cardigan",
+        "long_skirt"
+      ]
+    },
+    {
+      "id": "LS-NPC-093",
+      "name": "宋光明",
+      "organization": "日常接点；电器修理店老板",
+      "layer": "diverse-civic",
+      "targetStyle": "repair-shop-overalls",
+      "refresh": true,
+      "designDirective": "a brown repair-shop jumpsuit tied at the waist over a faded shirt with oil-stained gloves",
+      "addTags": [
+        "jumpsuit",
+        "brown_pants",
+        "work_gloves",
+        "tool_belt"
+      ]
+    },
+    {
+      "id": "LS-NPC-094",
+      "name": "杨振邦",
+      "organization": "日常接点；地下拳场场务",
+      "layer": "diverse-civic",
+      "targetStyle": "boxing-venue-smart",
+      "refresh": true,
+      "designDirective": "a dark waistcoat over a rolled blue shirt with the small paper flower retained",
+      "addTags": [
+        "waistcoat",
+        "blue_shirt",
+        "sleeves_rolled_up",
+        "brown_pants"
+      ]
+    },
+    {
+      "id": "LS-NPC-095",
+      "name": "萨布里娜·费雷拉",
+      "organization": "日常接点；外籍社区联络、义肢康复",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "rehabilitation-prosthesis",
+      "refresh": true,
+      "designDirective": "the integrated spinal column and both articulated prosthetic legs paired with vivid athletic streetwear",
+      "addTags": [
+        "cyberpunk",
+        "streetwear",
+        "cyborg",
+        "prosthetic_leg",
+        "mechanical_legs"
+      ]
+    },
+    {
+      "id": "LS-NPC-096",
+      "name": "周凛",
+      "organization": "自由人；黄区掮客",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "broker-punk",
+      "refresh": true,
+      "designDirective": "an asymmetric hooded streetwear silhouette with concealed utility straps and mismatched earrings",
+      "addTags": [
+        "cyberpunk",
+        "punk",
+        "streetwear",
+        "hoodie",
+        "multiple_earrings"
+      ]
+    },
+    {
+      "id": "LS-NPC-098",
+      "name": "贾红",
+      "organization": "自由人；修理站／废品站站长",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "scrapyard-tech",
+      "refresh": true,
+      "designDirective": "patched industrial techwear with goggles at the neck, tool pouches and the damaged robot dog",
+      "addTags": [
+        "cyberpunk",
+        "techwear",
+        "utility_vest",
+        "cargo_pants",
+        "robot"
+      ]
+    },
+    {
+      "id": "LS-NPC-100",
+      "name": "陈斌",
+      "organization": "自由人；第一人民医院主治医生",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "rehabilitation-doctor-cyborg",
+      "refresh": true,
+      "designDirective": "one diagnostic mechanical eye and one exposed precision prosthetic forearm",
+      "addTags": [
+        "white_coat",
+        "blue_cardigan",
+        "cardigan",
+        "blue_shirt"
+      ]
+    },
+    {
+      "id": "LS-NPC-101",
+      "name": "梁文川",
+      "organization": "追风出行；联合创始人、首席路网架构师",
+      "layer": "diverse-civic",
+      "targetStyle": "vintage-mechanical",
+      "refresh": true,
+      "designDirective": "a worn trench coat over a waistcoat and rolled work shirt with an old mechanical part",
+      "addTags": [
+        "trench_coat",
+        "waistcoat",
+        "sleeves_rolled_up",
+        "work_boots"
+      ]
+    },
+    {
+      "id": "LS-NPC-103",
+      "name": "朱蘅",
+      "organization": "被转写者；沈漫闺蜜、阿瑶母亲、许承钧妻子",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-104",
+      "name": "林鹤",
+      "organization": "云鲤互娱；美术总监",
+      "layer": "diverse-civic",
+      "targetStyle": "art-director-expressive",
+      "refresh": true,
+      "designDirective": "an oversized striped jacket, asymmetrical haircut and boldly layered studio clothing",
+      "addTags": [
+        "striped_jacket",
+        "oversized_clothes",
+        "asymmetrical_hair",
+        "earrings"
+      ]
+    },
+    {
+      "id": "LS-NPC-105",
+      "name": "黑川",
+      "organization": "霜月会；会长、幕后档案",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-106",
+      "name": "红皇后",
+      "organization": "兔子洞；现实觉醒程序员，代号红皇后",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-107",
+      "name": "韩星",
+      "organization": "杀猪盘数据人格；离线档案",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "idol-cyborg",
+      "refresh": true,
+      "designDirective": "matched mechanical eyes, cosmetic ear implants and one elegant prosthetic hand",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-N1",
+      "name": "周敏",
+      "organization": "莲花路派出所；社区民警",
+      "layer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "refresh": false,
+      "designDirective": "retain the current distinctive silhouette and identity anchor",
+      "addTags": []
+    },
+    {
+      "id": "LS-NPC-N2",
+      "name": "程雯",
+      "organization": "故城区中学；教务老师",
+      "layer": "diverse-civic",
+      "targetStyle": "school-office-knit",
+      "refresh": true,
+      "designDirective": "a muted blue cardigan and long skirt with a simple teacher badge and attendance folder",
+      "addTags": [
+        "blue_cardigan",
+        "cardigan",
+        "long_skirt",
+        "long_sleeves"
+      ]
+    },
+    {
+      "id": "LS-NPC-N3",
+      "name": "闻笙（棍木女）",
+      "organization": "棍木会；测量者／李好木签联系人",
+      "layer": "cyberpunk-signal",
+      "targetStyle": "jirai-kei-gunmu-measurer",
+      "refresh": true,
+      "designDirective": "black-pink jirai-kei, eyepatch, black mouth mask, black nails, one visible golden eye and a wooden protective tag",
+      "addTags": [
+        "cyberpunk",
+        "streetwear",
+        "jirai_kei",
+        "eyepatch",
+        "mouth_mask",
+        "black_nails",
+        "yellow_eyes"
+      ]
+    }
+  ]
+}

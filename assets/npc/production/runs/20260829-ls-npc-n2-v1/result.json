@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-n2-v1",
+  "characterId": "LS-NPC-N2",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "5fcf93",
+  "apiSeed": 109637284,
+  "imageIndex": 0,
+  "output": "LS-NPC-N2-程雯-v1.png",
+  "sha256": "3a9857742087cd37f2cec5f3b48934572db72235991423da3c81ffd98206d344",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:49:32.325Z"
+}

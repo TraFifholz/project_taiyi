@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-065-refresh-v5",
+    "characterId": "LS-NPC-065",
+    "characterName": "宋远",
+    "promptVersion": 5,
+    "designStatus": "portrait-design-cyberpunk-refresh",
+    "designAssumptions": [
+      "lean Chinese man with short side-parted black hair, brown eyes and a carefully neutral local-business face",
+      "wears neat but mid-priced business casual clothing: an unstructured slate-blue blazer open over a light grey open-collar shirt, straight black trousers, simple belt and polished brown shoes",
+      "keeps both hands in his trouser pockets and stands in a brief assessing pause; opaque shirt and jacket fully cover the left chest",
+      "2026-08-29 visual refresh: a tailored bomber jacket over port utility streetwear with the hidden eagle mark retained",
+      "Targeted retry after visual QA: a plain slate bomber jacket, asymmetric port streetwear, cargo trousers and a utility belt retain the street-tech silhouette while removing chest pouches and harnesses that induced pseudo-text.",
+      "Audit correction: the verified generic jacket tag restores the project minimum of thirty-five tags without changing the accepted design."
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T11:54:23.3450891+08:00",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-065.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 261948705,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, tattoo, eagle tattoo, chest tattoo, eagle, bird, necktie, gun, weapon, hologram, heads-up display, glowing, aura, light particles",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1boy, solo, male focus, solo focus, mature male, skinny, short hair, black hair, undercut, parted hair, brown eyes, serious, expressionless, closed mouth, looking at viewer, long sleeves, open collar, collar, no necktie, pants, belt, shoes, wristwatch, hands in pockets, pocket, standing, cyberpunk, streetwear, bomber jacket, jacket, cargo pants, buckle, techwear, utility belt, transparent background. A lean thirty-two-year-old Chinese port logistics consultant with short side-parted black hair wears a plain slate bomber jacket over asymmetric port streetwear, cargo trousers and a compact utility belt under soft even frontal studio light.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, tattoo, eagle tattoo, chest tattoo, eagle, bird, necktie, gun, weapon, hologram, heads-up display, glowing, aura, light particles",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

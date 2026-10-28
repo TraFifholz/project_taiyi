@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-034-refresh-v2",
+  "characterId": "LS-NPC-034",
+  "characterName": "苏小晚",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-034-refresh-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-034-苏小晚-20260829-ls-npc-034-refresh-v2-seed-906347125.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=82a5a7f16f7de81c87735686417b352fa9af4ba869b2d1ed5d54d4e87fb3a811",
+      "视觉复核通过：driver-interface 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

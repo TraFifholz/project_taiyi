@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-009-review-v3",
+  "characterId": "LS-NPC-009",
+  "characterName": "郜白",
+  "designStatus": "portrait-design-cyborg-review-retry",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-009-review-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-009-郜白-20260829-ls-npc-009-review-v3-seed-1635426673.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=3aa596eabcd96f8ea2dc47b67f9d299624b024b9d7dabca7000a41abed9ba654",
+      "第二批返工复核通过：严格 cowboy shot、透明背景与平光合格，人物气质按角色功能收紧。 义体或接口已成为一眼可读的身体锚点，而非微小装饰。"
+    ]
+  }
+}

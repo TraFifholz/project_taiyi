@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-001-refresh-v3",
+  "characterId": "LS-NPC-001",
+  "characterName": "陆文青",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-001-refresh-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-001-陆文青-20260829-ls-npc-001-refresh-v3-seed-683336752.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=fefac02707338e81238adff20bcef0b83bbbf11a111e911866eecbfe94dc9be4",
+      "Visual QA passed: restrained corporate-cyber silhouette, articulated left prosthetic hand clearly visible, normal anatomy, transparent background and soft even lighting."
+    ]
+  }
+}

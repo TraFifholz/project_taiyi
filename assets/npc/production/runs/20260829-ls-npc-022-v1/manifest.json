@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-022-v1",
+  "characterId": "LS-NPC-022",
+  "characterName": "霍云骧",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-022-霍云骧-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-022-霍云骧-20260829-ls-npc-022-v1-seed-1818513701.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=6b75bf4993b7c9263557aad65c6d66edfaa83dd0611f631cc6085117d6a8d743",
+      "Visual QA passed: wind-worn ground-crew face, upward gaze, blue maintenance jumpsuit, industrial hearing protection, gloves and belt radio are clear; no drone, aircraft, pilot gear, HUD, power effect, text or strong rim light."
+    ]
+  }
+}

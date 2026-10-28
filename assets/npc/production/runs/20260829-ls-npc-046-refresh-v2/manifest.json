@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-046-refresh-v2",
+  "characterId": "LS-NPC-046",
+  "characterName": "何凌",
+  "designStatus": "portrait-design-diversity-refresh",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-046-refresh-v2.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=ad638292e35e035f7474e86a5e932843a5d816099ea81430b26fe6ff8991e4a3",
+      "视觉复核通过：minimalist-auditor 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。",
+      "用户审核拒绝；进入第二批角色气质与义体强度返工，旧候选保留为失败证据。"
+    ]
+  }
+}

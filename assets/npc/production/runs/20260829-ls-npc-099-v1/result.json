@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-099-v1",
+  "characterId": "LS-NPC-099",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "6ac364",
+  "apiSeed": 995478216,
+  "imageIndex": 0,
+  "output": "LS-NPC-099-刘大妈-v1.png",
+  "sha256": "9298337b16ecd073f627b12c9a94c180974f142a54f3e393dafbdcde68c56782",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:32:27.677Z"
+}

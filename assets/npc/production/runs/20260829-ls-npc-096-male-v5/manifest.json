@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-096-male-v5",
+  "characterId": "LS-NPC-096",
+  "characterName": "周凛",
+  "designStatus": "canon-sex-correction-male",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-096-周凛-20260829-ls-npc-096-male-v5-seed-962705318.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=4da9386c4a4bfca202003df673276aaf8c071861aa667d5a69ad250af7407ec7",
+      "Canonical correction satisfied: mature male broker with short black hair, stubble and black-magenta techwear; strict cowboy crop, transparent alpha and subdued edge lighting."
+    ]
+  }
+}

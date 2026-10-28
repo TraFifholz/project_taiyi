@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-092-refresh-v2",
+  "characterId": "LS-NPC-092",
+  "characterName": "谢翠莲",
+  "designStatus": "portrait-design-diversity-refresh",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-092-refresh-v2.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=f809a58e8a55cf93a78d38df8c718860ea52377f38e8a6700aad311edcaac1b0",
+      "视觉复核通过：tea-house-warm 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。",
+      "用户审核拒绝；进入第二批角色气质与义体强度返工，旧候选保留为失败证据。"
+    ]
+  }
+}

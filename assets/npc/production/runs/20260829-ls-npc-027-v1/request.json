@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-027-v1",
+    "characterId": "LS-NPC-027",
+    "characterName": "邢九重",
+    "promptVersion": 1,
+    "designStatus": "portrait-design-v1",
+    "designAssumptions": [
+      "powerful stocky build, thick neck, weathered tan skin, cropped black-and-grey hair and dark stubble",
+      "plain charcoal underground work jumpsuit, unmarked orange vest, utility belt, gloves and heavy boots",
+      "three-quarter rear stance with plain yellow hard hat carried at his side, one hand cupped near his ear and the lighter nape band visible"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T05:28:23+08:00",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-027.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 195776028,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, logo, emblem, insignia, badge, shoulder patch, glowing, aura, lightning, light particles",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1boy, solo, male focus, solo focus, mature male, muscular male, muscular, thick neck, broad shoulders, short hair, black hair, grey hair, brown eyes, tan, stubble, facial hair, thick eyebrows, construction worker, hard hat, holding unworn helmet, orange vest, jumpsuit, long sleeves, sleeves rolled up, pants, utility belt, work gloves, work boots, boots, listening, hand on own ear, looking to the side, head tilt, serious, closed mouth, standing, from behind, looking back, transparent background. A thick-backed forty-six-year-old Chinese underground night-shift captain pauses in a three-quarter rear stance to listen, carrying a plain unworn yellow hard hat while a simple lighter helmet tan band circles his nape, under soft even frontal studio light with no ancient writing, sound waves, supernatural effects or bright rim.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, logo, emblem, insignia, badge, shoulder patch, glowing, aura, lightning, light particles",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

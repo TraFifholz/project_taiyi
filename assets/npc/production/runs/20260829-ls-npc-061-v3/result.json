@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-061-v3",
+  "characterId": "LS-NPC-061",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "a4604a",
+  "apiSeed": 184729506,
+  "imageIndex": 0,
+  "output": "LS-NPC-061-何夜白-v3.png",
+  "sha256": "c3523db268c225edc20762e5bfefa8472aa118a102f879368c9ce3666191d37e",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:24:07.791Z"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-041-v1",
+  "characterId": "LS-NPC-041",
+  "characterName": "冯宁汐",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-041-冯宁汐-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=e88420e0c829911a277e42053c6e49f9c684f57da922362cc2cd0cd75d066988",
+      "思考姿态、背包与上方三枚徽章成立，但模型又生成一串六枚下垂吊饰，破坏固定三枚的身份锚点；保留失败原图，不采用。"
+    ]
+  }
+}

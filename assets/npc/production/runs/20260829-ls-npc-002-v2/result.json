@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-002-v2",
+  "characterId": "LS-NPC-002",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "04703d",
+  "apiSeed": 988832199,
+  "imageIndex": 0,
+  "output": "LS-NPC-002-万祁连-v2-seed-988832199.png",
+  "sha256": "b6017ae424b15d35f83a51560650e178cee87cb16f097328d6d503e85e567a1a",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T20:47:03.654Z"
+}

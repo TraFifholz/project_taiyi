@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-026-v2",
+  "characterId": "LS-NPC-026",
+  "characterName": "甘棠",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-026-甘棠-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-026-甘棠-20260829-ls-npc-026-v2-seed-882631404.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=447e2fed7da62eb9f18a6e4926635563eee3a07b9532053d6a3ada3d10ae134a",
+      "透明背景有效；圆框眼镜、档案夹、成叠空白图纸与克制神情形成明确档案员身份；双手结构正常，指尖仅见细小红色划痕，无绷带夸张或文字伪影，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-103-soft-v3",
+  "characterId": "LS-NPC-103",
+  "characterName": "朱恒／朱蘅（待统一）",
+  "designStatus": "user-review-soft-expression-correction",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-103-朱恒／朱蘅（待统一）-20260829-ls-npc-103-soft-v3-seed-103865472.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=fa3d397b0bb4e704b3a221455a1bb93cf746aa1499c2d1fc9ec043eea24cb988",
+      "朱蘅：闭口浅笑、放松眉眼取代戒备表情；白发红瞳与成年亲缘版本仍清楚。"
+    ]
+  }
+}

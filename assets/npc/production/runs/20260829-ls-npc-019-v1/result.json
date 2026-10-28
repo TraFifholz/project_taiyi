@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-019-v1",
+  "characterId": "LS-NPC-019",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "a290cf",
+  "apiSeed": 673470429,
+  "imageIndex": 0,
+  "output": "LS-NPC-019-甘采蓝-v1.png",
+  "sha256": "11cdd7d2fd80539035e552fa41209d67775c675b1b94382d8a013ef4c67b79da",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:18:03.103Z"
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-062-v1",
+  "characterId": "LS-NPC-062",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "407818",
+  "apiSeed": 875206431,
+  "imageIndex": 0,
+  "output": "LS-NPC-062-九条千寻-v1.png",
+  "sha256": "9289e66e39b9929361dea708170527521ae8eaa1b95ed3703a59d2b7cb47b1c0",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:26:23.186Z"
+}

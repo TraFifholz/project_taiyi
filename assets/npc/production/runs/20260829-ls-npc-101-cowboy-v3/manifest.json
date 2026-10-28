@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-101-cowboy-v3",
+  "characterId": "LS-NPC-101",
+  "characterName": "梁文川",
+  "designStatus": "portrait-design-diversity-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-101-cowboy-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-101-梁文川-20260829-ls-npc-101-cowboy-v3-seed-101528463.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=f19689f7f3b0a71a929bbed3e89c9580865caef5950c62571c1c614527136184",
+      "构图返工复核通过：不再出现完整小腿、鞋或全身远景，主体按头至大腿区间呈现；透明背景、平光、人体与身份锚点合格。"
+    ]
+  }
+}

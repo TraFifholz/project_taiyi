@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-081-v2",
+  "characterId": "LS-NPC-081",
+  "characterName": "苏碧城",
+  "designStatus": "portrait-design-v2",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-081-苏碧城-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-081-苏碧城-20260829-ls-npc-081-v2-seed-691374025.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=896dcfc71fe922b00fdf06a70174240ed47e0eef2eb5328e083f21ae2a44d624",
+      "三张米色纸张清晰可辨，正面纸上有大型粗糙石墨圆圈，铅笔与宽松实验服锚点成立；未见可读伪文字，透明背景与平光符合规范。"
+    ]
+  }
+}

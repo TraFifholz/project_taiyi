@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-095-v2",
+  "characterId": "LS-NPC-095",
+  "characterName": "萨布里娜·费雷拉",
+  "designStatus": "portrait-design-v2-provisional-complexion",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-095-萨布里娜·费雷拉-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-095-萨布里娜·费雷拉-20260829-ls-npc-095-v2-seed-959830714.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=06df5cf4967f380e31ce03753ad349bb4eb4b0084cb8bc61926d7d510ea0db15",
+      "三分之四背视清楚呈现高马尾、亮黄宽松外套、双侧腿义肢、两侧髋接口与单条封闭式中央脊柱支撑，康复拐杖和谨慎负重状态成立；无裸露椎骨、武装化或特效。肤色按总控保留为临时设计假设。"
+    ]
+  }
+}

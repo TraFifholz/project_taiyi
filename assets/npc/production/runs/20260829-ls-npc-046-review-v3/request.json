@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-046-review-v3",
+    "characterId": "LS-NPC-046",
+    "characterName": "何凌",
+    "promptVersion": 3,
+    "designStatus": "portrait-design-review-retry",
+    "designAssumptions": [
+      "Chinese woman about thirty-one with a neat short black bob, brown eyes and a quiet exacting gaze",
+      "plain white long audit coat over a charcoal turtleneck, straight black trousers, black office shoes and a narrow watch",
+      "holds a closed completely blank black document folio at her waist while visually checking its edge with restrained concentration",
+      "2026-08-29 visual refresh: an oversized pale coat with asymmetrical fasteners and a compact document case",
+      "User-review redesign: A precise thirty-one-year-old Chinese bank auditor with a severe short black bob and an unreadable exacting gaze holds a compact blank document case against an oversized pale coat with asymmetrical fasteners under soft even frontal studio light, remaining entirely human in this standard form; the strict cowboy shot ends at mid-thigh."
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T12:48:25.5866971+08:00",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-046.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 605172943,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, cat, animal, animal ears, cat ears, transformation, fog, smoke, glowing, aura, light particles, full body, shoes, boots, sneakers",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1girl, solo, solo focus, mature female, short hair, black hair, bob cut, parted bangs, side part, hair behind ear, brown eyes, white coat, coat, open coat, long coat, turtleneck, turtleneck sweater, black shirt, long sleeves, belt, black shoes, folder, holding folder, holding, inspecting, looking down, serious, closed mouth, standing, wristwatch, breast pocket, pocket, simple background, oversized clothes, buckle, asymmetrical hair, transparent background, cowboy shot. A precise thirty-one-year-old Chinese bank auditor with a severe short black bob and an unreadable exacting gaze holds a compact blank document case against an oversized pale coat with asymmetrical fasteners under soft even frontal studio light, remaining entirely human in this standard form; the strict cowboy shot ends at mid-thigh.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, cat, animal, animal ears, cat ears, transformation, fog, smoke, glowing, aura, light particles, full body, shoes, boots, sneakers",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

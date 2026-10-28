@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-025-refresh-v2",
+    "characterId": "LS-NPC-025",
+    "characterName": "葛兆康（老葛）",
+    "promptVersion": 2,
+    "designStatus": "portrait-design-diversity-refresh",
+    "designAssumptions": [
+      "Chinese man in his late forties with sun-tanned skin, short black hair, stubble and a broad working build",
+      "worn blue work jumpsuit with rolled sleeves, plain orange safety vest and scuffed work boots",
+      "holds his smartphone low while staring at it with a troubled frown; carries an unworn plain yellow hard hat in the other hand",
+      "2026-08-29 visual refresh: a dusty high-visibility vest, blue work shirt, helmet and mismatched construction gloves"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T03:36:35.3788631Z",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-025.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 409226751,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, logo, emblem, insignia, badge, shoulder patch, glowing, aura, neon lights, light particles",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1boy, solo, male focus, solo focus, mature male, short hair, black hair, brown eyes, tan, stubble, facial hair, thick eyebrows, broad shoulders, construction worker, hard hat, orange vest, jumpsuit, blue jumpsuit, long sleeves, sleeves rolled up, breast pocket, pants, belt, work gloves, work boots, boots, smartphone, holding phone, looking at phone, holding unworn helmet, holding, frown, closed mouth, standing, blue shirt, transparent background. A broad, sun-tanned Chinese construction foreman in his late forties studies a smartphone with a reluctant frown while carrying a plain unworn yellow hard hat, dressed in a worn unmarked blue work jumpsuit and plain orange vest under soft even frontal studio light without text, logos, scenery or a bright rim; a dusty high-visibility vest, blue work shirt, helmet and mismatched construction gloves.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, logo, emblem, insignia, badge, shoulder patch, glowing, aura, neon lights, light particles",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

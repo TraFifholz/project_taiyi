@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-090-v1",
+  "characterId": "LS-NPC-090",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "bdee86",
+  "apiSeed": 903418527,
+  "imageIndex": 0,
+  "output": "LS-NPC-090-阿瑶-v1.png",
+  "sha256": "a3db8e939b8f0c566d399f75d59512f5e4eadce855f49af5309a2b04e925b9be",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:14:57.095Z"
+}

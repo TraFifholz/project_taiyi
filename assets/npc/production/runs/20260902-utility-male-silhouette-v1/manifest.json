@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260902-utility-male-silhouette-v1",
+  "characterId": "UTILITY-MALE",
+  "characterName": "通用男性纯黑剪影",
+  "designStatus": "utility-anonymous-portrait",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "rawAssets": [
+    "raw/male-silhouette.png"
+  ],
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=c59aa45a15e599dc207ecd877b469e4744c3b86d590bc36c4e6ec2aa40a8a6b3",
+      "将 NAI 原图内部 RGB 统一为 0，保留原图 alpha 及轮廓；无额外绘制。"
+    ]
+  },
+  "scope": "Reusable anonymous NPC placeholder",
+  "resultFile": "result.json",
+  "utilityAsset": "assets/utility/npc-male-silhouette-20260902.png",
+  "approval": {
+    "status": "approved",
+    "approvedAt": "2026-09-02T15:54:08.267Z",
+    "userText": "通过"
+  }
+}

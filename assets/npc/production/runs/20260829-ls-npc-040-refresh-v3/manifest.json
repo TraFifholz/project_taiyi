@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-040-refresh-v3",
+  "characterId": "LS-NPC-040",
+  "characterName": "向柳",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-040-refresh-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-040-向柳-20260829-ls-npc-040-refresh-v3-seed-638271954.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=f6eae70b0dcb8f993dbc101767b2e709fd0371c5201c04bcc24028a0b02cba6a",
+      "视觉复核通过：media-tech 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

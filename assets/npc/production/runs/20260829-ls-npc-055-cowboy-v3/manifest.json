@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-055-cowboy-v3",
+  "characterId": "LS-NPC-055",
+  "characterName": "伊莱恩·莫罗",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-055-cowboy-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-055-伊莱恩·莫罗-20260829-ls-npc-055-cowboy-v3-seed-835170462.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=47c83bb0fd9a3fdee2454fa32215cca22bd1f67dd1008e754d63f039eea32561",
+      "构图返工复核通过：不再出现完整小腿、鞋或全身远景，主体按头至大腿区间呈现；透明背景、平光、人体与身份锚点合格。"
+    ]
+  }
+}

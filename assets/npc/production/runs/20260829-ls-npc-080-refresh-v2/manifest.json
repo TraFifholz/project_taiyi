@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-080-refresh-v2",
+  "characterId": "LS-NPC-080",
+  "characterName": "朱见微",
+  "designStatus": "portrait-design-diversity-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-080-refresh-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-080-朱见微-20260829-ls-npc-080-refresh-v2-seed-862475139.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=c17c89bf2695d500a0be248f987ed7740fd4c10716606245734885a8f6d2fa2a",
+      "视觉复核通过：professor-modernist 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

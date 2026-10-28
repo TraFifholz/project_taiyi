@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-100-v1",
+  "characterId": "LS-NPC-100",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "336467",
+  "apiSeed": 100436527,
+  "imageIndex": 0,
+  "output": "LS-NPC-100-陈斌-v1.png",
+  "sha256": "741e42629528f3d4dadb1cf7a30396cad934cd4fc0746c7c3e5b686beced30f8",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:33:49.835Z"
+}

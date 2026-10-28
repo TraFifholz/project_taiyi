@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-008-v2",
+  "characterId": "LS-NPC-008",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "76c04b",
+  "apiSeed": 1576584463,
+  "imageIndex": 0,
+  "output": "LS-NPC-008-苗可栗-v2.png",
+  "sha256": "39728ea6dbb2cf78ba7ce0ef1000934f3350e71c8aa42818978a7c7c3d701d7e",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:02:02.049Z"
+}

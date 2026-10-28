@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-085-refresh-v4",
+  "characterId": "LS-NPC-085",
+  "characterName": "凌渡",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-085-refresh-v4.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-085-凌渡-20260829-ls-npc-085-refresh-v4-seed-853726401.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=e25816b0dac9f99d1204ff89e14a8524858bdd8202fef1cb17ecd0a3aa35228c",
+      "视觉复核通过：research-tech 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

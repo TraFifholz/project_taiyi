@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260902-utility-female-silhouette-v1",
+  "characterId": "UTILITY-FEMALE",
+  "characterName": "通用女性纯黑剪影",
+  "designStatus": "utility-anonymous-portrait",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "rawAssets": [
+    "raw/female-silhouette.png"
+  ],
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=78308bb59b223050272c980b0b99f2e5f7ef06d84883cde366565f6542715bda",
+      "将 NAI 原图内部 RGB 统一为 0，保留原图 alpha 及轮廓；无额外绘制。"
+    ]
+  },
+  "scope": "Reusable anonymous NPC placeholder",
+  "resultFile": "result.json",
+  "utilityAsset": "assets/utility/npc-female-silhouette-20260902.png",
+  "approval": {
+    "status": "approved",
+    "approvedAt": "2026-09-02T15:54:08.267Z",
+    "userText": "通过"
+  }
+}

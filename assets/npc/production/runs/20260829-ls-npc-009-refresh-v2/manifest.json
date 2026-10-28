@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-009-refresh-v2",
+  "characterId": "LS-NPC-009",
+  "characterName": "郜白",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-009-refresh-v2.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=135d5083e7271ecaf248d3225e936f4785e680ec9c90dd8b785d8b4ca91eb18b",
+      "视觉复核通过：corporate-interface 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。",
+      "用户审核拒绝；进入第二批角色气质与义体强度返工，旧候选保留为失败证据。"
+    ]
+  }
+}

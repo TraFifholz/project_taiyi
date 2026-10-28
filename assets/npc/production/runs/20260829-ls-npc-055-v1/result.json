@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-055-v1",
+  "characterId": "LS-NPC-055",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "c5776d",
+  "apiSeed": 835170462,
+  "imageIndex": 0,
+  "output": "LS-NPC-055-伊莱恩·莫罗-v1.png",
+  "sha256": "40dfece33d7167a5ea5be17eb455a478dd58113a13109aaf8b11a1ac0cda9c66",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:10:50.987Z"
+}

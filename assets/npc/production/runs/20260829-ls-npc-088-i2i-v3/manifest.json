@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-088-i2i-v3",
+  "characterId": "LS-NPC-088",
+  "characterName": "沈漫",
+  "designStatus": "identity-reference-i2i-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-088-沈漫-20260829-ls-npc-088-i2i-v3-seed-882174630.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "i2i identity reference; strength=0.5; noise=0.5; refSha256=76d97a4c6c6d8d79b81e20eed278786906bf71c2bde7ee987891d5bda42ff2c3",
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=c0be7a91383b508a7a4e3f525675d39fd2f5bbdb7b8a92f3807535f4937fab47",
+      "Identity matches authoritative reference; strict cowboy crop, transparent alpha and subdued edge lighting. Minor garment pseudo-text is not readable."
+    ]
+  }
+}

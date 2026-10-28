@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-031-v1",
+  "characterId": "LS-NPC-031",
+  "characterName": "童司南",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-031-童司南-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-031-童司南-20260829-ls-npc-031-v1-seed-741038552.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=5031ca8874815696deb732eb47430cfaf5b0b8c392927ebaa671794040a350d4",
+      "透明背景有效；年轻学生气、冷汗、前倾姿态、悬停触控笔与单块空白平板准确表达见习调度员的谨慎；无可读界面、控制室、列车或能力效果，手部结构正常，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

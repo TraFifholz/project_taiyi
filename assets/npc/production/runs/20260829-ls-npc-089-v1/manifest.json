@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-089-v1",
+  "characterId": "LS-NPC-089",
+  "characterName": "沈仲秋",
+  "designStatus": "portrait-design-v1-provisional",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-089-沈仲秋-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-089-沈仲秋-20260829-ls-npc-089-v1-seed-891563204.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=5a4d674dfc0f82f301462312dea703ed0fa6947e449d18a98bfaccd66bae1ac4",
+      "临时设计中的年轻务实维护者形象成立；灰色工具外套、胸袋螺丝刀与小钥匙环清楚，无文字或超自然效果。该候选按总控标注为可替换的临时外观。"
+    ]
+  }
+}

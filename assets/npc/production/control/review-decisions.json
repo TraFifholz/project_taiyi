@@ -1,0 +1,564 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-02T15:54:08.267Z",
+  "decisions": {
+    "LS-NPC-002": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-002-v2",
+      "updatedAt": "2026-08-29T08:20:19.336Z"
+    },
+    "LS-NPC-011": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-011-v1",
+      "updatedAt": "2026-08-29T08:20:19.434Z"
+    },
+    "LS-NPC-012": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-012-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.449Z"
+    },
+    "LS-NPC-013": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-013-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.464Z"
+    },
+    "LS-NPC-014": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-014-refresh-v4",
+      "updatedAt": "2026-08-29T08:20:19.478Z"
+    },
+    "LS-NPC-001": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-001-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:19.319Z"
+    },
+    "LS-NPC-003": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-003-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:19.350Z"
+    },
+    "LS-NPC-004": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-004-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.364Z"
+    },
+    "LS-NPC-005": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-005-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:19.377Z"
+    },
+    "LS-NPC-006": {
+      "decision": "pass",
+      "runId": "20260902-ls-npc-006-pink-v4",
+      "updatedAt": "2026-09-02T15:54:08.267Z",
+      "note": "用户在候选与剪影预览后回复“通过”，正式采用。"
+    },
+    "LS-NPC-015": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-015-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:19.492Z"
+    },
+    "LS-NPC-017": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-017-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.504Z"
+    },
+    "LS-NPC-018": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-018-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:19.518Z"
+    },
+    "LS-NPC-019": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-019-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.540Z"
+    },
+    "LS-NPC-021": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-pilot-ls-npc-021-r2",
+      "updatedAt": "2026-08-29T08:20:19.554Z"
+    },
+    "LS-NPC-022": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-022-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.568Z"
+    },
+    "LS-NPC-024": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-024-refresh-v4",
+      "updatedAt": "2026-08-29T08:20:19.580Z"
+    },
+    "LS-NPC-025": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-025-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.593Z"
+    },
+    "LS-NPC-026": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-026-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:19.605Z"
+    },
+    "LS-NPC-027": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-027-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:19.617Z"
+    },
+    "LS-NPC-029": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-029-v2",
+      "updatedAt": "2026-08-29T08:20:19.629Z"
+    },
+    "LS-NPC-031": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-031-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.655Z"
+    },
+    "LS-NPC-034": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-034-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.681Z"
+    },
+    "LS-NPC-035": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-035-v1",
+      "updatedAt": "2026-08-29T08:20:19.694Z"
+    },
+    "LS-NPC-037": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-037-v3",
+      "updatedAt": "2026-08-29T08:20:19.707Z"
+    },
+    "LS-NPC-038": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-038-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:19.720Z"
+    },
+    "LS-NPC-040": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-040-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:19.745Z"
+    },
+    "LS-NPC-041": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-041-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:19.759Z"
+    },
+    "LS-NPC-043": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-043-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.776Z"
+    },
+    "LS-NPC-044": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-044-v1",
+      "updatedAt": "2026-08-29T08:20:19.792Z"
+    },
+    "LS-NPC-045": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-045-v1",
+      "updatedAt": "2026-08-29T08:20:19.804Z"
+    },
+    "LS-NPC-048": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-048-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.833Z"
+    },
+    "LS-NPC-049": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-049-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:19.847Z"
+    },
+    "LS-NPC-051": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-051-v1",
+      "updatedAt": "2026-08-29T08:20:19.888Z"
+    },
+    "LS-NPC-052": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-052-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.901Z"
+    },
+    "LS-NPC-053": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-053-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.916Z"
+    },
+    "LS-NPC-057": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-057-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:19.974Z"
+    },
+    "LS-NPC-061": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-061-refresh-v5",
+      "updatedAt": "2026-08-29T08:20:20.040Z"
+    },
+    "LS-NPC-062": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-062-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:20.054Z"
+    },
+    "LS-NPC-065": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-065-refresh-v5",
+      "updatedAt": "2026-08-29T08:20:20.087Z"
+    },
+    "LS-NPC-066": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-066-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:20.102Z"
+    },
+    "LS-NPC-067": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-067-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:20.117Z"
+    },
+    "LS-NPC-073": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-073-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:20.192Z"
+    },
+    "LS-NPC-075": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-075-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:20.222Z"
+    },
+    "LS-NPC-076": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-076-v1",
+      "updatedAt": "2026-08-29T08:20:20.236Z"
+    },
+    "LS-NPC-078": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-078-v1",
+      "updatedAt": "2026-08-29T08:20:20.265Z"
+    },
+    "LS-NPC-079": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-079-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:20.279Z"
+    },
+    "LS-NPC-080": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-080-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:20.294Z"
+    },
+    "LS-NPC-081": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-081-refresh-v4",
+      "updatedAt": "2026-08-29T08:20:20.307Z"
+    },
+    "LS-NPC-082": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-082-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:20.322Z"
+    },
+    "LS-NPC-083": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-083-v1",
+      "updatedAt": "2026-08-29T08:20:20.339Z"
+    },
+    "LS-NPC-085": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-085-refresh-v4",
+      "updatedAt": "2026-08-29T08:20:20.351Z"
+    },
+    "LS-NPC-086": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-086-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:20.365Z"
+    },
+    "LS-NPC-091": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-091-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:20.430Z"
+    },
+    "LS-NPC-093": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-093-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:20.459Z"
+    },
+    "LS-NPC-094": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-094-refresh-v3",
+      "updatedAt": "2026-08-29T08:20:20.473Z"
+    },
+    "LS-NPC-104": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-104-refresh-v2",
+      "updatedAt": "2026-08-29T08:20:20.588Z"
+    },
+    "LS-NPC-106": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-106-v2",
+      "updatedAt": "2026-08-29T08:20:20.616Z"
+    },
+    "LS-NPC-008": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-008-review-v4",
+      "updatedAt": "2026-08-29T08:20:19.405Z"
+    },
+    "LS-NPC-009": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-009-review-v3",
+      "updatedAt": "2026-08-29T08:20:19.421Z"
+    },
+    "LS-NPC-030": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-030-review-v2",
+      "updatedAt": "2026-08-29T08:20:19.642Z"
+    },
+    "LS-NPC-039": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-039-review-v3",
+      "updatedAt": "2026-08-29T08:20:19.731Z"
+    },
+    "LS-NPC-050": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-050-cowboy-v2",
+      "updatedAt": "2026-08-29T08:20:19.859Z"
+    },
+    "LS-NPC-054": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-054-cowboy-v4",
+      "updatedAt": "2026-08-29T08:20:19.931Z"
+    },
+    "LS-NPC-055": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-055-cowboy-v3",
+      "updatedAt": "2026-08-29T08:20:19.946Z"
+    },
+    "LS-NPC-056": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-056-cowboy-v3",
+      "updatedAt": "2026-08-29T08:20:19.961Z"
+    },
+    "LS-NPC-058": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-058-review-v3",
+      "updatedAt": "2026-08-29T08:20:19.988Z"
+    },
+    "LS-NPC-059": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-059-cowboy-v3",
+      "updatedAt": "2026-08-29T08:20:20.012Z"
+    },
+    "LS-NPC-060": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-060-cowboy-v4",
+      "updatedAt": "2026-08-29T08:20:20.025Z"
+    },
+    "LS-NPC-063": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-063-cowboy-v4",
+      "updatedAt": "2026-08-29T08:20:20.069Z"
+    },
+    "LS-NPC-068": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-068-cowboy-v4",
+      "updatedAt": "2026-08-29T08:20:20.130Z"
+    },
+    "LS-NPC-069": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-069-cowboy-v3",
+      "updatedAt": "2026-08-29T08:20:20.144Z"
+    },
+    "LS-NPC-070": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-070-cowboy-v3",
+      "updatedAt": "2026-08-29T08:20:20.163Z"
+    },
+    "LS-NPC-072": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-072-cowboy-v3",
+      "updatedAt": "2026-08-29T08:20:20.179Z"
+    },
+    "LS-NPC-074": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-074-cowboy-v2",
+      "updatedAt": "2026-08-29T08:20:20.208Z"
+    },
+    "LS-NPC-077": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-077-review-v2",
+      "updatedAt": "2026-08-29T08:20:20.252Z"
+    },
+    "LS-NPC-092": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-092-review-v3",
+      "updatedAt": "2026-08-29T08:20:20.445Z"
+    },
+    "LS-NPC-095": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-095-cowboy-v4",
+      "updatedAt": "2026-08-29T08:20:20.489Z"
+    },
+    "LS-NPC-096": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-096-male-v5",
+      "updatedAt": "2026-08-29T08:20:20.506Z"
+    },
+    "LS-NPC-098": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-098-cowboy-v3",
+      "updatedAt": "2026-08-29T08:20:20.523Z"
+    },
+    "LS-NPC-100": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-100-review-v3",
+      "updatedAt": "2026-08-29T08:20:20.538Z"
+    },
+    "LS-NPC-101": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-101-cowboy-v3",
+      "updatedAt": "2026-08-29T08:20:20.553Z"
+    },
+    "LS-NPC-105": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-105-cowboy-v2",
+      "updatedAt": "2026-08-29T08:20:20.602Z"
+    },
+    "LS-NPC-107": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-107-review-v2",
+      "updatedAt": "2026-08-29T08:20:20.630Z"
+    },
+    "LS-NPC-N1": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-n1-cowboy-v2",
+      "updatedAt": "2026-08-29T08:20:20.644Z"
+    },
+    "LS-NPC-N2": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-n2-cowboy-v3",
+      "updatedAt": "2026-08-29T08:20:20.664Z"
+    },
+    "LS-NPC-N3": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-n3-v1",
+      "updatedAt": "2026-08-29T08:20:20.681Z"
+    },
+    "LS-NPC-033": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-033-soft-v4",
+      "updatedAt": "2026-08-29T08:20:19.667Z"
+    },
+    "LS-NPC-046": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-046-reference-t2i-v4",
+      "updatedAt": "2026-08-29T08:20:19.818Z"
+    },
+    "LS-NPC-088": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-088-mood-v5",
+      "updatedAt": "2026-08-29T08:20:20.384Z"
+    },
+    "LS-NPC-089": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-089-mood-v6",
+      "updatedAt": "2026-08-29T08:20:20.400Z"
+    },
+    "LS-NPC-090": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-090-mood-v5",
+      "updatedAt": "2026-08-29T08:20:20.415Z"
+    },
+    "LS-NPC-103": {
+      "decision": "pass",
+      "note": "用户于 2026-08-29 确认当前最新候选全部通过。",
+      "runId": "20260829-ls-npc-103-soft-v3",
+      "updatedAt": "2026-08-29T08:20:20.566Z"
+    }
+  }
+}

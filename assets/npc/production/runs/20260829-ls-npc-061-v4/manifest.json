@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-061-v4",
+  "characterId": "LS-NPC-061",
+  "characterName": "何夜白",
+  "designStatus": "portrait-design-v4",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-061-何夜白-v4.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-061-何夜白-20260829-ls-npc-061-v4-seed-607428315.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=2a6f805126ee0a78e3d894a4b9cd61ddc89e9696d79b14487c46addd57ad4677",
+      "三分之四构图将唯一可见耳作为焦点，可清楚数出一列七枚同款哑光黑圆耳钉；另一耳由角度完全遮蔽。极短发、冷静技师气质、修长手指、精密镊子与多袋工装均成立；无医疗身份误读、能力光效、强边缘光或伪文字。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-078-v1",
+  "characterId": "LS-NPC-078",
+  "characterName": "于正清",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-078-于正清-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-078-于正清-20260829-ls-npc-078-v1-seed-735184260.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=46ba2d704cce108b696100f1070079460793117b68190802dd0bd1bed7b48e6c",
+      "微胖四十四岁工程科长、略显不好意思的笑、浅蓝卷袖衬衫与双手插袋均成立；腰带外只有一侧前摆明确垂出，核心硬锚点准确。无图纸、工程HUD、能力光效、伪文字或强边缘光。"
+    ]
+  }
+}

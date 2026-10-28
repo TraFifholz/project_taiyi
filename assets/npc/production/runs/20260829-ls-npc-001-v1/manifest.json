@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-001-v1",
+  "characterId": "LS-NPC-001",
+  "characterName": "陆文青",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-001-陆文青-v1-seed-683336752.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=ee479ce8bc76434f63537b114de4e1398e7c65b2c665cf81022ab91e56e1a748",
+      "Visual QA failed: lighting, suit and demeanor are acceptable, but the left-hand prosthesis expanded into a mechanical forearm, contradicting the confirmed wrist-level identity anchor."
+    ]
+  }
+}

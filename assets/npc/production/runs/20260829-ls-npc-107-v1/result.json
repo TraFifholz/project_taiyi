@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-107-v1",
+  "characterId": "LS-NPC-107",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "95ae58",
+  "apiSeed": 107583946,
+  "imageIndex": 0,
+  "output": "LS-NPC-107-男偶像-v1.png",
+  "sha256": "96d384e495ac2f236ed29ce204f356893730520b5169ddd03fd308e4f394b599",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:46:26.687Z"
+}

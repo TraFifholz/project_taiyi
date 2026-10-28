@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-089-mood-v6",
+  "characterId": "LS-NPC-089",
+  "characterName": "沈仲秋",
+  "designStatus": "identity-reference-mood-t2i",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-089-沈仲秋-20260829-ls-npc-089-mood-v6-seed-891563204.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=67953825cc00e378e4111a852c60995789033701433e3d02c0a75ee3bae0aaee",
+      "Mood correction: gentle and slightly shy closed-mouth smile with soft head tilt; male identity and canonical outfit anchors retained."
+    ]
+  }
+}

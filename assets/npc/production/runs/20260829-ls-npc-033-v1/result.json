@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-033-v1",
+  "characterId": "LS-NPC-033",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "c56ded",
+  "apiSeed": 528901376,
+  "imageIndex": 0,
+  "output": "LS-NPC-033-赵明芝-v1.png",
+  "sha256": "6c3644b1b729ab1d58e2ec26a39c97fdc79dc8c3464eb333776a9c4b3b8419fa",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:33:49.712Z"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-061-refresh-v5",
+  "characterId": "LS-NPC-061",
+  "characterName": "何夜白",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-061-refresh-v5.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-061-何夜白-20260829-ls-npc-061-refresh-v5-seed-607428315.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=b628cf140345ea6fcdb33612a8b7776b4116dc5a8c698b678f471a63b4442e0d",
+      "视觉复核通过：clinic-punk 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

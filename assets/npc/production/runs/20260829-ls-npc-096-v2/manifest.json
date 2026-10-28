@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-096-v2",
+  "characterId": "LS-NPC-096",
+  "characterName": "周凛",
+  "designStatus": "portrait-design-v2-provisional",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-096-周凛-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-096-周凛-20260829-ls-npc-096-v2-seed-962705318.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=43c7f6f338826fda13e1b19b6ee5c791bd300cb5baf59a89af06b0c25bfbc147",
+      "v2 消除了鞋部粉色发光；短黑发、深橄榄长外套、紧贴身体的小挎包与双手插袋的低调掮客形象成立。年龄与体貌仍按总控标为临时设计。"
+    ]
+  }
+}

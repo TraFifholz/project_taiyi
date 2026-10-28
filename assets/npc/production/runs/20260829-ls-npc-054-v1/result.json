@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-054-v1",
+  "characterId": "LS-NPC-054",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "1db813",
+  "apiSeed": 408531927,
+  "imageIndex": 0,
+  "output": "LS-NPC-054-白鹤年-v1.png",
+  "sha256": "b213964572c68531849d0a497d0afea981444403aa977140df0835db92b87310",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:08:15.490Z"
+}

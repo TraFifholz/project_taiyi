@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-041-v2",
+  "characterId": "LS-NPC-041",
+  "characterName": "冯宁汐",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-041-冯宁汐-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-041-冯宁汐-20260829-ls-npc-041-v2-seed-362815497.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=128b53f5823c9bcc7bfca196b7ca970d73a44b909452a194735c936ab095e7c3",
+      "透明背景有效；背包上正好三枚扁平金属角色徽章，未再生成吊饰；思考姿态、实用开发者衣装和背包身份明确，无文字、坐标叠图、入口或潜在觉醒效果，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-013-v1",
+  "characterId": "LS-NPC-013",
+  "characterName": "曲阿七",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-013-曲阿七-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-013-曲阿七-20260829-ls-npc-013-v1-seed-1204879965.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=0d9f9afb7bf781586a7c413141dad70540aff14778621706679b69dd2a166ece",
+      "Visual QA passed: bulging tool pouches, visible cables, screwdrivers, olive jacket and half-trustworthy conversational grin strongly establish the maintenance fixer; no text, screens, weapons, power effects or strong rim light."
+    ]
+  }
+}

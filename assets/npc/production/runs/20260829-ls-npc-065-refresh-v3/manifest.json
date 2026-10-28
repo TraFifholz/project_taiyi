@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-065-refresh-v3",
+  "characterId": "LS-NPC-065",
+  "characterName": "宋远",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-065-refresh-v3.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=4563d24eaa257fc62bada0cdbadaffe3de8d9e7be8369e59de438f9194c08351",
+      "视觉复核失败：胸前挂包出现伪英文字符 MROXE；需移除易诱发文字的胸包与挂载结构后重试。"
+    ]
+  }
+}

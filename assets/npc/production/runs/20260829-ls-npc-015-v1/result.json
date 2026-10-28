@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-015-v1",
+  "characterId": "LS-NPC-015",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "fed3f2",
+  "apiSeed": 246894034,
+  "imageIndex": 0,
+  "output": "LS-NPC-015-单小鹿-v1.png",
+  "sha256": "7deb4ca09b424f524efc01737f3103e7a068d7aaa5404ab57c974a6044daae8c",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:14:14.830Z"
+}

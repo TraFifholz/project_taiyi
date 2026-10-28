@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-096-v1",
+  "characterId": "LS-NPC-096",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "d885be",
+  "apiSeed": 961842503,
+  "imageIndex": 0,
+  "output": "LS-NPC-096-周凛-v1.png",
+  "sha256": "e4cbfd6a8ac3db9425806e45f490a5d729ba453decc2a44a86ca74c57a2ab48f",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:27:08.207Z"
+}

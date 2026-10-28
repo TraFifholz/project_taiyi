@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260902-ls-npc-006-pink-v4",
+    "characterId": "LS-NPC-006",
+    "characterName": "翟明珠",
+    "promptVersion": 3,
+    "designStatus": "portrait-design-user-appearance-correction",
+    "designAssumptions": [
+      "age twenty-nine, short pink bob and brown eyes",
+      "unmarked grey-blue operations jacket over a black turtleneck with black cargo pants",
+      "compact external hard drive used as the personal-backup identity anchor",
+      "2026-08-29 visual refresh: a visible behind-ear maintenance jack and layered slate technical workwear"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-09-02T14:51:45.905Z",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-006.json",
+    "credentialPolicy": "runtime-only; never logged",
+    "humanRequest": "翟明珠是粉毛巨乳，重新画；使用 NAI。",
+    "supersedesRun": "20260902-ls-npc-006-pink-v3",
+    "revisionReason": "移除袖上伪文字；同种子、固定画风及原完整负面词保留，追加已核验 clothes_writing"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 1408779885,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, clothes writing",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1girl, solo, mature female, office lady, engineer, short hair, pink hair, huge breasts, brown eyes, bob cut, parted bangs, hair between eyes, bags under eyes, jacket, blue jacket, open jacket, turtleneck, turtleneck sweater, black shirt, long sleeves, cargo pants, black pants, belt, utility belt, pocket, boots, hard drive, external hard drive, holding, inspecting, serious, closed mouth, looking down, head tilt, standing, cyberpunk, techwear, science fiction, snap-fit buckle, transparent background. A tired but meticulous adult twenty-nine-year-old Chinese TAIYI operations engineer with a pink bob and a very large bust fully covered by her black turtleneck studies a compact unmarked personal backup drive held close to her torso under soft even frontal studio light, with a visible behind-ear maintenance jack and plain unmarked layered slate technical workwear with entirely blank jacket sleeves.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, clothes writing",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

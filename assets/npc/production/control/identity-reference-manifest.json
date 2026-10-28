@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-29T07:53:45.609Z",
+  "policy": "Identity references are authoritative visual evidence. Current production requests are text-to-image only; reference images are translated into verified tags and one natural-language identity sentence, never attached to the request.",
+  "entries": [
+    {
+      "id": "LS-NPC-088",
+      "name": "沈漫",
+      "sourceDirectory": "C:/Users/Fifholz/Pictures/龙散战记/NPC",
+      "localCopy": "assets/reference/identity/沈漫.png",
+      "sourceSha256": "385f14807aedee30a2d71e6ae1c26c4ed9076c124627126e2e81288a660564ee",
+      "localPngSha256": "76d97a4c6c6d8d79b81e20eed278786906bf71c2bde7ee987891d5bda42ff2c3",
+      "width": 832,
+      "height": 1216,
+      "mode": "RGBA",
+      "generationUse": "t2i-identity-evidence-only"
+    },
+    {
+      "id": "LS-NPC-089",
+      "name": "沈仲秋",
+      "sourceDirectory": "C:/Users/Fifholz/Pictures/龙散战记/NPC",
+      "localCopy": "assets/reference/identity/沈仲秋.png",
+      "sourceSha256": "761c76c5a36722a573bb0409638700729928e3f769b9146218ccbda48a6ecb6b",
+      "localPngSha256": "c3edd5a605826717eee21945dae75821bae1eb35b3bde65dcaa3bd6420f15cca",
+      "width": 832,
+      "height": 1216,
+      "mode": "RGBA",
+      "generationUse": "t2i-identity-evidence-only"
+    },
+    {
+      "id": "LS-NPC-090",
+      "name": "阿瑶（朱瑶光）",
+      "sourceDirectory": "C:/Users/Fifholz/Pictures/龙散战记/NPC",
+      "localCopy": "assets/reference/identity/朱瑶光.png",
+      "sourceSha256": "e4ec2b5a0221d5eb050e88d4b80d926b3bc59fb55820e0e12eeab8ba79d18d6f",
+      "localPngSha256": "f034f67c79ab27e1af1e040b38ed8274abce4cefd9ef7842c689e3e5237bf9f9",
+      "width": 832,
+      "height": 1216,
+      "mode": "RGBA",
+      "generationUse": "t2i-identity-evidence-only"
+    },
+    {
+      "id": "LS-NPC-046",
+      "name": "何凌",
+      "sourceDirectory": "C:/Users/Fifholz/Pictures/龙散战记/NPC",
+      "localCopy": "assets/reference/identity/何凌.png",
+      "sourceSha256": "3eb3263a3fd4cdeb05d47966c8a87a4d43df96824cd9294289325f773d51243c",
+      "localPngSha256": "45e5112417460160a03942d76267f60588a68b73d679c8c93fb36617ccad49c1",
+      "width": 832,
+      "height": 1216,
+      "mode": "RGBA",
+      "generationUse": "t2i-identity-evidence-only"
+    },
+    {
+      "id": "LS-NPC-096",
+      "name": "周凛",
+      "sourceDirectory": "C:/Users/Fifholz/Pictures/龙散战记/NPC",
+      "localCopy": "assets/reference/identity/周凛.png",
+      "sourceSha256": "f36ec7ea85214e085f4148e193a068e92b0bf722733cb58295305c35f9021414",
+      "localPngSha256": "2845c19d215a0d6fe1ef66479593a3606d58712343ea99a174064c2f9aab6f4b",
+      "width": 832,
+      "height": 1216,
+      "mode": "RGBA",
+      "generationUse": "canon-evidence-only"
+    }
+  ]
+}

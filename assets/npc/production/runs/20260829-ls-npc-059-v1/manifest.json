@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-059-v1",
+  "characterId": "LS-NPC-059",
+  "characterName": "柳拂衣",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-059-柳拂衣-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-059-柳拂衣-20260829-ls-npc-059-v1-seed-680314952.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=551739f57c71476769269bd70ce782a3601d79a448105c46f7468de5187329d4",
+      "低束超长黑发、旧红绳、安静中式立领长衣与修长放松的双手全部成立；人物克制而非舞台化剑客。未出现剑、武士刀、剑气、幻象裂缝、能力光效、强边缘光或伪文字；透明边缘和手指结构可接受。"
+    ]
+  }
+}

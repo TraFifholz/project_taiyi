@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-094-v2",
+  "characterId": "LS-NPC-094",
+  "characterName": "杨振邦",
+  "designStatus": "portrait-design-v2",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-094-杨振邦-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-094-杨振邦-20260829-ls-npc-094-v2-seed-948607132.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=bcfad7651b9016809eaa199c6f0dbd3be618ef40af1206e401223eded3e6408e",
+      "寸头、右颊浅疤、友善笑容与整齐非拳手服装成立；胸袋为清楚的红色折纸花形而非纸鹤，无拳击或能力特效。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-091-v1",
+  "characterId": "LS-NPC-091",
+  "characterName": "林彬",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-091-林彬-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-091-林彬-20260829-ls-npc-091-v1-seed-914360782.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=241d88fc199d8f24492a43c278129e2c25d807f8561dbc273eba46e456e61e7b",
+      "乱发、敞开的工装衬衫领口与被叫后抬眼的神态成立；掌上小型白色AI桌搭清楚且屏幕纯黑无字，无监控或超自然效果。"
+    ]
+  }
+}

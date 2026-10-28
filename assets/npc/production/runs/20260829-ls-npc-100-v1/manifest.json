@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-100-v1",
+  "characterId": "LS-NPC-100",
+  "characterName": "陈斌",
+  "designStatus": "portrait-design-v1-provisional-gender-age",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-100-陈斌-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-100-陈斌-20260829-ls-npc-100-v1-seed-100436527.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=741e42629528f3d4dadb1cf7a30396cad934cd4fc0746c7c3e5b686beced30f8",
+      "临时设计中的主治医生形象成立：眼镜、白临床外套、听诊器和纯空白夹板清楚，无文字、义肢操控或治疗特效。性别年龄与服装仍为可替换假设。"
+    ]
+  }
+}

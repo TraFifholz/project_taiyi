@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-049-v2",
+  "characterId": "LS-NPC-049",
+  "characterName": "白鸢",
+  "designStatus": "host-designed-standard-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-049-白鸢-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-049-白鸢-20260829-ls-npc-049-v2-seed-708315264.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=11a44a284897325d1756fd6324cfb41f420fa8228dd5c78a1b12d0c6f5d784d3",
+      "透明背景有效；肩侧五指并拢的制止手势解剖正确，短发、无标识护甲与方正站姿形成正直严格的封锁指挥官；无武器、盾牌或移动力场，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-066-v1",
+  "characterId": "LS-NPC-066",
+  "characterName": "卢卡·阿奎拉",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-066-卢卡·阿奎拉-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=6335a4db94753c5fe13e560a5f689720afa5ed79a3e239b052e87c38642877d8",
+      "金丝眼镜、纸质货单、保养良好的手与左小臂鹰纹均准确，但最前纸张下缘出现一小段伪条码，违反无字符货单要求。保留原图，不登记候选；v2增加条码与二维码负面标签。"
+    ]
+  }
+}

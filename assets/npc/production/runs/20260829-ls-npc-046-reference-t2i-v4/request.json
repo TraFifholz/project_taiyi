@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-046-reference-t2i-v4",
+    "characterId": "LS-NPC-046",
+    "characterName": "何凌",
+    "promptVersion": 4,
+    "designStatus": "identity-reference-t2i-v1",
+    "designAssumptions": [
+      "translate the local NPC reference into tags rather than attaching it as i2i",
+      "one hand is raised lightly to the side of her face while the other steadies the structured shoulder bag",
+      "retain discreet magenta accents without badges, text or overt supernatural effects",
+      "strict cowboy shot with soft even frontal light"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T08:09:17.9820069Z",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-046.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 605172943,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, cat, animal, animal ears, cat ears, transformation, fog, smoke, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, full body, shoes, boots, sneakers, backlighting, overlighting",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1girl, solo, solo focus, mature female, long hair, black hair, hair bun, single hair bun, sidelocks, parted bangs, hair between eyes, grey eyes, half-closed eyes, sideways glance, looking to the side, closed mouth, business suit, formal clothes, suit, black jacket, open jacket, open clothes, grey shirt, collared shirt, pinstripe pattern, black necktie, necktie, long sleeves, black pants, pants, belt, shoulder bag, handbag, holding bag, holding, hand up, hand on own face, standing, cyberpunk, streetwear, transparent background, cowboy shot. A precise thirty-one-year-old Chinese bank auditor with black hair gathered in a low bun, long loose sidelocks and cool grey eyes gives a restrained sideways glance while wearing a fitted black business jacket, grey pinstriped shirt, black necktie and structured grey-magenta shoulder bag, framed from head to mid-thigh under soft even frontal studio light.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, cat, animal, animal ears, cat ears, transformation, fog, smoke, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, full body, shoes, boots, sneakers, backlighting, overlighting",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

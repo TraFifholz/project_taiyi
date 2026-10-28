@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-046-review-v3",
+  "characterId": "LS-NPC-046",
+  "characterName": "何凌",
+  "designStatus": "portrait-design-review-retry",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-046-review-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-046-何凌-20260829-ls-npc-046-review-v3-seed-605172943.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=78743e4b97ae9167bc5256323b3434a4efd0289ee12a594f80d4d75e3e142fd5",
+      "第二批返工复核通过：严格 cowboy shot、透明背景与平光合格，人物气质按角色功能收紧。"
+    ]
+  }
+}

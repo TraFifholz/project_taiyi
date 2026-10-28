@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-075-v1",
+  "characterId": "LS-NPC-075",
+  "characterName": "罗鸣谦",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-075-罗鸣谦-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-075-罗鸣谦-20260829-ls-npc-075-v1-seed-483716925.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=65530d0b4a14db5ee1fd6ff81a32616281db090d49f9ff15fe2c9c9868c5fad0",
+      "标准化职业笑容、棕色校园西装、浅蓝衬衫、灰背心和双手向来访者递出白瓷茶杯托碟的动作均成立，与巡逻前自饮茶的夏满弓明显区分。无催眠茶、读心/筛选光效、能力HUD、伪文字或强边缘光。"
+    ]
+  }
+}

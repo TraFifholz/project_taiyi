@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-063-v2",
+  "characterId": "LS-NPC-063",
+  "characterName": "鹿岛绫",
+  "designStatus": "portrait-design-v2",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-063-鹿岛绫-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-063-鹿岛绫-20260829-ls-npc-063-v2-seed-439706218.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=492cd8495967f46353c675fb3313b465f49120d8d838feb84edc9c476d7b42f2",
+      "四十五岁上下的成熟掌舵者气质、严整盘发、银色发缕、黑色西式长外套、素灰和服与深紫腰带均成立；双手收束、神态精准克制。未出现艺伎/武士误读、花纹堆砌、扇剑、谈判HUD、强边缘光或伪文字。"
+    ]
+  }
+}

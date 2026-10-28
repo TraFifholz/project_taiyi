@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-040-v1",
+  "characterId": "LS-NPC-040",
+  "characterName": "向柳",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-040-向柳-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=dc8e972f0a3b58fc62389047fb9575aacdd96a5cae970114c6c64879f8dd01e1",
+      "录音设备、工程师衣装和透明背景成立，但半张素白面具被误解为医用口罩，遮住整张下半脸；身份锚点形态错误，保留失败原图，不采用。"
+    ]
+  }
+}

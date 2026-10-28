@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-082-v1",
+  "characterId": "LS-NPC-082",
+  "characterName": "杜若",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-082-杜若-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-082-杜若-20260829-ls-npc-082-v1-seed-824610357.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=42d993a7743daf36c2c828e37c4f928d202ccf57c1a86a9704f41ef622096df6",
+      "白色施工安全帽、橙色安全背心、深蓝外套与口袋中露出的压缩饼干均清楚；双手粗糙污痕可支持制图劳作锚点，未见文字或能力特效。"
+    ]
+  }
+}

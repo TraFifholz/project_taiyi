@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-049-refresh-v3",
+  "characterId": "LS-NPC-049",
+  "characterName": "白鸢",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-049-refresh-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-049-白鸢-20260829-ls-npc-049-refresh-v3-seed-708315264.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=fc8c507554f33f81336097607a77178d3c1de9e603737c81553ea37140bacb11",
+      "视觉复核通过：tactical-tech 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

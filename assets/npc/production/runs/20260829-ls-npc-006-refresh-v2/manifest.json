@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-006-refresh-v2",
+  "characterId": "LS-NPC-006",
+  "characterName": "翟明珠",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-006-refresh-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-006-翟明珠-20260829-ls-npc-006-refresh-v2-seed-1408779885.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=25a6f9a2f5240530992ce75e1d975036cd5785c9944774b3e19ad96dd68f3f98",
+      "视觉复核通过：corporate-interface 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

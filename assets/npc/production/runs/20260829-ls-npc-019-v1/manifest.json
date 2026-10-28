@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-019-v1",
+  "characterId": "LS-NPC-019",
+  "characterName": "甘采蓝",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-019-甘采蓝-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-019-甘采蓝-20260829-ls-npc-019-v1-seed-673470429.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=11cdd7d2fd80539035e552fa41209d67775c675b1b94382d8a013ef4c67b79da",
+      "Visual QA passed: muted-green showroom blazer, warm closed-mouth smile, former-nurse stability and open welcoming gesture are clear; no lab coat, badge, chip, medical prop, text, power effect or strong rim light."
+    ]
+  }
+}

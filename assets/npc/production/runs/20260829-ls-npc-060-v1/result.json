@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-060-v1",
+  "characterId": "LS-NPC-060",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "168a4e",
+  "apiSeed": 523907184,
+  "imageIndex": 0,
+  "output": "LS-NPC-060-纪小刀-v1.png",
+  "sha256": "1f58905a1af007e05e3b4acaa41a3c4ad4b577395b6f136ffa4b510429c62a94",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:19:57.648Z"
+}

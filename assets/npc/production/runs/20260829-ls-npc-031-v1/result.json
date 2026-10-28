@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-031-v1",
+  "characterId": "LS-NPC-031",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "cd5187",
+  "apiSeed": 741038552,
+  "imageIndex": 0,
+  "output": "LS-NPC-031-童司南-v1.png",
+  "sha256": "5031ca8874815696deb732eb47430cfaf5b0b8c392927ebaa671794040a350d4",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:32:28.449Z"
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-pilot-ls-npc-021",
+  "characterId": "LS-NPC-021",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "788510",
+  "apiSeed": 1742986307,
+  "imageIndex": 0,
+  "output": "LS-NPC-021-周清梅-seed-1742986307.png",
+  "sha256": "62d15d1b52efa817db6d7fc1875a7e6b4451abc999111e1c127f66addc564597",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T20:31:06.514Z"
+}

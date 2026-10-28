@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-067-v1",
+  "characterId": "LS-NPC-067",
+  "characterName": "马铁鹰",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-067-马铁鹰-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=e6c7c92394512646c4aeb0b91bbfb5250f85848149bf53618e852a68e60d00c6",
+      "短粗颈项、极静姿态与仅覆盖角色右臂的密集拉丁微文字纹身都成立；但腰带正面出现两把明显刀柄，擅自固定了未知武器。保留原图，不登记候选；v2增加 knife、dagger、sword 的具体抑制。"
+    ]
+  }
+}

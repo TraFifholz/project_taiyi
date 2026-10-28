@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260902-ls-npc-006-pink-v4",
+  "characterId": "LS-NPC-006",
+  "characterName": "翟明珠",
+  "designStatus": "portrait-design-user-appearance-correction",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "rawAssets": [
+    "raw/LS-NPC-006-翟明珠-v4.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-006-翟明珠-20260902-ls-npc-006-pink-v4-seed-1408779885.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=dc608b1329d7ee9a7ceecfd1d717b0ebedf5a6a154a1420063aa247e127a670a",
+      "真实透明背景；粉色短发、巨乳、成年工程师、维护接口与备份设备均符合；右袖伪文字已去除。",
+      "QA 通过仅为候选；等待主持人采用后替换正式资产。",
+      "2026-09-02 用户已回复“通过”；正式采用，approvedAsset 已更新。"
+    ]
+  },
+  "approval": {
+    "status": "approved",
+    "approvedAt": "2026-09-02T15:54:08.267Z",
+    "userText": "通过"
+  },
+  "resultFile": "result.json"
+}

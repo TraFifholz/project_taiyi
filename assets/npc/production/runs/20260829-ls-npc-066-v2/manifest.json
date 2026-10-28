@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-066-v2",
+  "characterId": "LS-NPC-066",
+  "characterName": "卢卡·阿奎拉",
+  "designStatus": "portrait-design-v2",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-066-卢卡·阿奎拉-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-066-卢卡·阿奎拉-20260829-ls-npc-066-v2-seed-708315492.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=85323d2b841077c1509f517e7b1407b361ba1e332316d24f6b2950beecc6040f",
+      "v2清除了货单下缘伪条码，同时完整保留金丝眼镜、保养良好的修长双手、纸质货单和左小臂单一黑色鹰纹；混血外观保持开放而未刻板固定。无伪文字、武器、能力光效或强边缘光。"
+    ]
+  }
+}

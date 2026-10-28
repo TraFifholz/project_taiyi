@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-061-v1",
+  "characterId": "LS-NPC-061",
+  "characterName": "何夜白",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-061-何夜白-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=f962209fc1dc03a8a87d89ab22406e4aa07cddfedc1eb1ea28e759e4276f7a42",
+      "整体校准技师设计可用，但硬锚点未通过：侧面长刘海遮住另一耳，无法可靠确认总计七枚同款黑耳钉，且可见耳钉疑似多于七枚。保留原图，不登记候选；v2改为正面、双耳完全暴露的极短发构图。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-090-reference-t2i-v4",
+  "characterId": "LS-NPC-090",
+  "characterName": "阿瑶（朱瑶光）",
+  "designStatus": "identity-reference-t2i-v2",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-090-阿瑶（朱瑶光）-20260829-ls-npc-090-reference-t2i-v4-seed-903418527.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=be9e792deeb558bb14d3253d684073613f373033b783a686bd9f3c87c74fc989",
+      "朱瑶光：纯t2i保留白发红瞳、黑红发饰、白裙与黑红宽大外套；儿童比例和统一画幅合格。"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-072-v1",
+  "characterId": "LS-NPC-072",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "b766f8",
+  "apiSeed": 958317406,
+  "imageIndex": 0,
+  "output": "LS-NPC-072-苏晦-v1.png",
+  "sha256": "b1e2e846a1c7508e72b74a505737e8a5a825d0b9c274bf62d3bcc9b4fddfe8e8",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:43:08.705Z"
+}

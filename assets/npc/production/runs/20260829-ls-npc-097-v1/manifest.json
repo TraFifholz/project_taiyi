@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-097-v1",
+  "characterId": "LS-NPC-097",
+  "characterName": "老王头",
+  "designStatus": "portrait-design-v1-provisional",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-097-老王头-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-097-老王头-20260829-ls-npc-097-v1-seed-973254680.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=31799ce6385fc5700b470a62088af8d526d8c7545d2175e4597c389a65222731",
+      "普通面馆老板的老年体态、熟悉笑容、白工装、黑围裙、肩巾与空面碗均成立；无迷失者变形、数据溶解或异常效果。体貌年龄仍为临时设计。"
+    ]
+  }
+}

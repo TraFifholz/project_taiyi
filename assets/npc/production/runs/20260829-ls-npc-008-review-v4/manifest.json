@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-008-review-v4",
+  "characterId": "LS-NPC-008",
+  "characterName": "苗可栗",
+  "designStatus": "portrait-design-cyborg-review-retry",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-008-review-v4.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-008-苗可栗-20260829-ls-npc-008-review-v4-seed-1576584463.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=4ec3ddbf164676b542265aae8ea8dee6403c24b6efa21b2c18c8673f7dbf0511",
+      "第二批返工复核通过：严格 cowboy shot、透明背景与平光合格，人物气质按角色功能收紧。 义体或接口已成为一眼可读的身体锚点，而非微小装饰。"
+    ]
+  }
+}

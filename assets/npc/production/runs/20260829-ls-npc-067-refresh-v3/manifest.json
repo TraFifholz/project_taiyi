@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-067-refresh-v3",
+  "characterId": "LS-NPC-067",
+  "characterName": "马铁鹰",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-067-refresh-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-067-马铁鹰-20260829-ls-npc-067-refresh-v3-seed-394175826.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=2d4d50cb686bf9958ea37f3bf33e4b617cb859f61dc6e65738bf83509a7ae205",
+      "视觉复核通过：dock-punk 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

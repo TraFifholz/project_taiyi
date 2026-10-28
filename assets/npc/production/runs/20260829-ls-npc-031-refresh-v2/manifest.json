@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-031-refresh-v2",
+  "characterId": "LS-NPC-031",
+  "characterName": "童司南",
+  "designStatus": "portrait-design-diversity-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-031-refresh-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-031-童司南-20260829-ls-npc-031-refresh-v2-seed-741038552.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=3bff696933030923069881626f2f46d3e9531099b6cc8c2b776af15142f39929",
+      "视觉复核通过：young-trainee-knit 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

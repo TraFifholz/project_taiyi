@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-068-v1",
+  "characterId": "LS-NPC-068",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "7a6cd3",
+  "apiSeed": 821563740,
+  "imageIndex": 0,
+  "output": "LS-NPC-068-西尔维娅-v1.png",
+  "sha256": "102fa3ae44c99ad6cff754e6ba010000f64d3d7cf76f28b74914a6db82b4e817",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:37:50.094Z"
+}

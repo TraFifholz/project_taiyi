@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-077-v1",
+  "characterId": "LS-NPC-077",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "cddff8",
+  "apiSeed": 206583719,
+  "imageIndex": 0,
+  "output": "LS-NPC-077-方泰安-v1.png",
+  "sha256": "0a75b889e45903e2d12f75c8a50b2d030df07a9c813a5805004ad5e0cb1d2fef",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:51:54.814Z"
+}

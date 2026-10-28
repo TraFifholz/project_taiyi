@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-038-v2",
+  "characterId": "LS-NPC-038",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "6cb17c",
+  "apiSeed": 819405267,
+  "imageIndex": 0,
+  "output": "LS-NPC-038-何问舟-v2.png",
+  "sha256": "448b179ea5edff433650ab420fde5c8946cd6170ad51897a5d43189e6a847a2d",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:41:39.734Z"
+}

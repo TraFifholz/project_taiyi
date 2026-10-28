@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-060-cowboy-v4",
+  "characterId": "LS-NPC-060",
+  "characterName": "纪小刀",
+  "designStatus": "portrait-design-diversity-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-060-cowboy-v4.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-060-纪小刀-20260829-ls-npc-060-cowboy-v4-seed-1523907184.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=5b0e07e00f3af0ff9b5b4c68b4321375af267b0280b00d65852bb2a5bcafd1b2",
+      "构图返工复核通过：不再出现完整小腿、鞋或全身远景，主体按头至大腿区间呈现；透明背景、平光、人体与身份锚点合格。"
+    ]
+  }
+}

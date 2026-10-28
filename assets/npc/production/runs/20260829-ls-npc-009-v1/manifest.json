@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-009-v1",
+  "characterId": "LS-NPC-009",
+  "characterName": "郜白",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-009-郜白-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-009-郜白-20260829-ls-npc-009-v1-seed-1233507783.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=48bdb012ed922f3910719e02e2509b8e8f9b8a91f153c29c3d6833454edc3953",
+      "Visual QA passed: pale absent digital-security engineer, messy black hair, dark-blue workwear and empty-air typing gesture are clear; no keyboard, screen, code, hologram, supernatural effect or strong rim light; very light stubble only adds plausible fatigue."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-098-cowboy-v3",
+  "characterId": "LS-NPC-098",
+  "characterName": "贾红",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-098-cowboy-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-098-贾红-20260829-ls-npc-098-cowboy-v3-seed-984315726.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=657430cf28622e1f449858f5541ddb5ce3cba132fe8ceb8a54384af3c595b5bd",
+      "构图返工复核通过：不再出现完整小腿、鞋或全身远景，主体按头至大腿区间呈现；透明背景、平光、人体与身份锚点合格。"
+    ]
+  }
+}

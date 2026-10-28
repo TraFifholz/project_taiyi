@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-018-refresh-v2",
+  "characterId": "LS-NPC-018",
+  "characterName": "卓近火",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-018-refresh-v2.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=61c51da9c6b89bbdbf1e657829e391ddae79db91652e63901d5e2cdb509b90da",
+      "Visual QA failed: the intended two conductive prosthetic fingertips expanded into an entire mechanical hand."
+    ]
+  }
+}

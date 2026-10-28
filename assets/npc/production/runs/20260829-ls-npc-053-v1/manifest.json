@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-053-v1",
+  "characterId": "LS-NPC-053",
+  "characterName": "郁垒",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-053-郁垒-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-053-郁垒-20260829-ls-npc-053-v1-seed-731064285.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=4d824c46e06433b88d92ccd1bfa17259c534ecaabc70e61775f65aa77598a4dd",
+      "瘦削前密探轮廓、黑色偏分短发、灰眼与开放式长灰战术外套成立；交叉双臂和轻微前倾重心表达先行动倾向。未出现残影、运动模糊、预测HUD、武器、强边缘光或伪文字；手部与透明边缘可接受。"
+    ]
+  }
+}

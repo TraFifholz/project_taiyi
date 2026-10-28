@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-050-v1",
+  "characterId": "LS-NPC-050",
+  "characterName": "艾德礼·霍华德",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-050-艾德礼·霍华德-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=7da104660b5c167bf1c6c2360c9a85dc48ca3df03506f42a57eacac4d17f54b2",
+      "透明背景有效；银灰短发、蓝眼、笔挺背手与朴素橄榄训练服清晰形成英籍老教官；无武器、军衔文字或战术同步光效，边缘高光克制。候选通过，不等于正式采用。",
+      "用户审核拒绝；画面错误地显示完整小腿或鞋，违反 cowboy shot。该原图保留为失败证据，进入严格头至大腿中段构图返工。"
+    ]
+  }
+}

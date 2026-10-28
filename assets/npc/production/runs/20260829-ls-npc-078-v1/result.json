@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-078-v1",
+  "characterId": "LS-NPC-078",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "6d68db",
+  "apiSeed": 735184260,
+  "imageIndex": 0,
+  "output": "LS-NPC-078-于正清-v1.png",
+  "sha256": "46ba2d704cce108b696100f1070079460793117b68190802dd0bd1bed7b48e6c",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:53:36.964Z"
+}

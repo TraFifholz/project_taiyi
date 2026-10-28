@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-n3-v1",
+  "characterId": "LS-NPC-N3",
+  "characterName": "棍木女（代称）",
+  "designStatus": "actual-play-anchored-jirai-kei",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-N3-棍木女（代称）-20260829-ls-npc-n3-v1-seed-113709887.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=5d2f0b876ea76a42e30a95147b62498d5c1318a188eb19977c60f47fb5b5ea21",
+      "Actual-play anchors satisfied: jirai-kei outfit, eyepatch, black mouth mask, black nails, one visible golden eye and one plain wooden protective tag; strict cowboy crop, transparent alpha and subdued edge lighting."
+    ]
+  }
+}

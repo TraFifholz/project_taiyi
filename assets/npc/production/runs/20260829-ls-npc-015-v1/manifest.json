@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-015-v1",
+  "characterId": "LS-NPC-015",
+  "characterName": "单小鹿",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-015-单小鹿-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-015-单小鹿-20260829-ls-npc-015-v1-seed-246894034.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=7deb4ca09b424f524efc01737f3103e7a068d7aaa5404ab57c974a6044daae8c",
+      "Visual QA passed: high ponytail, permanent dark circles, orange-black night-shift workwear, compact earpiece and screenless walkie-talkie clearly establish an AGV dispatcher; no written note, interface, power effect or strong rim light."
+    ]
+  }
+}

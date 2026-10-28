@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-085-v1",
+  "characterId": "LS-NPC-085",
+  "characterName": "凌渡",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-085-凌渡-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=07990d5c94880e23aa8652e5d4fdd74817dc8b55aeb0622177e6a087e10c80a5",
+      "格纹衬衫、眼镜和空白工牌成立，但四把钥匙被角色手持，未按硬锚点夹在工牌挂绳上；保留失败原图，改做 v2。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-037-v2",
+  "characterId": "LS-NPC-037",
+  "characterName": "白念秋",
+  "designStatus": "host-designed-standard-living-portrait-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-037-白念秋-v2.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=c968739615dd64cd219a5d5d7a411194db1bc9ec35be3f0fe47cd1f687f8966e",
+      "摄影机伪字已解决，但正向自然语言仍列出排除对象，模型反向抓词生成大束紫花并强化错误纪念意象；保留失败原图，不采用。经验已写入 production-lessons.md。"
+    ]
+  }
+}

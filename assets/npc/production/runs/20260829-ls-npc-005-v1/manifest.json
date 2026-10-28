@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-005-v1",
+  "characterId": "LS-NPC-005",
+  "characterName": "燕尺素",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "../../assets/result.json",
+  "rawAssets": [
+    "../../assets/raw/LS-NPC-005-燕尺素-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=225f68d1e2b02e9c922094bd3365bba8709ea8c0c33d0a881113744ef353b3b6",
+      "Technical checks passed, but visual QA failed: a large black disc with a green rim appeared at the ear and reads as a headset or listening device, contradicting the standard portrait constraint; raw image preserved."
+    ]
+  }
+}

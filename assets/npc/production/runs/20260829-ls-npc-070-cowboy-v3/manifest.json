@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-070-cowboy-v3",
+  "characterId": "LS-NPC-070",
+  "characterName": "老井（井叔）",
+  "designStatus": "portrait-design-diversity-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-070-cowboy-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-070-老井（井叔）-20260829-ls-npc-070-cowboy-v3-seed-146839275.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=4a8392e53ea3b482a7757e3c11d2b3fcd6e0e2ede288514c74e6e78187334b26",
+      "构图返工复核通过：不再出现完整小腿、鞋或全身远景，主体按头至大腿区间呈现；透明背景、平光、人体与身份锚点合格。"
+    ]
+  }
+}

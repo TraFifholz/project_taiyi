@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-102-v1",
+  "characterId": "LS-NPC-102",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "d5e1e8",
+  "apiSeed": 102743851,
+  "imageIndex": 0,
+  "output": "LS-NPC-102-白芷秋-v1.png",
+  "sha256": "05aef9308b392f9d69ba663c3048a9b7ba1e55499502e49a81a007de51cd872a",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:36:35.410Z"
+}

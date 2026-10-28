@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-001-v2",
+  "characterId": "LS-NPC-001",
+  "characterName": "陆文青",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-001-陆文青-v2-seed-683336752.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-001-陆文青-20260829-ls-npc-001-v2-seed-683336752.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=01b63993c28574a0cb1a7ced3738b1ee58fde894eefbf54c8b66a67390f4fb1c",
+      "Visual QA passed: soft even lighting, approachable professional demeanor, complete business attire, and the prosthesis is limited to the character left hand while the forearm remains inside the suit sleeve. Minor note: the prosthetic hand sits near the lower-right edge rather than the central gesture."
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-030-v1",
+  "characterId": "LS-NPC-030",
+  "characterName": "钟月台",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-030-钟月台-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=f75062cdf4bbc314d27035c4facbccc6dfb61bf837128ab5220539f3a138521c",
+      "透明背景有效；微胖轮廓、灰发、旧制服中段松扣、磨损金属保温杯和低头行走姿态均清晰；无文字标识、门扉或阈限觉醒特效，边缘高光克制。候选通过，不等于正式采用。",
+      "用户审核拒绝；进入第二批角色气质与义体强度返工，旧候选保留为失败证据。"
+    ]
+  }
+}

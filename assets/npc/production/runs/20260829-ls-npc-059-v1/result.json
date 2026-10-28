@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-059-v1",
+  "characterId": "LS-NPC-059",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "211e4b",
+  "apiSeed": 680314952,
+  "imageIndex": 0,
+  "output": "LS-NPC-059-柳拂衣-v1.png",
+  "sha256": "551739f57c71476769269bd70ce782a3601d79a448105c46f7468de5187329d4",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:17:55.970Z"
+}

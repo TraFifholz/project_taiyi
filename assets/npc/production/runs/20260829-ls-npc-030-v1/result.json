@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-030-v1",
+  "characterId": "LS-NPC-030",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "0c83a7",
+  "apiSeed": 320594181,
+  "imageIndex": 0,
+  "output": "LS-NPC-030-钟月台-v1.png",
+  "sha256": "f75062cdf4bbc314d27035c4facbccc6dfb61bf837128ab5220539f3a138521c",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:31:23.311Z"
+}

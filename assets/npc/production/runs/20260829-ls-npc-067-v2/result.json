@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-067-v2",
+  "characterId": "LS-NPC-067",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "55af10",
+  "apiSeed": 394175826,
+  "imageIndex": 0,
+  "output": "LS-NPC-067-马铁鹰-v2.png",
+  "sha256": "b1a91c3c033d76a50b3b91a7e07f2c9d85562aab694ed8dc623b87af72cb5578",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:35:46.471Z"
+}

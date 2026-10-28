@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-060-cowboy-v4",
+  "characterId": "LS-NPC-060",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "d6bc7f",
+  "apiSeed": 1523907184,
+  "imageIndex": 0,
+  "output": "20260829-ls-npc-060-cowboy-v4.png",
+  "sha256": "5b0e07e00f3af0ff9b5b4c68b4321375af267b0280b00d65852bb2a5bcafd1b2",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-29T04:43:34.599Z"
+}

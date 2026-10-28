@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-046-reference-t2i-v4",
+  "characterId": "LS-NPC-046",
+  "characterName": "何凌",
+  "designStatus": "identity-reference-t2i-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-046-何凌-20260829-ls-npc-046-reference-t2i-v4-seed-605172943.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=e04457eb637e2f1115c661e58e949093238094469d9592545596233ec43ff1f3",
+      "何凌：按正式NPC参考重建低发髻、侧发、灰眼、黑西装、灰条纹衬衫、黑领带和灰洋红肩包；纯t2i。"
+    ]
+  }
+}

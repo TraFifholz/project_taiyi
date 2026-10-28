@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-n1-cowboy-v2",
+  "characterId": "LS-NPC-N1",
+  "characterName": "周敏",
+  "designStatus": "portrait-design-v1-provisional",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-n1-cowboy-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-N1-周敏-20260829-ls-npc-n1-cowboy-v2-seed-108426375.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=e3fe9c3258c8d6a618b74422f627d52958562195bc21398d32ee569bf3bc296c",
+      "构图返工复核通过：不再出现完整小腿、鞋或全身远景，主体按头至大腿区间呈现；透明背景、平光、人体与身份锚点合格。"
+    ]
+  }
+}

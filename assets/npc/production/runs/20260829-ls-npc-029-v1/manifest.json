@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-029-v1",
+  "characterId": "LS-NPC-029",
+  "characterName": "秦时雨",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-029-秦时雨-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=4aa54621d9f1577576174b2b9c404d6eb0b4efa4b60fc052f234c24d727322f4",
+      "透明背景、疲态和凉茶瓶成立，但帽徽与肩章生成虚构标识，且整体过度接近执法制服；与无标识轨交司机设计不符，保留失败原图，不采用。"
+    ]
+  }
+}

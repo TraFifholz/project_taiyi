@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-049-refresh-v3",
+  "characterId": "LS-NPC-049",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "6a7932",
+  "apiSeed": 708315264,
+  "imageIndex": 0,
+  "output": "20260829-ls-npc-049-refresh-v3.png",
+  "sha256": "fc8c507554f33f81336097607a77178d3c1de9e603737c81553ea37140bacb11",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-29T03:38:06.404Z"
+}

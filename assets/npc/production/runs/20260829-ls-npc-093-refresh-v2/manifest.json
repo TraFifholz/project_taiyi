@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-093-refresh-v2",
+  "characterId": "LS-NPC-093",
+  "characterName": "宋光明",
+  "designStatus": "portrait-design-diversity-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-093-refresh-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-093-宋光明-20260829-ls-npc-093-refresh-v2-seed-936410285.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=77c9832c5aa21d5956b2c0bf9ff87476d40ea91a456b579634ba3a24c58e7db7",
+      "视觉复核通过：repair-shop-overalls 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

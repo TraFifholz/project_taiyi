@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-038-v1",
+  "characterId": "LS-NPC-038",
+  "characterName": "何问舟",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-038-何问舟-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=7a88954d94641bb5be6f7a45af5d4f7f8bb9d2a955925f02a0aa18a03f029e49",
+      "讲师式衣装、眼镜与抬指拆解叙事动作成立，但手机白条生成伪英文字样；文字锚点无法可靠进入图像，保留失败原图，不采用。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-054-v1",
+  "characterId": "LS-NPC-054",
+  "characterName": "白鹤年",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-054-白鹤年-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-054-白鹤年-20260829-ls-npc-054-v1-seed-408531927.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=b213964572c68531849d0a497d0afea981444403aa977140df0835db92b87310",
+      "全白贴头短发、过早衰老的严厉五官、黑狱长外套与明显磨旧军靴均成立；左耳后可见单一休眠硬件接口及短线缆，表现人工适配而非自然奇能。无电光、场域、HUD、武器、强边缘反光或伪文字；透明边缘可接受。"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-055-refresh-v2",
+    "characterId": "LS-NPC-055",
+    "characterName": "伊莱恩·莫罗",
+    "promptVersion": 2,
+    "designStatus": "portrait-design-cyberpunk-refresh",
+    "designAssumptions": [
+      "composed European woman with green eyes, immaculate blonde bun and a precise assessing expression",
+      "wears a sharply tailored dark navy civilian-service blazer over a white blouse, black pencil skirt, black pantyhose and understated black shoes",
+      "one plain oval silver-grey brooch is fixed to the left lapel; she stands upright with her own hands clasped neatly at the waist",
+      "2026-08-29 visual refresh: a discreet memory-assist temple port beneath an immaculate asymmetric intelligence uniform"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T03:36:35.3788631Z",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-055.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 835170462,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, clipboard, folder, paper, hologram, heads-up display, glowing, aura, light particles",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1girl, solo, solo focus, mature female, tall female, blonde hair, hair bun, hair pulled back, green eyes, makeup, lipstick, serious, expressionless, closed mouth, looking at viewer, office lady, business suit, suit, blazer, blue jacket, jacket, long sleeves, blouse, white shirt, collared shirt, collar, brooch, lapel pin, jewelry, pencil skirt, black skirt, pantyhose, black shoes, own hands clasped, standing, cyberpunk, techwear, cyborg, buckle, science fiction, transparent background. A composed thirty-three-year-old European intelligence analyst with cool green eyes and an immaculate blonde bun stands upright in a sharply tailored dark navy blazer, white blouse and black pencil skirt, with exactly one plain oval silver-grey brooch on her left lapel and her hands clasped neatly at her waist under soft even frontal studio light; a discreet memory-assist temple port beneath an immaculate asymmetric intelligence uniform.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, clipboard, folder, paper, hologram, heads-up display, glowing, aura, light particles",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

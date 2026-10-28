@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-103-v1",
+  "characterId": "LS-NPC-103",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "60ccb6",
+  "apiSeed": 103865472,
+  "imageIndex": 0,
+  "output": "LS-NPC-103-朱恒朱蘅-v1.png",
+  "sha256": "4c4a823179332971c9aea0350062359ca1e9000444078c79003f09e9560f24c9",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:37:45.241Z"
+}

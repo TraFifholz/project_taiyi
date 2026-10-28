@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-027-refresh-v2",
+  "characterId": "LS-NPC-027",
+  "characterName": "邢九重",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-027-refresh-v2.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=00278d165ec5b1d54db058ef1b51054dd211b7f97f8594cdda808b262a8ce968",
+      "Visual QA failed: the intended single lower-leg prosthesis expanded into bilateral prosthetic legs."
+    ]
+  }
+}

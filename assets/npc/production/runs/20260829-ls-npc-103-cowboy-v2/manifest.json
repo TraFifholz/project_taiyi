@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-103-cowboy-v2",
+  "characterId": "LS-NPC-103",
+  "characterName": "朱恒／朱蘅（待统一）",
+  "designStatus": "portrait-design-v1-provisional-name-and-appearance",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-103-cowboy-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-103-朱恒／朱蘅（待统一）-20260829-ls-npc-103-cowboy-v2-seed-103865472.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=586a04fb37416428088615200250ae400524bb62c2b837b3734a765046c5f3a0",
+      "构图返工复核通过：不再出现完整小腿、鞋或全身远景，主体按头至大腿区间呈现；透明背景、平光、人体与身份锚点合格。 朱蘅已具备与朱瑶光一致的白发红眼、面部比例与戒备眼神，能读作成年亲缘版本。"
+    ]
+  }
+}

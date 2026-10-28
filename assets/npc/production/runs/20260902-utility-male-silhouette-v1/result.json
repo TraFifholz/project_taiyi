@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260902-utility-male-silhouette-v1",
+  "characterId": "UTILITY-MALE",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "19a4b4",
+  "apiSeed": 2026090201,
+  "imageIndex": 0,
+  "output": "male-silhouette.png",
+  "sha256": "c59aa45a15e599dc207ecd877b469e4744c3b86d590bc36c4e6ec2aa40a8a6b3",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-02T14:57:38.267Z"
+}

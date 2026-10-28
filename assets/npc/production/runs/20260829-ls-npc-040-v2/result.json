@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-040-v2",
+  "characterId": "LS-NPC-040",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "01ff4a",
+  "apiSeed": 638271954,
+  "imageIndex": 0,
+  "output": "LS-NPC-040-向柳-v2.png",
+  "sha256": "3ea38e35f7b42e58ed9a88b23d3c0a7e44252df5afc14b1c8a10cef6b7784f5e",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:46:00.754Z"
+}

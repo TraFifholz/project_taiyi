@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-008-v2",
+  "characterId": "LS-NPC-008",
+  "characterName": "苗可栗",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-008-苗可栗-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-008-苗可栗-20260829-ls-npc-008-v2-seed-1576584463.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=39728ea6dbb2cf78ba7ce0ef1000934f3350e71c8aa42818978a7c7c3d701d7e",
+      "Visual QA passed: pseudo-text and badge are gone; a lightweight customer-service headset is partly concealed by hair but its microphone boom remains clear; fatigue, blue-white workwear and family-resemblance anchors are retained without strong rim light."
+    ]
+  }
+}

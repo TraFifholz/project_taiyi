@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-024-v3",
+  "characterId": "LS-NPC-024",
+  "characterName": "雷小鼓",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-024-雷小鼓-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-024-雷小鼓-20260829-ls-npc-024-v3-seed-764347313.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=821cf48f6243f332354c746a4f8ab70e3a3e074c0b6a728574752cdc1d1e6fc4",
+      "透明背景有效；人物身份清晰；颈部为完整连续、肤色偏褐的平面陈旧环形疤痕，无发光节点、灯具、接口或文字伪影；飞行服与安全带结构完整；边缘反光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

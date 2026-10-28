@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-095-v1",
+  "characterId": "LS-NPC-095",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "c653ac",
+  "apiSeed": 958176420,
+  "imageIndex": 0,
+  "output": "LS-NPC-095-萨布里娜·费雷拉-v1.png",
+  "sha256": "dcce10f271fe1e8ee7d8ce3fd616268689a313b7e2511fcafbdbf2b9fe720cc0",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:24:53.889Z"
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-026-v2",
+  "characterId": "LS-NPC-026",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "67523b",
+  "apiSeed": 882631404,
+  "imageIndex": 0,
+  "output": "LS-NPC-026-甘棠-v2.png",
+  "sha256": "447e2fed7da62eb9f18a6e4926635563eee3a07b9532053d6a3ada3d10ae134a",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:27:25.656Z"
+}

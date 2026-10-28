@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-003-v1",
+  "characterId": "LS-NPC-003",
+  "characterName": "苗铁城",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-003-苗铁城-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=85a1c64afca165091cfdb9e262fa2cc4b43f97727d95bd17064167d51e04a801",
+      "Visual QA failed: age, workwear, dirty hands and caliper are correct, but the chest carries a prominent pseudo-English label, violating the no-text portrait gate."
+    ]
+  }
+}

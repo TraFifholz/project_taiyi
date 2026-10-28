@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "characterId": "LS-NPC-102",
+  "characterName": "白芷秋",
+  "version": 1,
+  "designStatus": "portrait-design-v1-provisional",
+  "sourceFacts": [
+    "female, age unconfirmed and deceased, elder sister of Bai Nianqiu and victim of a shooting, fate-marked but not awakened",
+    "for three years she regularly stood at a station mourning her husband with one white lily; water, tissues and cardstock were situational or legacy objects",
+    "standard portrait must show her as an ordinary living or commemorative human image; the train-window ghost and withered-flower anomaly belong only to a plot variant"
+  ],
+  "designAssumptions": [
+    "provisional age thirty-one, Chinese woman visibly related to Bai Nianqiu through warm brown eyes, softly wavy dark-brown hair and similar gentle facial structure, with her hair worn longer and a solemn inward expression",
+    "wears a simple dark navy long coat open over a cream turtleneck, charcoal trousers and plain ankle boots",
+    "holds exactly one fresh white lily vertically in both hands before her waist in a quiet memorial posture"
+  ],
+  "sceneConcept": "A provisional commemorative design for a thirty-one-year-old Chinese woman stands alive and uninjured alone against a transparent background. Warm brown eyes, softly wavy dark-brown hair and a gentle facial structure visibly echo her younger sister Bai Nianqiu, though her hair is longer and her expression is solemn and inward. She wears a simple dark navy long coat open over a cream turtleneck, charcoal trousers and plain ankle boots. Both hands hold exactly one fresh white lily vertically before her waist in a quiet memorial posture. Soft even frontal studio light keeps the image human and restrained.",
+  "tags": [
+    "1girl", "solo", "solo_focus", "mature_female", "long_hair", "brown_hair", "wavy_hair", "parted_hair", "side_part", "hair_behind_ear",
+    "brown_eyes", "sad", "expressionless", "closed_mouth", "looking_down", "mourning", "long_coat", "black_coat", "coat", "open_coat",
+    "open_clothes", "turtleneck", "turtleneck_sweater", "long_sleeves", "black_pants", "pants", "ankle_boots", "boots", "shoes", "lily_(flower)",
+    "white_flower", "flower", "holding_flower", "holding", "own_hands_together", "standing", "transparent_background"
+  ],
+  "naturalLanguageDetail": "A provisional commemorative image of an alive and uninjured thirty-one-year-old Chinese woman visibly related to Bai Nianqiu through warm brown eyes, softly wavy dark-brown hair and a gentle face wears a simple dark navy long coat over a cream turtleneck and charcoal trousers, holding exactly one fresh white lily vertically in both hands before her waist under soft even frontal studio light.",
+  "negativeAdditions": [
+    "bouquet", "ghost", "english_text", "chinese_text", "character_name", "signature", "watermark", "text_focus", "logo", "emblem", "insignia", "badge", "name_tag", "id_card", "barcode", "qr_code", "weapon", "gun",
+    "hologram", "heads-up_display", "magic", "glowing", "aura", "light_particles"
+  ],
+  "seed": 102743851,
+  "sourceLocator": "NPC立绘设定终稿.md §三 LS-NPC-102; 全城NPC名单.md §二十五; records/memory/entities.md §白芷秋; records/memory/campaign-state.md §白芷秋; NPC最终意见版.md 不觉醒名单"
+}

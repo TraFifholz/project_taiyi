@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-033-v1",
+  "characterId": "LS-NPC-033",
+  "characterName": "赵明芝",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-033-赵明芝-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-033-赵明芝-20260829-ls-npc-033-v1-seed-528901376.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=6c3644b1b729ab1d58e2ec26a39c97fdc79dc8c3464eb333776a9c4b3b8419fa",
+      "透明背景有效；46岁疲态、灰黑低马尾、强硬直视、抱住空白申诉夹的交叉手臂与旧工作包共同形成司机代表身份；无口号、平台文字、车辆或能力效果，手部结构正常，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

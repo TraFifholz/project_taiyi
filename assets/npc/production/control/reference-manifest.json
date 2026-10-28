@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "referenceId": "style-base-fecaba25",
+  "originalPath": "C:\\Users\\Fifholz\\Pictures\\龙散战记\\fecaba25-bef5-4d8f-a40f-9deb10c69e36.png",
+  "localCopy": "assets/reference/style-base-fecaba25.png",
+  "sha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+  "width": 1024,
+  "height": 1024,
+  "format": "PNG",
+  "pixelFormat": "RGBA",
+  "intendedUse": "metadata-import-only",
+  "requestAttachment": "none",
+  "importedCharacterPromptMustBeReplaced": true,
+  "importedCharacterPromptObserved": "girl, utility belt, utility vest, loli",
+  "sourceImmutable": true
+}

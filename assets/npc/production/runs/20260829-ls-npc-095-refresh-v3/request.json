@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-095-refresh-v3",
+    "characterId": "LS-NPC-095",
+    "characterName": "萨布里娜·费雷拉",
+    "promptVersion": 3,
+    "designStatus": "portrait-design-cyberpunk-refresh",
+    "designAssumptions": [
+      "provisional mixed Brazilian appearance with warm medium-brown skin, dark brown curly hair in a very high ponytail, brown eyes and a determined but slightly strained expression",
+      "wears a bright loose yellow short coat draped open around the shoulders over a high-neck charcoal rehabilitation bodysuit, leaving the center of the back readable",
+      "both biological legs are replaced from the upper thighs downward by matching slim matte white-and-graphite medical prosthetic legs with realistic flat feet; two enclosed hip interfaces join one smooth narrow segmented medical casing centered over the spine from pelvis to upper back",
+      "shown in a three-quarter rear view with her face turned back, supporting part of her weight on one plain grey forearm crutch in her left hand while standing carefully in rehabilitation",
+      "2026-08-29 visual refresh: the integrated spinal column and both articulated prosthetic legs paired with vivid athletic streetwear"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T03:36:35.3788631Z",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-095.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 959830714,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, exoskeleton, power armor, armor, high heels, weapon, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1girl, solo, solo focus, mature female, tall female, dark skin, tan, long hair, brown hair, curly hair, ponytail, high ponytail, brown eyes, serious, closed mouth, looking back, from behind, full body, yellow coat, coat, open coat, open clothes, oversized clothes, long sleeves, bodysuit, prosthesis, prosthetic leg, mechanical legs, back brace, brace, crutch, holding, long fingers, standing, simple background, cyberpunk, streetwear, cyborg, transparent background. A tall thirty-one-year-old Brazilian woman with provisional warm medium-brown skin and dark brown curly hair in a very high ponytail is shown fully in three-quarter rear view with her face turned back, wearing a bright loose yellow short coat draped open around her shoulders over a charcoal rehabilitation bodysuit, while matching slim white-and-graphite medical prosthetic legs connect through two enclosed hip interfaces to one smooth narrow segmented medical casing centered over her spine from pelvis to upper back and she carefully supports part of her weight on one plain grey forearm crutch under soft even frontal studio light; the integrated spinal column and both articulated prosthetic legs paired with vivid athletic streetwear.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, exoskeleton, power armor, armor, high heels, weapon, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-014-v3",
+  "characterId": "LS-NPC-014",
+  "characterName": "田进财",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-014-田进财-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-014-田进财-20260829-ls-npc-014-v3-seed-975828377.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=564d536c4b17690eb1592b5b47c6fddf5a95b301357aea0b0a6b1d43a60d2f06",
+      "Visual QA passed after two failures: the only rectangular LCD order device is now on the character right wrist attached to the pointing arm on the viewer left; helmet and pseudo-text are gone; the panel resembles an older touch-order display rather than a seven-segment watch but remains a readable worn courier device."
+    ]
+  }
+}

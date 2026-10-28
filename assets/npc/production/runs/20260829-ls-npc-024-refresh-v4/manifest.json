@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-024-refresh-v4",
+  "characterId": "LS-NPC-024",
+  "characterName": "雷小鼓",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-024-refresh-v4.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-024-雷小鼓-20260829-ls-npc-024-refresh-v4-seed-764347313.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=a5f2f7296348c03bb96dd463fa0b58d7c789c0283e85e87c12377ff0b9aca0a5",
+      "视觉复核通过：flight-interface 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

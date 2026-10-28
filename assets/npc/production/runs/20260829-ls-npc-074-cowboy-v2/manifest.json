@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-074-cowboy-v2",
+  "characterId": "LS-NPC-074",
+  "characterName": "薄晚",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-074-cowboy-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-074-薄晚-20260829-ls-npc-074-cowboy-v2-seed-317529864.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=16e4f848c04d7718717985af25b9c8f7ad9f525e04600384c15850446524471b",
+      "构图返工复核通过：不再出现完整小腿、鞋或全身远景，主体按头至大腿区间呈现；透明背景、平光、人体与身份锚点合格。"
+    ]
+  }
+}

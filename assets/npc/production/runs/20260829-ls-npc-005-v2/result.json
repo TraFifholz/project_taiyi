@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-005-v2",
+  "characterId": "LS-NPC-005",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": null,
+  "apiSeed": 882742025,
+  "imageIndex": 0,
+  "output": "LS-NPC-005-燕尺素-v2.png",
+  "sha256": "749aa3e60acf8e068b14f55a419621d8e09ba3cd507a33e744323e69e35ec23d",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T20:56:26.5716018Z",
+  "recoveryNote": "Recovered from the API PNG written before the former shared result.json path raised EEXIST; correlation id was not emitted before the exception."
+}

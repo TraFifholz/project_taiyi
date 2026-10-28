@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-n2-cowboy-v3",
+    "characterId": "LS-NPC-N2",
+    "characterName": "程雯",
+    "promptVersion": 3,
+    "designStatus": "portrait-design-diversity-refresh",
+    "designAssumptions": [
+      "provisional age forty-three, composed Chinese teacher with medium-length brown hair in a low ponytail, brown eyes behind thin oval glasses and a patient reserved smile",
+      "wears a loose beige cardigan open over a pale blue blouse, straight charcoal trousers and plain black flat shoes",
+      "holds one closed unmarked navy roster folder against her left side and one capped black pen in her right hand",
+      "2026-08-29 visual refresh: a muted blue cardigan and long skirt with a simple teacher badge and attendance folder",
+      "User-review crop correction: strict head-to-mid-thigh cowboy shot; lower legs and feet stay outside the image."
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T12:40:43.5237355+08:00",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-N2.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 109637284,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, weapon, armor, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, full body, shoes, boots, sneakers",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1girl, solo, solo focus, mature female, medium hair, brown hair, ponytail, low ponytail, parted hair, brown eyes, glasses, light smile, smile, closed mouth, looking at viewer, teacher, cardigan, open cardigan, open clothes, blouse, blue shirt, shirt, long sleeves, pants, black shoes, folder, holding folder, holding pen, pen, holding, wristwatch, pocket, standing, simple background, blue cardigan, long skirt, transparent background, cowboy shot. A provisional forty-three-year-old Chinese middle-school academic-affairs teacher with medium brown hair in a low ponytail, thin oval glasses and a patient reserved smile wears a loose beige cardigan over a pale blue blouse, straight charcoal trousers and black flat shoes, holding one closed unmarked navy roster folder against her left side and one capped black pen in her right hand under soft even frontal studio light; a muted blue cardigan and long skirt with a simple teacher badge and attendance folder; the portrait is framed from head to mid-thigh in a strict cowboy shot, with lower legs and feet outside the image.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, weapon, armor, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, full body, shoes, boots, sneakers",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

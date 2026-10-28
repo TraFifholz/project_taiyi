@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-041-refresh-v3",
+  "characterId": "LS-NPC-041",
+  "characterName": "冯宁汐",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-041-refresh-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-041-冯宁汐-20260829-ls-npc-041-refresh-v3-seed-362815497.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=d62e690fb6144c72e7ef47b2c3d9fdb3944f755df12db590cfcbb9e3c1332a1b",
+      "视觉复核通过：creative-tech 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

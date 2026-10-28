@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-030-review-v2",
+  "characterId": "LS-NPC-030",
+  "characterName": "钟月台",
+  "designStatus": "portrait-design-review-retry",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-030-review-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-030-钟月台-20260829-ls-npc-030-review-v2-seed-320594181.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=ddf0e44fa451556853308b93e29add69e219ca25df7bb1ec0a2e5eb418c44064",
+      "第二批返工复核通过：严格 cowboy shot、透明背景与平光合格，人物气质按角色功能收紧。"
+    ]
+  }
+}

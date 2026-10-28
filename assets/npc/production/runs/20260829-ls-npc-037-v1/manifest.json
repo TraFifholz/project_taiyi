@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-037-v1",
+  "characterId": "LS-NPC-037",
+  "characterName": "白念秋",
+  "designStatus": "host-designed-standard-living-portrait-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-037-白念秋-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=3417cef129df889552263c39a703d1a48f6e1a770bf88f4f6d0b8fdc7a87b419",
+      "生前媒体人形象和摄影机成立，但包侧凭空生成黄色花束，摄影机机身出现伪品牌字样；花束会错误引入死亡纪念意象，设备文字也违反无标识要求，保留失败原图，不采用。"
+    ]
+  }
+}

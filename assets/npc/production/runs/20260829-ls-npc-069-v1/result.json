@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-069-v1",
+  "characterId": "LS-NPC-069",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "823bc2",
+  "apiSeed": 536821947,
+  "imageIndex": 0,
+  "output": "LS-NPC-069-贺梦琪-v1.png",
+  "sha256": "637210bfbf541a77bd3c8df6a92359b7e46ee075b0aa7e50f31ec6a1d1d11dc9",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:39:37.762Z"
+}

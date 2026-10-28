@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-027-v1",
+  "characterId": "LS-NPC-027",
+  "characterName": "邢九重",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-027-邢九重-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-027-邢九重-20260829-ls-npc-027-v1-seed-195776028.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=e413f53016b4dcccd7105dcccde1e8f1ec09173315001e27da60be3e55852b6e",
+      "透明背景有效；厚背、工装、工具腰带与手持安全帽明确地下夜班领队身份；三分之二背面侧耳动作成立，后颈浅色安全帽晒痕可辨；无古语、符文、声波或能力特效，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

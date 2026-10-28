@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-099-v1",
+  "characterId": "LS-NPC-099",
+  "characterName": "刘大妈",
+  "designStatus": "portrait-design-v1-provisional",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-099-刘大妈-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-099-刘大妈-20260829-ls-npc-099-v1-seed-995478216.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=9298337b16ecd073f627b12c9a94c180974f142a54f3e393dafbdcde68c56782",
+      "普通冬季街头摊贩形象成立；针织帽、围巾、红外套、围裙与双手纸袋清楚，袋中恰有三只烤红薯；无支付终端、文字或异常效果。年龄体貌仍为临时设计。"
+    ]
+  }
+}

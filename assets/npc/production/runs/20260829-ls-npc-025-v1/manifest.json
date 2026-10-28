@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-025-v1",
+  "characterId": "LS-NPC-025",
+  "characterName": "葛兆康（老葛）",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-025-葛兆康-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-025-葛兆康（老葛）-20260829-ls-npc-025-v1-seed-409226751.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=5baa912dbbf6b64902546667debf2d7c16e278f995d3a96f5f53f2e6aab1831c",
+      "透明背景有效；四十多岁晒黑粗粝的现场工头身份明确；旧蓝工装、无字橙色背心、手机照片线索和手持安全帽均清晰；无文字或标识伪影，手部结构可接受，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

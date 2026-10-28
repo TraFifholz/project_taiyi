@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-075-v1",
+  "characterId": "LS-NPC-075",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "8ba73d",
+  "apiSeed": 483716925,
+  "imageIndex": 0,
+  "output": "LS-NPC-075-罗鸣谦-v1.png",
+  "sha256": "65530d0b4a14db5ee1fd6ff81a32616281db090d49f9ff15fe2c9c9868c5fad0",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:48:30.521Z"
+}

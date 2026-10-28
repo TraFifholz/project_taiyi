@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-074-v1",
+  "characterId": "LS-NPC-074",
+  "characterName": "薄晚",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-074-薄晚-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=4d58324286d4de14efc77ef1d7f6142da4c151fbc82904372c5858fdc1798187",
+      "二十九岁安静分析员、全灰低饱和衣装、细框眼镜、平直神情和双手抱无字灰色硬面工作册均成立，准确呈现总在还书的管理员感。无屏幕、私人模型悬浮、数据保留能力、强边缘光或伪文字。",
+      "用户审核拒绝；画面错误地显示完整小腿或鞋，违反 cowboy shot。该原图保留为失败证据，进入严格头至大腿中段构图返工。"
+    ]
+  }
+}

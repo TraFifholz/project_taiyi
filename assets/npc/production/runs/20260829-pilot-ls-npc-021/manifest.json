@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-pilot-ls-npc-021",
+  "characterId": "LS-NPC-021",
+  "characterName": "周清梅",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-021-周清梅-seed-1742986307.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "rejected_by_user",
+    "notes": [
+      "API returned PNG 832x1216, RGBA color type 6, with transparent and partial-alpha pixels.",
+      "Identity anchors present: mature mechanic, grey jumpsuit, tool belt, wrench, old burn scar on the character's left forearm.",
+      "No visible loli or school-uniform contamination from the imported template character prompt.",
+      "Minor composition note: wrench reaches the left image edge and the lower body meets the expected cowboy-shot crop.",
+      "Rejected after review: positive backlighting produced excessive bright rim reflections around the hair, shoulders and arms. Raw output retained as the r1 comparison; candidate copy removed."
+    ]
+  }
+}

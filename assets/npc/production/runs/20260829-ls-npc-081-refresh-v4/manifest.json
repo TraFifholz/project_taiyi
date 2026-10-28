@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-081-refresh-v4",
+  "characterId": "LS-NPC-081",
+  "characterName": "苏碧城",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-081-refresh-v4.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-081-苏碧城-20260829-ls-npc-081-refresh-v4-seed-691374025.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=cd2c4934facfa76181246d0b39d41dff151a50a95cb877ba5aeef795100daf9f",
+      "定向复核通过：背景已真正透明，后颈接口可读，未出现白底污染。"
+    ]
+  }
+}

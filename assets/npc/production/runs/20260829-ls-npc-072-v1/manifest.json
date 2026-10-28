@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-072-v1",
+  "characterId": "LS-NPC-072",
+  "characterName": "苏晦（S.H.）",
+  "designStatus": "portrait-design-v1-provisional",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-072-苏晦-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-072-苏晦（S.H.）-20260829-ls-npc-072-v1-seed-958317406.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=b1e2e846a1c7508e72b74a505737e8a5a825d0b9c274bf62d3bcc9b4fddfe8e8",
+      "作为明确标注可替换的暂定设计，逃亡研究者的自剪黑发、灰鬓、深眼袋、胡茬、灰色兜帽长外套、信使包和防御性交臂姿态成立；固执疲惫而非脸谱反派。无S.H.徽记、终端、预言/全知能力、数据光效、强边缘光或伪文字。"
+    ]
+  }
+}

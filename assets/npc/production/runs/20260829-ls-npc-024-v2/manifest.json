@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-024-v2",
+  "characterId": "LS-NPC-024",
+  "characterName": "雷小鼓",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-024-雷小鼓-v2.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=50cc7c66b0b3619b8f48f0cc5fb6d4789f2b2c8b3a16550a0cd5e89d5146c048",
+      "Technical checks passed, but visual QA failed: pseudo-text is gone, yet bright cyan points appear at both sides of the ring-shaped nape scar and read as active connectors or a power effect rather than flat old scar tissue; raw image preserved."
+    ]
+  }
+}

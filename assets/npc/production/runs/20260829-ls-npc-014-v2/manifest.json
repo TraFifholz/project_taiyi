@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-014-v2",
+  "characterId": "LS-NPC-014",
+  "characterName": "田进财",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-014-田进财-v2.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=aaed8e8a741d470f5ec35127b87f09842ed5761e2a014d7ecba17b377ea1de4d",
+      "Technical checks passed, but visual QA failed: the rectangular LCD device still sits on the non-pointing character left wrist beside the helmet, while the helmet contains pseudo-text MEF; raw image preserved."
+    ]
+  }
+}

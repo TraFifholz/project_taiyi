@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-058-v1",
+  "characterId": "LS-NPC-058",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "1cb80a",
+  "apiSeed": 157832604,
+  "imageIndex": 0,
+  "output": "LS-NPC-058-闵三元-v1.png",
+  "sha256": "4232ae3b385fa963dc395f3a9541166541f117f5a1906d3c7f4023fef1750884",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:16:20.137Z"
+}

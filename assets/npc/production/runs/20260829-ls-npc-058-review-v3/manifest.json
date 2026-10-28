@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-058-review-v3",
+  "characterId": "LS-NPC-058",
+  "characterName": "闵三元",
+  "designStatus": "portrait-design-cyborg-review-retry",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-058-review-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-058-闵三元-20260829-ls-npc-058-review-v3-seed-157832604.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=6bc28df2644d7da33cf0dcc1919b5cfaeda2fe8c1781693e44aa3998c222d37a",
+      "第二批返工复核通过：严格 cowboy shot、透明背景与平光合格，人物气质按角色功能收紧。 义体或接口已成为一眼可读的身体锚点，而非微小装饰。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-051-v1",
+  "characterId": "LS-NPC-051",
+  "characterName": "夏满弓",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-051-夏满弓-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-051-夏满弓-20260829-ls-npc-051-v1-seed-572840196.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=80bcd25931aac4fa8af46d9ad91a9e28a214e065cc9d47653f47457d12d31100",
+      "普通巡逻队长形象成立：疲惫朴素面貌、洗旧蓝灰巡逻制服与浅色软质护具明确，双手自然捧无字陶瓷茶杯；未出现武器、能力HUD、强烈边缘光或伪文字。透明背景与手部结构可接受。"
+    ]
+  }
+}

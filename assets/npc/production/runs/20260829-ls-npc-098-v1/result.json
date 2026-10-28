@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-098-v1",
+  "characterId": "LS-NPC-098",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "d083bc",
+  "apiSeed": 984315726,
+  "imageIndex": 0,
+  "output": "LS-NPC-098-贾红-v1.png",
+  "sha256": "9b9e8c50a60014aed2df8c18cfa8b5bc900fa31a8b54a9727cfc330d1a23eb94",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:31:06.343Z"
+}

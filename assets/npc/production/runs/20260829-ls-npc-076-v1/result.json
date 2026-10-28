@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-076-v1",
+  "characterId": "LS-NPC-076",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "39184d",
+  "apiSeed": 642907351,
+  "imageIndex": 0,
+  "output": "LS-NPC-076-玄圭-v1.png",
+  "sha256": "7bbf3d0bee33d0e7cc731bd8f16d0603b8a767922cba8e136d693483b57d3084",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:50:04.395Z"
+}

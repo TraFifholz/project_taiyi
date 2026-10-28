@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-034-v1",
+  "characterId": "LS-NPC-034",
+  "characterName": "苏小晚",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-034-苏小晚-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-034-苏小晚-20260829-ls-npc-034-v1-seed-906347125.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=ea3392c87f46d4a1c0afdf1f31b269e9467b47e9eaaf9f637c5771da7ce13559",
+      "透明背景有效；齐耳短发、夜班倦色、橙色司机外套、颈挂监听耳机与手拎自制灰兔布偶共同形成司机兼电台主播身份；无路线、地图、声波或路噪特效，手部和布偶结构可接受，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

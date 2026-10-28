@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-106-v2",
+  "characterId": "LS-NPC-106",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "f5afd0",
+  "apiSeed": 106275839,
+  "imageIndex": 0,
+  "output": "LS-NPC-106-红皇后-v2.png",
+  "sha256": "4ddbc2ac8923faef154dc9dc9b58125ee53834efb4a050a1c9fd6c2fc6c5a4ec",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:44:56.194Z"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260902-utility-sh-glitch-silhouette-v1",
+  "characterId": "LS-NPC-072-ANONYMOUS",
+  "characterName": "S.H. 男性 Glitch 剪影",
+  "designStatus": "utility-anonymous-portrait",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "rawAssets": [
+    "raw/sh-glitch-silhouette.png"
+  ],
+  "qa": {
+    "technical": "failed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=e1697a5f7a803f65e95eae7d440c019badbf522a425a7b9f7f4d783b83ef2fb6",
+      "Alpha 最小值 181，没有全透明背景；不交付。"
+    ]
+  },
+  "scope": "Anonymous presentation of S.H.; no physical identity or supernatural ability claim",
+  "resultFile": "result.json"
+}

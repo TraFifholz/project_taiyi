@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-027-refresh-v3",
+  "characterId": "LS-NPC-027",
+  "characterName": "邢九重",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-027-refresh-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-027-邢九重-20260829-ls-npc-027-refresh-v3-seed-195776028.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=0fc739b83553dfe92011efc3800655ef677236ddaf119cd1158d329891805e20",
+      "定向复核通过：仅角色左侧膝下为义肢，另一条腿保持人体；透明背景、构图与光照合格。"
+    ]
+  }
+}

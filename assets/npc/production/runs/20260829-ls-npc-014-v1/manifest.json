@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-014-v1",
+  "characterId": "LS-NPC-014",
+  "characterName": "田进财",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-014-田进财-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=15cf3f9775dbd215b5b8179c0b099b9cb706b7b6b945ed05d32bf410ae24bffa",
+      "Technical checks passed, but visual QA failed: the orange vest contains prominent pseudo-text PALCUA; the watch is a round analog watch on the character left wrist instead of the required worn rectangular LCD order watch on the right wrist; raw image preserved."
+    ]
+  }
+}

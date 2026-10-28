@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-096-v1",
+  "characterId": "LS-NPC-096",
+  "characterName": "周凛",
+  "designStatus": "portrait-design-v1-provisional",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-096-周凛-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=e4cbfd6a8ac3db9425806e45f490a5d729ba453decc2a44a86ca74c57a2ab48f",
+      "低调掮客的短发、长外套、挎包与双手插袋均成立，但鞋部出现明显粉色发光边缘，违反平光与无特效要求；保留失败原图，v2 改为哑光黑平底鞋。"
+    ]
+  }
+}

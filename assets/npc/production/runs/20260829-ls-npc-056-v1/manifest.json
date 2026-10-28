@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-056-v1",
+  "characterId": "LS-NPC-056",
+  "characterName": "卫铁生",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-056-卫铁生-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-056-卫铁生-20260829-ls-npc-056-v1-seed-294681573.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=f51e253f601e4aba1a49a7a038f27cce5451fe8697ba282fc75dcd29423b9afa",
+      "壮实中年体貌、左颧骨下浅疤、鬓角微白、普通褪色棕色飞行夹克与旧工装靴成立；双手插袋的克制姿态符合不靠服装宣示地位的红衣。无堂口刺绣、红色等级误读、武器、能力特效、强边缘光或伪文字。"
+    ]
+  }
+}

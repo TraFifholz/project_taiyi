@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-067-v2",
+    "characterId": "LS-NPC-067",
+    "characterName": "马铁鹰",
+    "promptVersion": 2,
+    "designStatus": "portrait-design-v2",
+    "designAssumptions": [
+      "heavily built Chinese man with a short thick neck, broad shoulders, close black crew cut, dark brown eyes and an immobile severe face",
+      "wears a plain matte black sleeveless compression shirt, charcoal cargo trousers, compact utility belt and black combat boots",
+      "the right arm alone is covered from shoulder to wrist by dense horizontal bands of microscopic black Latin capital lettering, visually textlike but too small to resolve into an invented sentence"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T06:35:42+08:00",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-067.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 394175826,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, gun, rifle, knife, dagger, sword, weapon, full armor, power armor, hologram, heads-up display, glowing, aura, light particles",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1boy, solo, male focus, solo focus, mature male, muscular male, broad shoulders, thick neck, short hair, buzz cut, crew cut, black hair, brown eyes, serious, expressionless, closed mouth, looking at viewer, staring, sleeveless, sleeveless shirt, tank top, black tank top, shirt, tattoo, arm tattoo, text tattoo, body writing, cargo pants, black pants, pants, belt, utility belt, pouch, combat boots, boots, arms at sides, standing at attention, standing, transparent background. A heavily built thirty-five-year-old Chinese enforcement specialist with a short thick neck and close black crew cut stands almost breathlessly still in a plain black sleeveless shirt, while only his right arm is covered shoulder to wrist by dense horizontal bands of microscopic black Latin capital lettering too small to resolve into a sentence under soft even frontal studio light.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, gun, rifle, knife, dagger, sword, weapon, full armor, power armor, hologram, heads-up display, glowing, aura, light particles",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

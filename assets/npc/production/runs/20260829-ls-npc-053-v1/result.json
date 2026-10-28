@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-053-v1",
+  "characterId": "LS-NPC-053",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "6afd75",
+  "apiSeed": 731064285,
+  "imageIndex": 0,
+  "output": "LS-NPC-053-郁垒-v1.png",
+  "sha256": "4d824c46e06433b88d92ccd1bfa17259c534ecaabc70e61775f65aa77598a4dd",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:06:39.074Z"
+}

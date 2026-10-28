@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-003-refresh-v3",
+  "characterId": "LS-NPC-003",
+  "characterName": "苗铁城",
+  "designStatus": "portrait-design-diversity-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-003-refresh-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-003-苗铁城-20260829-ls-npc-003-refresh-v3-seed-1812126901.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=6b2953628ba334165e26defcfa98161beed1d84ac91bdf6cdb259df93b032c09",
+      "Visual QA passed: mature maintenance foreman identity, faded colored jumpsuit, caliper and tool belt create a distinct industrial silhouette; hands and crop are acceptable."
+    ]
+  }
+}

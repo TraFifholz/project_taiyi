@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-063-v1",
+  "characterId": "LS-NPC-063",
+  "characterName": "鹿岛绫",
+  "designStatus": "portrait-design-v1",
+  "status": "queued",
+  "requestFile": "request.json",
+  "resultFile": null,
+  "rawAssets": [],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "pending",
+    "visual": "pending",
+    "notes": []
+  }
+}

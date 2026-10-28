@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-043-v1",
+  "characterId": "LS-NPC-043",
+  "characterName": "阿岛俊",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-043-阿岛俊-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-043-阿岛俊-20260829-ls-npc-043-v1-seed-790314628.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=ce79b2a05ac5bed2b605869c256a78b1045e7e94383090c5ec80b7e52869a0c1",
+      "透明背景有效；瘦削体态、灰调宽松衣装、降噪耳机和低垂无字手机形成低存在感社群管理员身份；无多窗口、全息黑客界面、霜月武装或能力效果，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-017-v1",
+  "characterId": "LS-NPC-017",
+  "characterName": "方见",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-017-方见-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-017-方见-20260829-ls-npc-017-v1-seed-638774504.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=fd4a44f1e2b8f528b5f71a6ae21463c9f45f734f06d228e1107f0280922b7b95",
+      "Visual QA passed: rimless glasses, neatly tucked pale-blue shirt, restrained downward gaze and fine tweezers holding a tiny chip clearly establish an unobtrusive final-inspection engineer; no screen, code, text, sinister imagery or strong rim light."
+    ]
+  }
+}

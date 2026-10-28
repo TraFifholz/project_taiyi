@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-106-v2",
+  "characterId": "LS-NPC-106",
+  "characterName": "红皇后",
+  "designStatus": "non-humanoid-evidence-placeholder-v2",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-106-红皇后-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-106-红皇后-20260829-ls-npc-106-v2-seed-106275839.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=4ddbc2ac8923faef154dc9dc9b58125ee53834efb4a050a1c9fd6c2fc6c5a4ec",
+      "v2 保持非人形证据资产：终端屏幕完全空白，单根红线缆与无字红工具箱清楚，工具表面无可读伪文字；未具象成红发女王、王冠或兔耳人形。该资产不确认真实形态。"
+    ]
+  }
+}

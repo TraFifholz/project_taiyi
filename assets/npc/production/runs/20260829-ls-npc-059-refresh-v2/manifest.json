@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-059-refresh-v2",
+  "characterId": "LS-NPC-059",
+  "characterName": "柳拂衣",
+  "designStatus": "portrait-design-diversity-refresh",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-059-refresh-v2.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=bcaa50069e22508ff7e7aff4d6ee0ec48cee5cdb9c1e891a1679545a1de5fbbd",
+      "视觉复核通过：swordsman-hybrid 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。",
+      "用户审核拒绝；画面错误地显示完整小腿或鞋，违反 cowboy shot。该原图保留为失败证据，进入严格头至大腿中段构图返工。"
+    ]
+  }
+}

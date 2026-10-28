@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-101-v1",
+  "characterId": "LS-NPC-101",
+  "characterName": "梁文川",
+  "designStatus": "portrait-design-v1-provisional",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-101-梁文川-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-101-梁文川-20260829-ls-npc-101-v1-seed-101528463.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=1532e0df8ce4b0ed9f774a1ab200126685cc1492d0215e57fbd77ea50f6eb8c7",
+      "临时设计中的普通机械爱好者熟人形象成立：朴素旧工装、卷袖、旧式机械表与轻松笑容清楚，没有导师化道具、委托感或能力效果。年龄职业仍为可替换假设。"
+    ]
+  }
+}

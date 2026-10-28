@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-040-v2",
+  "characterId": "LS-NPC-040",
+  "characterName": "向柳",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-040-向柳-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-040-向柳-20260829-ls-npc-040-v2-seed-638271954.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=3ea38e35f7b42e58ed9a88b23d3c0a7e44252df5afc14b1c8a10cef6b7784f5e",
+      "透明背景有效；硬质素白面具仅覆盖左眼、太阳穴与脸颊，嘴和下颌完整露出；监听耳机、录音师工装、麦克风和防喷罩准确，无文字、医用口罩误读或声波能力效果，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

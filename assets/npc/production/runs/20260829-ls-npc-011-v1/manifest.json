@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-011-v1",
+  "characterId": "LS-NPC-011",
+  "characterName": "沈丹青",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-011-沈丹青-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-011-沈丹青-20260829-ls-npc-011-v1-seed-1919910801.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=9f5963fd10d467890dbb72b5a0cf4fa60269f471f3107c62442370f51be1a4c1",
+      "Visual QA passed: polished government-affairs manager, slightly loose blue suit, pale-blue shirt, diplomatic smile and open gesture are clear; the small silver-wrapped object reads as an unmarked lozenge and contains no text; no strong rim light."
+    ]
+  }
+}

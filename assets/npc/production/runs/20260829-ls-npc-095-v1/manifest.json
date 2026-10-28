@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-095-v1",
+  "characterId": "LS-NPC-095",
+  "characterName": "萨布里娜·费雷拉",
+  "designStatus": "portrait-design-v1-provisional-complexion",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-095-萨布里娜·费雷拉-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=dcce10f271fe1e8ee7d8ce3fd616268689a313b7e2511fcafbdbf2b9fe720cc0",
+      "高马尾、亮黄宽松外套、双腿义肢与康复拐杖成立，但脊柱系统被错误画成髋前两列暴露椎骨，既非中央脊柱支撑也不符合医疗设计；保留失败原图，v2 改三分之四背视和封闭式中央支撑。"
+    ]
+  }
+}

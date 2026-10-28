@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-090-i2i-v3",
+  "characterId": "LS-NPC-090",
+  "characterName": "阿瑶（朱瑶光）",
+  "designStatus": "identity-reference-i2i-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-090-阿瑶（朱瑶光）-20260829-ls-npc-090-i2i-v3-seed-903418527.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "i2i identity reference; strength=0.5; noise=0.5; refSha256=f034f67c79ab27e1af1e040b38ed8274abce4cefd9ef7842c689e3e5237bf9f9",
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=419c5c5ec12420bd2600d7fe166519484cec2cd9256de69871a34c14c27fa4fa",
+      "Identity matches authoritative reference: long white hair, vivid red eyes, black-red hair ornament, white dress and oversized black-red coat; strict cowboy crop and transparent alpha."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-086-v1",
+  "characterId": "LS-NPC-086",
+  "characterName": "文小篆",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-086-文小篆-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-086-文小篆-20260829-ls-npc-086-v1-seed-861275490.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=fb32d8b25f25a23d4cef657e84fd52903d6bd8b0805336df615ac602a78e3c80",
+      "年轻面容、倦怠夜班状态、纯白空纸和削尖铅笔均清楚；纸面无任何文字或图形，也无收容场/发光特效。"
+    ]
+  }
+}

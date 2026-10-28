@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-066-refresh-v3",
+  "characterId": "LS-NPC-066",
+  "characterName": "卢卡·阿奎拉",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-066-refresh-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-066-卢卡·阿奎拉-20260829-ls-npc-066-refresh-v3-seed-708315492.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=65f4a0bc614f9dbcbfe23903510e0499c67f7148204943c5c375c4ac03956762",
+      "视觉复核通过：port-punk 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

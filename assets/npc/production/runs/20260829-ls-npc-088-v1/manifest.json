@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-088-v1",
+  "characterId": "LS-NPC-088",
+  "characterName": "沈漫",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-088-沈漫-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-088-沈漫-20260829-ls-npc-088-v1-seed-882174630.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=f82004f8f7c8ee11af8803dc6217e34c57fb69ddd95aeb1b34ac26a559a01e6c",
+      "随意束发、半阖倦眼、宽松长外套与慢拍气质成立；角色右手（画面左侧）自然伸出且呈普通人类外观，无机械、火焰、透明数据或银翼特效。"
+    ]
+  }
+}

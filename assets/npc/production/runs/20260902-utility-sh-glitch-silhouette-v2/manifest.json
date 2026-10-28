@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260902-utility-sh-glitch-silhouette-v2",
+  "characterId": "LS-NPC-072-ANONYMOUS",
+  "characterName": "S.H. 男性 Glitch 剪影",
+  "designStatus": "utility-anonymous-portrait",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "rawAssets": [
+    "raw/sh-glitch-silhouette.png"
+  ],
+  "qa": {
+    "technical": "failed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=70e6303d262ca5d2fec73e456f98209845af836325c6b7932b9129cd8b291e74",
+      "实际仅 252 个全透明像素；白背景及背景纹理不符合透明剪影要求。改用 NAI 男剪影派生 Glitch。"
+    ]
+  },
+  "resultFile": "result.json"
+}

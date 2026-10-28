@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "characterId": "LS-NPC-083",
+  "characterName": "纪慎微",
+  "version": 1,
+  "designStatus": "portrait-design-v1",
+  "sourceFacts": [
+    "male, age thirty-six, finance-university law lecturer and former Bufu adjudicator, marked latent awakened",
+    "wears grey clothes, speaks with the cadence of a judgment and habitually adds that it is only his personal view",
+    "standard portrait must remain a restrained lecturer; future perception is limited to an unclassifiable gap in legal rules and cannot become truth detection, moral judgment or a visible legal aura"
+  ],
+  "designAssumptions": [
+    "lean Chinese man with short neatly parted black hair, a few grey strands, brown eyes and a composed severe expression",
+    "wears a grey blazer over a pale grey sweater vest and white collared shirt, charcoal necktie, black trousers and plain brown shoes",
+    "holds one closed unmarked dark book against his left side and raises his right index finger in a precise qualifying gesture"
+  ],
+  "sceneConcept": "A lean thirty-six-year-old Chinese law lecturer stands alone against a transparent background. His short black hair is neatly parted with a few grey strands, and his brown eyes and composed severe expression suggest careful judgment. He wears a grey blazer over a pale grey sweater vest, white collared shirt, charcoal necktie, black trousers and plain brown shoes. One closed unmarked dark book rests against his left side while his right index finger rises in a precise qualifying gesture. Soft even frontal studio light keeps him restrained and ordinary.",
+  "tags": [
+    "1boy", "solo", "male_focus", "solo_focus", "mature_male", "short_hair", "black_hair", "grey_hair", "parted_hair", "brown_eyes",
+    "serious", "expressionless", "closed_mouth", "looking_at_viewer", "teacher", "blazer", "grey_jacket", "jacket", "open_jacket", "sweater_vest",
+    "grey_vest", "vest", "collared_shirt", "white_shirt", "shirt", "necktie", "long_sleeves", "black_pants", "pants", "brown_shoes",
+    "shoes", "book", "holding_book", "holding", "index_finger_raised", "standing", "transparent_background"
+  ],
+  "naturalLanguageDetail": "A lean thirty-six-year-old Chinese law lecturer with neatly parted short black hair and a few grey strands wears layered grey academic clothes, holding one closed unmarked dark book against his left side while raising his right index finger in a precise qualifying gesture under soft even frontal studio light.",
+  "negativeAdditions": [
+    "english_text", "chinese_text", "character_name", "signature", "watermark", "text_focus", "logo", "emblem", "insignia", "badge", "name_tag", "id_card", "barcode", "qr_code",
+    "hologram", "heads-up_display", "magic", "glowing", "aura", "light_particles", "scales", "gavel"
+  ],
+  "seed": 835906124,
+  "sourceLocator": "NPC立绘设定终稿.md §三 LS-NPC-083; 全城NPC名单.md §二十一; 扩充NPC-帮派与机构篇.md §纪慎微; NPC最终意见版.md 能力边界"
+}

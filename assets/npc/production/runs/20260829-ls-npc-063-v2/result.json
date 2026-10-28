@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-063-v2",
+  "characterId": "LS-NPC-063",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "893e13",
+  "apiSeed": 439706218,
+  "imageIndex": 0,
+  "output": "LS-NPC-063-鹿岛绫-v2.png",
+  "sha256": "492cd8495967f46353c675fb3313b465f49120d8d838feb84edc9c476d7b42f2",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:28:47.926Z"
+}

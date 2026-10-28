@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-018-v1",
+  "characterId": "LS-NPC-018",
+  "characterName": "卓近火",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-018-卓近火-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-018-卓近火-20260829-ls-npc-018-v1-seed-1755998732.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=6c2f63674e16f9c2417428d657b38f347ee3ac7465b18d16da826d617f473f66",
+      "Visual QA passed: tall slim researcher, white coat, visible pen-spinning action and small old palm burn marks are clear; the white arc is localized pen-motion notation rather than a body-linked power effect; no chip, flames, code, text or strong rim light."
+    ]
+  }
+}

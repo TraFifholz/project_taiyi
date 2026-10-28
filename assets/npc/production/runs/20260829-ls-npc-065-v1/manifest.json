@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-065-v1",
+  "characterId": "LS-NPC-065",
+  "characterName": "宋远",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-065-宋远-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-065-宋远-20260829-ls-npc-065-v1-seed-261948705.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=2ae0dcb483d7de0aad7581ce3fe4256063a15c308e2a38bb165e1da9261caa17",
+      "利落但中等价位的本地商务形象、灰蓝便西装、开领灰衬衫、棕鞋及双手插袋的评估停顿均成立；普通光线下左胸鹰纹完全隐藏。无家族徽章、纹身、领带、武器、能力光效、强边缘光或伪文字。"
+    ]
+  }
+}

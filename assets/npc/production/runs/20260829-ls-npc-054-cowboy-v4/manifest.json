@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-054-cowboy-v4",
+  "characterId": "LS-NPC-054",
+  "characterName": "白鹤年",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-054-cowboy-v4.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-054-白鹤年-20260829-ls-npc-054-cowboy-v4-seed-1408539217.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=87477cf6fef02398f5d3212e2c973774c2924ac06076ef7fd62f51b9ba2bde8c",
+      "构图返工复核通过：不再出现完整小腿、鞋或全身远景，主体按头至大腿区间呈现；透明背景、平光、人体与身份锚点合格。"
+    ]
+  }
+}

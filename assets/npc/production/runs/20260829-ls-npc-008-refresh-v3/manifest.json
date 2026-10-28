@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-008-refresh-v3",
+  "characterId": "LS-NPC-008",
+  "characterName": "苗可栗",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-008-refresh-v3.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=4783bedcd3f0ca7d403e75258c0ec04fc3c76dcd55579ea73174ac9acbae2789",
+      "Visual QA passed: oversized color-block night-shift outfit and conspicuous modular headset create a distinct customer-service street-tech silhouette; anatomy and transparent background are sound.",
+      "用户审核拒绝；进入第二批角色气质与义体强度返工，旧候选保留为失败证据。"
+    ]
+  }
+}

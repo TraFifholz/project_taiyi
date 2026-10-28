@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-003-v2",
+  "characterId": "LS-NPC-003",
+  "characterName": "苗铁城",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-003-苗铁城-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-003-苗铁城-20260829-ls-npc-003-v2-seed-1812126901.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=773035909c2f8354b943a6534e7aee4c96d6be6541bd43262250687932e0b362",
+      "Visual QA passed after same-seed retry: pseudo-text is gone; mature age, tired wary face, rolled grey maintenance jumpsuit, oil-stained rough hands and precision caliper are clear. The caliper is stylized but remains identifiable as a measuring tool."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-089-reference-t2i-v5",
+  "characterId": "LS-NPC-089",
+  "characterName": "沈仲秋",
+  "designStatus": "identity-reference-t2i-v2",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-089-沈仲秋-20260829-ls-npc-089-reference-t2i-v5-seed-891563204.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=270cb53b90209a390852929d10e0860e1003beb35d499fada0fd4a9fa0ace81d",
+      "沈仲秋：纯t2i保留银灰高马尾、大红蝴蝶结、耳机、黑粉叠穿与斜挎包；比例由统一模板控制。"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-003-v1",
+  "characterId": "LS-NPC-003",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "eb2600",
+  "apiSeed": 1812126901,
+  "imageIndex": 0,
+  "output": "LS-NPC-003-苗铁城-v1.png",
+  "sha256": "85a1c64afca165091cfdb9e262fa2cc4b43f97727d95bd17064167d51e04a801",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T20:49:07.617Z"
+}

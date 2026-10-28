@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-033-soft-v4",
+  "characterId": "LS-NPC-033",
+  "characterName": "赵明芝",
+  "designStatus": "user-review-pose-and-expression-correction",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-033-赵明芝-20260829-ls-npc-033-soft-v4-seed-528901376.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=372067e22dc64da66b95539c827f44e401feec0160ec201c8551fcc0c54b396b",
+      "赵明芝：姿势改为文件夹垂在义肢侧、另一手叉腰；闭口浅笑替代严肃皱眉，成熟且松弛。"
+    ]
+  }
+}

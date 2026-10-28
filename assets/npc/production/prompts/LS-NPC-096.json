@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "characterId": "LS-NPC-096",
+  "characterName": "周凛",
+  "version": 5,
+  "designStatus": "canon-sex-correction-male",
+  "sourceFacts": [
+    "male adult independent broker in the Yellow District, ordinary",
+    "takes deposits first, leaves no records and previously served as a contact for Yuzi and Tangsuo",
+    "the local canon image confirms a mature Chinese man with short black hair, light stubble and dark black-magenta techwear"
+  ],
+  "designAssumptions": [
+    "Preserve the male identity, short black hair, lined face, stubble and black jacket with restrained magenta lining",
+    "Strict head-to-mid-thigh cowboy shot; no organization insignia or readable text",
+    "Soft even frontal light with subdued edges"
+  ],
+  "sceneConcept": "Corrected male portrait for the Yellow District independent broker.",
+  "tags": [
+    "1boy",
+    "solo",
+    "male_focus",
+    "solo_focus",
+    "mature_male",
+    "short_hair",
+    "black_hair",
+    "grey_eyes",
+    "stubble",
+    "serious",
+    "closed_mouth",
+    "looking_at_viewer",
+    "hooded_jacket",
+    "black_jacket",
+    "open_jacket",
+    "open_clothes",
+    "black_shirt",
+    "shirt",
+    "long_sleeves",
+    "cargo_pants",
+    "pants",
+    "belt",
+    "standing",
+    "cyberpunk",
+    "techwear",
+    "streetwear",
+    "transparent_background",
+    "cowboy_shot"
+    ,"jacket"
+    ,"zipper"
+    ,"pocket"
+    ,"asymmetrical_clothes"
+    ,"punk"
+    ,"black_theme"
+    ,"coat"
+  ],
+  "naturalLanguageDetail": "A mature Chinese male broker with short black hair, a lined guarded face and light stubble wears a black hooded techwear jacket with restrained magenta lining over dark cargo trousers, framed from head to mid-thigh under soft even frontal studio light.",
+  "negativeAdditions": [
+    "1girl",
+    "mature_female",
+    "english_text",
+    "chinese_text",
+    "character_name",
+    "signature",
+    "watermark",
+    "text_focus",
+    "logo",
+    "emblem",
+    "insignia",
+    "badge",
+    "name_tag",
+    "id_card",
+    "barcode",
+    "qr_code",
+    "hologram",
+    "heads-up_display",
+    "magic",
+    "glowing",
+    "aura",
+    "light_particles",
+    "full_body",
+    "shoes",
+    "boots",
+    "sneakers",
+    "backlighting",
+    "overlighting"
+  ],
+  "seed": 962705318,
+  "sourceLocator": "C:/Users/Fifholz/Pictures/龙散战记/NPC/周凛.webp; NPC立绘设定终稿.md LS-NPC-096; records/memory/entities.md"
+}

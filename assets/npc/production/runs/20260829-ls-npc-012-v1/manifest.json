@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-012-v1",
+  "characterId": "LS-NPC-012",
+  "characterName": "罗弈",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-012-罗弈-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-012-罗弈-20260829-ls-npc-012-v1-seed-2076164237.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=cc4fb3e57cebf1599080150e513cd418edaefd2fff84de7d8b4788e0ee03b729",
+      "Visual QA passed: excessively precise gelled hairstyle, grey smart-casual outfit, crossbody test bag and phone back facing the viewer are clear; no visible interface, text, game imagery, power effect or strong rim light."
+    ]
+  }
+}

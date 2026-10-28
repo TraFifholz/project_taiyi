@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-092-v1",
+  "characterId": "LS-NPC-092",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "830692",
+  "apiSeed": 925178364,
+  "imageIndex": 0,
+  "output": "LS-NPC-092-谢翠莲-v1.png",
+  "sha256": "9fc354cf29086a080deb68a39cc3ad1da82d788a6146cf7ec8115bb19e3dc14c",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:18:24.524Z"
+}

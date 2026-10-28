@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "master": "control/portrait-master.json",
+  "targetCount": 93,
+  "recordCount": 93,
+  "qaPassedCount": 93,
+  "approvedCount": 93,
+  "uniqueCandidateCount": 93,
+  "jsonPromptCount": 92,
+  "markdownPilotPromptCount": 1,
+  "failedRunCount": 75,
+  "preservedFailedRawCount": 75,
+  "issues": []
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-046-reference-t2i-v4",
+  "characterId": "LS-NPC-046",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "aca07f",
+  "apiSeed": 605172943,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "e04457eb637e2f1115c661e58e949093238094469d9592545596233ec43ff1f3",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-29T08:09:35.382Z"
+}

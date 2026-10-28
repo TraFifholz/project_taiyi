@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-045-v1",
+  "characterId": "LS-NPC-045",
+  "characterName": "金舸",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-045-金舸-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-045-金舸-20260829-ls-npc-045-v1-seed-947206531.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=9920cdd1c019b1c4c51dbe9df22d0dd14ef76b32c6f006c6f94089e94431edbd",
+      "透明背景有效；年轻纤细、无眼镜、双排扣西装、领带夹、口袋巾与背手姿态将金舸和陈志远明显区分；表情礼貌疏离，无文字、腐败暗示或能力效果，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

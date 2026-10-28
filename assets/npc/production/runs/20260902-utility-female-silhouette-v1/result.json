@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260902-utility-female-silhouette-v1",
+  "characterId": "UTILITY-FEMALE",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "840470",
+  "apiSeed": 2026090202,
+  "imageIndex": 0,
+  "output": "female-silhouette.png",
+  "sha256": "78308bb59b223050272c980b0b99f2e5f7ef06d84883cde366565f6542715bda",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-02T14:58:08.070Z"
+}

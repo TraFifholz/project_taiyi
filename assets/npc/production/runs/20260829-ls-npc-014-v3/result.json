@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-014-v3",
+  "characterId": "LS-NPC-014",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "2ba7eb",
+  "apiSeed": 975828377,
+  "imageIndex": 0,
+  "output": "LS-NPC-014-田进财-v3.png",
+  "sha256": "564d536c4b17690eb1592b5b47c6fddf5a95b301357aea0b0a6b1d43a60d2f06",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:12:45.183Z"
+}

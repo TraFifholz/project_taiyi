@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-061-v3",
+  "characterId": "LS-NPC-061",
+  "characterName": "何夜白",
+  "designStatus": "portrait-design-v3",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-061-何夜白-v3.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=c3523db268c225edc20762e5bfefa8472aa118a102f879368c9ce3666191d37e",
+      "v3取消泛化多耳环标签后数量有所下降，但双耳仍各约五枚、合计约十枚，超过确定的七枚。保留原图，不登记候选；v4改用三分之四侧身，把全部七枚集中于唯一可见耳。"
+    ]
+  }
+}

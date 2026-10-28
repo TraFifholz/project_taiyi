@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-039-v1",
+  "characterId": "LS-NPC-039",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "33eee7",
+  "apiSeed": 471926305,
+  "imageIndex": 0,
+  "output": "LS-NPC-039-纪清商-v1.png",
+  "sha256": "51a6942095cc4dda9ad118d836bf8bcd15b7afa4f96ab23458a94d5e6282a3d3",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:42:42.011Z"
+}

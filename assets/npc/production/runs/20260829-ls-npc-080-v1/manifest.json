@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-080-v1",
+  "characterId": "LS-NPC-080",
+  "characterName": "朱见微",
+  "designStatus": "portrait-design-v1-provisional",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-080-朱见微-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-080-朱见微-20260829-ls-npc-080-v1-seed-862475139.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=d43d6ef83440ee7c2c47a5c63051ed69ff47d8322b80c718c81d7595d81e4326",
+      "作为可替换暂定设计，四十九岁客座教授/首席系统工程师、黑灰短发、矩形眼镜、短胡、棕色学院西装与闭合无标识电脑均成立。未借阿瑶外貌反推白发红眼，也无银翼、数据光环、锚点控制、伪文字或强边缘光。"
+    ]
+  }
+}

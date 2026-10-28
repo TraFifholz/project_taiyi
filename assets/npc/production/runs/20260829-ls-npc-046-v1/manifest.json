@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-046-v1",
+  "characterId": "LS-NPC-046",
+  "characterName": "何凌",
+  "designStatus": "host-designed-standard-human-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-046-何凌-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-046-何凌-20260829-ls-npc-046-v1-seed-605172943.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=e3a73ef4de78201c4cd95426bdaceea46bef46a9f9cca72215fde0f66636c020",
+      "透明背景有效；标准资产明确为人形审计员，白色长外套、黑色空白档案夹与低调细致的目光成立；无猫耳、动物、变形、雾或能力光效，手部可接受，边缘高光克制。猫形态仍须独立变体。候选通过，不等于正式采用。"
+    ]
+  }
+}

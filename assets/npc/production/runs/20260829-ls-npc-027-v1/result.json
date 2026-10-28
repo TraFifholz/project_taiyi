@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-027-v1",
+  "characterId": "LS-NPC-027",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "ac420c",
+  "apiSeed": 195776028,
+  "imageIndex": 0,
+  "output": "LS-NPC-027-邢九重-v1.png",
+  "sha256": "e413f53016b4dcccd7105dcccde1e8f1ec09173315001e27da60be3e55852b6e",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:28:26.037Z"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-076-v1",
+  "characterId": "LS-NPC-076",
+  "characterName": "玄圭",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-076-玄圭-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-076-玄圭-20260829-ls-npc-076-v1-seed-642907351.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=7bbf3d0bee33d0e7cc731bd8f16d0603b8a767922cba8e136d693483b57d3084",
+      "无框眼镜、合身如制服的黑西装和右手两指反复转动的不规则黑曜石均成立；石块保持不透明、无符号、无发光。未出现概率百分比、未来分叉、命运丝线、答案HUD、伪文字或过强轮廓光。"
+    ]
+  }
+}

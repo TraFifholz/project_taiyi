@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-085-v3",
+  "characterId": "LS-NPC-085",
+  "characterName": "凌渡",
+  "designStatus": "portrait-design-v3",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-085-凌渡-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-085-凌渡-20260829-ls-npc-085-v3-seed-853726401.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=13acbe1ecbcbe18d8e0ed30ae7d6699344e01319b724dc776ca38d86bac99475",
+      "格纹衬衫与网络研究员气质成立；四把钥匙清楚挂在胸前识别挂绳上，双手空置，未出现证件伪文字或网络特效。"
+    ]
+  }
+}

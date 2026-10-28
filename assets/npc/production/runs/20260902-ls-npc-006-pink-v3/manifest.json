@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260902-ls-npc-006-pink-v3",
+  "characterId": "LS-NPC-006",
+  "characterName": "翟明珠",
+  "designStatus": "portrait-design-user-appearance-correction",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "rawAssets": [
+    "raw/LS-NPC-006-翟明珠-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-006-翟明珠-20260902-ls-npc-006-pink-v3-seed-1408779885.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=dfd1092d991a0653ad81a18dfd3f3caa1c2f317811eb46d083669166d8909df3",
+      "粉发、巨乳及成年工程师形象符合，但右袖出现伪文字，未采用。"
+    ]
+  },
+  "approval": "pending-user-selection",
+  "resultFile": "result.json"
+}

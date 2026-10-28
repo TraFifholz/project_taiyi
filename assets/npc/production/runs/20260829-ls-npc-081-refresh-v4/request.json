@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-081-refresh-v4",
+    "characterId": "LS-NPC-081",
+    "characterName": "苏碧城",
+    "promptVersion": 4,
+    "designStatus": "portrait-design-cyberpunk-refresh",
+    "designAssumptions": [
+      "tired Chinese woman with long black hair gathered into a messy low ponytail, brown eyes, a bare face and faint under-eye shadows",
+      "wears an oversized white lab coat loosely open over a faded grey t-shirt, relaxed dark jeans and scuffed sneakers",
+      "holds exactly three cream sheets in her left hand with the front sheet facing the viewer and a sharpened wooden pencil in her right; three large rough graphite circles are clearly visible on the front sheet",
+      "2026-08-29 visual refresh: a small experimental neural port at the nape beneath a carelessly layered laboratory outfit",
+      "Targeted retry after visual QA: A tired bare-faced twenty-seven-year-old Chinese doctoral student with a messy low black ponytail wears a loosely layered laboratory outfit and visible nape interface, holding three cream sketch sheets and one wooden pencil against a genuinely transparent backdrop under soft even frontal studio light."
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T03:45:30.0573377Z",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-081.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 691374025,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, barcode, qr code, makeup, hologram, heads-up display, magic, glowing, aura, light particles, white background",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1girl, solo, solo focus, long hair, black hair, ponytail, low ponytail, messy hair, brown eyes, bags under eyes, serious, expressionless, closed mouth, looking down, lab coat, white coat, coat, open coat, long sleeves, t-shirt, grey shirt, shirt, jeans, pants, sneakers, shoes, pencil, holding pencil, holding pen, paper, holding paper, circle, sketch, holding, long fingers, pocket, standing, cyberpunk, techwear, cyborg, science fiction, transparent background. A tired bare-faced twenty-seven-year-old Chinese doctoral student with a messy low black ponytail wears a loosely layered laboratory outfit and visible nape interface, holding three cream sketch sheets and one wooden pencil against a genuinely transparent backdrop under soft even frontal studio light.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, barcode, qr code, makeup, hologram, heads-up display, magic, glowing, aura, light particles, white background",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

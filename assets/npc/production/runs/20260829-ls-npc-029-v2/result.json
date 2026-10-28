@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-029-v2",
+  "characterId": "LS-NPC-029",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "0139d7",
+  "apiSeed": 667204913,
+  "imageIndex": 0,
+  "output": "LS-NPC-029-秦时雨-v2.png",
+  "sha256": "dddc6842d0e3f2f1c5ee6b56fee2ae0c00730bca19e6ec00ecf52c2f0fe31596",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:30:18.552Z"
+}

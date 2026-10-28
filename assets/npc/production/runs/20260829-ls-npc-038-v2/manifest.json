@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-038-v2",
+  "characterId": "LS-NPC-038",
+  "characterName": "何问舟",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-038-何问舟-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-038-何问舟-20260829-ls-npc-038-v2-seed-819405267.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=448b179ea5edff433650ab420fde5c8946cd6170ad51897a5d43189e6a847a2d",
+      "透明背景有效；纯黑手机无伪字，矩形眼镜、讲师式三层衣装与抬指分析动作清晰表达编剧身份；固定免责声明保留在设定文本而未强行乱码入图，无潜在觉醒效果，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

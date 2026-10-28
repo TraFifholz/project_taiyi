@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-105-v1",
+  "characterId": "LS-NPC-105",
+  "characterName": "黑川",
+  "designStatus": "portrait-design-v1-provisional-human-gender-age",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-105-黑川-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=566785282ac58371c89579408fb39bea166cad65b021be901ddabcc01afacb21",
+      "完全临时的人形占位设计成立：中性化面貌、无标识深色日常服与背手姿态，没有和风、武器、帮派标志或能力效果。该图不确认黑川的性别、年龄或真实外观。",
+      "用户审核拒绝；画面错误地显示完整小腿或鞋，违反 cowboy shot。该原图保留为失败证据，进入严格头至大腿中段构图返工。"
+    ]
+  }
+}

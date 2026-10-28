@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-052-v1",
+  "characterId": "LS-NPC-052",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "84e79e",
+  "apiSeed": 649207318,
+  "imageIndex": 0,
+  "output": "LS-NPC-052-巫明烛-v1.png",
+  "sha256": "c190d132bb0a70b6170bdeb4222862e69de503e1ea6740dc66d3517d946cb136",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:05:03.112Z"
+}

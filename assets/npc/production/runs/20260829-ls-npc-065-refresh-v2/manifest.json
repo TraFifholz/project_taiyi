@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-065-refresh-v2",
+  "characterId": "LS-NPC-065",
+  "characterName": "宋远",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-065-refresh-v2.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=428b84574156c651344ccde113b76faa4f1549471591f265c1b63088c9f84729",
+      "Visual QA failed: conflicting legacy suit tags suppressed the intended port street-tech bomber and cargo silhouette."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-092-review-v3",
+  "characterId": "LS-NPC-092",
+  "characterName": "谢翠莲",
+  "designStatus": "portrait-design-review-retry",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-092-review-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-092-谢翠莲-20260829-ls-npc-092-review-v3-seed-925178364.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=a2662f524689d2f62bebbdb5b111e74cf70cb9aea17529ad9c5926cc5cf069f7",
+      "第二批返工复核通过：严格 cowboy shot、透明背景与平光合格，人物气质按角色功能收紧。"
+    ]
+  }
+}

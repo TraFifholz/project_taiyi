@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-070-v1",
+  "characterId": "LS-NPC-070",
+  "characterName": "老井（井叔）",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-070-老井-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-070-老井（井叔）-20260829-ls-npc-070-v1-seed-146839275.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=562589dcb44944b16e3f726c29ba0acd286e7e7a043074772f33dae6c5483b1f",
+      "五十八岁户外维修工的白灰短发、深眼袋、微驼背、低头倾听姿态、修补橄榄工装及明显泥污鞋裤均成立；人物完全保持普通工作状态。无裂地、地下透视、地震控制、设施HUD、发光能力、强边缘光或伪文字。"
+    ]
+  }
+}

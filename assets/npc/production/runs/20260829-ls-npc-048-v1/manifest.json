@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-048-v1",
+  "characterId": "LS-NPC-048",
+  "characterName": "沈折琼",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-048-沈折琼-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-048-沈折琼-20260829-ls-npc-048-v1-seed-436208715.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=79ecaecaf80a7840a062c6c36d26d11acac4175669376d60eca98d9e68b9b9f4",
+      "透明背景有效；极高宽肩、闭眼、背手立正与无标识黑色防护服形成像墙一样的金库守卫身份；无武器、门禁文字、记忆投影或锚点光效，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

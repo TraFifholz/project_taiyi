@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-065-refresh-v4",
+  "characterId": "LS-NPC-065",
+  "characterName": "宋远",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-065-refresh-v4.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-065-宋远-20260829-ls-npc-065-refresh-v4-seed-261948705.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=d0b6fcb3e2e8d0838bf78c13edff9647fc149fa63eb43ab85d9f221713e1cb1d",
+      "定向复核通过：移除胸包与挂载后伪文字消失；素面飞行夹克、街头工装裤和工具腰带构成清晰港口街技轮廓，透明背景与平光合格。"
+    ]
+  }
+}

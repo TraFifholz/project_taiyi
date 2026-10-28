@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-005-v1",
+  "characterId": "LS-NPC-005",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "9ba937",
+  "apiSeed": 882742025,
+  "imageIndex": 0,
+  "output": "LS-NPC-005-燕尺素-v1.png",
+  "sha256": "225f68d1e2b02e9c922094bd3365bba8709ea8c0c33d0a881113744ef353b3b6",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T20:54:54.506Z"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-004-refresh-v2",
+  "characterId": "LS-NPC-004",
+  "characterName": "党怀沙",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-004-refresh-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-004-党怀沙-20260829-ls-npc-004-refresh-v2-seed-478964756.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=583f88bda42248255216e1beaf43efff5eb05ca214b56c6a105433fecefa8d98",
+      "Visual QA passed: exposed mechanical right arm is correct; biological left hand has a normal-proportion fitted dark five-finger glove; the former oversized orange oven-mitt failure is absent."
+    ]
+  }
+}

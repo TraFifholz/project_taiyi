@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-068-cowboy-v4",
+  "characterId": "LS-NPC-068",
+  "characterName": "西尔维娅",
+  "designStatus": "portrait-design-diversity-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-068-cowboy-v4.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-068-西尔维娅-20260829-ls-npc-068-cowboy-v4-seed-821563740.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=34dc780c736cbe69e4ed791a8bd8d7bcdcc7e51c16509b454400e3dc86ecd214",
+      "构图返工复核通过：不再出现完整小腿、鞋或全身远景，主体按头至大腿区间呈现；透明背景、平光、人体与身份锚点合格。"
+    ]
+  }
+}

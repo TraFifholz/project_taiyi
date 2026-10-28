@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-065-v1",
+  "characterId": "LS-NPC-065",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "820e82",
+  "apiSeed": 261948705,
+  "imageIndex": 0,
+  "output": "LS-NPC-065-宋远-v1.png",
+  "sha256": "2ae0dcb483d7de0aad7581ce3fe4256063a15c308e2a38bb165e1da9261caa17",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:30:35.784Z"
+}

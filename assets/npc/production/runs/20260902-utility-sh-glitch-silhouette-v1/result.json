@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260902-utility-sh-glitch-silhouette-v1",
+  "characterId": "LS-NPC-072-ANONYMOUS",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "69143f",
+  "apiSeed": 2026090203,
+  "imageIndex": 0,
+  "output": "sh-glitch-silhouette.png",
+  "sha256": "e1697a5f7a803f65e95eae7d440c019badbf522a425a7b9f7f4d783b83ef2fb6",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-02T14:58:35.148Z"
+}

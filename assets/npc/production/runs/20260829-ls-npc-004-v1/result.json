@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-004-v1",
+  "characterId": "LS-NPC-004",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "b0170c",
+  "apiSeed": 304142789,
+  "imageIndex": 0,
+  "output": "LS-NPC-004-党怀沙-v1.png",
+  "sha256": "23241179ff5ac9ae9cc126631e22cb09ca6aef55e0c0f8456196b6dd985b00e8",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T20:51:48.808Z"
+}

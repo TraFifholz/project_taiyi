@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-057-v1",
+  "characterId": "LS-NPC-057",
+  "characterName": "铁手（李铁牙）",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-057-铁手-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-057-铁手（李铁牙）-20260829-ls-npc-057-v1-seed-916245037.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=ba0f9da048fb1d585ecf655d605e26c50f1fc555fceb3f667e16f316df74088d",
+      "旧款右手义体方向正确，磨损钢板、外露关节和腕部耦合清楚，机械范围未扩展成全身重装；疲惫焦虑面孔与左手检查接口的动作体现基层压力而非纯恶。无发光义体、武器、HUD、强边缘光或伪文字；透明边缘和手部可接受。"
+    ]
+  }
+}

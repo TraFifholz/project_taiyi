@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-081-refresh-v3",
+  "characterId": "LS-NPC-081",
+  "characterName": "苏碧城",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-081-refresh-v3.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=580fa60f79e658fa49ede2c9c2cb80c86596166452bebb718bb5ccc8d07f5ab0",
+      "Visual QA failed: an opaque white interior backdrop was generated despite the RGBA file and transparency controls."
+    ]
+  }
+}

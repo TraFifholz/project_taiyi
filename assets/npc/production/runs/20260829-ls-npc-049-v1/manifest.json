@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-049-v1",
+  "characterId": "LS-NPC-049",
+  "characterName": "白鸢",
+  "designStatus": "host-designed-standard-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-049-白鸢-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=036587057f60e5f83f448f18d52362499f4bf737ff0e73b3430ef811714d0051",
+      "指挥官身份、无标识护甲与制止手势成立，但前伸手掌疑似出现六指，手部解剖不可靠；保留失败原图，不采用。"
+    ]
+  }
+}

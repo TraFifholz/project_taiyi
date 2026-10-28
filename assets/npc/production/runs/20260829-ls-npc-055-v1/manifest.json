@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-055-v1",
+  "characterId": "LS-NPC-055",
+  "characterName": "伊莱恩·莫罗",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-055-伊莱恩·莫罗-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-055-伊莱恩·莫罗-20260829-ls-npc-055-v1-seed-835170462.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=40dfece33d7167a5ea5be17eb455a478dd58113a13109aaf8b11a1ac0cda9c66",
+      "金发盘髻、冷静绿眼、深蓝文职制服与左领唯一一枚素色椭圆胸针均明确；双手收束自然，野心派分析官的精确克制成立。未出现数据流、记忆HUD、文件文字、额外徽章、强边缘光或伪文字；透明边缘可接受。"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-094-v1",
+  "characterId": "LS-NPC-094",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "c311e7",
+  "apiSeed": 947325861,
+  "imageIndex": 0,
+  "output": "LS-NPC-094-杨振邦-v1.png",
+  "sha256": "389995b85b68038ca3ee40515b5be4a0b08eaa81d840f591cd5ff015e787e47b",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:21:24.048Z"
+}

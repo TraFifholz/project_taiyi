@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-018-refresh-v3",
+  "characterId": "LS-NPC-018",
+  "characterName": "卓近火",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-018-refresh-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-018-卓近火-20260829-ls-npc-018-refresh-v3-seed-427798882.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=6de857bf61b3882f9af67f1965da5921c51755eda8312382f53f81674aee3dc4",
+      "定向复核通过：双手保持自然人手，仅保留少量导电金属指尖，未再误生整只机械手；透明背景、构图与光照合格。"
+    ]
+  }
+}

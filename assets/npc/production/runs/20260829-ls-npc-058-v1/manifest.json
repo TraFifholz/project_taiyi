@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-058-v1",
+  "characterId": "LS-NPC-058",
+  "characterName": "闵三元",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-058-闵三元-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-058-闵三元-20260829-ls-npc-058-v1-seed-157832604.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=4232ae3b385fa963dc395f3a9541166541f117f5a1906d3c7f4023fef1750884",
+      "瘦削中年账房、半框眼镜、镜框上方审视姿态、洗软灰绿色旧夹克与无堂口标识均成立；左掌上方算账屏只含空白矩形格，右手持素色笔。无伪数字文字、图表、白扇误读、强边缘光或能力特效。"
+    ]
+  }
+}

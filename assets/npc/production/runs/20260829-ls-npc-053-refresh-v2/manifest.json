@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-053-refresh-v2",
+  "characterId": "LS-NPC-053",
+  "characterName": "郁垒",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-053-refresh-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-053-郁垒-20260829-ls-npc-053-refresh-v2-seed-731064285.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=ced729bcd6ba52f925970705831e108764f2915a87656b1d671756c26e469b45",
+      "视觉复核通过：tactical-tech 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

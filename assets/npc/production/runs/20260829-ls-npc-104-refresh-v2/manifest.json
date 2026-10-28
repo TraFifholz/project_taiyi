@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-104-refresh-v2",
+  "characterId": "LS-NPC-104",
+  "characterName": "林鹤",
+  "designStatus": "portrait-design-diversity-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-104-refresh-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-104-林鹤-20260829-ls-npc-104-refresh-v2-seed-104631875.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=a189723f1ab14aef94cdff7f09a87de2ff7b33cc8e64a02d779f85fd62fb2582",
+      "视觉复核通过：art-director-expressive 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-039-v1",
+  "characterId": "LS-NPC-039",
+  "characterName": "纪清商",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-039-纪清商-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-039-纪清商-20260829-ls-npc-039-v1-seed-471926305.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=51a6942095cc4dda9ad118d836bf8bcd15b7afa4f96ab23458a94d5e6282a3d3",
+      "透明背景有效；精致经纪人衣装、低马尾、同色紫色手机壳与紫色美甲形成明确身份锚点；手机无文字，手部结构可接受，无异常唱词、声纹或潜在觉醒效果，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

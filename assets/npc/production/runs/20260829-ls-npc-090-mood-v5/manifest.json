@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-090-mood-v5",
+  "characterId": "LS-NPC-090",
+  "characterName": "阿瑶（朱瑶光）",
+  "designStatus": "identity-reference-mood-t2i",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-090-阿瑶（朱瑶光）-20260829-ls-npc-090-mood-v5-seed-903418527.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=4beee66b4c1cd0c9817d3314a355127721ae9ee1df2348bcc745541a475c42fb",
+      "Mood correction: bright calm curious closed-mouth smile; childlike identity and canonical black-red coat and white dress retained."
+    ]
+  }
+}

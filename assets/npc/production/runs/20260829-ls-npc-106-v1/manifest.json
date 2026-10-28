@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-106-v1",
+  "characterId": "LS-NPC-106",
+  "characterName": "红皇后",
+  "designStatus": "non-humanoid-evidence-placeholder-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-106-红皇后-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=82003f52247947b77def20cf3d664dce35331981a65e65ae4d1c793bc43cb12f",
+      "正确保持非人形维护痕迹资产，但电路板、卡片和工具箱内平板出现多处可见伪文字/数字；保留失败原图，v2 删除高风险文字载体并简化物件。"
+    ]
+  }
+}

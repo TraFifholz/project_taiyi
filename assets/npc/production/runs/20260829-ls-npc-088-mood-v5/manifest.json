@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-088-mood-v5",
+  "characterId": "LS-NPC-088",
+  "characterName": "沈漫",
+  "designStatus": "identity-reference-mood-t2i",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-088-沈漫-20260829-ls-npc-088-mood-v5-seed-882174630.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=cc37436e1ce499930e2f1f90ff6ee4f7ea4a7e3fbdd6f9a215314a9cb4b1ac74",
+      "Mood correction: weary three-quarter profile, half-lidded sideways glance and faint knowing smirk; identity and outfit anchors retained."
+    ]
+  }
+}

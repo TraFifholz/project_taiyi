@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-026-refresh-v3",
+  "characterId": "LS-NPC-026",
+  "characterName": "甘棠",
+  "designStatus": "portrait-design-diversity-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-026-refresh-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-026-甘棠-20260829-ls-npc-026-refresh-v3-seed-882631404.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=cca43e6c58d4bd56b82e389ea488bf370f6a69ea418d45a53b7576711966e841",
+      "视觉复核通过：archive-knit 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。"
+    ]
+  }
+}

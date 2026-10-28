@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-065-refresh-v5",
+  "characterId": "LS-NPC-065",
+  "characterName": "宋远",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-065-refresh-v5.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-065-宋远-20260829-ls-npc-065-refresh-v5-seed-261948705.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=41953c2a3f4b4b174058e766c29855835423bf1b4fcb77abc70f32b32cc0a2ee",
+      "最终复核通过：35 个已验证标签，素面夹克与工具腰带无伪文字；人体、透明背景、构图和平光合格。"
+    ]
+  }
+}

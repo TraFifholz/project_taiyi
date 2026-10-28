@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-006-v1",
+  "characterId": "LS-NPC-006",
+  "characterName": "翟明珠",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-006-翟明珠-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-006-翟明珠-20260829-ls-npc-006-v1-seed-594440156.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=e1eaf539780ec13829fde8f54397fc500fbf1799c4642d38034cf812ee9da154",
+      "Visual QA passed: tired meticulous operations engineer, grey-blue jacket, dark workwear, tool belt and compact backup device are clear; only tiny unreadable hardware markings appear; no screen, power effect or strong rim light."
+    ]
+  }
+}

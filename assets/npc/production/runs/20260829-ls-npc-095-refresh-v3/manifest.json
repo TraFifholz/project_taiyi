@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-095-refresh-v3",
+  "characterId": "LS-NPC-095",
+  "characterName": "萨布里娜·费雷拉",
+  "designStatus": "portrait-design-cyberpunk-refresh",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-095-refresh-v3.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=c510e5b87b1faffd47ce287504596f6b063e39a43f0ad08f1ee5d7462aa6a3d5",
+      "视觉复核通过：rehabilitation-prosthesis 轮廓清晰，身份锚点保留；人体、构图、透明背景与平光合格，未见可读文字或模板污染。",
+      "用户审核拒绝；画面错误地显示完整小腿或鞋，违反 cowboy shot。该原图保留为失败证据，进入严格头至大腿中段构图返工。 同时修正萨布里娜过度帅气的气质并强化医疗义体可见度。"
+    ]
+  }
+}

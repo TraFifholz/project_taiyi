@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-037-v1",
+  "characterId": "LS-NPC-037",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "5aafed",
+  "apiSeed": 284619730,
+  "imageIndex": 0,
+  "output": "LS-NPC-037-白念秋-v1.png",
+  "sha256": "3417cef129df889552263c39a703d1a48f6e1a770bf88f4f6d0b8fdc7a87b419",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:38:09.461Z"
+}

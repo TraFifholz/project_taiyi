@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-029-v2",
+  "characterId": "LS-NPC-029",
+  "characterName": "秦时雨",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-029-秦时雨-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-029-秦时雨-20260829-ls-npc-029-v2-seed-667204913.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=dddc6842d0e3f2f1c5ee6b56fee2ae0c00730bca19e6ec00ecf52c2f0fe31596",
+      "透明背景有效；无帽徽、肩章、文字或标识，洗旧深蓝工作衬衫符合普通轨交司机；塌肩、眼下疲态和无标签凉茶瓶构成稳定身份锚点；无线路残响或幽灵特效，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

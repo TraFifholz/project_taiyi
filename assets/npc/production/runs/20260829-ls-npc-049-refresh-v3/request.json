@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-049-refresh-v3",
+    "characterId": "LS-NPC-049",
+    "characterName": "白鸢",
+    "promptVersion": 3,
+    "designStatus": "portrait-design-cyberpunk-refresh",
+    "designAssumptions": [
+      "tall athletic Chinese woman about thirty-eight with a short black undercut, brown eyes and a stern composed face",
+      "plain matte navy patrol uniform beneath fitted black body armor, black gloves, utility belt, straight tactical trousers and boots",
+      "stands squarely with one gloved open hand held vertically beside her shoulder, palm facing forward and five fingers together in a precise halt gesture",
+      "2026-08-29 visual refresh: modular matte armor with contrasting straps and a compact command interface"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T03:36:35.3788631Z",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-049.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 708315264,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, gun, rifle, weapon, shield, energy shield, hologram, glowing, aura, light particles",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1girl, solo, solo focus, mature female, tall female, muscular female, short hair, undercut, black hair, brown eyes, thick eyebrows, uniform, military uniform, tactical clothes, body armor, bulletproof vest, shoulder armor, black armor, black gloves, long sleeves, black pants, utility belt, pouch, boots, open hand, hand up, arm at side, gesture, serious, closed mouth, looking at viewer, standing, broad shoulders, simple background, cyberpunk, techwear, thigh strap, snap-fit buckle, transparent background. A tall athletic thirty-eight-year-old Chinese old-city security commander with a short black undercut stands squarely in a completely plain matte-navy patrol uniform and fitted black armor, holding one open gloved hand vertically beside her shoulder with exactly five fingers close together in a precise halt gesture under soft even frontal studio light; modular matte armor with contrasting straps and a compact command interface.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, gun, rifle, weapon, shield, energy shield, hologram, glowing, aura, light particles",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

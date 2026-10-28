@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-086-refresh-v2",
+    "characterId": "LS-NPC-086",
+    "characterName": "文小篆",
+    "promptVersion": 2,
+    "designStatus": "portrait-design-cyberpunk-refresh",
+    "designAssumptions": [
+      "slender Chinese man with a youthful face, short straight black hair, dark brown eyes, faint under-eye shadows and a quiet guarded expression",
+      "wears a plain navy security cardigan over a grey t-shirt, black trousers, a simple belt and dark shoes",
+      "holds one perfectly blank white sheet upright in his left hand and one freshly sharpened wooden pencil in his right hand",
+      "2026-08-29 visual refresh: a severe high-collar technical uniform with a biometric wrist connector and modular buckles"
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T03:36:35.3788631Z",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-086.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 861275490,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, barcode, qr code, writing, sketch, circle, hologram, heads-up display, magic, glowing, aura, light particles, cage",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1boy, solo, male focus, solo focus, short hair, black hair, straight hair, brown eyes, bags under eyes, serious, expressionless, closed mouth, looking at viewer, security guard, guard, uniform, cardigan, blue cardigan, open cardigan, grey shirt, t-shirt, shirt, long sleeves, black pants, pants, belt, black shoes, shoes, pencil, holding pencil, paper, holding paper, holding, long fingers, standing, cyberpunk, techwear, science fiction, buckle, snap-fit buckle, transparent background. A slender twenty-eight-year-old Chinese night-shift guard with a youthful face, short straight black hair and faint under-eye shadows wears a plain navy cardigan over a grey t-shirt and black trousers, holding exactly one perfectly blank white sheet upright in his left hand and one freshly sharpened wooden pencil in his right under soft even frontal studio light; a severe high-collar technical uniform with a biometric wrist connector and modular buckles.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, emblem, insignia, badge, name tag, id card, barcode, qr code, writing, sketch, circle, hologram, heads-up display, magic, glowing, aura, light particles, cage",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

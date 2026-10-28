@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "20260829-ls-npc-068-cowboy-v4",
+    "characterId": "LS-NPC-068",
+    "characterName": "西尔维娅",
+    "promptVersion": 4,
+    "designStatus": "portrait-design-diversity-refresh",
+    "designAssumptions": [
+      "tall olive-skinned woman with black hair touched by narrow silver streaks and arranged in a low immaculate bun, dark brown eyes and a solemn sincere face",
+      "wears a modest ankle-length matte black dress with a high collar, long sleeves, restrained waist seam and plain black shoes",
+      "a single small flat silver eagle-shaped pendant hangs at the throat; her head is slightly raised and her eyes look above the viewer while her own hands rest together at the waist",
+      "2026-08-29 visual refresh: a severe long black dress with an eagle pendant and a weathered port coat",
+      "Targeted retry after visual QA: A tall solemn forty-year-old woman with a warm medium complexion and a low black-and-silver bun wears a modest ankle-length black dress beneath a weathered port coat and one small silver eagle pendant, her head raised and hands resting together under soft even frontal studio light.",
+      "User-review crop correction: strict head-to-mid-thigh cowboy shot; lower legs and feet stay outside the image."
+    ],
+    "humanInitiated": true,
+    "humanInitiatedAt": "2026-08-29T12:39:51.4726790+08:00",
+    "apiSpec": "https://image.novelai.net/docs/doc.json",
+    "templateUse": "metadata-import-only",
+    "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+    "promptFile": "prompts/LS-NPC-068.json",
+    "credentialPolicy": "runtime-only; never logged"
+  },
+  "payload": {
+    "action": "generate",
+    "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+    "model": "nai-diffusion-5-curated",
+    "parameters": {
+      "params_version": 4,
+      "width": 832,
+      "height": 1216,
+      "n_samples": 1,
+      "steps": 23,
+      "scale": 7,
+      "sampler": "k_euler_ancestral",
+      "noise_schedule": "karras",
+      "qualityToggle": false,
+      "ucPreset": 2,
+      "cfg_rescale": 0,
+      "dynamic_thresholding": false,
+      "prefer_brownian": true,
+      "deliberate_euler_ancestral_bug": false,
+      "legacy_v3_extend": false,
+      "straight_alpha": true,
+      "tag_hint_transparent_background": true,
+      "image_format": "png",
+      "seed": 821563740,
+      "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, badge, name tag, id card, cross, lightning, electricity, storm, cloud, wings, angel wings, hologram, heads-up display, glowing, aura, light particles, full body, shoes, boots, sneakers",
+      "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+      "v4_prompt": {
+        "caption": {
+          "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+          "char_captions": [
+            {
+              "char_caption": "1girl, solo, solo focus, mature female, tall female, black hair, grey hair, long hair, hair bun, hair pulled back, brown eyes, serious, expressionless, closed mouth, looking up, looking away, head tilt, makeup, lipstick, dress, black dress, long dress, long skirt, long sleeves, high collar, collar, necklace, pendant, jewelry, belt, own hands clasped, standing, black shoes, black coat, transparent background, cowboy shot. A tall solemn forty-year-old woman with a warm medium complexion and a low black-and-silver bun wears a modest ankle-length black dress beneath a weathered port coat and one small silver eagle pendant, her head raised and hands resting together under soft even frontal studio light; the portrait is framed from head to mid-thigh in a strict cowboy shot, with lower legs and feet outside the image.",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": true,
+        "legacy_uc": false
+      },
+      "v4_negative_prompt": {
+        "caption": {
+          "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, english text, chinese text, character name, signature, watermark, text focus, logo, badge, name tag, id card, cross, lightning, electricity, storm, cloud, wings, angel wings, hologram, heads-up display, glowing, aura, light particles, full body, shoes, boots, sneakers",
+          "char_captions": [
+            {
+              "char_caption": "",
+              "centers": [
+                {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        "use_coords": false,
+        "use_order": false,
+        "legacy_uc": false
+      }
+    }
+  }
+}

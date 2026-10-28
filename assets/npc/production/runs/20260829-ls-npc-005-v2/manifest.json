@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-005-v2",
+  "characterId": "LS-NPC-005",
+  "characterName": "燕尺素",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-005-燕尺素-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-005-燕尺素-20260829-ls-npc-005-v2-seed-882742025.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "Recovered API PNG 832x1216; colorType=6; alpha=true; sha256=749aa3e60acf8e068b14f55a419621d8e09ba3cd507a33e744323e69e35ec23d; correlation id unavailable because the former shared result.json path raised EEXIST after the PNG write.",
+      "Visual QA passed: mature professional identity, neat bun, white lab coat, grey-blue workwear and wristwatch are clear; no headset, text, supernatural effects or strong rim light; interlocked fingers are stylized but readable."
+    ]
+  }
+}

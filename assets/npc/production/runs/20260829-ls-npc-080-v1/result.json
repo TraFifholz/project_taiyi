@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-080-v1",
+  "characterId": "LS-NPC-080",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "f9bb93",
+  "apiSeed": 862475139,
+  "imageIndex": 0,
+  "output": "LS-NPC-080-朱见微-v1.png",
+  "sha256": "d43d6ef83440ee7c2c47a5c63051ed69ff47d8322b80c718c81d7595d81e4326",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:56:28.662Z"
+}

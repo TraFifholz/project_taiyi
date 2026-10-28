@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-093-v1",
+  "characterId": "LS-NPC-093",
+  "characterName": "宋光明",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-093-宋光明-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-093-宋光明-20260829-ls-npc-093-v1-seed-936410285.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=94b1e25269eb0828acb45c33fb2472396342372302267c320dfe6c0c39d077b6",
+      "五十岁出头修理匠形象、诊断式低头专注、打开的旧电器与螺丝刀均成立；裸露手指有明显油污，无界面文字、自动修复或灵异效果。"
+    ]
+  }
+}

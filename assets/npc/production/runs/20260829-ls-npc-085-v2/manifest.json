@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-085-v2",
+  "characterId": "LS-NPC-085",
+  "characterName": "凌渡",
+  "designStatus": "portrait-design-v2",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-085-凌渡-v2.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=664e67cfc1f970735faaa9e37c0765743fa8c74ca56fa541be22f9e6be90c2b2",
+      "四把服务器钥匙已正确挂在胸前挂绳上，双手空置，但证件卡生成了清晰伪文字；保留失败原图，v3 去除证件卡可见面。"
+    ]
+  }
+}

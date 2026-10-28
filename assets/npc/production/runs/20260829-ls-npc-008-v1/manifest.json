@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-008-v1",
+  "characterId": "LS-NPC-008",
+  "characterName": "苗可栗",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-008-苗可栗-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=172c3b7e84a4fb401d9dfea649f0a69c586a379a28e8ac7eb2f5b723067728d6",
+      "Technical checks passed, but visual QA failed: the chest ID badge contains prominent pseudo-text and portrait-card layout, with an additional pseudo-logo on the headset shell; raw image preserved."
+    ]
+  }
+}

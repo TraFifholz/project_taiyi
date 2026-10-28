@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-037-v3",
+  "characterId": "LS-NPC-037",
+  "characterName": "白念秋",
+  "designStatus": "host-designed-standard-living-portrait-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-037-白念秋-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-037-白念秋-20260829-ls-npc-037-v3-seed-284619730.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=92b1d0e9bc0d40c0452bcbfe23359693a44fd7169a6b3b043e4b884b24d2f02b",
+      "透明背景有效；白念秋呈现为生前、普通、未受伤的媒体艺人和外拍主持，服装与无字摄影机清晰；无花束、纪念物、死亡暗示、文字或超自然效果，手部和设备结构可接受，边缘高光克制。候选通过，不等于正式采用。"
+    ]
+  }
+}

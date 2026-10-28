@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-104-v1",
+  "characterId": "LS-NPC-104",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "40d1f8",
+  "apiSeed": 104631875,
+  "imageIndex": 0,
+  "output": "LS-NPC-104-林鹤-v1.png",
+  "sha256": "7faff245ead5697fc9afe44c42da5b27969177d06905b92936b1514b3ec290e6",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:39:08.035Z"
+}

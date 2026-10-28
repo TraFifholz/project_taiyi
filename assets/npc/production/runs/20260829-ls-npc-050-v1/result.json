@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-050-v1",
+  "characterId": "LS-NPC-050",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "4cac14",
+  "apiSeed": 186903742,
+  "imageIndex": 0,
+  "output": "LS-NPC-050-艾德礼·霍华德-v1.png",
+  "sha256": "7da104660b5c167bf1c6c2360c9a85dc48ca3df03506f42a57eacac4d17f54b2",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T22:00:40.249Z"
+}

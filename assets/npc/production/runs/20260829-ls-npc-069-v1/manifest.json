@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-069-v1",
+  "characterId": "LS-NPC-069",
+  "characterName": "贺梦琪",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-069-贺梦琪-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-069-贺梦琪-20260829-ls-npc-069-v1-seed-536821947.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=637210bfbf541a77bd3c8df6a92359b7e46ee075b0aa7e50f31ec6a1d1d11dc9",
+      "青蓝—洋红—紫色烫卷发、耳机、彩色店主夹克、货裤和快速展开的双手手势均成立；年轻电竞体验馆掌柜气质明确而非战斗成员。双手各五指可接受；无终端、监控盲区特效、数字魔法、武器、伪文字或过强轮廓反光。"
+    ]
+  }
+}

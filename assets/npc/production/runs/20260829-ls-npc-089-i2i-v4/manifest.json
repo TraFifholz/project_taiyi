@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-089-i2i-v4",
+  "characterId": "LS-NPC-089",
+  "characterName": "沈仲秋",
+  "designStatus": "identity-reference-i2i-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-089-沈仲秋-20260829-ls-npc-089-i2i-v4-seed-891563204.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "i2i identity reference; strength=0.5; noise=0.5; refSha256=c3edd5a605826717eee21945dae75821bae1eb35b3bde65dcaa3bd6420f15cca",
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=0fc79fe6321ac5d7c8132880329493df6e7890af6da17cfdf593ad18f23485d1",
+      "Identity matches authoritative reference: silver-grey high ponytail, large red bow, earphones and black-pink layered streetwear; strict cowboy crop and transparent alpha."
+    ]
+  }
+}

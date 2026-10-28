@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-049-v1",
+  "characterId": "LS-NPC-049",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "f11954",
+  "apiSeed": 708315264,
+  "imageIndex": 0,
+  "output": "LS-NPC-049-白鸢-v1.png",
+  "sha256": "036587057f60e5f83f448f18d52362499f4bf737ff0e73b3430ef811714d0051",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:58:24.022Z"
+}

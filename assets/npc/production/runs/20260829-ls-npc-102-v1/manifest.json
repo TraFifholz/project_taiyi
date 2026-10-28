@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-102-v1",
+  "characterId": "LS-NPC-102",
+  "characterName": "白芷秋",
+  "designStatus": "portrait-design-v1-provisional",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-102-白芷秋-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-102-白芷秋-20260829-ls-npc-102-v1-seed-102743851.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=05aef9308b392f9d69ba663c3048a9b7ba1e55499502e49a81a007de51cd872a",
+      "生前纪念像成立：与白念秋共享温棕眼、柔和脸型和深棕波浪发的亲缘感，同时以更长发型区分；恰有一枝新鲜白百合，无幽灵、枯花或伤亡效果。年龄外貌仍为临时设计。"
+    ]
+  }
+}

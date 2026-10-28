@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-29T04:30:31.887Z",
+  "characters": [
+    {
+      "id": "LS-NPC-097",
+      "name": "老王头",
+      "organization": "自由人；面馆老板、迷失者受害者",
+      "marker": "【缘】",
+      "grade": "B",
+      "priority": "P3",
+      "sourceStatus": "needs_design",
+      "promptStatus": "verified",
+      "productionStatus": "qa_passed",
+      "approvedAsset": null,
+      "latestRun": "runs/20260829-ls-npc-097-refresh-v2/manifest.json",
+      "unknowns": "年龄、全体貌、服装；是否另做迷失者档案变体",
+      "sourceLocator": "名单§二十五；终稿§二及§七；实体索引§老王头；战役状态§第一章委托",
+      "visualLayer": "diverse-civic",
+      "targetStyle": "noodle-shop-everyday",
+      "visualDirective": "a faded black apron over a warm red sweater with sleeves rolled for kitchen work",
+      "visualRefresh": "qa_passed",
+      "retirementReason": "One-shot NPC; user confirmed no future appearance is planned.",
+      "retiredAt": "2026-08-29T04:30:31.876Z",
+      "lastReviewDecision": {
+        "decision": "reject",
+        "note": "",
+        "runId": "20260829-ls-npc-097-refresh-v2",
+        "updatedAt": "2026-08-29T04:23:07.698Z"
+      },
+      "promptEvidence": "prompts/LS-NPC-097.json"
+    },
+    {
+      "id": "LS-NPC-099",
+      "name": "刘大妈",
+      "organization": "自由人；地铁口烤红薯摊贩",
+      "marker": "普通",
+      "grade": "B",
+      "priority": "P1",
+      "sourceStatus": "needs_design",
+      "promptStatus": "verified",
+      "productionStatus": "qa_passed",
+      "approvedAsset": null,
+      "latestRun": "runs/20260829-ls-npc-099-refresh-v2/manifest.json",
+      "unknowns": "精确年龄、全体貌、衣装、摊车样式",
+      "sourceLocator": "名单§二十五；终稿§二；实体索引§刘大妈；战役状态§第一章委托",
+      "visualLayer": "diverse-civic",
+      "targetStyle": "street-vendor-color",
+      "visualDirective": "a red apron over a thick green jacket and practical dark trousers",
+      "visualRefresh": "qa_passed",
+      "retirementReason": "One-shot NPC; user confirmed no future appearance is planned.",
+      "retiredAt": "2026-08-29T04:30:31.877Z",
+      "lastReviewDecision": {
+        "decision": "reject",
+        "note": "",
+        "runId": "20260829-ls-npc-099-refresh-v2",
+        "updatedAt": "2026-08-29T04:23:15.439Z"
+      },
+      "promptEvidence": "prompts/LS-NPC-099.json"
+    },
+    {
+      "id": "LS-NPC-102",
+      "name": "白芷秋",
+      "organization": "档案人物；白念秋姐姐、枪击死者",
+      "marker": "【缘】",
+      "grade": "C",
+      "priority": "P3",
+      "sourceStatus": "blocked_gm",
+      "promptStatus": "verified",
+      "productionStatus": "qa_passed",
+      "approvedAsset": null,
+      "latestRun": "runs/20260829-ls-npc-102-v1/manifest.json",
+      "unknowns": "全部体貌、服装、白花品种口径需统一",
+      "sourceLocator": "名单§二十五；终稿§二及§七；实体索引§白芷秋；战役状态§第二章",
+      "visualLayer": "diverse-civic",
+      "targetStyle": "retain-distinctive",
+      "visualDirective": "retain the current distinctive silhouette and identity anchor",
+      "visualRefresh": "retained",
+      "retirementReason": "One-shot NPC; user confirmed no future appearance is planned.",
+      "retiredAt": "2026-08-29T04:30:31.877Z",
+      "lastReviewDecision": {
+        "decision": "reject",
+        "note": "",
+        "runId": "20260829-ls-npc-102-v1",
+        "updatedAt": "2026-08-29T04:23:29.062Z"
+      },
+      "promptEvidence": "prompts/LS-NPC-102.json"
+    }
+  ]
+}

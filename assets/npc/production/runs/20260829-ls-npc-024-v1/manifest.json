@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-024-v1",
+  "characterId": "LS-NPC-024",
+  "characterName": "雷小鼓",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-024-雷小鼓-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=ac11a5437f4c247d17cd0571ff2cc25c8ed5574beabcdef3b76f5b25623067ae",
+      "Technical checks passed, but visual QA failed: the flight suit carries a large shoulder emblem and prominent pseudo-English text EACUNG / PHAI:SURFIONE; the rear pose and complete ring-shaped nape scar are otherwise correct; raw image preserved."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-033-review-v3",
+  "characterId": "LS-NPC-033",
+  "characterName": "赵明芝",
+  "designStatus": "portrait-design-cyborg-review-retry",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/20260829-ls-npc-033-review-v3.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-033-赵明芝-20260829-ls-npc-033-review-v3-seed-528901376.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=6eda371f38d54c02a2c56c0bef9ee19dacb55c8054c66b78a6eb8d0432105955",
+      "第二批返工复核通过：严格 cowboy shot、透明背景与平光合格，人物气质按角色功能收紧。 义体或接口已成为一眼可读的身体锚点，而非微小装饰。"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260902-ls-npc-006-pink-v3",
+  "characterId": "LS-NPC-006",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "70f570",
+  "apiSeed": 1408779885,
+  "imageIndex": 0,
+  "output": "LS-NPC-006-翟明珠-v3.png",
+  "sha256": "dfd1092d991a0653ad81a18dfd3f3caa1c2f317811eb46d083669166d8909df3",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-09-02T14:52:07.741Z"
+}

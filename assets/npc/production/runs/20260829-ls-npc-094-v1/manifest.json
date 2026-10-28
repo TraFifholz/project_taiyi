@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-094-v1",
+  "characterId": "LS-NPC-094",
+  "characterName": "杨振邦",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-094-杨振邦-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=389995b85b68038ca3ee40515b5be4a0b08eaa81d840f591cd5ff015e787e47b",
+      "寸头、右颊浅疤、笑容与整齐服装均成立，但胸袋里的红色折纸物是纸鹤而非纸花；保留失败原图，v2 去除 origami 诱导并强化五瓣纸花。"
+    ]
+  }
+}

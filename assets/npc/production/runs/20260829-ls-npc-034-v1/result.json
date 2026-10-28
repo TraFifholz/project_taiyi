@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-034-v1",
+  "characterId": "LS-NPC-034",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "5342c8",
+  "apiSeed": 906347125,
+  "imageIndex": 0,
+  "output": "LS-NPC-034-苏小晚-v1.png",
+  "sha256": "ea3392c87f46d4a1c0afdf1f31b269e9467b47e9eaaf9f637c5771da7ce13559",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:34:53.797Z"
+}

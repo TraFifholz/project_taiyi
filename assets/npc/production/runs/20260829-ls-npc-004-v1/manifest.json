@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-004-v1",
+  "characterId": "LS-NPC-004",
+  "characterName": "党怀沙",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-004-党怀沙-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-004-党怀沙-20260829-ls-npc-004-v1-seed-304142789.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=23241179ff5ac9ae9cc126631e22cb09ca6aef55e0c0f8456196b6dd985b00e8",
+      "Visual QA passed: the character right arm is a complete exposed military prosthesis, only the biological left hand wears an orange heat-resistant glove, tactical armor and command gesture are clear, with no text, weapon, fire or molten-metal effect. Minor purple alpha fringing appears at the lower trouser edge."
+    ]
+  }
+}

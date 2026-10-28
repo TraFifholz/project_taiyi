@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-026-v1",
+  "characterId": "LS-NPC-026",
+  "characterName": "甘棠",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-026-甘棠-v1.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=0020bb6aeaa6ffe1efe8653da8878877651c3c5dbc80681882156d22acbf9b0d",
+      "透明背景和档案员身份成立，但模型把细小纸页划伤夸张为整只手绷带，并在指尖生成纸签状突起；伤情和手部结构均偏离设定，保留失败原图，不采用。"
+    ]
+  }
+}

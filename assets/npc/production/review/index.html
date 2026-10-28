@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>龙散市 NPC 立绘审核台</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <p class="eyebrow">PROJECT TAIYI · PORTRAIT REVIEW</p>
+        <h1>龙散市 NPC 立绘审核台</h1>
+      </div>
+      <div class="progress-wrap" aria-label="审核进度">
+        <div class="progress-copy">
+          <span id="progressText">正在读取总控……</span>
+          <span id="saveState" class="save-state">未修改</span>
+        </div>
+        <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+      </div>
+    </header>
+
+    <nav class="toolbar" aria-label="角色筛选与导航">
+      <label class="search">
+        <span>搜索</span>
+        <input id="searchInput" type="search" placeholder="姓名 / ID / 组织" autocomplete="off" />
+      </label>
+      <div id="filters" class="filters" role="group" aria-label="审核状态">
+        <button type="button" class="filter active" data-filter="all">全部</button>
+        <button type="button" class="filter" data-filter="unreviewed">未审核</button>
+        <button type="button" class="filter" data-filter="pass">已通过</button>
+        <button type="button" class="filter" data-filter="reject">未通过</button>
+        <button type="button" class="filter" data-filter="pending">待定</button>
+      </div>
+      <div class="pager">
+        <button id="prevButton" type="button" aria-label="上一名角色">← 上一名</button>
+        <span id="positionText">— / —</span>
+        <button id="nextButton" type="button" aria-label="下一名角色">下一名 →</button>
+      </div>
+    </nav>
+
+    <main id="reviewLayout" class="review-layout" hidden>
+      <section class="profile-panel" aria-labelledby="characterName">
+        <div class="identity-head">
+          <div>
+            <p id="characterId" class="character-id"></p>
+            <h2 id="characterName"></h2>
+            <p id="organization" class="organization"></p>
+          </div>
+          <span id="decisionBadge" class="decision-badge unreviewed">未审核</span>
+        </div>
+
+        <div id="metaGrid" class="meta-grid"></div>
+
+        <article class="info-block">
+          <h3>已确认的人物事实</h3>
+          <ul id="sourceFacts"></ul>
+        </article>
+        <article class="info-block">
+          <h3>本轮视觉设计</h3>
+          <ul id="designAssumptions"></ul>
+        </article>
+        <article class="info-block">
+          <h3>画面构思</h3>
+          <p id="sceneConcept"></p>
+        </article>
+        <article class="info-block compact">
+          <h3>仍未确定</h3>
+          <p id="unknowns"></p>
+        </article>
+        <details class="evidence">
+          <summary>生产证据与 QA</summary>
+          <dl>
+            <div><dt>来源定位</dt><dd id="sourceLocator"></dd></div>
+            <div><dt>运行记录</dt><dd id="runId"></dd></div>
+            <div><dt>视觉检查</dt><dd id="qaNotes"></dd></div>
+          </dl>
+        </details>
+      </section>
+
+      <section class="art-panel" aria-label="候选立绘与审核操作">
+        <div class="image-stage">
+          <img id="portraitImage" alt="" />
+          <div id="imageError" class="image-error" hidden>候选图读取失败</div>
+        </div>
+        <div class="review-controls">
+          <label for="reviewNote">审核备注</label>
+          <textarea id="reviewNote" rows="2" placeholder="可选：记录需要修改的部位、气质或服装"></textarea>
+          <div class="decision-actions" role="group" aria-label="审核决定">
+            <button type="button" class="decision pass" data-decision="pass"><span>✓</span> 通过 <kbd>A</kbd></button>
+            <button type="button" class="decision reject" data-decision="reject"><span>×</span> 不通过 <kbd>R</kbd></button>
+            <button type="button" class="decision pending" data-decision="pending"><span>…</span> 待定 <kbd>P</kbd></button>
+          </div>
+          <button id="clearButton" type="button" class="clear-review">清除本条审核记录</button>
+          <p class="review-hint">审核结果单独保存，不会自动采用图片或改写正式资产。</p>
+        </div>
+      </section>
+    </main>
+
+    <section id="emptyState" class="empty-state">
+      <p id="emptyMessage">正在读取角色资料与候选图……</p>
+    </section>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

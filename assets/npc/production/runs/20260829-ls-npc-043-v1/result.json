@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-043-v1",
+  "characterId": "LS-NPC-043",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "a358f1",
+  "apiSeed": 790314628,
+  "imageIndex": 0,
+  "output": "LS-NPC-043-阿岛俊-v1.png",
+  "sha256": "ce79b2a05ac5bed2b605869c256a78b1045e7e94383090c5ec80b7e52869a0c1",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T21:50:57.825Z"
+}

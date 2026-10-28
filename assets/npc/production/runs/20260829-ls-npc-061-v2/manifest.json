@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-061-v2",
+  "characterId": "LS-NPC-061",
+  "characterName": "何夜白",
+  "designStatus": "portrait-design-v2",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-061-何夜白-v2.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=13fbec612afe59e1a7d8b0565bb75dde761da2d1bc4b0ebf7339ed34ef3842db",
+      "正面双耳构图和极短发成功，但硬锚点失败：两耳合计约十二枚黑色耳钉，明显超过确定的七枚。保留原图，不登记候选；v3移除 multiple_earrings 与泛化 piercing，避免数量过度增殖。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-083-v1",
+  "characterId": "LS-NPC-083",
+  "characterName": "纪慎微",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-083-纪慎微-v1.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-083-纪慎微-20260829-ls-npc-083-v1-seed-835906124.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=dadc6b7729d3bceaeb72d690e454d47b05453832cab5a5cabd357b6343083e14",
+      "灰色分层讲师服、封闭无字书册与精确抬指动作成立；无天平、法槌、法术光效或伪文字。"
+    ]
+  }
+}

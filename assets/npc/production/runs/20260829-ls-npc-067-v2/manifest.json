@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-067-v2",
+  "characterId": "LS-NPC-067",
+  "characterName": "马铁鹰",
+  "designStatus": "portrait-design-v2",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-067-马铁鹰-v2.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-067-马铁鹰-20260829-ls-npc-067-v2-seed-394175826.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=b1a91c3c033d76a50b3b91a7e07f2c9d85562aab694ed8dc623b87af72cb5578",
+      "v2清除腰带刀柄；短粗颈项、宽肩、极静审视姿态和仅覆盖角色右臂的密集拉丁微文字带均成立。微文字保留语言纹身的视觉属性但不可解析为擅自编造的完整句子；无固定武器、全身纹身、能力光效、强边缘光或外部伪文字。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-002-v1",
+  "characterId": "LS-NPC-002",
+  "characterName": "万祁连",
+  "designStatus": "portrait-design-v1",
+  "status": "qa_failed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw/LS-NPC-002-万祁连-v1-seed-988832199.png"
+  ],
+  "candidateAsset": null,
+  "qa": {
+    "technical": "passed",
+    "visual": "failed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=9030002e00b8e64277505df5485474e060bf783f02b7e4abc317520be6017e04",
+      "Visual QA failed: character design, clothing and lighting are correct, but the clipboard and ID badge contain prominent unreadable pseudo-text, violating the no-text portrait gate."
+    ]
+  }
+}

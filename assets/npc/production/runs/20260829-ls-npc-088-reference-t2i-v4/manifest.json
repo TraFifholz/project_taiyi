@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-088-reference-t2i-v4",
+  "characterId": "LS-NPC-088",
+  "characterName": "沈漫",
+  "designStatus": "identity-reference-t2i-v2",
+  "status": "qa_passed",
+  "requestFile": "request.json",
+  "resultFile": "result.json",
+  "rawAssets": [
+    "raw.png"
+  ],
+  "candidateAsset": "../../assets/candidates/LS-NPC-088-沈漫-20260829-ls-npc-088-reference-t2i-v4-seed-882174630.png",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "API PNG 832x1216; colorType=6; alpha=true; sha256=c8c633e6a24d7d6e18ecc79f6120aa759522bcf8f3ceae0aad804c94d87823b6",
+      "沈漫：纯t2i保留玫红高马尾、紫眼、眼镜、黑灰机能层次和紫色点缀；比例由统一模板控制。"
+    ]
+  }
+}

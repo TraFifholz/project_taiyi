@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260902-utility-sh-glitch-derived-v1",
+  "characterId": "LS-NPC-072-ANONYMOUS",
+  "characterName": "S.H. 男性 Glitch 剪影",
+  "status": "qa_passed",
+  "operation": "deterministic-display-effect-on-nai-silhouette",
+  "sourceRun": "20260902-utility-male-silhouette-v1",
+  "sourceAsset": "discussion\\npc\\立绘生产\\assets\\utility\\npc-male-silhouette-20260902.png",
+  "utilityAsset": "assets/utility/sh-glitch-silhouette-20260902.png",
+  "sha256": "9efcf4f5259047090955d342b69dbd59c1b43ad95ee9970c558eee5304862c71",
+  "script": "scripts/fvtt/build_sh_glitch.py",
+  "requestSource": "2026-09-02 用户要求男性剪影加 Glitch",
+  "qa": {
+    "technical": "passed",
+    "visual": "passed",
+    "notes": [
+      "NAI 人物轮廓，黑色内部，青/品红 RGB 错位及横向断层，真实 Alpha。"
+    ]
+  },
+  "approval": {
+    "status": "approved",
+    "approvedAt": "2026-09-02T15:54:08.267Z",
+    "userText": "通过"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260829-ls-npc-089-v1",
+  "characterId": "LS-NPC-089",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "cf97d7",
+  "apiSeed": 891563204,
+  "imageIndex": 0,
+  "output": "LS-NPC-089-沈仲秋-v1.png",
+  "sha256": "5a4d674dfc0f82f301462312dea703ed0fa6947e449d18a98bfaccd66bae1ac4",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-08-28T23:13:06.836Z"
+}
