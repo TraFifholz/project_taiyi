@@ -87,7 +87,7 @@ def check() -> list[dict]:
 def main():
     broken = check()
 
-    out_path = SRC.parent / "_link_report.txt"
+    out_path = SRC.parent / "maintenance\\reports\\wiki-link-report.txt"
     with open(out_path, "w", encoding="utf-8") as f:
         if not broken:
             f.write("All internal links resolve correctly.\n")

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "doc": "docs"
+    "doc": "archive/wiki-design"
   },
   "scripts": {
     "dev": "vitepress dev src",
