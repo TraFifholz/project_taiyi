@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>收官篇主持屏</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0}img{max-width:100%}[hidden]{display:none!important}
+/* GM 主持屏：顶部分区导轨 + 扫读式面板。红 = 危险／方泰安一方，玉 = 玩家的机会，金 = 提示。查询与追踪工具，不是流程。 */
+:root {
+  --bg: #eef0ec; --panel: #fbfbf8; --ink: #1d2320; --muted: #5d6762; --line: #d3d8d2;
+  --accent: #a3341f; --accent-soft: #f3dcd4; --jade: #2f6f5e; --jade-soft: #d8ebe3; --gold: #8a6714; --gold-soft: #f1e6c8;
+  --display: "Songti SC", "Noto Serif SC", "Source Han Serif SC", "SimSun", serif;
+  --body: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --mono: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141917; --panel: #1c2320; --ink: #e6ebe7; --muted: #9aa69f; --line: #2f3a35;
+  --accent: #e0765d; --accent-soft: #3a211b; --jade: #6cc3a6; --jade-soft: #1b3129; --gold: #d9b45a; --gold-soft: #33290f; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #141917; --panel: #1c2320; --ink: #e6ebe7; --muted: #9aa69f; --line: #2f3a35;
+  --accent: #e0765d; --accent-soft: #3a211b; --jade: #6cc3a6; --jade-soft: #1b3129; --gold: #d9b45a; --gold-soft: #33290f; color-scheme: dark; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.65 var(--body); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { padding-block: 24px 16px; display: grid; gap: 10px; }
+.kicker { font: 500 12px/1 var(--mono); letter-spacing: .12em; color: var(--accent); }
+h1 { font: 900 clamp(26px, 5vw, 40px)/1.15 var(--display); margin: 0; text-wrap: balance; }
+.lede { color: var(--muted); max-width: 70ch; margin: 0; }
+.policy { display: flex; flex-wrap: wrap; gap: 8px; }
+.policy span { font-size: 13px; padding: 4px 10px; border-radius: 6px; background: var(--panel); border: 1px solid var(--line); }
+.policy span b { color: var(--accent); }
+.tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.tools input[type=search] { flex: 1 1 220px; min-width: 0; font: inherit; padding: 7px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ink); }
+nav.rail { position: sticky; top: 0; z-index: 5; background: var(--panel); border-block: 1px solid var(--line); }
+nav.rail .wrap { display: flex; gap: 4px; overflow-x: auto; padding-block: 6px; scrollbar-width: thin; }
+nav.rail a { flex: none; color: var(--ink); text-decoration: none; font-weight: 500; font-size: 14px; padding: 6px 12px; border-radius: 6px; }
+nav.rail a:hover, nav.rail a:focus-visible { background: var(--accent-soft); color: var(--accent); outline: none; }
+main { display: grid; gap: 40px; padding-block: 24px 64px; }
+section { scroll-margin-top: 56px; display: grid; gap: 14px; min-width: 0; }
+h2 { font: 900 24px/1.25 var(--display); margin: 0; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+h2 small { font: 500 13px/1.3 var(--body); color: var(--muted); }
+h3 { font: 700 16px/1.4 var(--body); margin: 0; }
+h4 { font: 700 14px/1.4 var(--body); margin: 10px 0 2px; color: var(--jade); }
+p { margin: 0; }
+code { font: 13px var(--mono); background: var(--bg); padding: 0 4px; border-radius: 4px; }
+a { color: var(--jade); }
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
+.grid.wide { grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; min-width: 0; display: grid; gap: 8px; align-content: start; }
+.panel.hot { border-color: var(--accent); }
+ul.dots, ol.dots { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
+ul.dots.sub, ol.dots.sub { margin-top: 4px; font-size: 14px; }
+.tablebox { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 700; color: var(--muted); font-size: 12.5px; background: var(--bg); white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+.muted { color: var(--muted); }
+.note { font-size: 13.5px; color: var(--muted); }
+.gmi { color: var(--gold); }
+.tag { display: inline-block; font: 700 11.5px/1 var(--body); padding: 4px 7px; border-radius: 4px; white-space: nowrap; }
+.tag.foe { background: var(--accent-soft); color: var(--accent); }
+.tag.ally { background: var(--jade-soft); color: var(--jade); }
+.tag.mid { background: var(--gold-soft); color: var(--gold); }
+button { font: 500 13.5px/1.2 var(--body); color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 11px; cursor: pointer; }
+button:hover { border-color: var(--ink); }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+button.jade { background: var(--jade); border-color: var(--jade); color: #fff; }
+button.small { font-size: 12px; padding: 3px 8px; }
+button:disabled { opacity: .45; cursor: default; }
+label.chk { display: flex; gap: 8px; align-items: flex-start; cursor: pointer; }
+label.chk input { margin-top: 4px; flex: none; width: 16px; height: 16px; accent-color: var(--jade); }
+.row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.spacer { flex: 1; }
+
+/* 行动钟 */
+.clock { display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr)); }
+@media (min-width: 1000px) { .clock { grid-template-columns: .6fr repeat(5, 1fr); } }
+.tick { border: 1px solid var(--line); border-radius: 8px; background: var(--panel); padding: 10px 12px; display: grid; gap: 6px; align-content: start; font-size: 14px; position: relative; }
+.tick .hd { display: flex; align-items: baseline; gap: 8px; }
+.tick .hd b { font: 700 20px/1 var(--mono); }
+.tick .hd span { font-weight: 700; }
+.tick .st { margin-left: auto; font-size: 11.5px; font-weight: 700; padding: 2px 6px; border-radius: 4px; background: var(--bg); color: var(--muted); }
+.tick.now { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+.tick.now .st { background: var(--accent); color: #fff; }
+.tick.past .st { background: var(--accent-soft); color: var(--accent); }
+.tick.cut { border-style: dashed; }
+.tick.cut .what { text-decoration: line-through; color: var(--muted); }
+.tick.cut .st { background: var(--jade-soft); color: var(--jade); }
+.tick.done1 { opacity: .7; }
+.tick .rel { font-size: 12.5px; color: var(--muted); }
+.tick .rel a { text-decoration: none; }
+.tick button.goto { position: absolute; inset: 0; opacity: 0; }
+.tick label.chk, .tick .rel a { position: relative; z-index: 1; }
+.lihao { border-left: 4px solid var(--gold); background: var(--gold-soft); border-radius: 0 8px 8px 0; padding: 10px 14px; font-size: 14px; }
+.lihao.on { border-left-color: var(--accent); background: var(--accent-soft); }
+.lihao b:first-child { color: var(--gold); }
+.lihao.on b:first-child { color: var(--accent); }
+.safety { border-left: 4px solid var(--accent); background: var(--panel); padding: 10px 14px; border-radius: 0 8px 8px 0; font-size: 14px; }
+
+/* 线索网 */
+.clue { display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.clue:last-child { border-bottom: 0; }
+.clue .src { font-weight: 700; }
+.clue .where { grid-column: 2; font-size: 13px; color: var(--muted); }
+.clue.got .src { color: var(--jade); }
+.count { font: 700 14px var(--mono); color: var(--jade); }
+
+/* 出场牌 */
+.cards { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr)); }
+.fcard { background: var(--panel); border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: 8px; padding: 14px 16px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.fcard.played { border-top-color: var(--muted); opacity: .62; }
+.fcard.played:hover { opacity: 1; }
+.fcard h3 { font-family: var(--display); font-size: 18px; }
+.kv { display: grid; gap: 2px; font-size: 14px; }
+.kv > b { font-size: 12.5px; letter-spacing: .04em; }
+.kv.take > b { color: var(--accent); }
+.kv.gain > b { color: var(--jade); }
+.kv.trig > b, .kv.chips > b { color: var(--muted); }
+.lines { display: grid; gap: 6px; }
+.line { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: start; font-family: var(--display); font-size: 15px; padding: 6px 10px; background: var(--bg); border-radius: 6px; }
+.line button { font-family: var(--body); }
+
+/* 场景卡 */
+details.scene { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; min-width: 0; }
+details.scene[open] { border-color: var(--ink); }
+details.scene > summary { list-style: none; cursor: pointer; padding: 12px 16px; display: grid; grid-template-columns: auto 1fr auto; gap: 4px 12px; align-items: baseline; }
+details.scene > summary::-webkit-details-marker { display: none; }
+details.scene > summary .num { font: 700 20px/1 var(--mono); color: var(--accent); }
+details.scene > summary .t { font: 900 17px/1.3 var(--display); }
+details.scene > summary .hook { grid-column: 2 / -1; font-size: 13.5px; color: var(--muted); }
+.prob { font: 700 12.5px/1 var(--mono); padding: 4px 7px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+.scene-body { padding: 0 16px 16px; display: grid; gap: 12px; }
+.blk { display: grid; gap: 6px; font-size: 14.5px; }
+.blk > .lab { font: 700 12.5px/1.2 var(--body); letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 4px; }
+.blk.k-故障 > .lab, .blk.k-后果 > .lab, .blk.k-方泰安的手牌 > .lab { color: var(--accent); }
+.blk.k-能拿到什么 > .lab { color: var(--jade); }
+.meta { font-size: 13px; color: var(--muted); }
+.meta b { color: var(--ink); }
+
+/* 终战 */
+.pod { display: grid; gap: 10px; }
+.pod .big { display: flex; align-items: center; gap: 14px; }
+.pips { display: flex; gap: 6px; }
+.pip { width: 34px; height: 34px; border-radius: 50%; border: 2px solid var(--accent); }
+.pip.on { background: var(--accent); }
+.pod.idle .pip { border-color: var(--line); }
+.pod.saved .pip { border-color: var(--jade); }
+.pod.saved .pip.on { background: var(--jade); }
+.pod-status { font: 900 20px/1.2 var(--display); }
+.pod.dead .pod-status { color: var(--accent); }
+.pod.saved .pod-status { color: var(--jade); }
+.peel { display: grid; gap: 8px; }
+.peelrow { display: grid; gap: 4px; padding: 8px 10px; border-radius: 6px; border: 1px solid var(--line); font-size: 14px; }
+.peelrow .eff { display: none; color: var(--jade); padding-left: 24px; }
+.peelrow.on { background: var(--jade-soft); border-color: var(--jade); }
+.peelrow.on .eff { display: block; }
+.peelrow.none .eff { display: block; color: var(--accent); padding-left: 0; }
+.peelrow.none { border-color: var(--accent); background: var(--accent-soft); }
+.final { font-family: var(--display); font-size: 16.5px; line-height: 1.85; padding: 14px 18px; border-left: 4px solid var(--accent); background: var(--bg); border-radius: 0 8px 8px 0; white-space: pre-wrap; }
+.final em { font-style: normal; color: var(--accent); font-weight: 900; }
+details.plain > summary { cursor: pointer; font-weight: 700; }
+
+/* NPC */
+.people { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr)); }
+.person { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; display: grid; gap: 6px; align-content: start; min-width: 0; font-size: 14px; }
+.person.boss { border-color: var(--accent); }
+.person h3 { display: flex; gap: 8px; align-items: baseline; font-family: var(--display); font-size: 17px; }
+.person .pos { color: var(--muted); }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; text-align: center; }
+.stats div { background: var(--bg); border-radius: 6px; padding: 4px 2px; }
+.stats b { display: block; font: 700 17px/1.2 var(--mono); color: var(--accent); }
+.stats span { font-size: 11.5px; color: var(--muted); }
+.atk { font-size: 13.5px; display: grid; gap: 3px; }
+.atk div { display: grid; grid-template-columns: 4.5em 1fr; gap: 8px; }
+.atk div > span:first-child { font-weight: 700; color: var(--accent); }
+.person .lines .line { font-size: 14px; }
+details.more > summary { cursor: pointer; font-size: 13px; color: var(--muted); }
+
+/* 道具 */
+.items { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr)); }
+.item { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.item.given { border-color: var(--jade); }
+.item h3 { display: flex; gap: 8px; align-items: baseline; }
+.item h3 .n { font: 700 15px var(--mono); color: var(--accent); }
+.item .when { font-size: 13.5px; color: var(--muted); }
+.item pre { margin: 0; white-space: pre-wrap; word-break: break-word; font: 13.5px/1.7 var(--body); background: var(--bg); border-radius: 6px; padding: 10px 12px; max-height: 260px; overflow: auto; }
+
+/* 地图 */
+.maps { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.map { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; display: grid; }
+.map a { display: block; aspect-ratio: 4 / 3; background: var(--bg); }
+.map img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.map figcaption { padding: 8px 12px; font-size: 13.5px; display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.map figcaption a { aspect-ratio: auto; background: none; display: inline; }
+
+.toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--ink); color: var(--panel); padding: 8px 16px; border-radius: 999px; font-size: 14px; opacity: 0; pointer-events: none; transition: opacity .2s; z-index: 20; }
+.toast.show { opacity: 1; }
+.hit { outline: 2px solid var(--gold); outline-offset: 2px; }
+@media (max-width: 640px) {
+  .stats { grid-template-columns: repeat(4, 1fr); }
+  .atk div { grid-template-columns: 1fr; gap: 0; }
+  th { white-space: normal; }
+}
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+</head>
+<body>
+
+<header class="wrap top">
+  <p class="kicker">龙散战记 · 第四话「特派员」收官篇 · S16 起 · GM 内部</p>
+  <h1>收官篇主持屏</h1>
+  <p class="lede">接 S15 断面：S15 跑完第 1 回合，停在第 2 回合中途。周日 24:00 方泰安交割。路线随玩家走，这里只查局面、记状态。</p>
+  <div class="policy">
+    <span><b>准备局面，不准备剧情</b>：世界照钟往前走，压力从钟来</span>
+    <span><b>只有结局固定</b>：方泰安覆灭，说出“上面”时被郁垒灭口</span>
+    <span><b>李好开场</b>：低调处理，不另记损伤、被捕、死亡或装备损失，不突出战败</span>
+    <span>玩家可闻台词一律说“上面”，不出现郑启明或“卜府”</span>
+  </div>
+  <div class="tools">
+    <input type="search" id="q" placeholder="搜人名、道具、地点……（筛选场景卡、出场牌、NPC、道具）" aria-label="搜索">
+    <button id="reset" type="button">重置全部状态</button>
+  </div>
+</header>
+
+<nav class="rail" aria-label="分区"><div class="wrap">
+  <a href="#clock">行动钟</a><a href="#clues">线索网</a><a href="#cards">出场牌</a><a href="#scenes">场景卡</a>
+  <a href="#endgame">终战</a><a href="#npcs">NPC</a><a href="#items">道具</a><a href="#maps">地图</a>
+</div></nav>
+
+<main class="wrap">
+
+<section id="clock">
+  <h2>方泰安行动钟 <small>6 个行动回合 · 点格子设为当前回合 · 玩家每打断一格，后面对应的事就不发生或变形</small></h2>
+  <div class="row">
+    <button type="button" id="clkPrev">← 回退一格</button>
+    <button type="button" class="primary" id="clkNext">推进到下一回合 →</button>
+    <span class="note" id="clkNow"></span>
+  </div>
+  <div class="clock" id="clockGrid"></div>
+  <div class="lihao" id="lihao"><b>李好被扣回合 · 第 3 回合（周六夜）</b>　李好留在沈漫安全屋（故城区旧钟表铺二楼）内，不做需要亲自到场的动作；打电话、审合同、黑客策应、和队友复盘都不受限。第 4 回合（周日上午）恢复正常外勤。坚持出门：沈漫不拦，但提醒工牌已被盯上、肋骨带伤，出门的一切检定带负值或直接触发方泰安的地面封锁盘查。</div>
+  <p class="safety"><b>结局保底</b>：玩家没能在交割前打进去，方泰安也逃不掉。交割后他对上面已经没用，郁垒照样在坡道上灭口，只是现场证据、陈培安和赃款都随交割一起没了，第一章按最低档收束。玩家打得越早、剥掉的皮越多，留下的东西越多。</p>
+</section>
+
+<section id="clues">
+  <h2>线索网：怎么找到灾备厅 <small>通往灾备厅的路有好几条，丢一条不卡关 · <span class="count" id="clueCount"></span></small></h2>
+  <div class="panel" id="clueList"></div>
+</section>
+
+<section id="cards">
+  <h2>方泰安出场牌 <small>不排在固定场景里；玩家走到哪就从合适的牌里出一张 · 靠他手里的筹码真实存在，不是强制判定玩家失败</small></h2>
+  <div class="cards" id="cardList"></div>
+</section>
+
+<section id="scenes">
+  <h2>场景卡速查 <small>一个地点或局面一张；写在场者各要什么、能拿到什么、可能的后果，不写结局</small></h2>
+  <div class="row"><button type="button" class="small" id="openAll">全部展开</button><button type="button" class="small" id="closeAll">全部收起</button></div>
+  <div style="display:grid;gap:10px" id="sceneList"></div>
+</section>
+
+<section id="endgame">
+  <h2>终战工具 <small>08 灾备演示厅 · C-06</small></h2>
+  <div class="grid wide">
+    <div class="panel hot">
+      <h3>陈培安维持舱 · 3 轮倒计时</h3>
+      <div class="pod idle" id="pod">
+        <div class="big"><div class="pips" id="podPips"></div><div class="pod-status" id="podStatus"></div></div>
+        <div class="row">
+          <button type="button" class="primary" id="podStart">主电被扯断（开始）</button>
+          <button type="button" id="podTick">轮末 −1</button>
+          <button type="button" id="podFumble">大失败 额外 −1</button>
+          <button type="button" id="podDelay">治疗拖延 +1（仅一次）</button>
+          <button type="button" class="jade" id="podSave">接上／拆下（停止）</button>
+          <button type="button" class="small" id="podReset">重置倒计时</button>
+        </div>
+      </div>
+      <ul class="dots" style="font-size:14px">
+        <li><b>接备用电源</b>：修理 TN 4（没有工具 −2）。成功则倒计时停止。</li>
+        <li><b>拆便携接口</b>：修理或电子学 TN 4（仓促 −2）。成功把接口连同残留一起拆下，倒计时停止；舱体留在原地，陈培安可以被带走。</li>
+        <li><b>骇客导出</b>：骇客对抗安防 d8。成功稳定并导出本地记录；优良额外保住一组记录。</li>
+        <li><b>援助/拖延</b>：援助 +1/+2；治疗 TN 4 可额外拖延 1 轮，仅一次。大失败倒计时额外 −1。</li>
+      </ul>
+      <p class="note">数据：坚韧 10(4)，安防 d8，骇入难度 5。主电源被扯断的当轮开始，每轮结束减 1；到 0 时陈培安的受损意识彻底消散，何凌陷入自责。踩响警报而未到第 6 回合时，玩家冲进演示厅即开始倒计时。（S16-NPC数据 8.3；数值待 GM 拍板）</p>
+    </div>
+    <div class="panel">
+      <h3>“剥皮兑现”：开打前按之前做成的事结算现场</h3>
+      <p class="note">勾选玩家在前面几个回合做成的事。</p>
+      <div class="peel" id="peelList"></div>
+    </div>
+  </div>
+  <div class="grid wide">
+    <div class="panel">
+      <h3>郁垒的节奏</h3>
+      <ul class="dots" style="font-size:14px">
+        <li><b>前两轮</b>：站二层观察廊，只替方泰安挡下一次会导致他提前暴毙的致命攻击，并远程开枪掩护销毁涉及上游买家的通讯记录。跳帧前电子表一声轻响“嘀”，落地后有两秒蓝紫残影。</li>
+        <li><b>第 3 轮起</b>（或方泰安义手被打断、退路被截断时）：收枪退入二层阴影旁观，不再替方泰安拦任何一下。</li>
+        <li>被集火打伤会果断跳帧拉开距离，只留最后一颗子弹给方泰安。</li>
+      </ul>
+      <h3>方泰安的战术</h3>
+      <ul class="dots" style="font-size:14px">
+        <li>开打或听见警报，第一件事扯断维持舱主电缆。</li>
+        <li>视线内 12 格念动：掀翻沙盘基座、扯断高压母线；抓技术员（或吕文博）挡在身前，往 C-09 卸货坡道防弹车退。</li>
+        <li>被近身逼急：液压义手重砸，同时开价“坡道车里还有两千万不记名债券和干净护照！”</li>
+        <li>念动需要视线与专注：打爆 C-08 冷却管道的蒸汽白雾、烟雾弹、强光爆震或贴身重击都能中断。</li>
+      </ul>
+    </div>
+    <div class="panel hot">
+      <h3>固定结局：“上面”与灭口落地</h3>
+      <p style="font-size:14px">当方泰安的液压义手被打断、护卫倒下、防弹车被堵死或轮胎打爆，彻底失去反抗能力时，无论场上处于哪一轮，立刻进入固定结局。<b>一旦他说出“上面”两个字，郁垒必定触发跳帧开枪灭口</b>（即使郁垒此前已被逼退到冷却区或坡道口，也会借蒸汽与残影切入完成这一枪）。</p>
+      <details class="plain" id="killBox">
+        <summary>展开可直接念的灭口段落</summary>
+        <div style="display:grid;gap:8px;margin-top:8px">
+          <div class="row"><button type="button" class="primary" id="copyKill">复制全文</button></div>
+          <div class="final" id="killText"></div>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section id="npcs">
+  <h2>NPC 速查 <small>14 人 · 点台词复制 · 战斗数据取自 S16-NPC数据</small></h2>
+  <div class="people" id="npcList"></div>
+</section>
+
+<section id="items">
+  <h2>玩家道具 <small>九件 · 正文可复制到 Foundry 日志或聊天 · 可标记已交出</small></h2>
+  <div class="items" id="itemList"></div>
+</section>
+
+<section id="maps">
+  <h2>地图 <small>每格 100px · 点击缩略图打开原图（PNG）</small></h2>
+  <div class="maps">
+    <figure class="map" style="margin:0"><a href="prep/maps/旧城管委会地下/旧城管委会地下-玩家版.png" target="_blank" rel="noopener"><img src="prep/maps/旧城管委会地下/旧城管委会地下-玩家版.webp" alt="旧城管委会地下 玩家版" loading="lazy"></a><figcaption><b>旧城管委会地下 · 玩家版</b><span class="muted">07 入口</span></figcaption></figure>
+    <figure class="map" style="margin:0"><a href="prep/maps/旧城管委会地下/旧城管委会地下-GM版.png" target="_blank" rel="noopener"><img src="prep/maps/旧城管委会地下/旧城管委会地下-GM版.webp" alt="旧城管委会地下 GM版" loading="lazy"></a><figcaption><b>旧城管委会地下 · GM 版</b><span class="tag foe">勿给玩家</span></figcaption></figure>
+    <figure class="map" style="margin:0"><a href="prep/maps/铜锅斗兽场/铜锅斗兽场.png" target="_blank" rel="noopener"><img src="prep/maps/铜锅斗兽场/铜锅斗兽场.webp" alt="铜锅斗兽场" loading="lazy"></a><figcaption><b>铜锅斗兽场</b><span class="muted">01 铜锅煮局</span></figcaption></figure>
+    <figure class="map" style="margin:0"><a href="prep/maps/灾备演示厅/灾备演示厅.png" target="_blank" rel="noopener"><img src="prep/maps/灾备演示厅/灾备演示厅.webp" alt="灾备演示厅" loading="lazy"></a><figcaption><b>灾备演示厅</b><span class="muted">08 终战</span></figcaption></figure>
+    <figure class="map" style="margin:0"><a href="prep/maps/红线封街路口/红线封街路口.png" target="_blank" rel="noopener"><img src="prep/maps/红线封街路口/红线封街路口.webp" alt="红线封街路口" loading="lazy"></a><figcaption><b>红线封街路口</b><span class="muted">牌二 公开露面 · 05 藏人</span></figcaption></figure>
+  </div>
+</section>
+
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+
+/* ---------- 手写数据（来自 README 与 S16-NPC数据） ---------- */
+const CLOCK = [
+  { r: 1, time: "周六上午", what: "S15 已跑完。", rel: [] },
+  { r: 2, time: "周六下午", what: "灭口组在铜锅趁乱除掉吕文博。湿活组撤出银行塔，陶景衡对外口径为“燃气检修事故”。", rel: [["01", "01 铜锅"], ["c0", "牌一"]] },
+  { r: 3, time: "周六夜", what: "方泰安在公开场合露面（银行塔事故现场视察或管委会通报会），秦有邻把“违规滞留员工”的说法放出去。罗恺开始找李好和吕文博的下落。", rel: [["02", "02 安全屋"], ["05", "05 藏人"], ["c1", "牌二"]] },
+  { r: 4, time: "周日上午", what: "陶景衡锁死李好全部行内权限并约谈陈志远；何凌失联加深。铁山车场两台重型自走机充电待命。方泰安对玩家身边的人施压（见出场牌）。", rel: [["03", "03 银行"], ["06", "06 车场"], ["c2", "牌三"]] },
+  { r: 5, time: "周日下午", what: "铝热剂运进灾备厅，开始销毁本地记录；陈培安维持舱准备断电。若卫铁生站到玩家一边，罗恺带人去汽修营地报复。", rel: [["05", "05 藏人"], ["07", "07 地下入口"], ["c3", "牌四"]] },
+  { r: 6, time: "周日 24:00", what: "交割完成，方泰安从卸货坡道撤离。", rel: [["08", "08 灾备厅"], ["c4", "牌五"]] },
+];
+const CLUES = [
+  ["旧城管委会地下结构图", "地下全貌；图上标作配电室的半圆厅尺寸和独立供电都不对劲", "已买，周六晚到阿尔坎邮箱"],
+  ["卫铁生", "废弃供暖管廊暗道，从铜锅附近通到管委会地下", "铜锅，或事后找他"],
+  ["沈漫的照片", "湿活组撤离车辆的车牌和喷码，指向配电附楼", "李好醒来时就在桌上"],
+  ["吕文博", "白念秋遗体从管委会地下运出", "铜锅救下他，或从他的手机里取"],
+  ["何凌／银行", "陈培安的维持舱被扣在管委会地下", "银行线"],
+  ["阿尔坎", "方泰安剩下的两条秘密：念动力和液压义手，以及郁垒不是他雇的人", "继续骇入，或近距离扫描方泰安"],
+];
+const SIDE = { "方泰安": "foe", "郁垒": "foe", "罗恺": "foe", "陶景衡": "foe", "秦有邻": "foe",
+  "陈志远": "mid", "裴秉钧": "ally", "何凌": "ally", "沈漫": "ally", "梁文川": "ally", "卫铁生": "ally",
+  "吕文博": "mid", "鹿岛绫": "mid", "马铁鹰": "mid" };
+const SIDE_LABEL = { foe: "方泰安一方", mid: "中间", ally: "盟友" };
+const COMBAT = {
+  "方泰安": { stats: [["格挡", "6"], ["坚韧", "9(2)"], ["损伤", "3"], ["助力", "2"]],
+    atk: [["念动投掷", "上一轮公开升起重物并标出落点，本轮集中攻击 3d8，穿甲 0，中型爆发盖板；看得见危险区就能离开。念动射程 12 英寸，力量 d12。"],
+          ["液压义手", "右臂近战 力量+d8，穿甲 2；擒抱、紧勒运动 +2。"]],
+    sp: "专注被打断：维持念动需要视线，目标进烟雾/蒸汽/闪光/全黑、他陷入动摇或移动超过半速即结束。义手被定点打击（肢体 −2）受 1 个损伤即失效并让他动摇。2 个损伤、维持舱失守或私兵被打散后奔向卸货坡道防弹车。" },
+  "郁垒": { stats: [["格挡", "7"], ["坚韧", "9(2)"], ["损伤", "3"], ["助力", "2"]],
+    atk: [["精密手枪", "12/24/48，2d6+1，穿甲 2，射速 1，消音器；目标脆弱或奇袭时刺客 +2 伤害。"]],
+    sp: "闪避：针对他的远程攻击 −2（范围攻击无视，近战不减，欲子不受此 −2）。半秒跳帧：一个动作、集中 TN 4，瞬移到 6 英寸内可见空位；前有电子表蜂鸣（察觉 TN 4 预知），落地后脆弱到其下回合结束且不能再跳。驰援护驾每轮一次。" },
+  "马铁鹰": { stats: [["格挡", "8"], ["坚韧", "9(2)"], ["损伤", "3"], ["助力", "2"]],
+    atk: [["战锤", "力量 d10 + d8，穿甲 2，双手，触及 1 英寸；先发制人：敌人移动进入触及后立刻自由攻击。"]],
+    sp: "左膝液压管：定点打击左膝（肢体 −2）造成至少动摇即破裂——移速 −2、灵巧相关 −1、不能奔跑；修理 TN 4 一个动作可临时封住。擂台不用枪；黑西装坏规矩就转头打黑西装；2 个损伤、左膝锁死或发现被当灭口幌子时要求停手。" },
+};
+
+/* ---------- 状态 ---------- */
+const KEY = "taiyi-finale-gm-screen-v1";
+const blank = () => ({ round: 2, cut: {}, clues: [], played: {}, given: {}, peel: [], pod: { state: "idle", left: 3, delay: false } });
+let S = blank();
+try { const raw = localStorage.getItem(KEY); if (raw) S = Object.assign(blank(), JSON.parse(raw)); } catch (e) {}
+function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} }
+
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+function toast(msg) { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove("show"), 1400); }
+function copy(text) {
+  const done = () => toast("已复制");
+  const fallback = () => { const ta = document.createElement("textarea"); ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0"; document.body.appendChild(ta); ta.select(); try { document.execCommand("copy"); done(); } catch (e) { toast("复制失败，请手动选择"); } ta.remove(); };
+  try { if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(done, fallback); else fallback(); } catch (e) { fallback(); }
+}
+function lineHTML(text, html) { return `<div class="line"><span>${html || esc(text)}</span><button type="button" class="small" data-copy="${esc(text)}">复制</button></div>`; }
+
+/* ---------- 行动钟 ---------- */
+function renderClock() {
+  $("#clockGrid").innerHTML = CLOCK.map(c => {
+    const cut = !!S.cut[c.r];
+    const cls = c.r === 1 ? "done1 past" : c.r === S.round ? "now" : c.r < S.round ? "past" : "";
+    const st = c.r === 1 ? "已跑完" : cut ? "被打断" : c.r === S.round ? "当前" : c.r < S.round ? "已兑现" : "未到";
+    const rel = c.rel.map(([id, lab]) => `<a href="#${id.startsWith("c") ? "card-" + id.slice(1) : "scene-" + id}">${lab}</a>`).join(" · ");
+    return `<div class="tick ${cls} ${cut ? "cut" : ""}">
+      ${c.r > 1 ? `<button type="button" class="goto" data-round="${c.r}" aria-label="设为第 ${c.r} 回合"></button>` : ""}
+      <div class="hd"><b>${c.r}</b><span>${c.time}</span><em class="st">${st}</em></div>
+      <div class="what">${c.r > 1 ? "不受干扰时：" : ""}${esc(c.what)}</div>
+      ${rel ? `<div class="rel">相关：${rel}</div>` : ""}
+      ${c.r > 1 ? `<label class="chk"><input type="checkbox" data-cut="${c.r}" ${cut ? "checked" : ""}>被玩家打断</label>` : ""}
+    </div>`;
+  }).join("");
+  const c = CLOCK.find(x => x.r === S.round);
+  $("#clkNow").textContent = `当前：第 ${S.round} 回合 · ${c.time}`;
+  $("#clkPrev").disabled = S.round <= 2; $("#clkNext").disabled = S.round >= 6;
+  $("#lihao").classList.toggle("on", S.round === 3);
+}
+$("#clockGrid").addEventListener("click", e => {
+  const g = e.target.closest("[data-round]"); if (g) { S.round = +g.dataset.round; save(); renderClock(); }
+});
+$("#clockGrid").addEventListener("change", e => {
+  const c = e.target.closest("[data-cut]"); if (c) { S.cut[c.dataset.cut] = c.checked; save(); renderClock(); }
+});
+$("#clkPrev").onclick = () => { if (S.round > 2) { S.round--; save(); renderClock(); } };
+$("#clkNext").onclick = () => { if (S.round < 6) { S.round++; save(); renderClock(); } };
+
+/* ---------- 线索网 ---------- */
+function renderClues() {
+  $("#clueList").innerHTML = CLUES.map(([src, gives, where], i) => `
+    <label class="clue chk ${S.clues[i] ? "got" : ""}"><input type="checkbox" data-clue="${i}" ${S.clues[i] ? "checked" : ""}>
+      <span><span class="src">${src}</span>　${gives}</span><span class="where">在哪拿：${where}</span></label>`).join("");
+  $("#clueCount").textContent = `已获得 ${S.clues.filter(Boolean).length} / 6`;
+}
+$("#clueList").addEventListener("change", e => { const c = e.target.closest("[data-clue]"); if (c) { S.clues[+c.dataset.clue] = c.checked; save(); renderClues(); } });
+
+/* ---------- 出场牌 ---------- */
+function kv(cls, label, f) {
+  if (!f || (!f.text && !f.list.length)) return "";
+  const list = f.list.length ? `<ol class="dots sub">${f.list.map(x => `<li>${x}</li>`).join("")}</ol>` : "";
+  return `<div class="kv ${cls}"><b>${label}</b><span>${f.text}</span>${list}</div>`;
+}
+function renderCards() {
+  $("#cardList").innerHTML = DATA.cards.map((c, i) => `
+    <article class="fcard ${S.played[i] ? "played" : ""}" id="card-${i}" data-search>
+      <div class="row"><h3>${esc(c.name)}</h3><span class="spacer"></span>
+        <label class="chk" style="font-size:13px"><input type="checkbox" data-played="${i}" ${S.played[i] ? "checked" : ""}>已打出</label></div>
+      ${kv("trig", "触发条件", c.trigger)}
+      ${kv("chips", "筹码", c.chips)}
+      ${kv("take", "玩家不应对时他拿走什么", c.take)}
+      ${kv("gain", "玩家应对得好能拿到什么", c.gain)}
+      <div class="kv"><b>台词</b><div class="lines">${c.lines.map((t, j) => lineHTML(t, c.linesHtml[j])).join("")}</div></div>
+      <details class="more"><summary>面孔、想要什么、郁垒在不在</summary><div style="display:grid;gap:6px;margin-top:6px">
+        ${kv("", "他露出的面孔", c.face)}${kv("", "他想要什么", c.want)}${kv("", "郁垒在不在、做什么", c.yu)}</div></details>
+    </article>`).join("");
+}
+$("#cardList").addEventListener("change", e => { const c = e.target.closest("[data-played]"); if (c) { S.played[c.dataset.played] = c.checked; save(); c.closest(".fcard").classList.toggle("played", c.checked); } });
+
+/* ---------- 场景卡 ---------- */
+function renderScenes() {
+  $("#sceneList").innerHTML = DATA.scenes.map(s => {
+    const probNote = s.probCard && s.probReadme && !s.probReadme.startsWith(s.probCard.split("（")[0])
+      ? `<p class="meta">卡片自注概率：${esc(s.probCard)}（与 README 索引不一致）</p>` : (s.probCard ? `<p class="meta">卡片自注：${esc(s.probCard)}</p>` : "");
+    return `<details class="scene" id="scene-${s.num}" data-search>
+      <summary><span class="num">${s.num}</span><span class="t">${esc(s.title)}</span><span class="prob">${esc((s.probReadme || "").split("（")[0])}</span>
+        <span class="hook">${s.hook}</span></summary>
+      <div class="scene-body">
+        <p class="meta"><b>概率</b> ${esc(s.probReadme)}　<b>准备深度</b> ${esc(s.depth)}</p>
+        ${probNote}
+        ${s.event ? `<div class="blk"><div class="lab">事件</div><p>${s.event}</p></div>` : ""}
+        ${s.blocks.map(([lab, h]) => `<div class="blk k-${esc(lab)}"><div class="lab">${esc(lab)}</div>${h}</div>`).join("")}
+        ${s.tags ? `<p class="meta"><b>场景标签</b> ${esc(s.tags)}</p>` : ""}
+      </div></details>`;
+  }).join("");
+}
+$("#openAll").onclick = () => document.querySelectorAll("details.scene").forEach(d => d.open = true);
+$("#closeAll").onclick = () => document.querySelectorAll("details.scene").forEach(d => d.open = false);
+
+/* ---------- 终战 ---------- */
+function renderPod() {
+  const p = S.pod, el = $("#pod");
+  el.className = "pod " + p.state;
+  $("#podPips").innerHTML = [0, 1, 2, 3].slice(0, Math.max(3, p.left)).map(i => `<span class="pip ${i < p.left ? "on" : ""}"></span>`).join("");
+  $("#podStatus").textContent = { idle: "主电未断 · 3 轮", run: `断电中 · 剩 ${p.left} 轮`, saved: "已保住", dead: "陈培安的意识残留消散" }[p.state];
+  $("#podStart").disabled = p.state !== "idle";
+  $("#podTick").disabled = $("#podFumble").disabled = $("#podSave").disabled = p.state !== "run";
+  $("#podDelay").disabled = p.state !== "run" || p.delay;
+}
+function podDec(n) { S.pod.left = Math.max(0, S.pod.left - n); if (S.pod.left === 0) S.pod.state = "dead"; save(); renderPod(); }
+$("#podStart").onclick = () => { S.pod = { state: "run", left: 3, delay: false }; save(); renderPod(); };
+$("#podTick").onclick = () => podDec(1);
+$("#podFumble").onclick = () => podDec(1);
+$("#podDelay").onclick = () => { S.pod.left++; S.pod.delay = true; save(); renderPod(); };
+$("#podSave").onclick = () => { S.pod.state = "saved"; save(); renderPod(); };
+$("#podReset").onclick = () => { S.pod = { state: "idle", left: 3, delay: false }; save(); renderPod(); };
+
+function renderPeel() {
+  const rows = DATA.peel;
+  const last = rows.length - 1; // “什么都没做”
+  const any = S.peel.some(Boolean);
+  $("#peelList").innerHTML = rows.map((r, i) => i === last
+    ? `<div class="peelrow ${any ? "" : "none"}" ${any ? "hidden" : ""}><b>${r.cond}</b><span class="eff">${r.effect}</span></div>`
+    : `<div class="peelrow ${S.peel[i] ? "on" : ""}"><label class="chk"><input type="checkbox" data-peel="${i}" ${S.peel[i] ? "checked" : ""}><span>${r.cond}</span></label><span class="eff">→ ${r.effect}</span></div>`).join("");
+}
+$("#peelList").addEventListener("change", e => { const c = e.target.closest("[data-peel]"); if (c) { S.peel[+c.dataset.peel] = c.checked; save(); renderPeel(); } });
+
+function renderKill() {
+  $("#killText").innerHTML = esc(DATA.kill).replace(/“不用。”/g, "<em>“不用。”</em>").replace(/上面……/g, "<em>上面</em>……");
+}
+$("#copyKill").onclick = () => copy(DATA.kill);
+
+/* ---------- NPC ---------- */
+function renderNPCs() {
+  $("#npcList").innerHTML = DATA.npcs.map(n => {
+    const side = SIDE[n.name] || "mid", cb = COMBAT[n.name];
+    return `<article class="person ${cb ? "boss" : ""}" id="npc-${esc(n.name)}" data-search>
+      <h3>${esc(n.name)} <span class="tag ${side}">${SIDE_LABEL[side]}</span></h3>
+      <p class="pos">${n.pos}</p>
+      ${cb ? `<div class="stats">${cb.stats.map(([k, v]) => `<div><b>${v}</b><span>${k}</span></div>`).join("")}</div>
+        <div class="atk">${cb.atk.map(([k, v]) => `<div><span>${k}</span><span>${v}</span></div>`).join("")}<div><span>特殊</span><span>${cb.sp}</span></div></div>` : ""}
+      <p><b>要什么</b>　${n.want}</p>
+      <div class="lines">${n.lines.map(t => lineHTML(t)).join("")}</div>
+      <details class="more"><summary>外貌、被施压时、GM 内部</summary><div style="display:grid;gap:4px;margin-top:6px">
+        ${n.look ? `<p><b>外貌</b>　${n.look}</p>` : ""}${n.press ? `<p><b>被施压时</b>　${n.press}</p>` : ""}${n.gm ? `<p class="gmi">${n.gm}</p>` : ""}</div></details>
+    </article>`;
+  }).join("");
+}
+
+/* ---------- 道具 ---------- */
+function renderItems() {
+  $("#itemList").innerHTML = DATA.items.map((it, i) => `
+    <article class="item ${S.given[i] ? "given" : ""}" data-search>
+      <h3><span class="n">${it.n}</span>${esc(it.title)}</h3>
+      <p class="when"><b>何时交出</b>　${it.when}</p>
+      <div class="row"><button type="button" class="small primary" data-copy-item="${i}">复制正文</button><span class="spacer"></span>
+        <label class="chk" style="font-size:13px"><input type="checkbox" data-given="${i}" ${S.given[i] ? "checked" : ""}>已交出</label></div>
+      <pre>${esc(it.text)}</pre>
+    </article>`).join("");
+}
+$("#itemList").addEventListener("click", e => { const b = e.target.closest("[data-copy-item]"); if (b) copy(DATA.items[+b.dataset.copyItem].text); });
+$("#itemList").addEventListener("change", e => { const c = e.target.closest("[data-given]"); if (c) { S.given[c.dataset.given] = c.checked; save(); c.closest(".item").classList.toggle("given", c.checked); } });
+
+/* ---------- 通用：复制、搜索、重置 ---------- */
+document.addEventListener("click", e => { const b = e.target.closest("[data-copy]"); if (b) copy(b.dataset.copy); });
+$("#q").addEventListener("input", () => {
+  const q = $("#q").value.trim();
+  document.querySelectorAll("[data-search]").forEach(el => {
+    const hit = !q || el.textContent.includes(q);
+    el.hidden = !hit;
+    if (el.matches("details.scene")) el.open = !!q && hit;
+  });
+});
+$("#reset").onclick = () => {
+  if (!confirm("清空行动钟、线索、已打出、已交出、剥皮勾选和维持舱倒计时？")) return;
+  S = blank(); save(); renderAll();
+};
+function renderAll() { renderClock(); renderClues(); renderCards(); renderPod(); renderPeel(); renderItems(); }
+renderAll(); renderScenes(); renderKill(); renderNPCs();
+</script>
+</body>
+</html>
