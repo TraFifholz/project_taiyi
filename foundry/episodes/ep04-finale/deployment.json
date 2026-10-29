@@ -1,0 +1,82 @@
+{
+  "world": "taiyi",
+  "at": "2026-10-29T10:30:50.600Z",
+  "assets": [
+    {
+      "remote": "worlds/taiyi/assets/maps/s16/s16-zaibei.webp",
+      "sha256": "39cf08ff1b70030c30393ca50fa81f286fc78f7381b1c309e16fc87b65d5a2a4",
+      "ok": true
+    },
+    {
+      "remote": "worlds/taiyi/assets/maps/s16/s16-fengjie.webp",
+      "sha256": "5ce89192b1e43ccf98defd89b2417f90bdb3c934cfa81bf7b23c2fcf85febb9a",
+      "ok": true
+    },
+    {
+      "remote": "worlds/taiyi/assets/maps/s16/s16-dixia-player.webp",
+      "sha256": "cad5d532a5d97d2eb522c7d733c9f3583e38fdaf0e4d1eaaa35ae1e84167f864",
+      "ok": true
+    },
+    {
+      "remote": "worlds/taiyi/assets/maps/s16/s16-dixia-gm.webp",
+      "sha256": "6f97345f64105f4d5c638cb463d91159470496b32fc6d1717b1fd6a050a5a03f",
+      "ok": true
+    }
+  ],
+  "scenes": [
+    {
+      "name": "S16 · 灾备演示厅",
+      "id": "6SFERujlSIiLF8BD",
+      "background": "worlds/taiyi/assets/maps/s16/s16-zaibei.webp",
+      "tokens": 9,
+      "expectedTokens": 9,
+      "allHidden": true,
+      "allOnLevel": true,
+      "active": false,
+      "ok": true
+    },
+    {
+      "name": "S16 · 红线封街路口",
+      "id": "mnV6teZMgunAGBVW",
+      "background": "worlds/taiyi/assets/maps/s16/s16-fengjie.webp",
+      "tokens": 7,
+      "expectedTokens": 7,
+      "allHidden": true,
+      "allOnLevel": true,
+      "active": false,
+      "ok": true
+    },
+    {
+      "name": "S16 · 旧城管委会地下（玩家版）",
+      "id": "EXmHVP0Raxa3pc3J",
+      "background": "worlds/taiyi/assets/maps/s16/s16-dixia-player.webp",
+      "tokens": 0,
+      "expectedTokens": 0,
+      "allHidden": true,
+      "allOnLevel": true,
+      "active": false,
+      "ok": true
+    }
+  ],
+  "journals": [
+    {
+      "name": "S16 · 收官篇主持卡（GM）",
+      "id": "KrtDoacaQLgfZH4i",
+      "pages": 13,
+      "expectedPages": 13,
+      "defaultOwnership": 0,
+      "ok": true
+    },
+    {
+      "name": "S16 · 收官篇玩家道具（GM 展示用）",
+      "id": "ZFeeWGJI7CkFqmc0",
+      "pages": 10,
+      "expectedPages": 10,
+      "defaultOwnership": 0,
+      "ok": true
+    }
+  ],
+  "skipped": [],
+  "refreshed": 22,
+  "passed": true
+}

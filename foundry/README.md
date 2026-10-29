@@ -4,6 +4,7 @@
 - [第三话遭遇](episodes/ep03/README.md)：追逐 NPC、车辆、地图及运行验证。
 - [第四话 A · PMC猎杀欲子](episodes/ep04-A/README.md)：9张Actor、16枚预置Token、连续战斗地图与部署验证。
 - [第四话 B · 管委会围捕李好](episodes/ep04-B/README.md)：11张Actor、18枚预置Token、大堂与后巷地图、NAI头像及部署验证。
+- [第四话收官篇](episodes/ep04-finale/README.md)：灾备演示厅、红线封街路口、地下结构图三个场景，主持卡与玩家道具两本日志；沿用已有 Actor。
 - [早期第四场场景数据](episodes/ep01/session-04-foundry-prep.json)：对应 [历史单场备团](../campaign/prep/sessions/session-04-foundry-prep.md)。
 - [技术维护说明](../FVTT_MAINTENANCE.md)：环境与既有维护流程。
 - [技术审计](../maintenance/README.md)：Chirp、Smartphone 等操作证据。
