@@ -3,7 +3,8 @@
 用法（在仓库根目录 project_taiyi 下）：
     python campaign/prep/maps/旧城管委会地下/build_map.py
 输出 SVG；若找到 Chrome/Edge，再用无头浏览器截图导出 PNG，并用 Pillow 转 WebP。
-网格：72×52 格，每格 56 像素（Foundry 场景 Grid Size 填 56，左上角对齐，无偏移）。
+网格：72×52 格。SVG 按每格 56 绘制；PNG/WebP 默认按每格 100 像素导出（7200×5200），
+加 --cell 50 则按每格 50 像素导出。Foundry 场景 Grid Size 填导出时的每格像素，左上角对齐，无偏移。
 1 格 = 1 战术英寸 ≈ 2 码 ≈ 1.8 米。
 """
 from __future__ import annotations
@@ -18,6 +19,7 @@ HERE = Path(__file__).resolve().parent
 CELL = 56
 GW, GH = 72, 52
 W, H = GW * CELL, GH * CELL
+EXPORT_CELL = 100
 
 PAPER = '#f2efe4'
 FLOOR = '#fbfaf4'
@@ -480,14 +482,14 @@ def find_browser() -> str | None:
     return None
 
 
-def export_png(svg_path: Path, png_path: Path, browser: str):
+def export_png(svg_path: Path, png_path: Path, browser: str, ew: int, eh: int):
     html = svg_path.with_suffix('.tmp.html')
     html.write_text('<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;padding:0;'
                     f'background:{PAPER}}}img{{display:block}}</style></head><body>'
-                    f'<img src="{svg_path.name}" width="{W}" height="{H}"></body></html>', encoding='utf-8')
+                    f'<img src="{svg_path.name}" width="{ew}" height="{eh}"></body></html>', encoding='utf-8')
     try:
         subprocess.run([browser, '--headless=new', '--disable-gpu', '--hide-scrollbars',
-                        '--force-device-scale-factor=1', f'--window-size={W},{H}',
+                        '--force-device-scale-factor=1', f'--window-size={ew},{eh}',
                         f'--screenshot={png_path}', html.resolve().as_uri()],
                        check=True, capture_output=True, timeout=120)
     finally:
@@ -495,6 +497,8 @@ def export_png(svg_path: Path, png_path: Path, browser: str):
 
 
 def main():
+    cell = int(sys.argv[sys.argv.index('--cell') + 1]) if '--cell' in sys.argv else EXPORT_CELL
+    ew, eh = GW * cell, GH * cell
     outs = {'玩家版': False, 'GM版': True}
     browser = find_browser()
     for name, gm in outs.items():
@@ -503,13 +507,13 @@ def main():
         print('SVG', svg_path.name)
         if browser:
             png_path = HERE / f'旧城管委会地下-{name}.png'
-            export_png(svg_path, png_path, browser)
+            export_png(svg_path, png_path, browser, ew, eh)
             try:
                 from PIL import Image
                 im = Image.open(png_path).convert('RGB')
-                assert im.size == (W, H), im.size
+                assert im.size == (ew, eh), im.size
                 im.save(HERE / f'旧城管委会地下-{name}.webp', 'WEBP', quality=90)
-                print('PNG/WEBP', im.size)
+                print('PNG/WEBP', im.size, f'每格 {cell} 像素')
             except ImportError:
                 print('PNG', png_path.name, '(Pillow 未安装，跳过 WebP)')
     if not browser:
