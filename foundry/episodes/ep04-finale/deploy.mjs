@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
-import { login, emit, getDocs, createDocs, BASE } from 'file:///D:/SilverWing/silver-wing/tools/fvtt/lib.mjs';
+import { login, emit, getDocs, createDocs, BASE } from 'file:///D:/Ateliar/Silver%20Wing/tools/fvtt/lib.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const payload = JSON.parse(fs.readFileSync(path.join(HERE, 'payload.json'), 'utf8'));
@@ -45,6 +45,13 @@ const SCENES = [
     ],
   },
   { name: 'S16 · 旧城管委会地下（玩家版）', file: 's16-dixia-player.webp', width: 7200, height: 5200, tokens: [] },
+  {
+    name: 'S17 · 康民诊所', file: 's17-kangmin.webp', width: 2800, height: 1800,
+    tokens: [
+      ['吕文博的保险', 2300, 650],
+      ['鬼火', 1250, 450], ['鬼火', 1750, 450], ['鬼火', 750, 450], ['鬼火', 1300, 900], ['鬼火', 500, 1300],
+    ],
+  },
 ];
 
 async function upload(cookie, file, remoteName) {
@@ -113,16 +120,40 @@ if (!VERIFY_ONLY) {
   }
 }
 
-// --refresh-pages：同名日志已存在时，按页名原地更新正文（不删不建）
+// --refresh-pages：卡片改过后同步两本日志：同名页更新正文，新页补建，已不存在的页删除，排序跟随 payload
 if (process.argv.includes('--refresh-pages')) {
   const js = await getDocs(socket, 'JournalEntry');
   for (const [name, src] of [[GM_JOURNAL, payload.gmPages], [HANDOUT_JOURNAL, payload.handouts]]) {
     const j = js.find(x => x.name === name);
     if (!j) continue;
-    const updates = src.map(p => ({ _id: j.pages.find(pg => pg.name === p.name)?._id, 'text.content': p.html })).filter(u => u._id);
-    const r = await emit(socket, 'modifyDocument', { type: 'JournalEntryPage', action: 'update', operation: { parentUuid: `JournalEntry.${j._id}`, updates } });
-    if (r.error) throw new Error(JSON.stringify(r.error));
-    report.refreshed = (report.refreshed ?? 0) + updates.length;
+    const parentUuid = `JournalEntry.${j._id}`;
+    const textPages = j.pages.filter(pg => pg.type === 'text');
+    const byName = new Map(textPages.map(pg => [pg.name, pg]));
+    const wanted = new Set(src.map(p => p.name));
+    const updates = [], creates = [];
+    src.forEach((p, i) => {
+      const hit = byName.get(p.name);
+      const sort = (i + 1) * 100000;
+      if (hit) updates.push({ _id: hit._id, sort, 'text.content': p.html });
+      else creates.push({ name: p.name, type: 'text', sort, text: { content: p.html, format: 1 } });
+    });
+    const deletes = textPages.filter(pg => !wanted.has(pg.name)).map(pg => pg._id);
+    if (updates.length) {
+      const r = await emit(socket, 'modifyDocument', { type: 'JournalEntryPage', action: 'update', operation: { parentUuid, updates } });
+      if (r.error) throw new Error(JSON.stringify(r.error));
+    }
+    if (creates.length) {
+      const r = await emit(socket, 'modifyDocument', { type: 'JournalEntryPage', action: 'create', operation: { parentUuid, data: creates } });
+      if (r.error) throw new Error(JSON.stringify(r.error));
+    }
+    if (deletes.length) {
+      const r = await emit(socket, 'modifyDocument', { type: 'JournalEntryPage', action: 'delete', operation: { parentUuid, ids: deletes } });
+      if (r.error) throw new Error(JSON.stringify(r.error));
+    }
+    const img = j.pages.find(pg => pg.type === 'image');
+    if (img) await emit(socket, 'modifyDocument', { type: 'JournalEntryPage', action: 'update', operation: { parentUuid, updates: [{ _id: img._id, sort: (src.length + 1) * 100000 }] } });
+    report.refreshed = (report.refreshed ?? 0) + updates.length + creates.length;
+    report.pagesDeleted = (report.pagesDeleted ?? 0) + deletes.length;
   }
 }
 

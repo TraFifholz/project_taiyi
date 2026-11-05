@@ -1,0 +1,152 @@
+{
+ "settings": {
+  "allowPlayerEditOwnRelationships": null,
+  "playerEditMinimumRole": null,
+  "playerEditMinimumPermission": null,
+  "playerEditNotesPermission": "\"OWNER\"",
+  "playerEditEventsPermission": "\"OWNER\"",
+  "playerEditBasicPermission": "\"OWNER\"",
+  "playerEditAppearancePermission": "\"OWNER\"",
+  "playerRankControlsPermission": "\"OWNER\"",
+  "playerEditCharacterStatusesPermission": null,
+  "playerEditStructurePermission": "\"OFF\"",
+  "playerEditTypePermission": "\"OFF\"",
+  "playerEditRankPermission": "\"OFF\"",
+  "playerEditStatsPermission": "\"OFF\""
+ },
+ "flipped": [
+  {
+   "id": "ELxrslbsSHQg0cmK",
+   "name": "唐索",
+   "ids": [
+    "rel_8AogPHzPyb5ky3TN",
+    "rel_TuZPFD5FGJNPZ1vY",
+    "rel_zRKuP9CxeJWsrJ4i",
+    "rel_YatCCQ6nGAZupaZf",
+    "rel_LgQJOfW1yii3mbrQ",
+    "rel_c1MtZTfKtRpC3tl5",
+    "rel_4e67940rqVgbGgb7",
+    "rel_nL9ItLux321rBYS8",
+    "rel_yMytXkbA5oFNOr",
+    "rel_gbNxmGgBQDmH3",
+    "rel_Pe6qDqqLvzYJynY",
+    "rel_yqynV1bFqVeIyq6r",
+    "rel_5Ezr1iAo69frYCaT",
+    "rel_ZNVdBegOuORPjfjV",
+    "rel_QqnNgexlC2zYAai",
+    "rel_ldwhevPFaK0H1r",
+    "rel_TqaWALjhFX92Y2dz",
+    "rel_vBkJKlFkv7hc8JdA",
+    "rel_LmJeXMgP13LfdkB",
+    "rel_nKO453HFablN5t"
+   ]
+  },
+  {
+   "id": "dVY3kCrHc0WYyKEa",
+   "name": "李好",
+   "ids": [
+    "rel_DNMhAeIh6nCl5o1c",
+    "rel_riLslW7zOH5yQ8tw",
+    "rel_ZIlG6L01pHFAozNw",
+    "rel_p2qh8B9CqRzQtD2m",
+    "rel_gCOUFDdiWGdW9EOy",
+    "rel_uSNta1zHvRWnHArg",
+    "rel_INzNQmiXSPX85VBS",
+    "rel_c59pXXo6eEWKBsPL",
+    "rel_YXg8XK52gk9TC3Ul",
+    "rel_zBk0uL7uxm0uuzq0",
+    "rel_WBnVzxxm91DoCmIW",
+    "rel_vaoY9DCvZ0JdFwKu",
+    "rel_Yuzb561l2PYV0Mj",
+    "rel_pIdHofVcsI6lu6u",
+    "rel_sV0FcIPeBRfk2vF",
+    "rel_GwuMv54ZJJrSKJkl",
+    "rel_L5Yv37BhoUrjKDUH",
+    "rel_YdbwKP7Hn9b2I3V"
+   ]
+  },
+  {
+   "id": "j3f9G2P4vDSmmxZw",
+   "name": "雷武龙",
+   "ids": [
+    "rel_Vho5pzJjVECAtd5j",
+    "rel_ZD1f5BnUBO7aFuJ8",
+    "rel_KryeM0P5UbQSSW0x",
+    "rel_ua2eVGtZINjm7hCd",
+    "rel_lIHWPuPhrmUIYt5g",
+    "rel_NQdWLEzHLjliqrD1",
+    "rel_4mG79hsYOdLcO9cg",
+    "rel_9JUWL1DMWJ7xXq75",
+    "rel_CWZdNk5KStGUtz",
+    "rel_P72cJIAaq4WBG6",
+    "rel_TUagWRzpts9pG97"
+   ]
+  },
+  {
+   "id": "nJxWvLzZvBNXObjk",
+   "name": "阿尔坎·希耶尔",
+   "ids": [
+    "rel_2jf9AD5tYtg9tOsT",
+    "rel_QDADgVkfrusOrx1I",
+    "rel_SuvgO7cP8sEJaTg4",
+    "rel_yUvA8gcGuDgwUowB",
+    "rel_bkWjX8NJhzqzZYsp",
+    "rel_HUGIjGCDN5QJi5Pn",
+    "rel_GPjzze4vpbRid5aY",
+    "rel_78Z5ijMO6O1S0GfE",
+    "rel_0umkajCkocDysYXh",
+    "rel_Tlr8tAnxYy1Xy1kp",
+    "rel_N86Xltq2ZALslHv",
+    "rel_8GuLfT8i7NSzs39J"
+   ]
+  },
+  {
+   "id": "vhpt4XZxZn59dWX5",
+   "name": "凯芙拉·威尔森",
+   "ids": [
+    "rel_Vv923DmukXG9uhyq",
+    "rel_OtHXOTRTAGnLirvI",
+    "rel_UjSN96yQwxk1iqth",
+    "rel_cDQboZbC4ahJuDIK",
+    "rel_ZEbqQ8acbq3cEzWP",
+    "rel_HnfaDqahek0WfUGe",
+    "rel_ZnNFrPVTjb2Z96ZU",
+    "rel_EtLzXcTV6lnszLK5",
+    "rel_BRalOaFmMwEsxgpS",
+    "rel_xETECbYuihVnYffu",
+    "rel_DXhlIYCnkAJtKz",
+    "rel_bKXIAnnw995hwuTw",
+    "rel_eyZH2iFKulTU6v",
+    "rel_n2d6rDlITqWk15h2",
+    "rel_oHVyJmUul7AD3q",
+    "rel_DfOiiafiagaJg9pc"
+   ]
+  },
+  {
+   "id": "zmeMlq5pVbbqr1rA",
+   "name": "黑崎欲子",
+   "ids": [
+    "rel_b9ZmGK57C13qIoob",
+    "rel_bQiGz6gmO4ycTgNv",
+    "rel_MQS9HvGfv6mZqEgw",
+    "rel_gcbq5Y5axLXVDS8k",
+    "rel_fWTPhliciwV85XcJ",
+    "rel_w8UWgBWTOYd8EHYw",
+    "rel_3yxkHYwGKCkS02Nu",
+    "rel_9WKEu96ngqQPzhQa",
+    "rel_R7WMWfO58RyZnESM",
+    "rel_y4MstaIPbycZNu6G",
+    "rel_IvVsvYoaGRWh7ESu",
+    "rel_N6G3odhach0qt",
+    "rel_3XTKKBKg9RVOQZIF",
+    "rel_eI3ANGhd8770Jwu",
+    "rel_gFiEmxWag0emNVu",
+    "rel_vEltA10fYWApZlyR",
+    "rel_JNyKGuZq8YGhhrNv",
+    "rel_wT1dbCvrAEr9UzlP",
+    "rel_kelZIRkt97Y8YOI",
+    "rel_qbsOz2aOnrAKMlP6"
+   ]
+  }
+ ]
+}

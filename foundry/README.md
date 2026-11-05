@@ -1,6 +1,7 @@
 # Foundry 本地工程与执行资料
 
 - [NPC 导入](npc/README.md)：人物清单、图片、关系与导入报告。
+- [玩家内容](player-board-20261106/review.md)：SRT 组织、Clues Kit 线索卡与共享板、前情提要，`scripts/fvtt/deploy_player_board.mjs` 部署。
 - [第三话遭遇](episodes/ep03/README.md)：追逐 NPC、车辆、地图及运行验证。
 - [第四话 A · PMC猎杀欲子](episodes/ep04-A/README.md)：9张Actor、16枚预置Token、连续战斗地图与部署验证。
 - [第四话 B · 管委会围捕李好](episodes/ep04-B/README.md)：11张Actor、18枚预置Token、大堂与后巷地图、NAI头像及部署验证。

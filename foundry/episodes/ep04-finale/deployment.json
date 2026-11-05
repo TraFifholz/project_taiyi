@@ -1,6 +1,6 @@
 {
   "world": "taiyi",
-  "at": "2026-10-29T10:30:50.600Z",
+  "at": "2026-11-05T13:17:45.154Z",
   "assets": [
     {
       "remote": "worlds/taiyi/assets/maps/s16/s16-zaibei.webp",
@@ -20,6 +20,11 @@
     {
       "remote": "worlds/taiyi/assets/maps/s16/s16-dixia-gm.webp",
       "sha256": "6f97345f64105f4d5c638cb463d91159470496b32fc6d1717b1fd6a050a5a03f",
+      "ok": true
+    },
+    {
+      "remote": "worlds/taiyi/assets/maps/s16/s17-kangmin.webp",
+      "sha256": "eea9794eb87b13054495fca4b47c07cb924602288ac301f8b9a6ca3c459f962b",
       "ok": true
     }
   ],
@@ -56,6 +61,17 @@
       "allOnLevel": true,
       "active": false,
       "ok": true
+    },
+    {
+      "name": "S17 · 康民诊所",
+      "id": "UL3yTwbDI1Mfl0HD",
+      "background": "worlds/taiyi/assets/maps/s16/s17-kangmin.webp",
+      "tokens": 6,
+      "expectedTokens": 6,
+      "allHidden": true,
+      "allOnLevel": true,
+      "active": false,
+      "ok": true
     }
   ],
   "journals": [
@@ -70,13 +86,20 @@
     {
       "name": "S16 · 收官篇玩家道具（GM 展示用）",
       "id": "ZFeeWGJI7CkFqmc0",
-      "pages": 10,
-      "expectedPages": 10,
+      "pages": 11,
+      "expectedPages": 11,
       "defaultOwnership": 0,
       "ok": true
     }
   ],
-  "skipped": [],
-  "refreshed": 22,
+  "skipped": [
+    "S16 · 灾备演示厅",
+    "S16 · 红线封街路口",
+    "S16 · 旧城管委会地下（玩家版）",
+    "S16 · 收官篇主持卡（GM）",
+    "S16 · 收官篇玩家道具（GM 展示用）"
+  ],
+  "refreshed": 23,
+  "pagesDeleted": 5,
   "passed": true
 }

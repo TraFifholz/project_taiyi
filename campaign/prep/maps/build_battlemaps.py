@@ -1,7 +1,7 @@
-"""第四话收官三张战斗地图：铜锅斗兽场、灾备演示厅、红线封街路口。
+"""第四话收官四张战斗地图：铜锅斗兽场、灾备演示厅、红线封街路口、康民诊所。
 
 用法（在仓库根目录 project_taiyi 下）：
-    python campaign/prep/maps/build_battlemaps.py            # 三张全出
+    python campaign/prep/maps/build_battlemaps.py            # 全部导出
     python campaign/prep/maps/build_battlemaps.py 铜锅斗兽场  # 只出一张
     python campaign/prep/maps/build_battlemaps.py --cell 50   # 按每格 50 像素导出
 每张输出到 campaign/prep/maps/<名字>/<名字>.{svg,png,webp}。
@@ -417,10 +417,60 @@ def hongxian() -> Svg:
     return s
 
 
+def kangmin() -> Svg:
+    GW, GH = 28, 18
+    s = Svg(GW, GH, ROCK)
+    s.rect(0, 0, GW, GH, fill='url(#rock)')
+    floor = '#8f9a96'
+    # 地下一层外墙
+    s.rect(1, 1, 27, 17, fill=floor, stroke=WALL, sw=10)
+    # 走廊
+    s.rect(1, 8, 27, 10.5, fill='#a7aaa2')
+    # 上排隔间
+    for i, x in enumerate(range(1, 21, 5)):
+        s.rect(x, 1, x + 5, 8, fill=floor, stroke=WALL, sw=6)
+        door_gap(s, x + 2, 8, x + 3.2, 8, floor='#a7aaa2')
+        s.label(x + 2.5, 2, f'隔间 {i + 1}', 20)
+        s.rect(x + 1.2, 3.2, x + 3.8, 6.2, fill='#d7d9d2', stroke='#444', sw=3)
+    # 诊疗室（中药柜、手术灯）
+    s.rect(21, 1, 27, 8, fill='#7d8a86', stroke=WALL, sw=8)
+    door_gap(s, 23.4, 8, 24.8, 8, floor='#a7aaa2')
+    s.label(24, 1.9, '诊疗室', 24)
+    s.rect(21.4, 2.8, 22.4, 7.4, fill=RUST, stroke='#3a2a20', sw=3)
+    s.label(21.9, 5.1, '中药柜', 16, rot=90)
+    s.rect(23.6, 3.8, 26.2, 5.4, fill='#d7d9d2', stroke='#444', sw=3)
+    s.circle(24.9, 4.6, 1.5, stroke=HAZARD, sw=3, dash='8 6')
+    # 下排：药房、病历机房、配电
+    s.rect(1, 10.5, 9, 17, fill=floor, stroke=WALL, sw=6)
+    door_gap(s, 4.2, 10.5, 5.6, 10.5, floor='#a7aaa2')
+    s.label(5, 13.6, '药房', 24)
+    s.rect(1.5, 15.6, 8.5, 16.5, fill=STEEL, stroke='#333', sw=3)
+    s.rect(9, 10.5, 17, 17, fill=floor, stroke=WALL, sw=6)
+    door_gap(s, 12.4, 10.5, 13.8, 10.5, floor='#a7aaa2')
+    s.label(13, 12.2, '病历机房', 24)
+    s.rect(10, 14.4, 16, 16.2, fill=STEEL, stroke='#333', sw=3)
+    s.label(13, 15.3, '机柜', 20)
+    s.rect(17, 10.5, 23, 17, fill=floor, stroke=WALL, sw=6)
+    door_gap(s, 19.4, 10.5, 20.8, 10.5, floor='#a7aaa2')
+    s.label(20, 13.6, '等候区', 24)
+    # 卷闸门楼梯与后巷通风井
+    s.rect(23, 10.5, 27, 17, fill=CONCRETE_D, stroke=WALL, sw=6)
+    door_gap(s, 24.4, 10.5, 25.8, 10.5, floor='#a7aaa2')
+    for y in range(12, 17):
+        s.line(23.4, y, 26.6, y, stroke='#444', sw=3)
+    s.label(25, 15.9, '上行至卷闸门', 18)
+    s.rect(1, 8.4, 2.2, 10.1, fill='url(#hazard)', stroke='#222', sw=3)
+    s.label(3.6, 9.25, '通风井', 18)
+    s.label(14, 9.25, '走廊', 22)
+    s.grid()
+    return s
+
+
 MAPS = {
     '铜锅斗兽场': tongguo,
     '灾备演示厅': zaibei,
     '红线封街路口': hongxian,
+    '康民诊所': kangmin,
 }
 
 

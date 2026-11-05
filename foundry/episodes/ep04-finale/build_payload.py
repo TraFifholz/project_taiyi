@@ -45,6 +45,7 @@ uploads = [
     {"local": str(MAPS / "红线封街路口" / "红线封街路口.webp"), "remote": "s16-fengjie.webp"},
     {"local": str(MAPS / "旧城管委会地下" / "旧城管委会地下-玩家版.webp"), "remote": "s16-dixia-player.webp"},
     {"local": str(MAPS / "旧城管委会地下" / "旧城管委会地下-GM版.webp"), "remote": "s16-dixia-gm.webp"},
+    {"local": str(MAPS / "康民诊所" / "康民诊所.webp"), "remote": "s17-kangmin.webp"},
 ]
 
 out = {"gmPages": gm_pages, "handouts": handouts, "uploads": uploads}

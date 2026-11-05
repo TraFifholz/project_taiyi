@@ -1,0 +1,308 @@
+[
+ {
+  "id": "ty-yisheng",
+  "name": "义胜盟",
+  "accent": "#8a6f5a",
+  "description": "龙散本地帮派，从爷爷辈扎根街区，带粤语口音。曾向老王头面馆涨保护费，收费系统是天海的产品。铜锅调停由一位拄龙头棍、任设计院主任的老人主持，他就是盟主闵三元。",
+  "members": [
+   {
+    "name": "卫铁生",
+    "role": "玄武区分舵红衣，自称"
+   },
+   {
+    "name": "杨振邦",
+    "role": "拳场场务"
+   }
+  ],
+  "relations": [
+   {
+    "target": "ty-guanwei",
+    "label": "共同对手",
+    "description": "卫铁生说管委会欠盟二三十万，愿与唐索联手。",
+    "disposition": "friendly"
+   },
+   {
+    "target": "ty-shuangyue",
+    "label": "同席调停",
+    "description": "鹿岛在铜锅与盟主同席，入内各拿各的可商量。",
+    "disposition": "neutral"
+   },
+   {
+    "target": "ty-aquila",
+    "label": "分账同场",
+    "description": "马铁鹰在铜锅参与吕文博遗产分账；卫铁生反对拉他们入伙。",
+    "disposition": "neutral"
+   },
+   {
+    "target": "ty-zhuifeng",
+    "label": "系统来源",
+    "description": "帮众说天海系统来自一个叫红的人，数据上传追风。",
+    "disposition": "neutral"
+   }
+  ],
+  "hidden": false
+ },
+ {
+  "id": "ty-shuangyue",
+  "name": "霜月会",
+  "accent": "#7d8a9a",
+  "description": "铜锅调停中出场的势力，代表是鹿岛，抽水烟。鹿岛称吕文博欠她约30万，为欲子设局招揽，留下云里路云里互娱的联络点。",
+  "members": [],
+  "relations": [
+   {
+    "target": "ty-yisheng",
+    "label": "同席调停",
+    "description": "铜锅调停时与义胜盟盟主同席。",
+    "disposition": "neutral"
+   },
+   {
+    "target": "ty-aquila",
+    "label": "分账同场",
+    "description": "同在铜锅争吕文博留下的钱，鹿岛要15万。",
+    "disposition": "neutral"
+   }
+  ],
+  "hidden": false
+ },
+ {
+  "id": "ty-aquila",
+  "name": "阿奎拉家族",
+  "accent": "#8f7a62",
+  "description": "港口一带的家族势力。马铁鹰自称其执行人，外号战车，砸毁欲子的越野车，归还李好的手机，受命搬机器人。",
+  "members": [
+   {
+    "name": "马铁鹰",
+    "role": "执行人，外号战车"
+   }
+  ],
+  "relations": [
+   {
+    "target": "ty-yisheng",
+    "label": "分账同场",
+    "description": "在铜锅与义胜盟、霜月会同场，战斗中受轻伤离开。",
+    "disposition": "neutral"
+   }
+  ],
+  "hidden": false
+ },
+ {
+  "id": "ty-xuandun",
+  "name": "玄盾国际",
+  "accent": "#6b7885",
+  "description": "安保企业，封锁旧城区，其 PMC 在港口办事处和地铁站出现。柳拂衣说它内部有三四个实验室培育超人，铜锅狙击手是它的罗凯。沈漫说自己在它的公开榜与私榜上都有名。",
+  "members": [],
+  "relations": [
+   {
+    "target": "ty-yisheng",
+    "label": "灭口之疑",
+    "description": "柳拂衣说狙击手是玄盾的罗凯，目的是给吕文博灭口。",
+    "disposition": "hostile"
+   },
+   {
+    "target": "ty-suiyuan",
+    "label": "通缉榜",
+    "description": "沈漫说李好大概在玄盾私榜低位，有人出钱通缉。",
+    "disposition": "hostile"
+   },
+   {
+    "target": "ty-guanwei",
+    "label": "队伍怀疑",
+    "description": "队伍怀疑方泰安的护卫与玄盾有关，方持玄盾个人金卡。",
+    "disposition": "neutral"
+   }
+  ],
+  "hidden": false
+ },
+ {
+  "id": "ty-bank",
+  "name": "引资银行",
+  "accent": "#7a8470",
+  "description": "李好所在的银行，龙散分行有工单池。分行行长问过资料，常务副行长裴秉钧兼专项督导组组长。影子银行大楼遭封楼袭击。",
+  "members": [
+   {
+    "name": "陈志远",
+    "role": "龙散分行主管"
+   },
+   {
+    "name": "何凌",
+    "role": "审查员，陈培安接替者"
+   }
+  ],
+  "relations": [
+   {
+    "target": "ty-guanwei",
+    "label": "配合调账",
+    "description": "陈志远让李好整理旧城管委会老账目，提醒阵仗很怪。",
+    "disposition": "neutral"
+   },
+   {
+    "target": "ty-suiyuan",
+    "label": "李好的同盟",
+    "description": "何凌与李好结盟，愿见李好的同伴；事务所聚餐由沈漫召集。",
+    "disposition": "friendly"
+   }
+  ],
+  "hidden": false
+ },
+ {
+  "id": "ty-zhuifeng",
+  "name": "追风出行",
+  "accent": "#b08a5a",
+  "description": "龙散出行物流企业，天海信息科技的金主。17名司机账号同日被注销，46万多元被冻结，申诉判词称团伙性异常接单。梁文川自称其前执行总裁、现技术高管。",
+  "members": [
+   {
+    "name": "梁文川",
+    "role": "自称前执行总裁、现技术高管"
+   },
+   {
+    "name": "赵明芝",
+    "role": "前司机，已故"
+   }
+  ],
+  "relations": [
+   {
+    "target": "ty-yisheng",
+    "label": "系统来源",
+    "description": "帮众说天海系统来自红，数据上传追风。",
+    "disposition": "neutral"
+   },
+   {
+    "target": "ty-guanwei",
+    "label": "设备往来",
+    "description": "梁文川确认管委会买过设备，要求实际证据。",
+    "disposition": "neutral"
+   }
+  ],
+  "hidden": false
+ },
+ {
+  "id": "ty-suiyuan",
+  "name": "随缘事务所",
+  "accent": "#9a8a6a",
+  "description": "沈漫的派遣事务所，PC 的据点，搬到故城区。网络只进不出。阿瑶住在这里，沈漫在警局登记为她的法定监护人，沈仲秋管电竞房和发电机。",
+  "members": [
+   {
+    "name": "沈漫",
+    "role": "老板"
+   },
+   {
+    "name": "沈仲秋",
+    "role": "管电竞房和发电机"
+   },
+   {
+    "name": "朱瑶光",
+    "role": "住在事务所，生命绑定对象"
+   }
+  ],
+  "relations": [
+   {
+    "target": "ty-xuandun",
+    "label": "通缉榜",
+    "description": "沈漫自述在玄盾榜上赫赫有名，李好在私榜低位。",
+    "disposition": "hostile"
+   },
+   {
+    "target": "ty-bank",
+    "label": "同盟",
+    "description": "何凌愿见李好的同伴，沈漫召李好当晚去事务所聚餐。",
+    "disposition": "friendly"
+   }
+  ],
+  "hidden": false
+ },
+ {
+  "id": "ty-qingshao",
+  "name": "青梢队／棍木",
+  "accent": "#6e7f8a",
+  "description": "闻笙领青梢队接应PC，称看到李好的未来；棍木会的棍木女送过李好木签。闻笙在铁山北展示预制案情、给出5月20日期限；队伍没有确认二者关系。",
+  "members": [
+   {
+    "name": "棍木女",
+    "role": "自称不存在的存在"
+   },
+   {
+    "name": "辛桦",
+    "role": "受闻笙之命接应"
+   }
+  ],
+  "relations": [
+   {
+    "target": "ty-guanwei",
+    "label": "队伍怀疑",
+    "description": "闻笙称白念秋之死与阴影中的大手有关，自己也可能借刀。",
+    "disposition": "neutral"
+   },
+   {
+    "target": "ty-yisheng",
+    "label": "方向指引",
+    "description": "闻笙建议PC去找义胜盟。",
+    "disposition": "neutral"
+   }
+  ],
+  "hidden": false
+ },
+ {
+  "id": "ty-guanwei",
+  "name": "旧城管委会",
+  "accent": "#7a6e66",
+  "description": "负责旧城重建，委员长方泰安。白念秋最后一单送往这里，李好奉命配合其调旧账，唐索买到其地下地图。何凌说方曾以义胜盟作黑手套，卫铁生称其贪了千万以上。",
+  "members": [],
+  "relations": [
+   {
+    "target": "ty-yisheng",
+    "label": "旧怨",
+    "description": "盟主说管委会献祭了白手套公司。卫说其欠盟的钱。",
+    "disposition": "hostile"
+   },
+   {
+    "target": "ty-bank",
+    "label": "调账往来",
+    "description": "银行协助其调旧账，宣亚拷走相关数据。",
+    "disposition": "neutral"
+   }
+  ],
+  "hidden": false
+ },
+ {
+  "id": "ty-chufeng",
+  "name": "楚风传媒",
+  "accent": "#8a7f93",
+  "description": "白念秋所属的传媒公司，帮她拿到地铁站拍摄许可，名义是旧城重建纪录片。李好通过她拉到过楚风大单。她死亡后，官方口径是服药过量，队伍存疑。",
+  "members": [
+   {
+    "name": "白念秋",
+    "role": "艺人，已故"
+   }
+  ],
+  "relations": [
+   {
+    "target": "ty-guanwei",
+    "label": "纪录片题材",
+    "description": "白念秋说公司知情，拍摄名义是旧城重建。",
+    "disposition": "neutral"
+   }
+  ],
+  "hidden": false
+ },
+ {
+  "id": "ty-jiange",
+  "name": "剑阁",
+  "accent": "#7d8873",
+  "description": "纪小刀自称剑阁使者，到汽修营地给欲子传话，说铜锅届时由拂衣到场。队伍推测他私谈时开了读心。他还提供过学校地下防空通道的线索，欲子与李好各见过他。",
+  "members": [
+   {
+    "name": "纪小刀",
+    "role": "使者"
+   }
+  ],
+  "relations": [
+   {
+    "target": "ty-yisheng",
+    "label": "传话",
+    "description": "替铜锅约定传话，铜锅到场者为柳拂衣。",
+    "disposition": "neutral"
+   }
+  ],
+  "hidden": false
+ }
+]

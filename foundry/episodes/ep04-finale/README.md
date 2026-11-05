@@ -13,6 +13,13 @@
   - **S16 · 收官篇玩家道具（GM 展示用）**：9 件道具加地下结构图共 10 页。页面不带“何时交出”，交出时用“展示给玩家”。
 - **图片**：`worlds/taiyi/assets/maps/s16/` 下 4 张 webp（灾备厅、封街、地下玩家版、地下 GM 版）。
 
+## 2026-11-05 S17 更新
+
+- **场景**：新增“S17 · 康民诊所”（28×18 格，隐藏 Token，未激活）：吕文博的保险 ×1、鬼火 ×5。
+- **角色**：新增文件夹“第四话 S17 · 诊所”，鬼火（龙套）、吕文博的保险（不羁）。由 `deploy-s17-actors.mjs` 建立，重复运行时跳过同名角色。
+- **日志**：两本日志按 S16 实跑校正后的卡片刷新。页名改了的（02、05、道具 2、3、6）删旧建新，新增道具 10。
+- 罗恺的世界卡没动，S16 展现的隐身狙击和黑雾写在 `campaign/prep/sessions/S16-NPC数据.md` 第 7.0 节。
+
 ## 沿用世界里已有的
 
 没有新建 Actor。Token 全部用世界里已有的角色卡：“第四话 S15 · 铜锅与B3”的方泰安 · 困兽、罗恺湿活组；“城市人物”的郁垒、秦有邻；EP03 的罗恺；第四话 A/B 的 PMC 步枪手、管委会外围执勤员。铜锅沿用已有场景“S15 · 铜锅地下拳场”，吕文博沿用已有卡和头像（仓库里另有一张 NAI 新绘 `LS-NPC-N4` 作备选，没有上传）。
@@ -21,9 +28,10 @@
 
 ```sh
 python -I foundry/episodes/ep04-finale/build_payload.py
+node foundry/episodes/ep04-finale/deploy-s17-actors.mjs                 # 建鬼火与保险；须在部署前，场景要引用它们
 node foundry/episodes/ep04-finale/deploy.mjs                            # 部署；同名场景、日志已存在就跳过
 node foundry/episodes/ep04-finale/deploy.mjs --verify                   # 只回读校验
-node foundry/episodes/ep04-finale/deploy.mjs --verify --refresh-pages   # 卡片改过后，原地更新两本日志的正文
+node foundry/episodes/ep04-finale/deploy.mjs --verify --refresh-pages   # 卡片改过后，同步两本日志（更新同名页、补建新页、删除旧页）
 ```
 
 服务器同一时间只跑一个世界，部署前确认当前是 `taiyi`（`/api/status`）。登录用 `silver-wing/tools/fvtt` 的 QA 账号。本机 shell 设了代理 127.0.0.1:17890，curl 要加 `--noproxy '*'`；Node 的 fetch 默认直连，不受影响。

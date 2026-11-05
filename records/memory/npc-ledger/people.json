@@ -1,0 +1,611 @@
+[
+ {
+  "name": "沈漫",
+  "kind": "human",
+  "state": "在世",
+  "note": "S16 救回李好",
+  "actor": "沈漫"
+ },
+ {
+  "name": "周凛",
+  "kind": "human",
+  "state": "离城",
+  "note": "S15 回复已离开，劝欲子别接工作",
+  "actor": "周凛"
+ },
+ {
+  "name": "翟明珠",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "翟明珠"
+ },
+ {
+  "name": "陆文青",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "陆文青"
+ },
+ {
+  "name": "何夜白",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "何夜白"
+ },
+ {
+  "name": "方泰安",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "方泰安"
+ },
+ {
+  "name": "码头工人服委托人",
+  "kind": "unknown",
+  "state": "不明",
+  "note": "",
+  "actor": "码头工人服委托人"
+ },
+ {
+  "name": "陈志远",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "陈志远"
+ },
+ {
+  "name": "何凌",
+  "kind": "human",
+  "state": "在世",
+  "note": "S16 与李好结盟",
+  "actor": "何凌"
+ },
+ {
+  "name": "港资背景老总",
+  "kind": "unknown",
+  "state": "不明",
+  "note": "",
+  "actor": "港资背景老总"
+ },
+ {
+  "name": "宋远",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "宋远"
+ },
+ {
+  "name": "萨布里娜·费雷拉",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "萨布里娜·费雷拉"
+ },
+ {
+  "name": "阿瑶",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "朱瑶光"
+ },
+ {
+  "name": "黑骑士",
+  "kind": "entity",
+  "state": "不明",
+  "note": "",
+  "actor": "黑骑士"
+ },
+ {
+  "name": "沈仲秋",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "沈仲秋"
+ },
+ {
+  "name": "老王头",
+  "kind": "human",
+  "state": "失踪",
+  "note": "S5 起下落不明；迷失者是沈漫的猜测",
+  "actor": "老王头"
+ },
+ {
+  "name": "义盛盟收数人",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "义盛盟收数人"
+ },
+ {
+  "name": "老王头前妻",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "老王头前妻"
+ },
+ {
+  "name": "贾红",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "贾红"
+ },
+ {
+  "name": "刘大妈",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "刘大妈"
+ },
+ {
+  "name": "PMC 港口女文员",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "PMC 港口女文员"
+ },
+ {
+  "name": "铁手（李铁牙）",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "铁手（李铁牙）"
+ },
+ {
+  "name": "义胜盟业务员",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "义胜盟业务员"
+ },
+ {
+  "name": "阿三",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "阿三"
+ },
+ {
+  "name": "阿七",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "阿七"
+ },
+ {
+  "name": "韩星",
+  "kind": "unknown",
+  "state": "离线",
+  "note": "S5 起失联",
+  "actor": "男偶像"
+ },
+ {
+  "name": "死灵术士",
+  "kind": "entity",
+  "state": "退走",
+  "note": "S5 被“天灾”逼退，宣称会回来",
+  "actor": "死灵术士"
+ },
+ {
+  "name": "摄像头里的声音",
+  "kind": "entity",
+  "state": "不明",
+  "note": "",
+  "actor": "摄像头里的声音"
+ },
+ {
+  "name": "S.H.",
+  "kind": "unknown",
+  "state": "不明",
+  "note": "",
+  "actor": "S.H."
+ },
+ {
+  "name": "红皇后",
+  "kind": "unknown",
+  "state": "不明",
+  "note": "",
+  "actor": "红皇后"
+ },
+ {
+  "name": "莲花路派出所前台女警",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "莲花路派出所前台女警"
+ },
+ {
+  "name": "天海信息科技CEO",
+  "kind": "human",
+  "state": "被捕",
+  "note": "S5 被警方逮捕",
+  "actor": "天海信息科技CEO"
+ },
+ {
+  "name": "白念秋",
+  "kind": "human",
+  "state": "已故",
+  "note": "S10 新闻死讯；官方口径服药过量，PC 存疑",
+  "actor": "白念秋"
+ },
+ {
+  "name": "张武成",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "张武成"
+ },
+ {
+  "name": "隔壁组老板",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "隔壁组老板"
+ },
+ {
+  "name": "陈培安",
+  "kind": "human",
+  "state": "失踪",
+  "note": "S6 起失踪；S13 报名；闻笙称其成为迷失者",
+  "actor": "陈培安"
+ },
+ {
+  "name": "尼索科托夫",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "白桦树"
+ },
+ {
+  "name": "棍木女",
+  "kind": "unknown",
+  "state": "不明",
+  "note": "",
+  "actor": "棍木女"
+ },
+ {
+  "name": "白芷秋",
+  "kind": "human",
+  "state": "已故",
+  "note": "S8 枪击案遇害",
+  "actor": "白芷秋"
+ },
+ {
+  "name": "地铁站服务器管理员",
+  "kind": "entity",
+  "state": "不明",
+  "note": "",
+  "actor": "地铁站服务器管理员"
+ },
+ {
+  "name": "劳务派遣阿姨",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "劳务派遣阿姨"
+ },
+ {
+  "name": "李武冠",
+  "kind": "human",
+  "state": "已故",
+  "note": "S8 被欲子击倒，S9 笔录按死亡处理",
+  "actor": "李武冠"
+ },
+ {
+  "name": "独眼保安",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "独眼保安"
+ },
+ {
+  "name": "罗丢萨",
+  "kind": "unknown",
+  "state": "不明",
+  "note": "",
+  "actor": "罗丢萨"
+ },
+ {
+  "name": "苏志国",
+  "kind": "entity",
+  "state": "疑故",
+  "note": "PC 视为已死，本人未验证；S10 数据幽灵被击散",
+  "actor": "苏志国"
+ },
+ {
+  "name": "白芷秋的房东",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "白芷秋的房东"
+ },
+ {
+  "name": "花店老板",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "花店老板"
+ },
+ {
+  "name": "收尸人",
+  "kind": "entity",
+  "state": "不明",
+  "note": "",
+  "actor": "收尸人"
+ },
+ {
+  "name": "双重",
+  "kind": "entity",
+  "state": "不明",
+  "note": "",
+  "actor": "双重"
+ },
+ {
+  "name": "梁文川",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "梁文川"
+ },
+ {
+  "name": "陈斌",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "陈斌"
+ },
+ {
+  "name": "赵明芝",
+  "kind": "human",
+  "state": "已故",
+  "note": "S12 片尾口播 5/13 触电身亡，S13 的交货在此之前",
+  "actor": "赵明芝"
+ },
+ {
+  "name": "朱蘅",
+  "kind": "human",
+  "state": "失踪",
+  "note": "S11 沈漫口述 2022-01-14 后失踪",
+  "actor": "朱恒（身份待核）"
+ },
+ {
+  "name": "黑车",
+  "kind": "entity",
+  "state": "不明",
+  "note": "",
+  "actor": "黑车"
+ },
+ {
+  "name": "修车站老板",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "修车站老板"
+ },
+ {
+  "name": "银行前台",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "银行前台"
+ },
+ {
+  "name": "老周",
+  "kind": "human",
+  "state": "已故",
+  "note": "S12 坠楼",
+  "actor": "老周"
+ },
+ {
+  "name": "码头旧派单人",
+  "kind": "human",
+  "state": "已故",
+  "note": "S12 坠楼",
+  "actor": "码头旧派单人"
+ },
+ {
+  "name": "马铁鹰",
+  "kind": "human",
+  "state": "在世",
+  "note": "S16 受轻伤后离开",
+  "actor": "马铁鹰"
+ },
+ {
+  "name": "夏满弓",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "夏满弓"
+ },
+ {
+  "name": "神秘闪电SUV男",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "神秘闪电SUV男"
+ },
+ {
+  "name": "闻笙",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "闻笙"
+ },
+ {
+  "name": "辛桦",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "辛桦"
+ },
+ {
+  "name": "林度",
+  "kind": "unknown",
+  "state": "不明",
+  "note": "",
+  "actor": "林度"
+ },
+ {
+  "name": "交管7号",
+  "kind": "entity",
+  "state": "不明",
+  "note": "",
+  "actor": "交管7号"
+ },
+ {
+  "name": "苗可栗",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "苗可栗"
+ },
+ {
+  "name": "罗弈",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "罗弈"
+ },
+ {
+  "name": "紫电护卫",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "紫电护卫"
+ },
+ {
+  "name": "陶景衡",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "陶景衡"
+ },
+ {
+  "name": "裴秉钧",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "裴秉钧"
+ },
+ {
+  "name": "纪小刀",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "纪小刀"
+ },
+ {
+  "name": "卫铁生",
+  "kind": "human",
+  "state": "在世",
+  "note": "S16 与唐索口头联手",
+  "actor": "卫铁生"
+ },
+ {
+  "name": "柳拂衣",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "柳拂衣"
+ },
+ {
+  "name": "神经科学研究者",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "神经科学研究者"
+ },
+ {
+  "name": "红",
+  "kind": "unknown",
+  "state": "不明",
+  "note": "",
+  "actor": "红"
+ },
+ {
+  "name": "吕文博",
+  "kind": "human",
+  "state": "已故",
+  "note": "S16 铜锅被狙杀",
+  "actor": "吕文博"
+ },
+ {
+  "name": "茶楼袭击队不羁领队",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "茶楼袭击队不羁领队"
+ },
+ {
+  "name": "周五夜西装枪手",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "周五夜西装枪手"
+ },
+ {
+  "name": "年轻白发女性",
+  "kind": "unknown",
+  "state": "不明",
+  "note": "",
+  "actor": "年轻白发女性"
+ },
+ {
+  "name": "lh",
+  "kind": "unknown",
+  "state": "不明",
+  "note": "",
+  "actor": "lh"
+ },
+ {
+  "name": "影子银行武装部守卫",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "影子银行武装部守卫"
+ },
+ {
+  "name": "铜锅守门人",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "铜锅守门人"
+ },
+ {
+  "name": "杨振邦",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "杨振邦"
+ },
+ {
+  "name": "闵三元",
+  "kind": "human",
+  "state": "在世",
+  "note": "2026-11-06 用户裁定：闵三元就是盟主；立绘仍是账房形象",
+  "actor": "闵三元"
+ },
+ {
+  "name": "鹿岛绫",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "鹿岛绫"
+ },
+ {
+  "name": "隐身狙击手",
+  "kind": "human",
+  "state": "在世",
+  "note": "S16 化黑雾离开",
+  "actor": "罗恺"
+ },
+ {
+  "name": "影子银行行长",
+  "kind": "human",
+  "state": "在世",
+  "note": "",
+  "actor": "影子银行行长"
+ }
+]

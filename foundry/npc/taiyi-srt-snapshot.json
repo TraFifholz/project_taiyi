@@ -1,0 +1,2216 @@
+{
+ "takenAt": "2026-11-05T18:15:12.419Z",
+ "permissions": {
+  "playerEditAppearancePermission": "\"OFF\"",
+  "playerEditEventsPermission": "\"OFF\"",
+  "playerEditRankPermission": "\"OFF\"",
+  "playerEditMinimumRole": "\"PLAYER\"",
+  "playerPermissionSchemaVersion": "1",
+  "playerEditStructurePermission": "\"OFF\"",
+  "playerEditCharacterStatusesPermission": "\"OFF\"",
+  "playerEditBasicPermission": "\"OFF\"",
+  "playerEditStatsPermission": "\"OFF\"",
+  "playerEditNotesPermission": "\"OWNER\"",
+  "playerEditMinimumPermission": "\"OWNER\"",
+  "playerEditTypePermission": "\"OFF\"",
+  "allowPlayerEditOwnRelationships": "true",
+  "playerViewPermission": "\"OWNER\"",
+  "playerRankControlsPermission": "\"OFF\""
+ },
+ "actors": [
+  {
+   "id": "0LHEjmZDMASx14Fc",
+   "name": "童司南",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-031.webp"
+  },
+  {
+   "id": "0da6344f62a6c2d3",
+   "name": "无标识抓捕枪手",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+  },
+  {
+   "id": "0ea4f2ed8e10cc42",
+   "name": "PMC队长",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+  },
+  {
+   "id": "0tfTRFx97cvIsWP4",
+   "name": "沈折琼",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-048.webp"
+  },
+  {
+   "id": "1247d4524316e895",
+   "name": "PMC步枪手",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+  },
+  {
+   "id": "195642ee5ca84487",
+   "name": "防弹押送车",
+   "type": "vehicle",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-M3.png"
+  },
+  {
+   "id": "1AzejlGF2afr3Gsy",
+   "name": "方见",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-017.webp"
+  },
+  {
+   "id": "27bI4x78JIvvQDk4",
+   "name": "陈斌",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-100.webp"
+  },
+  {
+   "id": "298635cb754b5aea",
+   "name": "中继车 M-3",
+   "type": "vehicle",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-M3.png"
+  },
+  {
+   "id": "2YEzICTcbBxgNpxY",
+   "name": "翟明珠",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-006-20260902-pink-v4.webp"
+  },
+  {
+   "id": "2fyVAmIb3E5TIm8L",
+   "name": "Necromancer",
+   "type": "npc",
+   "img": "modules/swade-supers-companion/assets/pawns/necromancer-mauricio-caballero-adrian-rodriguez.webp"
+  },
+  {
+   "id": "327bdbb9fc7162d5",
+   "name": "追风机械犬",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-A-hound.webp"
+  },
+  {
+   "id": "389b4cc35538b135",
+   "name": "青梢队行动车",
+   "type": "vehicle",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-QINGSHAO.png"
+  },
+  {
+   "id": "3NyAUr5b8np4WF32",
+   "name": "于正清",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-078.webp"
+  },
+  {
+   "id": "3QalyVNUzgOSAb3H",
+   "name": "郁垒",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-053.webp"
+  },
+  {
+   "id": "3a333216b680256b",
+   "name": "马铁鹰的短轴冷藏厢车",
+   "type": "vehicle",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-COLD-TRUCK.png"
+  },
+  {
+   "id": "3b235949f8822316",
+   "name": "合规清理员",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-EXTRA-CLEANER-nai-avatar.webp"
+  },
+  {
+   "id": "43L2XckW5Vtl8y3j",
+   "name": "马铁鹰 · 铜锅外骨骼",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-067.webp"
+  },
+  {
+   "id": "480d85e94c62cb42",
+   "name": "梁文川 · A场支援",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-101.webp"
+  },
+  {
+   "id": "4BEAUwXJeiCv4fNt",
+   "name": "何问舟",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-038.webp"
+  },
+  {
+   "id": "4eabff7af19862ee",
+   "name": "管委会外围执勤员",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-B-official.webp"
+  },
+  {
+   "id": "56zQaHvqAHFH7SjP",
+   "name": "义胜盟蓝衣",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-A-thug.webp"
+  },
+  {
+   "id": "57BoaQ7gjSSojsma",
+   "name": "陆文青",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-001.webp"
+  },
+  {
+   "id": "57cb77448d90157a",
+   "name": "辛桦",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-XIN-HUA-%E8%BE%9B%E6%A1%A6-avatar.webp"
+  },
+  {
+   "id": "58225f08c387421e",
+   "name": "冷藏车司机",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-EXTRA-MA-DRIVER-nai-avatar.webp"
+  },
+  {
+   "id": "5IrGfYdHLCMXNrTs",
+   "name": "顾全有",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-035.webp"
+  },
+  {
+   "id": "5b6241d2848e8926",
+   "name": "堵路厢车",
+   "type": "vehicle",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-COLD-TRUCK.png"
+  },
+  {
+   "id": "5qiSuwg0uZmQPgxH",
+   "name": "陶景衡",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-S15-taojingheng-v3.webp"
+  },
+  {
+   "id": "6970ba22eb073244",
+   "name": "何凌 · B场行动",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-046.webp"
+  },
+  {
+   "id": "698ef8d10a6b1491",
+   "name": "罗恺的白色 SUV",
+   "type": "vehicle",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-WHITE-SUV.png"
+  },
+  {
+   "id": "69fac60bf50249b8",
+   "name": "轻型履带警戒机",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-A-heavy-v4.webp"
+  },
+  {
+   "id": "6hT9gap8LopThul3",
+   "name": "卫铁生",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-056.webp"
+  },
+  {
+   "id": "70fab6ef9664fff0",
+   "name": "封路自动机",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-B-blocker.webp"
+  },
+  {
+   "id": "754f316da9072c08",
+   "name": "重盾抓捕队长",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-B-shield.webp"
+  },
+  {
+   "id": "7768111d88fdd297",
+   "name": "PMC操机员兼司机",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-A-operator.webp"
+  },
+  {
+   "id": "79a02db6071ff86d",
+   "name": "追风重型自走机",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-A-heavy-multi-v2.webp"
+  },
+  {
+   "id": "7aQZVS47M2oWodIk",
+   "name": "马铁鹰",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-067.webp"
+  },
+  {
+   "id": "864f29cc4b5e420c",
+   "name": "欲子的退役玄盾巡逻越野车",
+   "type": "vehicle",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-PATROL-SUV.png"
+  },
+  {
+   "id": "8HBCHnnWHDWRKLEl",
+   "name": "LR-07",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-073.webp"
+  },
+  {
+   "id": "8reSp32FqPzuRZf1",
+   "name": "警犬固件",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-A-hound.webp"
+  },
+  {
+   "id": "9fPcKPAaOmzAEddl",
+   "name": "曲阿七",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-013.webp"
+  },
+  {
+   "id": "9gAKuBGUBUTAHcoR",
+   "name": "纪清商",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-039.webp"
+  },
+  {
+   "id": "9kb2Jtpc85cvY85O",
+   "name": "「庄家」赌档守护程序",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-S15-ice-zhuangjia.webp"
+  },
+  {
+   "id": "9zEDeY2FWiqEvbpE",
+   "name": "贺梦琪",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-069.webp"
+  },
+  {
+   "id": "ACloRaZSkKutukPP",
+   "name": "党怀沙",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-004.webp"
+  },
+  {
+   "id": "Al9LGpY49FbRx5Qk",
+   "name": "老井（井叔）",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-070.webp"
+  },
+  {
+   "id": "AoAySniG9cDoQ6K7",
+   "name": "红皇后",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-106.webp"
+  },
+  {
+   "id": "BYSHQJWElHDmOQKP",
+   "name": "霜虫",
+   "type": "npc",
+   "img": "tokenizer/npc-avatars/Avatar.%E9%9C%9C%E8%99%AB.webp?v=1786116353044"
+  },
+  {
+   "id": "CFTqZFD29ecgs9ng",
+   "name": "Zombie",
+   "type": "npc",
+   "img": "modules/swade-core-rules/assets/art/bestiary/Zombie.webp"
+  },
+  {
+   "id": "COkMejJ9Z3LcNwvb",
+   "name": "文小篆",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-086.webp"
+  },
+  {
+   "id": "DRgDGdAoKoyE97ZW",
+   "name": "柳拂衣",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-059.webp"
+  },
+  {
+   "id": "DRsx89mriRTnvoJJ",
+   "name": "苏小晚",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-034.webp"
+  },
+  {
+   "id": "Dgsq3cLSLaMGyKDH",
+   "name": "甘采蓝",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-019.webp"
+  },
+  {
+   "id": "EGVcJBdUQsjJQewT",
+   "name": "路人",
+   "type": "npc",
+   "img": "icons/svg/mystery-man.svg"
+  },
+  {
+   "id": "ELxrslbsSHQg0cmK",
+   "name": "唐索",
+   "type": "character",
+   "img": "tokenizer/pc-images/707090.Avatar.webp?1779350452501"
+  },
+  {
+   "id": "FCAx9DVCPshCVdbK",
+   "name": "田进财",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-014.webp"
+  },
+  {
+   "id": "FMxMv42x0bt57VXD",
+   "name": "艾德礼·霍华德",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-050.webp"
+  },
+  {
+   "id": "GPLMdpqQpn3p542u",
+   "name": "罗恺手下 · 黑西装账房",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-S15-zhangfang-v3.webp"
+  },
+  {
+   "id": "GkjbhmkUhK5pESha",
+   "name": "凌渡",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-085.webp"
+  },
+  {
+   "id": "HEV4sZQZbIjKChdI",
+   "name": "面包车",
+   "type": "vehicle",
+   "img": "icons/svg/mystery-man.svg"
+  },
+  {
+   "id": "HWPK89onJnRj4DcE",
+   "name": "谢翠莲",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-092.webp"
+  },
+  {
+   "id": "HavqRSIgJUiteDOy",
+   "name": "「值班长」7F 安保中枢",
+   "type": "npc",
+   "img": "icons/svg/eye.svg"
+  },
+  {
+   "id": "HcJE2gk2MnZl2lS0",
+   "name": "薄晚",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-074.webp"
+  },
+  {
+   "id": "IK6oqvb7LMexuwgj",
+   "name": "葛兆康（老葛）",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-025.webp"
+  },
+  {
+   "id": "JQAqnnjrcHzvOXpa",
+   "name": "霍云骧",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-022.webp"
+  },
+  {
+   "id": "JZzMAVYiTMoARt04",
+   "name": "「门神」B3 楼宇自控网关",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-S15-ice-menshen.webp"
+  },
+  {
+   "id": "KKNEEOiMwCNES5gO",
+   "name": "网络设备 · 安防 d8",
+   "type": "npc",
+   "img": "icons/svg/circle.svg"
+  },
+  {
+   "id": "KwehyM2AWAaHV2ME",
+   "name": "陈志远",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-044.webp"
+  },
+  {
+   "id": "La9J3W24YIojOuKb",
+   "name": "Ghost",
+   "type": "npc",
+   "img": "modules/swade-core-rules/assets/art/bestiary/Ghost.webp"
+  },
+  {
+   "id": "LmaEpGKUt10QoPW0",
+   "name": "金舸",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-045.webp"
+  },
+  {
+   "id": "MnHV47cJxYL4RSVB",
+   "name": "郜白",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-009.webp"
+  },
+  {
+   "id": "MvR1P0Rq0GFUOi2A",
+   "name": "李好四轮车",
+   "type": "vehicle",
+   "img": "icons/svg/mystery-man.svg"
+  },
+  {
+   "id": "NIwH1P8pNBMmL2S4",
+   "name": "网络设备 · 安防 d6",
+   "type": "npc",
+   "img": "icons/svg/circle.svg"
+  },
+  {
+   "id": "NUIE1vhFiLtUklK2",
+   "name": "卓近火",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-018.webp"
+  },
+  {
+   "id": "O7ycDu9ixwbBxy1d",
+   "name": "宋远",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-065.webp"
+  },
+  {
+   "id": "OJWrqdjFqUyOqbBO",
+   "name": "白桦树",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/shops/20260903/birch-avatar-v1.webp"
+  },
+  {
+   "id": "OKIMH0V1uQY7eBM6",
+   "name": "钟月台",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-030.webp"
+  },
+  {
+   "id": "PmojUTiwUpFLHOfw",
+   "name": "黑川",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-105.webp"
+  },
+  {
+   "id": "Q2pOW4gc7EVp8zLU",
+   "name": "引资银行安保（7F）",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-B-official.webp"
+  },
+  {
+   "id": "QifpVPyNn5JqftkM",
+   "name": "宋光明",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-093.webp"
+  },
+  {
+   "id": "QlguyKmLQpdAhIlc",
+   "name": "林彬",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-091.webp"
+  },
+  {
+   "id": "RJ33Y3n9CnPNI3gx",
+   "name": "何夜白",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-061.webp"
+  },
+  {
+   "id": "RlyKuc5Nvyjh28Tw",
+   "name": "邢九重",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-027.webp"
+  },
+  {
+   "id": "RpUnkVY883GLocrU",
+   "name": "赛博诊所",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/shops/20260903/clinic-avatar-v1.webp"
+  },
+  {
+   "id": "RqRwsNovNTzMLxwh",
+   "name": "周凛",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-096.webp"
+  },
+  {
+   "id": "UQ6s5kAKxZWk7yW6",
+   "name": "闵三元",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-058.webp"
+  },
+  {
+   "id": "VDYehYYptYa6HoSR",
+   "name": "燕尺素",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-005.webp"
+  },
+  {
+   "id": "W04MWmMXNCCftHlu",
+   "name": "冯宁汐",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-041.webp"
+  },
+  {
+   "id": "WGt118EU05eesbFr",
+   "name": "纪小刀",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-060.webp"
+  },
+  {
+   "id": "WLZGos0f2rJ17PVL",
+   "name": "夏满弓",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-051.webp"
+  },
+  {
+   "id": "X2SZWB0NAfdllkvy",
+   "name": "阿岛俊",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-043.webp"
+  },
+  {
+   "id": "XiQXexl1CAyOi6uk",
+   "name": "秦有邻",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-079.webp"
+  },
+  {
+   "id": "YFZp5ZtD2HA6bznJ",
+   "name": "杨振邦",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-094.webp"
+  },
+  {
+   "id": "Yh75cL4suvw30q8q",
+   "name": "九条千寻",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-062.webp"
+  },
+  {
+   "id": "a1z7lVrqv6W7wDFI",
+   "name": "朱瑶光",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-090.webp"
+  },
+  {
+   "id": "a6yzxpYqucKhsoMu",
+   "name": "威格广场",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/shops/20260903/wiegand-avatar-v1.webp"
+  },
+  {
+   "id": "afe354e8fe5faec3",
+   "name": "零号库载车 Z-0",
+   "type": "vehicle",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-Z0.png"
+  },
+  {
+   "id": "b3b81823b27161e4",
+   "name": "防弹押送车司机",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-A-operator.webp"
+  },
+  {
+   "id": "b4997e4d3a843500",
+   "name": "方泰安的防弹轿车",
+   "type": "vehicle",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-PASSENGER.png"
+  },
+  {
+   "id": "bZeVGbjdNOzQUeyH",
+   "name": "秦时雨",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-029.webp"
+  },
+  {
+   "id": "bnH2ArnAUr584IMt",
+   "name": "苗铁城",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-003.webp"
+  },
+  {
+   "id": "c18720a6766a487e",
+   "name": "超级特工",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-B-agent.webp"
+  },
+  {
+   "id": "c97aece17d9be1cc",
+   "name": "M-3 随车审计员",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-EXTRA-AUDITOR-nai-avatar.webp"
+  },
+  {
+   "id": "c9CMnekZUT44LGED",
+   "name": "梁文川",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-101.webp"
+  },
+  {
+   "id": "cb2e6d3b234b58bb",
+   "name": "方泰安 · B-D连续战斗",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-077.webp"
+  },
+  {
+   "id": "cdESIH9b3XCTsX5K",
+   "name": "S.H.",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-072.webp"
+  },
+  {
+   "id": "cklvc9bYITPdZmcz",
+   "name": "周敏",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-N1.webp"
+  },
+  {
+   "id": "cpCLV685uyKpwRUu",
+   "name": "拾荒站",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/shops/20260903/salvage-avatar-v1.webp"
+  },
+  {
+   "id": "cthqSnquc0kZpCr5",
+   "name": "男偶像",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-107.webp"
+  },
+  {
+   "id": "d4624da235257d3a",
+   "name": "PMC装甲指挥车",
+   "type": "vehicle",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-M3.png"
+  },
+  {
+   "id": "dVY3kCrHc0WYyKEa",
+   "name": "李好",
+   "type": "character",
+   "img": "tokenizer/pc-images/842735.Avatar.webp?1779350395554"
+  },
+  {
+   "id": "db91d24426d5d760",
+   "name": "封后路的街头打手",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-A-thug.webp"
+  },
+  {
+   "id": "e259aa8a691ed14b",
+   "name": "追风载客轿车／空诱饵车",
+   "type": "vehicle",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-VEHICLE-PASSENGER.png"
+  },
+  {
+   "id": "edf233155b4144b1",
+   "name": "青梢队成员",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-EXTRA-QINGSHAO-nai-avatar.webp"
+  },
+  {
+   "id": "etV3yeQpnAJHE7BA",
+   "name": "卢卡·阿奎拉",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-066.webp"
+  },
+  {
+   "id": "eubCIDi10WeO2cx5",
+   "name": "萨布里娜·费雷拉",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-095.webp"
+  },
+  {
+   "id": "f0767585fdbe1cf3",
+   "name": "夏磊",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-XIA-LEI-%E5%A4%8F%E7%A3%8A-avatar.webp"
+  },
+  {
+   "id": "f12d924cee9432a9",
+   "name": "陈志远 · B场疏散",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-044.webp"
+  },
+  {
+   "id": "f4202ab0f6698a33",
+   "name": "追风警戒无人机",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-EXTRA-DRONE-nai-avatar.webp"
+  },
+  {
+   "id": "f5cd5bab755a2027",
+   "name": "罗恺",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP03-LUO-KAI-%E7%BD%97%E6%81%BA-avatar.webp"
+  },
+  {
+   "id": "fBAjZP6g3eZJcGRR",
+   "name": "苏碧城",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-081.webp"
+  },
+  {
+   "id": "fJ9DysjHxxYTN1nh",
+   "name": "林鹤",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-104.webp"
+  },
+  {
+   "id": "fVhzAQtuu0k43cEJ",
+   "name": "周清梅",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-021.webp"
+  },
+  {
+   "id": "fsDx0SJGMfcP5Hpk",
+   "name": "白鸢",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-049.webp"
+  },
+  {
+   "id": "gBq6GwDgNfcln8lB",
+   "name": "沈仲秋",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-089.webp"
+  },
+  {
+   "id": "gRRjgs29ZBBPH4fC",
+   "name": "程雯",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-N2.webp"
+  },
+  {
+   "id": "gTmMOIwGa6flQvNZ",
+   "name": "赵明芝",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-033.webp"
+  },
+  {
+   "id": "gadGwYGyXgzgEfpp",
+   "name": "沈漫",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-088.webp"
+  },
+  {
+   "id": "gnoWJXlg9MsPQhKJ",
+   "name": "朱见微",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-080.webp"
+  },
+  {
+   "id": "gqYzqclYIwmJiUy2",
+   "name": "裴秉钧",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-S15-peibingjun-v3.webp"
+  },
+  {
+   "id": "hLv6EX172EdiaNbE",
+   "name": "玄盾国际后勤部",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/shops/20260903/xuandun-avatar-v1.webp"
+  },
+  {
+   "id": "iBJN4yYdbbbbuyfU",
+   "name": "方泰安",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-077.webp"
+  },
+  {
+   "id": "iK2yifpOe0A65J8H",
+   "name": "鹿岛绫",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-063.webp"
+  },
+  {
+   "id": "iPBpGEGMeukkWOlq",
+   "name": "朱恒（身份待核）",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-103.webp"
+  },
+  {
+   "id": "iTPa87b4Sqdw6cWF",
+   "name": "鬼火",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/maps/s16/s17-wisp.webp"
+  },
+  {
+   "id": "j3f9G2P4vDSmmxZw",
+   "name": "雷武龙",
+   "type": "character",
+   "img": "tokenizer/pc-images/38032938.Avatar.webp?1779350335424"
+  },
+  {
+   "id": "jzoMevmSzqwRs6ty",
+   "name": "单小鹿",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-015.webp"
+  },
+  {
+   "id": "kGs7CiqMLYuIa8Fb",
+   "name": "猫",
+   "type": "npc",
+   "img": "tokenizer/npc-avatars/Avatar.%E7%8C%AB.webp?v=1789139730296"
+  },
+  {
+   "id": "kN0n8a6t0iYEfIYe",
+   "name": "甘棠",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-026.webp"
+  },
+  {
+   "id": "kXQo1FBuVNbjbdF8",
+   "name": "巫明烛",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-052.webp"
+  },
+  {
+   "id": "kk159q86nfyUl5dS",
+   "name": "玄圭",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-076.webp"
+  },
+  {
+   "id": "kwipLU20vMECXjOk",
+   "name": "铁手（李铁牙）",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-057.webp"
+  },
+  {
+   "id": "lfKXyKkn2gwF3OHi",
+   "name": "沃可佳",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/shops/20260903/wokajia-avatar-v1.webp"
+  },
+  {
+   "id": "mUxXjfIB3td5v4UX",
+   "name": "重黎工业集团",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/shops/20260903/chongli-avatar-v1.webp"
+  },
+  {
+   "id": "mYC7WLFuZPzfJ2Lc",
+   "name": "白鹤年",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-054.webp"
+  },
+  {
+   "id": "mazBy3sMfVNfxDbv",
+   "name": "罗恺湿活组 · 黑衣枪手",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-A-rifle.webp"
+  },
+  {
+   "id": "mzzirCssE0U78NSE",
+   "name": "纪慎微",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-083.webp"
+  },
+  {
+   "id": "nJxWvLzZvBNXObjk",
+   "name": "阿尔坎·希耶尔",
+   "type": "character",
+   "img": "tokenizer/pc-images/-614016692.Avatar.webp?1779349391129"
+  },
+  {
+   "id": "o3HMAuMC5nPJ26qh",
+   "name": "罗鸣谦",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-075.webp"
+  },
+  {
+   "id": "ofEe856XOvZp56Fs",
+   "name": "吕文博",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-S15-lvwenbo-v3.webp"
+  },
+  {
+   "id": "p9YFTpF5vQXzioru",
+   "name": "「铁砧」外骨骼固件",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-S15-ice-tiezhen.webp"
+  },
+  {
+   "id": "pYm8a0DF7ZB1IEOx",
+   "name": "芙龙兴盛",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/shops/20260903/fulong-avatar-v1.webp"
+  },
+  {
+   "id": "psyMJFu6q5eG3CcD",
+   "name": "何凌",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-046.webp"
+  },
+  {
+   "id": "qimV4VZnX0aOEvR3",
+   "name": "雷小鼓",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-024.webp"
+  },
+  {
+   "id": "qw5djZYSVuCmn6jn",
+   "name": "黑市技术掮客",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/shops/20260903/broker-cover-v1.webp"
+  },
+  {
+   "id": "s5sWbZlEK2VfXf4m",
+   "name": "向柳",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-040.webp"
+  },
+  {
+   "id": "sEMbG68n987ZfnqM",
+   "name": "罗弈",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-012.webp"
+  },
+  {
+   "id": "tbnPHoA6QtbjIgL8",
+   "name": "伊莱恩·莫罗",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-055.webp"
+  },
+  {
+   "id": "tiGT0NBflfw6V0CQ",
+   "name": "沈丹青",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-011.webp"
+  },
+  {
+   "id": "tueZGgV0WArSfNZC",
+   "name": "引资银行机械警犬",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-A-hound.webp"
+  },
+  {
+   "id": "uNlczFawsmnxeae6",
+   "name": "万祁连",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-002.webp"
+  },
+  {
+   "id": "uXiI4sA7FUqYyGAw",
+   "name": "燧明科技集团",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/shops/20260903/suiming-avatar-v1.webp"
+  },
+  {
+   "id": "vhpt4XZxZn59dWX5",
+   "name": "凯芙拉·威尔森",
+   "type": "character",
+   "img": "tokenizer/pc-images/-2004382973.Avatar.webp?1779350242218"
+  },
+  {
+   "id": "vnu3ZexhyIfz7OhH",
+   "name": "苗可栗",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-008.webp"
+  },
+  {
+   "id": "vqcEA8al2OfxGc0p",
+   "name": "白念秋",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-037.webp"
+  },
+  {
+   "id": "vzIzTM8ndMeUwlXJ",
+   "name": "「清道夫」罗恺战术中继",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/EP04-S15-ice-qingdaofu.webp"
+  },
+  {
+   "id": "wA5rBq8qKIQvjCh2",
+   "name": "方泰安 · 困兽",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-077.webp"
+  },
+  {
+   "id": "wK4L20iIt6GKlco0",
+   "name": "杜若",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-082.webp"
+  },
+  {
+   "id": "wMvCc2EmhzC7plgh",
+   "name": "吕文博的保险",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/maps/s16/s17-insurance.webp"
+  },
+  {
+   "id": "yANMLqSGcPBCQvfE",
+   "name": "SHADOW",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/shops/20260903/shadow-avatar-v1.webp"
+  },
+  {
+   "id": "yu2O7Qa3YUd72Uwr",
+   "name": "贾红",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-098.webp"
+  },
+  {
+   "id": "zRwBe93qKwmhTlaf",
+   "name": "Skeleton",
+   "type": "npc",
+   "img": "modules/swade-core-rules/assets/art/bestiary/Skeleton.webp"
+  },
+  {
+   "id": "ziXTGWtOrXkd2pjc",
+   "name": "网络设备 · 安防 d4",
+   "type": "npc",
+   "img": "icons/svg/circle.svg"
+  },
+  {
+   "id": "zltELu4L5KcmScNG",
+   "name": "棍木女",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-N3.webp"
+  },
+  {
+   "id": "zmeMlq5pVbbqr1rA",
+   "name": "黑崎欲子",
+   "type": "character",
+   "img": "tokenizer/pc-images/1234979707.Avatar.webp?1779349724698"
+  },
+  {
+   "id": "zpC4rcLk5iW31WO1",
+   "name": "西尔维娅",
+   "type": "npc",
+   "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-068.webp"
+  }
+ ],
+ "relationships": [
+  {
+   "owner": "陈斌",
+   "ownerType": "npc",
+   "name": "沈漫",
+   "target": "沈漫",
+   "role": "老同学",
+   "rank": 0
+  },
+  {
+   "owner": "陈斌",
+   "ownerType": "npc",
+   "name": "萨布里娜·费雷拉",
+   "target": "萨布里娜·费雷拉",
+   "role": "义肢康复患者",
+   "rank": 0
+  },
+  {
+   "owner": "翟明珠",
+   "ownerType": "npc",
+   "name": "阿尔坎·希耶尔",
+   "target": "阿尔坎·希耶尔",
+   "role": "节点维修受托人",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "",
+   "target": "沈漫",
+   "role": "",
+   "rank": 1
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "",
+   "target": "朱瑶光",
+   "role": "",
+   "rank": 1
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "周凛",
+   "target": "周凛",
+   "role": "接头人",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "何夜白",
+   "target": "何夜白",
+   "role": "神经接口校准技师",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "尼索科托夫",
+   "target": "白桦树",
+   "role": "熟识的黑市商人",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "李好",
+   "target": "李好",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "阿尔坎·希耶尔",
+   "target": "阿尔坎·希耶尔",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "雷武龙",
+   "target": "雷武龙",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "黑崎欲子",
+   "target": "黑崎欲子",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "凯芙拉·威尔森",
+   "target": "凯芙拉·威尔森",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "沈仲秋",
+   "target": "沈仲秋",
+   "role": "事务所同伴",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "老王头",
+   "target": "",
+   "role": "失踪的面馆老板",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "白念秋",
+   "target": "白念秋",
+   "role": "已故艺人",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "马铁鹰",
+   "target": "马铁鹰",
+   "role": "阿奎拉家族执行人",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "闻笙",
+   "target": "",
+   "role": "青梢队首领",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "辛桦",
+   "target": "辛桦",
+   "role": "青梢队",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "卫铁生",
+   "target": "卫铁生",
+   "role": "义胜盟红衣",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "柳拂衣",
+   "target": "柳拂衣",
+   "role": "甲种觉醒者",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "吕文博",
+   "target": "吕文博",
+   "role": "已故黑诊所医生",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "闵三元",
+   "target": "",
+   "role": "义胜盟盟主",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "鹿岛",
+   "target": "鹿岛绫",
+   "role": "霜月会",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "赵明芝",
+   "target": "赵明芝",
+   "role": "已故司机代表",
+   "rank": 0
+  },
+  {
+   "owner": "陈志远",
+   "ownerType": "npc",
+   "name": "李好",
+   "target": "李好",
+   "role": "分行下属",
+   "rank": 0
+  },
+  {
+   "owner": "宋远",
+   "ownerType": "npc",
+   "name": "凯芙拉·威尔森",
+   "target": "凯芙拉·威尔森",
+   "role": "港口业务联系人",
+   "rank": 0
+  },
+  {
+   "owner": "白桦树",
+   "ownerType": "npc",
+   "name": "唐索",
+   "target": "唐索",
+   "role": "熟识的联系人",
+   "rank": 0
+  },
+  {
+   "owner": "何夜白",
+   "ownerType": "npc",
+   "name": "阿尔坎·希耶尔",
+   "target": "阿尔坎·希耶尔",
+   "role": "诊所接点",
+   "rank": 0
+  },
+  {
+   "owner": "何夜白",
+   "ownerType": "npc",
+   "name": "雷武龙",
+   "target": "雷武龙",
+   "role": "诊所接点",
+   "rank": 0
+  },
+  {
+   "owner": "何夜白",
+   "ownerType": "npc",
+   "name": "唐索",
+   "target": "唐索",
+   "role": "诊所接点",
+   "rank": 0
+  },
+  {
+   "owner": "周凛",
+   "ownerType": "npc",
+   "name": "黑崎欲子",
+   "target": "黑崎欲子",
+   "role": "曾受委托的执行者",
+   "rank": 0
+  },
+  {
+   "owner": "周凛",
+   "ownerType": "npc",
+   "name": "唐索",
+   "target": "唐索",
+   "role": "曾受委托的执行者",
+   "rank": 0
+  },
+  {
+   "owner": "朱瑶光",
+   "ownerType": "npc",
+   "name": "沈漫",
+   "target": "沈漫",
+   "role": "法定监护人",
+   "rank": 0
+  },
+  {
+   "owner": "朱瑶光",
+   "ownerType": "npc",
+   "name": "沈仲秋",
+   "target": "沈仲秋",
+   "role": "照看者",
+   "rank": 0
+  },
+  {
+   "owner": "朱瑶光",
+   "ownerType": "npc",
+   "name": "李好",
+   "target": "李好",
+   "role": "生命绑定同伴",
+   "rank": 0
+  },
+  {
+   "owner": "朱瑶光",
+   "ownerType": "npc",
+   "name": "黑崎欲子",
+   "target": "黑崎欲子",
+   "role": "生命绑定同伴",
+   "rank": 0
+  },
+  {
+   "owner": "朱瑶光",
+   "ownerType": "npc",
+   "name": "唐索",
+   "target": "唐索",
+   "role": "生命绑定同伴",
+   "rank": 0
+  },
+  {
+   "owner": "朱瑶光",
+   "ownerType": "npc",
+   "name": "雷武龙",
+   "target": "雷武龙",
+   "role": "生命绑定同伴",
+   "rank": 0
+  },
+  {
+   "owner": "朱瑶光",
+   "ownerType": "npc",
+   "name": "凯芙拉·威尔森",
+   "target": "凯芙拉·威尔森",
+   "role": "生命绑定同伴",
+   "rank": 0
+  },
+  {
+   "owner": "朱瑶光",
+   "ownerType": "npc",
+   "name": "阿尔坎·希耶尔",
+   "target": "阿尔坎·希耶尔",
+   "role": "生命绑定同伴",
+   "rank": 0
+  },
+  {
+   "owner": "梁文川",
+   "ownerType": "npc",
+   "name": "黑崎欲子",
+   "target": "黑崎欲子",
+   "role": "夜宵摊新识",
+   "rank": 0
+  },
+  {
+   "owner": "S.H.",
+   "ownerType": "npc",
+   "name": "阿尔坎·希耶尔",
+   "target": "阿尔坎·希耶尔",
+   "role": "TXT 联系对象",
+   "rank": 0
+  },
+  {
+   "owner": "S.H.",
+   "ownerType": "npc",
+   "name": "凯芙拉·威尔森",
+   "target": "凯芙拉·威尔森",
+   "role": "TXT 联系对象",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "棍木女",
+   "target": "棍木女",
+   "role": "异常联系人",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "沈漫",
+   "target": "沈漫",
+   "role": "照片托付者／事务所老板",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "何凌",
+   "target": "何凌",
+   "role": "前同事／盟友",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "白念秋",
+   "target": "白念秋",
+   "role": "已故委托人",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "萨布里娜·费雷拉",
+   "target": "萨布里娜·费雷拉",
+   "role": "获救者",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "阿瑶",
+   "target": "朱瑶光",
+   "role": "生命绑定同伴",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "陈志远",
+   "target": "陈志远",
+   "role": "直接主管",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "阿尔坎·希耶尔",
+   "target": "阿尔坎·希耶尔",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "唐索",
+   "target": "唐索",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "雷武龙",
+   "target": "雷武龙",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "黑崎欲子",
+   "target": "黑崎欲子",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "凯芙拉·威尔森",
+   "target": "凯芙拉·威尔森",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "沈仲秋",
+   "target": "沈仲秋",
+   "role": "事务所同伴",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "马铁鹰",
+   "target": "马铁鹰",
+   "role": "阿奎拉家族执行人",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "闻笙",
+   "target": "",
+   "role": "青梢队首领",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "辛桦",
+   "target": "辛桦",
+   "role": "青梢队",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "小刀",
+   "target": "纪小刀",
+   "role": "港口少年",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "陈斌",
+   "target": "陈斌",
+   "role": "萨布里娜的主治医生",
+   "rank": 0
+  },
+  {
+   "owner": "萨布里娜·费雷拉",
+   "ownerType": "npc",
+   "name": "陈斌",
+   "target": "陈斌",
+   "role": "主治医生",
+   "rank": 0
+  },
+  {
+   "owner": "萨布里娜·费雷拉",
+   "ownerType": "npc",
+   "name": "李好",
+   "target": "李好",
+   "role": "救助者",
+   "rank": 0
+  },
+  {
+   "owner": "萨布里娜·费雷拉",
+   "ownerType": "npc",
+   "name": "凯芙拉·威尔森",
+   "target": "凯芙拉·威尔森",
+   "role": "朋友／义肢协助者",
+   "rank": 0
+  },
+  {
+   "owner": "沈仲秋",
+   "ownerType": "npc",
+   "name": "沈漫",
+   "target": "沈漫",
+   "role": "堂姐",
+   "rank": 0
+  },
+  {
+   "owner": "沈仲秋",
+   "ownerType": "npc",
+   "name": "阿瑶",
+   "target": "朱瑶光",
+   "role": "被照看者",
+   "rank": 0
+  },
+  {
+   "owner": "赵明芝",
+   "ownerType": "npc",
+   "name": "黑崎欲子",
+   "target": "黑崎欲子",
+   "role": "司机旧识／受托人",
+   "rank": 0
+  },
+  {
+   "owner": "沈漫",
+   "ownerType": "npc",
+   "name": "沈仲秋",
+   "target": "沈仲秋",
+   "role": "堂弟",
+   "rank": 0
+  },
+  {
+   "owner": "沈漫",
+   "ownerType": "npc",
+   "name": "阿瑶",
+   "target": "朱瑶光",
+   "role": "被监护人",
+   "rank": 0
+  },
+  {
+   "owner": "沈漫",
+   "ownerType": "npc",
+   "name": "李好",
+   "target": "李好",
+   "role": "照片托付对象／事务所同伴",
+   "rank": 0
+  },
+  {
+   "owner": "沈漫",
+   "ownerType": "npc",
+   "name": "陈斌",
+   "target": "陈斌",
+   "role": "老同学",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "阿瑶",
+   "target": "朱瑶光",
+   "role": "生命绑定同伴",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "何夜白",
+   "target": "何夜白",
+   "role": "神经接口校准技师",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "李好",
+   "target": "李好",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "阿尔坎·希耶尔",
+   "target": "阿尔坎·希耶尔",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "唐索",
+   "target": "唐索",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "黑崎欲子",
+   "target": "黑崎欲子",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "凯芙拉·威尔森",
+   "target": "凯芙拉·威尔森",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "沈仲秋",
+   "target": "沈仲秋",
+   "role": "事务所同伴",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "沈漫",
+   "target": "沈漫",
+   "role": "事务所老板",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "老王头",
+   "target": "",
+   "role": "失踪的面馆老板",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "白念秋",
+   "target": "白念秋",
+   "role": "已故艺人",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "",
+   "target": "沈漫",
+   "role": "",
+   "rank": 1
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "",
+   "target": "朱瑶光",
+   "role": "",
+   "rank": 1
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "翟明珠",
+   "target": "翟明珠",
+   "role": "运维委托人",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "S.H.",
+   "target": "S.H.",
+   "role": "TXT 联系人",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "何夜白",
+   "target": "何夜白",
+   "role": "神经接口校准技师",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "李好",
+   "target": "李好",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "唐索",
+   "target": "唐索",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "雷武龙",
+   "target": "雷武龙",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "黑崎欲子",
+   "target": "黑崎欲子",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "凯芙拉·威尔森",
+   "target": "凯芙拉·威尔森",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "",
+   "target": "苗可栗",
+   "role": "",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "",
+   "target": "罗弈",
+   "role": "",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "沈仲秋",
+   "target": "沈仲秋",
+   "role": "事务所同伴",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "白念秋",
+   "target": "白念秋",
+   "role": "已故艺人",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "陆文青",
+   "target": "陆文青",
+   "role": "重黎工业展示代表",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "贾红",
+   "target": "贾红",
+   "role": "修理站站长",
+   "rank": 0
+  },
+  {
+   "owner": "何凌",
+   "ownerType": "npc",
+   "name": "李好",
+   "target": "李好",
+   "role": "前同事",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "",
+   "target": "沈漫",
+   "role": "",
+   "rank": 1
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "",
+   "target": "朱瑶光",
+   "role": "",
+   "rank": 1
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "萨布里娜·费雷拉",
+   "target": "萨布里娜·费雷拉",
+   "role": "朋友／康复者",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "宋远",
+   "target": "宋远",
+   "role": "物流联系人",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "S.H.",
+   "target": "S.H.",
+   "role": "TXT 联系人",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "李好",
+   "target": "李好",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "阿尔坎·希耶尔",
+   "target": "阿尔坎·希耶尔",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "唐索",
+   "target": "唐索",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "雷武龙",
+   "target": "雷武龙",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "黑崎欲子",
+   "target": "黑崎欲子",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "沈仲秋",
+   "target": "沈仲秋",
+   "role": "事务所同伴",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "老王头",
+   "target": "",
+   "role": "失踪的面馆老板",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "白念秋",
+   "target": "白念秋",
+   "role": "已故艺人",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "闻笙",
+   "target": "",
+   "role": "青梢队首领",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "陈斌",
+   "target": "陈斌",
+   "role": "萨布里娜的主治医生",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "赵明芝",
+   "target": "赵明芝",
+   "role": "已故司机代表",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "陆文青",
+   "target": "陆文青",
+   "role": "重黎工业展示代表",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "贾红",
+   "target": "贾红",
+   "role": "修理站站长",
+   "rank": 0
+  },
+  {
+   "owner": "白念秋",
+   "ownerType": "npc",
+   "name": "李好",
+   "target": "李好",
+   "role": "受托人",
+   "rank": 0
+  },
+  {
+   "owner": "棍木女",
+   "ownerType": "npc",
+   "name": "李好",
+   "target": "李好",
+   "role": "木签持有者",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "",
+   "target": "沈漫",
+   "role": "",
+   "rank": 1
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "",
+   "target": "朱瑶光",
+   "role": "",
+   "rank": 1
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "周凛",
+   "target": "周凛",
+   "role": "接头人",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "赵明芝",
+   "target": "赵明芝",
+   "role": "已故委托人",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "梁文川",
+   "target": "梁文川",
+   "role": "追风高管／救命恩人",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "李好",
+   "target": "李好",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "阿尔坎·希耶尔",
+   "target": "阿尔坎·希耶尔",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "唐索",
+   "target": "唐索",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "雷武龙",
+   "target": "雷武龙",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "凯芙拉·威尔森",
+   "target": "凯芙拉·威尔森",
+   "role": "队友",
+   "rank": 1
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "沈仲秋",
+   "target": "沈仲秋",
+   "role": "事务所同伴",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "老王头",
+   "target": "",
+   "role": "失踪的面馆老板",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "白念秋",
+   "target": "白念秋",
+   "role": "已故艺人",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "马铁鹰",
+   "target": "马铁鹰",
+   "role": "阿奎拉家族执行人",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "闻笙",
+   "target": "",
+   "role": "青梢队首领",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "辛桦",
+   "target": "辛桦",
+   "role": "青梢队",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "纪小刀",
+   "target": "纪小刀",
+   "role": "剑阁使者",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "卫铁生",
+   "target": "卫铁生",
+   "role": "义胜盟红衣",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "柳拂衣",
+   "target": "柳拂衣",
+   "role": "甲种觉醒者",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "吕文博",
+   "target": "吕文博",
+   "role": "已故黑诊所医生",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "闵三元",
+   "target": "",
+   "role": "义胜盟盟主",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "鹿岛",
+   "target": "鹿岛绫",
+   "role": "霜月会",
+   "rank": 0
+  }
+ ]
+}
