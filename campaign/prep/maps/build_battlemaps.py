@@ -466,11 +466,81 @@ def kangmin() -> Svg:
     return s
 
 
+# 集装箱：(x1, y1, x2, y2)，build_scene_walls.py 也从这里取墙
+TIESHAN_CONTAINERS = [
+    (3, 4, 9, 6.4), (3, 7, 9, 9.4), (11, 4, 13.4, 10), (3, 19, 9, 21.4), (3, 22, 9, 24.4),
+    (11, 20, 17, 22.4), (19, 21, 25, 23.4), (27, 20, 29.4, 26), (31, 18, 37, 20.4), (31, 23, 37, 25.4),
+]
+TIESHAN_OFFICE = (29, 3, 37, 11)
+TIESHAN_PIT = (14, 11, 26, 18)
+
+
+def tieshan() -> Svg:
+    GW, GH = 40, 30
+    s = Svg(GW, GH, ASPHALT)
+    # 围墙内地面
+    s.rect(1, 1, 39, 29, fill='#5b5a54', stroke=WALL, sw=10)
+    # 调度轨道（东西向，旧车场）
+    for y in (26.6, 27.6):
+        s.line(1, y, 39, y, stroke=RUST, sw=5, cap='butt')
+    # 集装箱
+    colors = ('#7a4a32', '#3f5f73', '#6d6a3a', '#7c3a35', '#47624b')
+    for i, (x1, y1, x2, y2) in enumerate(TIESHAN_CONTAINERS):
+        s.rect(x1, y1, x2, y2, fill=colors[i % len(colors)], stroke='#111', sw=4)
+        if x2 - x1 > y2 - y1:
+            x = x1 + 0.5
+            while x < x2:
+                s.line(x, y1 + 0.15, x, y2 - 0.15, stroke='#000', sw=2, op=0.35, cap='butt')
+                x += 0.5
+        else:
+            y = y1 + 0.5
+            while y < y2:
+                s.line(x1 + 0.15, y, x2 - 0.15, y, stroke='#000', sw=2, op=0.35, cap='butt')
+                y += 0.5
+    # 检修地坑与两台充电机位
+    x1, y1, x2, y2 = TIESHAN_PIT
+    s.rect(x1, y1, x2, y2, fill='url(#hazard)')
+    s.rect(x1 + 0.4, y1 + 0.4, x2 - 0.4, y2 - 0.4, fill='#2a2c2e')
+    for bx in (16, 21):
+        s.rect(bx, 12.2, bx + 3, 15.8, fill='#3a4048', stroke='#d9a400', sw=4)
+        s.line(bx + 1.5, 11, bx + 1.5, 12.2, stroke='#c9c3b6', sw=6, cap='butt')
+    s.label(20, 16.9, '检修地坑（下沉）', 22)
+    s.rect(26.4, 13.6, 27.8, 15.4, fill='#2f4f6f', stroke=HAZARD, sw=4)
+    s.label(27.1, 16.0, '主控台', 18)
+    # 二楼铁皮调度室与外挂铁梯
+    x1, y1, x2, y2 = TIESHAN_OFFICE
+    s.rect(x1, y1, x2, y2, fill=STEEL, stroke=WALL, sw=8)
+    s.rect(x1, y1, x2, y2, fill='url(#hatch)')
+    s.label(33, 6.4, '调度室（二层）', 24)
+    for y in (11.3, 11.8, 12.3):
+        s.line(30, y, 31.2, y, stroke='#ddd', sw=3)
+    s.label(32.4, 11.9, '铁梯', 18)
+    # 龙门吊：跨地坑南北的两条门腿轨与横梁（头顶）
+    s.line(6, 1, 6, 29, stroke=HAZARD, sw=8, dash='24 14', op=0.75, cap='butt')
+    s.line(28, 1, 28, 29, stroke=HAZARD, sw=8, dash='24 14', op=0.75, cap='butt')
+    s.rect(6, 2.6, 28, 3.4, fill=HAZARD, op=0.6)
+    s.label(17, 2.0, '电磁龙门吊（头顶）', 20)
+    s.rect(1.6, 11.4, 4.2, 14.2, fill='#40505e', stroke=HAZARD, sw=4)
+    s.label(2.9, 12.8, '吊控', 18)
+    # 押运车
+    s.rect(30.5, 14, 36.5, 16.8, fill='#3b4a44', stroke='#111', sw=4, rx=10)
+    s.rect(35.2, 14.3, 36.2, 16.5, fill='#222', rx=6)
+    s.label(33, 15.4, '押运车', 20)
+    # 大门（南墙）
+    s.rect(15, 28.6, 25, 29.4, fill=ASPHALT)
+    door_gap(s, 15, 29, 25, 29, floor=ASPHALT, sw=14)
+    s.label(20, 28.0, '车场大门', 22)
+    s.label(2.2, 26.0, '货运线', 18, anchor='start')
+    s.grid()
+    return s
+
+
 MAPS = {
     '铜锅斗兽场': tongguo,
     '灾备演示厅': zaibei,
     '红线封街路口': hongxian,
     '康民诊所': kangmin,
+    '铁山车场': tieshan,
 }
 
 

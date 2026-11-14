@@ -210,13 +210,13 @@ details.more > summary { cursor: pointer; font-size: 13px; color: var(--muted); 
 <body>
 
 <header class="wrap top">
-  <p class="kicker">龙散战记 · 第四话「特派员」收官篇 · S16 起 · GM 内部</p>
+  <p class="kicker">龙散战记 · 第四话「特派员」收官篇 · S18 · GM 内部</p>
   <h1>收官篇主持屏</h1>
-  <p class="lede">接 S16 断面：5 月 18 日傍晚，李好在云路镇，欲子、唐索刚离开铜锅，全队约了事务所聚餐。S17 从第 3 回合开始。周日 24:00 方泰安交割。路线随玩家走，这里只查局面、记状态。</p>
+  <p class="lede">接 S17 断面：5 月 19 日周日下午回合开头。欲子带李好去云里互娱找鹿岛；唐索带雷武龙、凯芙拉、阿尔坎远距离踩点管委会。周日夜何凌潜入，PC 多点配合。周日 24:00 方泰安交割（玩家不知道）。路线随玩家走，这里只查局面、记状态。</p>
   <div class="policy">
     <span><b>准备局面，不准备剧情</b>：世界照钟往前走，压力从钟来</span>
     <span><b>只有结局固定</b>：方泰安覆灭，说出“上面”时被郁垒灭口</span>
-    <span><b>S17 开场</b>：李好不扣回合、不加减值；先核卡面伤势、弹药、助力点</span>
+    <span><b>S18 开场</b>：先结算下午两路；GM 留着 5 点张力；五人各 +3 奇能点已入卡；周日夜何凌与卫铁生只能带一边</span>
     <span>玩家可闻台词一律说“上面”，不出现郑启明或“卜府”</span>
   </div>
   <div class="tools">
@@ -240,7 +240,7 @@ details.more > summary { cursor: pointer; font-size: 13px; color: var(--muted); 
     <span class="note" id="clkNow"></span>
   </div>
   <div class="clock" id="clockGrid"></div>
-  <div class="lihao" id="lihao"><b>第 3 回合开场</b>　李好骑摩托带何凌从云路镇去事务所，走地面路，18:00 起北街封路（牌二，别的路走不到就不打）。19:06 直播不管玩家在哪都发生（牌一）。行长和方泰安都还不知道李好是谁；这一回合方泰安会把情报买下来。</div>
+  <div class="lihao" id="lihao"><b>第 5 回合开场</b>　两路分头：云里互娱（11，入口丁的消息和中药柜夹层里的道具 2）；管委会外围踩点（07，东车道卷闸门＝入口丁，被认出就打变体牌四）。铝热剂车这一回合运进去。阿尔坎上午查到的长盒子、诊所设备还没告诉队友。</div>
   <p class="safety"><b>结局保底</b>：玩家没能在交割前打进去，方泰安也逃不掉。交割后他对上面已经没用，郁垒照样在坡道上灭口，只是现场证据、陈培安和赃款都随交割一起没了，第一章按最低档收束。玩家打得越早、剥掉的皮越多，留下的东西越多。</p>
 </section>
 
@@ -352,18 +352,21 @@ const DATA = /*__DATA__*/null;
 const CLOCK = [
   { r: 1, time: "周六上午", what: "S15 已跑完。", rel: [] },
   { r: 2, time: "周六下午", what: "S15—S16 已跑完。吕文博被灭口，银行封楼拷走数据，李好被沈漫救回。", rel: [] },
-  { r: 3, time: "周六夜", what: "18:00 起封北街，19:06 方泰安直播露面。宣亚把李好的情报转卖给方泰安（行长没买，他买）。罗恺的人去诊所清场。", rel: [["02", "02 聚餐"], ["05", "05 诊所"], ["c0", "牌一"], ["c1", "牌二"]] },
-  { r: 4, time: "周日上午", what: "陶景衡逼陈志远在 B3 抽走审批原件。铁山车场两台重型自走机充电待命。方泰安对玩家身边的人施压。马铁鹰搬空诊所。", rel: [["03", "03 银行"], ["05", "05 诊所"], ["06", "06 车场"], ["c2", "牌三"]] },
-  { r: 5, time: "周日下午", what: "铝热剂运进灾备厅，开始销毁本地记录。何凌正面进管委会摊牌，没人接应就被扣进 C-07。若卫铁生已动手，罗恺带人报复滨江绿带。", rel: [["07", "07 地下入口"], ["c3", "牌四"]] },
-  { r: 6, time: "周日 24:00", what: "交割完成，方泰安从卸货坡道撤离。", rel: [["08", "08 灾备厅"], ["c4", "牌五"]] },
+  { r: 3, time: "周六夜", what: "S17 已跑完，无人干预。北街封锁，方泰安直播（牌一）。宣亚把李好的情报卖给方泰安，玩家不知道。", rel: [["02", "02 聚餐"], ["c0", "牌一"]] },
+  { r: 4, time: "周日上午", what: "S17 已跑完。罗恺小队抄了诊所、打伤霜月会的人，设备进管委会 C-05。陈志远抽走并粉碎一半原件。车场重型自走机充电待命。牌三没打。", rel: [["04", "04 梁文川"], ["06", "06 车场"], ["c2", "牌三"]] },
+  { r: 5, time: "周日下午", what: "铝热剂车从东车道卷闸门运进灾备厅，开始销毁本地记录。何凌在外准备。牌三 B、C 可补打；踩点被认出打变体牌四。", rel: [["11", "11 云里互娱"], ["07", "07 外围踩点"], ["c2", "牌三"], ["c3", "牌四"]] },
+  { r: 6, time: "周日夜—24:00", what: "何凌潜入（默认 22:00 前后），玩家没带她就被扣进 C-07。24:00 交割完成，方泰安从卸货坡道撤离。", rel: [["07", "07 何凌还是卫铁生"], ["08", "08 灾备厅"], ["c4", "牌五"]] },
 ];
 const CLUES = [
   ["旧城管委会地下结构图", "地下全貌；图上标作配电室的半圆厅尺寸和独立供电都不对劲", "唐索已收到（S16）"],
   ["沈漫的照片", "撤离车的喷码和通行证，指向配电附楼，能开车库入口丙", "02 聚餐"],
-  ["何凌", "陈培安的维持舱被扣在管委会地下；周日下午她要进去", "02 聚餐"],
+  ["何凌", "周日夜潜入、多点配合；陈培安的维持舱被扣在管委会地下（她还没说）", "S17 聚餐已给前一半"],
+  ["阿尔坎（S17）", "一个半月前运进管委会的长盒子（维生舱）、秘密仓、诊所设备进了管委会", "S17 已查到，未在队内转述"],
+  ["周日下午踩点", "东车道没门牌的卷闸门，车进去信号就没（入口丁）", "07 外围踩点"],
+  ["鹿岛", "手下跟过罗恺的车看见卷闸门（入口丁）；中药柜夹层里的道具 2", "11 云里互娱"],
   ["卫铁生", "废弃供暖管廊暗道（入口戊），附维护卡", "滨江绿带，报“铁生哥”"],
-  ["吕文博的保险", "白念秋遗体从没有门牌的卸货坡道运出（入口丁）", "05 诊所"],
-  ["梁文川", "车辆进去后信号就消失的盲区（同样指向入口丁）", "04 梁文川"],
+  ["吕文博的保险", "白念秋遗体从没有门牌的卸货坡道运出（入口丁）", "管委会 C-05 机房（07）"],
+  ["梁文川", "车辆进去后信号就消失的盲区（同样指向入口丁）", "04 梁文川，先给筹码"],
   ["凯芙拉／纪小刀", "东墙外防空通道，能从港务新村高中进地下（入口己）", "10 支线、S14 纪小刀"],
   ["阿尔坎", "方泰安剩下的两条秘密：念动力和液压义手，以及郁垒不是他雇的人", "继续骇入，或扫描直播画面、近距离扫描方泰安"],
 ];
@@ -388,8 +391,8 @@ const COMBAT = {
 };
 
 /* ---------- 状态 ---------- */
-const KEY = "taiyi-finale-gm-screen-v2";
-const blank = () => ({ round: 3, cut: {}, clues: [], played: {}, given: {}, peel: [], pod: { state: "idle", left: 3, delay: false } });
+const KEY = "taiyi-finale-gm-screen-v3";
+const blank = () => ({ round: 5, cut: {}, clues: [], played: {}, given: {}, peel: [], pod: { state: "idle", left: 3, delay: false } });
 let S = blank();
 try { const raw = localStorage.getItem(KEY); if (raw) S = Object.assign(blank(), JSON.parse(raw)); } catch (e) {}
 function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} }
@@ -408,21 +411,21 @@ function lineHTML(text, html) { return `<div class="line"><span>${html || esc(te
 function renderClock() {
   $("#clockGrid").innerHTML = CLOCK.map(c => {
     const cut = !!S.cut[c.r];
-    const cls = c.r <= 2 ? "done1 past" : c.r === S.round ? "now" : c.r < S.round ? "past" : "";
-    const st = c.r <= 2 ? "已跑完" : cut ? "被打断" : c.r === S.round ? "当前" : c.r < S.round ? "已兑现" : "未到";
+    const cls = c.r <= 4 ? "done1 past" : c.r === S.round ? "now" : c.r < S.round ? "past" : "";
+    const st = c.r <= 4 ? "已跑完" : cut ? "被打断" : c.r === S.round ? "当前" : c.r < S.round ? "已兑现" : "未到";
     const rel = c.rel.map(([id, lab]) => `<a href="#${id.startsWith("c") ? "card-" + id.slice(1) : "scene-" + id}">${lab}</a>`).join(" · ");
     return `<div class="tick ${cls} ${cut ? "cut" : ""}">
-      ${c.r > 2 ? `<button type="button" class="goto" data-round="${c.r}" aria-label="设为第 ${c.r} 回合"></button>` : ""}
+      ${c.r > 4 ? `<button type="button" class="goto" data-round="${c.r}" aria-label="设为第 ${c.r} 回合"></button>` : ""}
       <div class="hd"><b>${c.r}</b><span>${c.time}</span><em class="st">${st}</em></div>
-      <div class="what">${c.r > 2 ? "不受干扰时：" : ""}${esc(c.what)}</div>
+      <div class="what">${c.r > 4 ? "不受干扰时：" : ""}${esc(c.what)}</div>
       ${rel ? `<div class="rel">相关：${rel}</div>` : ""}
-      ${c.r > 2 ? `<label class="chk"><input type="checkbox" data-cut="${c.r}" ${cut ? "checked" : ""}>被玩家打断</label>` : ""}
+      ${c.r > 4 ? `<label class="chk"><input type="checkbox" data-cut="${c.r}" ${cut ? "checked" : ""}>被玩家打断</label>` : ""}
     </div>`;
   }).join("");
   const c = CLOCK.find(x => x.r === S.round);
   $("#clkNow").textContent = `当前：第 ${S.round} 回合 · ${c.time}`;
-  $("#clkPrev").disabled = S.round <= 3; $("#clkNext").disabled = S.round >= 6;
-  $("#lihao").classList.toggle("on", S.round === 3);
+  $("#clkPrev").disabled = S.round <= 5; $("#clkNext").disabled = S.round >= 6;
+  $("#lihao").classList.toggle("on", S.round === 5);
 }
 $("#clockGrid").addEventListener("click", e => {
   const g = e.target.closest("[data-round]"); if (g) { S.round = +g.dataset.round; save(); renderClock(); }
@@ -430,7 +433,7 @@ $("#clockGrid").addEventListener("click", e => {
 $("#clockGrid").addEventListener("change", e => {
   const c = e.target.closest("[data-cut]"); if (c) { S.cut[c.dataset.cut] = c.checked; save(); renderClock(); }
 });
-$("#clkPrev").onclick = () => { if (S.round > 3) { S.round--; save(); renderClock(); } };
+$("#clkPrev").onclick = () => { if (S.round > 5) { S.round--; save(); renderClock(); } };
 $("#clkNext").onclick = () => { if (S.round < 6) { S.round++; save(); renderClock(); } };
 
 /* ---------- 线索网 ---------- */
