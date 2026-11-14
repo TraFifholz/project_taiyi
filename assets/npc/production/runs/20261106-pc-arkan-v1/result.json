@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261106-pc-arkan-v1",
+  "characterId": "LS-PC-arkan",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "8a8588",
+  "apiSeed": 1672603420,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "bf51fb69dfd4356bf2e90caab4f449505fbe53477a1c67534e36ececc0846da6",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-11-05T18:24:16.498Z"
+}

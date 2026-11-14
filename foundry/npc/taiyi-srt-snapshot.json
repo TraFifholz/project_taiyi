@@ -1,5 +1,5 @@
 {
- "takenAt": "2026-11-05T18:15:12.419Z",
+ "takenAt": "2026-11-06T02:37:53.623Z",
  "permissions": {
   "playerEditAppearancePermission": "\"OFF\"",
   "playerEditEventsPermission": "\"OFF\"",
@@ -346,7 +346,7 @@
    "id": "ELxrslbsSHQg0cmK",
    "name": "唐索",
    "type": "character",
-   "img": "tokenizer/pc-images/707090.Avatar.webp?1779350452501"
+   "img": "worlds/taiyi/assets/npc/avatars/PC-tangsuo.webp"
   },
   {
    "id": "FCAx9DVCPshCVdbK",
@@ -682,7 +682,7 @@
    "id": "dVY3kCrHc0WYyKEa",
    "name": "李好",
    "type": "character",
-   "img": "tokenizer/pc-images/842735.Avatar.webp?1779350395554"
+   "img": "worlds/taiyi/assets/npc/avatars/PC-lihao.webp"
   },
   {
    "id": "db91d24426d5d760",
@@ -832,7 +832,7 @@
    "id": "j3f9G2P4vDSmmxZw",
    "name": "雷武龙",
    "type": "character",
-   "img": "tokenizer/pc-images/38032938.Avatar.webp?1779350335424"
+   "img": "worlds/taiyi/assets/npc/avatars/PC-leiwulong.webp"
   },
   {
    "id": "jzoMevmSzqwRs6ty",
@@ -904,7 +904,7 @@
    "id": "nJxWvLzZvBNXObjk",
    "name": "阿尔坎·希耶尔",
    "type": "character",
-   "img": "tokenizer/pc-images/-614016692.Avatar.webp?1779349391129"
+   "img": "worlds/taiyi/assets/npc/avatars/PC-arkan.webp"
   },
   {
    "id": "o3HMAuMC5nPJ26qh",
@@ -994,7 +994,7 @@
    "id": "vhpt4XZxZn59dWX5",
    "name": "凯芙拉·威尔森",
    "type": "character",
-   "img": "tokenizer/pc-images/-2004382973.Avatar.webp?1779350242218"
+   "img": "worlds/taiyi/assets/npc/avatars/PC-kevlar.webp"
   },
   {
    "id": "vnu3ZexhyIfz7OhH",
@@ -1058,7 +1058,7 @@
   },
   {
    "id": "zltELu4L5KcmScNG",
-   "name": "棍木女",
+   "name": "闻笙",
    "type": "npc",
    "img": "worlds/taiyi/assets/npc/avatars/LS-NPC-N3.webp"
   },
@@ -1066,7 +1066,7 @@
    "id": "zmeMlq5pVbbqr1rA",
    "name": "黑崎欲子",
    "type": "character",
-   "img": "tokenizer/pc-images/1234979707.Avatar.webp?1779349724698"
+   "img": "worlds/taiyi/assets/npc/avatars/PC-yuko.webp"
   },
   {
    "id": "zpC4rcLk5iW31WO1",
@@ -1216,7 +1216,7 @@
    "owner": "唐索",
    "ownerType": "character",
    "name": "闻笙",
-   "target": "",
+   "target": "闻笙",
    "role": "青梢队首领",
    "rank": 0
   },
@@ -1256,7 +1256,7 @@
    "owner": "唐索",
    "ownerType": "character",
    "name": "闵三元",
-   "target": "",
+   "target": "闵三元",
    "role": "义胜盟盟主",
    "rank": 0
   },
@@ -1274,6 +1274,166 @@
    "name": "赵明芝",
    "target": "赵明芝",
    "role": "已故司机代表",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "李铁牙",
+   "target": "铁手（李铁牙）",
+   "role": "义胜盟堂口管事",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "杨振邦",
+   "target": "杨振邦",
+   "role": "拳场场务",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "夏满弓",
+   "target": "夏满弓",
+   "role": "高架上的第三方",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "何凌",
+   "target": "何凌",
+   "role": "李好的同事",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "白芷秋",
+   "target": "",
+   "role": "白念秋的姐姐",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "苏志国",
+   "target": "",
+   "role": "白念秋的姐夫",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "李武冠",
+   "target": "",
+   "role": "地铁枪手",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "独眼保安",
+   "target": "",
+   "role": "地铁站值班员",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "死灵术士",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "黑骑士",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "双重",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "收尸人",
+   "target": "",
+   "role": "身份不明",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "红皇后",
+   "target": "",
+   "role": "兔子洞作者",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "朱恒",
+   "target": "",
+   "role": "沈漫的闺蜜",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "阿三",
+   "target": "",
+   "role": "义胜盟小弟",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "阿七",
+   "target": "",
+   "role": "义胜盟小弟",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "义胜盟业务员",
+   "target": "",
+   "role": "义胜盟业务员",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "老周",
+   "target": "",
+   "role": "白茅岗司机",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "闪电 SUV 驾驶者",
+   "target": "",
+   "role": "身份不明",
+   "rank": 0
+  },
+  {
+   "owner": "唐索",
+   "ownerType": "character",
+   "name": "罗凯",
+   "target": "",
+   "role": "玄盾国际狙击手",
    "rank": 0
   },
   {
@@ -1431,9 +1591,9 @@
   {
    "owner": "李好",
    "ownerType": "character",
-   "name": "棍木女",
-   "target": "棍木女",
-   "role": "异常联系人",
+   "name": "闻笙",
+   "target": "闻笙",
+   "role": "青梢队首领／木签联系人",
    "rank": 0
   },
   {
@@ -1543,14 +1703,6 @@
   {
    "owner": "李好",
    "ownerType": "character",
-   "name": "闻笙",
-   "target": "",
-   "role": "青梢队首领",
-   "rank": 0
-  },
-  {
-   "owner": "李好",
-   "ownerType": "character",
    "name": "辛桦",
    "target": "辛桦",
    "role": "青梢队",
@@ -1570,6 +1722,182 @@
    "name": "陈斌",
    "target": "陈斌",
    "role": "萨布里娜的主治医生",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "夏满弓",
+   "target": "夏满弓",
+   "role": "高架上的第三方",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "方泰安",
+   "target": "方泰安",
+   "role": "旧城管委会主任",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "陈培安",
+   "target": "",
+   "role": "失踪的前辈",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "裴秉钧",
+   "target": "裴秉钧",
+   "role": "裴组长",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "陶景衡",
+   "target": "陶景衡",
+   "role": "龙散分行行长",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "老王头",
+   "target": "",
+   "role": "失踪的面馆老板",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "尼索科托夫",
+   "target": "白桦树",
+   "role": "黑市商人",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "白芷秋",
+   "target": "",
+   "role": "白念秋的姐姐",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "苏志国",
+   "target": "",
+   "role": "白念秋的姐夫",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "李武冠",
+   "target": "",
+   "role": "地铁枪手",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "独眼保安",
+   "target": "",
+   "role": "地铁站值班员",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "死灵术士",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "黑骑士",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "双重",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "收尸人",
+   "target": "",
+   "role": "身份不明",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "红皇后",
+   "target": "",
+   "role": "兔子洞作者",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "朱恒",
+   "target": "",
+   "role": "沈漫的闺蜜",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "S.H.",
+   "target": "S.H.",
+   "role": "身份不明",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "老周",
+   "target": "",
+   "role": "白茅岗司机",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "闪电 SUV 驾驶者",
+   "target": "",
+   "role": "身份不明",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "张武成",
+   "target": "",
+   "role": "楚风传媒动画师",
+   "rank": 0
+  },
+  {
+   "owner": "李好",
+   "ownerType": "character",
+   "name": "lh",
+   "target": "",
+   "role": "身份不明",
    "rank": 0
   },
   {
@@ -1741,6 +2069,94 @@
    "rank": 0
   },
   {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "李铁牙",
+   "target": "铁手（李铁牙）",
+   "role": "义胜盟堂口管事",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "方泰安",
+   "target": "方泰安",
+   "role": "旧城管委会委员长",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "独眼保安",
+   "target": "",
+   "role": "地铁站值班员",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "死灵术士",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "黑骑士",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "红皇后",
+   "target": "",
+   "role": "兔子洞作者",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "阿三",
+   "target": "",
+   "role": "义胜盟小弟",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "阿七",
+   "target": "",
+   "role": "义胜盟小弟",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "义胜盟业务员",
+   "target": "",
+   "role": "义胜盟业务员",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "黑拳坊派单人",
+   "target": "",
+   "role": "坠楼死者",
+   "rank": 0
+  },
+  {
+   "owner": "雷武龙",
+   "ownerType": "character",
+   "name": "码头工人服委托人",
+   "target": "",
+   "role": "匿名委托人",
+   "rank": 0
+  },
+  {
    "owner": "阿尔坎·希耶尔",
    "ownerType": "character",
    "name": "",
@@ -1869,6 +2285,62 @@
    "rank": 0
   },
   {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "方泰安",
+   "target": "方泰安",
+   "role": "旧城管委会主任",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "老王头",
+   "target": "",
+   "role": "失踪的面馆老板",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "尼索科托夫",
+   "target": "白桦树",
+   "role": "黑市商人",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "独眼保安",
+   "target": "",
+   "role": "地铁站值班员",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "黑骑士",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "红皇后",
+   "target": "",
+   "role": "兔子洞作者",
+   "rank": 0
+  },
+  {
+   "owner": "阿尔坎·希耶尔",
+   "ownerType": "character",
+   "name": "吕文博",
+   "target": "吕文博",
+   "role": "已故黑诊所医生",
+   "rank": 0
+  },
+  {
    "owner": "何凌",
    "ownerType": "npc",
    "name": "李好",
@@ -1984,7 +2456,7 @@
    "owner": "凯芙拉·威尔森",
    "ownerType": "character",
    "name": "闻笙",
-   "target": "",
+   "target": "闻笙",
    "role": "青梢队首领",
    "rank": 0
   },
@@ -2021,6 +2493,142 @@
    "rank": 0
   },
   {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "李铁牙",
+   "target": "铁手（李铁牙）",
+   "role": "义胜盟堂口管事",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "何凌",
+   "target": "何凌",
+   "role": "李好的同事",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "白芷秋",
+   "target": "",
+   "role": "白念秋的姐姐",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "苏志国",
+   "target": "",
+   "role": "白念秋的姐夫",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "李武冠",
+   "target": "",
+   "role": "地铁枪手",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "独眼保安",
+   "target": "",
+   "role": "地铁站值班员",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "黑骑士",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "双重",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "收尸人",
+   "target": "",
+   "role": "身份不明",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "红皇后",
+   "target": "",
+   "role": "兔子洞作者",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "朱恒",
+   "target": "",
+   "role": "沈漫的闺蜜",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "阿三",
+   "target": "",
+   "role": "义胜盟小弟",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "阿七",
+   "target": "",
+   "role": "义胜盟小弟",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "义胜盟业务员",
+   "target": "",
+   "role": "义胜盟业务员",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "老周",
+   "target": "",
+   "role": "白茅岗司机",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "黑拳坊派单人",
+   "target": "",
+   "role": "坠楼死者",
+   "rank": 0
+  },
+  {
+   "owner": "凯芙拉·威尔森",
+   "ownerType": "character",
+   "name": "小吃街的研究者",
+   "target": "",
+   "role": "神经科学研究者",
+   "rank": 0
+  },
+  {
    "owner": "白念秋",
    "ownerType": "npc",
    "name": "李好",
@@ -2029,7 +2637,7 @@
    "rank": 0
   },
   {
-   "owner": "棍木女",
+   "owner": "闻笙",
    "ownerType": "npc",
    "name": "李好",
    "target": "李好",
@@ -2152,7 +2760,7 @@
    "owner": "黑崎欲子",
    "ownerType": "character",
    "name": "闻笙",
-   "target": "",
+   "target": "闻笙",
    "role": "青梢队首领",
    "rank": 0
   },
@@ -2200,7 +2808,7 @@
    "owner": "黑崎欲子",
    "ownerType": "character",
    "name": "闵三元",
-   "target": "",
+   "target": "闵三元",
    "role": "义胜盟盟主",
    "rank": 0
   },
@@ -2210,6 +2818,174 @@
    "name": "鹿岛",
    "target": "鹿岛绫",
    "role": "霜月会",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "李铁牙",
+   "target": "铁手（李铁牙）",
+   "role": "义胜盟堂口管事",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "杨振邦",
+   "target": "杨振邦",
+   "role": "拳场场务",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "夏满弓",
+   "target": "夏满弓",
+   "role": "高架上的第三方",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "何凌",
+   "target": "何凌",
+   "role": "李好的同事",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "尼索科托夫",
+   "target": "白桦树",
+   "role": "黑市商人",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "白芷秋",
+   "target": "",
+   "role": "白念秋的姐姐",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "苏志国",
+   "target": "",
+   "role": "白念秋的姐夫",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "李武冠",
+   "target": "",
+   "role": "地铁枪手",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "独眼保安",
+   "target": "",
+   "role": "地铁站值班员",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "死灵术士",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "黑骑士",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "双重",
+   "target": "",
+   "role": "数据生物",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "收尸人",
+   "target": "",
+   "role": "身份不明",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "红皇后",
+   "target": "",
+   "role": "兔子洞作者",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "朱恒",
+   "target": "",
+   "role": "沈漫的闺蜜",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "阿三",
+   "target": "",
+   "role": "义胜盟小弟",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "阿七",
+   "target": "",
+   "role": "义胜盟小弟",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "义胜盟业务员",
+   "target": "",
+   "role": "义胜盟业务员",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "老周",
+   "target": "",
+   "role": "白茅岗司机",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "闪电 SUV 驾驶者",
+   "target": "",
+   "role": "身份不明",
+   "rank": 0
+  },
+  {
+   "owner": "黑崎欲子",
+   "ownerType": "character",
+   "name": "罗凯",
+   "target": "",
+   "role": "玄盾国际狙击手",
    "rank": 0
   }
  ]

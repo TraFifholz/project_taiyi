@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-06c",
+ "note": "闻笙就是 S7 的棍木女：欲子、唐索、凯芙拉的闻笙条目关联 Actor；李好的两条在 merge_wensheng_20261106.mjs 里合并。",
+ "updates": [
+  {
+   "pc": "黑崎欲子",
+   "name": "闻笙",
+   "actor": "闻笙"
+  },
+  {
+   "pc": "唐索",
+   "name": "闻笙",
+   "actor": "闻笙"
+  },
+  {
+   "pc": "凯芙拉·威尔森",
+   "name": "闻笙",
+   "actor": "闻笙"
+  }
+ ],
+ "additions": [],
+ "deceasedActors": []
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261106-pc-tangsuo-v1",
+  "characterId": "LS-PC-tangsuo",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "83f108",
+  "apiSeed": 4048005367,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "beb1bc0fe44abcb8e43cf1e2dac6eb542b0cae979dce111abd0495a4a1d961b0",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-11-05T18:23:28.106Z"
+}

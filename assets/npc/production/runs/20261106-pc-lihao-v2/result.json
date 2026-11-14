@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261106-pc-lihao-v2",
+  "characterId": "LS-PC-lihao",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "0272e6",
+  "apiSeed": 3475155787,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "54e53c19eea1711ab15b5430a80e1b5ec440a9679e102c7443b906950d80cd17",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-11-06T02:40:07.451Z"
+}

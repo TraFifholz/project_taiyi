@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261106-pc-leiwulong-v1",
+  "characterId": "LS-PC-leiwulong",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "68f5cc",
+  "apiSeed": 3121675657,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "4e44e6727b4b823dd5d870d2b3689379ba4ff75e0233cf7a45a982b142e8e418",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-11-05T18:23:47.325Z"
+}

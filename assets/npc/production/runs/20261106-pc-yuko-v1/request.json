@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "schemaVersion": 1,
+  "runId": "20261106-pc-yuko-v1",
+  "characterId": "LS-PC-yuko",
+  "characterName": "黑崎欲子",
+  "promptVersion": 1,
+  "designStatus": "pc-redraw-20261106; tags not MCP-verified",
+  "designAssumptions": [
+   "旧头像：银灰层次中长发、发尾淡粉、圆框眼镜、灰眼、黑衬衫黄领带、卡其工装背带裤"
+  ],
+  "humanInitiated": true,
+  "humanInitiatedAt": "2026-11-05T18:22:41.886729+00:00",
+  "apiSpec": "https://image.novelai.net/docs/doc.json",
+  "templateUse": "metadata-import-only",
+  "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+  "promptFile": null,
+  "credentialPolicy": "runtime-only; never logged"
+ },
+ "payload": {
+  "action": "generate",
+  "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+  "model": "nai-diffusion-5-curated",
+  "parameters": {
+   "params_version": 4,
+   "width": 832,
+   "height": 1216,
+   "n_samples": 1,
+   "steps": 23,
+   "scale": 7,
+   "sampler": "k_euler_ancestral",
+   "noise_schedule": "karras",
+   "qualityToggle": false,
+   "ucPreset": 2,
+   "cfg_rescale": 0,
+   "dynamic_thresholding": false,
+   "prefer_brownian": true,
+   "deliberate_euler_ancestral_bug": false,
+   "legacy_v3_extend": false,
+   "straight_alpha": true,
+   "tag_hint_transparent_background": true,
+   "image_format": "png",
+   "seed": 3525975639,
+   "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, weapon, gun, blood, muscular male, full body, text focus, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, energy ball, sunglasses, crown, hat, smile, open mouth",
+   "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+   "v4_prompt": {
+    "caption": {
+     "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+     "char_captions": [
+      {
+       "char_caption": "1girl, solo, solo focus, adult, medium hair, layered hair, grey hair, gradient hair, pink hair tips, sidelocks, grey eyes, round eyewear, black-framed eyewear, glasses, expressionless, half-closed eyes, looking at viewer, black shirt, collared shirt, sleeves rolled up, yellow necktie, brown overalls, overall skirt pocket, work clothes, hand in pocket, standing, transparent background. A calm, dry-humoured street driver with shoulder-length ash-silver hair fading to faint pink, large round wire glasses, a black work shirt with rolled sleeves, a mustard tie and worn khaki bib overalls.",
+       "centers": [
+        {
+         "x": 0.5,
+         "y": 0.5
+        }
+       ]
+      }
+     ]
+    },
+    "use_coords": false,
+    "use_order": true,
+    "legacy_uc": false
+   },
+   "v4_negative_prompt": {
+    "caption": {
+     "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, weapon, gun, blood, muscular male, full body, text focus, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, energy ball, sunglasses, crown, hat, smile, open mouth",
+     "char_captions": [
+      {
+       "char_caption": "",
+       "centers": [
+        {
+         "x": 0.5,
+         "y": 0.5
+        }
+       ]
+      }
+     ]
+    },
+    "use_coords": false,
+    "use_order": false,
+    "legacy_uc": false
+   }
+  }
+ }
+}

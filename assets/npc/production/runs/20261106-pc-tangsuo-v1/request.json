@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "schemaVersion": 1,
+  "runId": "20261106-pc-tangsuo-v1",
+  "characterId": "LS-PC-tangsuo",
+  "characterName": "唐索",
+  "promptVersion": 1,
+  "designStatus": "pc-redraw-20261106; tags not MCP-verified",
+  "designAssumptions": [
+   "旧头像：黑色短乱发、琥珀眼、黑灰机能兜帽外套、红色系带、右侧金属爪手套"
+  ],
+  "humanInitiated": true,
+  "humanInitiatedAt": "2026-11-05T18:22:41.886729+00:00",
+  "apiSpec": "https://image.novelai.net/docs/doc.json",
+  "templateUse": "metadata-import-only",
+  "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+  "promptFile": null,
+  "credentialPolicy": "runtime-only; never logged"
+ },
+ "payload": {
+  "action": "generate",
+  "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+  "model": "nai-diffusion-5-curated",
+  "parameters": {
+   "params_version": 4,
+   "width": 832,
+   "height": 1216,
+   "n_samples": 1,
+   "steps": 23,
+   "scale": 7,
+   "sampler": "k_euler_ancestral",
+   "noise_schedule": "karras",
+   "qualityToggle": false,
+   "ucPreset": 2,
+   "cfg_rescale": 0,
+   "dynamic_thresholding": false,
+   "prefer_brownian": true,
+   "deliberate_euler_ancestral_bug": false,
+   "legacy_v3_extend": false,
+   "straight_alpha": true,
+   "tag_hint_transparent_background": true,
+   "image_format": "png",
+   "seed": 4048005367,
+   "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, weapon, gun, blood, muscular male, full body, text focus, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, energy ball, sunglasses, crown, long hair, smile",
+   "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+   "v4_prompt": {
+    "caption": {
+     "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+     "char_captions": [
+      {
+       "char_caption": "1girl, solo, solo focus, short hair, black hair, messy hair, hair between eyes, amber eyes, yellow eyes, serious, looking at viewer, techwear, black jacket, hooded jacket, open jacket, grey hoodie, grey shirt, harness, straps, red cord, red tassel, black pants, black gloves, mechanical hand, metal claws, one hand raised to neck, standing, transparent background. A compact young street brawler with a short messy black bob and amber eyes, in an oversized black and grey techwear hooded jacket with harness straps and a hanging red cord tassel, one hand in a steel clawed gauntlet.",
+       "centers": [
+        {
+         "x": 0.5,
+         "y": 0.5
+        }
+       ]
+      }
+     ]
+    },
+    "use_coords": false,
+    "use_order": true,
+    "legacy_uc": false
+   },
+   "v4_negative_prompt": {
+    "caption": {
+     "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, weapon, gun, blood, muscular male, full body, text focus, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, energy ball, sunglasses, crown, long hair, smile",
+     "char_captions": [
+      {
+       "char_caption": "",
+       "centers": [
+        {
+         "x": 0.5,
+         "y": 0.5
+        }
+       ]
+      }
+     ]
+    },
+    "use_coords": false,
+    "use_order": false,
+    "legacy_uc": false
+   }
+  }
+ }
+}

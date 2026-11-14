@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "schemaVersion": 1,
+  "runId": "20261106-pc-leiwulong-v1",
+  "characterId": "LS-PC-leiwulong",
+  "characterName": "雷武龙",
+  "promptVersion": 1,
+  "designStatus": "pc-redraw-20261106; tags not MCP-verified",
+  "designAssumptions": [
+   "旧头像：黑发低马尾红绳、红棕眼、青绿立领盘扣练功服、橙色腰带、红裤"
+  ],
+  "humanInitiated": true,
+  "humanInitiatedAt": "2026-11-05T18:22:41.891192+00:00",
+  "apiSpec": "https://image.novelai.net/docs/doc.json",
+  "templateUse": "metadata-import-only",
+  "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+  "promptFile": null,
+  "credentialPolicy": "runtime-only; never logged"
+ },
+ "payload": {
+  "action": "generate",
+  "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+  "model": "nai-diffusion-5-curated",
+  "parameters": {
+   "params_version": 4,
+   "width": 832,
+   "height": 1216,
+   "n_samples": 1,
+   "steps": 23,
+   "scale": 7,
+   "sampler": "k_euler_ancestral",
+   "noise_schedule": "karras",
+   "qualityToggle": false,
+   "ucPreset": 2,
+   "cfg_rescale": 0,
+   "dynamic_thresholding": false,
+   "prefer_brownian": true,
+   "deliberate_euler_ancestral_bug": false,
+   "legacy_v3_extend": false,
+   "straight_alpha": true,
+   "tag_hint_transparent_background": true,
+   "image_format": "png",
+   "seed": 3121675657,
+   "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, weapon, gun, blood, muscular male, full body, text focus, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, energy ball, sunglasses, crown, hat, muscular, topless",
+   "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+   "v4_prompt": {
+    "caption": {
+     "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+     "char_captions": [
+      {
+       "char_caption": "1boy, solo, male focus, solo focus, young man, lean, black hair, long hair, low ponytail, red hair tie, long bangs, sidelocks, red eyes, slight smile, looking at viewer, green jacket, chinese clothes, tangzhuang, mandarin collar, frog button, patterned sleeves, white trim, orange sash, red pants, fist in palm, standing, transparent background. A lean university martial artist with a black low ponytail tied by a red cord and reddish-brown eyes, in a dark teal-green Chinese martial jacket with red frog fasteners and white cuffs, an orange sash and red trousers, proud and a little dreamy.",
+       "centers": [
+        {
+         "x": 0.5,
+         "y": 0.5
+        }
+       ]
+      }
+     ]
+    },
+    "use_coords": false,
+    "use_order": true,
+    "legacy_uc": false
+   },
+   "v4_negative_prompt": {
+    "caption": {
+     "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, weapon, gun, blood, muscular male, full body, text focus, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, energy ball, sunglasses, crown, hat, muscular, topless",
+     "char_captions": [
+      {
+       "char_caption": "",
+       "centers": [
+        {
+         "x": 0.5,
+         "y": 0.5
+        }
+       ]
+      }
+     ]
+    },
+    "use_coords": false,
+    "use_order": false,
+    "legacy_uc": false
+   }
+  }
+ }
+}

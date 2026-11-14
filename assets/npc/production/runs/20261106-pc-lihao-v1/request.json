@@ -1,0 +1,87 @@
+{
+ "meta": {
+  "schemaVersion": 1,
+  "runId": "20261106-pc-lihao-v1",
+  "characterId": "LS-PC-lihao",
+  "characterName": "李好",
+  "promptVersion": 1,
+  "designStatus": "pc-redraw-20261106; tags not MCP-verified",
+  "designAssumptions": [
+   "用户 2026-11-06 指定：普通银行职员服，墨镜换眼镜",
+   "保留旧头像的敦实圆脸与绿色挂绳工牌，去掉财神 cos 服"
+  ],
+  "humanInitiated": true,
+  "humanInitiatedAt": "2026-11-05T18:22:41.886729+00:00",
+  "apiSpec": "https://image.novelai.net/docs/doc.json",
+  "templateUse": "metadata-import-only",
+  "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+  "promptFile": null,
+  "credentialPolicy": "runtime-only; never logged"
+ },
+ "payload": {
+  "action": "generate",
+  "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+  "model": "nai-diffusion-5-curated",
+  "parameters": {
+   "params_version": 4,
+   "width": 832,
+   "height": 1216,
+   "n_samples": 1,
+   "steps": 23,
+   "scale": 7,
+   "sampler": "k_euler_ancestral",
+   "noise_schedule": "karras",
+   "qualityToggle": false,
+   "ucPreset": 2,
+   "cfg_rescale": 0,
+   "dynamic_thresholding": false,
+   "prefer_brownian": true,
+   "deliberate_euler_ancestral_bug": false,
+   "legacy_v3_extend": false,
+   "straight_alpha": true,
+   "tag_hint_transparent_background": true,
+   "image_format": "png",
+   "seed": 3254713287,
+   "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, weapon, gun, blood, muscular male, full body, text focus, emblem, insignia, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, energy ball, sunglasses, crown, hat, red clothes, gold, chinese clothes, jacket, muscular",
+   "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+   "v4_prompt": {
+    "caption": {
+     "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+     "char_captions": [
+      {
+       "char_caption": "1boy, solo, male focus, solo focus, adult, chubby, plump, round face, black hair, short hair, side part, black eyes, glasses, black-framed eyewear, rectangular eyewear, gentle smile, looking at viewer, white shirt, collared shirt, long sleeves, navy necktie, black pants, belt, lanyard, green lanyard, id card, holding folder, standing, transparent background. A stocky round-faced Chinese bank clerk in his late twenties in a plain office uniform: white dress shirt, dark tie, black trousers, black-framed glasses, a green lanyard with a blank white staff badge, ordinary and slightly tired but kind.",
+       "centers": [
+        {
+         "x": 0.5,
+         "y": 0.5
+        }
+       ]
+      }
+     ]
+    },
+    "use_coords": false,
+    "use_order": true,
+    "legacy_uc": false
+   },
+   "v4_negative_prompt": {
+    "caption": {
+     "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, weapon, gun, blood, muscular male, full body, text focus, emblem, insignia, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, energy ball, sunglasses, crown, hat, red clothes, gold, chinese clothes, jacket, muscular",
+     "char_captions": [
+      {
+       "char_caption": "",
+       "centers": [
+        {
+         "x": 0.5,
+         "y": 0.5
+        }
+       ]
+      }
+     ]
+    },
+    "use_coords": false,
+    "use_order": false,
+    "legacy_uc": false
+   }
+  }
+ }
+}

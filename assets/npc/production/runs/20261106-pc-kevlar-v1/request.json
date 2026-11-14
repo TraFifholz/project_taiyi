@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "schemaVersion": 1,
+  "runId": "20261106-pc-kevlar-v1",
+  "characterId": "LS-PC-kevlar",
+  "characterName": "凯芙拉·威尔森",
+  "promptVersion": 1,
+  "designStatus": "pc-redraw-20261106; tags not MCP-verified",
+  "designAssumptions": [
+   "旧头像：水青色大波浪高马尾、黑色机械发带、琥珀眼、白色和风罩衫配青黑机能装备、工具腰带"
+  ],
+  "humanInitiated": true,
+  "humanInitiatedAt": "2026-11-05T18:22:41.891192+00:00",
+  "apiSpec": "https://image.novelai.net/docs/doc.json",
+  "templateUse": "metadata-import-only",
+  "templateSha256": "b9e7060cb53ec6a372239fc17682c62ffbfbabaff7f4f623247baabe7fb24fc0",
+  "promptFile": null,
+  "credentialPolicy": "runtime-only; never logged"
+ },
+ "payload": {
+  "action": "generate",
+  "input": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+  "model": "nai-diffusion-5-curated",
+  "parameters": {
+   "params_version": 4,
+   "width": 832,
+   "height": 1216,
+   "n_samples": 1,
+   "steps": 23,
+   "scale": 7,
+   "sampler": "k_euler_ancestral",
+   "noise_schedule": "karras",
+   "qualityToggle": false,
+   "ucPreset": 2,
+   "cfg_rescale": 0,
+   "dynamic_thresholding": false,
+   "prefer_brownian": true,
+   "deliberate_euler_ancestral_bug": false,
+   "legacy_v3_extend": false,
+   "straight_alpha": true,
+   "tag_hint_transparent_background": true,
+   "image_format": "png",
+   "seed": 3939597131,
+   "negative_prompt": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, weapon, gun, blood, muscular male, full body, text focus, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, energy ball, sunglasses, crown, hat",
+   "prompt": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+   "v4_prompt": {
+    "caption": {
+     "base_caption": "0.9::artist:miv4t::, 0.6::artist:mochizuki_kei::, artist:ashima (roro046), artist:akinashi yuu, 0.6::artist:akakura::, 0.5::artist:lm7 (op-center)::, tachi-e, simple background, cowboy shot, 0.3::techwear::, best quality, very aesthetic, absurdres",
+     "char_captions": [
+      {
+       "char_caption": "1girl, solo, solo focus, long hair, wavy hair, aqua hair, high ponytail, ahoge, black hairband, mechanical hair ornament, amber eyes, orange eyes, light smile, looking at viewer, white kimono, open coat, teal trim, black harness, techwear, black gloves, fingerless gloves, tool belt, wrench, holding smartphone, standing, transparent background. A cheerful engineering student with voluminous wavy aqua hair in a high ponytail held by a black mechanical hairband and amber eyes, wearing a white kimono-style overcoat with teal and black technical harness, and a tool belt full of wrenches.",
+       "centers": [
+        {
+         "x": 0.5,
+         "y": 0.5
+        }
+       ]
+      }
+     ]
+    },
+    "use_coords": false,
+    "use_order": true,
+    "legacy_uc": false
+   },
+   "v4_negative_prompt": {
+    "caption": {
+     "base_caption": "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, watermark, signature, character name, english text, chinese text, negative space, blank page, backlighting, overlighting, weapon, gun, blood, muscular male, full body, text focus, emblem, insignia, badge, name tag, id card, barcode, qr code, hologram, heads-up display, magic, glowing, aura, light particles, energy ball, sunglasses, crown, hat",
+     "char_captions": [
+      {
+       "char_caption": "",
+       "centers": [
+        {
+         "x": 0.5,
+         "y": 0.5
+        }
+       ]
+      }
+     ]
+    },
+    "use_coords": false,
+    "use_order": false,
+    "legacy_uc": false
+   }
+  }
+ }
+}

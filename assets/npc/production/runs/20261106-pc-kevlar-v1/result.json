@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261106-pc-kevlar-v1",
+  "characterId": "LS-PC-kevlar",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "6b6b69",
+  "apiSeed": 3939597131,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "16abd29231883283fc0dfa52b59aa68e429445f057c092cab2e2d5739a8d63c5",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-11-05T18:24:02.975Z"
+}

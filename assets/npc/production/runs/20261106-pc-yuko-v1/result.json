@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261106-pc-yuko-v1",
+  "characterId": "LS-PC-yuko",
+  "model": "nai-diffusion-5-curated",
+  "statusCode": 200,
+  "correlationId": "453fbd",
+  "apiSeed": 3525975639,
+  "imageIndex": 0,
+  "output": "raw.png",
+  "sha256": "b072ae0a3b525e1b4464ac2fde45e5e4c35a404f36dbe2beb5218ad2efa1b954",
+  "width": 832,
+  "height": 1216,
+  "colorType": 6,
+  "hasAlphaChannel": true,
+  "generatedAt": "2026-11-05T18:23:13.598Z"
+}
